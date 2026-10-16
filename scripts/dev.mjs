@@ -1,0 +1,4 @@
+import http from 'node:http';import worker from '../dist/server/index.js';
+class MemoryCache{map=new Map();async match(r){const item=this.map.get(r.url);return item&&item.until>Date.now()?item.response.clone():undefined;}async put(r,response){const ttl=Number(response.headers.get('cache-control')?.match(/max-age=(\d+)/)?.[1]||1800);this.map.set(r.url,{response:response.clone(),until:Date.now()+ttl*1000});}}
+globalThis.caches={default:new MemoryCache()};
+http.createServer(async(req,res)=>{try{const response=await worker.fetch(new Request('http://localhost:8000'+req.url,{method:req.method}),{}, {waitUntil:p=>p.catch(()=>{})});res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));}catch(e){res.writeHead(500);res.end('Local preview error');console.error(e.message);}}).listen(8000,'0.0.0.0',()=>console.log('Local: http://localhost:8000'));

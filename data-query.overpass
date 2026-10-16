@@ -1,0 +1,1 @@
+[out:json][timeout:35];(nwr(around:3500,30.2747,-97.7523)[amenity~"^(restaurant|fast_food|cafe|fuel|pharmacy)$"][name];nwr(around:3500,30.2747,-97.7523)[shop~"^(supermarket|convenience|greengrocer|bakery|books|hardware|department_store|variety_store|general)$"][name];);out center tags;
