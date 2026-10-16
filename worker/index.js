@@ -44,7 +44,7 @@ export function createWorker(assets={},dependencies={}){
   const path=url.pathname==='/'?'/index.html':url.pathname,body=assets[path];
   if(typeof body!=='string')return new Response('Not found',{status:404});
   const extension=path.slice(path.lastIndexOf('.'));
-  return new Response(request.method==='HEAD'?null:body,{headers:{'content-type':MIME[extension]||'text/plain; charset=utf-8','cache-control':extension==='.html'||extension==='.js'||path==='/brands.json'||path==='/brands.csv'?'no-cache':'public, max-age=3600','x-content-type-options':'nosniff','referrer-policy':'strict-origin-when-cross-origin'}});
+  return new Response(request.method==='HEAD'?null:body,{headers:{'content-type':MIME[extension]||'text/plain; charset=utf-8','cache-control':extension==='.html'||extension==='.js'||['/brands.json','/brands.csv','/pe-firms.json','/pe-holdings.csv'].includes(path)?'no-cache':'public, max-age=3600','x-content-type-options':'nosniff','referrer-policy':'strict-origin-when-cross-origin'}});
  }};
 }
 export default createWorker(typeof ASSETS==='undefined'?{}:ASSETS);

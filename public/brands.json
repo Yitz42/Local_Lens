@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-15",
+  "checked": "2026-10-16",
   "coverage": "US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.",
   "brands": [
     {
@@ -14,7 +14,44 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "24 Hour Fitness",
+      "aliases": [
+        "24-Hour Fitness"
+      ],
+      "type": "pe",
+      "parent": "24 Hour Fitness · LongRange Capital and Mark Mastrov",
+      "source": "https://www.24hourfitness.com/content/dam/24-hour-fitness/company/newsroom/2026/24hf_transaction.pdf",
+      "sourceTitle": "24 Hour Fitness — January 2026 ownership announcement",
+      "note": "The January 2026 company announcement identifies founder Mark Mastrov as Owner and Executive Chair and describes LongRange Capital’s investment backing. LongRange is explicitly a private equity firm. Older Monarch, Sculptor and Cyrus ownership should not be carried forward.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "LongRange Capital"
+      ]
+    },
+    {
+      "brand": "7 Brew",
+      "aliases": [
+        "7 Brew",
+        "7 Brew Coffee",
+        "7 Brew Drive-Thru Coffee"
+      ],
+      "type": "pe",
+      "parent": "Brew Culture LLC · Blackstone minority investment",
+      "source": "https://7brew.com/about",
+      "sourceTitle": "7 Brew — current company ownership information",
+      "note": "7 Brew’s own current company page identifies parent Brew Culture LLC and Blackstone’s minority stake. This label covers PE backing, not controlling or sole ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
+      "sponsors": [
+        "Blackstone"
+      ]
     },
     {
       "brand": "7-Eleven",
@@ -30,6 +67,21 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "AAMCO",
+      "aliases": [
+        "AAMCO Transmissions",
+        "AAMCO Transmissions & Total Car Care",
+        "AAMCO Transmissions and Total Car Care"
+      ],
+      "type": "corporate",
+      "parent": "Icahn Automotive Group · Icahn Enterprises L.P.",
+      "source": "https://www.icahnautomotive.com/",
+      "sourceTitle": "Icahn Automotive — company and service brands",
+      "note": "Icahn Automotive identifies AAMCO among its automotive service brands and identifies Icahn Enterprises as its parent. This is corporate chain affiliation; an individual franchised repair center can have a different local owner.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
       "brand": "ABRA",
       "aliases": [
         "ABRA Auto Body",
@@ -40,7 +92,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "ACME",
@@ -76,6 +131,36 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "AJ’s Fine Foods",
+      "aliases": [
+        "AJ's Fine Foods"
+      ],
+      "type": "corporate",
+      "parent": "The Raley’s Companies",
+      "source": "https://theraleyscompanies.com/our-story/",
+      "sourceTitle": "The Raley’s Companies — current family of store banners",
+      "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+      "matchCategories": [
+        "grocery"
+      ]
+    },
+    {
+      "brand": "Alamo Rent A Car",
+      "aliases": [
+        "Alamo Rent-A-Car",
+        "Alamo Car Rental"
+      ],
+      "type": "corporate",
+      "parent": "Enterprise Holdings, Inc. · Enterprise Mobility",
+      "source": "https://www.enterprisemobility.com/en/legal/legal-disclaimer.html",
+      "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
+      "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
       "brand": "Albertsons",
       "aliases": [],
       "type": "corporate",
@@ -94,6 +179,37 @@
       "sourceTitle": "ALDI US — about us",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Amada Vino + Tapas",
+      "aliases": [
+        "Amada Vino + Tapas",
+        "Amada Vino and Tapas"
+      ],
+      "type": "pe",
+      "parent": "SPB Hospitality · Fortress Investment Group",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
+    },
+    {
+      "brand": "America’s Best Contacts & Eyeglasses",
+      "aliases": [
+        "America's Best Contacts and Eyeglasses",
+        "America's Best Contacts & Eyeglasses"
+      ],
+      "type": "corporate",
+      "parent": "National Vision Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1710155/000162828026014379/eye-20260103.htm",
+      "sourceTitle": "National Vision — FY2025 Form 10-K filed March 2026",
+      "note": "National Vision lists America’s Best as an owned optical retail brand. Its March 2026 report explicitly states that KKR and Berkshire Partners had sold all their remaining common shares by August 2019. The historical private equity category is not evidence of continuing sponsor ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
     },
     {
       "brand": "American Eagle",
@@ -137,7 +253,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Anytime Fitness",
@@ -147,7 +266,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Arby's",
@@ -157,7 +279,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "ARCO",
@@ -177,7 +302,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "LGP lists The Aspen Group as a current investment and identifies this supported healthcare brand. The classification concerns the support platform, not ownership of individual clinicians’ professional practices.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Athleta",
@@ -190,6 +318,22 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "ATI Restoration",
+      "aliases": [
+        "ATI Restoration"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Auntie Anne's",
       "aliases": [
         "Auntie Anne's Pretzels"
@@ -199,7 +343,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "AutoZone",
@@ -249,6 +396,36 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Barnes & Noble",
+      "aliases": [
+        "Barnes and Noble",
+        "Barnes & Noble Booksellers"
+      ],
+      "type": "pe",
+      "parent": "Barnes & Noble, Inc. · Elliott-advised funds",
+      "source": "https://www.barnesandnoble.com/terms/about-barnesandnoble",
+      "sourceTitle": "Barnes & Noble — official company information",
+      "note": "Barnes & Noble describes its acquisition and take-private by Elliott Advisors (UK) Limited. Its current corporate About page also identifies Elliott ownership. Barnes & Noble Education and Barnes & Noble College are separate companies and are not included in this match.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Elliott Advisors"
+      ]
+    },
+    {
+      "brand": "Bashas’",
+      "aliases": [
+        "Bashas'"
+      ],
+      "type": "corporate",
+      "parent": "The Raley’s Companies",
+      "source": "https://theraleyscompanies.com/our-story/",
+      "sourceTitle": "The Raley’s Companies — current family of store banners",
+      "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets"
+    },
+    {
       "brand": "Baskin-Robbins",
       "aliases": [
         "Baskin Robbins"
@@ -258,7 +435,60 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Batteries Plus",
+      "aliases": [
+        "Batteries Plus Bulbs"
+      ],
+      "type": "pe",
+      "parent": "Batteries Plus · Freeman Spogli & Co.",
+      "source": "https://www.freemanspogli.com/portfolio/batteries-plus/",
+      "sourceTitle": "Freeman Spogli — Batteries Plus investment",
+      "note": "The sponsor identifies its Batteries Plus investment; its January 2026 current portfolio overview separately corroborates the battery and light-bulb franchisor as current. Roark is a former owner. A franchise location may have a separate local operator.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Freeman Spogli & Co."
+      ]
+    },
+    {
+      "brand": "Beef ‘O’ Brady’s",
+      "aliases": [
+        "Beef O Brady's",
+        "Beef 'O' Brady's",
+        "Beef O'Brady's"
+      ],
+      "type": "pe",
+      "parent": "FSC Franchise Co. · CapitalSpring",
+      "source": "https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html",
+      "sourceTitle": "FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025",
+      "note": "FSC Franchise Co. identifies this as one of its three restaurant brands and describes the group's growth under CapitalSpring. This identifies the brand's investment backing; individual restaurants may be independently operated franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "CapitalSpring"
+      ]
+    },
+    {
+      "brand": "Bel Air Markets",
+      "aliases": [
+        "Bel Air"
+      ],
+      "type": "corporate",
+      "parent": "The Raley’s Companies",
+      "source": "https://theraleyscompanies.com/our-story/",
+      "sourceTitle": "The Raley’s Companies — current family of store banners",
+      "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+      "matchCategories": [
+        "grocery"
+      ]
     },
     {
       "brand": "Best Buy",
@@ -271,6 +501,121 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "BIGGBY Coffee",
+      "aliases": [
+        "Biggby"
+      ],
+      "type": "corporate",
+      "parent": "BIGGBY COFFEE / Global Orange Development, LLC",
+      "source": "https://biggby.com/about/",
+      "sourceTitle": "BIGGBY — franchise network and company story",
+      "note": "BIGGBY describes a large coffee franchise network. Local Lens includes large-chain brand affiliation in the corporate category; its independently owned franchise locations are a separate ownership layer.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee"
+    },
+    {
+      "brand": "Birkenstock",
+      "aliases": [
+        "Birkenstock"
+      ],
+      "type": "pe",
+      "parent": "Birkenstock Holding plc · L Catterton investment",
+      "source": "https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm",
+      "sourceTitle": "Birkenstock — August 2026 SEC prospectus supplement",
+      "note": "The August 2026 filing identifies a continuing substantial minority stake held through an L Catterton-controlled entity after the offering. Birkenstock is publicly traded.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "L Catterton"
+      ]
+    },
+    {
+      "brand": "BJ’s Wholesale Club",
+      "aliases": [
+        "BJ's Wholesale Club",
+        "BJs Wholesale Club"
+      ],
+      "type": "corporate",
+      "parent": "BJ’s Wholesale Club Holdings, Inc.",
+      "source": "https://newsroom.bjs.com/about-us/",
+      "sourceTitle": "BJ’s — corporate company overview",
+      "note": "BJ’s identifies itself as a publicly traded warehouse club retailer, including grocery and gas operations. This is separate from BJ’s restaurant brands.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/BJ%27s_Wholesale_Club"
+    },
+    {
+      "brand": "Bloomingdale’s",
+      "aliases": [
+        "Bloomingdale's",
+        "Bloomingdales"
+      ],
+      "type": "corporate",
+      "parent": "Macy’s, Inc.",
+      "source": "https://www.macysinc.com/company/about/default.aspx",
+      "sourceTitle": "Macy’s — company and current nameplates",
+      "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
+    },
+    {
+      "brand": "Blue Nile",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Signet Jewelers Limited",
+      "source": "https://www.signetjewelers.com/brands/",
+      "sourceTitle": "Signet Jewelers — current brand portfolio",
+      "note": "Signet’s current brand portfolio identifies Blue Nile as its brand. An August 2026 Signet leadership announcement also identifies Blue Nile in its portfolio. Bain Capital Private Equity and Bow Street ownership is historical.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
+      "brand": "Bluemercury",
+      "aliases": [
+        "Blue Mercury"
+      ],
+      "type": "corporate",
+      "parent": "Macy’s, Inc.",
+      "source": "https://www.macysinc.com/company/about/default.aspx",
+      "sourceTitle": "Macy’s — company and current nameplates",
+      "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
+    },
+    {
+      "brand": "Bob's Discount Furniture",
+      "aliases": [
+        "Bobs Discount Furniture"
+      ],
+      "type": "pe",
+      "parent": "Bain Capital investment",
+      "source": "https://baincapitalprivateequity.com/portfolio",
+      "sourceTitle": "Bain Capital Private Equity — current investments",
+      "note": "Bain’s current investment portfolio includes Bob’s Discount Furniture. This category identifies continuing private equity backing and does not imply the company has no public shareholders.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture",
+      "sponsors": [
+        "Bain Capital"
+      ]
+    },
+    {
+      "brand": "Bojangles",
+      "aliases": [
+        "Bojangles'",
+        "Bojangles Famous Chicken n Biscuits",
+        "Bojangles Famous Chicken and Biscuits"
+      ],
+      "type": "pe",
+      "parent": "Bojangles, Inc. · Durational Capital Management investment",
+      "source": "https://www.durational.com/",
+      "sourceTitle": "Durational Capital Management — current investments",
+      "note": "Durational’s current investment list explicitly labels Bojangles a current buyout investment and its partners describe continuing board roles. This establishes sponsor backing without asserting an exact ownership split or the local franchise operator.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Durational Capital Management"
+      ]
+    },
+    {
       "brand": "Boots",
       "aliases": [
         "Boots Pharmacy"
@@ -280,7 +625,10 @@
       "source": "https://www.sycamorepartners.com/news-article/sycamore-partners-completes-acquisition-of-walgreens-boots-alliance",
       "sourceTitle": "Sycamore — Walgreens Boots Alliance acquisition completed",
       "note": "The acquisition closed in August 2025; The Boots Group became a separate private company. Boots primarily operates outside the United States.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "bp",
@@ -293,6 +641,22 @@
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Breitling",
+      "aliases": [
+        "Breitling Boutique"
+      ],
+      "type": "pe",
+      "parent": "Partners Group investment",
+      "source": "https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=0846833f-aa2a-4c4c-b6a4-a09c865f01ea",
+      "sourceTitle": "Partners Group — Breitling ownership confirmed in June 2026 announcement",
+      "note": "Partners Group states it owns Breitling on behalf of its clients. This identifies the watch brand's investment backing; an independent authorized watch dealer carrying Breitling is not thereby classified as Breitling-owned.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Partners Group"
+      ]
     },
     {
       "brand": "Bubba’s 33",
@@ -314,7 +678,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Burger King",
@@ -327,6 +694,39 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Burlington",
+      "aliases": [
+        "Burlington Coat Factory",
+        "Burlington Stores"
+      ],
+      "type": "corporate",
+      "parent": "Burlington Stores, Inc.",
+      "source": "https://www.burlingtoninvestors.com/",
+      "sourceTitle": "Burlington — current corporate profile",
+      "note": "Burlington is a large publicly traded retail chain. Its historical private equity acquisition does not by itself establish current private equity ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Burlington_(department_store)",
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Cadogan Tate",
+      "aliases": [
+        "Cadogan Tate"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Caliber Collision",
       "aliases": [
         "Caliber Collision Centers"
@@ -336,7 +736,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Caltex",
@@ -349,6 +752,20 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Canada Goose",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Canada Goose Holdings Inc. · Bain Capital",
+      "source": "https://www.sec.gov/Archives/edgar/data/1690511/000169051126000012/R8.htm",
+      "sourceTitle": "Canada Goose — 2026 SEC principal-shareholder disclosure",
+      "note": "Bain-advised funds are disclosed among Canada Goose’s principal shareholders in its 2026 report. The brand is publicly traded and remains sponsor-backed.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Bain Capital"
+      ]
+    },
+    {
       "brand": "Carl's Jr.",
       "aliases": [
         "Carls Jr"
@@ -358,7 +775,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Carrs",
@@ -378,7 +798,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Carvel",
@@ -390,7 +813,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Central Market",
@@ -406,6 +832,17 @@
       ]
     },
     {
+      "brand": "Champs Sports",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc. · Foot Locker",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
+      "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
+    },
+    {
       "brand": "Chapter Aesthetic Studio",
       "aliases": [],
       "type": "pe",
@@ -413,7 +850,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "LGP lists The Aspen Group as a current investment and identifies this supported healthcare brand. The classification concerns the support platform, not ownership of individual clinicians’ professional practices.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Cheddar’s Scratch Kitchen",
@@ -455,7 +895,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Chili’s Grill & Bar",
@@ -483,6 +926,34 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Chowking",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Jollibee Foods Corporation",
+      "source": "https://www.jollibeegroup.com/our-brands/",
+      "sourceTitle": "Jollibee Group — our brands",
+      "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chowking"
+    },
+    {
+      "brand": "Church's Texas Chicken",
+      "aliases": [
+        "Churchs Texas Chicken",
+        "Churchs Chicken"
+      ],
+      "type": "pe",
+      "parent": "High Bluff Capital Partners investment",
+      "source": "https://www.highbluffcap.com/portfolio/",
+      "sourceTitle": "High Bluff Capital Partners — current portfolio",
+      "note": "High Bluff’s live portfolio identifies Church’s as its restaurant investment. The classification establishes brand-level PE backing and does not assert sole ownership or ownership of every franchise.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Church%27s_Texas_Chicken",
+      "sponsors": [
+        "High Bluff Capital Partners"
+      ]
+    },
+    {
       "brand": "Chuy’s",
       "aliases": [
         "Chuy's Tex-Mex"
@@ -502,7 +973,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Circle K",
@@ -525,7 +999,26 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "LGP lists The Aspen Group as a current investment and identifies this supported healthcare brand. The classification concerns the support platform, not ownership of individual clinicians’ professional practices.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
+      "brand": "CorePower Yoga",
+      "aliases": [
+        "Core Power Yoga"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
     },
     {
       "brand": "Costco",
@@ -541,6 +1034,23 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Crumbl",
+      "aliases": [
+        "Crumbl",
+        "Crumbl Cookies"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Crunch Fitness",
       "aliases": [
         "Crunch",
@@ -551,7 +1061,27 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
+      "brand": "Culligan",
+      "aliases": [
+        "Culligan Water",
+        "Culligan Water Conditioning"
+      ],
+      "type": "pe",
+      "parent": "Culligan International · BDT & MSD Partners",
+      "source": "https://www.culligan.com/facts-culligan-dealer-north-america",
+      "sourceTitle": "Culligan — official corporate facts, reviewed August 2026",
+      "note": "Culligan’s official facts page, reviewed August 6, 2026, states that parent Culligan International is majority owned by BDT & MSD Partners. Culligan operates a dealer network; this does not establish the equity owner of every local dealership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "BDT & MSD Partners"
+      ]
     },
     {
       "brand": "Culver's",
@@ -563,7 +1093,10 @@
       "source": "https://www.rwbaird.com/transactions/investment-banking/dealcard/5130/",
       "sourceTitle": "Baird — Culver’s receives minority investment from Roark",
       "note": "Culver’s sold a minority interest to Roark and remains listed in Roark’s current portfolio. This is PE backing, not a claim that Roark wholly owns the chain.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "CVS Pharmacy",
@@ -592,7 +1125,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "dd’s DISCOUNTS",
@@ -625,6 +1161,34 @@
       "sourceTitle": "Dollar General — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "DICK’S Sporting Goods",
+      "aliases": [
+        "Dick's Sporting Goods",
+        "Dicks Sporting Goods"
+      ],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc.",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — completed acquisition and retail banners",
+      "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods"
+    },
+    {
+      "brand": "Dillard’s",
+      "aliases": [
+        "Dillard's",
+        "Dillards"
+      ],
+      "type": "corporate",
+      "parent": "Dillard’s, Inc.",
+      "source": "https://investor.dillards.com/",
+      "sourceTitle": "Dillard’s — company overview and 2026 results",
+      "note": "Dillard’s operates a large national department store chain. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dillard%27s"
     },
     {
       "brand": "Dillons",
@@ -679,7 +1243,10 @@
       "source": "https://www.sycamorepartners.com/news-article/walgreens-boots-alliance-enters-into-definitive-agreement-to-be-acquired-by-sycamore-partners",
       "sourceTitle": "Sycamore — Walgreens Boots Alliance transaction and brand portfolio",
       "note": "Duane Reade is identified in the Walgreens brand portfolio. Sycamore subsequently confirmed the WBA acquisition closed on August 28, 2025.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Dunkin'",
@@ -692,7 +1259,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Eddie V’s",
@@ -722,6 +1292,47 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "El Super",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Chedraui USA · Grupo Comercial Chedraui",
+      "source": "https://chedrauiusa.com/",
+      "sourceTitle": "Chedraui USA — current grocery banners",
+      "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui"
+    },
+    {
+      "brand": "Enterprise Rent-A-Car",
+      "aliases": [
+        "Enterprise Rent A Car",
+        "Enterprise Car Rental"
+      ],
+      "type": "corporate",
+      "parent": "Enterprise Holdings, Inc. · Enterprise Mobility",
+      "source": "https://www.enterprisemobility.com/en/legal/legal-disclaimer.html",
+      "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
+      "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
+      "brand": "EoS Fitness",
+      "aliases": [
+        "EOS Fitness"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Epiphany Dermatology",
       "aliases": [],
       "type": "pe",
@@ -729,7 +1340,30 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
+      "brand": "Equinox",
+      "aliases": [
+        "Equinox Fitness",
+        "Equinox Fitness Club"
+      ],
+      "type": "pe",
+      "parent": "Equinox Group · Silver Lake portfolio investment",
+      "source": "https://www.silverlake.com/portfolio/equinox-group/",
+      "sourceTitle": "Silver Lake — Equinox Group current investment",
+      "note": "Silver Lake lists Equinox Group as a current investment. This identifies private equity investment backing and does not claim sole ownership by Silver Lake or identical operating ownership of every location.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Silver Lake"
+      ],
+      "matchCategories": [
+        "other"
+      ]
     },
     {
       "brand": "Esso",
@@ -754,6 +1388,55 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Family Dollar",
+      "aliases": [
+        "Family Dollar",
+        "Family Dollar Stores"
+      ],
+      "type": "pe",
+      "parent": "Brigade Capital Management · Macellum Capital Management",
+      "source": "https://corporate.dollartree.com/news-media/press-releases/detail/288/dollar-tree-completes-sale-of-family-dollar-business-to",
+      "sourceTitle": "Dollar Tree — completed sale of Family Dollar",
+      "note": "Dollar Tree confirms completion of the July 2025 sale to Brigade and Macellum. Family Dollar is no longer grouped under Dollar Tree.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Family_Dollar",
+      "sponsors": [
+        "Brigade Capital Management",
+        "Macellum Capital Management"
+      ]
+    },
+    {
+      "brand": "FASTSIGNS",
+      "aliases": [
+        "Fast Signs"
+      ],
+      "type": "pe",
+      "parent": "Propelled Brands · Freeman Spogli & Co. and LightBay Capital",
+      "source": "https://www.freemanspogli.com/portfolio/propelled-brands/",
+      "sourceTitle": "Freeman Spogli — Propelled Brands investment",
+      "note": "Freeman Spogli identifies Propelled Brands as the parent of FASTSIGNS. Its January 2026 current portfolio overview corroborates this investment; official LightBay and franchise-company materials identify LightBay Capital and Freeman Spogli as private equity owners. Local franchise ownership can differ.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Freeman Spogli & Co.",
+        "LightBay Capital"
+      ]
+    },
+    {
+      "brand": "Fiesta Mart",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Chedraui USA · Grupo Comercial Chedraui",
+      "source": "https://chedrauiusa.com/",
+      "sourceTitle": "Chedraui USA — current grocery banners",
+      "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
+      "matchCategories": [
+        "grocery"
+      ]
+    },
+    {
       "brand": "Firehouse Subs",
       "aliases": [],
       "type": "corporate",
@@ -764,6 +1447,17 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Firestone Complete Auto Care",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bridgestone Retail Operations · Bridgestone Americas",
+      "source": "https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/",
+      "sourceTitle": "Bridgestone — retail operations portfolio",
+      "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+    },
+    {
       "brand": "Fitness Connection",
       "aliases": [],
       "type": "pe",
@@ -771,7 +1465,21 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Five Below",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Five Below, Inc.",
+      "source": "https://investor.fivebelow.com/investors/default.aspx",
+      "sourceTitle": "Five Below — investor and company overview",
+      "note": "Five Below is a large retail chain identified on its current investor website.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Five_Below"
     },
     {
       "brand": "Flower Child",
@@ -784,6 +1492,23 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Fogo de Chão",
+      "aliases": [
+        "Fogo de Chao",
+        "Fogo de Chão Brazilian Steakhouse"
+      ],
+      "type": "pe",
+      "parent": "Bain Capital Private Equity",
+      "source": "https://baincapitalprivateequity.com/portfolio",
+      "sourceTitle": "Bain Capital Private Equity — current investments",
+      "note": "Bain’s current investments page includes Fogo de Chão. Its August 2026 Gong cha announcement also identifies Fogo among its restaurant investments.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fogo_de_Ch%C3%A3o",
+      "sponsors": [
+        "Bain Capital"
+      ]
+    },
+    {
       "brand": "Food Lion",
       "aliases": [],
       "type": "corporate",
@@ -794,6 +1519,17 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Foot Locker",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc. · Foot Locker",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
+      "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
+    },
+    {
       "brand": "Fred Meyer",
       "aliases": [],
       "type": "corporate",
@@ -802,6 +1538,23 @@
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Freddy’s Frozen Custard & Steakburgers",
+      "aliases": [
+        "Freddy's Frozen Custard and Steakburgers",
+        "Freddys Frozen Custard & Steakburgers"
+      ],
+      "type": "pe",
+      "parent": "Freddy’s · Rhône-affiliated investment funds",
+      "source": "https://www.rhonegroup.com/portfolio/",
+      "sourceTitle": "Rhône Group — active portfolio companies",
+      "note": "Rhône lists Freddy’s among its active portfolio companies. The September 4, 2025 company/seller announcement confirms the completed acquisition from Thompson Street Capital Partners. This identifies brand backing; individual franchisees can have separate local owners.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Rhône Group"
+      ]
     },
     {
       "brand": "Fry’s Food and Drug",
@@ -857,6 +1610,53 @@
       ]
     },
     {
+      "brand": "Golden Goose",
+      "aliases": [
+        "Golden Goose Deluxe Brand"
+      ],
+      "type": "pe",
+      "parent": "Golden Goose · HSG; Carlyle and Permira minority investments",
+      "source": "https://www.hsgcap.com/article/hsg-invests-in-golden-goose/",
+      "sourceTitle": "HSG — majority purchase and retained minority shareholders",
+      "note": "HSG acquired the majority stake; Carlyle and Permira retained minority investments. This is private equity backing, not sole ownership by Carlyle.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Carlyle"
+      ]
+    },
+    {
+      "brand": "Golf Galaxy",
+      "aliases": [
+        "Golf Galaxy Performance Center"
+      ],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc.",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — completed acquisition and retail banners",
+      "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods"
+    },
+    {
+      "brand": "Guitar Center",
+      "aliases": [
+        "Guitar Center Lessons"
+      ],
+      "type": "pe",
+      "parent": "Guitar Center Holdings · Ares / Carlyle / Brigade investor group",
+      "source": "https://static.guitarcenter.com/static/gc/2023/page-bcc/corporate-information/press-room/articles/gc-art-new-executives-10-31-23.pdf",
+      "sourceTitle": "Guitar Center — company statement identifying its equity investor group",
+      "note": "Guitar Center identifies funds managed by Ares Private Equity Group, The Carlyle Group and Brigade Capital Management as its equity investors. This identifies investment backing; it does not assert sole ownership by any one sponsor.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Ares Management",
+        "Carlyle",
+        "Brigade Capital Management"
+      ]
+    },
+    {
       "brand": "H-E-B",
       "aliases": [
         "HEB",
@@ -903,6 +1703,19 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Harbor Freight Tools",
+      "aliases": [
+        "Harbor Freight"
+      ],
+      "type": "corporate",
+      "parent": "Harbor Freight Tools",
+      "source": "https://www.harborfreight.com/about-us",
+      "sourceTitle": "Harbor Freight — about the company",
+      "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Harbor_Freight_Tools"
+    },
+    {
       "brand": "Hardee's",
       "aliases": [
         "Hardees"
@@ -912,7 +1725,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Harris Teeter",
@@ -933,6 +1749,17 @@
       "sourceTitle": "Panda Restaurant Group — brands and family ownership",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Hibdon Tires Plus",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bridgestone Retail Operations · Bridgestone Americas",
+      "source": "https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/",
+      "sourceTitle": "Bridgestone — retail operations portfolio",
+      "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
     },
     {
       "brand": "Holiday Stationstores",
@@ -968,6 +1795,19 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Hy-Vee",
+      "aliases": [
+        "Hy Vee"
+      ],
+      "type": "corporate",
+      "parent": "Hy-Vee, Inc.",
+      "source": "https://www.hy-vee.com/corporate/our-company/",
+      "sourceTitle": "Hy-Vee — employee-owned company overview",
+      "note": "Hy-Vee is a large employee-owned supermarket company. The corporate category describes the chain structure and does not assert private equity ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hy-Vee"
+    },
+    {
       "brand": "i9 Sports",
       "aliases": [],
       "type": "pe",
@@ -975,7 +1815,73 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Ingles Markets",
+      "aliases": [
+        "Ingles"
+      ],
+      "type": "corporate",
+      "parent": "Ingles Markets, Incorporated",
+      "source": "https://www.ingles-markets.com/investor-relations",
+      "sourceTitle": "Ingles Markets — corporate investor information",
+      "note": "Ingles Markets is a large supermarket chain with public investor reporting. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ingles",
+      "matchCategories": [
+        "grocery"
+      ]
+    },
+    {
+      "brand": "Insomnia Cookies",
+      "aliases": [
+        "Insomnia Cookies"
+      ],
+      "type": "pe",
+      "parent": "Verlinvest investment",
+      "source": "https://www.verlinvest.com/brands/insomnia-cookies/",
+      "sourceTitle": "Verlinvest — active Insomnia Cookies investment",
+      "note": "The current official portfolio labels its investment active. This identifies private investment backing without claiming Verlinvest is the sole owner.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Insomnia_Cookies",
+      "sponsors": [
+        "Verlinvest"
+      ]
+    },
+    {
+      "brand": "Intelligentsia Coffee",
+      "aliases": [
+        "Intelligentsia Coffee & Tea",
+        "Intelligentsia"
+      ],
+      "type": "corporate",
+      "parent": "JDE Peet’s · Keurig Dr Pepper",
+      "source": "https://www.keurigdrpepper.com/brands/",
+      "sourceTitle": "Keurig Dr Pepper — company coffee brands",
+      "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Intelligentsia_Coffee_%26_Tea"
+    },
+    {
+      "brand": "J. Alexander's",
+      "aliases": [
+        "J Alexanders",
+        "J. Alexander’s Restaurant"
+      ],
+      "type": "pe",
+      "parent": "SPB Hospitality · Fortress Investment Group",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
     },
     {
       "brand": "Jaggers",
@@ -997,7 +1903,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Jersey Mike's Subs",
@@ -1010,7 +1919,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/2127043/000212704326000010/jmke-20260628.htm",
       "sourceTitle": "Jersey Mike’s — June 28, 2026 Form 10-Q filed September 2026",
       "note": "Blackstone’s sponsor acquired 90% in January 2025. The September 2026 filing also reports the July 2026 IPO and sales by Blackstone-associated holders; this row identifies PE backing, not sole private ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Blackstone"
+      ]
     },
     {
       "brand": "Jewel-Osco",
@@ -1033,7 +1945,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Jimmy John's",
@@ -1045,7 +1960,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Joe V’s Smart Shop",
@@ -1060,6 +1978,17 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Jollibee",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Jollibee Foods Corporation",
+      "source": "https://www.jollibeegroup.com/our-brands/",
+      "sourceTitle": "Jollibee Group — our brands",
+      "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jollibee"
+    },
+    {
       "brand": "KFC",
       "aliases": [
         "Kentucky Fried Chicken"
@@ -1070,6 +1999,17 @@
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Kids Foot Locker",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc. · Foot Locker",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
+      "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
     },
     {
       "brand": "King Soopers",
@@ -1092,6 +2032,36 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Kohl’s",
+      "aliases": [
+        "Kohl's",
+        "Kohls"
+      ],
+      "type": "corporate",
+      "parent": "Kohl’s Corporation",
+      "source": "https://corporate.kohls.com/about-kohls",
+      "sourceTitle": "Kohl’s — about the company",
+      "note": "Kohl’s identifies itself as a national retailer with more than 1,100 stores. This labels chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kohl%27s"
+    },
+    {
+      "brand": "Kona Ice",
+      "aliases": [
+        "Kona Ice"
+      ],
+      "type": "pe",
+      "parent": "Garnett Station Partners investment",
+      "source": "https://garnettstation.com/partner/kona-ice/",
+      "sourceTitle": "Garnett Station Partners — active Kona Ice equity investment",
+      "note": "The official portfolio explicitly marks Kona Ice as an active equity investment. This is a mobile food-service franchise; map coverage may depend on recorded business locations.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kona_Ice",
+      "sponsors": [
+        "Garnett Station Partners"
+      ]
+    },
+    {
       "brand": "Kroger",
       "aliases": [],
       "type": "corporate",
@@ -1100,6 +2070,23 @@
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Krystal",
+      "aliases": [
+        "Krystal",
+        "Krystal Restaurants"
+      ],
+      "type": "pe",
+      "parent": "SPB Hospitality · Fortress Investment Group",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
     },
     {
       "brand": "Lakeshore Learning",
@@ -1112,7 +2099,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Lane Bryant",
@@ -1122,7 +2112,10 @@
       "source": "https://www.sycamorepartners.com/investments",
       "sourceTitle": "Sycamore — current investments",
       "note": "Sycamore lists Lane Bryant as a current investment; KnitWell provides oversight and shared services.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Laredo Taco Company",
@@ -1155,7 +2148,26 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Life Time is publicly traded and remains listed as a current LGP portfolio investment. This category identifies continuing PE backing.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
+      "brand": "LifeStance Health",
+      "aliases": [
+        "LifeStance"
+      ],
+      "type": "pe",
+      "parent": "LifeStance Health Group · TPG minority investment",
+      "source": "https://www.sec.gov/Archives/edgar/data/1845257/000199937126018021/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "sourceTitle": "LifeStance — 2026 TPG beneficial-ownership filing",
+      "note": "TPG-affiliated entities disclosed a minority shareholding in 2026. This does not assert majority ownership or that the historical filing percentage is the current percentage.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TPG"
+      ]
     },
     {
       "brand": "LOFT",
@@ -1165,7 +2177,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "LongHorn Steakhouse",
@@ -1176,6 +2191,22 @@
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Los Tacos No. 1",
+      "aliases": [
+        "Los Tacos No 1"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
     },
     {
       "brand": "Lowe’s",
@@ -1199,7 +2230,24 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Macy’s",
+      "aliases": [
+        "Macy's",
+        "Macys"
+      ],
+      "type": "corporate",
+      "parent": "Macy’s, Inc.",
+      "source": "https://www.macysinc.com/company/about/default.aspx",
+      "sourceTitle": "Macy’s — company and current nameplates",
+      "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
     },
     {
       "brand": "Maggiano’s Little Italy",
@@ -1212,6 +2260,22 @@
       "sourceTitle": "Brinker — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Mancini’s Sleepworld",
+      "aliases": [
+        "Mancini's Sleepworld"
+      ],
+      "type": "pe",
+      "parent": "Sun Capital Partners investment",
+      "source": "https://suncappart.com/portfolio/mancinis-sleepworld/",
+      "sourceTitle": "Sun Capital Partners — Mancini’s Sleepworld",
+      "note": "Sun’s live investment page describes the mattress retailer and actively solicits add-on acquisitions, establishing an ongoing portfolio relationship.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Sun Capital Partners"
+      ]
     },
     {
       "brand": "Marathon",
@@ -1268,7 +2332,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Mathnasium",
@@ -1278,7 +2345,29 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Mavis Tires & Brakes",
+      "aliases": [
+        "Mavis Tires & Brakes",
+        "Mavis",
+        "Mavis Discount Tire",
+        "Mavis Tire"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
     },
     {
       "brand": "McAlister's Deli",
@@ -1291,7 +2380,24 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "McCormick & Schmick’s",
+      "aliases": [
+        "McCormick and Schmick's",
+        "McCormick & Schmick's Seafood & Steaks"
+      ],
+      "type": "corporate",
+      "parent": "Landry’s, Inc.",
+      "source": "https://www.landrysinc.com/dining",
+      "sourceTitle": "Landry's — current dining brands",
+      "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
     },
     {
       "brand": "McDonald’s",
@@ -1313,7 +2419,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Meijer",
@@ -1335,7 +2444,21 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Menards",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Menard, Inc.",
+      "source": "https://www.menards.com/main/footer/company-information/about-us/c-3582.htm",
+      "sourceTitle": "Menards — about the company",
+      "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Menards"
     },
     {
       "brand": "Merry Maids",
@@ -1345,7 +2468,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Metro Market",
@@ -1381,7 +2507,10 @@
       "source": "https://www.apollo.com/insights-news/pressreleases/2021/04/apollo-announces-completion-of-the-tender-offer-for-shares-of-the-michaels-companies-130153513",
       "sourceTitle": "Apollo — completion of Michaels tender offer",
       "note": "Apollo funds acquired Michaels in 2021. Apollo’s 2025 portfolio supplement, published in 2026, continues to include Michaels.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Apollo Global Management"
+      ]
     },
     {
       "brand": "Milan Laser Hair Removal",
@@ -1393,7 +2522,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Miller's Ale House",
@@ -1405,7 +2537,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Mister Car Wash",
@@ -1415,7 +2550,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Mobil",
@@ -1437,7 +2575,69 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Morton’s The Steakhouse",
+      "aliases": [
+        "Morton's Steakhouse",
+        "Mortons The Steakhouse"
+      ],
+      "type": "corporate",
+      "parent": "Landry’s, Inc.",
+      "source": "https://www.landrysinc.com/dining",
+      "sourceTitle": "Landry's — current dining brands",
+      "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
+      "brand": "National Car Rental",
+      "aliases": [
+        "National Rent A Car"
+      ],
+      "type": "corporate",
+      "parent": "Enterprise Holdings, Inc. · Enterprise Mobility",
+      "source": "https://www.enterprisemobility.com/en/legal/legal-disclaimer.html",
+      "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
+      "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
+      "brand": "Newk’s Eatery",
+      "aliases": [
+        "Newk's",
+        "Newk's Express Cafe",
+        "Newk's Express Café"
+      ],
+      "type": "pe",
+      "parent": "FSC Franchise Co. · CapitalSpring",
+      "source": "https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html",
+      "sourceTitle": "FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025",
+      "note": "FSC Franchise Co. identifies this as one of its three restaurant brands and describes the group's growth under CapitalSpring. This identifies the brand's investment backing; individual restaurants may be independently operated franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "CapitalSpring"
+      ]
+    },
+    {
+      "brand": "Nob Hill Foods",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "The Raley’s Companies",
+      "source": "https://theraleyscompanies.com/our-story/",
+      "sourceTitle": "The Raley’s Companies — current family of store banners",
+      "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+      "matchCategories": [
+        "grocery"
+      ]
     },
     {
       "brand": "North Italia",
@@ -1459,7 +2659,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1957845/000195784526000071/kkr-20260630.htm",
       "sourceTitle": "KKR Private Equity Conglomerate — June 30, 2026 Form 10-Q",
       "note": "The KKR filing records acquisition of an indirect Nothing Bundt Cakes interest during Q2 2026. This updates the former Roark association.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "KKR"
+      ]
     },
     {
       "brand": "O’Reilly Auto Parts",
@@ -1495,6 +2698,23 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Ollie’s Bargain Outlet",
+      "aliases": [
+        "Ollie's Bargain Outlet",
+        "Ollie's"
+      ],
+      "type": "corporate",
+      "parent": "Ollie’s Bargain Outlet Holdings, Inc.",
+      "source": "https://investors.ollies.us/corporate-profile",
+      "sourceTitle": "Ollie’s — corporate profile",
+      "note": "Ollie’s identifies itself as a large closeout retail chain on its current investor website.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ollie%27s_Bargain_Outlet",
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
       "brand": "Orangetheory Fitness",
       "aliases": [
         "Orangetheory"
@@ -1504,7 +2724,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Panda Express",
@@ -1550,6 +2773,37 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Peet’s Coffee",
+      "aliases": [
+        "Peet's Coffee & Tea",
+        "Peet's"
+      ],
+      "type": "corporate",
+      "parent": "JDE Peet’s · Keurig Dr Pepper",
+      "source": "https://www.keurigdrpepper.com/brands/",
+      "sourceTitle": "Keurig Dr Pepper — company coffee brands",
+      "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Peet%27s_Coffee"
+    },
+    {
+      "brand": "Petco",
+      "aliases": [
+        "Petco Animal Supplies",
+        "Petco Health and Wellness"
+      ],
+      "type": "pe",
+      "parent": "Petco Health and Wellness Company · CVC / CPP Investments",
+      "source": "https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm",
+      "sourceTitle": "Petco — 2026 SEC sponsor disclosure",
+      "note": "Petco identifies CVC-affiliated funds and CPP Investments as sponsors. CVC also lists Petco in its current portfolio. This is sponsor backing of the retailer.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "CVC Capital Partners"
+      ]
+    },
+    {
       "brand": "Petsense by Tractor Supply",
       "aliases": [
         "Petsense"
@@ -1571,7 +2825,28 @@
       "source": "https://www.bcpartners.com/portfolio/petsmart-xi/",
       "sourceTitle": "BC Partners — PetSmart current investment",
       "note": "BC Partners lists PetSmart as an unrealised private-equity investment acquired alongside Apollo.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "BC Partners",
+        "Apollo Global Management"
+      ]
+    },
+    {
+      "brand": "Philz Coffee",
+      "aliases": [
+        "Philz Coffee",
+        "Philz"
+      ],
+      "type": "pe",
+      "parent": "Freeman Spogli investment",
+      "source": "https://www.freemanspogli.com/portfolio/philz-coffee/",
+      "sourceTitle": "Freeman Spogli — Philz Coffee portfolio",
+      "note": "The firm’s current Philz portfolio page records its August 2025 investment and continuing partnership with company management.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Philz_Coffee",
+      "sponsors": [
+        "Freeman Spogli & Co."
+      ]
     },
     {
       "brand": "Pick ’n Save",
@@ -1586,6 +2861,20 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Pizza Hut",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Pizza Hut · LongRange Capital",
+      "source": "https://www.longrangecapital.com/news/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands",
+      "sourceTitle": "LongRange Capital — completed Pizza Hut acquisition, September 2026",
+      "note": "LongRange confirms its completed September 1, 2026 acquisition of Pizza Hut from Yum! Brands, excluding Mainland China. This establishes US brand backing; individual franchise operators can have different owners. The map does not apply this ownership label worldwide.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "LongRange Capital"
+      ]
+    },
+    {
       "brand": "Playa Bowls",
       "aliases": [],
       "type": "pe",
@@ -1593,7 +2882,27 @@
       "source": "https://www.sycamorepartners.com/investments",
       "sourceTitle": "Sycamore — current investments",
       "note": "Playa Bowls is listed as a current Sycamore investment; the brand’s franchisees may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
+    },
+    {
+      "brand": "Pollo Tropical",
+      "aliases": [
+        "Pollo Tropical",
+        "Pollo Tropical Express"
+      ],
+      "type": "pe",
+      "parent": "Authentic Restaurant Brands · Garnett Station Partners",
+      "source": "https://garnettstation.com/partner/authentic-restaurant-brands/",
+      "sourceTitle": "Garnett Station Partners — active Authentic Restaurant Brands investment",
+      "note": "Garnett marks ARB as an active equity investment and explicitly includes Pollo Tropical. The Wikipedia company page contains an inconsistent parent entry, so the current official portfolio establishes the classification.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pollo_Tropical",
+      "sponsors": [
+        "Garnett Station Partners"
+      ]
     },
     {
       "brand": "Popeyes",
@@ -1650,6 +2959,24 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Primanti Bros.",
+      "aliases": [
+        "Primanti Bros.",
+        "Primanti Brothers",
+        "Primanti Bros. Restaurant and Bar"
+      ],
+      "type": "pe",
+      "parent": "Authentic Restaurant Brands · Garnett Station Partners",
+      "source": "https://garnettstation.com/partner/authentic-restaurant-brands/",
+      "sourceTitle": "Garnett Station Partners — active Authentic Restaurant Brands investment",
+      "note": "Garnett marks ARB as an active equity investment and explicitly includes Primanti Bros. in its five-brand portfolio.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Primanti_Brothers",
+      "sponsors": [
+        "Garnett Station Partners"
+      ]
+    },
+    {
       "brand": "Primrose Schools",
       "aliases": [
         "Primrose School"
@@ -1659,7 +2986,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Publix",
@@ -1673,6 +3003,22 @@
       "sourceTitle": "Publix — company facts",
       "note": "Publix is a large employee-owned supermarket chain. Its employee ownership is stated explicitly; the corporate label describes its large-chain structure.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Pura Vida Miami",
+      "aliases": [
+        "Pura Vida Miami"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
     },
     {
       "brand": "QFC",
@@ -1697,6 +3043,37 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Quiznos",
+      "aliases": [
+        "Quiznos",
+        "Quiznos Subs",
+        "Quiznos Sub"
+      ],
+      "type": "pe",
+      "parent": "REGO Restaurant Group · High Bluff Capital Partners",
+      "source": "https://www.highbluffcap.com/portfolio/",
+      "sourceTitle": "High Bluff Capital Partners — current portfolio",
+      "note": "High Bluff’s live portfolio includes Quiznos. The brand’s local franchisees may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Quiznos",
+      "sponsors": [
+        "High Bluff Capital Partners"
+      ]
+    },
+    {
+      "brand": "Rainforest Cafe",
+      "aliases": [
+        "Rainforest Café"
+      ],
+      "type": "corporate",
+      "parent": "Landry’s, Inc.",
+      "source": "https://www.landrysinc.com/dining",
+      "sourceTitle": "Landry's — current dining brands",
+      "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
       "brand": "Raise the Roost Chicken & Biscuits",
       "aliases": [
         "Raise the Roost"
@@ -1707,6 +3084,22 @@
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Raley’s",
+      "aliases": [
+        "Raley's"
+      ],
+      "type": "corporate",
+      "parent": "The Raley’s Companies",
+      "source": "https://theraleyscompanies.com/our-story/",
+      "sourceTitle": "The Raley’s Companies — current family of store banners",
+      "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+      "matchCategories": [
+        "grocery"
+      ]
     },
     {
       "brand": "Ralphs",
@@ -1729,6 +3122,39 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Red Lobster",
+      "aliases": [
+        "Red Lobster"
+      ],
+      "type": "pe",
+      "parent": "RL Investor Holdings · Fortress-led investment",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress lists Red Lobster in its current private equity portfolio following the 2024 restructuring. Historical Darden, Golden Gate and Thai Union ownership is not the basis of this classification.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Red_Lobster",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
+    },
+    {
+      "brand": "Red Ribbon Bakeshop",
+      "aliases": [
+        "Red Ribbon"
+      ],
+      "type": "corporate",
+      "parent": "Jollibee Foods Corporation",
+      "source": "https://www.jollibeegroup.com/our-brands/",
+      "sourceTitle": "Jollibee Group — our brands",
+      "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Red_Ribbon_Bakeshop",
+      "matchCategories": [
+        "grocery",
+        "restaurant"
+      ]
+    },
+    {
       "brand": "Rejuvenation",
       "aliases": [],
       "type": "corporate",
@@ -1737,6 +3163,24 @@
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Rita’s Italian Ice",
+      "aliases": [
+        "Rita's Italian Ice & Frozen Custard",
+        "Rita's Italian Ice and Frozen Custard",
+        "Rita's Water Ice"
+      ],
+      "type": "pe",
+      "parent": "Maple Park Capital Partners portfolio investment",
+      "source": "https://www.mapleparkcap.com/our-partnerships",
+      "sourceTitle": "Maple Park Capital Partners — current partnerships",
+      "note": "Maple Park lists Rita's among its current partnerships. Prior investors Argosy and MTN announced their exits in 2024. This identifies franchisor investment backing; local shops may be independently operated franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "Maple Park Capital Partners"
+      ]
     },
     {
       "brand": "Ross Dress for Less",
@@ -1772,7 +3216,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Safeway",
@@ -1806,7 +3253,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "School of Rock",
@@ -1816,7 +3266,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Seasons 52",
@@ -1836,7 +3289,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "ServiceMaster Restore",
@@ -1846,7 +3302,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Shake Shack",
@@ -1891,6 +3350,23 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Shipley Do-Nuts",
+      "aliases": [
+        "Shipley Do Nuts",
+        "Shipley's Do-Nuts"
+      ],
+      "type": "pe",
+      "parent": "Levine Leichtman Capital Partners · management",
+      "source": "https://www.llcp.com/levine-leichtman-capital-partners-and-management-acquire-shipley-do-nuts/",
+      "sourceTitle": "LLCP — July 2025 Shipley acquisition",
+      "note": "LLCP confirms it partnered with management to acquire Shipley from Peak Rock in July 2025. The former Peak Rock association is not used as the current parent.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Shipley_Do-Nuts",
+      "sponsors": [
+        "Levine Leichtman Capital Partners"
+      ]
+    },
+    {
       "brand": "Sierra",
       "aliases": [
         "Sierra Trading Post"
@@ -1904,6 +3380,20 @@
       "matchCategories": [
         "other"
       ]
+    },
+    {
+      "brand": "Smart & Final",
+      "aliases": [
+        "Smart and Final",
+        "Smart & Final Extra!"
+      ],
+      "type": "corporate",
+      "parent": "Chedraui USA · Grupo Comercial Chedraui",
+      "source": "https://chedrauiusa.com/",
+      "sourceTitle": "Chedraui USA — current grocery banners",
+      "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui"
     },
     {
       "brand": "Smith’s Food and Drug",
@@ -1922,6 +3412,23 @@
       ]
     },
     {
+      "brand": "Sola Salons",
+      "aliases": [
+        "Sola Salons",
+        "Sola Salon Studios"
+      ],
+      "type": "pe",
+      "parent": "Radiance Holdings · TSG Consumer Partners",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG marks Radiance Holdings Current. Radiance’s official brand directory identifies Sola Salons and Woodhouse Spa. Sola’s individual beauty professionals may independently own their businesses. Brand directory: https://www.weareradianceholdings.com/brands",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Soma",
       "aliases": [],
       "type": "pe",
@@ -1929,7 +3436,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "SONIC Drive-In",
@@ -1942,7 +3452,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Speedway",
@@ -1975,7 +3488,10 @@
       "source": "https://www.sycamorepartners.com/investments",
       "sourceTitle": "Sycamore — current investments",
       "note": "Staples US Retail is listed as a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Star Market",
@@ -1998,6 +3514,25 @@
       "sourceTitle": "Starbucks — company profile",
       "note": "Starbucks is a global corporate coffee brand. Its network includes company-operated and licensed stores; local operator ownership is not verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Stoney River Steakhouse and Grill",
+      "aliases": [
+        "Stoney River Steakhouse and Grill",
+        "Stoney River Legendary Steaks",
+        "Stoney River Steakhouse & Grill",
+        "Stoney River"
+      ],
+      "type": "pe",
+      "parent": "SPB Hospitality · Fortress Investment Group",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
     },
     {
       "brand": "Stop & Shop",
@@ -2024,6 +3559,19 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Stumptown Coffee Roasters",
+      "aliases": [
+        "Stumptown Coffee"
+      ],
+      "type": "corporate",
+      "parent": "JDE Peet’s · Keurig Dr Pepper",
+      "source": "https://www.keurigdrpepper.com/brands/",
+      "sourceTitle": "Keurig Dr Pepper — company coffee brands",
+      "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters"
+    },
+    {
       "brand": "Subway",
       "aliases": [],
       "type": "pe",
@@ -2031,7 +3579,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Sun Auto Tire & Service",
@@ -2043,7 +3594,27 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
+      "brand": "Super Star Car Wash",
+      "aliases": [
+        "SuperStar Car Wash",
+        "Super Star Express Car Wash"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
     },
     {
       "brand": "Taco Bell",
@@ -2056,6 +3627,22 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Taco Del Mar",
+      "aliases": [
+        "Taco Del Mar"
+      ],
+      "type": "pe",
+      "parent": "REGO Restaurant Group · High Bluff Capital Partners",
+      "source": "https://www.highbluffcap.com/portfolio/",
+      "sourceTitle": "High Bluff Capital Partners — current portfolio",
+      "note": "High Bluff’s live portfolio includes Taco Del Mar. The label identifies franchise-brand backing rather than each operator’s ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Taco_del_Mar",
+      "sponsors": [
+        "High Bluff Capital Partners"
+      ]
+    },
+    {
       "brand": "Take 5 Oil Change",
       "aliases": [],
       "type": "pe",
@@ -2063,7 +3650,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Driven Brands is a publicly traded automotive-services group listed as a current Roark investment. The label identifies brand backing, not ownership of every franchise location.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Talbots",
@@ -2073,7 +3663,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Target",
@@ -2115,7 +3708,27 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "The Brass Tap",
+      "aliases": [
+        "Brass Tap",
+        "Brass Tap Social House and Kitchen"
+      ],
+      "type": "pe",
+      "parent": "FSC Franchise Co. · CapitalSpring",
+      "source": "https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html",
+      "sourceTitle": "FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025",
+      "note": "FSC Franchise Co. identifies this as one of its three restaurant brands and describes the group's growth under CapitalSpring. This identifies the brand's investment backing; individual restaurants may be independently operated franchises.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "sponsors": [
+        "CapitalSpring"
+      ]
     },
     {
       "brand": "The Capital Grille",
@@ -2140,6 +3753,21 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "The Coffee Bean & Tea Leaf",
+      "aliases": [
+        "Coffee Bean & Tea Leaf",
+        "The Coffee Bean and Tea Leaf",
+        "Coffee Bean and Tea Leaf"
+      ],
+      "type": "corporate",
+      "parent": "Jollibee Foods Corporation",
+      "source": "https://www.jollibeegroup.com/our-brands/",
+      "sourceTitle": "Jollibee Group — our brands",
+      "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Coffee_Bean_%26_Tea_Leaf"
+    },
+    {
       "brand": "The Fresh Market",
       "aliases": [],
       "type": "corporate",
@@ -2159,7 +3787,10 @@
       "source": "https://www.sycamorepartners.com/news-article/sycamore-partners-acquires-goddard-systems-the-leading-franchisor-of-premium-early-education-centers",
       "sourceTitle": "Sycamore — acquisition of Goddard Systems",
       "note": "Sycamore acquired the franchisor in 2022, and lists Goddard Systems as a current investment. Local schools are franchises.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "The Home Depot",
@@ -2181,7 +3812,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Thorntons",
@@ -2194,6 +3828,23 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Thrive Pet Healthcare",
+      "aliases": [
+        "Thrive Pet Healthcare",
+        "Thrive Affordable Vet Care"
+      ],
+      "type": "pe",
+      "parent": "TSG Consumer Partners investment",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG explicitly lists the underlying brand or platform as a Current investment. This establishes PE backing without asserting sole or controlling ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
       "brand": "Tim Hortons",
       "aliases": [],
       "type": "corporate",
@@ -2202,6 +3853,17 @@
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Tires Plus",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bridgestone Retail Operations · Bridgestone Americas",
+      "source": "https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/",
+      "sourceTitle": "Bridgestone — retail operations portfolio",
+      "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
     },
     {
       "brand": "TJ Maxx",
@@ -2233,7 +3895,10 @@
       "source": "https://www.sycamorepartners.com/investments",
       "sourceTitle": "Sycamore — current investments",
       "note": "Torrid is publicly traded and is listed as a current Sycamore portfolio investment. The PE-backed category includes continuing investment and does not imply sole ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Tractor Supply Company",
@@ -2272,6 +3937,38 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Tropical Smoothie Cafe",
+      "aliases": [
+        "Tropical Smoothie Café"
+      ],
+      "type": "pe",
+      "parent": "Blackstone-managed private equity funds",
+      "source": "https://www.blackstone.com/people/david-kestnbaum/",
+      "sourceTitle": "Blackstone — current investment and board biography",
+      "note": "Blackstone’s current executive biography lists Tropical Smoothie Cafe as a current investment and board role; its official June 2024 announcement confirms the acquisition closed.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
+      "sponsors": [
+        "Blackstone"
+      ]
+    },
+    {
+      "brand": "TruGreen",
+      "aliases": [
+        "Tru Green"
+      ],
+      "type": "pe",
+      "parent": "TruGreen · Clayton, Dubilier & Rice",
+      "source": "https://www.cdr.com/portfolio/trugreen",
+      "sourceTitle": "CD&R — current TruGreen investment",
+      "note": "TruGreen is included in CD&R’s current August 2026 portfolio. It is a lawn-care service chain; individual local operator ownership is not separately verified.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Clayton, Dubilier & Rice"
+      ]
+    },
+    {
       "brand": "Two Men and a Truck",
       "aliases": [
         "TWO MEN AND A TRUCK"
@@ -2281,7 +3978,23 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
+    },
+    {
+      "brand": "Ulta Beauty",
+      "aliases": [
+        "Ulta"
+      ],
+      "type": "corporate",
+      "parent": "Ulta Beauty, Inc.",
+      "source": "https://www.ulta.com/investor/company-information",
+      "sourceTitle": "Ulta Beauty — company information",
+      "note": "Ulta Beauty is a large corporate beauty retail chain. This labels the retailer; products sold within it have separate brand owners.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ulta_Beauty"
     },
     {
       "brand": "United Supermarkets",
@@ -2292,6 +4005,22 @@
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Village Whiskey",
+      "aliases": [
+        "Village Whiskey"
+      ],
+      "type": "pe",
+      "parent": "SPB Hospitality · Fortress Investment Group",
+      "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+      "sourceTitle": "Fortress — current middle-market private equity portfolio",
+      "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
+      "sponsors": [
+        "Fortress Investment Group"
+      ]
     },
     {
       "brand": "Vons",
@@ -2314,7 +4043,10 @@
       "source": "https://www.sycamorepartners.com/news-article/walgreen-co-to-operate-as-private-standalone-company-following-acquisition-by-sycamore-partners",
       "sourceTitle": "Sycamore — Walgreens acquisition completed August 28, 2025",
       "note": "Sycamore’s acquisition closed in August 2025, in partnership with the Pessina family.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Walmart",
@@ -2347,7 +4079,10 @@
       "source": "https://www.roarkcapital.com/portfolio",
       "sourceTitle": "Roark — current investments",
       "note": "Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Roark"
+      ]
     },
     {
       "brand": "Wegmans",
@@ -2360,6 +4095,22 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Weis Markets",
+      "aliases": [
+        "Weis"
+      ],
+      "type": "corporate",
+      "parent": "Weis Markets, Inc.",
+      "source": "https://www.weismarkets.com/investor-relations",
+      "sourceTitle": "Weis Markets — current investor relations",
+      "note": "Weis Markets is a publicly traded supermarket chain. The source lists its 2025 annual report and 2026 shareholder materials.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Weis_Markets",
+      "matchCategories": [
+        "grocery"
+      ]
+    },
+    {
       "brand": "WellNow Urgent Care",
       "aliases": [
         "WellNow"
@@ -2369,7 +4120,10 @@
       "source": "https://www.leonardgreen.com/portfolio/",
       "sourceTitle": "Leonard Green & Partners — current investment portfolio",
       "note": "LGP lists The Aspen Group as a current investment and identifies this supported healthcare brand. The classification concerns the support platform, not ownership of individual clinicians’ professional practices.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "Wendy’s",
@@ -2402,7 +4156,38 @@
       "sourceTitle": "Whataburger — official press kit and company history",
       "note": "Whataburger’s company history records BDT Capital Partners acquiring a majority interest in 2019. Family involvement and franchisees can continue alongside fund ownership.",
       "checked": "2026-10-15",
-      "preservePunctuation": true
+      "preservePunctuation": true,
+      "sponsors": [
+        "BDT & MSD Partners"
+      ]
+    },
+    {
+      "brand": "Wheel Works",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bridgestone Retail Operations · Bridgestone Americas",
+      "source": "https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/",
+      "sourceTitle": "Bridgestone — retail operations portfolio",
+      "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+    },
+    {
+      "brand": "White Cap",
+      "aliases": [],
+      "type": "pe",
+      "parent": "White Cap · Clayton, Dubilier & Rice",
+      "source": "https://www.cdr.com/portfolio/white-cap",
+      "sourceTitle": "CD&R — current White Cap investment",
+      "note": "White Cap is in CD&R’s current portfolio and has customer-facing construction-supply branches. This identifies the brand affiliation.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Clayton, Dubilier & Rice"
+      ],
+      "matchCategories": [
+        "other"
+      ]
     },
     {
       "brand": "White House Black Market",
@@ -2414,7 +4199,10 @@
       "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
       "sourceTitle": "Sycamore — KnitWell Group brand portfolio",
       "note": "KnitWell’s listed apparel portfolio is backed by Sycamore; KnitWell remains a current Sycamore investment.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "sponsors": [
+        "Sycamore Partners"
+      ]
     },
     {
       "brand": "Whole Foods Market",
@@ -2451,6 +4239,22 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "WinCo Foods",
+      "aliases": [
+        "WinCo"
+      ],
+      "type": "corporate",
+      "parent": "WinCo Foods",
+      "source": "https://www.wincofoods.com/page/about-us",
+      "sourceTitle": "WinCo Foods — employee ownership and company history",
+      "note": "WinCo is a large employee-owned supermarket chain. The corporate label describes its large-chain structure and preserves its employee ownership distinction.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/WinCo_Foods",
+      "matchCategories": [
+        "grocery"
+      ]
+    },
+    {
       "brand": "Wingstop",
       "aliases": [],
       "type": "corporate",
@@ -2461,6 +4265,74 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Woodhouse Spa",
+      "aliases": [
+        "Woodhouse Spa",
+        "The Woodhouse Day Spa",
+        "Woodhouse Day Spa",
+        "Woodhouse Spas"
+      ],
+      "type": "pe",
+      "parent": "Radiance Holdings · TSG Consumer Partners",
+      "source": "https://www.tsgconsumer.com/investments/",
+      "sourceTitle": "TSG Consumer — current and exited investment status",
+      "note": "TSG marks Radiance Holdings Current. Radiance’s official brand directory identifies Sola Salons and Woodhouse Spa. Sola’s individual beauty professionals may independently own their businesses. Brand directory: https://www.weareradianceholdings.com/brands",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ]
+    },
+    {
+      "brand": "WORLDPAC",
+      "aliases": [
+        "World Pac"
+      ],
+      "type": "pe",
+      "parent": "WORLDPAC · Carlyle",
+      "source": "https://www.carlyle.com/portfolio",
+      "sourceTitle": "Carlyle — current portfolio status",
+      "note": "Carlyle identifies Worldpac as a Current investment from November 2024. This labels the automotive-parts branch brand and does not identify Advance Auto Parts as Carlyle-owned.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Carlyle"
+      ],
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "WSS",
+      "aliases": [
+        "Warehouse Shoe Sale"
+      ],
+      "type": "corporate",
+      "parent": "DICK’S Sporting Goods, Inc. · Foot Locker",
+      "source": "https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx",
+      "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
+      "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Yankee Candle",
+      "aliases": [
+        "Yankee Candle Company",
+        "The Yankee Candle Company"
+      ],
+      "type": "corporate",
+      "parent": "Newell Brands Inc.",
+      "source": "https://www.newellbrands.com/our-brands/yankee-candle",
+      "sourceTitle": "Newell Brands — Yankee Candle current brand page",
+      "note": "Newell Brands lists Yankee Candle in its current brand portfolio. This establishes corporate brand affiliation; a third-party retailer selling Yankee Candle products does not thereby become Newell-owned.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
       "brand": "Yard House",
       "aliases": [],
       "type": "corporate",
@@ -2469,6 +4341,20 @@
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "ZIMMERMANN",
+      "aliases": [],
+      "type": "pe",
+      "parent": "ZIMMERMANN · Advent International",
+      "source": "https://www.adventinternational.com/wp-content/uploads/Advent-Luxury-Sector-Report-2025.pdf",
+      "sourceTitle": "Advent — ZIMMERMANN majority investment",
+      "note": "Advent describes its majority investment in ZIMMERMANN and continuing store expansion. Its current team lists a ZIMMERMANN board position; the brand operates US stores.",
+      "checked": "2026-10-16",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
+      "sponsors": [
+        "Advent International"
+      ]
     }
   ]
 }

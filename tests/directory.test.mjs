@@ -33,6 +33,7 @@ test('brand search supports parents, aliases, ownership categories, and accents'
  assert.ok(searchBrands(BRAND_DIRECTORY,{query:'Einstein’s'}).some(brand=>brand.brand==='Einstein Bros. Bagels'));
  assert.equal(searchBrands(BRAND_DIRECTORY,{query:'Wheatsville'}).length,0);
  assert.equal(searchBrands(BRAND_DIRECTORY,{query:'NoSuchBrand12345'}).length,0);
+ assert.ok(searchBrands(BRAND_DIRECTORY,{query:'Leonard Green'}).some(brand=>brand.brand==='Aspen Dental'));
 });
 test('the directory rejects missing evidence and ambiguous brand aliases',()=>{
  const row=BRAND_DIRECTORY.find(brand=>brand.type==='corporate');
@@ -40,7 +41,17 @@ test('the directory rejects missing evidence and ambiguous brand aliases',()=>{
  assert.throws(()=>validateDirectory(dataset([{...row,source:''}])) ,/source/);
  assert.throws(()=>validateDirectory(dataset([{...row,source:'http://example.com'}])),/HTTPS/);
  assert.throws(()=>validateDirectory(dataset([{...row,checked:'yesterday'}])),/review date/);
+ assert.throws(()=>validateDirectory(dataset([{...row,wikipedia:'https://example.com/wiki/Brand'}])),/Wikipedia/);
  assert.throws(()=>validateDirectory(dataset([row,{...row,brand:'Different company',aliases:[row.brand]}])),/Ambiguous alias/);
+});
+test('Wikipedia research references are preserved beside primary ownership evidence',async()=>{
+ const discovered=BRAND_DIRECTORY.filter(brand=>brand.wikipedia);
+ assert.ok(discovered.length>0);
+ for(const brand of discovered){assert.equal(new URL(brand.wikipedia).hostname,'en.wikipedia.org');assert.ok(!brand.source.includes('wikipedia.org'));}
+ const csv=await readFile(new URL('../public/brands.csv',import.meta.url),'utf8');
+ assert.ok(csv.split('\r\n')[0].includes('"wikipedia"'));assert.ok(csv.split('\r\n')[0].endsWith('"sponsors"'));
+ const document=await readFile(new URL('../docs/WIKIPEDIA_ADDITIONS.md',import.meta.url),'utf8');
+ for(const brand of discovered)assert.ok(document.includes(brand.wikipedia),brand.brand);
 });
 test('ambiguous grocery and retail names need category or explicit brand context',()=>{
  const place={...origin,name:'ACME',category:'restaurant'};

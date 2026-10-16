@@ -1,6 +1,6 @@
 # Maintaining ownership records
 
-`brands.json` is the editable source for the ownership matcher, searchable list, JSON and CSV downloads, and `docs/BRANDS.md`. Generated files are committed so the directory can also be read without building the app.
+`brands.json` is the editable source for the ownership matcher, searchable list, JSON and CSV downloads, `docs/BRANDS.md`, and `docs/WIKIPEDIA_ADDITIONS.md`. Generated files are committed so the directory can also be read without building the app.
 
 This is a reviewed, US-focused directory. It is not an exhaustive registry of every corporation, private equity investment, or independently operated location. Missing businesses remain unknown. Do not use a business's size, name, logo, or absence from a portfolio as proof that it is independent.
 
@@ -13,6 +13,8 @@ Each brand record needs:
 - `source`, `sourceTitle`: an HTTPS primary company, investor, or regulatory source that supports the classification.
 - `note`: the scope of the evidence, franchise/operator distinctions, and minority investment qualifications where relevant.
 - `checked`: the ISO date on which the source was reviewed.
+- Optional `wikipedia`: an English Wikipedia article or list used to discover the brand or its parent. Keep current primary ownership evidence in `source`; the Wikipedia reference is an additional research trail.
+- Optional `sponsors`: canonical firm names from `pe-firms.json` supported by the ownership evidence. These link a brand to the firm research report; they do not establish a controlling ownership percentage.
 - Optional `matchCategories`: restrict ambiguous names to relevant app categories (`restaurant`, `grocery`, `gas`, `coffee`, `other`) unless the place data has an explicit matching brand field.
 - Optional `preservePunctuation: true`: require the reviewed spelling after case and whitespace normalization when punctuation distinguishes unrelated chains, such as Whataburger and What-A-Burger.
 - Optional `local: true`: restrict the independent reference to within 25 km of the existing Austin example center. Additional local references require explicit geography support in the matcher before use elsewhere.

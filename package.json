@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
-    "directory": "node scripts/build-directory.mjs",
-    "build": "node scripts/build-directory.mjs && node scripts/build.mjs && node scripts/validate-artifact.mjs"
+    "directory": "node scripts/build-directory.mjs && node scripts/build-firms.mjs",
+    "build": "node scripts/build-directory.mjs && node scripts/build-firms.mjs && node scripts/build.mjs && node scripts/validate-artifact.mjs"
   },
   "dependencies": {
     "@mapbox/vector-tile": "^3.0.0",
