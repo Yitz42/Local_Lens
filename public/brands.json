@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-16",
+  "checked": "2026-10-17",
   "coverage": "US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.",
   "brands": [
     {
@@ -989,6 +989,25 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Claire’s",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Claire’s North American business · Ames Watson",
+      "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+      "sourceTitle": "Ames Watson — completed Claire’s acquisition and brand investments",
+      "note": "Ames Watson confirms its completed acquisition of Claire’s North American business in September 2025. This record does not apply worldwide or inherit former Apollo, Elliott, or Monarch ownership. Ames Watson describes itself as a private equity holding company; its capital structure differs from a conventional buyout fund.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Ames Watson"
+      ]
+    },
+    {
       "brand": "ClearChoice Dental Implant Centers",
       "aliases": [
         "ClearChoice Dental Implant Center",
@@ -1128,6 +1147,22 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ]
+    },
+    {
+      "brand": "David’s Bridal",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "David’s Bridal Holdings · CION Investment Corporation",
+      "source": "https://cioninvestments.gcs-web.com/static-files/68131cfa-561e-493c-8afa-6a0d2ffafb1f",
+      "sourceTitle": "CION Investment Corporation — March 2026 Form 10-Q, equity and controlled-investment schedules",
+      "note": "CION’s 2026 filing records preferred and common equity in David’s Bridal Holdings as a controlled investment. CION is a publicly listed business development company. The corporate label records the chain’s current affiliation without carrying forward former private equity sponsors; loans alone were not used as ownership evidence.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
       ]
     },
     {
@@ -1386,6 +1421,44 @@
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Eyemart Express",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Eyemart Express · VSP Vision",
+      "source": "https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/",
+      "sourceTitle": "VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners",
+      "note": "The completed January 2025 sale transferred Eyemart Express and its named retail banners to VSP Vision. The former sponsor’s portfolio marks the investment past. VSP is a large not-for-profit vision organization; corporate here identifies chain affiliation. An on-site optometrist may be independent.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Eyewear Express",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Eyemart Express · VSP Vision",
+      "source": "https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/",
+      "sourceTitle": "VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners",
+      "note": "The completed January 2025 sale transferred Eyemart Express and its named retail banners to VSP Vision. The former sponsor’s portfolio marks the investment past. VSP is a large not-for-profit vision organization; corporate here identifies chain affiliation. An on-site optometrist may be independent.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "matchCategories": [
+        "other"
+      ]
     },
     {
       "brand": "Family Dollar",
@@ -2136,6 +2209,48 @@
       "sourceTitle": "Schwarz Group — companies and retail divisions",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Lids",
+      "aliases": [
+        "Lids Sports Group"
+      ],
+      "type": "pe",
+      "parent": "Lids · Ames Watson investment",
+      "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+      "sourceTitle": "Ames Watson — current brand investment statement",
+      "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Ames Watson"
+      ]
+    },
+    {
+      "brand": "LidsU",
+      "aliases": [
+        "Lids U"
+      ],
+      "type": "pe",
+      "parent": "LidsU · Ames Watson investment",
+      "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+      "sourceTitle": "Ames Watson — current brand investment statement",
+      "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Ames Watson"
+      ]
     },
     {
       "brand": "Life Time",
@@ -3458,6 +3573,25 @@
       ]
     },
     {
+      "brand": "South Moon Under",
+      "aliases": [],
+      "type": "pe",
+      "parent": "South Moon Under · Ames Watson investment",
+      "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+      "sourceTitle": "Ames Watson — current brand investment statement",
+      "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Ames Watson"
+      ]
+    },
+    {
       "brand": "Speedway",
       "aliases": [],
       "type": "corporate",
@@ -4007,6 +4141,25 @@
       "checked": "2026-10-15"
     },
     {
+      "brand": "Velvet Taco",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Velvet Taco · Leonard Green & Partners growth equity",
+      "source": "https://www.leonardgreen.com/portfolio/",
+      "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+      "note": "The investor marks Velvet Taco as a current growth-equity investment. This establishes backing without asserting a controlling percentage.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
+    },
+    {
       "brand": "Village Whiskey",
       "aliases": [
         "Village Whiskey"
@@ -4020,6 +4173,72 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ]
+    },
+    {
+      "brand": "Vision 4 Less",
+      "aliases": [
+        "Vision4Less"
+      ],
+      "type": "corporate",
+      "parent": "Eyemart Express · VSP Vision",
+      "source": "https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/",
+      "sourceTitle": "VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners",
+      "note": "The completed January 2025 sale transferred Eyemart Express and its named retail banners to VSP Vision. The former sponsor’s portfolio marks the investment past. VSP is a large not-for-profit vision organization; corporate here identifies chain affiliation. An on-site optometrist may be independent.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "VisionMart Express",
+      "aliases": [
+        "Vision Mart Express"
+      ],
+      "type": "corporate",
+      "parent": "Eyemart Express · VSP Vision",
+      "source": "https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/",
+      "sourceTitle": "VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners",
+      "note": "The completed January 2025 sale transferred Eyemart Express and its named retail banners to VSP Vision. The former sponsor’s portfolio marks the investment past. VSP is a large not-for-profit vision organization; corporate here identifies chain affiliation. An on-site optometrist may be independent.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Vital Care Infusion Services",
+      "aliases": [
+        "Vital Care Infusion Pharmacy"
+      ],
+      "type": "pe",
+      "parent": "Vital Care franchisor · Leonard Green & Partners investment",
+      "source": "https://www.leonardgreen.com/portfolio/",
+      "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+      "note": "The investor marks the pharmacy franchisor as a current buyout investment. Local pharmacies are independently operated franchises; the label describes the franchisor, not ownership of each pharmacy. Bare “Vital Care” is not matched because the name is ambiguous.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "matchCategories": [
+        "other"
+      ],
+      "sponsors": [
+        "Leonard Green & Partners"
       ]
     },
     {
@@ -4341,6 +4560,25 @@
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
       "checked": "2026-10-15"
+    },
+    {
+      "brand": "Zaxby’s",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Zaxby’s · Leonard Green & Partners investment",
+      "source": "https://www.leonardgreen.com/portfolio/",
+      "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+      "note": "The investor lists Zaxby’s as a current buyout investment. This identifies franchisor backing; individual restaurants can have separate franchise owners.",
+      "checked": "2026-10-17",
+      "discoverySources": [
+        {
+          "title": "PESP employer tracker — research starting point",
+          "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
+        }
+      ],
+      "sponsors": [
+        "Leonard Green & Partners"
+      ]
     },
     {
       "brand": "ZIMMERMANN",

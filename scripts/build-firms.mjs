@@ -13,6 +13,7 @@ export function validateFirms(data){
   if(firm.status==='not_reviewed'&&firm.holdings.length)throw new Error('Unreviewed holdings cannot be published for '+firm.firm);
   for(const holding of firm.holdings)for(const field of ['company','relationship','source','sourceTitle','note'])if(typeof holding[field]!=='string'||!holding[field].trim())throw new Error('Missing holding evidence on '+firm.firm);
   for(const holding of firm.holdings)if(new URL(holding.source).protocol!=='https:')throw new Error('HTTPS holding source required');
+  for(const holding of firm.holdings)if(holding.checked&&(!/^\d{4}-\d{2}-\d{2}$/.test(holding.checked)||!Number.isFinite(Date.parse(holding.checked))))throw new Error('Invalid holding review date');
  }
  return data;
 }
@@ -28,12 +29,12 @@ export async function generateFirms(){
  await writeFile(new URL('public/pe-firms.json',root),JSON.stringify(payload,null,2)+'\n');
  await writeFile(new URL('public/pe-firm-directory.js',root),'// Generated from data/pe-firms.json and data/brands.json.\nexport const FIRM_CATALOG = '+JSON.stringify(payload,null,2)+';\n');
  const fields=['firm','company','relationship','source','sourceTitle','note','checked'];
- const rows=reviewed.flatMap(firm=>firm.holdings.map(holding=>({...holding,firm:firm.firm,checked:firm.checked})));
+ const rows=reviewed.flatMap(firm=>firm.holdings.map(holding=>({...holding,firm:firm.firm,checked:holding.checked||firm.checked})));
  await writeFile(new URL('public/pe-holdings.csv',root),[fields.map(cell).join(','),...rows.map(row=>fields.map(field=>cell(row[field])).join(','))].join('\r\n')+'\r\n');
  let document='# Private equity firms and selected holdings\n\nResearch seed: [Wikipedia list of private equity firms]('+data.seed+') ([snapshot]('+data.snapshot+')). Firm names from the seed are a research queue and may include historical names, venture firms, or merged businesses. A place in this catalog is not proof of any particular ownership relationship.\n\n'+reviewed.length+' of '+firms.length+' catalog entries have recorded portfolio research. Selected holdings and mapped brands are sourced; this is not a complete inventory of any firm’s investments. Minority stakes, growth investments, portfolio-company brands, and franchises require the scope stated in each record. Unreviewed firms remain explicitly unreviewed.\n\n';
  for(const firm of reviewed){
   document+='## '+md(firm.firm)+'\n\nReview: '+firm.checked+' · '+(firm.status==='partial'?'Partial evidence':'Selected evidence checked')+' · [Portfolio / source]('+firm.source+')\n\n'+md(firm.notes)+'\n\n';
-  if(firm.holdings.length){document+='| Company / brand | Investment relationship | Source | Scope |\n| --- | --- | --- | --- |\n';for(const holding of firm.holdings)document+='| '+[md(holding.company),md(holding.relationship),'['+md(holding.sourceTitle)+']('+holding.source+')',md(holding.note)].join(' | ')+' |\n';}
+  if(firm.holdings.length){document+='| Company / brand | Investment relationship | Source | Scope | Reviewed |\n| --- | --- | --- | --- | --- |\n';for(const holding of firm.holdings)document+='| '+[md(holding.company),md(holding.relationship),'['+md(holding.sourceTitle)+']('+holding.source+')',md(holding.note),holding.checked||firm.checked].join(' | ')+' |\n';}
   if(firm.mappedBrands.length)document+='\nBrands in Local Lens: '+firm.mappedBrands.map(brand=>md(brand.brand)).join(', ')+'.\n';
   document+='\n';
  }

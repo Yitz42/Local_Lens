@@ -33,3 +33,7 @@ The supplied category was reviewed as a discovery source that explicitly mixes c
 The combined release contains 329 corporate/PE brands and selected evidence for 49 of 298 catalog firms, with 129 selected company or brand relationships. This is incomplete research, not a complete current portfolio registry.
 
 The LongRange follow-up additionally verified the completed September 2026 Pizza Hut acquisition, excluding Mainland China, and added that brand with explicit geographic and franchise scope.
+
+## PESP employer tracker — October 17, 2026
+
+Selected examples and related primary-source follow-ups added 12 brands: seven PE backed and five corporate. The directory now contains 341 brands; the firm catalog has selected evidence for 50 of 299 entries and 138 holdings or brand relationships. [Review notes](PESP_REVIEW.md) record current-owner distinctions, source dates, the non-imported Airtable coverage, and pending cases. Discovery links remain separate from primary ownership evidence. Individual holding review dates are preserved when a firm is updated.

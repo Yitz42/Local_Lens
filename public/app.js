@@ -1,4 +1,4 @@
-import {CHECKED,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance} from './ownership.js?v=20261016-wikipedia1';
+import {CHECKED,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance} from './ownership.js?v=20261017-pesp1';
 import {collectPlacePages} from './places-loader.js';
 import {areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js';
 const $=s=>document.querySelector(s);

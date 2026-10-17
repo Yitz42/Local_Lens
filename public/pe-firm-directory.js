@@ -3,11 +3,11 @@ export const FIRM_CATALOG = {
   "version": 1,
   "seed": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
   "snapshot": "https://en.wikipedia.org/w/index.php?title=List_of_private_equity_firms&oldid=1380031888",
-  "catalogChecked": "2026-10-16",
+  "catalogChecked": "2026-10-17",
   "coverage": "The Wikipedia seed is a research queue, not proof of current ownership. Reviewed records contain selected sourced investments and mapped brand affiliations; they are not complete portfolios.",
-  "reviewedCount": 49,
-  "firmCount": 298,
-  "holdingCount": 129,
+  "reviewedCount": 50,
+  "firmCount": 299,
+  "holdingCount": 138,
   "firms": [
     {
       "firm": "3G Capital",
@@ -190,6 +190,83 @@ export const FIRM_CATALOG = {
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
       "mappedBrands": []
+    },
+    {
+      "firm": "Ames Watson",
+      "aliases": [
+        "Ames Watson Capital"
+      ],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "reviewed",
+      "checked": "2026-10-17",
+      "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+      "notes": "Selected current brand investments. The company identifies itself as a private equity holding company and says it invests its own capital rather than using a conventional outside-investor fund. Stake sizes vary. Current brand backing comes from the 2025 company statement; the 2022 company release establishes its private equity holding-company description. This is not a complete portfolio.",
+      "holdings": [
+        {
+          "company": "Claire’s",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "sourceTitle": "Ames Watson — completed Claire’s acquisition and brand investments",
+          "note": "Ames Watson confirms its completed acquisition of Claire’s North American business in September 2025. This record does not apply worldwide or inherit former Apollo, Elliott, or Monarch ownership. Ames Watson describes itself as a private equity holding company; its capital structure differs from a conventional buyout fund.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "Lids",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "sourceTitle": "Ames Watson — current brand investment statement",
+          "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "LidsU",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "sourceTitle": "Ames Watson — current brand investment statement",
+          "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "South Moon Under",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "sourceTitle": "Ames Watson — current brand investment statement",
+          "note": "The company-issued ownership statement names this brand among Ames Watson’s owned or invested-in businesses. This establishes investment backing without claiming an exact stake or ownership of every licensed store.",
+          "checked": "2026-10-17"
+        }
+      ],
+      "mappedBrands": [
+        {
+          "brand": "Claire’s",
+          "parent": "Claire’s North American business · Ames Watson",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "checked": "2026-10-17"
+        },
+        {
+          "brand": "Lids",
+          "parent": "Lids · Ames Watson investment",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "checked": "2026-10-17"
+        },
+        {
+          "brand": "LidsU",
+          "parent": "LidsU · Ames Watson investment",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "checked": "2026-10-17"
+        },
+        {
+          "brand": "South Moon Under",
+          "parent": "South Moon Under · Ames Watson investment",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
+          "checked": "2026-10-17"
+        }
+      ]
     },
     {
       "firm": "Andreessen Horowitz",
@@ -649,9 +726,9 @@ export const FIRM_CATALOG = {
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "seedRank": 3,
       "status": "reviewed",
-      "checked": "2026-10-15",
+      "checked": "2026-10-17",
       "source": "https://7brew.com/about",
-      "notes": "Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register.",
+      "notes": "Selected sourced investments and brand affiliations, with individual holding review dates. The employer-tracker follow-up adds Great Wolf using its current company shareholder statement. This is not a complete portfolio or a register of current stake percentages.",
       "holdings": [
         {
           "company": "7 Brew",
@@ -676,6 +753,14 @@ export const FIRM_CATALOG = {
           "sourceTitle": "Blackstone — current investment and board biography",
           "note": "Blackstone’s current executive biography lists Tropical Smoothie Cafe as a current investment and board role; its official June 2024 announcement confirms the acquisition closed.",
           "checked": "2026-10-16"
+        },
+        {
+          "company": "Great Wolf Resorts / Great Wolf Lodge",
+          "relationship": "Company identifies Blackstone shareholders",
+          "source": "https://www.greatwolf.com/jobs/programs/career-pathways",
+          "sourceTitle": "Great Wolf — current Career Pathways shareholder statement",
+          "note": "Great Wolf’s company page identifies Blackstone as a shareholder. This record does not claim a current ownership percentage or resolve other investors. Hotels and waterparks are firm-research context; the map’s supported place categories are unchanged.",
+          "checked": "2026-10-17"
         }
       ],
       "mappedBrands": [
@@ -3213,9 +3298,9 @@ export const FIRM_CATALOG = {
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "seedRank": 18,
       "status": "reviewed",
-      "checked": "2026-10-15",
+      "checked": "2026-10-17",
       "source": "https://www.leonardgreen.com/portfolio/",
-      "notes": "Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register.",
+      "notes": "Selected sourced brand affiliations and current investments. Each holding keeps its own source review date. The October 2026 employer-tracker follow-up adds Velvet Taco, Zaxby’s, Vital Care, and Stepping Stones Group from entries explicitly marked Current. Eyemart Express is marked Past and is not classified as continuing LGP backing. Minority, franchisor, and service-company scope are stated per record; portfolios remain incomplete.",
       "holdings": [
         {
           "company": "Aspen Dental",
@@ -3264,6 +3349,38 @@ export const FIRM_CATALOG = {
           "sourceTitle": "Leonard Green & Partners — current investment portfolio",
           "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
           "checked": "2026-10-15"
+        },
+        {
+          "company": "Velvet Taco",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+          "note": "The investor marks Velvet Taco as a current growth-equity investment. This establishes backing without asserting a controlling percentage.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "Zaxby’s",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+          "note": "The investor lists Zaxby’s as a current buyout investment. This identifies franchisor backing; individual restaurants can have separate franchise owners.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "Vital Care Infusion Services",
+          "relationship": "Brand-level investment backing; see source scope",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+          "note": "The investor marks the pharmacy franchisor as a current buyout investment. Local pharmacies are independently operated franchises; the label describes the franchisor, not ownership of each pharmacy. Bare “Vital Care” is not matched because the name is ambiguous.",
+          "checked": "2026-10-17"
+        },
+        {
+          "company": "Stepping Stones Group",
+          "relationship": "Current buyout investment",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "sourceTitle": "Leonard Green & Partners — current investment portfolio",
+          "note": "The investor expressly marks this therapy and clinical-staffing company current. It is employer research context, not a claim that schools or partner clinics receiving its services are owned by the sponsor.",
+          "checked": "2026-10-17"
         }
       ],
       "mappedBrands": [
@@ -3359,11 +3476,32 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-15"
         },
         {
+          "brand": "Velvet Taco",
+          "parent": "Velvet Taco · Leonard Green & Partners growth equity",
+          "type": "pe",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "checked": "2026-10-17"
+        },
+        {
+          "brand": "Vital Care Infusion Services",
+          "parent": "Vital Care franchisor · Leonard Green & Partners investment",
+          "type": "pe",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "checked": "2026-10-17"
+        },
+        {
           "brand": "WellNow Urgent Care",
           "parent": "The Aspen Group · LGP investment",
           "type": "pe",
           "source": "https://www.leonardgreen.com/portfolio/",
           "checked": "2026-10-15"
+        },
+        {
+          "brand": "Zaxby’s",
+          "parent": "Zaxby’s · Leonard Green & Partners investment",
+          "type": "pe",
+          "source": "https://www.leonardgreen.com/portfolio/",
+          "checked": "2026-10-17"
         }
       ]
     },

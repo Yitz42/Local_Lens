@@ -29,6 +29,14 @@ test('an unreviewed firm cannot acquire holdings without evidence',()=>{
  assert.throws(()=>validateFirms(dataset([{...pending,holdings:[{company:'Unverified'}]}])),/Unreviewed holdings/);
  assert.throws(()=>validateFirms(dataset([pending,pending])),/duplicate/);
 });
+test('adding firm evidence preserves the review dates of earlier holdings',async()=>{
+ const lgp=FIRM_CATALOG.firms.find(firm=>firm.firm==='Leonard Green & Partners');
+ const earlier=lgp.holdings.find(holding=>holding.checked&&holding.checked<lgp.checked);
+ assert.ok(earlier,'Earlier holding date remains recorded');
+ const csv=await readFile(new URL('../public/pe-holdings.csv',import.meta.url),'utf8');
+ const row=csv.split('\r\n').find(line=>line.startsWith('"Leonard Green & Partners","'+earlier.company+'",'));
+ assert.ok(row.endsWith('"'+earlier.checked+'"'));
+});
 test('firm downloads have fresh responses and correct data formats',async()=>{
  const worker=createWorker({'/pe-firms.json':'{"firms":[]}','/pe-holdings.csv':'firm,company\r\nExample,Brand\r\n'});
  for(const [path,type] of [['/pe-firms.json','application/json'],['/pe-holdings.csv','text/csv']]){

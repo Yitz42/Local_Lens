@@ -42,7 +42,23 @@ test('the directory rejects missing evidence and ambiguous brand aliases',()=>{
  assert.throws(()=>validateDirectory(dataset([{...row,source:'http://example.com'}])),/HTTPS/);
  assert.throws(()=>validateDirectory(dataset([{...row,checked:'yesterday'}])),/review date/);
  assert.throws(()=>validateDirectory(dataset([{...row,wikipedia:'https://example.com/wiki/Brand'}])),/Wikipedia/);
+ assert.throws(()=>validateDirectory(dataset([{...row,discoverySources:[{title:'Tracker',url:'javascript:alert(1)'}]}])),/discovery source/);
+ assert.throws(()=>validateDirectory(dataset([{...row,discoverySources:[{url:'https://example.com'}]}])),/discovery source/);
  assert.throws(()=>validateDirectory(dataset([row,{...row,brand:'Different company',aliases:[row.brand]}])),/Ambiguous alias/);
+});
+test('discovery references stay separate from current ownership evidence',async()=>{
+ const source=JSON.parse(await readFile(new URL('../data/brands.json',import.meta.url),'utf8'));
+ const download=JSON.parse(await readFile(new URL('../public/brands.json',import.meta.url),'utf8'));
+ const rows=source.brands.filter(brand=>brand.discoverySources?.length);
+ assert.ok(rows.length>0);
+ for(const brand of rows){
+  const published=download.brands.find(row=>row.brand===brand.brand);
+  assert.deepEqual(published.discoverySources,brand.discoverySources);
+  for(const reference of brand.discoverySources)assert.notEqual(reference.url,brand.source);
+ }
+ const csv=await readFile(new URL('../public/brands.csv',import.meta.url),'utf8');
+ assert.ok(csv.split('\r\n')[0].includes('"discoverySources"'));
+ assert.ok(csv.includes('PESP employer tracker'));
 });
 test('Wikipedia research references are preserved beside primary ownership evidence',async()=>{
  const discovered=BRAND_DIRECTORY.filter(brand=>brand.wikipedia);

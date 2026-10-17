@@ -14,6 +14,7 @@ Each brand record needs:
 - `note`: the scope of the evidence, franchise/operator distinctions, and minority investment qualifications where relevant.
 - `checked`: the ISO date on which the source was reviewed.
 - Optional `wikipedia`: an English Wikipedia article or list used to discover the brand or its parent. Keep current primary ownership evidence in `source`; the Wikipedia reference is an additional research trail.
+- Optional `discoverySources`: an array of `{title, url}` research starting points, using HTTPS. These may identify a database that led to related company research; they are separate from the primary ownership source and do not mean the brand has a standalone row in that database. The CSV stores this array as JSON in one column.
 - Optional `sponsors`: canonical firm names from `pe-firms.json` supported by the ownership evidence. These link a brand to the firm research report; they do not establish a controlling ownership percentage.
 - Optional `matchCategories`: restrict ambiguous names to relevant app categories (`restaurant`, `grocery`, `gas`, `coffee`, `other`) unless the place data has an explicit matching brand field.
 - Optional `preservePunctuation: true`: require the reviewed spelling after case and whitespace normalization when punctuation distinguishes unrelated chains, such as Whataburger and What-A-Burger.
@@ -22,6 +23,8 @@ Each brand record needs:
 For current private equity backing, verify the current portfolio section, not an exited-investments list. For acquisitions, verify closing rather than relying on an announced agreement. For public companies with investment-firm connections, establish the relevant current ownership/backing before changing the category. Large private family-owned chains belong in the corporate category; private ownership alone does not establish private equity backing.
 
 The categories are mutually exclusive for filtering: a documented PE-backed brand uses `pe`, and other reviewed large chains use `corporate`. Neither category verifies ownership of each individual franchise, licensed store, or branded fuel station. The map's ownership matcher currently covers researched continental US geography; related international brand references do not establish worldwide ownership.
+
+The PE category can include a documented private equity holding company investing its own capital, such as Ames Watson; describe that scope instead of assuming a conventional outside-investor fund. The corporate category can include large not-for-profit retail groups such as VSP Vision. A publicly listed business development company or a credit investment does not automatically establish backing by a buyout firm. Record the actual equity and parent evidence, rather than copying historical sponsor labels.
 
 After an edit, run:
 
