@@ -2,9 +2,9 @@
 
 US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.
 
-346 distinct brands, with overlapping categories: 221 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
+348 distinct brands, with overlapping categories: 223 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
 
-Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Corporate includes every verified stock-exchange-listed company and its owned brands, regardless of size, plus large private chains. Publicly traded companies with PE backing appear in both sections and match either exclusion filter. A listed financial sponsor alone does not make its private portfolio companies public. PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent.
+Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Corporate includes every verified stock-exchange-listed company and its owned brands, regardless of size, plus large private chains. Publicly traded companies with PE backing appear in both sections and match either exclusion filter. A listed financial sponsor alone does not make its private portfolio companies public. PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent. Former-chain records, including Rite Aid and Bartell Drugs, identify legacy brand affiliation; their notes describe closures and do not establish that a location is still open.
 
 Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run build`. The app matcher, browser list, JSON, CSV, and this document are generated from the same records.
 
@@ -34,6 +34,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Baker’s | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Balducci’s Food Lovers Market | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Banana Republic | Gap Inc. | 2026-10-15 | [Gap Inc. — brand portfolio](https://www.gapinc.com/en-us) |
+| Bartell Drugs | Rite Aid · former Bartell Drugs chain | 2026-10-25 | [CVS Health — conversion of former Rite Aid and Bartell Drugs stores](https://investors.cvshealth.com/news/news-details/2025/CVS-Pharmacy-completes-acquisition-of-Rite-Aid-assets-nationwide/default.aspx) · [HistoryLink — last Bartell drugstores closed in September 2025](https://www.historylink.org/File/23453) |
 | Bashas’ | The Raley’s Companies | 2026-10-16 | [The Raley’s Companies — current family of store banners](https://theraleyscompanies.com/our-story/) · [Wikipedia](https://en.wikipedia.org/wiki/Raley%27s_Supermarkets) |
 | Bel Air Markets | The Raley’s Companies | 2026-10-16 | [The Raley’s Companies — current family of store banners](https://theraleyscompanies.com/our-story/) · [Wikipedia](https://en.wikipedia.org/wiki/Raley%27s_Supermarkets) |
 | Best Buy | Best Buy Co., Inc. | 2026-10-15 | [Best Buy — about the company](https://corporate.bestbuy.com/about-best-buy/) |
@@ -174,6 +175,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Randalls | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Red Ribbon Bakeshop | Jollibee Foods Corporation | 2026-10-16 | [Jollibee Group — our brands](https://www.jollibeegroup.com/our-brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Red_Ribbon_Bakeshop) |
 | Rejuvenation | Williams-Sonoma, Inc. | 2026-10-15 | [Williams-Sonoma — brand portfolio](https://www.williams-sonomainc.com/) |
+| Rite Aid | Rite Aid · former large pharmacy chain | 2026-10-25 | [CVS Health — completed acquisition and conversion of selected Rite Aid assets](https://investors.cvshealth.com/news/news-details/2025/CVS-Pharmacy-completes-acquisition-of-Rite-Aid-assets-nationwide/default.aspx) · [Retail Dive — all Rite Aid retail locations closed in 2025](https://www.retaildive.com/news/rite-aid-pharmacy-closes-all-stores-bankruptcy/802012/) |
 | Ross Dress for Less | Ross Stores, Inc. | 2026-10-15 | [Ross Stores — corporate profile](https://investors.rossstores.com/corporate-profile) |
 | Ruth’s Chris Steak House | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Safeway | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |

@@ -571,6 +571,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Bartell Drugs",
+    "aliases": [
+      "Bartell Drug",
+      "Bartell Drug Company",
+      "Bartell's Drugs",
+      "Bartell Drugs Pharmacy"
+    ],
+    "type": "corporate",
+    "parent": "Rite Aid · former Bartell Drugs chain",
+    "source": "https://investors.cvshealth.com/news/news-details/2025/CVS-Pharmacy-completes-acquisition-of-Rite-Aid-assets-nationwide/default.aspx",
+    "sourceTitle": "CVS Health — conversion of former Rite Aid and Bartell Drugs stores",
+    "note": "Former Rite Aid-owned regional pharmacy chain. The Bartell retail chain ended in 2025; selected locations were converted to CVS. This corporate classification covers legacy brand names in map data and saved places, not a claim that a store is still open or that CVS acquired every Bartell location. No current stock listing is asserted.",
+    "checked": "2026-10-25",
+    "discoverySources": [
+      {
+        "title": "HistoryLink — last Bartell drugstores closed in September 2025",
+        "url": "https://www.historylink.org/File/23453"
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Bashas’",
     "aliases": [
       "Bashas'"
@@ -4334,6 +4358,30 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Rite Aid",
+    "aliases": [
+      "RiteAid",
+      "Rite Aid Pharmacy",
+      "Rite Aid Drugstore",
+      "Rite Aid Corporation"
+    ],
+    "type": "corporate",
+    "parent": "Rite Aid · former large pharmacy chain",
+    "source": "https://investors.cvshealth.com/news/news-details/2025/CVS-Pharmacy-completes-acquisition-of-Rite-Aid-assets-nationwide/default.aspx",
+    "sourceTitle": "CVS Health — completed acquisition and conversion of selected Rite Aid assets",
+    "note": "Former large pharmacy and general-retail chain. Its retail stores closed in 2025; this record classifies legacy map listings and saved places, not an active store network or a current stock listing. CVS acquired selected stores and prescription files, not the entire Rite Aid business. A place still named Rite Aid may have closed or changed operators.",
+    "checked": "2026-10-25",
+    "discoverySources": [
+      {
+        "title": "Retail Dive — all Rite Aid retail locations closed in 2025",
+        "url": "https://www.retaildive.com/news/rite-aid-pharmacy-closes-all-stores-bankruptcy/802012/"
+      }
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {

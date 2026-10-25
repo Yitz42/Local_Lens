@@ -42,6 +42,17 @@ test('corporate exclusion hides the corrected brands while retaining unknown pla
  assert.deepEqual(filterPlaces(places,{origin,hidden:['corporate']}).map(p=>p.name),['Neighborhood Kitchen']);
  assert.equal(filterPlaces(places,{origin,hidden:['pe']}).length,4);
 });
+test('former pharmacy chains are classified in legacy records without claiming a current listing',()=>{
+ const names=['Rite Aid','RiteAid','Rite Aid Pharmacy #1234','Rite Aid Drugstore','Bartell Drugs','Bartell Drug Company','Bartell Drugs Pharmacy #42'];
+ for(const category of ['grocery','other'])for(const name of names){
+  const place=p(name,{category}),match=ownershipFor(place);
+  assert.equal(match.type,'corporate',name);assert.equal(match.publicListing,undefined);
+  assert.match(match.note,/2025/);assert.match(match.note,/legacy/i);
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe']}).length,0,name);
+ }
+ assert.equal(ownershipFor(p('Downtown pharmacy',{brand:'Rite Aid'})).brand,'Rite Aid');
+ for(const name of ['Rite Aid Consulting','Rite Away Pharmacy','Bartell Family Market','Rite Aid Independent Clinic'])assert.equal(ownershipFor(p(name)).type,'unknown',name);
+});
 test('ownership exclusions combine with categories and radius',()=>{
  const places=[p('Subway'),p('Whole Foods Market',{category:'grocery'}),p('Neighborhood Kitchen'),p('Wheatsville Food Co-op',{category:'grocery'}),p('Faraway',{lat:35})];
  const options={origin,hidden:['pe','corporate'],radius:3500};
