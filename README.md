@@ -58,3 +58,9 @@ Corporate and PE exclusions start on. The updated default is applied once when u
 Use the Food types checkboxes for Italian, pizza, and other supported cuisines or food styles. Multiple checks match any selected type and combine with ownership, radius, and place-category filters. Clearing food choices leaves ownership filters in place. The UI uses explicit Overture primary/hierarchy/alternate categories and OSM cuisine tags, never guesses from business names. Some places lack these tags and therefore do not match a selected food type. Saved legacy records can use their existing cuisine string.
 
 The Worker preserves food tags and uses a new edge-cache namespace. Nearby browser caches use format 2 so old records that omitted cuisine tags are not reused as current responses. Saved places remain available; food choices are scoped to the current view.
+
+## All large brands and chains
+
+The Ownership filters panel has an **All large brands & chains** control that enables or clears the corporate and PE exclusions together. Individual switches remain available; a partial selection appears as a mixed state on the combined control. Unknown-ownership choices are independent. The control uses the sourced directory rather than inferring chain size from a business name.
+
+Five Guys is included as a large privately owned chain, based on its [private-ownership and franchise FAQ](https://www.fiveguys.com/support-hub/faqs/) and [2026 family-business history](https://www.fiveguys.com/news/media-mentions/featured-stories/five-guys-celebrates-40-years-of-burgers-fries-and-family/). Its local franchise operators can differ from the brand owner. Large privately held chains qualify even without a stock listing or PE investment.

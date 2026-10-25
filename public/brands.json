@@ -2083,6 +2083,31 @@
       ]
     },
     {
+      "brand": "Five Guys",
+      "aliases": [
+        "Five Guys Burgers and Fries",
+        "Five Guys Burgers & Fries"
+      ],
+      "type": "corporate",
+      "parent": "Five Guys Enterprises LLC · Murrell family business",
+      "source": "https://www.fiveguys.com/support-hub/faqs/",
+      "sourceTitle": "Five Guys — private ownership and franchising FAQ",
+      "note": "Five Guys identifies itself as privately owned and describes its franchise network. Its 2026 company history confirms it remains a family business with a large international restaurant network. The corporate category includes large private chains; a local franchise operator may have a different owner.",
+      "checked": "2026-10-25",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "discoverySources": [
+        {
+          "title": "Five Guys — 2026 family business and network history",
+          "url": "https://www.fiveguys.com/news/media-mentions/featured-stories/five-guys-celebrates-40-years-of-burgers-fries-and-family/"
+        }
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Flower Child",
       "aliases": [],
       "type": "corporate",

@@ -226,6 +226,18 @@
       ]
     },
     {
+      "brand": "American Eagle",
+      "aliases": [
+        "American Eagle Outfitters"
+      ],
+      "type": "corporate",
+      "parent": "American Eagle Outfitters, Inc.",
+      "source": "https://www.aeo-inc.com/about-aeo/",
+      "sourceTitle": "American Eagle Outfitters — about AEO",
+      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
+      "checked": "2026-10-15"
+    },
+    {
       "brand": "America’s Best Contacts & Eyeglasses",
       "aliases": [
         "America's Best Contacts and Eyeglasses",
@@ -238,18 +250,6 @@
       "note": "National Vision lists America’s Best as an owned optical retail brand. Its March 2026 report explicitly states that KKR and Berkshire Partners had sold all their remaining common shares by August 2019. The historical private equity category is not evidence of continuing sponsor ownership.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
-    },
-    {
-      "brand": "American Eagle",
-      "aliases": [
-        "American Eagle Outfitters"
-      ],
-      "type": "corporate",
-      "parent": "American Eagle Outfitters, Inc.",
-      "source": "https://www.aeo-inc.com/about-aeo/",
-      "sourceTitle": "American Eagle Outfitters — about AEO",
-      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
     },
     {
       "brand": "Amoco",
@@ -1739,6 +1739,28 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Five_Below"
     },
     {
+      "brand": "Five Guys",
+      "aliases": [
+        "Five Guys Burgers and Fries",
+        "Five Guys Burgers & Fries"
+      ],
+      "type": "corporate",
+      "parent": "Five Guys Enterprises LLC · Murrell family business",
+      "source": "https://www.fiveguys.com/support-hub/faqs/",
+      "sourceTitle": "Five Guys — private ownership and franchising FAQ",
+      "note": "Five Guys identifies itself as privately owned and describes its franchise network. Its 2026 company history confirms it remains a family business with a large international restaurant network. The corporate category includes large private chains; a local franchise operator may have a different owner.",
+      "checked": "2026-10-25",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "discoverySources": [
+        {
+          "title": "Five Guys — 2026 family business and network history",
+          "url": "https://www.fiveguys.com/news/media-mentions/featured-stories/five-guys-celebrates-40-years-of-burgers-fries-and-family/"
+        }
+      ]
+    },
+    {
       "brand": "Flower Child",
       "aliases": [],
       "type": "corporate",
@@ -3020,19 +3042,6 @@
       ]
     },
     {
-      "brand": "O’Reilly Auto Parts",
-      "aliases": [
-        "O'Reilly",
-        "OReilly Auto Parts"
-      ],
-      "type": "corporate",
-      "parent": "O’Reilly Automotive, Inc.",
-      "source": "https://corporate.oreillyauto.com/2026/04/29/oreilly-automotive-inc-reports-first-quarter-2026-results/",
-      "sourceTitle": "O’Reilly Automotive — first-quarter 2026 results",
-      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
-    },
-    {
       "brand": "Old Navy",
       "aliases": [],
       "type": "corporate",
@@ -3083,6 +3092,19 @@
       "sponsors": [
         "Roark"
       ]
+    },
+    {
+      "brand": "O’Reilly Auto Parts",
+      "aliases": [
+        "O'Reilly",
+        "OReilly Auto Parts"
+      ],
+      "type": "corporate",
+      "parent": "O’Reilly Automotive, Inc.",
+      "source": "https://corporate.oreillyauto.com/2026/04/29/oreilly-automotive-inc-reports-first-quarter-2026-results/",
+      "sourceTitle": "O’Reilly Automotive — first-quarter 2026 results",
+      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
+      "checked": "2026-10-15"
     },
     {
       "brand": "Panda Express",

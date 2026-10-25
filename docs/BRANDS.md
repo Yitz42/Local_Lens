@@ -2,7 +2,7 @@
 
 US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.
 
-345 distinct brands, with overlapping categories: 220 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
+346 distinct brands, with overlapping categories: 221 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
 
 Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Corporate includes every verified stock-exchange-listed company and its owned brands, regardless of size, plus large private chains. Publicly traded companies with PE backing appear in both sections and match either exclusion filter. A listed financial sponsor alone does not make its private portfolio companies public. PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent.
 
@@ -88,6 +88,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Firehouse Subs | Restaurant Brands International Inc. | 2026-10-15 | [Restaurant Brands International — brands](https://www.rbi.com/English/brands/default.aspx) |
 | Firestone Complete Auto Care | Bridgestone Retail Operations · Bridgestone Americas | 2026-10-16 | [Bridgestone — retail operations portfolio](https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/) · [Wikipedia](https://en.wikipedia.org/wiki/Bridgestone) |
 | Five Below | Five Below, Inc. | 2026-10-16 | [Five Below — investor and company overview](https://investor.fivebelow.com/investors/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Five_Below) |
+| Five Guys | Five Guys Enterprises LLC · Murrell family business | 2026-10-25 | [Five Guys — private ownership and franchising FAQ](https://www.fiveguys.com/support-hub/faqs/) · [Five Guys — 2026 family business and network history](https://www.fiveguys.com/news/media-mentions/featured-stories/five-guys-celebrates-40-years-of-burgers-fries-and-family/) |
 | Flower Child | The Cheesecake Factory Incorporated | 2026-10-15 | [The Cheesecake Factory — company overview](https://investors.thecheesecakefactory.com/about-us/company-overview/default.aspx) |
 | Food Lion | Ahold Delhaize | 2026-10-15 | [Ahold Delhaize — US brands digital platform](https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/) |
 | Foot Locker | DICK’S Sporting Goods, Inc. · Foot Locker | 2026-10-16 | [DICK’S — acquisition of Foot Locker completed](https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Foot_Locker) |

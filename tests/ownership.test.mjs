@@ -1,5 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {ownershipFor,filterPlaces,fromOSM,distance} from '../public/ownership.js';
+import {allBrandsFilterState,setAllBrandsHidden} from '../public/ownership-categories.js';
 const origin={lat:30.2747,lng:-97.7523};
 const p=(name,extra={})=>({id:name,name,category:'restaurant',...origin,...extra});
 test('ownership uses exact brands and never assumes unknown means independent',()=>{
@@ -74,4 +75,23 @@ test('listed retail additions retain exact matching and category context',()=>{
  assert.equal(ownershipFor(p('CAVA')).type,'corporate');
  assert.equal(ownershipFor(p('Sweetgreen')).type,'corporate');
  assert.equal(ownershipFor(p('Dutch Bros Coffee',{category:'coffee'})).type,'corporate');
+});
+test('large private Five Guys variants match without absorbing unrelated businesses',()=>{
+ for(const name of ['Five Guys','Five Guys Burgers and Fries','Five Guys Burgers & Fries','Five Guys #123']){
+  const match=ownershipFor(p(name));assert.equal(match.type,'corporate',name);assert.match(match.parent,/Five Guys/);assert.equal(match.publicListing,undefined);
+  assert.equal(filterPlaces([p(name)],{origin,hidden:['corporate']}).length,0);
+ }
+ assert.equal(ownershipFor(p('Five Guys Plumbing')).type,'unknown');
+ assert.equal(ownershipFor(p('Five Guys',{category:'other'})).type,'unknown');
+ assert.equal(ownershipFor(p('Five Guys',{lat:51.5,lng:-.1})).type,'unknown');
+});
+test('the all-brands control combines corporate and PE exclusions while preserving unknown choices',()=>{
+ const mixed=['corporate','unknown'];
+ assert.deepEqual(allBrandsFilterState(mixed),{checked:false,indeterminate:true});
+ const all=setAllBrandsHidden(mixed,true);assert.deepEqual(allBrandsFilterState(all),{checked:true,indeterminate:false});
+ assert.ok(all.includes('unknown'));assert.deepEqual(setAllBrandsHidden(all,false),['unknown']);
+ assert.deepEqual(mixed,['corporate','unknown']);
+ const places=[p('Five Guys'),p('Subway'),p('Chick-fil-A'),p('Petco',{category:'other'}),p('Town Kitchen')];
+ assert.deepEqual(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],true)}).map(place=>place.name),['Town Kitchen']);
+ assert.equal(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],false)}).length,places.length);
 });
