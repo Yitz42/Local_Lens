@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-17",
+  "checked": "2026-10-25",
   "coverage": "US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.",
   "brands": [
     {
@@ -17,7 +17,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "24 Hour Fitness",
@@ -95,7 +109,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "ACME",
@@ -198,18 +226,6 @@
       ]
     },
     {
-      "brand": "American Eagle",
-      "aliases": [
-        "American Eagle Outfitters"
-      ],
-      "type": "corporate",
-      "parent": "American Eagle Outfitters, Inc.",
-      "source": "https://www.aeo-inc.com/about-aeo/",
-      "sourceTitle": "American Eagle Outfitters — about AEO",
-      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
-    },
-    {
       "brand": "America’s Best Contacts & Eyeglasses",
       "aliases": [
         "America's Best Contacts and Eyeglasses",
@@ -222,6 +238,18 @@
       "note": "National Vision lists America’s Best as an owned optical retail brand. Its March 2026 report explicitly states that KKR and Berkshire Partners had sold all their remaining common shares by August 2019. The historical private equity category is not evidence of continuing sponsor ownership.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+    },
+    {
+      "brand": "American Eagle",
+      "aliases": [
+        "American Eagle Outfitters"
+      ],
+      "type": "corporate",
+      "parent": "American Eagle Outfitters, Inc.",
+      "source": "https://www.aeo-inc.com/about-aeo/",
+      "sourceTitle": "American Eagle Outfitters — about AEO",
+      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
+      "checked": "2026-10-15"
     },
     {
       "brand": "Amoco",
@@ -270,6 +298,36 @@
       "sponsors": [
         "Roark"
       ]
+    },
+    {
+      "brand": "Apple",
+      "aliases": [
+        "Apple Store",
+        "Apple Retail Store"
+      ],
+      "parent": "Apple Inc.",
+      "source": "https://www.apple.com/retail/",
+      "sourceTitle": "Apple — official retail stores",
+      "note": "Apple’s own retail-store network belongs to the Nasdaq-listed operating company. This does not classify independent repair shops or authorized resellers as Apple-owned.",
+      "matchCategories": [
+        "other"
+      ],
+      "publicListing": {
+        "company": "Apple Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "AAPL"
+          }
+        ],
+        "source": "https://investor.apple.com/faq/default.aspx",
+        "sourceTitle": "Apple — stock exchange FAQ",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25"
     },
     {
       "brand": "Arby's",
@@ -527,7 +585,21 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "L Catterton"
-      ]
+      ],
+      "publicListing": {
+        "company": "Birkenstock Holding plc",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BIRK"
+          }
+        ],
+        "source": "https://www.birkenstock-holding.com/news/birkenstock-reports-fiscal-third-quarter-2026-results-with-15percent-constant-fx-revenue-growth-led-by/ea946937-0de8-419e-b169-012ebbc89b2f",
+        "sourceTitle": "Birkenstock — fiscal third-quarter 2026 results",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "BJ’s Wholesale Club",
@@ -595,7 +667,21 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture",
       "sponsors": [
         "Bain Capital"
-      ]
+      ],
+      "publicListing": {
+        "company": "Bob’s Discount Furniture, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BOBS"
+          }
+        ],
+        "source": "https://ir.mybobs.com/news-events/press-releases/detail/135/bobs-discount-furniture-announces-third-quarter-2026-conference-call-date",
+        "sourceTitle": "Bob’s Discount Furniture — October 2026 investor announcement",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Bojangles",
@@ -776,7 +862,25 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Bain Capital"
-      ]
+      ],
+      "publicListing": {
+        "company": "Canada Goose Holdings Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "GOOS"
+          },
+          {
+            "exchange": "TSX",
+            "ticker": "GOOS"
+          }
+        ],
+        "source": "https://investor.canadagoose.com/news/news-details/2026/Canada-Goose-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx",
+        "sourceTitle": "Canada Goose — fiscal 2026 results and dual listing",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Carl's Jr.",
@@ -814,7 +918,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Carvel",
@@ -830,6 +948,33 @@
       "sponsors": [
         "Roark"
       ]
+    },
+    {
+      "brand": "CAVA",
+      "aliases": [],
+      "parent": "CAVA Group, Inc.",
+      "source": "https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx",
+      "sourceTitle": "CAVA — second-quarter 2026 company results",
+      "note": "The restaurant company identifies its CAVA brand and NYSE-listed equity. Publicly traded companies qualify for the corporate category regardless of size.",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "publicListing": {
+        "company": "CAVA Group, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CAVA"
+          }
+        ],
+        "source": "https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx",
+        "sourceTitle": "CAVA — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25"
     },
     {
       "brand": "Central Market",
@@ -1311,6 +1456,32 @@
       "sponsors": [
         "Roark"
       ]
+    },
+    {
+      "brand": "Dutch Bros",
+      "aliases": [
+        "Dutch Bros Coffee"
+      ],
+      "parent": "Dutch Bros Inc.",
+      "source": "https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results",
+      "sourceTitle": "Dutch Bros — second-quarter 2026 company results",
+      "note": "The NYSE-listed beverage-shop operator identifies company-operated and franchised shops. The label records corporate brand affiliation; a franchise operator may have a different owner.",
+      "publicListing": {
+        "company": "Dutch Bros Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BROS"
+          }
+        ],
+        "source": "https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results",
+        "sourceTitle": "Dutch Bros — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25"
     },
     {
       "brand": "Eddie V’s",
@@ -2279,7 +2450,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
-      ]
+      ],
+      "publicListing": {
+        "company": "Life Time Group Holdings, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "LTH"
+          }
+        ],
+        "source": "https://ir.lifetime.life/",
+        "sourceTitle": "Life Time — current investor relations",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "LifeStance Health",
@@ -2295,7 +2480,21 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TPG"
-      ]
+      ],
+      "publicListing": {
+        "company": "LifeStance Health Group, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "LFST"
+          }
+        ],
+        "source": "https://investor.lifestance.com/",
+        "sourceTitle": "LifeStance — current investor relations",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "LOFT",
@@ -2361,7 +2560,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Macy’s",
@@ -2575,7 +2788,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Menards",
@@ -2675,10 +2902,10 @@
       "aliases": [],
       "type": "pe",
       "parent": "Leonard Green & Partners portfolio investment",
-      "source": "https://www.leonardgreen.com/portfolio/",
-      "sourceTitle": "Leonard Green & Partners — current investment portfolio",
-      "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15",
+      "source": "https://www.sec.gov/Archives/edgar/data/1853513/000119312526229866/d128344dex991.htm",
+      "sourceTitle": "Mister Car Wash — completed take-private acquisition, May 2026",
+      "note": "The company confirms the completed May 19, 2026 acquisition by Leonard Green-managed funds and says its stock ceased trading. The former MCW listing is not treated as current public equity.",
+      "checked": "2026-10-25",
       "sponsors": [
         "Leonard Green & Partners"
       ]
@@ -2793,6 +3020,19 @@
       ]
     },
     {
+      "brand": "O’Reilly Auto Parts",
+      "aliases": [
+        "O'Reilly",
+        "OReilly Auto Parts"
+      ],
+      "type": "corporate",
+      "parent": "O’Reilly Automotive, Inc.",
+      "source": "https://corporate.oreillyauto.com/2026/04/29/oreilly-automotive-inc-reports-first-quarter-2026-results/",
+      "sourceTitle": "O’Reilly Automotive — first-quarter 2026 results",
+      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
+      "checked": "2026-10-15"
+    },
+    {
       "brand": "Old Navy",
       "aliases": [],
       "type": "corporate",
@@ -2843,19 +3083,6 @@
       "sponsors": [
         "Roark"
       ]
-    },
-    {
-      "brand": "O’Reilly Auto Parts",
-      "aliases": [
-        "O'Reilly",
-        "OReilly Auto Parts"
-      ],
-      "type": "corporate",
-      "parent": "O’Reilly Automotive, Inc.",
-      "source": "https://corporate.oreillyauto.com/2026/04/29/oreilly-automotive-inc-reports-first-quarter-2026-results/",
-      "sourceTitle": "O’Reilly Automotive — first-quarter 2026 results",
-      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
     },
     {
       "brand": "Panda Express",
@@ -2929,7 +3156,21 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "CVC Capital Partners"
-      ]
+      ],
+      "publicListing": {
+        "company": "Petco Health and Wellness Company, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WOOF"
+          }
+        ],
+        "source": "https://ir.petco.com/shareholder-resources/faqs",
+        "sourceTitle": "Petco — stock listing FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Petsense by Tractor Supply",
@@ -3764,6 +4005,30 @@
       ]
     },
     {
+      "brand": "Sweetgreen",
+      "aliases": [],
+      "parent": "Sweetgreen, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm",
+      "sourceTitle": "Sweetgreen — second-quarter 2026 company release filed with the SEC",
+      "note": "Sweetgreen identifies its restaurant operating company as listed on the NYSE. The corporate label applies to this reviewed brand affiliation.",
+      "publicListing": {
+        "company": "Sweetgreen, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm",
+        "sourceTitle": "Sweetgreen — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25"
+    },
+    {
       "brand": "Taco Bell",
       "aliases": [],
       "type": "corporate",
@@ -3800,7 +4065,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Talbots",
@@ -4045,7 +4324,21 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
-      ]
+      ],
+      "publicListing": {
+        "company": "Torrid Holdings Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CURV"
+          }
+        ],
+        "source": "https://investors.torrid.com/news/news-details/2026/Torrid-Reports-Second-Quarter-2026-Results-and-Updates-Fiscal-2026-Guidance/default.aspx",
+        "sourceTitle": "Torrid — second-quarter 2026 results",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Tractor Supply Company",
@@ -4460,7 +4753,21 @@
       "source": "https://press.aboutamazon.com/company-news/2025/8/amazon-com-inc-announces-redemption-of-its-5-200-notes-due-december-3-2025",
       "sourceTitle": "Amazon — Whole Foods Market wholly owned subsidiary",
       "note": "Amazon identifies Whole Foods Market as its wholly owned subsidiary.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "publicListing": {
+        "company": "Amazon.com, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "AMZN"
+          }
+        ],
+        "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+        "sourceTitle": "Amazon — second-quarter 2026 listing statement",
+        "checked": "2026-10-25"
+      }
     },
     {
       "brand": "Williams Sonoma",

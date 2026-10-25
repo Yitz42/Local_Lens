@@ -51,3 +51,27 @@ test('OSM nodes and area centers normalize to mapped places',()=>{
  const data=fromOSM([{type:'way',id:1,center:{lat:30.2,lon:-97.7},tags:{name:'A Market',shop:'supermarket','addr:housenumber':'100','addr:street':'Main St'}},{type:'node',id:2,lat:30.2,lon:-97.7,tags:{name:'A Market',shop:'supermarket'}},{type:'node',id:3,tags:{name:'Missing location'}}]);
  assert.equal(data.length,1);assert.equal(data[0].category,'grocery');assert.equal(data[0].address,'100 Main St');assert.equal(data[0].id,'way/1');assert.equal(distance(origin,origin),0);
 });
+
+test('listed companies with PE backing match either exclusion independently',()=>{
+ const brands=['Petco','Canada Goose','Birkenstock',"Bob's Discount Furniture",'Life Time','LifeStance Health','Torrid','Meineke'];
+ for(const name of brands){
+  const place=p(name,{category:'other'});
+  assert.equal(ownershipFor(place).type,'pe',name);
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate']}).length,0,name);
+  assert.equal(filterPlaces([place],{origin,hidden:['pe']}).length,0,name);
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe']}).length,0,name);
+ }
+});
+test('public financial sponsors do not make private portfolio companies listed',()=>{
+ const places=[p("Jersey Mike's Subs"),p('Mister Car Wash'),p('Walgreens')];
+ assert.equal(filterPlaces(places,{origin,hidden:['corporate']}).length,3);
+ assert.equal(filterPlaces(places,{origin,hidden:['pe']}).length,0);
+});
+test('listed retail additions retain exact matching and category context',()=>{
+ assert.equal(ownershipFor(p('Apple',{category:'other'})).type,'corporate');
+ assert.equal(ownershipFor(p('Apple')).type,'unknown');
+ assert.equal(ownershipFor(p('Apple repair independent',{category:'other'})).type,'unknown');
+ assert.equal(ownershipFor(p('CAVA')).type,'corporate');
+ assert.equal(ownershipFor(p('Sweetgreen')).type,'corporate');
+ assert.equal(ownershipFor(p('Dutch Bros Coffee',{category:'coffee'})).type,'corporate');
+});

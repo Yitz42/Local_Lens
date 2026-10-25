@@ -1,6 +1,6 @@
 # Local Lens
 
-A responsive map app for discovering restaurants, groceries, gas stations, coffee shops, and other stores. Use geolocation, enter a location, or pan the map and search again. Hide private-equity-backed brands, large corporate brands, and unverified places independently. Open a place for the parent company, supporting source, scope, and review date. Saved places and filters stay in localStorage on the current browser.
+A responsive map app for discovering restaurants, groceries, gas stations, coffee shops, and other stores. Use geolocation, enter a location, or pan the map and search again. Hide private-equity-backed brands, corporate brands (including every reviewed public company), and unverified places independently. Open a place for the parent company, supporting source, scope, and review date. Saved places and filters stay in localStorage on the current browser.
 
 ## Brand directory
 
@@ -32,7 +32,7 @@ Update `worker/overture.js` RELEASE and DATA_DATE together when adopting a new p
 
 `data/brands.json` is the editable ownership source. Run `npm run directory` after changes to regenerate `public/brand-directory.js`, `public/brands.json`, `public/brands.csv`, and `docs/BRANDS.md`. The build regenerates these files too. `public/ownership.js` matches places against those same records. Every known ownership rule has a primary-source link, review date, and explanation. Matching uses reviewed aliases from the brand or place name, ignoring punctuation and an optional trailing numeric store identifier (such as `CVS Pharmacy #1234`); it does not use loose substring matches. Shared names such as ACME require the expected store category or an explicit place-data brand field; use an optional `matchCategories` array to restrict a collision-prone row. There is no guess that an unknown brand is independent. Independent Austin businesses are geographically limited. The corporate category includes large privately held chains, including Chick-fil-A and Einstein Bros. Bagels; CVS Pharmacy is classified under CVS Health. Private equity backing includes listed investments that may be minority stakes. Brand affiliation and individual store ownership differ, especially for franchises and fuel stations. International ownership, local operating companies, automatic ownership updates, business hours, and completeness are not verified.
 
-Places and ownership facts are separate data layers. Extend the directory with reviewed primary sources; do not derive ownership from the place's name or appearance. Each row needs a distinct brand name, reviewed spelling aliases, ownership type (`corporate`, `pe`, or a geographically limited `independent` reference), parent/backing, HTTPS source and title, explanatory note, and ISO review date. Cite current company pages, portfolio holdings, or regulatory filings. Check whether a portfolio labels the investment current or exited and whether an acquisition actually closed. State minority stakes explicitly. Run `npm run directory`, `npm test`, and `npm run build` before committing. Review dates are recorded per entry; the latest research pass was October 17, 2026.
+Places and ownership facts are separate data layers. Extend the directory with reviewed primary sources; do not derive ownership from the place's name or appearance. Each row needs a distinct brand name, reviewed spelling aliases, ownership type (`corporate`, `pe`, or a geographically limited `independent` reference), parent/backing, HTTPS source and title, explanatory note, and ISO review date. Cite current company pages, portfolio holdings, or regulatory filings. Check whether a portfolio labels the investment current or exited and whether an acquisition actually closed. State minority stakes explicitly. Run `npm run directory`, `npm test`, and `npm run build` before committing. Review dates are recorded per entry; the latest research pass was October 25, 2026.
 
 ## Hosting
 
@@ -46,3 +46,7 @@ Leaflet.markercluster 1.5.3, MIT: https://github.com/Leaflet/Leaflet.markerclust
 Leaflet 1.9.4, BSD-2-Clause: https://github.com/Leaflet/Leaflet
 
 Place data © Overture Maps Foundation and its sources. Release and licenses: https://docs.overturemaps.org/attribution/
+
+## Publicly traded companies
+
+Corporate includes any reviewed operating company with equity listed on a stock exchange, regardless of size, and its owned brands. Companies with documented PE backing can appear in both filters; either exclusion hides them. `publicListing` stores the issuer, exchange/ticker pairs, source, and a separate review date. Cards and downloads show this evidence, and ticker symbols are searchable. A listed financial sponsor alone does not make a private portfolio company public. The source-linked stock review is in [docs/PUBLIC_COMPANIES.md](docs/PUBLIC_COMPANIES.md). Coverage remains a selected US-focused brand directory, not an exhaustive global list of all listed companies.

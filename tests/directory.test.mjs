@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {BRAND_DIRECTORY} from '../public/brand-directory.js';
 import {ownershipFor,filterPlaces} from '../public/ownership.js';
+import {ownershipCategories} from '../public/ownership-categories.js';
 import {searchBrands} from '../public/directory-utils.js';
 import {validateDirectory} from '../scripts/build-directory.mjs';
 import {createWorker} from '../worker/index.js';
@@ -14,7 +15,7 @@ test('the published list, matcher, and downloads cover the same reviewed brands'
  const listed=BRAND_DIRECTORY.filter(brand=>brand.type!=='independent');
  assert.ok(listed.length>150,'Substantially expanded directory expected');
  assert.equal(source.brands.length,BRAND_DIRECTORY.length);
- assert.deepEqual([...source.brands].sort((a,b)=>a.brand.localeCompare(b.brand,'en')),BRAND_DIRECTORY);
+ assert.deepEqual([...source.brands].sort((a,b)=>a.brand.localeCompare(b.brand,'en')).map(brand=>({...brand,categories:ownershipCategories(brand)})),BRAND_DIRECTORY);
  assert.deepEqual(download.brands,listed);
  for(const brand of listed){
   const place={...origin,id:brand.brand,name:brand.brand,category:brand.matchCategories?.[0]||'restaurant'};
@@ -29,7 +30,7 @@ test('brand search supports parents, aliases, ownership categories, and accents'
  const cvs=searchBrands(BRAND_DIRECTORY,{query:'CVS/pharmacy'});
  assert.ok(cvs.some(brand=>brand.parent==='CVS Health Corporation'));
  assert.ok(searchBrands(BRAND_DIRECTORY,{query:'Roark',type:'pe'}).length>10);
- assert.equal(searchBrands(BRAND_DIRECTORY,{query:'Roark',type:'corporate'}).length,0);
+ assert.ok(searchBrands(BRAND_DIRECTORY,{query:'Roark',type:'corporate'}).some(brand=>brand.brand==='Meineke'));
  assert.ok(searchBrands(BRAND_DIRECTORY,{query:'Einstein’s'}).some(brand=>brand.brand==='Einstein Bros. Bagels'));
  assert.equal(searchBrands(BRAND_DIRECTORY,{query:'Wheatsville'}).length,0);
  assert.equal(searchBrands(BRAND_DIRECTORY,{query:'NoSuchBrand12345'}).length,0);
@@ -92,4 +93,25 @@ test('reviewed ownership changes and unrelated chain names stay distinct',()=>{
  assert.match(ownershipFor({...place('The Fresh Market'),category:'grocery'}).parent,/Cencosud/);
  assert.equal(ownershipFor(place('What-A-Burger')).type,'unknown');
  assert.equal(ownershipFor(place('Take 5')).type,'unknown');
+});
+
+test('the corporate directory includes every reviewed equity listing on any exchange',async()=>{
+ for(const brand of BRAND_DIRECTORY.filter(brand=>brand.publicListing)){
+  assert.ok(searchBrands(BRAND_DIRECTORY,{type:'corporate'}).some(row=>row.brand===brand.brand),brand.brand);
+  assert.ok(brand.categories.includes('corporate'));
+  for(const listing of brand.publicListing.exchanges)assert.ok(searchBrands(BRAND_DIRECTORY,{query:listing.ticker,type:'corporate'}).some(row=>row.brand===brand.brand));
+ }
+ const listed=BRAND_DIRECTORY.find(brand=>brand.brand==='Canada Goose');
+ assert.deepEqual(listed.publicListing.exchanges.map(item=>item.exchange),['NYSE','TSX']);
+ const download=JSON.parse(await readFile(new URL('../public/brands.json',import.meta.url),'utf8'));
+ assert.deepEqual(download.brands.find(brand=>brand.brand==='Petco').categories,['corporate','pe']);
+ const document=await readFile(new URL('../docs/BRANDS.md',import.meta.url),'utf8');
+ const corporate=document.split('## Corporate brand')[1].split('## Private equity backed')[0];
+ assert.ok(corporate.includes('| Petco |'));assert.ok(corporate.includes('Nasdaq: WOOF'));
+});
+test('listing evidence rejects debt securities and sponsor-only relationships',()=>{
+ const row=BRAND_DIRECTORY.find(brand=>brand.publicListing);
+ for(const changes of [{securityType:'bond'},{relationship:'investor'},{exchanges:[]},{checked:'yesterday'}]){
+  assert.throws(()=>validateDirectory({version:1,brands:[{...row,publicListing:{...row.publicListing,...changes}}]}),/public equity listing/);
+ }
 });

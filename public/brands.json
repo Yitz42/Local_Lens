@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-17",
+  "checked": "2026-10-25",
   "coverage": "US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.",
   "brands": [
     {
@@ -17,6 +17,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -33,6 +51,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "LongRange Capital"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -51,6 +72,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
       "sponsors": [
         "Blackstone"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -64,7 +88,10 @@
       "source": "https://corp.7-eleven.com/corp/about",
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "7-Eleven, Inc. identifies this as a convenience retail banner in its network. This identifies brand affiliation; individual stores may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "AAMCO",
@@ -79,7 +106,10 @@
       "sourceTitle": "Icahn Automotive — company and service brands",
       "note": "Icahn Automotive identifies AAMCO among its automotive service brands and identifies Icahn Enterprises as its parent. This is corporate chain affiliation; an individual franchised repair center can have a different local owner.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "ABRA",
@@ -95,6 +125,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -108,6 +156,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -118,7 +169,10 @@
       "source": "https://ir.advanceautoparts.com/investors/overview/default.aspx",
       "sourceTitle": "Advance Auto Parts — investor overview",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Aerie",
@@ -128,7 +182,10 @@
       "source": "https://www.aeo-inc.com/about-aeo/",
       "sourceTitle": "American Eagle Outfitters — about AEO",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "AJ’s Fine Foods",
@@ -144,6 +201,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -158,7 +218,10 @@
       "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
       "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Albertsons",
@@ -168,7 +231,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "ALDI",
@@ -178,7 +244,10 @@
       "source": "https://corporate.aldi.us/about-us",
       "sourceTitle": "ALDI US — about us",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Amada Vino + Tapas",
@@ -195,6 +264,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -209,7 +281,10 @@
       "sourceTitle": "National Vision — FY2025 Form 10-K filed March 2026",
       "note": "National Vision lists America’s Best as an owned optical retail brand. Its March 2026 report explicitly states that KKR and Berkshire Partners had sold all their remaining common shares by August 2019. The historical private equity category is not evidence of continuing sponsor ownership.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "American Eagle",
@@ -221,7 +296,10 @@
       "source": "https://www.aeo-inc.com/about-aeo/",
       "sourceTitle": "American Eagle Outfitters — about AEO",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Amoco",
@@ -231,7 +309,10 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "ampm",
@@ -243,7 +324,10 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Ann Taylor",
@@ -256,6 +340,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -269,6 +356,42 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Apple",
+      "aliases": [
+        "Apple Store",
+        "Apple Retail Store"
+      ],
+      "parent": "Apple Inc.",
+      "source": "https://www.apple.com/retail/",
+      "sourceTitle": "Apple — official retail stores",
+      "note": "Apple’s own retail-store network belongs to the Nasdaq-listed operating company. This does not classify independent repair shops or authorized resellers as Apple-owned.",
+      "matchCategories": [
+        "other"
+      ],
+      "publicListing": {
+        "company": "Apple Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "AAPL"
+          }
+        ],
+        "source": "https://investor.apple.com/faq/default.aspx",
+        "sourceTitle": "Apple — stock exchange FAQ",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -282,6 +405,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -292,7 +418,10 @@
       "source": "https://www.marathonpetroleum.com/operations/",
       "sourceTitle": "Marathon Petroleum — retail brand network",
       "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Aspen Dental",
@@ -305,6 +434,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -315,7 +447,10 @@
       "source": "https://www.gapinc.com/en-us",
       "sourceTitle": "Gap Inc. — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "ATI Restoration",
@@ -331,6 +466,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -346,6 +484,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -356,7 +497,10 @@
       "source": "https://about.autozone.com/investor-overview",
       "sourceTitle": "AutoZone — investor overview",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Baker’s",
@@ -371,6 +515,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -383,7 +530,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Banana Republic",
@@ -393,7 +543,10 @@
       "source": "https://www.gapinc.com/en-us",
       "sourceTitle": "Gap Inc. — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Barnes & Noble",
@@ -410,6 +563,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Elliott Advisors"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -423,7 +579,10 @@
       "sourceTitle": "The Raley’s Companies — current family of store banners",
       "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets"
+      "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Baskin-Robbins",
@@ -438,6 +597,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -454,6 +616,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Freeman Spogli & Co."
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -472,6 +637,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "CapitalSpring"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -488,6 +656,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -498,7 +669,10 @@
       "source": "https://corporate.bestbuy.com/about-best-buy/",
       "sourceTitle": "Best Buy — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "BIGGBY Coffee",
@@ -511,7 +685,10 @@
       "sourceTitle": "BIGGBY — franchise network and company story",
       "note": "BIGGBY describes a large coffee franchise network. Local Lens includes large-chain brand affiliation in the corporate category; its independently owned franchise locations are a separate ownership layer.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee"
+      "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Birkenstock",
@@ -527,6 +704,24 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "L Catterton"
+      ],
+      "publicListing": {
+        "company": "Birkenstock Holding plc",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BIRK"
+          }
+        ],
+        "source": "https://www.birkenstock-holding.com/news/birkenstock-reports-fiscal-third-quarter-2026-results-with-15percent-constant-fx-revenue-growth-led-by/ea946937-0de8-419e-b169-012ebbc89b2f",
+        "sourceTitle": "Birkenstock — fiscal third-quarter 2026 results",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -541,7 +736,10 @@
       "sourceTitle": "BJ’s — corporate company overview",
       "note": "BJ’s identifies itself as a publicly traded warehouse club retailer, including grocery and gas operations. This is separate from BJ’s restaurant brands.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/BJ%27s_Wholesale_Club"
+      "wikipedia": "https://en.wikipedia.org/wiki/BJ%27s_Wholesale_Club",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Bloomingdale’s",
@@ -555,7 +753,10 @@
       "sourceTitle": "Macy’s — company and current nameplates",
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Blue Nile",
@@ -566,7 +767,10 @@
       "sourceTitle": "Signet Jewelers — current brand portfolio",
       "note": "Signet’s current brand portfolio identifies Blue Nile as its brand. An August 2026 Signet leadership announcement also identifies Blue Nile in its portfolio. Bain Capital Private Equity and Bow Street ownership is historical.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Bluemercury",
@@ -579,7 +783,10 @@
       "sourceTitle": "Macy’s — company and current nameplates",
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Bob's Discount Furniture",
@@ -595,6 +802,24 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture",
       "sponsors": [
         "Bain Capital"
+      ],
+      "publicListing": {
+        "company": "Bob’s Discount Furniture, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BOBS"
+          }
+        ],
+        "source": "https://ir.mybobs.com/news-events/press-releases/detail/135/bobs-discount-furniture-announces-third-quarter-2026-conference-call-date",
+        "sourceTitle": "Bob’s Discount Furniture — October 2026 investor announcement",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -613,6 +838,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Durational Capital Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -628,6 +856,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -640,7 +871,10 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Breitling",
@@ -656,6 +890,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Partners Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -668,7 +905,10 @@
       "source": "https://investor.texasroadhouse.com/overview/default.aspx",
       "sourceTitle": "Texas Roadhouse — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Buffalo Wild Wings",
@@ -681,6 +921,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -691,7 +934,10 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Burlington",
@@ -708,6 +954,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Burlington_(department_store)",
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -724,6 +973,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -739,6 +991,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -749,7 +1004,10 @@
       "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
       "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
       "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Canada Goose",
@@ -763,6 +1021,28 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Bain Capital"
+      ],
+      "publicListing": {
+        "company": "Canada Goose Holdings Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "GOOS"
+          },
+          {
+            "exchange": "TSX",
+            "ticker": "GOOS"
+          }
+        ],
+        "source": "https://investor.canadagoose.com/news/news-details/2026/Canada-Goose-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx",
+        "sourceTitle": "Canada Goose — fiscal 2026 results and dual listing",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -778,6 +1058,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -788,7 +1071,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "CARSTAR",
@@ -801,6 +1087,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -816,6 +1120,39 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "CAVA",
+      "aliases": [],
+      "parent": "CAVA Group, Inc.",
+      "source": "https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx",
+      "sourceTitle": "CAVA — second-quarter 2026 company results",
+      "note": "The restaurant company identifies its CAVA brand and NYSE-listed equity. Publicly traded companies qualify for the corporate category regardless of size.",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "publicListing": {
+        "company": "CAVA Group, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CAVA"
+          }
+        ],
+        "source": "https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx",
+        "sourceTitle": "CAVA — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -829,6 +1166,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -840,7 +1180,10 @@
       "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
       "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chapter Aesthetic Studio",
@@ -853,6 +1196,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -865,7 +1211,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chevron",
@@ -875,7 +1224,10 @@
       "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
       "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
       "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chick-fil-A",
@@ -885,7 +1237,10 @@
       "source": "https://www.chick-fil-a.com/about/company",
       "sourceTitle": "Chick-fil-A — family business and local operators",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. Individual restaurants have local Owner-Operators; this label describes the national brand.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chico's",
@@ -898,6 +1253,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -911,7 +1269,10 @@
       "source": "https://investors.brinker.com/overview/",
       "sourceTitle": "Brinker — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chipotle Mexican Grill",
@@ -923,7 +1284,10 @@
       "source": "https://ir.chipotle.com/investor-overview",
       "sourceTitle": "Chipotle — investor overview",
       "note": "Chipotle is a large publicly traded restaurant company; its US restaurant network is company-operated.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Chowking",
@@ -934,7 +1298,10 @@
       "sourceTitle": "Jollibee Group — our brands",
       "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Chowking"
+      "wikipedia": "https://en.wikipedia.org/wiki/Chowking",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Church's Texas Chicken",
@@ -951,6 +1318,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Church%27s_Texas_Chicken",
       "sponsors": [
         "High Bluff Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -963,7 +1333,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Cinnabon",
@@ -976,6 +1349,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -986,7 +1362,10 @@
       "source": "https://corporate.couche-tard.com/where-we-operate",
       "sourceTitle": "Couche-Tard — where we operate",
       "note": "Couche-Tard identifies this as a store banner in its network. This identifies brand affiliation; the local site may have a separate owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Claire’s",
@@ -1005,6 +1384,9 @@
       ],
       "sponsors": [
         "Ames Watson"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1021,6 +1403,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1037,6 +1422,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1050,7 +1438,10 @@
       "source": "https://investor.costco.com/company-profile/",
       "sourceTitle": "Costco — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Crumbl",
@@ -1067,6 +1458,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1083,6 +1477,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1100,6 +1497,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "BDT & MSD Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1115,6 +1515,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1132,7 +1535,10 @@
       "source": "https://www.cvshealth.com/services/pharmacy/neighborhood-pharmacy.html",
       "sourceTitle": "CVS Health — CVS Pharmacy network",
       "note": "CVS Pharmacy is CVS Health’s national retail pharmacy network, including pharmacies inside other retailers.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Dave's Hot Chicken",
@@ -1147,6 +1553,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1163,6 +1572,9 @@
           "title": "PESP employer tracker — research starting point",
           "url": "https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/"
         }
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1175,7 +1587,10 @@
       "source": "https://investors.rossstores.com/corporate-profile",
       "sourceTitle": "Ross Stores — corporate profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "DG Market",
@@ -1185,7 +1600,10 @@
       "source": "https://investor.dollargeneral.com/",
       "sourceTitle": "Dollar General — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "DGX",
@@ -1195,7 +1613,10 @@
       "source": "https://investor.dollargeneral.com/",
       "sourceTitle": "Dollar General — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "DICK’S Sporting Goods",
@@ -1209,7 +1630,10 @@
       "sourceTitle": "DICK’S — completed acquisition and retail banners",
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods"
+      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Dillard’s",
@@ -1223,7 +1647,10 @@
       "sourceTitle": "Dillard’s — company overview and 2026 results",
       "note": "Dillard’s operates a large national department store chain. This identifies the chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Dillard%27s"
+      "wikipedia": "https://en.wikipedia.org/wiki/Dillard%27s",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Dillons",
@@ -1233,7 +1660,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Dollar General",
@@ -1243,7 +1673,10 @@
       "source": "https://investor.dollargeneral.com/",
       "sourceTitle": "Dollar General — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Dollar Tree",
@@ -1253,7 +1686,10 @@
       "source": "https://corporate.dollartree.com/about",
       "sourceTitle": "Dollar Tree — company overview",
       "note": "Dollar Tree is a large publicly traded retailer. Family Dollar is a separate business following the completed 2025 sale and is not an alias for this brand.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Domino’s",
@@ -1266,7 +1702,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000039/dpz-ex99_1.htm",
       "sourceTitle": "Domino’s — third-quarter 2026 results",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Duane Reade",
@@ -1281,6 +1720,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1297,6 +1739,38 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Dutch Bros",
+      "aliases": [
+        "Dutch Bros Coffee"
+      ],
+      "parent": "Dutch Bros Inc.",
+      "source": "https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results",
+      "sourceTitle": "Dutch Bros — second-quarter 2026 company results",
+      "note": "The NYSE-listed beverage-shop operator identifies company-operated and franchised shops. The label records corporate brand affiliation; a franchise operator may have a different owner.",
+      "publicListing": {
+        "company": "Dutch Bros Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BROS"
+          }
+        ],
+        "source": "https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results",
+        "sourceTitle": "Dutch Bros — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1309,7 +1783,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Einstein Bros. Bagels",
@@ -1324,7 +1801,10 @@
       "source": "https://www.einsteinbros.com/franchise/",
       "sourceTitle": "Einstein Bros. Bagels — company history and franchising",
       "note": "Einstein identifies its acquisition by privately owned JAB Holding Company (Bagel Brands) on its franchise page. This labels the large-chain brand; local franchise ownership is not verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "El Super",
@@ -1335,7 +1815,10 @@
       "sourceTitle": "Chedraui USA — current grocery banners",
       "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui"
+      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Enterprise Rent-A-Car",
@@ -1349,7 +1832,10 @@
       "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
       "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "EoS Fitness",
@@ -1365,6 +1851,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1378,6 +1867,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1398,6 +1890,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1408,7 +1903,10 @@
       "source": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands",
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "Esso is an ExxonMobil fuel brand, primarily used outside the US. Brand affiliation does not establish ownership of a particular station.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Exxon",
@@ -1420,7 +1918,10 @@
       "source": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands",
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Eyemart Express",
@@ -1439,6 +1940,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1458,6 +1962,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1476,6 +1983,9 @@
       "sponsors": [
         "Brigade Capital Management",
         "Macellum Capital Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1493,6 +2003,9 @@
       "sponsors": [
         "Freeman Spogli & Co.",
         "LightBay Capital"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1507,6 +2020,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1517,7 +2033,10 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Firestone Complete Auto Care",
@@ -1528,7 +2047,10 @@
       "sourceTitle": "Bridgestone — retail operations portfolio",
       "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Fitness Connection",
@@ -1541,6 +2063,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1552,7 +2077,10 @@
       "sourceTitle": "Five Below — investor and company overview",
       "note": "Five Below is a large retail chain identified on its current investor website.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Five_Below"
+      "wikipedia": "https://en.wikipedia.org/wiki/Five_Below",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Flower Child",
@@ -1562,7 +2090,10 @@
       "source": "https://investors.thecheesecakefactory.com/about-us/company-overview/default.aspx",
       "sourceTitle": "The Cheesecake Factory — company overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Fogo de Chão",
@@ -1579,6 +2110,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Fogo_de_Ch%C3%A3o",
       "sponsors": [
         "Bain Capital"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1589,7 +2123,10 @@
       "source": "https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/",
       "sourceTitle": "Ahold Delhaize — US brands digital platform",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Foot Locker",
@@ -1600,7 +2137,10 @@
       "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
       "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Fred Meyer",
@@ -1610,7 +2150,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Freddy’s Frozen Custard & Steakburgers",
@@ -1627,6 +2170,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Rhône Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1640,7 +2186,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Gap",
@@ -1652,7 +2201,10 @@
       "source": "https://www.gapinc.com/en-us",
       "sourceTitle": "Gap Inc. — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "GIANT",
@@ -1667,6 +2219,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1680,6 +2235,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1696,6 +2254,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Carlyle"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1709,7 +2270,10 @@
       "sourceTitle": "DICK’S — completed acquisition and retail banners",
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods"
+      "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Guitar Center",
@@ -1727,6 +2291,9 @@
         "Ares Management",
         "Carlyle",
         "Brigade Capital Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1740,7 +2307,10 @@
       "source": "https://www.heb.com/privacy",
       "sourceTitle": "H-E-B — brands and affiliates",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Habit Burger & Grill",
@@ -1753,7 +2323,10 @@
       "source": "https://investors.yum.com/corporateprofile/default.aspx",
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Haggen",
@@ -1763,7 +2336,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Hannaford",
@@ -1773,7 +2349,10 @@
       "source": "https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/",
       "sourceTitle": "Ahold Delhaize — US brands digital platform",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Harbor Freight Tools",
@@ -1786,7 +2365,10 @@
       "sourceTitle": "Harbor Freight — about the company",
       "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Harbor_Freight_Tools"
+      "wikipedia": "https://en.wikipedia.org/wiki/Harbor_Freight_Tools",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Hardee's",
@@ -1801,6 +2383,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1811,7 +2396,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Hibachi-San",
@@ -1821,7 +2409,10 @@
       "source": "https://www.pandarg.com/frequently-asked-questions",
       "sourceTitle": "Panda Restaurant Group — brands and family ownership",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Hibdon Tires Plus",
@@ -1832,7 +2423,10 @@
       "sourceTitle": "Bridgestone — retail operations portfolio",
       "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Holiday Stationstores",
@@ -1845,7 +2439,10 @@
       "source": "https://corporate.couche-tard.com/where-we-operate",
       "sourceTitle": "Couche-Tard — where we operate",
       "note": "Couche-Tard identifies this as a store banner in its network. This identifies brand affiliation; the local site may have a separate owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "HomeGoods",
@@ -1855,7 +2452,10 @@
       "source": "https://www.tjx.com/company/about-tjx",
       "sourceTitle": "TJX — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Homesense",
@@ -1865,7 +2465,10 @@
       "source": "https://www.tjx.com/company/about-tjx",
       "sourceTitle": "TJX — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Hy-Vee",
@@ -1878,7 +2481,10 @@
       "sourceTitle": "Hy-Vee — employee-owned company overview",
       "note": "Hy-Vee is a large employee-owned supermarket company. The corporate category describes the chain structure and does not assert private equity ownership.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Hy-Vee"
+      "wikipedia": "https://en.wikipedia.org/wiki/Hy-Vee",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "i9 Sports",
@@ -1891,6 +2497,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1907,6 +2516,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Ingles",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1923,6 +2535,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Insomnia_Cookies",
       "sponsors": [
         "Verlinvest"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1937,7 +2552,10 @@
       "sourceTitle": "Keurig Dr Pepper — company coffee brands",
       "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Intelligentsia_Coffee_%26_Tea"
+      "wikipedia": "https://en.wikipedia.org/wiki/Intelligentsia_Coffee_%26_Tea",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "J. Alexander's",
@@ -1954,6 +2572,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1964,7 +2585,10 @@
       "source": "https://investor.texasroadhouse.com/overview/default.aspx",
       "sourceTitle": "Texas Roadhouse — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Jamba",
@@ -1979,6 +2603,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1995,6 +2622,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Blackstone"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2005,7 +2635,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Jim 'N Nick's Bar-B-Q",
@@ -2021,6 +2654,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2036,6 +2672,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2048,7 +2687,10 @@
       "source": "https://www.heb.com/privacy",
       "sourceTitle": "H-E-B — brands and affiliates",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Jollibee",
@@ -2059,7 +2701,10 @@
       "sourceTitle": "Jollibee Group — our brands",
       "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Jollibee"
+      "wikipedia": "https://en.wikipedia.org/wiki/Jollibee",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "KFC",
@@ -2071,7 +2716,10 @@
       "source": "https://investors.yum.com/corporateprofile/default.aspx",
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Kids Foot Locker",
@@ -2082,7 +2730,10 @@
       "sourceTitle": "DICK’S — acquisition of Foot Locker completed",
       "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker"
+      "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "King Soopers",
@@ -2092,7 +2743,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Kings Food Markets",
@@ -2102,7 +2756,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Kohl’s",
@@ -2116,7 +2773,10 @@
       "sourceTitle": "Kohl’s — about the company",
       "note": "Kohl’s identifies itself as a national retailer with more than 1,100 stores. This labels chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Kohl%27s"
+      "wikipedia": "https://en.wikipedia.org/wiki/Kohl%27s",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Kona Ice",
@@ -2132,6 +2792,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Kona_Ice",
       "sponsors": [
         "Garnett Station Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2142,7 +2805,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Krystal",
@@ -2159,6 +2825,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2175,6 +2844,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2188,6 +2860,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2198,7 +2873,10 @@
       "source": "https://corp.7-eleven.com/corp/about",
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Lidl",
@@ -2208,7 +2886,10 @@
       "source": "https://gruppe.schwarz/en/who-we-are",
       "sourceTitle": "Schwarz Group — companies and retail divisions",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Lids",
@@ -2229,6 +2910,9 @@
       ],
       "sponsors": [
         "Ames Watson"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2250,6 +2934,9 @@
       ],
       "sponsors": [
         "Ames Watson"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2266,6 +2953,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "publicListing": {
+        "company": "Life Time Group Holdings, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "LTH"
+          }
+        ],
+        "source": "https://ir.lifetime.life/",
+        "sourceTitle": "Life Time — current investor relations",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -2282,6 +2987,24 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TPG"
+      ],
+      "publicListing": {
+        "company": "LifeStance Health Group, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "LFST"
+          }
+        ],
+        "source": "https://investor.lifestance.com/",
+        "sourceTitle": "LifeStance — current investor relations",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -2295,6 +3018,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2305,7 +3031,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Los Tacos No. 1",
@@ -2321,6 +3050,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2333,7 +3065,10 @@
       "source": "https://corporate.lowes.com/who-we-are",
       "sourceTitle": "Lowe’s — who we are",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Maaco",
@@ -2348,6 +3083,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -2362,7 +3115,10 @@
       "sourceTitle": "Macy’s — company and current nameplates",
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc."
+      "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Maggiano’s Little Italy",
@@ -2374,7 +3130,10 @@
       "source": "https://investors.brinker.com/overview/",
       "sourceTitle": "Brinker — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Mancini’s Sleepworld",
@@ -2390,6 +3149,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Sun Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2400,7 +3162,10 @@
       "source": "https://www.marathonpetroleum.com/operations/",
       "sourceTitle": "Marathon Petroleum — retail brand network",
       "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Mariano’s",
@@ -2412,7 +3177,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Market Street",
@@ -2425,6 +3193,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -2435,7 +3206,10 @@
       "source": "https://www.tjx.com/company/about-tjx",
       "sourceTitle": "TJX — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Massage Envy",
@@ -2450,6 +3224,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2463,6 +3240,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2482,6 +3262,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2498,6 +3281,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2512,7 +3298,10 @@
       "sourceTitle": "Landry's — current dining brands",
       "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "McDonald’s",
@@ -2524,7 +3313,10 @@
       "source": "https://corporate.mcdonalds.com/corpmcd/our-company/how-we-operate-internationally.html",
       "sourceTitle": "McDonald’s — how the franchise model works",
       "note": "McDonald’s is a global corporate restaurant brand. Most US restaurants have independent franchise operators; the label identifies brand affiliation.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "MedVet",
@@ -2537,6 +3329,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2547,7 +3342,10 @@
       "source": "https://newsroom.meijer.com/about",
       "sourceTitle": "Meijer — company overview",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Meineke",
@@ -2562,6 +3360,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -2573,7 +3389,10 @@
       "sourceTitle": "Menards — about the company",
       "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Menards"
+      "wikipedia": "https://en.wikipedia.org/wiki/Menards",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Merry Maids",
@@ -2586,6 +3405,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2599,6 +3421,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -2609,7 +3434,10 @@
       "source": "https://www.heb.com/privacy",
       "sourceTitle": "H-E-B — brands and affiliates",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Michaels",
@@ -2625,6 +3453,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Apollo Global Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2640,6 +3471,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2655,6 +3489,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2662,12 +3499,15 @@
       "aliases": [],
       "type": "pe",
       "parent": "Leonard Green & Partners portfolio investment",
-      "source": "https://www.leonardgreen.com/portfolio/",
-      "sourceTitle": "Leonard Green & Partners — current investment portfolio",
-      "note": "Listed as a current LGP investment. This category establishes PE backing; it does not assert that LGP is the sole or controlling owner.",
-      "checked": "2026-10-15",
+      "source": "https://www.sec.gov/Archives/edgar/data/1853513/000119312526229866/d128344dex991.htm",
+      "sourceTitle": "Mister Car Wash — completed take-private acquisition, May 2026",
+      "note": "The company confirms the completed May 19, 2026 acquisition by Leonard Green-managed funds and says its stock ceased trading. The former MCW listing is not treated as current public equity.",
+      "checked": "2026-10-25",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2678,7 +3518,10 @@
       "source": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands",
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Moe's Southwest Grill",
@@ -2693,6 +3536,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2707,7 +3553,10 @@
       "sourceTitle": "Landry's — current dining brands",
       "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "National Car Rental",
@@ -2720,7 +3569,10 @@
       "sourceTitle": "Enterprise Mobility — legal statement identifying brand ownership",
       "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Newk’s Eatery",
@@ -2738,6 +3590,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "CapitalSpring"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2752,6 +3607,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -2762,7 +3620,10 @@
       "source": "https://investors.thecheesecakefactory.com/about-us/company-overview/default.aspx",
       "sourceTitle": "The Cheesecake Factory — company overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Nothing Bundt Cakes",
@@ -2777,6 +3638,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "KKR"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2790,7 +3654,10 @@
       "source": "https://corporate.oreillyauto.com/2026/04/29/oreilly-automotive-inc-reports-first-quarter-2026-results/",
       "sourceTitle": "O’Reilly Automotive — first-quarter 2026 results",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Old Navy",
@@ -2800,7 +3667,10 @@
       "source": "https://www.gapinc.com/en-us",
       "sourceTitle": "Gap Inc. — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Olive Garden",
@@ -2810,7 +3680,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Ollie’s Bargain Outlet",
@@ -2827,6 +3700,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Ollie%27s_Bargain_Outlet",
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -2842,6 +3718,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2852,7 +3731,10 @@
       "source": "https://www.pandarg.com/frequently-asked-questions",
       "sourceTitle": "Panda Restaurant Group — brands and family ownership",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Panda Inn",
@@ -2862,7 +3744,10 @@
       "source": "https://www.pandarg.com/frequently-asked-questions",
       "sourceTitle": "Panda Restaurant Group — brands and family ownership",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Papa Johns",
@@ -2875,7 +3760,10 @@
       "source": "https://ir.papajohns.com/company-info",
       "sourceTitle": "Papa Johns — company profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pavilions",
@@ -2885,7 +3773,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Peet’s Coffee",
@@ -2899,7 +3790,10 @@
       "sourceTitle": "Keurig Dr Pepper — company coffee brands",
       "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Peet%27s_Coffee"
+      "wikipedia": "https://en.wikipedia.org/wiki/Peet%27s_Coffee",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Petco",
@@ -2916,6 +3810,24 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "CVC Capital Partners"
+      ],
+      "publicListing": {
+        "company": "Petco Health and Wellness Company, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WOOF"
+          }
+        ],
+        "source": "https://ir.petco.com/shareholder-resources/faqs",
+        "sourceTitle": "Petco — stock listing FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -2928,7 +3840,10 @@
       "source": "https://ir.tractorsupply.com/investor-relations/overview/",
       "sourceTitle": "Tractor Supply — company and family of brands",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "PetSmart",
@@ -2944,6 +3859,9 @@
       "sponsors": [
         "BC Partners",
         "Apollo Global Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2961,6 +3879,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Philz_Coffee",
       "sponsors": [
         "Freeman Spogli & Co."
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -2973,7 +3894,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pizza Hut",
@@ -2987,6 +3911,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "LongRange Capital"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3000,6 +3927,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3017,6 +3947,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Pollo_Tropical",
       "sponsors": [
         "Garnett Station Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3029,7 +3962,10 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "pOpshelf",
@@ -3039,7 +3975,10 @@
       "source": "https://investor.dollargeneral.com/",
       "sourceTitle": "Dollar General — company profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pottery Barn",
@@ -3049,7 +3988,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pottery Barn Kids",
@@ -3059,7 +4001,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pottery Barn Teen",
@@ -3071,7 +4016,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Primanti Bros.",
@@ -3089,6 +4037,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Primanti_Brothers",
       "sponsors": [
         "Garnett Station Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3104,6 +4055,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3117,7 +4071,10 @@
       "source": "https://corporate.publix.com/about-publix/company-overview/facts-figures",
       "sourceTitle": "Publix — company facts",
       "note": "Publix is a large employee-owned supermarket chain. Its employee ownership is stated explicitly; the corporate label describes its large-chain structure.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Pura Vida Miami",
@@ -3133,6 +4090,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3143,7 +4103,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "QuikTrip",
@@ -3155,7 +4118,10 @@
       "source": "https://www.quiktrip.com/about-us/",
       "sourceTitle": "QuikTrip — company story",
       "note": "QuikTrip identifies itself as one of the largest privately held US companies, operating more than 1,250 stores. Large private chains are included in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Quiznos",
@@ -3173,6 +4139,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Quiznos",
       "sponsors": [
         "High Bluff Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3186,7 +4155,10 @@
       "sourceTitle": "Landry's — current dining brands",
       "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Raise the Roost Chicken & Biscuits",
@@ -3198,7 +4170,10 @@
       "source": "https://corp.7-eleven.com/corp/about",
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Raley’s",
@@ -3214,6 +4189,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -3224,7 +4202,10 @@
       "source": "https://www.thekrogerco.com/",
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Randalls",
@@ -3234,7 +4215,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Red Lobster",
@@ -3250,6 +4234,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Red_Lobster",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3267,6 +4254,9 @@
       "matchCategories": [
         "grocery",
         "restaurant"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -3277,7 +4267,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Rita’s Italian Ice",
@@ -3295,6 +4288,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Maple Park Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3307,7 +4303,10 @@
       "source": "https://investors.rossstores.com/corporate-profile",
       "sourceTitle": "Ross Stores — corporate profile",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Ruth’s Chris Steak House",
@@ -3319,7 +4318,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "SafeSplash",
@@ -3334,6 +4336,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3344,7 +4349,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Sam’s Club",
@@ -3356,7 +4364,10 @@
       "source": "https://corporate.walmart.com/about",
       "sourceTitle": "Walmart — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Schlotzsky's",
@@ -3371,6 +4382,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3384,6 +4398,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3394,7 +4411,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "ServiceMaster Clean",
@@ -3407,6 +4427,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3420,6 +4443,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3430,7 +4456,10 @@
       "source": "https://investor.shakeshack.com/overview/",
       "sourceTitle": "Shake Shack — company overview",
       "note": "Shake Shack is a public restaurant brand. Locations may be company-operated or licensed; the local operator is not verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Shaw’s",
@@ -3442,7 +4471,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Sheetz",
@@ -3452,7 +4484,10 @@
       "source": "https://www.sheetz.com/FAQ",
       "sourceTitle": "Sheetz — company ownership FAQ",
       "note": "Sheetz identifies itself as a privately held, family-owned and operated company. Local Lens includes large family-owned chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Shell",
@@ -3462,7 +4497,10 @@
       "source": "https://www.shell.com/who-we-are.html",
       "sourceTitle": "Shell — who we are",
       "note": "Shell is a global corporate energy brand. Branded fuel stations may have independent owners and operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Shipley Do-Nuts",
@@ -3479,6 +4517,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Shipley_Do-Nuts",
       "sponsors": [
         "Levine Leichtman Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3494,6 +4535,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -3508,7 +4552,10 @@
       "sourceTitle": "Chedraui USA — current grocery banners",
       "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui"
+      "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Smith’s Food and Drug",
@@ -3524,6 +4571,9 @@
       "checked": "2026-10-15",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -3541,6 +4591,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3554,6 +4607,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3570,6 +4626,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3589,6 +4648,9 @@
       ],
       "sponsors": [
         "Ames Watson"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3599,7 +4661,10 @@
       "source": "https://corp.7-eleven.com/corp/about",
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "7-Eleven, Inc. identifies this as a convenience retail banner in its network. This identifies brand affiliation; individual stores may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Sprouts Farmers Market",
@@ -3609,7 +4674,10 @@
       "source": "https://investors.sprouts.com/overview/",
       "sourceTitle": "Sprouts — investor overview",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Staples",
@@ -3625,6 +4693,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3635,7 +4706,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Starbucks",
@@ -3647,7 +4721,10 @@
       "source": "https://about.starbucks.com/press/2026/company-profile/",
       "sourceTitle": "Starbucks — company profile",
       "note": "Starbucks is a global corporate coffee brand. Its network includes company-operated and licensed stores; local operator ownership is not verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Stoney River Steakhouse and Grill",
@@ -3666,6 +4743,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3678,7 +4758,10 @@
       "source": "https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/",
       "sourceTitle": "Ahold Delhaize — US brands digital platform",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Stripes",
@@ -3690,7 +4773,10 @@
       "source": "https://corp.7-eleven.com/corp/about",
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "7-Eleven, Inc. identifies this as a convenience retail banner in its network. This identifies brand affiliation; individual stores may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Stumptown Coffee Roasters",
@@ -3703,7 +4789,10 @@
       "sourceTitle": "Keurig Dr Pepper — company coffee brands",
       "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters"
+      "wikipedia": "https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Subway",
@@ -3716,6 +4805,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3731,6 +4823,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3748,6 +4843,36 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Sweetgreen",
+      "aliases": [],
+      "parent": "Sweetgreen, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm",
+      "sourceTitle": "Sweetgreen — second-quarter 2026 company release filed with the SEC",
+      "note": "Sweetgreen identifies its restaurant operating company as listed on the NYSE. The corporate label applies to this reviewed brand affiliation.",
+      "publicListing": {
+        "company": "Sweetgreen, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm",
+        "sourceTitle": "Sweetgreen — 2026 stock listing statement",
+        "checked": "2026-10-25"
+      },
+      "type": "corporate",
+      "checked": "2026-10-25",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -3758,7 +4883,10 @@
       "source": "https://investors.yum.com/corporateprofile/default.aspx",
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Taco Del Mar",
@@ -3774,6 +4902,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Taco_del_Mar",
       "sponsors": [
         "High Bluff Capital Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3787,6 +4918,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "publicListing": {
+        "company": "Driven Brands Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DRVN"
+          }
+        ],
+        "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
+        "sourceTitle": "Driven Brands — exchange and ticker FAQ",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -3800,6 +4949,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3810,7 +4962,10 @@
       "source": "https://corporate.target.com/about",
       "sourceTitle": "Target — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Texaco",
@@ -3820,7 +4975,10 @@
       "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
       "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
       "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Texas Roadhouse",
@@ -3830,7 +4988,10 @@
       "source": "https://investor.texasroadhouse.com/overview/default.aspx",
       "sourceTitle": "Texas Roadhouse — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Bar Method",
@@ -3845,6 +5006,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3862,6 +5026,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "CapitalSpring"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3872,7 +5039,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Cheesecake Factory",
@@ -3884,7 +5054,10 @@
       "source": "https://investors.thecheesecakefactory.com/about-us/company-overview/default.aspx",
       "sourceTitle": "The Cheesecake Factory — company overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Coffee Bean & Tea Leaf",
@@ -3899,7 +5072,10 @@
       "sourceTitle": "Jollibee Group — our brands",
       "note": "Jollibee Group lists this in its international restaurant portfolio. This identifies the corporate brand affiliation, rather than verifying the owner of each local franchise.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/The_Coffee_Bean_%26_Tea_Leaf"
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Coffee_Bean_%26_Tea_Leaf",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Fresh Market",
@@ -3909,7 +5085,10 @@
       "source": "https://www.cencosud.com/cencosud/site/docs/20251104/20251104173743/press_release_cencosud_3q25__eng_.pdf",
       "sourceTitle": "Cencosud — third-quarter 2025 results",
       "note": "Cencosud reports completing the purchase of the remaining 33% in 2025, bringing its ownership of The Fresh Market to 100%. Historical Apollo investment does not establish current private equity ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Goddard School",
@@ -3924,6 +5103,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3936,7 +5118,10 @@
       "source": "https://corporate.homedepot.com/page/about-us",
       "sourceTitle": "The Home Depot — about us",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "The Shade Store",
@@ -3949,6 +5134,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3959,7 +5147,10 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Thrive Pet Healthcare",
@@ -3976,6 +5167,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3986,7 +5180,10 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Tires Plus",
@@ -3997,7 +5194,10 @@
       "sourceTitle": "Bridgestone — retail operations portfolio",
       "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "TJ Maxx",
@@ -4009,7 +5209,10 @@
       "source": "https://www.tjx.com/company/about-tjx",
       "sourceTitle": "TJX — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Tom Thumb",
@@ -4019,7 +5222,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Torrid",
@@ -4032,6 +5238,24 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "publicListing": {
+        "company": "Torrid Holdings Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CURV"
+          }
+        ],
+        "source": "https://investors.torrid.com/news/news-details/2026/Torrid-Reports-Second-Quarter-2026-Results-and-Updates-Fiscal-2026-Guidance/default.aspx",
+        "sourceTitle": "Torrid — second-quarter 2026 results",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate",
+        "pe"
       ]
     },
     {
@@ -4044,7 +5268,10 @@
       "source": "https://ir.tractorsupply.com/investor-relations/overview/",
       "sourceTitle": "Tractor Supply — company and family of brands",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Trader Joe’s",
@@ -4056,7 +5283,10 @@
       "source": "https://www.traderjoes.com/content/dam/trjo/pdfs/transcripts/ITJ-ep101-fresh-deli.pdf",
       "sourceTitle": "Trader Joe’s — 2026 company podcast transcript",
       "note": "Trader Joe’s describes itself as a national grocery chain. The corporate label includes large private chains and does not assert a private equity owner.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "TravelCenters of America",
@@ -4068,7 +5298,10 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Tropical Smoothie Cafe",
@@ -4084,6 +5317,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
       "sponsors": [
         "Blackstone"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4100,6 +5336,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Clayton, Dubilier & Rice"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4115,6 +5354,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4128,7 +5370,10 @@
       "sourceTitle": "Ulta Beauty — company information",
       "note": "Ulta Beauty is a large corporate beauty retail chain. This labels the retailer; products sold within it have separate brand owners.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Ulta_Beauty"
+      "wikipedia": "https://en.wikipedia.org/wiki/Ulta_Beauty",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "United Supermarkets",
@@ -4138,7 +5383,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Velvet Taco",
@@ -4157,6 +5405,9 @@
       ],
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4173,6 +5424,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/SPB_Hospitality",
       "sponsors": [
         "Fortress Investment Group"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4194,6 +5448,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -4215,6 +5472,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -4239,6 +5499,9 @@
       ],
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4249,7 +5512,10 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Walgreens",
@@ -4265,6 +5531,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4278,7 +5547,10 @@
       "source": "https://corporate.walmart.com/about",
       "sourceTitle": "Walmart — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Wawa",
@@ -4288,7 +5560,10 @@
       "source": "https://careers.wawa.com/us/en/benefits",
       "sourceTitle": "Wawa — store network and employee stock ownership",
       "note": "Wawa describes a network of more than 1,000 stores and an employee stock ownership plan. Local Lens includes large chains in the corporate category; employee ownership does not make each location an independent store.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Waxing the City",
@@ -4301,6 +5576,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4311,7 +5589,10 @@
       "source": "https://www.wegmans.com/about-us",
       "sourceTitle": "Wegmans — about us",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Weis Markets",
@@ -4327,6 +5608,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Weis_Markets",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -4342,6 +5626,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4354,7 +5641,10 @@
       "source": "https://www.irwendys.com/home/default.aspx",
       "sourceTitle": "Wendy’s — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "West Elm",
@@ -4364,7 +5654,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Whataburger",
@@ -4378,6 +5671,9 @@
       "preservePunctuation": true,
       "sponsors": [
         "BDT & MSD Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4389,7 +5685,10 @@
       "sourceTitle": "Bridgestone — retail operations portfolio",
       "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone"
+      "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "White Cap",
@@ -4406,6 +5705,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4421,6 +5723,9 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4433,7 +5738,24 @@
       "source": "https://press.aboutamazon.com/company-news/2025/8/amazon-com-inc-announces-redemption-of-its-5-200-notes-due-december-3-2025",
       "sourceTitle": "Amazon — Whole Foods Market wholly owned subsidiary",
       "note": "Amazon identifies Whole Foods Market as its wholly owned subsidiary.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "publicListing": {
+        "company": "Amazon.com, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "AMZN"
+          }
+        ],
+        "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+        "sourceTitle": "Amazon — second-quarter 2026 listing statement",
+        "checked": "2026-10-25"
+      },
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Williams Sonoma",
@@ -4445,7 +5767,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Williams Sonoma Home",
@@ -4455,7 +5780,10 @@
       "source": "https://www.williams-sonomainc.com/",
       "sourceTitle": "Williams-Sonoma — brand portfolio",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "WinCo Foods",
@@ -4471,6 +5799,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/WinCo_Foods",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -4481,7 +5812,10 @@
       "source": "https://ir.wingstop.com/about-us/",
       "sourceTitle": "Wingstop — company and brand overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Woodhouse Spa",
@@ -4500,6 +5834,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4519,6 +5856,9 @@
       ],
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4535,6 +5875,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -4549,7 +5892,10 @@
       "sourceTitle": "Newell Brands — Yankee Candle current brand page",
       "note": "Newell Brands lists Yankee Candle in its current brand portfolio. This establishes corporate brand affiliation; a third-party retailer selling Yankee Candle products does not thereby become Newell-owned.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Yard House",
@@ -4559,7 +5905,10 @@
       "source": "https://www.darden.com/our-company/",
       "sourceTitle": "Darden — our company",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
     },
     {
       "brand": "Zaxby’s",
@@ -4578,6 +5927,9 @@
       ],
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -4592,6 +5944,9 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "Advent International"
+      ],
+      "categories": [
+        "pe"
       ]
     }
   ]

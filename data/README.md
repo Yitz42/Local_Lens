@@ -8,7 +8,7 @@ Each brand record needs:
 
 - `brand`: one canonical storefront brand, with separate records for sister brands.
 - `aliases`: reviewed spelling or format variants of that brand. Punctuation is ignored automatically. Do not add loose name fragments or sister brands as aliases.
-- `type`: `corporate` for a large public or privately held chain; `pe` for documented current private equity backing; `independent` only for a sourced and geographically restricted business.
+- `type`: the primary label, `corporate` for any listed operating company or a reviewed large chain, `pe` for documented current private equity backing; `independent` only for a sourced and geographically restricted business.
 - `parent`: the supported brand owner or investment backing. Do not substitute a historical owner or imply a minority investor owns the entire company.
 - `source`, `sourceTitle`: an HTTPS primary company, investor, or regulatory source that supports the classification.
 - `note`: the scope of the evidence, franchise/operator distinctions, and minority investment qualifications where relevant.
@@ -22,7 +22,7 @@ Each brand record needs:
 
 For current private equity backing, verify the current portfolio section, not an exited-investments list. For acquisitions, verify closing rather than relying on an announced agreement. For public companies with investment-firm connections, establish the relevant current ownership/backing before changing the category. Large private family-owned chains belong in the corporate category; private ownership alone does not establish private equity backing.
 
-The categories are mutually exclusive for filtering: a documented PE-backed brand uses `pe`, and other reviewed large chains use `corporate`. Neither category verifies ownership of each individual franchise, licensed store, or branded fuel station. The map's ownership matcher currently covers researched continental US geography; related international brand references do not establish worldwide ownership.
+The corporate category includes any verified stock-exchange-listed company, regardless of size, and its owned brands, alongside large privately held chains. Categories overlap: a listed company with PE backing matches both `corporate` and `pe`. `type` retains the primary display classification; generated `categories` lists every filter membership. Neither category verifies ownership of each individual franchise, licensed store, or branded fuel station. The map's ownership matcher currently covers researched continental US geography; related international brand references do not establish worldwide ownership.
 
 The PE category can include a documented private equity holding company investing its own capital, such as Ames Watson; describe that scope instead of assuming a conventional outside-investor fund. The corporate category can include large not-for-profit retail groups such as VSP Vision. A publicly listed business development company or a credit investment does not automatically establish backing by a buyout firm. Record the actual equity and parent evidence, rather than copying historical sponsor labels.
 
@@ -35,3 +35,5 @@ npm run build
 ```
 
 The generator rejects missing evidence and aliases that collide across distinct brands. Review source and export changes together. Ownership research is manual; a review date is not a promise of automatic updates.
+
+Optional `publicListing` records the listed operating company or brand owner, `relationship` (`self` or `brand_owner`), `securityType: "equity"`, an `exchanges` array of `{exchange,ticker}`, HTTPS listing `source`, `sourceTitle`, and its own `checked` date. Any supported stock exchange can be recorded; there is no market-cap threshold or US-exchange-only rule. A listed financial sponsor’s private portfolio company does not inherit the sponsor’s listing. Do not treat listed bonds, funds, employee-only shares, historical tickers, or announced IPOs as current company-equity listings. Remove stale evidence after a completed take-private or delisting. The directory remains a selected brand registry, not a complete global securities register.

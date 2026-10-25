@@ -2,9 +2,9 @@
 
 US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.
 
-341 distinct brands: 203 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
+345 distinct brands, with overlapping categories: 220 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
 
-Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Large private chains are corporate; PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent.
+Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Corporate includes every verified stock-exchange-listed company and its owned brands, regardless of size, plus large private chains. Publicly traded companies with PE backing appear in both sections and match either exclusion filter. A listed financial sponsor alone does not make its private portfolio companies public. PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent.
 
 Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run build`. The app matcher, browser list, JSON, CSV, and this document are generated from the same records.
 
@@ -12,8 +12,10 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 
 | Brand | Parent / backing | Reviewed | Source |
 | --- | --- | --- | --- |
+| 1-800 Radiator | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | 7-Eleven | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | AAMCO | Icahn Automotive Group · Icahn Enterprises L.P. | 2026-10-16 | [Icahn Automotive — company and service brands](https://www.icahnautomotive.com/) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
+| ABRA | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | ACME | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Advance Auto Parts | Advance Auto Parts, Inc. | 2026-10-15 | [Advance Auto Parts — investor overview](https://ir.advanceautoparts.com/investors/overview/default.aspx) |
 | Aerie | American Eagle Outfitters, Inc. | 2026-10-15 | [American Eagle Outfitters — about AEO](https://www.aeo-inc.com/about-aeo/) |
@@ -25,6 +27,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | American Eagle | American Eagle Outfitters, Inc. | 2026-10-15 | [American Eagle Outfitters — about AEO](https://www.aeo-inc.com/about-aeo/) |
 | Amoco | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
 | ampm | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
+| Apple | Apple Inc. | 2026-10-25 | [Apple — official retail stores](https://www.apple.com/retail/) · [Stock listing: Nasdaq: AAPL](https://investor.apple.com/faq/default.aspx) |
 | ARCO | Marathon Petroleum Corporation (US brand network) | 2026-10-15 | [Marathon Petroleum — retail brand network](https://www.marathonpetroleum.com/operations/) |
 | Athleta | Gap Inc. | 2026-10-15 | [Gap Inc. — brand portfolio](https://www.gapinc.com/en-us) |
 | AutoZone | AutoZone, Inc. | 2026-10-15 | [AutoZone — investor overview](https://about.autozone.com/investor-overview) |
@@ -35,16 +38,21 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Bel Air Markets | The Raley’s Companies | 2026-10-16 | [The Raley’s Companies — current family of store banners](https://theraleyscompanies.com/our-story/) · [Wikipedia](https://en.wikipedia.org/wiki/Raley%27s_Supermarkets) |
 | Best Buy | Best Buy Co., Inc. | 2026-10-15 | [Best Buy — about the company](https://corporate.bestbuy.com/about-best-buy/) |
 | BIGGBY Coffee | BIGGBY COFFEE / Global Orange Development, LLC | 2026-10-16 | [BIGGBY — franchise network and company story](https://biggby.com/about/) · [Wikipedia](https://en.wikipedia.org/wiki/Biggby_Coffee) |
+| Birkenstock | Birkenstock Holding plc · L Catterton investment | 2026-10-16 | [Birkenstock — August 2026 SEC prospectus supplement](https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm) · [Stock listing: NYSE: BIRK](https://www.birkenstock-holding.com/news/birkenstock-reports-fiscal-third-quarter-2026-results-with-15percent-constant-fx-revenue-growth-led-by/ea946937-0de8-419e-b169-012ebbc89b2f) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | BJ’s Wholesale Club | BJ’s Wholesale Club Holdings, Inc. | 2026-10-16 | [BJ’s — corporate company overview](https://newsroom.bjs.com/about-us/) · [Wikipedia](https://en.wikipedia.org/wiki/BJ%27s_Wholesale_Club) |
 | Bloomingdale’s | Macy’s, Inc. | 2026-10-16 | [Macy’s — company and current nameplates](https://www.macysinc.com/company/about/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Macy%27s,_Inc.) |
 | Blue Nile | Signet Jewelers Limited | 2026-10-16 | [Signet Jewelers — current brand portfolio](https://www.signetjewelers.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | Bluemercury | Macy’s, Inc. | 2026-10-16 | [Macy’s — company and current nameplates](https://www.macysinc.com/company/about/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Macy%27s,_Inc.) |
+| Bob's Discount Furniture | Bain Capital investment | 2026-10-16 | [Bain Capital Private Equity — current investments](https://baincapitalprivateequity.com/portfolio) · [Stock listing: NYSE: BOBS](https://ir.mybobs.com/news-events/press-releases/detail/135/bobs-discount-furniture-announces-third-quarter-2026-conference-call-date) · [Wikipedia](https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture) |
 | bp | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
 | Bubba’s 33 | Texas Roadhouse, Inc. | 2026-10-15 | [Texas Roadhouse — corporate overview](https://investor.texasroadhouse.com/overview/default.aspx) |
 | Burger King | Restaurant Brands International Inc. | 2026-10-15 | [Restaurant Brands International — brands](https://www.rbi.com/English/brands/default.aspx) |
 | Burlington | Burlington Stores, Inc. | 2026-10-16 | [Burlington — current corporate profile](https://www.burlingtoninvestors.com/) · [Wikipedia](https://en.wikipedia.org/wiki/Burlington_(department_store)) |
 | Caltex | Chevron Corporation | 2026-10-15 | [Chevron — 2025 Form 10-K filed February 2026](https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3) |
+| Canada Goose | Canada Goose Holdings Inc. · Bain Capital | 2026-10-16 | [Canada Goose — 2026 SEC principal-shareholder disclosure](https://www.sec.gov/Archives/edgar/data/1690511/000169051126000012/R8.htm) · [Stock listing: NYSE: GOOS; TSX: GOOS](https://investor.canadagoose.com/news/news-details/2026/Canada-Goose-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Carrs | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
+| CARSTAR | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
+| CAVA | CAVA Group, Inc. | 2026-10-25 | [CAVA — second-quarter 2026 company results](https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx) · [Stock listing: NYSE: CAVA](https://investor.cava.com/news/news-details/2026/CAVA-Group-Reports-Second-Quarter-2026-Results/default.aspx) |
 | Central Market | H-E-B, LP | 2026-10-15 | [H-E-B — brands and affiliates](https://www.heb.com/privacy) |
 | Champs Sports | DICK’S Sporting Goods, Inc. · Foot Locker | 2026-10-16 | [DICK’S — acquisition of Foot Locker completed](https://investors.dicks.com/news/press-releases/news-details/2025/DICKS-Sporting-Goods-Completes-Acquisition-of-Foot-Locker/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Foot_Locker) |
 | Cheddar’s Scratch Kitchen | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
@@ -67,6 +75,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Dollar General | Dollar General Corporation | 2026-10-15 | [Dollar General — company profile](https://investor.dollargeneral.com/) |
 | Dollar Tree | Dollar Tree, Inc. | 2026-10-15 | [Dollar Tree — company overview](https://corporate.dollartree.com/about) |
 | Domino’s | Domino’s Pizza, Inc. | 2026-10-15 | [Domino’s — third-quarter 2026 results](https://www.sec.gov/Archives/edgar/data/1286681/000128668126000039/dpz-ex99_1.htm) |
+| Dutch Bros | Dutch Bros Inc. | 2026-10-25 | [Dutch Bros — second-quarter 2026 company results](https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results) · [Stock listing: NYSE: BROS](https://investors.dutchbros.com/news-releases/news-release-details/dutch-bros-inc-reports-second-quarter-2026-financial-results) |
 | Eddie V’s | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Einstein Bros. Bagels | Bagel Brands · JAB Holding Company | 2026-10-15 | [Einstein Bros. Bagels — company history and franchising](https://www.einsteinbros.com/franchise/) |
 | El Super | Chedraui USA · Grupo Comercial Chedraui | 2026-10-16 | [Chedraui USA — current grocery banners](https://chedrauiusa.com/) · [Wikipedia](https://en.wikipedia.org/wiki/Chedraui) |
@@ -114,8 +123,11 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Kroger | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Laredo Taco Company | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | Lidl | Schwarz Group | 2026-10-15 | [Schwarz Group — companies and retail divisions](https://gruppe.schwarz/en/who-we-are) |
+| Life Time | Life Time Group Holdings · LGP investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) · [Stock listing: NYSE: LTH](https://ir.lifetime.life/) |
+| LifeStance Health | LifeStance Health Group · TPG minority investment | 2026-10-16 | [LifeStance — 2026 TPG beneficial-ownership filing](https://www.sec.gov/Archives/edgar/data/1845257/000199937126018021/xslSCHEDULE_13G_X02/primary_doc.xml) · [Stock listing: Nasdaq: LFST](https://investor.lifestance.com/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | LongHorn Steakhouse | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Lowe’s | Lowe’s Companies, Inc. | 2026-10-15 | [Lowe’s — who we are](https://corporate.lowes.com/who-we-are) |
+| Maaco | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Macy’s | Macy’s, Inc. | 2026-10-16 | [Macy’s — company and current nameplates](https://www.macysinc.com/company/about/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Macy%27s,_Inc.) |
 | Maggiano’s Little Italy | Brinker International, Inc. | 2026-10-15 | [Brinker — corporate overview](https://investors.brinker.com/overview/) |
 | Marathon | Marathon Petroleum Corporation (US brand network) | 2026-10-15 | [Marathon Petroleum — retail brand network](https://www.marathonpetroleum.com/operations/) |
@@ -125,6 +137,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | McCormick & Schmick’s | Landry’s, Inc. | 2026-10-16 | [Landry's — current dining brands](https://www.landrysinc.com/dining) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | McDonald’s | McDonald’s Corporation | 2026-10-15 | [McDonald’s — how the franchise model works](https://corporate.mcdonalds.com/corpmcd/our-company/how-we-operate-internationally.html) |
 | Meijer | Meijer, Inc. | 2026-10-15 | [Meijer — company overview](https://newsroom.meijer.com/about) |
+| Meineke | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Menards | Menard, Inc. | 2026-10-16 | [Menards — about the company](https://www.menards.com/main/footer/company-information/about-us/c-3582.htm) · [Wikipedia](https://en.wikipedia.org/wiki/Menards) |
 | Metro Market | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Mi Tienda | H-E-B, LP | 2026-10-15 | [H-E-B — brands and affiliates](https://www.heb.com/privacy) |
@@ -142,6 +155,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Papa Johns | Papa John’s International, Inc. | 2026-10-15 | [Papa Johns — company profile](https://ir.papajohns.com/company-info) |
 | Pavilions | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Peet’s Coffee | JDE Peet’s · Keurig Dr Pepper | 2026-10-16 | [Keurig Dr Pepper — company coffee brands](https://www.keurigdrpepper.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Peet%27s_Coffee) |
+| Petco | Petco Health and Wellness Company · CVC / CPP Investments | 2026-10-16 | [Petco — 2026 SEC sponsor disclosure](https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm) · [Stock listing: Nasdaq: WOOF](https://ir.petco.com/shareholder-resources/faqs) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Petsense by Tractor Supply | Tractor Supply Company | 2026-10-15 | [Tractor Supply — company and family of brands](https://ir.tractorsupply.com/investor-relations/overview/) |
 | Pick ’n Save | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Popeyes | Restaurant Brands International Inc. | 2026-10-15 | [Restaurant Brands International — brands](https://www.rbi.com/English/brands/default.aspx) |
@@ -178,7 +192,9 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Stop & Shop | Ahold Delhaize | 2026-10-15 | [Ahold Delhaize — US brands digital platform](https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/) |
 | Stripes | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | Stumptown Coffee Roasters | JDE Peet’s · Keurig Dr Pepper | 2026-10-16 | [Keurig Dr Pepper — company coffee brands](https://www.keurigdrpepper.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters) |
+| Sweetgreen | Sweetgreen, Inc. | 2026-10-25 | [Sweetgreen — second-quarter 2026 company release filed with the SEC](https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm) · [Stock listing: NYSE: SG](https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm) |
 | Taco Bell | Yum! Brands, Inc. | 2026-10-15 | [Yum! Brands — corporate profile](https://investors.yum.com/corporateprofile/default.aspx) |
+| Take 5 Oil Change | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Target | Target Corporation | 2026-10-15 | [Target — about the company](https://corporate.target.com/about) |
 | Texaco | Chevron Corporation | 2026-10-15 | [Chevron — 2025 Form 10-K filed February 2026](https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3) |
 | Texas Roadhouse | Texas Roadhouse, Inc. | 2026-10-15 | [Texas Roadhouse — corporate overview](https://investor.texasroadhouse.com/overview/default.aspx) |
@@ -192,6 +208,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Tires Plus | Bridgestone Retail Operations · Bridgestone Americas | 2026-10-16 | [Bridgestone — retail operations portfolio](https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/) · [Wikipedia](https://en.wikipedia.org/wiki/Bridgestone) |
 | TJ Maxx | The TJX Companies, Inc. | 2026-10-15 | [TJX — about the company](https://www.tjx.com/company/about-tjx) |
 | Tom Thumb | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
+| Torrid | Torrid Holdings · Sycamore investment | 2026-10-15 | [Sycamore — current investments](https://www.sycamorepartners.com/investments) · [Stock listing: NYSE: CURV](https://investors.torrid.com/news/news-details/2026/Torrid-Reports-Second-Quarter-2026-Results-and-Updates-Fiscal-2026-Guidance/default.aspx) |
 | Tractor Supply Company | Tractor Supply Company | 2026-10-15 | [Tractor Supply — company and family of brands](https://ir.tractorsupply.com/investor-relations/overview/) |
 | Trader Joe’s | Trader Joe’s Company | 2026-10-15 | [Trader Joe’s — 2026 company podcast transcript](https://www.traderjoes.com/content/dam/trjo/pdfs/transcripts/ITJ-ep101-fresh-deli.pdf) |
 | TravelCenters of America | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
@@ -207,7 +224,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Wendy’s | The Wendy’s Company | 2026-10-15 | [Wendy’s — corporate overview](https://www.irwendys.com/home/default.aspx) |
 | West Elm | Williams-Sonoma, Inc. | 2026-10-15 | [Williams-Sonoma — brand portfolio](https://www.williams-sonomainc.com/) |
 | Wheel Works | Bridgestone Retail Operations · Bridgestone Americas | 2026-10-16 | [Bridgestone — retail operations portfolio](https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/) · [Wikipedia](https://en.wikipedia.org/wiki/Bridgestone) |
-| Whole Foods Market | Amazon | 2026-10-15 | [Amazon — Whole Foods Market wholly owned subsidiary](https://press.aboutamazon.com/company-news/2025/8/amazon-com-inc-announces-redemption-of-its-5-200-notes-due-december-3-2025) |
+| Whole Foods Market | Amazon | 2026-10-15 | [Amazon — Whole Foods Market wholly owned subsidiary](https://press.aboutamazon.com/company-news/2025/8/amazon-com-inc-announces-redemption-of-its-5-200-notes-due-december-3-2025) · [Stock listing: Nasdaq: AMZN](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx) |
 | Williams Sonoma | Williams-Sonoma, Inc. | 2026-10-15 | [Williams-Sonoma — brand portfolio](https://www.williams-sonomainc.com/) |
 | Williams Sonoma Home | Williams-Sonoma, Inc. | 2026-10-15 | [Williams-Sonoma — brand portfolio](https://www.williams-sonomainc.com/) |
 | WinCo Foods | WinCo Foods | 2026-10-16 | [WinCo Foods — employee ownership and company history](https://www.wincofoods.com/page/about-us) · [Wikipedia](https://en.wikipedia.org/wiki/WinCo_Foods) |
@@ -220,10 +237,10 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 
 | Brand | Parent / backing | Reviewed | Source |
 | --- | --- | --- | --- |
-| 1-800 Radiator | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| 1-800 Radiator | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | 24 Hour Fitness | 24 Hour Fitness · LongRange Capital and Mark Mastrov | 2026-10-16 | [24 Hour Fitness — January 2026 ownership announcement](https://www.24hourfitness.com/content/dam/24-hour-fitness/company/newsroom/2026/24hf_transaction.pdf) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | 7 Brew | Brew Culture LLC · Blackstone minority investment | 2026-10-16 | [7 Brew — current company ownership information](https://7brew.com/about) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States) |
-| ABRA | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| ABRA | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Amada Vino + Tapas | SPB Hospitality · Fortress Investment Group | 2026-10-16 | [Fortress — current middle-market private equity portfolio](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity) · [Wikipedia](https://en.wikipedia.org/wiki/SPB_Hospitality) |
 | Ann Taylor | KnitWell Group · Sycamore Partners | 2026-10-15 | [Sycamore — KnitWell Group brand portfolio](https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma) |
 | Anytime Fitness | Purpose Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
@@ -235,17 +252,17 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Baskin-Robbins | Inspire Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Batteries Plus | Batteries Plus · Freeman Spogli & Co. | 2026-10-16 | [Freeman Spogli — Batteries Plus investment](https://www.freemanspogli.com/portfolio/batteries-plus/) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | Beef ‘O’ Brady’s | FSC Franchise Co. · CapitalSpring | 2026-10-16 | [FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025](https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
-| Birkenstock | Birkenstock Holding plc · L Catterton investment | 2026-10-16 | [Birkenstock — August 2026 SEC prospectus supplement](https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
-| Bob's Discount Furniture | Bain Capital investment | 2026-10-16 | [Bain Capital Private Equity — current investments](https://baincapitalprivateequity.com/portfolio) · [Wikipedia](https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture) |
+| Birkenstock | Birkenstock Holding plc · L Catterton investment | 2026-10-16 | [Birkenstock — August 2026 SEC prospectus supplement](https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm) · [Stock listing: NYSE: BIRK](https://www.birkenstock-holding.com/news/birkenstock-reports-fiscal-third-quarter-2026-results-with-15percent-constant-fx-revenue-growth-led-by/ea946937-0de8-419e-b169-012ebbc89b2f) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
+| Bob's Discount Furniture | Bain Capital investment | 2026-10-16 | [Bain Capital Private Equity — current investments](https://baincapitalprivateequity.com/portfolio) · [Stock listing: NYSE: BOBS](https://ir.mybobs.com/news-events/press-releases/detail/135/bobs-discount-furniture-announces-third-quarter-2026-conference-call-date) · [Wikipedia](https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture) |
 | Bojangles | Bojangles, Inc. · Durational Capital Management investment | 2026-10-16 | [Durational Capital Management — current investments](https://www.durational.com/) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | Boots | The Boots Group · Sycamore Partners | 2026-10-15 | [Sycamore — Walgreens Boots Alliance acquisition completed](https://www.sycamorepartners.com/news-article/sycamore-partners-completes-acquisition-of-walgreens-boots-alliance) |
 | Breitling | Partners Group investment | 2026-10-16 | [Partners Group — Breitling ownership confirmed in June 2026 announcement](https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=0846833f-aa2a-4c4c-b6a4-a09c865f01ea) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Buffalo Wild Wings | Inspire Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Cadogan Tate | TSG Consumer Partners investment | 2026-10-16 | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Caliber Collision | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
-| Canada Goose | Canada Goose Holdings Inc. · Bain Capital | 2026-10-16 | [Canada Goose — 2026 SEC principal-shareholder disclosure](https://www.sec.gov/Archives/edgar/data/1690511/000169051126000012/R8.htm) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
+| Canada Goose | Canada Goose Holdings Inc. · Bain Capital | 2026-10-16 | [Canada Goose — 2026 SEC principal-shareholder disclosure](https://www.sec.gov/Archives/edgar/data/1690511/000169051126000012/R8.htm) · [Stock listing: NYSE: GOOS; TSX: GOOS](https://investor.canadagoose.com/news/news-details/2026/Canada-Goose-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Carl's Jr. | CKE Restaurants · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
-| CARSTAR | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| CARSTAR | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Carvel | GoTo Foods · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Chapter Aesthetic Studio | The Aspen Group · LGP investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
 | Chico's | KnitWell Group · Sycamore Partners | 2026-10-15 | [Sycamore — KnitWell Group brand portfolio](https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma) |
@@ -285,28 +302,28 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Lane Bryant | Sycamore Partners | 2026-10-15 | [Sycamore — current investments](https://www.sycamorepartners.com/investments) |
 | Lids | Lids · Ames Watson investment | 2026-10-17 | [Ames Watson — current brand investment statement](https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
 | LidsU | LidsU · Ames Watson investment | 2026-10-17 | [Ames Watson — current brand investment statement](https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
-| Life Time | Life Time Group Holdings · LGP investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
-| LifeStance Health | LifeStance Health Group · TPG minority investment | 2026-10-16 | [LifeStance — 2026 TPG beneficial-ownership filing](https://www.sec.gov/Archives/edgar/data/1845257/000199937126018021/xslSCHEDULE_13G_X02/primary_doc.xml) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
+| Life Time | Life Time Group Holdings · LGP investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) · [Stock listing: NYSE: LTH](https://ir.lifetime.life/) |
+| LifeStance Health | LifeStance Health Group · TPG minority investment | 2026-10-16 | [LifeStance — 2026 TPG beneficial-ownership filing](https://www.sec.gov/Archives/edgar/data/1845257/000199937126018021/xslSCHEDULE_13G_X02/primary_doc.xml) · [Stock listing: Nasdaq: LFST](https://investor.lifestance.com/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | LOFT | KnitWell Group · Sycamore Partners | 2026-10-15 | [Sycamore — KnitWell Group brand portfolio](https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma) |
 | Los Tacos No. 1 | TSG Consumer Partners investment | 2026-10-16 | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
-| Maaco | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| Maaco | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Mancini’s Sleepworld | Sun Capital Partners investment | 2026-10-16 | [Sun Capital Partners — Mancini’s Sleepworld](https://suncappart.com/portfolio/mancinis-sleepworld/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Massage Envy | Roark portfolio investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Mathnasium | Roark portfolio investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Mavis Tires & Brakes | TSG Consumer Partners investment | 2026-10-16 | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | McAlister's Deli | GoTo Foods · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | MedVet | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
-| Meineke | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| Meineke | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Merry Maids | ServiceMaster Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Michaels | Apollo-managed funds | 2026-10-15 | [Apollo — completion of Michaels tender offer](https://www.apollo.com/insights-news/pressreleases/2021/04/apollo-announces-completion-of-the-tender-offer-for-shares-of-the-michaels-companies-130153513) |
 | Milan Laser Hair Removal | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
 | Miller's Ale House | Roark portfolio investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
-| Mister Car Wash | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
+| Mister Car Wash | Leonard Green & Partners portfolio investment | 2026-10-25 | [Mister Car Wash — completed take-private acquisition, May 2026](https://www.sec.gov/Archives/edgar/data/1853513/000119312526229866/d128344dex991.htm) |
 | Moe's Southwest Grill | GoTo Foods · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | Newk’s Eatery | FSC Franchise Co. · CapitalSpring | 2026-10-16 | [FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025](https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | Nothing Bundt Cakes | KKR fund-backed investment | 2026-10-15 | [KKR Private Equity Conglomerate — June 30, 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1957845/000195784526000071/kkr-20260630.htm) |
 | Orangetheory Fitness | Purpose Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
-| Petco | Petco Health and Wellness Company · CVC / CPP Investments | 2026-10-16 | [Petco — 2026 SEC sponsor disclosure](https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
+| Petco | Petco Health and Wellness Company · CVC / CPP Investments | 2026-10-16 | [Petco — 2026 SEC sponsor disclosure](https://www.sec.gov/Archives/edgar/data/1826470/000119312526106114/woof-20260131.htm) · [Stock listing: Nasdaq: WOOF](https://ir.petco.com/shareholder-resources/faqs) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | PetSmart | BC Partners · Apollo | 2026-10-15 | [BC Partners — PetSmart current investment](https://www.bcpartners.com/portfolio/petsmart-xi/) |
 | Philz Coffee | Freeman Spogli investment | 2026-10-16 | [Freeman Spogli — Philz Coffee portfolio](https://www.freemanspogli.com/portfolio/philz-coffee/) · [Wikipedia](https://en.wikipedia.org/wiki/Philz_Coffee) |
 | Pizza Hut | Pizza Hut · LongRange Capital | 2026-10-16 | [LongRange Capital — completed Pizza Hut acquisition, September 2026](https://www.longrangecapital.com/news/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
@@ -334,14 +351,14 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Sun Auto Tire & Service | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
 | Super Star Car Wash | TSG Consumer Partners investment | 2026-10-16 | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Taco Del Mar | REGO Restaurant Group · High Bluff Capital Partners | 2026-10-16 | [High Bluff Capital Partners — current portfolio](https://www.highbluffcap.com/portfolio/) · [Wikipedia](https://en.wikipedia.org/wiki/Taco_del_Mar) |
-| Take 5 Oil Change | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
+| Take 5 Oil Change | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Talbots | KnitWell Group · Sycamore Partners | 2026-10-15 | [Sycamore — KnitWell Group brand portfolio](https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma) |
 | The Bar Method | Purpose Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |
 | The Brass Tap | FSC Franchise Co. · CapitalSpring | 2026-10-16 | [FSC Franchise Co. — company statement on brands and CapitalSpring backing, November 2025](https://www.prnewswire.com/news-releases/fsc-franchise-co-appoints-industry-veteran-john-massari-as-chief-financial-officer-302625035.html) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | The Goddard School | Goddard Systems · Sycamore Partners | 2026-10-15 | [Sycamore — acquisition of Goddard Systems](https://www.sycamorepartners.com/news-article/sycamore-partners-acquires-goddard-systems-the-leading-franchisor-of-premium-early-education-centers) |
 | The Shade Store | Leonard Green & Partners portfolio investment | 2026-10-15 | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) |
 | Thrive Pet Healthcare | TSG Consumer Partners investment | 2026-10-16 | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
-| Torrid | Torrid Holdings · Sycamore investment | 2026-10-15 | [Sycamore — current investments](https://www.sycamorepartners.com/investments) |
+| Torrid | Torrid Holdings · Sycamore investment | 2026-10-15 | [Sycamore — current investments](https://www.sycamorepartners.com/investments) · [Stock listing: NYSE: CURV](https://investors.torrid.com/news/news-details/2026/Torrid-Reports-Second-Quarter-2026-Results-and-Updates-Fiscal-2026-Guidance/default.aspx) |
 | Tropical Smoothie Cafe | Blackstone-managed private equity funds | 2026-10-16 | [Blackstone — current investment and board biography](https://www.blackstone.com/people/david-kestnbaum/) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States) |
 | TruGreen | TruGreen · Clayton, Dubilier & Rice | 2026-10-16 | [CD&R — current TruGreen investment](https://www.cdr.com/portfolio/trugreen) · [Wikipedia](https://en.wikipedia.org/wiki/List_of_private_equity_firms) |
 | Two Men and a Truck | ServiceMaster Brands · Roark | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) |

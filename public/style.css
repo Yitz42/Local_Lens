@@ -17,3 +17,5 @@
 @media(max-width:359px){.header{padding:0 14px;gap:10px}.brand{font-size:20px}.top-nav{gap:9px}.nav-item{font-size:10px}.directory-page .header{gap:12px}.directory-page .repo-link{font-size:10px}.directory-page .brand{font-size:19px}}
 
 .firm-holdings small{display:block;margin-top:.45rem;color:var(--muted);font-size:.75rem}
+
+.brand-badges,.ownership-badges{display:inline-flex;flex-wrap:wrap;gap:.35rem;align-items:center}.brand-badges{justify-content:flex-end}.stock-listing{font-size:.82rem;line-height:1.6;color:var(--ink);margin:.4rem 0 .75rem}.stock-listing span,.stock-listing small{color:var(--muted);font-size:.75rem}.stock-listing small{display:block}.place-bottom{gap:.5rem;flex-wrap:wrap}
