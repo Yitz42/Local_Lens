@@ -50,3 +50,11 @@ Place data © Overture Maps Foundation and its sources. Release and licenses: ht
 ## Publicly traded companies
 
 Corporate includes any reviewed operating company with equity listed on a stock exchange, regardless of size, and its owned brands. Companies with documented PE backing can appear in both filters; either exclusion hides them. `publicListing` stores the issuer, exchange/ticker pairs, source, and a separate review date. Cards and downloads show this evidence, and ticker symbols are searchable. A listed financial sponsor alone does not make a private portfolio company public. The source-linked stock review is in [docs/PUBLIC_COMPANIES.md](docs/PUBLIC_COMPANIES.md). Coverage remains a selected US-focused brand directory, not an exhaustive global list of all listed companies.
+
+## Default ownership and food filters
+
+Corporate and PE exclusions start on. The updated default is applied once when upgrading from the older preference key; subsequent choices, including explicitly showing all ownership types, are remembered in the browser. Unknown ownership remains visible unless separately hidden.
+
+Use the Food types checkboxes for Italian, pizza, and other supported cuisines or food styles. Multiple checks match any selected type and combine with ownership, radius, and place-category filters. Clearing food choices leaves ownership filters in place. The UI uses explicit Overture primary/hierarchy/alternate categories and OSM cuisine tags, never guesses from business names. Some places lack these tags and therefore do not match a selected food type. Saved legacy records can use their existing cuisine string.
+
+The Worker preserves food tags and uses a new edge-cache namespace. Nearby browser caches use format 2 so old records that omitted cuisine tags are not reused as current responses. Saved places remain available; food choices are scoped to the current view.

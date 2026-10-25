@@ -1,10 +1,12 @@
 import {PMTiles,FetchSource} from 'pmtiles';
 import {VectorTile} from '@mapbox/vector-tile';
 import {PbfReader} from 'pbf';
+import {foodTypesFromTerms,foodTypeLabel} from '../public/food-types.js';
 export const RELEASE='2026-09-23.1';
 export const DATA_DATE='2026-09-23T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
+export const PLACE_FORMAT='food-types-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -16,10 +18,9 @@ class BoundedSource extends FetchSource{
 }
 const archive=new PMTiles(new BoundedSource(ARCHIVE_URL));
 function parse(value,fallback){if(value&&typeof value==='object')return value;try{return JSON.parse(value)||fallback;}catch{return fallback;}}
+function taxonomyTerms(properties,includeAlternates=false){const taxonomy=parse(properties.taxonomy,{});return [properties.basic_category,taxonomy.primary,...(Array.isArray(taxonomy.hierarchy)?taxonomy.hierarchy:[]),...(includeAlternates&&Array.isArray(taxonomy.alternates)?taxonomy.alternates:[]),...(includeAlternates&&Array.isArray(taxonomy.alternate)?taxonomy.alternate:[])].filter(term=>typeof term==='string');}
 export function categoryForOverture(properties){
- const basic=String(properties.basic_category||'');
- const taxonomy=parse(properties.taxonomy,{}),hierarchy=taxonomy.hierarchy||[];
- const terms=[basic,taxonomy.primary,...hierarchy].filter(Boolean);
+ const terms=taxonomyTerms(properties);
  if(terms.some(t=>/^(gas_station|fuel_station|petrol_station)$/.test(t)))return 'gas';
  if(terms.some(t=>/^(coffee_shop|cafe|cafeteria|tea_house|tea_room|bubble_tea_shop|juice_bar|ice_cream_shop)$/.test(t)))return 'coffee';
  if(terms.some(t=>/^(grocery_store|supermarket|convenience_store|bakery|greengrocer|food_market|specialty_food_store|farmers_market)$/.test(t)))return 'grocery';
@@ -44,7 +45,8 @@ export function normalizePlace(feature){
  const [lng,lat]=feature.geometry.coordinates;if(!Number.isFinite(lat)||!Number.isFinite(lng))return null;
  const address=parse(p.addresses,[])[0]||{},brand=parse(p.brand,{}).names?.primary||'';
  const websites=parse(p.websites,[]);
- return {id:'overture/'+id,name:String(name),brand:String(brand),lat,lng,category,address:address.freeform||'',addressCity:address.locality||'',website:websites.find(v=>typeof v==='string'&&/^https?:\/\//.test(v))||'',cuisine:'',amenity:p.basic_category||'',source:'Overture Maps',release:RELEASE};
+ const foodTypes=foodTypesFromTerms([...taxonomyTerms(p,true),p.cuisine||'',parse(p.cuisines,[])]);
+ return {id:'overture/'+id,name:String(name),brand:String(brand),lat,lng,category,address:address.freeform||'',addressCity:address.locality||'',website:websites.find(v=>typeof v==='string'&&/^https?:\/\//.test(v))||'',cuisine:foodTypeLabel({foodTypes}),foodTypes,amenity:p.basic_category||'',source:'Overture Maps',release:RELEASE};
 }
 export async function lookupPlacesPage(lat,lng,radius,page=0,source=archive){
  const tiles=planTiles(lat,lng,radius),totalPages=Math.max(1,Math.ceil(tiles.length/PAGE_SIZE));
@@ -59,5 +61,5 @@ export async function lookupPlacesPage(lat,lng,radius,page=0,source=archive){
    if(place&&distance({lat,lng},place)<=radius+120)places.set(place.id,place);
   }
  }));
- return {places:[...places.values()],source:'Overture Maps',release:RELEASE,dataDate:DATA_DATE,fetchedAt:new Date().toISOString(),page,totalPages,complete:totalPages===1};
+ return {places:[...places.values()],source:'Overture Maps',release:RELEASE,format:PLACE_FORMAT,dataDate:DATA_DATE,fetchedAt:new Date().toISOString(),page,totalPages,complete:totalPages===1};
 }

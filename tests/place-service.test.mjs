@@ -2,7 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';
 import {createWorker} from '../worker/index.js';
 import {planTiles,normalizePlace,categoryForOverture,RELEASE} from '../worker/overture.js';
 import {collectPlacePages} from '../public/places-loader.js';
-import {findNearbyCache} from '../public/place-cache.js';
+import {findNearbyCache,PLACE_CACHE_FORMAT} from '../public/place-cache.js';
 const url='https://local.test/api/places?lat=42.360&lng=-71.058&radius=1609';
 const item={id:'overture/abc',name:'Neighborhood Market',lat:42.36,lng:-71.058,category:'grocery'};
 const payload={places:[item],page:0,totalPages:1,release:RELEASE,dataDate:'2026-09-23T00:00:00Z',fetchedAt:new Date().toISOString()};
@@ -53,7 +53,7 @@ test('a missing or inconsistent page cannot masquerade as a complete area',async
  await assert.rejects(()=>collectPlacePages(async page=>{if(page)throw new Error('offline');return {...payload,totalPages:2};}));
 });
 test('cached places cannot leak into a different city or larger radius',()=>{
- const now=Date.now(),record={origin:{lat:42.36,lng:-71.058},radius:3219,places:[item],savedAt:now};
+ const now=Date.now(),record={format:PLACE_CACHE_FORMAT,origin:{lat:42.36,lng:-71.058},radius:3219,places:[item],savedAt:now};
  assert.equal(findNearbyCache([record],record.origin,1609,now),record);
  assert.equal(findNearbyCache([record],{lat:47.606,lng:-122.332},1609,now),null);
  assert.equal(findNearbyCache([record],record.origin,8047,now),null);

@@ -1,4 +1,4 @@
-import {lookupPlacesPage,RELEASE} from './overture.js';
+import {lookupPlacesPage,RELEASE,PLACE_FORMAT} from './overture.js';
 const MIME={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8','.svg':'image/svg+xml','.txt':'text/plain; charset=utf-8'};
 const FRESH_SECONDS=1800,STALE_SECONDS=7*86400;
 function json(data,status=200){return new Response(JSON.stringify(data),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'}});}
@@ -8,7 +8,7 @@ export function createWorker(assets={},dependencies={}){
  async function places(request,ctx){
   const url=new URL(request.url),lat=Number(url.searchParams.get('lat')),lng=Number(url.searchParams.get('lng')),radius=Number(url.searchParams.get('radius')),page=Number(url.searchParams.get('page')||0);
   if(!url.searchParams.get('lat')?.trim()||!url.searchParams.get('lng')?.trim()||!Number.isFinite(lat)||!Number.isFinite(lng)||Math.abs(lat)>85||Math.abs(lng)>180||!Number.isInteger(radius)||radius<500||radius>10000||!Number.isInteger(page)||page<0||page>127)return json({error:'Choose a valid location, radius, and place page.'},400);
-  const a=Number(lat.toFixed(3)),b=Number(lng.toFixed(3)),keyURL=new URL('/_place-cache/overture/'+RELEASE,url.origin);
+  const a=Number(lat.toFixed(3)),b=Number(lng.toFixed(3)),keyURL=new URL('/_place-cache/overture/'+RELEASE+'/'+PLACE_FORMAT,url.origin);
   keyURL.search=new URLSearchParams({lat:a,lng:b,radius,page}).toString();
   const key=new Request(keyURL),staleKey=new Request(keyURL.href+'&stale=1'),cache=dependencies.cache||globalThis.caches?.default,recent=memory.get(keyURL.href);
   if(recent&&now()-Date.parse(recent.fetchedAt)<FRESH_SECONDS*1000)return json({...recent,cache:'memory'});

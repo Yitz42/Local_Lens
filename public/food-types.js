@@ -1,0 +1,33 @@
+export const OWNERSHIP_PREFERENCE_KEY='local-lens-hidden-v2';
+export const DEFAULT_OWNERSHIP_FILTERS=['pe','corporate'];
+export function initialOwnershipFilters(stored){
+ if(!Array.isArray(stored))return [...DEFAULT_OWNERSHIP_FILTERS];
+ const valid=[...new Set(stored.filter(type=>['pe','corporate','unknown'].includes(type)))];
+ return stored.length&&!valid.length?[...DEFAULT_OWNERSHIP_FILTERS]:valid;
+}
+export const FOOD_TYPES=[
+ {id:'italian',name:'Italian',terms:['italian','italian_restaurant','northern_italian_restaurant','southern_italian_restaurant']},
+ {id:'pizza',name:'Pizza',terms:['pizza','pizzeria','pizza_restaurant','pizza_delivery','pizza_takeaway','neapolitan_pizza_restaurant']},
+ {id:'mexican',name:'Mexican',terms:['mexican','mexican_restaurant','tex_mex','tex_mex_restaurant']},
+ {id:'chinese',name:'Chinese',terms:['chinese','chinese_restaurant']},
+ {id:'japanese',name:'Japanese',terms:['japanese','japanese_restaurant']},
+ {id:'sushi',name:'Sushi',terms:['sushi','sushi_restaurant','sushi_bar']},
+ {id:'indian',name:'Indian',terms:['indian','indian_restaurant','north_indian_restaurant','south_indian_restaurant']},
+ {id:'thai',name:'Thai',terms:['thai','thai_restaurant']},
+ {id:'american',name:'American',terms:['american','american_restaurant','new_american_restaurant','traditional_american_restaurant']},
+ {id:'burgers',name:'Burgers',terms:['burger','burgers','hamburger','hamburgers','burger_restaurant','hamburger_restaurant']},
+ {id:'barbecue',name:'BBQ',terms:['barbecue','bbq','barbecue_restaurant','bbq_restaurant','texas_barbecue_restaurant']},
+ {id:'seafood',name:'Seafood',terms:['seafood','seafood_restaurant']},
+ {id:'mediterranean',name:'Mediterranean',terms:['mediterranean','mediterranean_restaurant']},
+ {id:'greek',name:'Greek',terms:['greek','greek_restaurant']},
+ {id:'french',name:'French',terms:['french','french_restaurant']},
+ {id:'sandwiches',name:'Sandwiches',terms:['sandwich','sandwiches','sandwich_shop','sandwich_restaurant']}
+];
+const normalise=value=>value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+export function foodTypesFromTerms(input=[]){
+ const terms=new Set((Array.isArray(input)?input:[input]).flat(2).filter(value=>typeof value==='string').flatMap(value=>value.split(/[;,|·]/)).map(normalise));
+ return FOOD_TYPES.filter(type=>terms.has(type.id)||type.terms.some(term=>terms.has(term))).map(type=>type.id);
+}
+export function foodTypesForPlace(place){return foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']);}
+export function foodTypeLabel(place){const ids=foodTypesForPlace(place);return FOOD_TYPES.filter(type=>ids.includes(type.id)).map(type=>type.name).join(' · ');}
+export function matchesFoodTypes(place,selected=[]){return !selected.length||foodTypesForPlace(place).some(type=>selected.includes(type));}
