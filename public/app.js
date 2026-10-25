@@ -1,7 +1,7 @@
 import {allBrandsFilterState,setAllBrandsHidden} from './ownership-categories.js?v=20261025-google1';
 import {FOOD_TYPES,OWNERSHIP_PREFERENCE_KEY,initialOwnershipFilters,foodTypeLabel} from './food-types.js?v=20261025-google1';
 function ownershipBadges(ownership){return '<span class="ownership-badges">'+ownershipCategories(ownership).map(type=>`<span class="badge ${type}">${LABELS[type]}</span>`).join('')+'</span>';}
-import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance} from './ownership.js?v=20261025-starbucks1';
+import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance} from './ownership.js?v=20261025-cvsphoto1';
 import {collectPlacePages} from './places-loader.js';
 import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js';
 import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261025-google1';

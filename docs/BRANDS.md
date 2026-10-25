@@ -65,7 +65,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Chuy’s | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Circle K | Alimentation Couche-Tard Inc. | 2026-10-15 | [Couche-Tard — where we operate](https://corporate.couche-tard.com/where-we-operate) |
 | Costco | Costco Wholesale Corporation | 2026-10-15 | [Costco — company profile](https://investor.costco.com/company-profile/) |
-| CVS Pharmacy | CVS Health Corporation | 2026-10-15 | [CVS Health — CVS Pharmacy network](https://www.cvshealth.com/services/pharmacy/neighborhood-pharmacy.html) |
+| CVS Pharmacy | CVS Health Corporation | 2026-10-25 | [CVS Health — CVS Pharmacy network](https://www.cvshealth.com/services/pharmacy/neighborhood-pharmacy.html) · [CVS Photo — photo centers and film processing](https://www.cvs.com/photo/film-processing) |
 | David’s Bridal | David’s Bridal Holdings · CION Investment Corporation | 2026-10-17 | [CION Investment Corporation — March 2026 Form 10-Q, equity and controlled-investment schedules](https://cioninvestments.gcs-web.com/static-files/68131cfa-561e-493c-8afa-6a0d2ffafb1f) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
 | dd’s DISCOUNTS | Ross Stores, Inc. | 2026-10-15 | [Ross Stores — corporate profile](https://investors.rossstores.com/corporate-profile) |
 | DG Market | Dollar General Corporation | 2026-10-15 | [Dollar General — company profile](https://investor.dollargeneral.com/) |

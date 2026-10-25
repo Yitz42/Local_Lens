@@ -26,6 +26,16 @@ test('Google Starbucks Coffee Company listings match the corporate brand exactly
  const unrelated=normalizeGooglePlace(raw({displayName:'Starbucks Coffee Company Consulting'}));
  assert.equal(ownershipFor(unrelated).type,'unknown');
 });
+test('CVS Photo departments inherit CVS corporate ownership from their exact listing names',()=>{
+ for(const displayName of ['CVS Photo','CVS Photo Center','CVS Photo #1234','CVS Photo Center store #42']){
+  const place=normalizeGooglePlace(raw({displayName,primaryType:'electronics_store',types:['electronics_store','store']}));
+  const ownership=ownershipFor(place);
+  assert.equal(ownership.brand,'CVS Pharmacy');assert.equal(ownership.parent,'CVS Health Corporation');assert.equal(ownership.type,'corporate');
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe']}).length,0,displayName);
+  assert.equal(filterPlaces([place],{origin,hidden:[]}).length,1,displayName);
+ }
+ for(const displayName of ['CVS Photography','CVS Photo Studio Independent'])assert.equal(ownershipFor(normalizeGooglePlace(raw({displayName}))).type,'unknown');
+});
 test('Google requests are bounded, preserve result attribution, and request fields explicitly',async()=>{
  const requests=[],Place={async searchNearby(request){requests.push(request);return {places:[raw()]};}};
  const result=await searchGooglePlaces(Place,origin,3219);

@@ -1304,14 +1304,22 @@
         "CVS HealthHUB",
         "CVS Pharmacy y más",
         "CVS Pharmacy at Target",
-        "CVS Pharmacy in Target"
+        "CVS Pharmacy in Target",
+        "CVS Photo",
+        "CVS Photo Center"
       ],
       "type": "corporate",
       "parent": "CVS Health Corporation",
       "source": "https://www.cvshealth.com/services/pharmacy/neighborhood-pharmacy.html",
       "sourceTitle": "CVS Health — CVS Pharmacy network",
-      "note": "CVS Pharmacy is CVS Health’s national retail pharmacy network, including pharmacies inside other retailers.",
-      "checked": "2026-10-15"
+      "note": "CVS Pharmacy is CVS Health’s national retail pharmacy network, including pharmacies inside other retailers and CVS Photo printing services. A separate CVS Photo map listing is part of the same corporate brand.",
+      "checked": "2026-10-25",
+      "discoverySources": [
+        {
+          "title": "CVS Photo — photo centers and film processing",
+          "url": "https://www.cvs.com/photo/film-processing"
+        }
+      ]
     },
     {
       "brand": "Dave's Hot Chicken",
