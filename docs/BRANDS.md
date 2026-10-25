@@ -2,7 +2,7 @@
 
 US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.
 
-348 distinct brands, with overlapping categories: 223 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
+361 distinct brands, with overlapping categories: 236 corporate and 138 private equity backed. Review dates are recorded per entry. This is a reviewed directory, not a complete list of every brand or an automatic ownership feed.
 
 Filters describe brand affiliation. They do not verify the owner of an individual franchise, licensed store, or fuel station. Corporate includes every verified stock-exchange-listed company and its owned brands, regardless of size, plus large private chains. Publicly traded companies with PE backing appear in both sections and match either exclusion filter. A listed financial sponsor alone does not make its private portfolio companies public. PE includes documented minority investments, explained per entry. Unknown businesses are never assumed independent. Former-chain records, including Rite Aid and Bartell Drugs, identify legacy brand affiliation; their notes describe closures and do not establish that a location is still open.
 
@@ -29,6 +29,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | ampm | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
 | Apple | Apple Inc. | 2026-10-25 | [Apple — official retail stores](https://www.apple.com/retail/) · [Stock listing: Nasdaq: AAPL](https://investor.apple.com/faq/default.aspx) |
 | ARCO | Marathon Petroleum Corporation (US brand network) | 2026-10-15 | [Marathon Petroleum — retail brand network](https://www.marathonpetroleum.com/operations/) |
+| AT&T | AT&T Inc. | 2026-10-25 | [AT&T — company and wireless brands](https://about.att.com/innovation/ip/brands/history) · [Stock listing: NYSE: T; NYSE Texas: T](https://about.att.com/story/2025/dual-listing-nyse-texas.html) |
 | Athleta | Gap Inc. | 2026-10-15 | [Gap Inc. — brand portfolio](https://www.gapinc.com/en-us) |
 | AutoZone | AutoZone, Inc. | 2026-10-15 | [AutoZone — investor overview](https://about.autozone.com/investor-overview) |
 | Baker’s | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
@@ -45,6 +46,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Blue Nile | Signet Jewelers Limited | 2026-10-16 | [Signet Jewelers — current brand portfolio](https://www.signetjewelers.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | Bluemercury | Macy’s, Inc. | 2026-10-16 | [Macy’s — company and current nameplates](https://www.macysinc.com/company/about/default.aspx) · [Wikipedia](https://en.wikipedia.org/wiki/Macy%27s,_Inc.) |
 | Bob's Discount Furniture | Bain Capital investment | 2026-10-16 | [Bain Capital Private Equity — current investments](https://baincapitalprivateequity.com/portfolio) · [Stock listing: NYSE: BOBS](https://ir.mybobs.com/news-events/press-releases/detail/135/bobs-discount-furniture-announces-third-quarter-2026-conference-call-date) · [Wikipedia](https://en.wikipedia.org/wiki/Bob%27s_Discount_Furniture) |
+| Boost Mobile | EchoStar Corporation | 2026-10-25 | [EchoStar — corporate profile and Boost Mobile brand](https://ir.echostar.com/) · [Stock listing: Nasdaq: ECHO](https://ir.echostar.com/) |
 | bp | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
 | Bubba’s 33 | Texas Roadhouse, Inc. | 2026-10-15 | [Texas Roadhouse — corporate overview](https://investor.texasroadhouse.com/overview/default.aspx) |
 | Burger King | Restaurant Brands International Inc. | 2026-10-15 | [Restaurant Brands International — brands](https://www.rbi.com/English/brands/default.aspx) |
@@ -65,6 +67,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Chuy’s | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Circle K | Alimentation Couche-Tard Inc. | 2026-10-15 | [Couche-Tard — where we operate](https://corporate.couche-tard.com/where-we-operate) |
 | Costco | Costco Wholesale Corporation | 2026-10-15 | [Costco — company profile](https://investor.costco.com/company-profile/) |
+| Cricket Wireless | AT&T Inc. | 2026-10-25 | [Cricket Wireless — May 2026 AT&T family disclosure](https://www.cricketwireless.com/legal-info/privacy-notice-previous-version) · [Stock listing: NYSE: T; NYSE Texas: T](https://about.att.com/story/2025/dual-listing-nyse-texas.html) · [AT&T — Cricket Wireless acquisition and brand history](https://about.att.com/innovation/ip/brands/history) |
 | CVS Pharmacy | CVS Health Corporation | 2026-10-25 | [CVS Health — CVS Pharmacy network](https://www.cvshealth.com/services/pharmacy/neighborhood-pharmacy.html) · [CVS Photo — photo centers and film processing](https://www.cvs.com/photo/film-processing) |
 | David’s Bridal | David’s Bridal Holdings · CION Investment Corporation | 2026-10-17 | [CION Investment Corporation — March 2026 Form 10-Q, equity and controlled-investment schedules](https://cioninvestments.gcs-web.com/static-files/68131cfa-561e-493c-8afa-6a0d2ffafb1f) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
 | dd’s DISCOUNTS | Ross Stores, Inc. | 2026-10-15 | [Ross Stores — corporate profile](https://investors.rossstores.com/corporate-profile) |
@@ -141,8 +144,10 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Meijer | Meijer, Inc. | 2026-10-15 | [Meijer — company overview](https://newsroom.meijer.com/about) |
 | Meineke | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Menards | Menard, Inc. | 2026-10-16 | [Menards — about the company](https://www.menards.com/main/footer/company-information/about-us/c-3582.htm) · [Wikipedia](https://en.wikipedia.org/wiki/Menards) |
+| Metro by T-Mobile | T-Mobile US, Inc. | 2026-10-25 | [T-Mobile — Metro brand affiliation](https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month) · [Stock listing: Nasdaq: TMUS](https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026) |
 | Metro Market | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Mi Tienda | H-E-B, LP | 2026-10-15 | [H-E-B — brands and affiliates](https://www.heb.com/privacy) |
+| Mint Mobile | T-Mobile US, Inc. | 2026-10-25 | [T-Mobile — October 2026 Mint Mobile brand affiliation](https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month) · [Stock listing: Nasdaq: TMUS](https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026) · [Mint Mobile — online service model and no retail stores](https://www.mintmobile.com/why-mint-mobile/) |
 | Mobil | Exxon Mobil Corporation | 2026-10-15 | [ExxonMobil — our global brands](https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands) |
 | Morton’s The Steakhouse | Landry’s, Inc. | 2026-10-16 | [Landry's — current dining brands](https://www.landrysinc.com/dining) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
 | National Car Rental | Enterprise Holdings, Inc. · Enterprise Mobility | 2026-10-16 | [Enterprise Mobility — legal statement identifying brand ownership](https://www.enterprisemobility.com/en/legal/legal-disclaimer.html) · [Wikipedia](https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies) |
@@ -180,12 +185,14 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Ruth’s Chris Steak House | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Safeway | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Sam’s Club | Walmart Inc. | 2026-10-15 | [Walmart — about the company](https://corporate.walmart.com/about) |
+| Save A Lot | Moran Foods, LLC · Save A Lot grocery network | 2026-10-25 | [Save A Lot — 2026 company report and national grocery network](https://savealot.com/newsroom/save-a-lot-releases-2025-business-and-social-impact-report/) · [Save A Lot — independently licensed stores and local policies](https://savealot.com/wcp/contact-us) |
 | Seasons 52 | Darden Restaurants, Inc. | 2026-10-15 | [Darden — our company](https://www.darden.com/our-company/) |
 | Shake Shack | Shake Shack Inc. | 2026-10-15 | [Shake Shack — company overview](https://investor.shakeshack.com/overview/) |
 | Shaw’s | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Sheetz | Sheetz, Inc. | 2026-10-15 | [Sheetz — company ownership FAQ](https://www.sheetz.com/FAQ) |
 | Shell | Shell plc | 2026-10-15 | [Shell — who we are](https://www.shell.com/who-we-are.html) |
 | Sierra | The TJX Companies, Inc. | 2026-10-15 | [TJX — about the company](https://www.tjx.com/company/about-tjx) |
+| Simple Mobile | Verizon Communications Inc. | 2026-10-25 | [Verizon — current Verizon Value brand portfolio](https://www.verizon.com/about/news/total-wireless-expands-western-union-services) · [Stock listing: NYSE: VZ; Nasdaq: VZ](https://www.verizon.com/about/investors/stock-information) |
 | Smart & Final | Chedraui USA · Grupo Comercial Chedraui | 2026-10-16 | [Chedraui USA — current grocery banners](https://chedrauiusa.com/) · [Wikipedia](https://en.wikipedia.org/wiki/Chedraui) |
 | Smith’s Food and Drug | The Kroger Co. | 2026-10-15 | [Kroger — family of banners](https://www.thekrogerco.com/) |
 | Speedway | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
@@ -193,9 +200,11 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Star Market | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Starbucks | Starbucks Corporation | 2026-10-25 | [Starbucks — company profile](https://about.starbucks.com/press/2026/company-profile/) · [Starbucks — official Starbucks Coffee Company name](https://www.starbucks.com/) |
 | Stop & Shop | Ahold Delhaize | 2026-10-15 | [Ahold Delhaize — US brands digital platform](https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/) |
+| Straight Talk | Verizon Communications Inc. | 2026-10-25 | [Verizon — current Verizon Value brand portfolio](https://www.verizon.com/about/news/total-wireless-expands-western-union-services) · [Stock listing: NYSE: VZ; Nasdaq: VZ](https://www.verizon.com/about/investors/stock-information) |
 | Stripes | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | Stumptown Coffee Roasters | JDE Peet’s · Keurig Dr Pepper | 2026-10-16 | [Keurig Dr Pepper — company coffee brands](https://www.keurigdrpepper.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters) |
 | Sweetgreen | Sweetgreen, Inc. | 2026-10-25 | [Sweetgreen — second-quarter 2026 company release filed with the SEC](https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm) · [Stock listing: NYSE: SG](https://www.sec.gov/Archives/edgar/data/1477815/000162828026054324/q226sweetgreenearningsrele.htm) |
+| T-Mobile | T-Mobile US, Inc. | 2026-10-25 | [T-Mobile — October 2026 company brand portfolio](https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month) · [Stock listing: Nasdaq: TMUS](https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026) · [T-Mobile — company stores and authorized retailers](https://www.t-mobile.com/stores/fl) |
 | Taco Bell | Yum! Brands, Inc. | 2026-10-15 | [Yum! Brands — corporate profile](https://investors.yum.com/corporateprofile/default.aspx) |
 | Take 5 Oil Change | Driven Brands · Roark investment | 2026-10-15 | [Roark — current investments](https://www.roarkcapital.com/portfolio) · [Stock listing: Nasdaq: DRVN](https://investors.drivenbrands.com/resources/investor-faqs/default.aspx) |
 | Target | Target Corporation | 2026-10-15 | [Target — about the company](https://corporate.target.com/about) |
@@ -212,11 +221,15 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | TJ Maxx | The TJX Companies, Inc. | 2026-10-15 | [TJX — about the company](https://www.tjx.com/company/about-tjx) |
 | Tom Thumb | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
 | Torrid | Torrid Holdings · Sycamore investment | 2026-10-15 | [Sycamore — current investments](https://www.sycamorepartners.com/investments) · [Stock listing: NYSE: CURV](https://investors.torrid.com/news/news-details/2026/Torrid-Reports-Second-Quarter-2026-Results-and-Updates-Fiscal-2026-Guidance/default.aspx) |
+| Total Wireless | Verizon Communications Inc. | 2026-10-25 | [Verizon — current Verizon Value brand portfolio](https://www.verizon.com/about/news/total-wireless-expands-western-union-services) · [Stock listing: NYSE: VZ; Nasdaq: VZ](https://www.verizon.com/about/investors/stock-information) · [Verizon — Total Wireless and former Total by Verizon name](https://www.verizon.com/about/news/total-wireless-launches-bold-new-offers-new-look-outshine-rivals-prepaid-wireless) |
+| Tracfone | Verizon Communications Inc. | 2026-10-25 | [Verizon — current Verizon Value brand portfolio](https://www.verizon.com/about/news/total-wireless-expands-western-union-services) · [Stock listing: NYSE: VZ; Nasdaq: VZ](https://www.verizon.com/about/investors/stock-information) |
 | Tractor Supply Company | Tractor Supply Company | 2026-10-15 | [Tractor Supply — company and family of brands](https://ir.tractorsupply.com/investor-relations/overview/) |
 | Trader Joe’s | Trader Joe’s Company | 2026-10-15 | [Trader Joe’s — 2026 company podcast transcript](https://www.traderjoes.com/content/dam/trjo/pdfs/transcripts/ITJ-ep101-fresh-deli.pdf) |
 | TravelCenters of America | bp p.l.c. | 2026-10-15 | [bp — our brands](https://careers.bp.com/about) |
 | Ulta Beauty | Ulta Beauty, Inc. | 2026-10-16 | [Ulta Beauty — company information](https://www.ulta.com/investor/company-information) · [Wikipedia](https://en.wikipedia.org/wiki/Ulta_Beauty) |
+| Ultra Mobile | T-Mobile US, Inc. | 2026-10-25 | [T-Mobile — May 2026 Ultra Mobile company announcement](https://www.t-mobile.com/news/offers/ultra-mobile-goes-global-with-new-go-roam-world-passes) · [Stock listing: Nasdaq: TMUS](https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026) · [T-Mobile — completed Mint and Ultra acquisition](https://www.t-mobile.com/news/business/t-mobile-closes-acquisition-mint-and-ultra-mobile) |
 | United Supermarkets | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
+| Verizon | Verizon Communications Inc. | 2026-10-25 | [Verizon — current Verizon Value brand portfolio](https://www.verizon.com/about/news/total-wireless-expands-western-union-services) · [Stock listing: NYSE: VZ; Nasdaq: VZ](https://www.verizon.com/about/investors/stock-information) |
 | Vision 4 Less | Eyemart Express · VSP Vision | 2026-10-17 | [VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners](https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
 | VisionMart Express | Eyemart Express · VSP Vision | 2026-10-17 | [VSP Vision / Leonard Green — completed Eyemart Express acquisition and retail banners](https://www.leonardgreen.com/vsp-vision-completes-eyemart-express-acquisition/) · [PESP employer tracker — research starting point](https://pestakeholder.org/explore-the-issues/labor-and-jobs/largest-private-equity-employer-database/) |
 | Vons | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |

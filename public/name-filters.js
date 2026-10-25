@@ -1,4 +1,4 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261025-names1';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261025-mobile1';
 import {ownershipCategories} from './ownership-categories.js';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';

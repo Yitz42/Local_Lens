@@ -36,6 +36,24 @@ test('CVS Photo departments inherit CVS corporate ownership from their exact lis
  }
  for(const displayName of ['CVS Photography','CVS Photo Studio Independent'])assert.equal(ownershipFor(normalizeGooglePlace(raw({displayName}))).type,'unknown');
 });
+test('Boost Mobile and Save A Lot listings are hidden as corporate brands with sourced scope',()=>{
+ for(const [displayName,types,parent] of [
+  ['Boost Mobile',['electronics_store'],'EchoStar Corporation'],
+  ['Boost Mobile Authorized Retailer',['electronics_store'],'EchoStar Corporation'],
+  ['Save A Lot',['grocery_store'],'Moran Foods, LLC · Save A Lot grocery network'],
+  ['Save-A-Lot #1234',['grocery_store'],'Moran Foods, LLC · Save A Lot grocery network']
+ ]){
+  const place=normalizeGooglePlace(raw({displayName,types,primaryType:types[0]})),ownership=ownershipFor(place);
+  assert.equal(ownership.type,'corporate');assert.equal(ownership.parent,parent);
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe'],matchBrandNames:true}).length,0,displayName);
+  assert.equal(filterPlaces([place],{origin,hidden:[]}).length,1,displayName);
+ }
+ const boost=ownershipFor(normalizeGooglePlace(raw({displayName:'Boost Mobile'})));
+ assert.equal(boost.publicListing.company,'EchoStar Corporation');assert.deepEqual(boost.publicListing.exchanges,[{exchange:'Nasdaq',ticker:'ECHO'}]);
+ const grocery=normalizeGooglePlace(raw({displayName:'Save A Lot - Downtown',types:['grocery_store'],primaryType:'grocery_store'}));
+ assert.equal(filterPlaces([grocery],{origin,hidden:['corporate'],matchBrandNames:true}).length,0);
+ assert.equal(ownershipFor(normalizeGooglePlace(raw({displayName:'Boost Fitness'}))).type,'unknown');
+});
 test('Google requests are bounded, preserve result attribution, and request fields explicitly',async()=>{
  const requests=[],Place={async searchNearby(request){requests.push(request);return {places:[raw()]};}};
  const result=await searchGooglePlaces(Place,origin,3219);

@@ -442,6 +442,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "AT&T",
+    "aliases": [
+      "AT&T Store",
+      "AT&T Authorized Retailer",
+      "AT&T Wireless"
+    ],
+    "type": "corporate",
+    "parent": "AT&T Inc.",
+    "source": "https://about.att.com/innovation/ip/brands/history",
+    "sourceTitle": "AT&T — company and wireless brands",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "AT&T Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "T"
+        },
+        {
+          "exchange": "NYSE Texas",
+          "ticker": "T"
+        }
+      ],
+      "source": "https://about.att.com/story/2025/dual-listing-nyse-texas.html",
+      "sourceTitle": "AT&T — common stock dual listing",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Athleta",
     "aliases": [],
     "type": "corporate",
@@ -883,6 +918,35 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "Boost Mobile",
+    "aliases": [
+      "Boost Mobile Authorized Retailer"
+    ],
+    "type": "corporate",
+    "parent": "EchoStar Corporation",
+    "source": "https://ir.echostar.com/",
+    "sourceTitle": "EchoStar — corporate profile and Boost Mobile brand",
+    "note": "Boost Mobile is a US wireless brand of publicly listed EchoStar. This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "EchoStar Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "ECHO"
+        }
+      ],
+      "source": "https://ir.echostar.com/",
+      "sourceTitle": "EchoStar — investor profile and Nasdaq equity ticker",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -1481,6 +1545,45 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Costco — company profile",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Cricket Wireless",
+    "aliases": [
+      "Cricket Wireless Authorized Retailer"
+    ],
+    "type": "corporate",
+    "parent": "AT&T Inc.",
+    "source": "https://www.cricketwireless.com/legal-info/privacy-notice-previous-version",
+    "sourceTitle": "Cricket Wireless — May 2026 AT&T family disclosure",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "AT&T Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "T"
+        },
+        {
+          "exchange": "NYSE Texas",
+          "ticker": "T"
+        }
+      ],
+      "source": "https://about.att.com/story/2025/dual-listing-nyse-texas.html",
+      "sourceTitle": "AT&T — common stock dual listing",
+      "checked": "2026-10-25"
+    },
+    "discoverySources": [
+      {
+        "title": "AT&T — Cricket Wireless acquisition and brand history",
+        "url": "https://about.att.com/innovation/ip/brands/history"
+      }
+    ],
     "categories": [
       "corporate"
     ]
@@ -3486,6 +3589,37 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Metro by T-Mobile",
+    "aliases": [
+      "MetroPCS",
+      "Metro PCS",
+      "Metro by T-Mobile Authorized Retailer"
+    ],
+    "type": "corporate",
+    "parent": "T-Mobile US, Inc.",
+    "source": "https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month",
+    "sourceTitle": "T-Mobile — Metro brand affiliation",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "T-Mobile US, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "TMUS"
+        }
+      ],
+      "source": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+      "sourceTitle": "T-Mobile — February 2026 investor announcement",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Metro Market",
     "aliases": [],
     "type": "corporate",
@@ -3567,6 +3701,39 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Mint Mobile",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "T-Mobile US, Inc.",
+    "source": "https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month",
+    "sourceTitle": "T-Mobile — October 2026 Mint Mobile brand affiliation",
+    "note": "Mint Mobile is a T-Mobile-owned service brand. Mint states that it has no retail stores; this record covers brand-name matches and does not claim that an apparent Mint listing is a company-operated store.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "T-Mobile US, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "TMUS"
+        }
+      ],
+      "source": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+      "sourceTitle": "T-Mobile — February 2026 investor announcement",
+      "checked": "2026-10-25"
+    },
+    "discoverySources": [
+      {
+        "title": "Mint Mobile — online service model and no retail stores",
+        "url": "https://www.mintmobile.com/why-mint-mobile/"
+      }
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -4469,6 +4636,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Save A Lot",
+    "aliases": [
+      "Save-A-Lot",
+      "Save A Lot Food Stores"
+    ],
+    "type": "corporate",
+    "parent": "Moran Foods, LLC · Save A Lot grocery network",
+    "source": "https://savealot.com/newsroom/save-a-lot-releases-2025-business-and-social-impact-report/",
+    "sourceTitle": "Save A Lot — 2026 company report and national grocery network",
+    "note": "Large national grocery brand with a network of licensed retail partners and corporate stores. The corporate/private-chain category identifies chain affiliation; individual Save A Lot stores may be independently owned and operated. This record does not establish the owner of a particular store or a current private equity sponsor.",
+    "checked": "2026-10-25",
+    "matchCategories": [
+      "grocery"
+    ],
+    "discoverySources": [
+      {
+        "title": "Save A Lot — independently licensed stores and local policies",
+        "url": "https://savealot.com/wcp/contact-us"
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Schlotzsky's",
     "aliases": [
       "Schlotzskys"
@@ -4635,6 +4827,37 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Simple Mobile",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Verizon Communications Inc.",
+    "source": "https://www.verizon.com/about/news/total-wireless-expands-western-union-services",
+    "sourceTitle": "Verizon — current Verizon Value brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "Verizon Communications Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "VZ"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "VZ"
+        }
+      ],
+      "source": "https://www.verizon.com/about/investors/stock-information",
+      "sourceTitle": "Verizon — current stock listings and ticker",
+      "checked": "2026-10-25"
+    },
     "categories": [
       "corporate"
     ]
@@ -4870,6 +5093,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Straight Talk",
+    "aliases": [
+      "Straight Talk Wireless"
+    ],
+    "type": "corporate",
+    "parent": "Verizon Communications Inc.",
+    "source": "https://www.verizon.com/about/news/total-wireless-expands-western-union-services",
+    "sourceTitle": "Verizon — current Verizon Value brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "Verizon Communications Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "VZ"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "VZ"
+        }
+      ],
+      "source": "https://www.verizon.com/about/investors/stock-information",
+      "sourceTitle": "Verizon — current stock listings and ticker",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Stripes",
     "aliases": [
       "Stripes Convenience Store"
@@ -4977,6 +5233,43 @@ export const BRAND_DIRECTORY = [
     },
     "type": "corporate",
     "checked": "2026-10-25",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "T-Mobile",
+    "aliases": [
+      "T-Mobile Authorized Retailer",
+      "T-Mobile Experience Store",
+      "T-Mobile Neighborhood Store"
+    ],
+    "type": "corporate",
+    "parent": "T-Mobile US, Inc.",
+    "source": "https://www.t-mobile.com/news/offers/mint-mobile-turns-10-and-celebrates-with-its-best-deal-ever-any-plan-for-10-month",
+    "sourceTitle": "T-Mobile — October 2026 company brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "T-Mobile US, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "TMUS"
+        }
+      ],
+      "source": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+      "sourceTitle": "T-Mobile — February 2026 investor announcement",
+      "checked": "2026-10-25"
+    },
+    "discoverySources": [
+      {
+        "title": "T-Mobile — company stores and authorized retailers",
+        "url": "https://www.t-mobile.com/stores/fl"
+      }
+    ],
     "categories": [
       "corporate"
     ]
@@ -5365,6 +5658,78 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Total Wireless",
+    "aliases": [
+      "Total by Verizon"
+    ],
+    "type": "corporate",
+    "parent": "Verizon Communications Inc.",
+    "source": "https://www.verizon.com/about/news/total-wireless-expands-western-union-services",
+    "sourceTitle": "Verizon — current Verizon Value brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "Verizon Communications Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "VZ"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "VZ"
+        }
+      ],
+      "source": "https://www.verizon.com/about/investors/stock-information",
+      "sourceTitle": "Verizon — current stock listings and ticker",
+      "checked": "2026-10-25"
+    },
+    "discoverySources": [
+      {
+        "title": "Verizon — Total Wireless and former Total by Verizon name",
+        "url": "https://www.verizon.com/about/news/total-wireless-launches-bold-new-offers-new-look-outshine-rivals-prepaid-wireless"
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Tracfone",
+    "aliases": [
+      "Tracfone Wireless"
+    ],
+    "type": "corporate",
+    "parent": "Verizon Communications Inc.",
+    "source": "https://www.verizon.com/about/news/total-wireless-expands-western-union-services",
+    "sourceTitle": "Verizon — current Verizon Value brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "Verizon Communications Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "VZ"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "VZ"
+        }
+      ],
+      "source": "https://www.verizon.com/about/investors/stock-information",
+      "sourceTitle": "Verizon — current stock listings and ticker",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tractor Supply Company",
     "aliases": [
       "Tractor Supply"
@@ -5482,6 +5847,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Ultra Mobile",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "T-Mobile US, Inc.",
+    "source": "https://www.t-mobile.com/news/offers/ultra-mobile-goes-global-with-new-go-roam-world-passes",
+    "sourceTitle": "T-Mobile — May 2026 Ultra Mobile company announcement",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "T-Mobile US, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "TMUS"
+        }
+      ],
+      "source": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
+      "sourceTitle": "T-Mobile — February 2026 investor announcement",
+      "checked": "2026-10-25"
+    },
+    "discoverySources": [
+      {
+        "title": "T-Mobile — completed Mint and Ultra acquisition",
+        "url": "https://www.t-mobile.com/news/business/t-mobile-closes-acquisition-mint-and-ultra-mobile"
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "United Supermarkets",
     "aliases": [],
     "type": "corporate",
@@ -5514,6 +5912,41 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Verizon",
+    "aliases": [
+      "Verizon Wireless",
+      "Verizon Authorized Retailer",
+      "Verizon Company Store"
+    ],
+    "type": "corporate",
+    "parent": "Verizon Communications Inc.",
+    "source": "https://www.verizon.com/about/news/total-wireless-expands-western-union-services",
+    "sourceTitle": "Verizon — current Verizon Value brand portfolio",
+    "note": "This identifies the carrier’s corporate brand affiliation. Authorized retailers, dealers, kiosks, and stores selling its products can have separate ownership.",
+    "checked": "2026-10-25",
+    "publicListing": {
+      "company": "Verizon Communications Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "VZ"
+        },
+        {
+          "exchange": "Nasdaq",
+          "ticker": "VZ"
+        }
+      ],
+      "source": "https://www.verizon.com/about/investors/stock-information",
+      "sourceTitle": "Verizon — current stock listings and ticker",
+      "checked": "2026-10-25"
+    },
+    "categories": [
+      "corporate"
     ]
   },
   {
