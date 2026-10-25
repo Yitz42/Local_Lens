@@ -1,7 +1,7 @@
 # Privacy policy
 Updated October 25, 2026.
 
-Local Lens stores filter choices and saved places in your browser. When Google Maps is connected, its browser API key is stored on this browser and sent directly to Google. Google place names, addresses, coordinates, and other listing content are kept in memory for the current visit; only Google place IDs are saved for bookmarks. Saved Google places are fetched again when you open Saved. Disconnecting removes the key from this browser; bookmarks remain until removed.
+Local Lens stores filter choices, personal hidden-name preferences, and saved places in your browser. Names you enter are your own visibility preferences and are not sent to the place-data services. When Google Maps is connected, its browser API key is stored on this browser and sent directly to Google. Google place names, addresses, coordinates, and other listing content are kept in memory for the current visit; only Google place IDs are saved for bookmarks. Saved Google places are fetched again when you open Saved. Disconnecting removes the key from this browser; bookmarks remain until removed.
 
 Google receives the map, search-center coordinates, and Places requests needed to provide listings. Location permission is requested only when you choose “Use my location.” Google services are governed by the [Google Privacy Policy](https://policies.google.com/privacy).
 
