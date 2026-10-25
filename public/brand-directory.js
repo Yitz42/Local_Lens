@@ -4805,14 +4805,21 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Starbucks",
     "aliases": [
-      "Starbucks Coffee"
+      "Starbucks Coffee",
+      "Starbucks Coffee Company"
     ],
     "type": "corporate",
     "parent": "Starbucks Corporation",
     "source": "https://about.starbucks.com/press/2026/company-profile/",
     "sourceTitle": "Starbucks — company profile",
     "note": "Starbucks is a global corporate coffee brand. Its network includes company-operated and licensed stores; local operator ownership is not verified.",
-    "checked": "2026-10-15",
+    "checked": "2026-10-25",
+    "discoverySources": [
+      {
+        "title": "Starbucks — official Starbucks Coffee Company name",
+        "url": "https://www.starbucks.com/"
+      }
+    ],
     "categories": [
       "corporate"
     ]

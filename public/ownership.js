@@ -1,7 +1,7 @@
 import {ownershipCategories} from './ownership-categories.js?v=20261025-pharmacy1';
 import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261025-pharmacy1';
 export {ownershipCategories} from './ownership-categories.js?v=20261025-pharmacy1';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261025-pharmacy1';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261025-starbucks1';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [

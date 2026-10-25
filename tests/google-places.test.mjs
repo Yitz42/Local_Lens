@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {GOOGLE_FIELDS,googleSearchGroups,normalizeGooglePlace,searchGooglePlaces,resolveGoogleSaved,savedGoogleIds,googleKey} from '../public/google-places.js';
-import {filterPlaces} from '../public/ownership.js';
+import {filterPlaces,ownershipFor} from '../public/ownership.js';
 const origin={lat:30.2747,lng:-97.7523};
 const raw=(extra={})=>({id:'ChIJTest',displayName:'Town Pizza',location:{lat:()=>origin.lat,lng:()=>origin.lng},formattedAddress:'100 Main St',businessStatus:'OPERATIONAL',primaryType:'pizza_restaurant',types:['restaurant','pizza_restaurant'],attributions:[{provider:'Data Provider',providerURI:'https://example.com'}],...extra});
 test('Google listings preserve explicit food types and exclude closed or future businesses',()=>{
@@ -15,6 +15,16 @@ test('Google listings preserve explicit food types and exclude closed or future 
 test('Google listings use the existing default ownership exclusions',()=>{
  const places=['Town Pizza','CVS Pharmacy','Five Guys','Rite Aid'].map((name,i)=>normalizeGooglePlace(raw({id:'Place'+i,displayName:name})));
  assert.deepEqual(filterPlaces(places,{origin,hidden:['corporate','pe']}).map(p=>p.name),['Town Pizza']);
+});
+test('Google Starbucks Coffee Company listings match the corporate brand exactly',()=>{
+ for(const displayName of ['Starbucks Coffee Company','Starbucks Coffee Company #1234','Starbucks Coffee','Starbucks']){
+  const place=normalizeGooglePlace(raw({displayName,primaryType:'coffee_shop',types:['coffee_shop','cafe']}));
+  assert.equal(ownershipFor(place).brand,'Starbucks');assert.equal(ownershipFor(place).type,'corporate');
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe']}).length,0,displayName);
+  assert.equal(filterPlaces([place],{origin,hidden:[]}).length,1,displayName);
+ }
+ const unrelated=normalizeGooglePlace(raw({displayName:'Starbucks Coffee Company Consulting'}));
+ assert.equal(ownershipFor(unrelated).type,'unknown');
 });
 test('Google requests are bounded, preserve result attribution, and request fields explicitly',async()=>{
  const requests=[],Place={async searchNearby(request){requests.push(request);return {places:[raw()]};}};

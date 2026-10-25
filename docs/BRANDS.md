@@ -191,7 +191,7 @@ Edit `data/brands.json`, then run `npm run directory`, `npm test`, and `npm run 
 | Speedway | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | Sprouts Farmers Market | Sprouts Farmers Market, Inc. | 2026-10-15 | [Sprouts — investor overview](https://investors.sprouts.com/overview/) |
 | Star Market | Albertsons Companies, Inc. | 2026-10-15 | [Albertsons — fiscal 2025 Form 10-K filed in 2026](https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm) |
-| Starbucks | Starbucks Corporation | 2026-10-15 | [Starbucks — company profile](https://about.starbucks.com/press/2026/company-profile/) |
+| Starbucks | Starbucks Corporation | 2026-10-25 | [Starbucks — company profile](https://about.starbucks.com/press/2026/company-profile/) · [Starbucks — official Starbucks Coffee Company name](https://www.starbucks.com/) |
 | Stop & Shop | Ahold Delhaize | 2026-10-15 | [Ahold Delhaize — US brands digital platform](https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/) |
 | Stripes | 7-Eleven, Inc. | 2026-10-15 | [7-Eleven — family of banners and brands](https://corp.7-eleven.com/corp/about) |
 | Stumptown Coffee Roasters | JDE Peet’s · Keurig Dr Pepper | 2026-10-16 | [Keurig Dr Pepper — company coffee brands](https://www.keurigdrpepper.com/brands/) · [Wikipedia](https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters) |
