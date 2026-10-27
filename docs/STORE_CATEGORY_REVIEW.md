@@ -91,6 +91,17 @@ Big O Tires, Midas, and Fleet Feet are marked `franchise`. Red Wing Shoes, Benja
 
 Wikipedia could not be reached from the review environment. Article links that appeared in search results are kept. Other new Wikipedia references are Wikipedia search links for the brand name, so they never point to a missing page.
 
+## Regional chains
+
+23 regional chains were added, bringing the directory to 837 listed brands. Each has `matchBounds` covering its operating area, so the same name elsewhere stays unknown. Generic names also need a fuel, convenience, or grocery category.
+
+- **Convenience and fuel:** Weigel's, Rutter's, Parker's Kitchen, Spinx, Family Express, and Huck's (employee owned); Enmarket ([Nouria Energy, since 2025](https://www.wtoc.com/2024/11/03/family-owned-convenience-chain-acquires-enmarket-deal-marks-milestone)); Road Ranger (Enex / Quiñenco); and Bucky's ([Casey's, since 2021](https://www.businesswire.com/news/home/20210514005066/en/Casey%E2%80%99s-Announces-the-Closing-of-Buchanan-Energy-Acquisition)), kept for older listings.
+- **Grocery:** Stew Leonard's, Sedano's, Food Bazaar, Kowalski's Markets, Earth Fare (Hulsing Enterprises), and Roche Bros. with Sudbury Farms and Brothers Marketplace ([51% owned by Bozzuto's since 2024](https://www.bostonglobe.com/2024/11/01/business/roche-bros-sale-grocery-store/)).
+- **Farm and home:** Atwoods, Blain's Farm & Fleet (distinct from Fleet Farm), Bomgaars, Theisen's, and Coastal Farm & Ranch with C-A-L Ranch ([PE, Nolan Capital](https://www.businesswire.com/news/home/20211229005365/en/Nolan-Capital-Inc.-Announces-Acquisition-of-a-Majority-Stake-in-Coastal-Farm-Ranch-the-Northwest%E2%80%99s-Leading-Ranch-and-Country-Lifestyle-Retailer)).
+- **Pharmacy and liquor:** Kinney Drugs (100% employee owned), Discount Drug Mart (employee owned), and Twin Liquors.
+
+Family-, employee-, and regionally owned chains are classified as corporate private chains, like other large private chains. Ricker's was not added, because the results did not establish whether its stores moved with GetGo in Couche-Tard's 2025 purchase.
+
 ## Not added in this pass
 
-Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.
+Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.

@@ -968,6 +968,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Atwoods",
+    "aliases": [
+      "Atwoods Ranch & Home",
+      "Atwoods Ranch and Home"
+    ],
+    "type": "corporate",
+    "parent": "Atwood Distributing (family owned)",
+    "source": "https://www.edmondchamber.com/ribbon-cuttings/atwoods-celebrates-grand-opening-in-edmond/",
+    "sourceTitle": "Edmond Chamber — Atwoods grand opening",
+    "note": "Atwoods is a family-owned farm and ranch chain of about 80 stores, run by the Atwood family from Enid, Oklahoma. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atwoods",
+    "matchBounds": [
+      {
+        "south": 29,
+        "west": -103,
+        "north": 40,
+        "east": -89.5
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Auntie Anne's",
     "aliases": [
       "Auntie Anne's Pretzels"
@@ -1801,6 +1826,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Blain's Farm & Fleet",
+    "aliases": [
+      "Farm & Fleet",
+      "Blain's Farm and Fleet",
+      "Farm and Fleet"
+    ],
+    "type": "corporate",
+    "parent": "Blain Supply, Inc. (owned by Jane Blain Gilbertson)",
+    "source": "https://www.businesswire.com/news/home/20240619751598/en/Blain%E2%80%99s-Farm-Fleet%C2%AE-Announces-Upcoming-Leadership-Changes",
+    "sourceTitle": "Business Wire — Blain's Farm & Fleet leadership changes (sole owner Jane Blain Gilbertson)",
+    "note": "Blain's Farm & Fleet is family owned, with about 45 stores in four Midwest states. Fleet Farm is a different company. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blain%27s_Farm_%26_Fleet",
+    "matchBounds": [
+      {
+        "south": 39.5,
+        "west": -96.7,
+        "north": 47.3,
+        "east": -82.4
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Blaze Pizza",
     "aliases": [
       "Blaze Fast-Fire'd Pizza"
@@ -1969,6 +2020,30 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Bomgaars",
+    "aliases": [
+      "Bomgaars Supply"
+    ],
+    "type": "corporate",
+    "parent": "Bomgaars Supply, Inc. (family owned)",
+    "source": "https://ruralradio.com/kuvr/news/bomgaars-set-to-open-holdrege-location-this-spring/",
+    "sourceTitle": "Rural Radio — Bomgaars Holdrege store (2026)",
+    "note": "Family-owned Bomgaars runs about 187 farm and ranch stores in 15 Midwest states, including former Orscheln stores. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Bomgaars",
+    "matchBounds": [
+      {
+        "south": 33,
+        "west": -111,
+        "north": 49,
+        "east": -87
+      }
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -2428,6 +2503,49 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "apparel"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Bucky's",
+    "aliases": [
+      "Bucky's Express",
+      "Buckys"
+    ],
+    "type": "corporate",
+    "parent": "Casey's General Stores, Inc.",
+    "source": "https://www.businesswire.com/news/home/20210514005066/en/Casey%E2%80%99s-Announces-the-Closing-of-Buchanan-Energy-Acquisition",
+    "sourceTitle": "Casey's — closing of the Buchanan Energy (Bucky's) acquisition",
+    "note": "Casey's bought Bucky's owner Buchanan Energy in 2021; former Bucky's listings may persist after conversion. Buc-ee's is a different company. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Bucky%27s",
+    "matchBounds": [
+      {
+        "south": 36,
+        "west": -104,
+        "north": 43,
+        "east": -87.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "publicListing": {
+      "company": "Casey's General Stores, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "CASY"
+        }
+      ],
+      "source": "https://www.businesswire.com/news/home/20210514005066/en/Casey%E2%80%99s-Announces-the-Closing-of-Buchanan-Energy-Acquisition",
+      "sourceTitle": "Casey's — Buchanan Energy acquisition (Nasdaq: CASY)",
+      "checked": "2026-10-27"
+    },
     "categories": [
       "corporate"
     ]
@@ -3759,6 +3877,33 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Coastal Farm & Ranch",
+    "aliases": [
+      "Coastal Farm and Ranch",
+      "C-A-L Ranch",
+      "CAL Ranch",
+      "C-A-L Ranch Stores"
+    ],
+    "type": "pe",
+    "parent": "Coastal / C-A-L Ranch · Nolan Capital majority investment",
+    "source": "https://www.businesswire.com/news/home/20211229005365/en/Nolan-Capital-Inc.-Announces-Acquisition-of-a-Majority-Stake-in-Coastal-Farm-Ranch-the-Northwest%E2%80%99s-Leading-Ranch-and-Country-Lifestyle-Retailer",
+    "sourceTitle": "Business Wire — Nolan Capital acquires majority of Coastal Farm & Ranch",
+    "note": "Private equity firm Nolan Capital took a majority of Coastal Farm & Ranch in 2021 and kept it after the 2023 merger with C-A-L Ranch Stores, together about 54 western stores. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coastal_Farm_%26_Ranch",
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -125,
+        "north": 49,
+        "east": -102
+      }
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Coborn’s",
     "aliases": [
       "Coborn's Foods",
@@ -4751,6 +4896,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Discount Drug Mart",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Discount Drug Mart, Inc. (family run, employee owned)",
+    "source": "https://www.chaindrugreview.com/discount-drug-mart-opens-new-store-in-strongsville-ohio/",
+    "sourceTitle": "Chain Drug Review — Discount Drug Mart opens new Strongsville store",
+    "note": "Discount Drug Mart is a family-run, employee-owned chain of about 79 Ohio stores. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Discount_Drug_Mart",
+    "matchBounds": [
+      {
+        "south": 38.4,
+        "west": -84.9,
+        "north": 42.3,
+        "east": -80.5
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Discount Tire",
     "aliases": [
       "America's Tire",
@@ -5091,6 +5258,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Earth Fare",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Hulsing Enterprises (privately held)",
+    "source": "https://www.grocerydive.com/news/earth-fare-founder-among-investors-aiming-to-reboot-bankrupt-grocer/575157/",
+    "sourceTitle": "Grocery Dive — investors reboot bankrupt Earth Fare",
+    "note": "Earth Fare closed in 2020 and reopened about 14 natural-foods stores with investment from Hulsing Enterprises. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Earth_Fare",
+    "matchBounds": [
+      {
+        "south": 25,
+        "west": -90,
+        "north": 39.5,
+        "east": -75
+      }
+    ],
+    "matchCategories": [
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Eddie V’s",
     "aliases": [
       "Eddie V's Prime Seafood"
@@ -5195,6 +5387,34 @@ export const BRAND_DIRECTORY = [
     "note": "Chedraui USA identifies this grocery banner and states that it is a subsidiary of Grupo Comercial Chedraui.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Enmarket",
+    "aliases": [
+      "Enmark"
+    ],
+    "type": "corporate",
+    "parent": "Nouria Energy Corp. (privately held)",
+    "source": "https://www.wtoc.com/2024/11/03/family-owned-convenience-chain-acquires-enmarket-deal-marks-milestone",
+    "sourceTitle": "WTOC — family-owned Nouria acquires Enmarket",
+    "note": "Massachusetts-based, family-owned Nouria Energy bought Enmarket's roughly 130 stores from Savannah's Colonial Group, closing in February 2025; the stores keep the Enmarket name. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Enmarket",
+    "matchBounds": [
+      {
+        "south": 30.6,
+        "west": -85,
+        "north": 34.5,
+        "east": -79.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]
@@ -5554,6 +5774,32 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Family Express",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Family Express Corporation (privately held)",
+    "source": "https://www.cstoredive.com/news/family-express-to-acquire-6-leos-market-eatery-locations/832178/",
+    "sourceTitle": "C-Store Dive — Family Express to acquire Leo's Market & Eatery locations (2026)",
+    "note": "Privately held Family Express, founded and led by Gus Olympidis, runs about 90 Indiana convenience stores. The generic phrase only matches fuel and convenience listings in Indiana. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Family%20Express",
+    "matchBounds": [
+      {
+        "south": 37.8,
+        "west": -88.1,
+        "north": 41.8,
+        "east": -84.8
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -6223,6 +6469,33 @@ export const BRAND_DIRECTORY = [
         "north": 42.6,
         "east": -85.5
       }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Food Bazaar",
+    "aliases": [
+      "Food Bazaar Supermarket"
+    ],
+    "type": "corporate",
+    "parent": "Bogopa Service Corp. (An family owned)",
+    "source": "https://www.supermarketnews.com/foodservice-retail/food-bazaar-owner-makes-a-move-for-fairway",
+    "sourceTitle": "Supermarket News — Food Bazaar owner Bogopa",
+    "note": "Family-owned Bogopa operates more than 30 Food Bazaar supermarkets in the New York area. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Food%20Bazaar",
+    "matchBounds": [
+      {
+        "south": 40.2,
+        "west": -74.8,
+        "north": 41.4,
+        "east": -72.5
+      }
+    ],
+    "matchCategories": [
+      "grocery"
     ],
     "categories": [
       "corporate"
@@ -7727,6 +8000,36 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Huck's",
+    "aliases": [
+      "Huck's Market",
+      "Huck's Food & Fuel",
+      "Hucks"
+    ],
+    "type": "corporate",
+    "parent": "Martin & Bayley, Inc. (employee owned)",
+    "source": "https://webapps.sfm.illinois.gov/ustsearch/Facility.aspx?ID=7038168",
+    "sourceTitle": "Illinois State Fire Marshal — Huck's Food & Fuel facility owned by Martin & Bayley, Inc.",
+    "note": "Huck's is owned by Martin & Bayley, employee-owned since 2001, with about 136 stores in the lower Midwest. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Huck%27s_Market",
+    "matchBounds": [
+      {
+        "south": 35,
+        "west": -92,
+        "north": 41,
+        "east": -84.8
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Huckleberry’s Natural Market (Rosauers)",
     "aliases": [
       "Huckleberry's Natural Market"
@@ -8669,6 +8972,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kinney Drugs",
+    "aliases": [
+      "Kinney Drugs Pharmacy"
+    ],
+    "type": "corporate",
+    "parent": "Kinney Drugs, Inc. (100% employee owned)",
+    "source": "https://digitaledition.chaindrugreview.com/articles/employee-ownership-is-the-core-of-kinney-s-identity",
+    "sourceTitle": "Chain Drug Review — employee ownership is the core of Kinney's identity",
+    "note": "Kinney Drugs has been 100% employee-owned since 2008 and runs nearly 100 pharmacies in New York and Vermont. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kinney_Drugs",
+    "matchBounds": [
+      {
+        "south": 42,
+        "west": -79.8,
+        "north": 45.1,
+        "east": -71.4
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Kirkland's Home",
     "aliases": [
       "Kirkland's",
@@ -8754,6 +9081,33 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Kowalski's Markets",
+    "aliases": [
+      "Kowalski's"
+    ],
+    "type": "corporate",
+    "parent": "Kowalski Companies (family owned)",
+    "source": "https://tcbmag.com/honors/2026-minnesota-family-business-awards-kowalskis-markets/",
+    "sourceTitle": "Twin Cities Business — 2026 Minnesota Family Business Awards: Kowalski's",
+    "note": "Kowalski's is a family-owned Twin Cities grocer. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Kowalski%27s%20Markets",
+    "matchBounds": [
+      {
+        "south": 44.5,
+        "west": -94,
+        "north": 45.5,
+        "east": -92.5
+      }
+    ],
+    "matchCategories": [
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -11738,6 +12092,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Parker's Kitchen",
+    "aliases": [
+      "Parker's"
+    ],
+    "type": "corporate",
+    "parent": "Parker's (founder Greg Parker, privately held)",
+    "source": "https://www.cstoredive.com/news/parkers-co-ceo-brandon-hofmann-leaves-company/830351/",
+    "sourceTitle": "C-Store Dive — Parker's leadership update (2026)",
+    "note": "Founder Greg Parker's privately held chain operates about 110 stores in Georgia and South Carolina and is entering Florida. The bare name Parker's only matches fuel and convenience listings in this area. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Parker%27s%20Kitchen",
+    "matchBounds": [
+      {
+        "south": 30,
+        "west": -83.5,
+        "north": 34.5,
+        "east": -78.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery",
+      "restaurant"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Patagonia",
     "aliases": [
       "Patagonia Outlet",
@@ -13397,6 +13780,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Road Ranger",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Enex · Quiñenco S.A. (Luksic group)",
+    "source": "https://mobilityplaza.org/news/9726",
+    "sourceTitle": "Mobility Plaza — Enex completes acquisition of Road Ranger",
+    "note": "Chilean fuel company Enex, part of the Luksic group's Quiñenco, owns the Road Ranger travel-center chain. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Road%20Ranger",
+    "matchBounds": [
+      {
+        "south": 36,
+        "west": -97,
+        "north": 45,
+        "east": -84
+      },
+      {
+        "south": 25.8,
+        "west": -106.7,
+        "north": 36.5,
+        "east": -93.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery",
+      "restaurant"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Roadrunner Markets",
     "aliases": [
       "Roadrunner Market"
@@ -13427,6 +13843,36 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "ARKO — current equity listing and retail business",
       "checked": "2026-10-26"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Roche Bros.",
+    "aliases": [
+      "Roche Bros",
+      "Roche Brothers",
+      "Sudbury Farms",
+      "Brothers Marketplace"
+    ],
+    "type": "corporate",
+    "parent": "Bozzuto's (51%) & the Roche family",
+    "source": "https://www.bostonglobe.com/2024/11/01/business/roche-bros-sale-grocery-store/",
+    "sourceTitle": "Boston Globe — Roche Bros. sells a majority stake to Bozzuto's",
+    "note": "Connecticut wholesaler Bozzuto's took a 51% stake in Roche Bros. in 2024; the Roche family remains in management of its 20 Massachusetts stores. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Roche%20Bros.",
+    "matchBounds": [
+      {
+        "south": 41.2,
+        "west": -73.5,
+        "north": 42.9,
+        "east": -69.9
+      }
+    ],
+    "matchCategories": [
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]
@@ -13687,6 +14133,35 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Darden — our company",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Rutter's",
+    "aliases": [
+      "Rutters",
+      "Rutter's Farm Stores"
+    ],
+    "type": "corporate",
+    "parent": "Rutter's (privately held, family owned)",
+    "source": "https://www.lehighvalleynews.com/business/tornadoes-rollerbites-and-more-what-is-rutters-the-convenience-chain-pitching-its-move-into-the-lehigh-valley",
+    "sourceTitle": "Lehigh Valley News — Rutter's, the York-based convenience chain",
+    "note": "Rutter's is a multi-generational, family-owned York, Pennsylvania chain of about 86 stores in Pennsylvania, Maryland, and West Virginia. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Rutter%27s",
+    "matchBounds": [
+      {
+        "south": 38.8,
+        "west": -81,
+        "north": 41.5,
+        "east": -75.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]
@@ -14043,6 +14518,34 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Darden — our company",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Sedano's",
+    "aliases": [
+      "Sedano's Supermarkets",
+      "Sedanos"
+    ],
+    "type": "corporate",
+    "parent": "Sedano's Management, Inc. (Herrán and Guerra families)",
+    "source": "https://therealdeal.com/miami/2026/07/08/grocer-sedanos-buys-miami-retail-plaza-for-32-million/",
+    "sourceTitle": "The Real Deal — Sedano's buys a Miami retail plaza (2026)",
+    "note": "Sedano's is a family-owned Hispanic supermarket chain in Florida. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sedano%27s",
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -83,
+        "north": 30.5,
+        "east": -79.9
+      }
+    ],
+    "matchCategories": [
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]
@@ -14800,6 +15303,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Spinx",
+    "aliases": [
+      "The Spinx Company",
+      "Spinx Food Stores"
+    ],
+    "type": "corporate",
+    "parent": "The Spinx Co. (Spinks family and employee stock ownership plan)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/spinx-co",
+    "sourceTitle": "CSP Top 202 (2026) — The Spinx Co.",
+    "note": "The Greenville, South Carolina chain is led by the Spinks family; an employee stock ownership plan bought part of the company in 2011. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Spinx",
+    "matchBounds": [
+      {
+        "south": 32,
+        "west": -83.4,
+        "north": 35.6,
+        "east": -78.5
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Spirit Halloween",
     "aliases": [
       "Spirit Halloween Superstore"
@@ -15013,6 +15545,33 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Biglari Holdings — Form 10-Q, June 2026",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Stew Leonard's",
+    "aliases": [
+      "Stew Leonards"
+    ],
+    "type": "corporate",
+    "parent": "Stew Leonard's (Leonard family owned)",
+    "source": "https://perishablenews.com/retailfoodservice/stew-leonards-announces-key-executive-promotions-highlighting-next-generation-of-family-leadership/",
+    "sourceTitle": "Perishable News — Stew Leonard's family leadership promotions (2026)",
+    "note": "Stew Leonard's is a family-owned grocer with eight stores in New York, Connecticut, and New Jersey. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Stew%20Leonard%27s",
+    "matchBounds": [
+      {
+        "south": 39.5,
+        "west": -75.6,
+        "north": 42.1,
+        "east": -71.8
+      }
+    ],
+    "matchCategories": [
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]
@@ -16117,6 +16676,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Theisen's",
+    "aliases": [
+      "Theisen's Home Farm Auto",
+      "Theisens"
+    ],
+    "type": "corporate",
+    "parent": "Theisen's, Inc. (family owned)",
+    "source": "https://www.wbay.com/2025/12/08/theisens-home-farm-auto-open-first-fox-cities-store-neenah/",
+    "sourceTitle": "WBAY — Theisen's Home Farm Auto opens in Neenah",
+    "note": "Family-owned Theisen's has about 26 farm and home stores in Iowa and Wisconsin. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Theisen%27s",
+    "matchBounds": [
+      {
+        "south": 40.3,
+        "west": -96.7,
+        "north": 47.1,
+        "east": -86.8
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Thorntons",
     "aliases": [],
     "type": "corporate",
@@ -16701,6 +17285,32 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Twin Liquors",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Twin Liquors (Jabour family owned)",
+    "source": "https://www.austinchamber.com/member-news/twin-liquors-opens-new-location-in-original-central-market-center-in-austin",
+    "sourceTitle": "Austin Chamber — Twin Liquors opens new Austin store (April 2026)",
+    "note": "Twin Liquors is a family-owned Texas chain of more than 100 stores. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Twin%20Liquors",
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -106.7,
+        "north": 36.5,
+        "east": -93.5
+      }
+    ],
+    "matchCategories": [
+      "other",
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -17450,6 +18060,35 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Wegmans — about us",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Weigel's",
+    "aliases": [
+      "Weigels",
+      "Weigel's Kitchen"
+    ],
+    "type": "corporate",
+    "parent": "Weigel's Stores, Inc. (family owned)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/weigels-stores-inc",
+    "sourceTitle": "CSP Top 202 (2026) — Weigel's Stores",
+    "note": "Family-owned Weigel's runs about 89 East Tennessee convenience stores and its own dairy. It is a regional chain matched only within its operating area.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weigel%27s",
+    "matchBounds": [
+      {
+        "south": 35,
+        "west": -85,
+        "north": 36.7,
+        "east": -82.2
+      }
+    ],
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
     "categories": [
       "corporate"
     ]

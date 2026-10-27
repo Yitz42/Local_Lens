@@ -83,3 +83,16 @@ test('specialty, tire, liquor, and regional additions keep their owners and guar
  assert.equal(ownershipFor(q('Market Basket','grocery',30.2,-93.2)).type,'unknown');
  for(const [name,category] of [['Red Wing','apparel'],['Hallmark Inn','restaurant'],['Patagonia','restaurant'],['Lush','restaurant']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
 });
+test('regional chains only match inside their operating areas',()=>{
+ const q=(name,category,lat,lng)=>({name,category,lat,lng});
+ for(const [name,category,inside,outside,type] of [
+  ["Weigel's",'gas',[36.0,-83.9],[34.0,-118.2],'corporate'],["Parker's",'gas',[32.1,-81.1],[40.7,-74.0],'corporate'],['Family Express','gas',[41.5,-87.0],[29.8,-95.4],'corporate'],
+  ['Enmarket','gas',[32.1,-81.1],[44.9,-93.3],'corporate'],["Bucky's",'gas',[41.3,-96.0],[29.8,-95.4],'corporate'],['Food Bazaar','grocery',[40.7,-73.9],[41.9,-87.6],'corporate'],
+  ['Farm & Fleet','other',[42.3,-89.1],[33.4,-112.1],'corporate'],['Coastal Farm & Ranch','other',[45.5,-122.7],[39.0,-77.0],'pe'],['Kinney Drugs','pharmacy',[43.0,-76.1],[30.3,-97.7],'corporate'],['Twin Liquors','other',[30.3,-97.7],[39.3,-76.6],'corporate']]){
+  assert.equal(ownershipFor(q(name,category,...inside)).type,type,name+' inside');
+  assert.equal(ownershipFor(q(name,category,...outside)).type,'unknown',name+' outside');
+ }
+ assert.equal(ownershipFor(q("Parker's",'restaurant',32.1,-81.1)).type,'corporate');
+ assert.equal(ownershipFor(q("Parker's",'other',32.1,-81.1)).type,'unknown');
+ assert.equal(ownershipFor(q('Fleet Farm','other',44.9,-93.3)).parent.includes('Blain'),false);
+});
