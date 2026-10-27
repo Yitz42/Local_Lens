@@ -74,3 +74,12 @@ test('store-category additions keep short brand names inside their store categor
  for(const [name,category] of [['H M Plumbing','home'],['HM Supply','apparel'],['Express','grocery'],['RH','other'],['Columbia','apparel'],['Ashley','home'],['Vans','other'],['Pandora','restaurant'],['Saks OFF 5TH','apparel']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
  assert.equal(excludedBrandNameMatch(q('Express Lube','other'),['corporate']),null);
 });
+test('specialty, tire, liquor, and regional additions keep their owners and guards',()=>{
+ const q=(name,category,lat=39.29,lng=-76.61)=>({name,category,lat,lng});
+ for(const [name,category,type,parent,local] of [['Big O Tires','other','corporate','Sumitomo','franchise'],['Les Schwab','other','pe','Meritage'],['Pet Supermarket','other','pe','Roark'],['Red Wing Shoes','apparel','corporate','Red Wing','dealer'],['Benjamin Moore','other','corporate','Berkshire','dealer'],['Helzberg Diamonds','apparel','corporate','Berkshire'],["Spec's",'other','corporate','Spec']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);assert.equal(owner.localOperators,local,name);
+ }
+ assert.equal(ownershipFor(q('Market Basket','grocery',42.6,-71.3)).type,'corporate');
+ assert.equal(ownershipFor(q('Market Basket','grocery',30.2,-93.2)).type,'unknown');
+ for(const [name,category] of [['Red Wing','apparel'],['Hallmark Inn','restaurant'],['Patagonia','restaurant'],['Lush','restaurant']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+});

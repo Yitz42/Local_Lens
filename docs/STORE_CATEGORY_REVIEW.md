@@ -75,6 +75,22 @@ Buying inventory from a wholesaler is not treated as money going to a corporate 
 
 People choose how strict to be in the Ownership filters panel. *Independent only* also hides `cooperative` and `licensed` member stores. *Locally owned*, the default, includes them because most of their money stays local. *Franchises* shows `franchise` locations of hidden brands, and *+ Dealers* also shows `dealer` locations. The slider only applies while corporate or PE brands are hidden; company-owned chains, the unknown filter, and personal hidden names are unaffected. Automatic brand-name matching follows the same rule, so `McDonald's - Main St` reappears with the franchise step. In the Austin example snapshot, the franchise and dealer steps add 14 and then 20 places.
 
+## Specialty, tire, liquor, and regional stores
+
+A further pass added 39 chains, bringing the directory to 814 listed brands:
+
+- **Tires and auto:** NTB, Tire Kingdom, Big O Tires, and Midas ([TBC Corporation, owned by Sumitomo](https://www.fenderbender.com/running-a-shop/finance/article/33034248/tbc-buys-midas)); Les Schwab (PE, Meritage Group, 2020).
+- **Convenience and grocery:** MAPCO (Majors Management); Kwik Fill and Red Apple Food Mart (United Refining); Market Basket (Demoulas, limited to New England so it does not match the unrelated Gulf Coast Market Basket).
+- **Sporting goods, apparel, and shoes:** Dunham's Sports, PGA TOUR Superstore, Sportsman's Warehouse (its sale to Bass Pro's parent was called off), Fleet Feet, Carhartt, Duluth Trading Co., Red Wing Shoes, Johnston & Murphy, Brooks Brothers, Destination XL, Patagonia, Maurices (PE, OpCapita, 2019), and J.Jill.
+- **Jewelry and beauty:** Swarovski; Helzberg Diamonds and Ben Bridge (Berkshire Hathaway); Brilliant Earth; Lush; CosmoProf; and Pet Supermarket (PE, Roark).
+- **Home, books, and gifts:** 84 Lumber, The Tile Shop (no longer exchange-listed), Benjamin Moore, Hallmark, and Half Price Books.
+- **Liquor:** Spec's, Binny's Beverage Depot, ABC Fine Wine & Spirits, and BevMo! (Gopuff).
+- **Optical and pharmacy:** Visionworks (VSP Global) and Navarro Discount Pharmacy (CVS Health, limited to South Florida).
+
+Big O Tires, Midas, and Fleet Feet are marked `franchise`. Red Wing Shoes, Benjamin Moore, and Hallmark are marked `dealer`: their stores are mostly independently owned but sell the brand's products, so most of the money goes to the brand. Generic or place names are limited to store listings: the city name Red Wing, Hallmark, Lush, and Patagonia do not match restaurants or other businesses. Service-only businesses such as oil change, collision, and shipping stores, and closed chains (Party City, Jo-Ann, Conn's, Badcock), were not added.
+
+Wikipedia could not be reached from the review environment. Article links that appeared in search results are kept. Other new Wikipedia references are Wikipedia search links for the brand name, so they never point to a missing page.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.

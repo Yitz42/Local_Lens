@@ -57,7 +57,7 @@ Corporate includes any reviewed operating company with equity listed on a stock 
 
 ## Store categories
 
-The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 149 large restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
+The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 188 large restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
 
 ## Where the money goes
 
