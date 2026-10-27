@@ -54,6 +54,14 @@ A follow-up pass added 60 chains aimed at the new store categories, bringing the
 
 Short or common names only match the matching store category: H&M (which also needs the ampersand), Express, RH, Coach, Vans, Buckle, Cato, Pandora, Levi's, Crocs, Savers, Aaron's, and Ethan Allen. Ashley HomeStore does not match the bare name Ashley. Saks OFF 5TH is a separate company and is not matched. Franchised brands such as Winmark's, Rent-A-Center, and Miracle-Ear identify the brand owner, not each store's owner.
 
+## Remaining private chains
+
+Rooms To Go, Living Spaces, Boscov's, Von Maur, bealls (including Bealls Outlet, Burkes Outlet, and Bealls Florida), Books-A-Million, Northern Tool + Equipment, and Scheels (employee owned) were added as large private chains. Kendra Scott is labeled PE: founder Kendra Scott keeps majority control, but [65 Equity Partners led a 2024 minority investment](https://www.privsource.com/acquisitions/deal/65-equity-partners-leads-minority-investment-in-kendra-scott-LXSoRG). The directory now lists 774 corporate or PE brands.
+
+## Locally owned locations
+
+The optional `localOperators` field marks 147 brands whose US locations are mostly owned locally: 119 franchise systems, 23 dealer networks (fuel brands, NAPA Auto Parts, prepaid wireless dealers, and Ashley's licensed stores), and 5 cooperatives or independent-grocer networks (Ace Hardware, True Value, IGA, Piggly Wiggly, and Cenex). Brands were marked from their published business models only where franchised, dealer, or member stores are the norm. Mixed systems such as Panera, Buffalo Wild Wings, Five Guys, La-Z-Boy, and 7-Eleven are not marked. Chick-fil-A is not marked, because its operators run restaurants the company owns. The marker is informational and does not change ownership filtering.
+
 ## Not added in this pass
 
-Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Several large private chains whose ownership could not be sourced in this pass remain unclassified, including Rooms To Go, Living Spaces, Boscov's, Von Maur, Bealls, Books-A-Million, Northern Tool, Scheels, and Kendra Scott. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.
+Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.

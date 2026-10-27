@@ -81,7 +81,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
       "sponsors": [
         "Blackstone"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "7-Eleven",
@@ -124,7 +125,8 @@
         "source": "https://investor.phillips66.com/stock-information/",
         "sourceTitle": "Phillips 66 — current stock information",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "99 Ranch Market",
@@ -155,7 +157,8 @@
       "sourceTitle": "Icahn Automotive — company and service brands",
       "note": "Icahn Automotive identifies AAMCO among its automotive service brands and identifies Icahn Enterprises as its parent. This is corporate chain affiliation; an individual franchised repair center can have a different local owner.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies"
+      "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "localOperators": "franchise"
     },
     {
       "brand": "ABRA",
@@ -185,7 +188,8 @@
         "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
         "sourceTitle": "Driven Brands — exchange and ticker FAQ",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Academy Sports + Outdoors",
@@ -233,7 +237,8 @@
       "checked": "2026-10-26",
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "cooperative"
     },
     {
       "brand": "ACME",
@@ -462,7 +467,8 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "ampm",
@@ -474,7 +480,8 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Ann Taylor",
@@ -500,7 +507,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Apple",
@@ -559,7 +567,8 @@
         "source": "https://investors.dinebrands.com/news-releases/news-release-details/dine-brands-global-inc-announces-third-quarter-2026-dividend",
         "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Arby's",
@@ -572,7 +581,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "ARCO",
@@ -582,7 +592,8 @@
       "source": "https://www.marathonpetroleum.com/operations/",
       "sourceTitle": "Marathon Petroleum — retail brand network",
       "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Aspen Dental",
@@ -668,7 +679,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "AutoZone",
@@ -872,7 +884,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Bath & Body Works",
@@ -918,7 +931,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Freeman Spogli & Co."
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Beef ‘O’ Brady’s",
@@ -936,7 +950,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "CapitalSpring"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Bel Air Markets",
@@ -1017,7 +1032,8 @@
       "sourceTitle": "BIGGBY — franchise network and company story",
       "note": "BIGGBY describes a large coffee franchise network. Local Lens includes large-chain brand affiliation in the corporate category; its independently owned franchise locations are a separate ownership layer.",
       "checked": "2026-10-16",
-      "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee"
+      "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee",
+      "localOperators": "franchise"
     },
     {
       "brand": "Birkenstock",
@@ -1144,7 +1160,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Bloomingdale’s",
@@ -1247,7 +1264,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Bonefish Grill",
@@ -1314,7 +1332,8 @@
         "source": "https://ir.echostar.com/",
         "sourceTitle": "EchoStar — investor profile and Nasdaq equity ticker",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Boots",
@@ -1341,7 +1360,8 @@
       "source": "https://careers.bp.com/about",
       "sourceTitle": "bp — our brands",
       "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "BreadBox",
@@ -1566,7 +1586,8 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Burlington",
@@ -1713,7 +1734,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Carquest",
@@ -1811,7 +1833,8 @@
         "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
         "sourceTitle": "Driven Brands — exchange and ticker FAQ",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Carvel",
@@ -1826,7 +1849,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Casey’s",
@@ -1984,7 +2008,8 @@
         "source": "https://www.chsinc.com/about-us/owners-and-investors/",
         "sourceTitle": "CHS — Nasdaq-listed preferred equity classes",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "cooperative"
     },
     {
       "brand": "Cenex Zip Trip",
@@ -2144,7 +2169,8 @@
       "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
       "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
       "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Chick-fil-A",
@@ -2279,7 +2305,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Circle K",
@@ -2305,7 +2332,8 @@
         "gas",
         "grocery",
         "other"
-      ]
+      ],
+      "localOperators": "dealer"
     },
     {
       "brand": "City Gear",
@@ -2484,7 +2512,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Community Markets (C&S)",
@@ -2538,7 +2567,8 @@
         "source": "https://investor.phillips66.com/stock-information/",
         "sourceTitle": "Phillips 66 — current stock information",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Converse",
@@ -2660,7 +2690,8 @@
           "title": "AT&T — Cricket Wireless acquisition and brand history",
           "url": "https://about.att.com/innovation/ip/brands/history"
         }
-      ]
+      ],
+      "localOperators": "dealer"
     },
     {
       "brand": "Crossroads IGA",
@@ -2695,7 +2726,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Crunch Fitness",
@@ -2711,7 +2743,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "CTown Supermarkets",
@@ -2790,7 +2823,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "BDT & MSD Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Culver's",
@@ -2805,7 +2839,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Cumberland Farms",
@@ -2900,7 +2935,8 @@
         "source": "https://berkshirehathaway.com/news/may3126.pdf",
         "sourceTitle": "Berkshire Hathaway — May 2026 release confirming both common-stock listings",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Dave's Hot Chicken",
@@ -2915,7 +2951,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "David’s Bridal",
@@ -3134,7 +3171,8 @@
       "source": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000039/dpz-ex99_1.htm",
       "sourceTitle": "Domino’s — third-quarter 2026 results",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Don Quijote",
@@ -3240,7 +3278,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Dutch Bros",
@@ -3489,7 +3528,8 @@
       "source": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands",
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Eyemart Express",
@@ -3644,7 +3684,8 @@
           "title": "MTY — current US operating groups",
           "url": "https://mtygroup.com/nos-marques/"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Fareway",
@@ -3730,7 +3771,8 @@
       "sponsors": [
         "Freeman Spogli & Co.",
         "LightBay Capital"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Fatburger",
@@ -3749,7 +3791,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Fazoli’s",
@@ -3848,7 +3891,8 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Firestone Complete Auto Care",
@@ -4229,7 +4273,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Rhône Group"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "FRESH by Brookshire’s",
@@ -4319,7 +4364,8 @@
         "source": "https://investors.dinebrands.com/news-releases/news-release-details/dine-brands-global-inc-announces-third-quarter-2026-dividend",
         "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Gap",
@@ -4706,7 +4752,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Grocery Outlet",
@@ -4770,7 +4817,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_gas_station_chains_in_North_America",
       "matchCategories": [
         "gas"
-      ]
+      ],
+      "localOperators": "dealer"
     },
     {
       "brand": "H Mart",
@@ -4858,7 +4906,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Harmons",
@@ -5082,7 +5131,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Hy-Vee",
@@ -5108,7 +5158,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "IGA",
@@ -5126,7 +5177,8 @@
       "matchCategories": [
         "grocery"
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States"
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+      "localOperators": "cooperative"
     },
     {
       "brand": "IHOP",
@@ -5153,7 +5205,8 @@
         "source": "https://investors.dinebrands.com/news-releases/news-release-details/dine-brands-global-inc-announces-third-quarter-2026-dividend",
         "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "IKEA",
@@ -5274,7 +5327,8 @@
         "source": "https://investors.jackinthebox.com/home/default.aspx",
         "sourceTitle": "Jack in the Box — Nasdaq equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Jacksons Food Stores",
@@ -5324,7 +5378,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Jay C Food Stores",
@@ -5403,7 +5458,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Blackstone"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Jewel-Osco",
@@ -5444,7 +5500,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Joe V’s Smart Shop",
@@ -5473,7 +5530,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Jollibee",
@@ -5529,7 +5587,8 @@
       "source": "https://investors.yum.com/corporateprofile/default.aspx",
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Kids Foot Locker",
@@ -5604,7 +5663,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Kona_Ice",
       "sponsors": [
         "Garnett Station Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Kroger",
@@ -6186,7 +6246,8 @@
         "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
         "sourceTitle": "Driven Brands — exchange and ticker FAQ",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Macy’s",
@@ -6270,7 +6331,8 @@
           "title": "JAB — 2025 annual report published in 2026",
           "url": "https://www.jabholco.com/wp-content/uploads/2026/04/JAB-Annual-Report-2025.pdf"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Marathon",
@@ -6280,7 +6342,8 @@
       "source": "https://www.marathonpetroleum.com/operations/",
       "sourceTitle": "Marathon Petroleum — retail brand network",
       "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Marble Slab Creamery",
@@ -6299,7 +6362,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Mariano’s",
@@ -6456,7 +6520,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Mathnasium",
@@ -6469,7 +6534,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Maverik",
@@ -6522,7 +6588,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "McCormick & Schmick’s",
@@ -6548,7 +6615,8 @@
       "source": "https://corporate.mcdonalds.com/corpmcd/our-company/how-we-operate-internationally.html",
       "sourceTitle": "McDonald’s — how the franchise model works",
       "note": "McDonald’s is a global corporate restaurant brand. Most US restaurants have independent franchise operators; the label identifies brand affiliation.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "MedVet",
@@ -6600,7 +6668,8 @@
         "source": "https://investors.drivenbrands.com/resources/investor-faqs/default.aspx",
         "sourceTitle": "Driven Brands — exchange and ticker FAQ",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Menards",
@@ -6624,7 +6693,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Metcalfe’s Market",
@@ -6668,7 +6738,8 @@
         "source": "https://www.t-mobile.com/news/business/t-mobile-capital-markets-day-update-feb-2026",
         "sourceTitle": "T-Mobile — February 2026 investor announcement",
         "checked": "2026-10-25"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Metro Market",
@@ -6839,7 +6910,8 @@
       "source": "https://corporate.exxonmobil.com/who-we-are/our-global-organization/brands",
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Moe's Southwest Grill",
@@ -6854,7 +6926,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Morton Williams",
@@ -6974,7 +7047,8 @@
         "source": "https://www.genpt.com/quote",
         "sourceTitle": "Genuine Parts — current NYSE equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "National Car Rental",
@@ -7006,7 +7080,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Natural Grocers",
@@ -7211,7 +7286,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "KKR"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Oakley",
@@ -7341,7 +7417,8 @@
         "source": "https://berkshirehathaway.com/news/may3126.pdf",
         "sourceTitle": "Berkshire Hathaway — May 2026 release confirming both common-stock listings",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Orangetheory Fitness",
@@ -7356,7 +7433,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Outback Steakhouse",
@@ -7453,7 +7531,8 @@
       "source": "https://ir.papajohns.com/company-info",
       "sourceTitle": "Papa Johns — company profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Papa Murphy’s",
@@ -7481,7 +7560,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Paris Baguette",
@@ -7491,7 +7571,8 @@
       "source": "https://www.prnewswire.com/news-releases/paris-baguette-hits-record-77-cafe-openings-in-2025-prepares-for-400th-north-american-location-302667860.html",
       "sourceTitle": "Paris Baguette — 2026 company network update",
       "note": "The company-issued 2026 statement establishes its large global bakery-cafe franchise and substantial North American network. This record does not infer an ultimate holding-company identity or a PE sponsor. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "localOperators": "franchise"
     },
     {
       "brand": "Patel Brothers",
@@ -7581,7 +7662,8 @@
       },
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Peet’s Coffee",
@@ -7611,7 +7693,8 @@
       "checked": "2026-10-26",
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Petco",
@@ -7702,7 +7785,8 @@
         "source": "https://investor.phillips66.com/stock-information/",
         "sourceTitle": "Phillips 66 — current stock information",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Philz Coffee",
@@ -7745,7 +7829,8 @@
       "matchCategories": [
         "grocery"
       ],
-      "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States"
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+      "localOperators": "cooperative"
     },
     {
       "brand": "Pilot",
@@ -7795,7 +7880,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "LongRange Capital"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "PJ’s Coffee",
@@ -7808,7 +7894,8 @@
       "source": "https://www.ballardbrands.com/about/",
       "sourceTitle": "Ballard Brands — current company and franchise portfolio",
       "note": "The privately held family group identifies PJ’s Coffee as a substantial franchised brand and records its acquisition in the company history. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "localOperators": "franchise"
     },
     {
       "brand": "Planet Smoothie",
@@ -7833,7 +7920,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Playa Bowls",
@@ -7846,7 +7934,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Pollo Tropical",
@@ -7885,7 +7974,8 @@
       ],
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Popeyes",
@@ -7897,7 +7987,8 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "pOpshelf",
@@ -7956,7 +8047,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Price Chopper (Northeast)",
@@ -8048,7 +8140,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Publix",
@@ -8214,7 +8307,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Quiznos",
       "sponsors": [
         "High Bluff Capital Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "RaceTrac",
@@ -8551,7 +8645,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "Maple Park Capital Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Rite Aid",
@@ -8686,7 +8781,8 @@
           "title": "OHG Brands — completed asset acquisition and current group name",
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Rouses Markets",
@@ -8869,7 +8965,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Schnucks",
@@ -8900,7 +8997,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Scooter’s Coffee",
@@ -8912,7 +9010,8 @@
       "source": "https://www.scooterscoffee.com/blog/post/900-stores-across-32-states-long-term-growth",
       "sourceTitle": "Scooter’s Coffee — 2026 national network update",
       "note": "The company’s 2026 announcement establishes a substantial nationwide chain and expressly says nearly all locations are locally owned franchises. No PE sponsor is inferred. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "localOperators": "franchise"
     },
     {
       "brand": "Scotchman",
@@ -9000,7 +9099,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "ServiceMaster Restore",
@@ -9013,7 +9113,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Shake Shack",
@@ -9055,7 +9156,8 @@
       "source": "https://www.shell.com/who-we-are.html",
       "sourceTitle": "Shell — who we are",
       "note": "Shell is a global corporate energy brand. Branded fuel stations may have independent owners and operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Sherwin-Williams",
@@ -9123,7 +9225,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Shipley_Do-Nuts",
       "sponsors": [
         "Levine Leichtman Capital Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Shoe Carnival",
@@ -9372,7 +9475,8 @@
         "source": "https://www.sinclairoil.com/who-we-are",
         "sourceTitle": "Sinclair Oil — HF Sinclair parent and NYSE listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Skechers",
@@ -9439,7 +9543,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Soma",
@@ -9468,7 +9573,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "South Moon Under",
@@ -9754,7 +9860,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Sullivan’s Foods",
@@ -9842,7 +9949,8 @@
         "source": "https://www.txse.com/press/texas-stock-exchange-celebrates-move-of-energy-transfer-partnership-s-primary-listings",
         "sourceTitle": "Texas Stock Exchange — Sunoco completed primary-listing transfer, October 5, 2026",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Super 1 Foods (Brookshire Grocery)",
@@ -9953,7 +10061,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Sweetgreen",
@@ -10021,7 +10130,8 @@
       "source": "https://investors.yum.com/corporateprofile/default.aspx",
       "sourceTitle": "Yum! Brands — corporate profile",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Taco Del Mar",
@@ -10037,7 +10147,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Taco_del_Mar",
       "sponsors": [
         "High Bluff Capital Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Tadych’s MarketPlace Foods",
@@ -10176,7 +10287,8 @@
       "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
       "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
       "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "dealer"
     },
     {
       "brand": "Texas Roadhouse",
@@ -10201,7 +10313,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "The Brass Tap",
@@ -10218,7 +10331,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "sponsors": [
         "CapitalSpring"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "The Capital Grille",
@@ -10332,7 +10446,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Sycamore Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "The Home Depot",
@@ -10356,7 +10471,8 @@
       "source": "https://thehumanbean.com/pages/our-story",
       "sourceTitle": "The Human Bean — current national franchise story",
       "note": "The current company page describes its substantial national franchise network. This does not infer a current ultimate investor or label a family franchise operator as a subsidiary. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "localOperators": "franchise"
     },
     {
       "brand": "The Shade Store",
@@ -10406,7 +10522,8 @@
       "source": "https://www.rbi.com/English/brands/default.aspx",
       "sourceTitle": "Restaurant Brands International — brands",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Times Supermarkets",
@@ -10642,7 +10759,8 @@
       "source": "https://www.cj.net/america/affiliates-and-brands/food/cjfoodville-usa/",
       "sourceTitle": "CJ America — current Tous les Jours operating affiliation",
       "note": "CJ America identifies this substantial US bakery-cafe franchise within CJ Foodville USA. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
-      "checked": "2026-10-26"
+      "checked": "2026-10-26",
+      "localOperators": "franchise"
     },
     {
       "brand": "Tracfone",
@@ -10724,7 +10842,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
       "sponsors": [
         "Blackstone"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "True Value",
@@ -10740,7 +10859,8 @@
       "checked": "2026-10-26",
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "cooperative"
     },
     {
       "brand": "TruGreen",
@@ -10799,7 +10919,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Ulta Beauty",
@@ -10934,7 +11055,8 @@
         "source": "https://www.valero.com/about",
         "sourceTitle": "Valero — current company profile and NYSE listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "dealer"
     },
     {
       "brand": "Vallarta Supermarkets",
@@ -11192,7 +11314,8 @@
       "checked": "2026-10-26",
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Walgreens",
@@ -11268,7 +11391,8 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Roark"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Wegmans",
@@ -11321,7 +11445,8 @@
       "source": "https://www.irwendys.com/home/default.aspx",
       "sourceTitle": "Wendy’s — corporate overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "West Elm",
@@ -11358,7 +11483,8 @@
         "source": "https://www.globenewswire.com/news-release/2026/10/09/3377955/0/en/mty-reports-third-quarter-results-for-fiscal-2026-announces-end-of-strategic-review-and-increases-dividend-by-35.html",
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Whataburger",
@@ -11503,7 +11629,8 @@
       "source": "https://ir.wingstop.com/about-us/",
       "sourceTitle": "Wingstop — company and brand overview",
       "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
-      "checked": "2026-10-15"
+      "checked": "2026-10-15",
+      "localOperators": "franchise"
     },
     {
       "brand": "Winn-Dixie",
@@ -11544,7 +11671,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "sponsors": [
         "TSG Consumer Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Woodland Marketplace Foods",
@@ -11675,7 +11803,8 @@
       ],
       "sponsors": [
         "Leonard Green & Partners"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "ZIMMERMANN",
@@ -11704,7 +11833,8 @@
       "sourceTitle": "Ilitch Holdings — brands including Little Caesars",
       "note": "Little Caesars has been privately held since 1959 and belongs to the Ilitch family's companies. It is a large private chain. Individual restaurants may have independent franchise operators.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Little_Caesars"
+      "wikipedia": "https://en.wikipedia.org/wiki/Little_Caesars",
+      "localOperators": "franchise"
     },
     {
       "brand": "Raising Cane's",
@@ -11760,7 +11890,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Denny%27s",
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Qdoba",
@@ -12079,7 +12210,8 @@
       "sourceTitle": "Restaurant Business — Elysium Management buys Huddle House",
       "note": "Huddle House belongs to Ascent Hospitality Management, a holding company created by Elysium Management, which manages a family office's investments. It is classified as a large private chain rather than PE backed. Individual restaurants may have independent franchise operators.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Huddle_House"
+      "wikipedia": "https://en.wikipedia.org/wiki/Huddle_House",
+      "localOperators": "franchise"
     },
     {
       "brand": "Perkins",
@@ -12113,7 +12245,8 @@
       "sourceTitle": "Restaurant Business — privately held Golden Corral, owned by Investors Management Corp.",
       "note": "Golden Corral is privately held through Investors Management Corp. It is a large private chain. Individual restaurants may have independent franchise operators.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Golden_Corral"
+      "wikipedia": "https://en.wikipedia.org/wiki/Golden_Corral",
+      "localOperators": "franchise"
     },
     {
       "brand": "White Castle",
@@ -12174,7 +12307,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Wienerschnitzel",
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Jet's Pizza",
@@ -12188,7 +12322,8 @@
       "sourceTitle": "Jet's Pizza — About Jet's (family-founded Jet's America, Inc.)",
       "note": "Jet's America is privately held by its founding family and franchises more than 400 Jet's Pizza locations. Individual restaurants may have independent franchise operators.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Jet%27s_Pizza"
+      "wikipedia": "https://en.wikipedia.org/wiki/Jet%27s_Pizza",
+      "localOperators": "franchise"
     },
     {
       "brand": "Smashburger",
@@ -12249,7 +12384,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Hooters",
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "MOD Pizza",
@@ -13163,7 +13299,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/TGI_Fridays",
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Blaze Pizza",
@@ -13176,7 +13313,8 @@
       "sourceTitle": "Franchising.com — Blaze Pizza multi-unit franchise agreement",
       "note": "Blaze Pizza is a national franchised pizza chain. Some reports name Brentwood Associates as controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Blaze_Pizza"
+      "wikipedia": "https://en.wikipedia.org/wiki/Blaze_Pizza",
+      "localOperators": "franchise"
     },
     {
       "brand": "Chuck E. Cheese",
@@ -13218,7 +13356,8 @@
       "sourceTitle": "Nation's Restaurant News — Sbarro CEO on convenience-store and international growth (2026)",
       "note": "Sbarro has more than 850 locations worldwide, many inside malls, airports, and convenience stores. Reports differ on its controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Sbarro"
+      "wikipedia": "https://en.wikipedia.org/wiki/Sbarro",
+      "localOperators": "franchise"
     },
     {
       "brand": "Cicis Pizza",
@@ -13236,7 +13375,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Cicis_Pizza",
       "matchCategories": [
         "restaurant"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Smoothie King",
@@ -13252,7 +13392,8 @@
         "coffee",
         "restaurant",
         "grocery"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Fleet Farm",
@@ -14372,7 +14513,8 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Furniture_Industries",
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "dealer"
     },
     {
       "brand": "Raymour & Flanigan",
@@ -14455,7 +14597,8 @@
         "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
         "sourceTitle": "Winmark — 2025 Form 10-K",
         "checked": "2026-10-27"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Once Upon a Child",
@@ -14483,7 +14626,8 @@
       },
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Play It Again Sports",
@@ -14508,7 +14652,8 @@
         "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
         "sourceTitle": "Winmark — 2025 Form 10-K",
         "checked": "2026-10-27"
-      }
+      },
+      "localOperators": "franchise"
     },
     {
       "brand": "Style Encore",
@@ -14536,7 +14681,8 @@
       },
       "matchCategories": [
         "other"
-      ]
+      ],
+      "localOperators": "franchise"
     },
     {
       "brand": "Micro Center",
@@ -14687,7 +14833,137 @@
       "sourceTitle": "Amplifon — US growth and Miracle-Ear network (April 2025)",
       "note": "Amplifon owns Miracle-Ear, with more than 420 direct US locations and about 1,200 franchised ones. Franchise locations may be independently owned.",
       "checked": "2026-10-27",
-      "wikipedia": "https://en.wikipedia.org/wiki/Miracle-Ear"
+      "wikipedia": "https://en.wikipedia.org/wiki/Miracle-Ear",
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Rooms To Go",
+      "aliases": [
+        "Rooms To Go Kids",
+        "Rooms To Go Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Rooms To Go, Inc. (privately held, Seaman family)",
+      "source": "https://clay.com/dossier/rooms-to-go-email-format",
+      "sourceTitle": "Clay — Rooms To Go, a privately held family-owned furniture retailer",
+      "note": "Rooms To Go is privately held and family owned, led by co-founder Jeffrey Seaman, with well over 100 showrooms in the Southeast and Texas. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rooms_To_Go"
+    },
+    {
+      "brand": "Living Spaces",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Living Spaces Furniture, LLC (privately held)",
+      "source": "https://www.furnituretoday.com/furniture-retailer/living-spaces-gearing-up-for-1st-georgia-store",
+      "sourceTitle": "Furniture Today — Living Spaces expands to Georgia",
+      "note": "Living Spaces is a privately held furniture retailer with about 40 stores in eight states and growing eastward. The phrase only matches store listings. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Living_Spaces",
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Boscov's",
+      "aliases": [
+        "Boscovs"
+      ],
+      "type": "corporate",
+      "parent": "Boscov's Department Store, LLC (family owned)",
+      "source": "https://www.butlereagle.com/?p=130468",
+      "sourceTitle": "Butler Eagle — family-owned Boscov's",
+      "note": "Boscov's is the largest family-owned US department store chain, with about 50 stores in nine states, led by the third generation of the Boscov family. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Boscov%27s"
+    },
+    {
+      "brand": "Von Maur",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Von Maur, Inc. (family owned)",
+      "source": "https://www.businesswire.com/news/home/20251215891763/en/Von-Maur-Department-Stores-to-Open-First-Location-in-New-Jersey-in-Fall-2027",
+      "sourceTitle": "Business Wire — Von Maur plans its first New Jersey store",
+      "note": "Von Maur is a family-owned department store chain led by the fourth generation of the von Maur family, with about 40 stores planned. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Von_Maur"
+    },
+    {
+      "brand": "bealls",
+      "aliases": [
+        "Bealls",
+        "Bealls Outlet",
+        "Burkes Outlet",
+        "Bealls Florida",
+        "Home Centric"
+      ],
+      "type": "corporate",
+      "parent": "Bealls, Inc. (family owned)",
+      "source": "https://chainstoreage.com/bealls-plots-20262027-store-expansion-heres-where",
+      "sourceTitle": "Chain Store Age — Bealls plots 2026–2027 store expansion",
+      "note": "Bealls, Inc. is a fourth-generation family-owned off-price retailer with more than 650 stores; Bealls Outlet and Burkes Outlet are becoming bealls. The defunct Texas Bealls chain was a different company. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bealls_(Florida-based_department_store)",
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "Books-A-Million",
+      "aliases": [
+        "Books A Million",
+        "BAM! Books-A-Million"
+      ],
+      "type": "corporate",
+      "parent": "Books-A-Million, Inc. (privately held by the Anderson family)",
+      "source": "https://www.publishersweekly.com/pw/by-topic/industry-news/industry-deals/article/68916-books-a-million-goes-private.html",
+      "sourceTitle": "Publishers Weekly — Books-A-Million goes private",
+      "note": "The Anderson family took Books-A-Million private in 2015; it operates about 260 bookstores. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Books-A-Million"
+    },
+    {
+      "brand": "Northern Tool + Equipment",
+      "aliases": [
+        "Northern Tool",
+        "Northern Tool and Equipment"
+      ],
+      "type": "corporate",
+      "parent": "Northern Tool + Equipment (family owned)",
+      "source": "https://www.hbsdealer.com/northern-tool-equipment-partners-ariens",
+      "sourceTitle": "HBS Dealer — family-owned Northern Tool + Equipment",
+      "note": "Founded in 1981 by Don Kotula, Northern Tool + Equipment is a family-owned retailer with about 130 stores in 23 states. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Northern_Tool_%2B_Equipment"
+    },
+    {
+      "brand": "Scheels",
+      "aliases": [
+        "SCHEELS",
+        "Scheels All Sports"
+      ],
+      "type": "corporate",
+      "parent": "Scheels All Sports, Inc. (employee owned)",
+      "source": "https://coloradobiz.com/scheels-littleton-store-500-jobs/",
+      "sourceTitle": "ColoradoBiz — Scheels to open Littleton store",
+      "note": "Scheels is a privately held, employee-owned sporting goods chain of more than 30 very large stores. It is classified as a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Scheels"
+    },
+    {
+      "brand": "Kendra Scott",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Kendra Scott Design, Inc. · 65 Equity Partners minority investment",
+      "source": "https://www.privsource.com/acquisitions/deal/65-equity-partners-leads-minority-investment-in-kendra-scott-LXSoRG",
+      "sourceTitle": "PrivSource — 65 Equity Partners leads minority investment in Kendra Scott (2024)",
+      "note": "Founder Kendra Scott remains the majority shareholder. In 2024, 65 Equity Partners led a minority investment, with HPS and Belzberg co-investing, that redeemed Berkshire Partners' earlier stake; it is labeled PE as a documented minority investment.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kendra_Scott",
+      "matchCategories": [
+        "apparel",
+        "other"
+      ]
     }
   ]
 }

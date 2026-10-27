@@ -94,6 +94,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Blackstone"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -143,6 +144,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Phillips 66 — current stock information",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -180,6 +182,7 @@ export const BRAND_DIRECTORY = [
     "note": "Icahn Automotive identifies AAMCO among its automotive service brands and identifies Icahn Enterprises as its parent. This is corporate chain affiliation; an individual franchised repair center can have a different local owner.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -268,6 +271,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Driven Brands — exchange and ticker FAQ",
       "checked": "2026-10-25"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate",
       "pe"
@@ -323,6 +327,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "cooperative",
     "categories": [
       "corporate"
     ]
@@ -616,6 +621,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "bp — our brands",
     "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -631,6 +637,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "bp — our brands",
     "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -691,6 +698,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -756,6 +764,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -772,6 +781,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -785,6 +795,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Marathon Petroleum — retail brand network",
     "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -834,6 +845,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -935,6 +947,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -1172,6 +1185,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -1241,8 +1255,32 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Freeman Spogli & Co."
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "bealls",
+    "aliases": [
+      "Bealls",
+      "Bealls Outlet",
+      "Burkes Outlet",
+      "Bealls Florida",
+      "Home Centric"
+    ],
+    "type": "corporate",
+    "parent": "Bealls, Inc. (family owned)",
+    "source": "https://chainstoreage.com/bealls-plots-20262027-store-expansion-heres-where",
+    "sourceTitle": "Chain Store Age — Bealls plots 2026–2027 store expansion",
+    "note": "Bealls, Inc. is a fourth-generation family-owned off-price retailer with more than 650 stores; Bealls Outlet and Burkes Outlet are becoming bealls. The defunct Texas Bealls chain was a different company. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bealls_(Florida-based_department_store)",
+    "matchCategories": [
+      "other"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -1296,6 +1334,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "CapitalSpring"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -1464,6 +1503,7 @@ export const BRAND_DIRECTORY = [
     "note": "BIGGBY describes a large coffee franchise network. Local Lens includes large-chain brand affiliation in the corporate category; its independently owned franchise locations are a separate ownership layer.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Biggby_Coffee",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -1629,6 +1669,7 @@ export const BRAND_DIRECTORY = [
     "note": "Blaze Pizza is a national franchised pizza chain. Some reports name Brentwood Associates as controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Blaze_Pizza",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -1659,6 +1700,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -1802,6 +1844,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -1854,6 +1897,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Books-A-Million",
+    "aliases": [
+      "Books A Million",
+      "BAM! Books-A-Million"
+    ],
+    "type": "corporate",
+    "parent": "Books-A-Million, Inc. (privately held by the Anderson family)",
+    "source": "https://www.publishersweekly.com/pw/by-topic/industry-news/industry-deals/article/68916-books-a-million-goes-private.html",
+    "sourceTitle": "Publishers Weekly — Books-A-Million goes private",
+    "note": "The Anderson family took Books-A-Million private in 2015; it operates about 260 bookstores. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Books-A-Million",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Boost Mobile",
     "aliases": [
       "Boost Mobile Authorized Retailer"
@@ -1878,6 +1938,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "EchoStar — investor profile and Nasdaq equity ticker",
       "checked": "2026-10-25"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -1929,6 +1990,22 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Boscov's",
+    "aliases": [
+      "Boscovs"
+    ],
+    "type": "corporate",
+    "parent": "Boscov's Department Store, LLC (family owned)",
+    "source": "https://www.butlereagle.com/?p=130468",
+    "sourceTitle": "Butler Eagle — family-owned Boscov's",
+    "note": "Boscov's is the largest family-owned US department store chain, with about 50 stores in nine states, led by the third generation of the Boscov family. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boscov%27s",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "BoxLunch",
     "aliases": [
       "Box Lunch Gifts"
@@ -1958,6 +2035,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "bp — our brands",
     "note": "bp lists this among its brands. This identifies the corporate brand affiliation; a licensed fuel station, convenience store, or travel center can have a different local owner or operator.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -2283,6 +2361,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Restaurant Brands International — brands",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -2489,6 +2568,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -2599,6 +2679,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Driven Brands — exchange and ticker FAQ",
       "checked": "2026-10-25"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate",
       "pe"
@@ -2653,6 +2734,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -2860,6 +2942,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "CHS — Nasdaq-listed preferred equity classes",
       "checked": "2026-10-26"
     },
+    "localOperators": "cooperative",
     "categories": [
       "corporate"
     ]
@@ -3070,6 +3153,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
     "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -3257,6 +3341,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -3273,6 +3358,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -3305,6 +3391,7 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -3569,6 +3656,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -3663,6 +3751,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Phillips 66 — current stock information",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -3842,6 +3931,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://about.att.com/innovation/ip/brands/history"
       }
     ],
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -3917,6 +4007,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "TSG Consumer Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -3936,6 +4027,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Leonard Green & Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -4024,6 +4116,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "BDT & MSD Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -4042,6 +4135,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -4149,6 +4243,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Berkshire Hathaway — May 2026 release confirming both common-stock listings",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -4198,6 +4293,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -4286,6 +4382,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -4516,6 +4613,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Domino’s — third-quarter 2026 results",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -4637,6 +4735,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -5009,6 +5108,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "ExxonMobil — our global brands",
     "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -5244,6 +5344,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://mtygroup.com/nos-marques/"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -5370,6 +5471,7 @@ export const BRAND_DIRECTORY = [
       "Freeman Spogli & Co.",
       "LightBay Capital"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -5392,6 +5494,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -5506,6 +5609,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Restaurant Brands International — brands",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -6030,6 +6134,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Rhône Group"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -6168,6 +6273,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -6560,6 +6666,7 @@ export const BRAND_DIRECTORY = [
     "note": "Golden Corral is privately held through Investors Management Corp. It is a large private chain. Individual restaurants may have independent franchise operators.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Golden_Corral",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -6702,6 +6809,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -6775,6 +6883,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas"
     ],
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -6919,6 +7028,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -7200,6 +7310,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7278,6 +7389,7 @@ export const BRAND_DIRECTORY = [
     "note": "Huddle House belongs to Ascent Hospitality Management, a holding company created by Elysium Management, which manages a family office's investments. It is classified as a large private chain rather than PE backed. Individual restaurants may have independent franchise operators.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Huddle_House",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7300,6 +7412,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7332,6 +7445,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -7353,6 +7467,7 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "localOperators": "cooperative",
     "categories": [
       "corporate"
     ]
@@ -7383,6 +7498,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7544,6 +7660,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Jack in the Box — Nasdaq equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7603,6 +7720,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -7745,6 +7863,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Blackstone"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -7762,6 +7881,7 @@ export const BRAND_DIRECTORY = [
     "note": "Jet's America is privately held by its founding family and franchises more than 400 Jet's Pizza locations. Individual restaurants may have independent franchise operators.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Jet%27s_Pizza",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7812,6 +7932,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -7847,6 +7968,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -7999,6 +8121,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kendra Scott",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Kendra Scott Design, Inc. · 65 Equity Partners minority investment",
+    "source": "https://www.privsource.com/acquisitions/deal/65-equity-partners-leads-minority-investment-in-kendra-scott-LXSoRG",
+    "sourceTitle": "PrivSource — 65 Equity Partners leads minority investment in Kendra Scott (2024)",
+    "note": "Founder Kendra Scott remains the majority shareholder. In 2024, 65 Equity Partners led a minority investment, with HPS and Belzberg co-investing, that redeemed Berkshire Partners' earlier stake; it is labeled PE as a documented minority investment.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kendra_Scott",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Kessler’s Foods",
     "aliases": [
       "Kessler's Food and Grocery"
@@ -8048,6 +8188,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Yum! Brands — corporate profile",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -8175,6 +8316,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Garnett Station Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -8698,6 +8840,24 @@ export const BRAND_DIRECTORY = [
     "note": "Little Caesars has been privately held since 1959 and belongs to the Ilitch family's companies. It is a large private chain. Individual restaurants may have independent franchise operators.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Little_Caesars",
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Living Spaces",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Living Spaces Furniture, LLC (privately held)",
+    "source": "https://www.furnituretoday.com/furniture-retailer/living-spaces-gearing-up-for-1st-georgia-store",
+    "sourceTitle": "Furniture Today — Living Spaces expands to Georgia",
+    "note": "Living Spaces is a privately held furniture retailer with about 40 stores in eight states and growing eastward. The phrase only matches store listings. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Living_Spaces",
+    "matchCategories": [
+      "other"
+    ],
     "categories": [
       "corporate"
     ]
@@ -8970,6 +9130,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Driven Brands — exchange and ticker FAQ",
       "checked": "2026-10-25"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate",
       "pe"
@@ -9084,6 +9245,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.jabholco.com/wp-content/uploads/2026/04/JAB-Annual-Report-2025.pdf"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -9097,6 +9259,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Marathon Petroleum — retail brand network",
     "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -9119,6 +9282,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -9303,6 +9467,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -9319,6 +9484,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -9409,6 +9575,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -9441,6 +9608,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "McDonald’s — how the franchise model works",
     "note": "McDonald’s is a global corporate restaurant brand. Most US restaurants have independent franchise operators; the label identifies brand affiliation.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -9502,6 +9670,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Driven Brands — exchange and ticker FAQ",
       "checked": "2026-10-25"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate",
       "pe"
@@ -9550,6 +9719,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -9600,6 +9770,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "T-Mobile — February 2026 investor announcement",
       "checked": "2026-10-25"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -9817,6 +9988,7 @@ export const BRAND_DIRECTORY = [
     "note": "Amplifon owns Miracle-Ear, with more than 420 direct US locations and about 1,200 franchised ones. Franchise locations may be independently owned.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Miracle-Ear",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -9865,6 +10037,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "ExxonMobil — our global brands",
     "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -9899,6 +10072,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -10034,6 +10208,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Genuine Parts — current NYSE equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -10093,6 +10268,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10377,6 +10553,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Northern Tool + Equipment",
+    "aliases": [
+      "Northern Tool",
+      "Northern Tool and Equipment"
+    ],
+    "type": "corporate",
+    "parent": "Northern Tool + Equipment (family owned)",
+    "source": "https://www.hbsdealer.com/northern-tool-equipment-partners-ariens",
+    "sourceTitle": "HBS Dealer — family-owned Northern Tool + Equipment",
+    "note": "Founded in 1981 by Don Kotula, Northern Tool + Equipment is a family-owned retailer with about 130 stores in 23 states. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Northern_Tool_%2B_Equipment",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Northgate González Market",
     "aliases": [
       "Northgate Gonzalez Market",
@@ -10410,6 +10603,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "KKR"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -10566,6 +10760,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10638,6 +10833,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Berkshire Hathaway — May 2026 release confirming both common-stock listings",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10656,6 +10852,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -10848,6 +11045,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Papa Johns — company profile",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10879,6 +11077,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10892,6 +11091,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Paris Baguette — 2026 company network update",
     "note": "The company-issued 2026 statement establishes its large global bakery-cafe franchise and substantial North American network. This record does not infer an ultimate holding-company identity or a PE sponsor. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -10994,6 +11194,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11073,6 +11274,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11177,6 +11379,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Phillips 66 — current stock information",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -11229,6 +11432,7 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "localOperators": "cooperative",
     "categories": [
       "corporate"
     ]
@@ -11285,6 +11489,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "LongRange Capital"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -11301,6 +11506,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Ballard Brands — current company and franchise portfolio",
     "note": "The privately held family group identifies PJ’s Coffee as a substantial franchised brand and records its acquisition in the company history. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11329,6 +11535,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11359,6 +11566,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Winmark — 2025 Form 10-K",
       "checked": "2026-10-27"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11387,6 +11595,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Winmark — 2025 Form 10-K",
       "checked": "2026-10-27"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11403,6 +11612,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Sycamore Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -11448,6 +11658,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11463,6 +11674,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Restaurant Brands International — brands",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11591,6 +11803,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -11698,6 +11911,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -11906,6 +12120,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "High Bluff Capital Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -12438,6 +12653,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Maple Park Capital Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -12525,6 +12741,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Rooms To Go",
+    "aliases": [
+      "Rooms To Go Kids",
+      "Rooms To Go Outlet"
+    ],
+    "type": "corporate",
+    "parent": "Rooms To Go, Inc. (privately held, Seaman family)",
+    "source": "https://clay.com/dossier/rooms-to-go-email-format",
+    "sourceTitle": "Clay — Rooms To Go, a privately held family-owned furniture retailer",
+    "note": "Rooms To Go is privately held and family owned, led by co-founder Jeffrey Seaman, with well over 100 showrooms in the Southeast and Texas. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rooms_To_Go",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Rosauers",
     "aliases": [
       "Rosauers Supermarkets",
@@ -12594,6 +12827,7 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -12958,6 +13192,24 @@ export const BRAND_DIRECTORY = [
     "note": "Sbarro has more than 850 locations worldwide, many inside malls, airports, and convenience stores. Reports differ on its controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Sbarro",
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Scheels",
+    "aliases": [
+      "SCHEELS",
+      "Scheels All Sports"
+    ],
+    "type": "corporate",
+    "parent": "Scheels All Sports, Inc. (employee owned)",
+    "source": "https://coloradobiz.com/scheels-littleton-store-500-jobs/",
+    "sourceTitle": "ColoradoBiz — Scheels to open Littleton store",
+    "note": "Scheels is a privately held, employee-owned sporting goods chain of more than 30 very large stores. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scheels",
     "categories": [
       "corporate"
     ]
@@ -12976,6 +13228,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13013,6 +13266,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13028,6 +13282,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Scooter’s Coffee — 2026 national network update",
     "note": "The company’s 2026 announcement establishes a substantial nationwide chain and expressly says nearly all locations are locally owned franchises. No PE sponsor is inferred. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -13128,6 +13383,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13144,6 +13400,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13198,6 +13455,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Shell — who we are",
     "note": "Shell is a global corporate energy brand. Branded fuel stations may have independent owners and operators.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -13275,6 +13533,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Levine Leichtman Capital Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13551,6 +13810,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Sinclair Oil — HF Sinclair parent and NYSE listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -13687,6 +13947,7 @@ export const BRAND_DIRECTORY = [
       "restaurant",
       "grocery"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -13707,6 +13968,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "TSG Consumer Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -13742,6 +14004,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14160,6 +14423,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -14176,6 +14440,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14276,6 +14541,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Texas Stock Exchange — Sunoco completed primary-listing transfer, October 5, 2026",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -14402,6 +14668,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -14479,6 +14746,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Yum! Brands — corporate profile",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -14512,6 +14780,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "High Bluff Capital Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14673,6 +14942,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
     "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
     "checked": "2026-10-15",
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -14707,6 +14977,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -14725,6 +14996,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14745,6 +15017,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "CapitalSpring"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14944,6 +15217,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Sycamore Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -14974,6 +15248,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "The Human Bean — current national franchise story",
     "note": "The current company page describes its substantial national franchise network. This does not infer a current ultimate investor or label a family franchise operator as a subsidiary. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -15133,6 +15408,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Restaurant Brands International — brands",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -15440,6 +15716,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "CJ America — current Tous les Jours operating affiliation",
     "note": "CJ America identifies this substantial US bakery-cafe franchise within CJ Foodville USA. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -15537,6 +15814,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Blackstone"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -15556,6 +15834,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "cooperative",
     "categories": [
       "corporate"
     ]
@@ -15624,6 +15903,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -15819,6 +16099,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Valero — current company profile and NYSE listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "dealer",
     "categories": [
       "corporate"
     ]
@@ -16180,6 +16461,20 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Von Maur",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Von Maur, Inc. (family owned)",
+    "source": "https://www.businesswire.com/news/home/20251215891763/en/Von-Maur-Department-Stores-to-Open-First-Location-in-New-Jersey-in-Fall-2027",
+    "sourceTitle": "Business Wire — Von Maur plans its first New Jersey store",
+    "note": "Von Maur is a family-owned department store chain led by the fourth generation of the von Maur family, with about 40 stores planned. It is classified as a large private chain.",
+    "checked": "2026-10-27",
+    "wikipedia": "https://en.wikipedia.org/wiki/Von_Maur",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Vons",
     "aliases": [],
     "type": "corporate",
@@ -16221,6 +16516,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16312,6 +16608,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Roark"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -16377,6 +16674,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Wendy’s — corporate overview",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16437,6 +16735,7 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "MTY — October 2026 results and equity listing",
       "checked": "2026-10-26"
     },
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16591,6 +16890,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16651,6 +16951,7 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Wingstop — company and brand overview",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16698,6 +16999,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "TSG Consumer Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]
@@ -16957,6 +17259,7 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Leonard Green & Partners"
     ],
+    "localOperators": "franchise",
     "categories": [
       "pe"
     ]

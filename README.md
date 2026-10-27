@@ -57,7 +57,11 @@ Corporate includes any reviewed operating company with equity listed on a stock 
 
 ## Store categories
 
-The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 140 large restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
+The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 149 large restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
+
+## Locally owned locations
+
+147 brands carry a **Locally owned locations** badge because most of their US locations are owned and run by local franchisees (`franchise`), independent dealers or station owners (`dealer`), or members of a retailer-owned cooperative (`cooperative`). Examples are McDonald's, Subway, and Dunkin'; Shell, Chevron, and NAPA Auto Parts; and Ace Hardware and IGA. The badge appears on map cards, place details, and the brand list, which can filter on it. The `localOperators` field is included in the JSON and CSV downloads. The badge does not change a brand's corporate or PE label or the ownership filters, and it does not verify the owner of a particular store. Brands are marked only when local ownership is the norm, not merely possible. Chick-fil-A is not marked, because its operators run company-owned restaurants.
 
 ## Default ownership and food filters
 

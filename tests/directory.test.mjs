@@ -116,3 +116,16 @@ test('listing evidence rejects debt securities and sponsor-only relationships',(
   assert.throws(()=>validateDirectory({version:1,brands:[{...row,publicListing:{...row.publicListing,...changes}}]}),/public equity listing/);
  }
 });
+test('locally owned location models are labeled and searchable without changing ownership type',async()=>{
+ const {searchBrands}=await import('../public/directory-utils.js');
+ const {localOperatorNote}=await import('../public/ownership-categories.js');
+ const byName=name=>BRAND_DIRECTORY.find(brand=>brand.brand===name);
+ assert.equal(byName('Subway').localOperators,'franchise');assert.equal(byName('Shell').localOperators,'dealer');assert.equal(byName('Ace Hardware').localOperators,'cooperative');
+ assert.equal(byName('Olive Garden').localOperators,undefined);assert.equal(byName('Chick-fil-A').localOperators,undefined);
+ assert.match(localOperatorNote(byName('Subway')),/franchisees/);assert.equal(localOperatorNote(byName('Olive Garden')),'');
+ const local=searchBrands(BRAND_DIRECTORY,{type:'local'});
+ assert.ok(local.length>100&&local.every(brand=>brand.localOperators));
+ assert.equal(ownershipFor({...origin,name:"McDonald's",category:'restaurant'}).localOperators,'franchise');
+ assert.equal(ownershipFor({...origin,name:"McDonald's",category:'restaurant'}).type,'corporate');
+ const csv=await readFile(new URL('../public/brands.csv',import.meta.url),'utf8');assert.ok(csv.split('\r\n')[0].includes('"localOperators"'));
+});
