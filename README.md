@@ -26,7 +26,7 @@ Run `npm run build`, then `node --use-env-proxy --use-system-ca scripts/dev.mjs`
 
 ## Data
 
-Nearby places come from the September 23, 2026 Overture Maps release. The Worker reads bounded byte ranges from Overture’s published global Places PMTiles archive on S3 and decodes vector tiles locally. No Overpass service, account, or maps API key is required. The archive is a dated dataset, not real-time verification of business status.
+Nearby places come from the October 21, 2026 Overture Maps release. Overture deletes each release's tile archive about 60 days after publishing it, so `RELEASE` in `worker/overture.js` must be moved to a newer release (listed at `https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=tiles/&delimiter=/`) before then. The Worker reads bounded byte ranges from Overture’s published global Places PMTiles archive on S3 and decodes vector tiles locally. No Overpass service, account, or maps API key is required. The archive is a dated dataset, not real-time verification of business status.
 
 The API returns four tiles per page to bound Worker memory and subrequests. The browser collects every page, three at a time, and deduplicates GERS IDs before presenting the final count. A missing page produces a visible loading error rather than an incomplete zero-result claim. Permanently closed records and non-store/non-food business categories are excluded. Search radius filtering uses straight-line distance. The server uses bounded in-memory and best-effort edge caches; the browser retains up to four recent areas for seven days and only reuses data covering the requested geography and radius.
 
@@ -41,6 +41,12 @@ Places and ownership facts are separate data layers. Extend the directory with r
 ## Hosting
 
 This repository mirrors the app source. The tracked `.openai/hosting.json` identifies the existing Local Lens Site; it contains no credentials and does not grant deployment access. For a new Site, replace its project ID with the ID assigned to your own Site. The production build is `dist/server/index.js`; a local preview uses `scripts/dev.mjs`. Do not commit tokens, localStorage exports, or private user data. Open source dependency and place-data licenses are retained under `public/vendor/` and in the attribution below.
+
+## GitHub Pages
+
+`npm run pages` builds a static copy of the site in `dist/pages`. GitHub Pages has no `/api/places` route, so that build adds a `local-lens-places` meta tag and bundles `worker/overture.js` as `overture-browser.js`; the map then reads Overture's PMTiles archive directly from the browser (the S3 bucket allows cross-origin range requests). The brand list, firm pages, example snapshot, location search, and Google connection work the same way. The Site build is unchanged and still uses its Worker.
+
+`.github/workflows/pages.yml` runs the tests, builds `dist/pages`, and deploys it on every push to `main` (or from **Actions → Deploy to GitHub Pages → Run workflow**). To turn it on once, open the repository's **Settings → Pages** and set **Source** to **GitHub Actions**. The site is then published at `https://<owner>.github.io/<repository>/`. If you use a Google Maps key there, add that address to the key's website restrictions; the connection page shows the exact value.
 
 ## Attribution
 

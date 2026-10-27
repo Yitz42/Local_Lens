@@ -1,5 +1,7 @@
 import {GOOGLE_KEY_STORAGE,googleKey} from './google-places.js';
 const status=document.querySelector('#connection-status'),disconnect=document.querySelector('#disconnect-google');
+// Show the referrer for wherever this copy is hosted, such as the Site or GitHub Pages.
+const referrer=document.querySelector('#site-referrer');if(referrer&&/^https?:$/.test(location.protocol))referrer.textContent=new URL('./',location.href).href+'*';
 if(googleKey()){status.textContent='A key is saved on this browser. Google checks API access when the map loads.';disconnect.hidden=false;}
 document.querySelector('#google-connection-form').onsubmit=event=>{
  event.preventDefault();const input=document.querySelector('#google-key'),key=input.value.trim();
