@@ -39,7 +39,7 @@ test('Overture records preserve brand, geography, address, category and source',
  assert.equal(categoryForOverture({basic_category:'gas_station'}),'gas');
  assert.equal(categoryForOverture({basic_category:'coffee_shop'}),'coffee');
  assert.equal(categoryForOverture({basic_category:'restaurant'}),'restaurant');
- assert.equal(categoryForOverture({taxonomy:'{"hierarchy":["shopping","clothing_store"]}'}),'other');
+ assert.equal(categoryForOverture({taxonomy:'{"hierarchy":["shopping","clothing_store"]}'}),'apparel');
  assert.equal(categoryForOverture({basic_category:'financial_service'}),null);
  assert.equal(normalizePlace({geometry:{type:'Point',coordinates:[0,0]},properties:{id:'closed','@name':'Old shop',basic_category:'restaurant',operating_status:'permanently_closed'}}),null);
 });

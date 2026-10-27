@@ -1,5 +1,5 @@
 import {ownershipCategories} from '../public/ownership-categories.js';
-import {haveDisjointScopes} from '../public/brand-scope.js';
+import {haveDisjointScopes,PLACE_CATEGORIES} from '../public/brand-scope.js';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 
@@ -23,7 +23,7 @@ export function validateDirectory(data){
    if(brand.type==='independent'||!['self','brand_owner'].includes(listing.relationship)||!listing.company||!listing.sourceTitle||!listing.checked||!/^\d{4}-\d{2}-\d{2}$/.test(listing.checked)||!Number.isFinite(Date.parse(listing.checked))||new URL(listing.source).protocol!=='https:'||listing.securityType!=='equity'||!Array.isArray(listing.exchanges)||!listing.exchanges.length||listing.exchanges.some(item=>typeof item.exchange!=='string'||!item.exchange.trim()||typeof item.ticker!=='string'||!item.ticker.trim()))throw new Error('Invalid public equity listing for '+brand.brand);
   }
   if(!Array.isArray(brand.aliases)||brand.aliases.some(alias=>typeof alias!=='string'||!key(alias)))throw new Error('Invalid aliases for '+brand.brand);
-  if(brand.matchCategories&&(!Array.isArray(brand.matchCategories)||!brand.matchCategories.length||brand.matchCategories.some(category=>!['restaurant','grocery','gas','coffee','other'].includes(category))))throw new Error('Invalid matching category for '+brand.brand);
+  if(brand.matchCategories&&(!Array.isArray(brand.matchCategories)||!brand.matchCategories.length||brand.matchCategories.some(category=>!PLACE_CATEGORIES.includes(category))))throw new Error('Invalid matching category for '+brand.brand);
   if(brand.preservePunctuation!==undefined&&typeof brand.preservePunctuation!=='boolean')throw new Error('Invalid punctuation rule for '+brand.brand);
   if(brand.sponsors&&(!Array.isArray(brand.sponsors)||brand.sponsors.some(sponsor=>typeof sponsor!=='string'||!sponsor.trim())))throw new Error('Invalid sponsors for '+brand.brand);
   if(brand.matchBounds!==undefined&&(!Array.isArray(brand.matchBounds)||!brand.matchBounds.length||brand.matchBounds.some(bounds=>!bounds||!['south','west','north','east'].every(field=>Number.isFinite(bounds[field]))||bounds.south< -90||bounds.north>90||bounds.west< -180||bounds.east>180||bounds.south>=bounds.north||bounds.west>=bounds.east)))throw new Error('Invalid geographic scope for '+brand.brand);

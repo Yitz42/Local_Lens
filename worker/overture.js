@@ -6,7 +6,7 @@ export const RELEASE='2026-09-23.1';
 export const DATA_DATE='2026-09-23T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='food-types-v1';
+export const PLACE_FORMAT='store-categories-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -25,7 +25,11 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(coffee_shop|cafe|cafeteria|tea_house|tea_room|bubble_tea_shop|juice_bar|ice_cream_shop)$/.test(t)))return 'coffee';
  if(terms.some(t=>/^(grocery_store|supermarket|convenience_store|bakery|greengrocer|food_market|specialty_food_store|farmers_market)$/.test(t)))return 'grocery';
  if(terms.some(t=>t==='restaurant'||t==='food_and_drink'||t.includes('restaurant')||t==='fast_food'||t==='food_truck'))return 'restaurant';
- if(terms.some(t=>t==='shopping'||t==='retail'||t==='pharmacy'||t==='drugstore'))return 'other';
+ if(terms.some(t=>/^(pharmacy_and_drug_store|pharmacy|drugstore)$/.test(t)))return 'pharmacy';
+ if(terms.some(t=>/^(hardware_home_and_garden_store|hardware_store|home_improvement_store|building_supply_store|furniture_store|home_goods_store|nursery_and_gardening_store|paint_store)$/.test(t)))return 'home';
+ if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
+ if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
+ if(terms.some(t=>t==='shopping'||t==='retail'))return 'other';
  return null;
 }
 export function distance(a,b){const r=Math.PI/180,dlat=(b.lat-a.lat)*r,dlng=(b.lng-a.lng)*r;const h=Math.sin(dlat/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dlng/2)**2;return 6371000*2*Math.atan2(Math.sqrt(h),Math.sqrt(Math.max(0,1-h)));}

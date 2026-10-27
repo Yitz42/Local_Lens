@@ -11,3 +11,7 @@ export function inUSCoverage(place){return US_COVERAGE.some(bounds=>pointInBound
 export function matchesBrandScope(place,brand){return !brand.matchBounds||brand.matchBounds.some(bounds=>pointInBounds(place,bounds));}
 export function boundsOverlap(a,b){return a.south<=b.north&&a.north>=b.south&&a.west<=b.east&&a.east>=b.west;}
 export function haveDisjointScopes(a,b){return Array.isArray(a.matchBounds)&&a.matchBounds.length>0&&Array.isArray(b.matchBounds)&&b.matchBounds.length>0&&!a.matchBounds.some(one=>b.matchBounds.some(two=>boundsOverlap(one,two)));}
+// Store categories split from More stores. A brand guard of 'other' still covers every retail store category.
+export const PLACE_CATEGORIES=['restaurant','grocery','gas','coffee','pharmacy','home','apparel','general','other'];
+export const RETAIL_CATEGORIES=['pharmacy','home','apparel','general','other'];
+export function matchesBrandCategory(place,brand){return !brand.matchCategories||brand.matchCategories.includes(place.category)||RETAIL_CATEGORIES.includes(place.category)&&brand.matchCategories.includes('other');}
