@@ -146,10 +146,12 @@ test('the How local slider lets locally run franchise and dealer locations of hi
  const {LOCAL_LEVELS,cleanLocalLevel}=await import('../public/ownership-categories.js');
  const places=[p("McDonald's"),p('Shell',{category:'gas'}),p('Olive Garden'),p('Ace Hardware',{category:'other'}),p('Neighborhood Kitchen'),p("McDonald's - Main St")];
  const names=level=>filterPlaces(places,{origin,hidden:['corporate','pe'],matchBrandNames:true,localLevel:level}).map(place=>place.name).sort();
- assert.deepEqual(names(0),['Ace Hardware','Neighborhood Kitchen']);
- assert.deepEqual(names(1),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen']);
- assert.deepEqual(names(2),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen','Shell']);
- assert.ok(!names(2).includes('Olive Garden'));
- assert.deepEqual(filterPlaces(places,{origin,hidden:['unknown'],localLevel:0}).map(place=>place.name).length,4);
- assert.equal(LOCAL_LEVELS.length,3);assert.equal(cleanLocalLevel(7),0);assert.equal(cleanLocalLevel('2'),0);assert.equal(cleanLocalLevel(2),2);
+ assert.deepEqual(names(0),['Neighborhood Kitchen']);
+ assert.deepEqual(names(1),['Ace Hardware','Neighborhood Kitchen']);
+ assert.deepEqual(filterPlaces(places,{origin,hidden:['corporate','pe'],matchBrandNames:true}).map(place=>place.name).sort(),names(1));
+ assert.deepEqual(names(2),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen']);
+ assert.deepEqual(names(3),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen','Shell']);
+ assert.ok(!names(3).includes('Olive Garden'));
+ assert.ok(filterPlaces(places,{origin,hidden:['unknown'],localLevel:0}).some(place=>place.name==='Ace Hardware'),'co-ops are only hidden while chains are hidden');
+ assert.equal(LOCAL_LEVELS.length,4);assert.equal(cleanLocalLevel(7),1);assert.equal(cleanLocalLevel('2'),1);assert.equal(cleanLocalLevel(0),0);
 });

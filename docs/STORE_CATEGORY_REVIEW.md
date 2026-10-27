@@ -73,7 +73,7 @@ Buying inventory from a wholesaler is not treated as money going to a corporate 
 
 ## How local? slider
 
-People choose how strict to be in the Ownership filters panel. *Strict* hides franchise and dealer locations of hidden brands. *Franchises* shows `franchise` locations, and *+ Dealers* also shows `dealer` locations. Company-owned chains, unknown places hidden by the unknown filter, and personal hidden names are unaffected. Automatic brand-name matching follows the same rule, so `McDonald's - Main St` reappears with the franchise step. In the Austin example snapshot, the steps add 14 and then 20 places.
+People choose how strict to be in the Ownership filters panel. *Independent only* also hides `cooperative` and `licensed` member stores. *Locally owned*, the default, includes them because most of their money stays local. *Franchises* shows `franchise` locations of hidden brands, and *+ Dealers* also shows `dealer` locations. The slider only applies while corporate or PE brands are hidden; company-owned chains, the unknown filter, and personal hidden names are unaffected. Automatic brand-name matching follows the same rule, so `McDonald's - Main St` reappears with the franchise step. In the Austin example snapshot, the franchise and dealer steps add 14 and then 20 places.
 
 ## Not added in this pass
 

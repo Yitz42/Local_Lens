@@ -65,7 +65,14 @@ Locally run stores are classified by where most of the money goes. **Franchise**
 
 **Cooperative** networks (Ace Hardware, True Value, Cenex) and **licensed independent** grocers (IGA, Piggly Wiggly) are labeled *Independent / co-op*. The store belongs to the local owner, co-op earnings are paid back to members, and brand fees are small, so most of the money stays local. These are not hidden by the corporate or PE filters and are not caught by automatic brand-name matching. Company-owned exceptions have their own corporate records: Westlake Ace and Great Lakes Ace, Houchens' Price Less IGA and Crossroads IGA, and CHS's Cenex Zip Trip.
 
-A **How local?** slider in the Ownership filters panel lets each person decide how strict to be, depending on what is available where they are. It applies while corporate or PE brands are hidden. *Strict* (the default) hides franchise and dealer locations with the rest of their brand. *Franchises* lets locally owned franchise locations back in, and *+ Dealers* also shows dealer-run locations such as branded gas stations. The panel shows how many places each step adds in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v1`, can be cleared from its filter chip, and never causes another Google request.
+A **How local?** slider in the Ownership filters panel lets each person decide how strict to be, depending on what is available where they are. It applies while corporate or PE brands are hidden:
+
+1. *Independent only* also hides co-op and licensed member stores such as Ace Hardware and IGA.
+2. *Locally owned* (the default) shows independents and co-op member stores but hides franchise and dealer locations with the rest of their brand.
+3. *Franchises* lets locally owned franchise locations back in.
+4. *+ Dealers* also shows dealer-run locations such as branded gas stations.
+
+The panel shows how each step changes the results in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v2`; an earlier `v1` choice moves up one step so it keeps the same meaning. A filter chip appears while the setting is not the default, and clearing it restores the default. Changing the slider never causes another Google request.
 
 The `localOperators` field (`franchise`, `dealer`, `cooperative`, or `licensed`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
 
