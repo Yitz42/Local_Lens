@@ -62,6 +62,22 @@ test('Giant pharmacy departments have a corporate parent across grocery and phar
  for(const name of ['Giant Eagle Pharmacy','Giant Plumbing','Giant Pharmacy Consulting'])assert.equal(ownershipFor(p(name,{...location,category:'other'})).type,'unknown');
  assert.equal(ownershipFor(p('Giant Pharmacy',{category:'other'})).type,'unknown');
 });
+test('separately listed Giant florists and Sherwin-Williams paint stores are corporate in More stores',()=>{
+ const location={lat:40.27,lng:-76.89};
+ for(const name of ['Giant Floral','Giant Floral Department','Giant Food Floral','Giant Food Floral Department','Giant Food Stores Floral']){
+  const place=p(name,{...location,category:'other'}),owner=ownershipFor(place);
+  assert.equal(owner.type,'corporate',name);assert.match(owner.parent,/Ahold Delhaize/);
+  assert.equal(filterPlaces([place],{origin:location,category:'other',hidden:['corporate'],matchBrandNames:false}).length,0);
+ }
+ for(const name of ['Sherwin-Williams','Sherwin-Williams Paint Store','Sherwin Williams Paint Store','Sherwin-Williams Commercial Paint Store']){
+  const place=p(name,{category:'other'}),owner=ownershipFor(place);
+  assert.equal(owner.type,'corporate',name);assert.equal(owner.parent,'The Sherwin-Williams Company');
+  assert.deepEqual(owner.publicListing.exchanges,[{exchange:'NYSE',ticker:'SHW'}]);
+  assert.equal(filterPlaces([place],{origin,category:'other',hidden:['corporate'],matchBrandNames:false}).length,0);
+ }
+ assert.equal(ownershipFor(p('Giant Floral',{category:'other'})).type,'unknown');
+ for(const name of ['Giant Bike Workshop','Giant Plumbing','Neighborhood Paint Dealer'])assert.equal(ownershipFor(p(name,{...location,category:'other'})).type,'unknown');
+});
 test('former pharmacy chains are classified in legacy records without claiming a current listing',()=>{
  const names=['Rite Aid','RiteAid','Rite Aid Pharmacy #1234','Rite Aid Drugstore','Bartell Drugs','Bartell Drug Company','Bartell Drugs Pharmacy #42'];
  for(const category of ['grocery','other'])for(const name of names){

@@ -43,6 +43,16 @@ test('Einstein grocery listings and Giant pharmacy names obey the corporate excl
  }
  assert.equal(excludedBrandNameMatch(p('Einstein Cafe','grocery'),['corporate']),null);
 });
+test('floral and paint-store names stay excluded in More stores without widening the bare Giant rule',()=>{
+ const location={lat:40.27,lng:-76.89};
+ for(const name of ['Giant Floral - Downtown','Giant Food Floral Department - Main Street','Sherwin-Williams Paint Store - Downtown']){
+  const place={...p(name,'other'),...location};
+  assert.ok(excludedBrandNameMatch(place,['corporate']),name);
+  assert.equal(filterPlaces([place],{origin:location,category:'other',hidden:['corporate','pe'],matchBrandNames:true}).length,0);
+ }
+ assert.equal(excludedBrandNameMatch({...p('Giant Bike Workshop','other'),...location},['corporate']),null);
+ assert.equal(excludedBrandNameMatch({...p('Giant Plumbing','other'),...location},['corporate']),null);
+});
 test('automatic name matches preserve category and punctuation guards and skip independent references',()=>{
  assert.equal(excludedBrandNameMatch(p('Apple Pie Kitchen','restaurant'),['corporate']),null);
  assert.equal(excludedBrandNameMatch(p('ACME - Downtown','restaurant'),['corporate']),null);

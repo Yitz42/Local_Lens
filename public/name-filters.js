@@ -1,6 +1,6 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261026-pharmacy2';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261026-stores3';
 import {ownershipCategories} from './ownership-categories.js';
-import {inUSCoverage,matchesBrandScope} from './brand-scope.js?v=20261026-pharmacy2';
+import {inUSCoverage,matchesBrandScope} from './brand-scope.js?v=20261026-stores3';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';
 export const MAX_HIDDEN_NAMES=100;

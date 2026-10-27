@@ -5116,6 +5116,66 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Giant Floral",
+    "aliases": [
+      "Giant Floral Department",
+      "Giant Food Floral",
+      "Giant Food Floral Department",
+      "Giant Food Stores Floral",
+      "GIANT Floral & Garden",
+      "Giant Food Floral & Garden"
+    ],
+    "type": "corporate",
+    "parent": "Ahold Delhaize · Giant Food / The GIANT Company floral departments",
+    "source": "https://aholddelhaize.com/brands/giant-food/",
+    "sourceTitle": "Ahold Delhaize — Giant Food corporate brand",
+    "note": "Giant Food and The GIANT Company offer branded floral departments. This records their common Ahold Delhaize parent when the department is listed separately as a florist or store. The Mid-Atlantic guard distinguishes unrelated Giant-named businesses; it does not identify the precise operating company or owner of an individual listing.",
+    "checked": "2026-10-26",
+    "publicListing": {
+      "company": "Koninklijke Ahold Delhaize N.V.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Euronext Amsterdam",
+          "ticker": "AD"
+        }
+      ],
+      "source": "https://aholddelhaize.com/investors/shareholder-information/",
+      "sourceTitle": "Ahold Delhaize — current ordinary-share listing information",
+      "checked": "2026-10-26"
+    },
+    "matchCategories": [
+      "grocery",
+      "other"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.4,
+        "west": -81,
+        "north": 42.7,
+        "east": -74
+      }
+    ],
+    "discoverySources": [
+      {
+        "title": "Giant Food — current Floral department offering",
+        "url": "https://entertaining.giantfood.com/"
+      },
+      {
+        "title": "GIANT Food Stores — current Floral & Garden department",
+        "url": "https://giantfoodstores.com/groceries/browse-aisles/6477-floral-garden"
+      },
+      {
+        "title": "Ahold Delhaize — The GIANT Company corporate brand",
+        "url": "https://aholddelhaize.com/brands/the-giant-company/"
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Giant Food",
     "aliases": [],
     "type": "corporate",
@@ -10463,6 +10523,38 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Shell — who we are",
     "note": "Shell is a global corporate energy brand. Branded fuel stations may have independent owners and operators.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Sherwin-Williams",
+    "aliases": [
+      "Sherwin-Williams Paint Store",
+      "Sherwin Williams Paint Store",
+      "Sherwin-Williams Commercial Paint Store",
+      "Sherwin-Williams Paints"
+    ],
+    "type": "corporate",
+    "parent": "The Sherwin-Williams Company",
+    "source": "https://investors.sherwin-williams.com/investor-home/",
+    "sourceTitle": "Sherwin-Williams — company-operated stores and current equity listing",
+    "note": "The current company profile identifies its company-operated paint-store network and NYSE-listed common equity. This matches the Sherwin-Williams retail brand and named paint stores; an independent retailer stocking the company’s other product brands is not thereby assigned company ownership.",
+    "checked": "2026-10-26",
+    "publicListing": {
+      "company": "The Sherwin-Williams Company",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "SHW"
+        }
+      ],
+      "source": "https://investors.sherwin-williams.com/investor-home/",
+      "sourceTitle": "Sherwin-Williams — NYSE common equity listing",
+      "checked": "2026-10-26"
+    },
     "categories": [
       "corporate"
     ]

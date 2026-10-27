@@ -1,5 +1,5 @@
 import {ownershipCategories} from './ownership-categories.js?v=20261025-pharmacy1';
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261026-pharmacy2';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261026-stores3';
 import {TYPE_LABELS,searchBrands} from './directory-utils.js';
 const $=selector=>document.querySelector(selector);
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
