@@ -142,3 +142,14 @@ test('the all-brands control combines corporate and PE exclusions while preservi
  assert.deepEqual(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],true)}).map(place=>place.name),['Town Kitchen']);
  assert.equal(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],false)}).length,places.length);
 });
+test('the How local slider lets locally run franchise and dealer locations of hidden brands back in',async()=>{
+ const {LOCAL_LEVELS,cleanLocalLevel}=await import('../public/ownership-categories.js');
+ const places=[p("McDonald's"),p('Shell',{category:'gas'}),p('Olive Garden'),p('Ace Hardware',{category:'other'}),p('Neighborhood Kitchen'),p("McDonald's - Main St")];
+ const names=level=>filterPlaces(places,{origin,hidden:['corporate','pe'],matchBrandNames:true,localLevel:level}).map(place=>place.name).sort();
+ assert.deepEqual(names(0),['Ace Hardware','Neighborhood Kitchen']);
+ assert.deepEqual(names(1),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen']);
+ assert.deepEqual(names(2),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen','Shell']);
+ assert.ok(!names(2).includes('Olive Garden'));
+ assert.deepEqual(filterPlaces(places,{origin,hidden:['unknown'],localLevel:0}).map(place=>place.name).length,4);
+ assert.equal(LOCAL_LEVELS.length,3);assert.equal(cleanLocalLevel(7),0);assert.equal(cleanLocalLevel('2'),0);assert.equal(cleanLocalLevel(2),2);
+});

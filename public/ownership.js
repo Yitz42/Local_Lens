@@ -1,9 +1,9 @@
-import {ownershipCategories} from './ownership-categories.js?v=20261027-local2';
+import {ownershipCategories,allowsLocalOperator} from './ownership-categories.js?v=20261027-local4';
 import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261025-pharmacy1';
-export {ownershipCategories} from './ownership-categories.js?v=20261027-local2';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-local2';
-import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-local2';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-local2';
+export {ownershipCategories} from './ownership-categories.js?v=20261027-local4';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-local4';
+import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-local4';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-local4';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [
@@ -28,4 +28,11 @@ export function ownershipFor(p){
 }
 export function categoryFor(t){if(t.amenity==='fuel')return 'gas';if(['cafe','ice_cream'].includes(t.amenity))return 'coffee';if(['restaurant','fast_food','food_court'].includes(t.amenity))return 'restaurant';if(['supermarket','convenience','greengrocer','bakery','deli'].includes(t.shop))return 'grocery';if(t.amenity==='pharmacy'||['chemist','pharmacy'].includes(t.shop))return 'pharmacy';if(['hardware','doityourself','furniture','garden_centre','houseware','paint','interior_decoration','kitchen','bathroom_furnishing','appliance','flooring','carpet','lighting','bed','trade'].includes(t.shop))return 'home';if(['clothes','shoes','boutique','fashion_accessories','jewelry','bag'].includes(t.shop))return 'apparel';if(['department_store','variety_store','discount','general','wholesale'].includes(t.shop))return 'general';return 'other';}
 export function fromOSM(elements){const out=[],seen=new Set();for(const e of elements){const t=e.tags||{},lat=e.lat??e.center?.lat,lng=e.lon??e.center?.lon;if(!t.name||!Number.isFinite(lat)||!Number.isFinite(lng))continue;const key=normalize(t.name)+':'+lat.toFixed(4)+':'+lng.toFixed(4);if(seen.has(key))continue;seen.add(key);const address=[t['addr:housenumber'],t['addr:street']].filter(Boolean).join(' ');out.push({id:e.type+'/'+e.id,name:t.name,brand:t.brand||'',lat,lng,category:categoryFor(t),address,addressCity:t['addr:city']||'',website:t.website||t['contact:website']||'',cuisine:(t.cuisine||'').replaceAll('_',' '),foodTypes:foodTypesFromTerms(t.cuisine||''),amenity:t.amenity||t.shop||'store'});}return out;}
-export function filterPlaces(places,{category='all',hidden=[],foodTypes=[],hiddenNames=[],matchBrandNames=false,origin,sort='distance',radius=Infinity}){return places.map(p=>({...p,ownership:ownershipFor(p),distance:distance(origin,p)})).filter(p=>(category==='all'||p.category===category)&&matchesFoodTypes(p,foodTypes)&&!hiddenNameMatch(p,hiddenNames)&&(!matchBrandNames||!excludedBrandNameMatch(p,hidden))&&!hidden.some(type=>ownershipCategories(p.ownership).includes(type))&&p.distance<=radius).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):sort==='ownership'?(['independent','unknown','corporate','pe'].indexOf(a.ownership.type)-['independent','unknown','corporate','pe'].indexOf(b.ownership.type)||a.distance-b.distance):a.distance-b.distance);}
+// localLevel lets locally run franchise/dealer locations of a hidden brand through (see LOCAL_LEVELS).
+function ownershipHidden(p,hidden,matchBrandNames,localLevel){
+ if(allowsLocalOperator(localLevel,p.ownership))return false;
+ if(hidden.some(type=>ownershipCategories(p.ownership).includes(type)))return true;
+ if(!matchBrandNames)return false;
+ const match=excludedBrandNameMatch(p,hidden);return !!match&&!allowsLocalOperator(localLevel,match);
+}
+export function filterPlaces(places,{category='all',hidden=[],foodTypes=[],hiddenNames=[],matchBrandNames=false,localLevel=0,origin,sort='distance',radius=Infinity}){return places.map(p=>({...p,ownership:ownershipFor(p),distance:distance(origin,p)})).filter(p=>(category==='all'||p.category===category)&&matchesFoodTypes(p,foodTypes)&&!hiddenNameMatch(p,hiddenNames)&&!ownershipHidden(p,hidden,matchBrandNames,localLevel)&&p.distance<=radius).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):sort==='ownership'?(['independent','unknown','corporate','pe'].indexOf(a.ownership.type)-['independent','unknown','corporate','pe'].indexOf(b.ownership.type)||a.distance-b.distance):a.distance-b.distance);}

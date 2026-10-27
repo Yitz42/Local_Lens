@@ -71,6 +71,10 @@ The optional `localOperators` field marks 147 brands whose US locations are most
 
 Buying inventory from a wholesaler is not treated as money going to a corporate owner, because every independent store does that. Company-owned exceptions are separate corporate records: Westlake Ace and Great Lakes Ace (Ace Retail Holdings, newly split out), Price Less IGA and Crossroads IGA (Houchens), and Cenex Zip Trip (CHS). CHS's listed preferred stock is described in the Cenex note instead of a common-equity listing. Mixed systems such as Panera, Buffalo Wild Wings, Five Guys, La-Z-Boy, and 7-Eleven are not marked, and neither is Chick-fil-A, whose operators run company-owned restaurants.
 
+## How local? slider
+
+People choose how strict to be in the Ownership filters panel. *Strict* hides franchise and dealer locations of hidden brands. *Franchises* shows `franchise` locations, and *+ Dealers* also shows `dealer` locations. Company-owned chains, unknown places hidden by the unknown filter, and personal hidden names are unaffected. Automatic brand-name matching follows the same rule, so `McDonald's - Main St` reappears with the franchise step. In the Austin example snapshot, the steps add 14 and then 20 places.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.
