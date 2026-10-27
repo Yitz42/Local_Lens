@@ -60,14 +60,15 @@ Rooms To Go, Living Spaces, Boscov's, Von Maur, bealls (including Bealls Outlet,
 
 ## Locally run stores and where the money goes
 
-The optional `localOperators` field marks 147 brands whose US locations are mostly run by local owners. The ownership label follows where most of the money goes:
+The optional `localOperators` field marks 177 brands whose US locations are mostly run by local owners. The ownership label follows where most of the money goes:
 
 | Model | Brands | Label | Why |
 | --- | ---: | --- | --- |
-| `franchise` | 119 | Corporate or PE, plus a *Local franchise owner* badge | Royalties (often 4–8% of sales), marketing fees, required supplies, and sometimes rent go to the franchisor. Together these usually exceed the owner's profit. |
-| `dealer` | 23 | Corporate or PE, plus an *Independent dealer* badge | Most sales are the brand's fuel, wireless service, parts, or furniture. |
+| `franchise` | 137 | Corporate or PE, plus a *Local franchise owner* badge | Royalties (often 4–8% of sales), marketing fees, required supplies, and sometimes rent go to the franchisor. Together these usually exceed the owner's profit. |
+| `dealer` | 26 | Corporate or PE, plus an *Independent dealer* badge | Most sales are the brand's fuel, wireless service, parts, or furniture. |
 | `cooperative` | 3 | Independent / co-op (Ace Hardware, True Value, Cenex) | Member-owned. Co-op earnings are returned to the local member stores. |
 | `licensed` | 2 | Independent / co-op (IGA, Piggly Wiggly) | Independently owned grocers pay a small banner fee and keep their profits. |
+| `memberowned` | 9 | Independent / co-op (credit unions) | Owned by member-customers. Earnings return to members through rates and dividends. |
 
 Buying inventory from a wholesaler is not treated as money going to a corporate owner, because every independent store does that. Company-owned exceptions are separate corporate records: Westlake Ace and Great Lakes Ace (Ace Retail Holdings, newly split out), Price Less IGA and Crossroads IGA (Houchens), and Cenex Zip Trip (CHS). CHS's listed preferred stock is described in the Cenex note instead of a common-equity listing. Mixed systems such as Panera, Buffalo Wild Wings, Five Guys, La-Z-Boy, and 7-Eleven are not marked, and neither is Chick-fil-A, whose operators run company-owned restaurants.
 
@@ -106,6 +107,30 @@ Family-, employee-, and regionally owned chains are classified as corporate priv
 
 The How local? slider's *Regional* step, between *Locally owned* and *Franchises*, treats a chain as a local corporation where its headquarters is within 150 miles of the place. It applies only to the 134 records with a `headquarters` field: privately held, US-owned chains whose profits stay with a family, employees, a founder, or members. Examples are H-E-B (San Antonio), Publix (Lakeland), Wegmans (Rochester), Sheetz (Altoona), Wawa, Hy-Vee, Kwik Trip, Weigel's, and Market Basket. Publicly traded companies, PE-backed companies, and foreign-owned chains (such as ALDI, Trader Joe's, Lidl, IKEA, and 7-Eleven) are excluded. When a chain belongs to another private owner, the owner's headquarters is used: Festival Foods (Wisconsin) uses Schnucks in St. Louis, and Enmarket uses Nouria in Worcester. Headquarters coordinates are city centers, which is precise enough for a 150-mile radius. In the Austin example, the step adds two H-E-B-family stores.
 
+## Bars, services, and banks
+
+Five more place categories were added: Bars, Beauty & personal care, Fitness, Auto service, and Banks & credit unions. Butchers, seafood, cheese, and health-food shops moved into Groceries. More stores now has a type menu (electronics, gifts, books and hobbies, beauty supply, sporting goods, liquor, thrift, auto parts, pets, tobacco, office, and everything else).
+
+| Category | Overture taxonomy | OpenStreetMap | Google Places types |
+| --- | --- | --- | --- |
+| Bars | `alcoholic_beverage_venue`, `bar`, `pub`, `lounge`, `brewery` and similar, when no restaurant term is present | `amenity=bar/pub/biergarten/nightclub` | `bar`, `night_club` |
+| Beauty & personal care | `personal_or_beauty_service` and its salon, barber, nail, spa, and tattoo children | `shop=hairdresser/beauty/nails/massage/tattoo` | `beauty_salon`, `hair_care`, `spa` |
+| Fitness | `sport_or_fitness_facility`, `gym`, `fitness_studio` and similar | `leisure=fitness_centre` | `gym` |
+| Auto service | `vehicle_service`, `automotive_service`, `car_wash`, `oil_change`, `tire_repair` and similar | `shop=car_repair/tyres`, `amenity=car_wash` | `car_repair`, `car_wash` |
+| Banks & credit unions | `bank_or_credit_union` and its children | `amenity=bank` | `bank` |
+
+Restaurants that also serve drinks stay restaurants. The Google types were chosen conservatively, and an all-places Google search still makes five requests; the new categories are searched only when selected. All 35 brands guarded to restaurants (such as Hooters, TGI Fridays, and BJ's Restaurant & Brewhouse) also gained the `bar` guard, so a location tagged as a bar still matches, and Midas and NTB gained `auto`.
+
+48 brands were added, bringing the directory to 885 listed brands. Every bank name is guarded to bank listings only, so `Chase` or `Regions` never matches a restaurant.
+
+- **Salons:** Supercuts, Cost Cutters, SmartStyle, and First Choice Haircutters (Regis, Nasdaq RGS, mostly franchised); Great Clips and Sport Clips (franchised); European Wax Center (General Atlantic, PE, franchised).
+- **Fitness:** Planet Fitness (NYSE PLNT, franchised); LA Fitness (privately held Fitness International); Club Pilates, Pure Barre, YogaSix, and StretchLab (Xponential, NYSE XPOF, franchised); Gold's Gym (RSG Group, franchised).
+- **Auto service:** Jiffy Lube (Monomoy, PE, franchised); Valvoline Instant Oil Change (NYSE VVV); Monro (Nasdaq MNRO); Goodyear Auto Service (Nasdaq GT); Christian Brothers Automotive (franchised); Gerber Collision & Glass (Boyd Group); Safelite AutoGlass (Belron, majority-owned by D'Ieteren).
+- **Banks:** Chase, Bank of America, Wells Fargo, Citibank, PNC Bank, FirstBank (now PNC, limited to Colorado and Arizona), U.S. Bank, Truist, Capital One (bank and Capital One Café listings), Fifth Third, Comerica (now Fifth Third), Regions, KeyBank, Huntington, Cadence Bank (now Huntington, limited to the South), Citizens Bank (limited to its own footprint, since many community banks share the name), M&T Bank, and TD Bank.
+- **Credit unions:** Navy Federal, State Employees' (North Carolina), PenFed, BECU (Washington), SchoolsFirst, Golden 1 (California), America First, Mountain America, and Suncoast (Florida). They use the new `memberowned` model and are labeled independent / co-op. *Independent only* hides them with co-ops.
+
+Ownership of Christian Brothers Automotive and any outside stake in Safelite were not confirmed beyond their franchisor and parent. BMO and Santander, whose US banks belong to foreign parents, were not added in this pass.
+
 ## Not added in this pass
 
-Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.
+Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

@@ -2451,7 +2451,15 @@ export const FIRM_CATALOG = {
           "note": "Online boat marketplace group listed with a 2026 investment."
         }
       ],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "European Wax Center",
+          "parent": "European Wax Center · General Atlantic",
+          "type": "pe",
+          "source": "https://www.privsource.com/acquisitions/deal/general-atlantic-to-acquire-european-wax-center-take-private-D8S4Xk",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Genstar Capital",

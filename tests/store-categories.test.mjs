@@ -64,3 +64,14 @@ test('bars, services, and banks have their own categories and More stores has su
  assert.equal(filterPlaces(places,{origin,category:'other'}).length,3);
  assert.equal(ownershipFor(p('Hooters','bar')).type,'corporate');assert.equal(ownershipFor(p('Midas','auto')).type,'corporate');
 });
+test('bank names only match bank listings and credit unions are member-owned independents',()=>{
+ assert.equal(ownershipFor(p('Chase','bank')).type,'corporate');assert.equal(ownershipFor(p('Chase','restaurant')).type,'unknown');
+ assert.equal(ownershipFor(p('Citizens Bank','bank')).type,'unknown','Citizens is limited to its own footprint');
+ assert.equal(ownershipFor({...p('Citizens Bank','bank'),lat:42.36,lng:-71.06}).type,'corporate');
+ const navy=ownershipFor(p('Navy Federal Credit Union','bank'));assert.equal(navy.type,'independent');assert.equal(navy.localOperators,'memberowned');
+ assert.equal(ownershipFor(p('Great Clips','beauty')).localOperators,'franchise');assert.equal(ownershipFor(p('Planet Fitness','fitness')).type,'corporate');assert.equal(ownershipFor(p('Jiffy Lube','auto')).type,'pe');
+ const places=[p('Navy Federal Credit Union','bank'),p('Chase','bank'),p('Hometown Bank','bank')];
+ const names=localLevel=>filterPlaces(places,{origin,category:'bank',hidden:['corporate','pe'],matchBrandNames:true,localLevel}).map(x=>x.name).sort();
+ assert.deepEqual(names(1),['Hometown Bank','Navy Federal Credit Union']);
+ assert.deepEqual(names(0),['Hometown Bank'],'Independent only hides credit unions');
+});

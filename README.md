@@ -57,17 +57,17 @@ Corporate includes any reviewed operating company with equity listed on a stock 
 
 ## Store categories
 
-The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 211 large national and regional restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
+The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 211 large national and regional restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. Bars, Beauty & personal care, Fitness, Auto service, and Banks & credit unions also have their own buttons, and butchers, seafood, cheese, and health-food shops count as Groceries. When More stores is selected, a type menu narrows it to electronics, gifts, books and hobbies, beauty supply, sporting goods, liquor, thrift, auto parts, pets, tobacco, or office stores. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
 
 ## Where the money goes
 
 Locally run stores are classified by where most of the money goes. **Franchise** brands (such as McDonald's, Subway, and Dunkin') and **dealer** brands (fuel brands, NAPA Auto Parts, prepaid wireless dealers, and Ashley's licensed stores) keep their corporate or PE label. A local owner runs the store, but royalties, marketing fees, required supplies, fuel or service sales, and often rent flow mainly to the brand owner. These brands show a *Local franchise owner* or *Independent dealer* badge, and the corporate and PE filters still hide them.
 
-**Cooperative** networks (Ace Hardware, True Value, Cenex) and **licensed independent** grocers (IGA, Piggly Wiggly) are labeled *Independent / co-op*. The store belongs to the local owner, co-op earnings are paid back to members, and brand fees are small, so most of the money stays local. These are not hidden by the corporate or PE filters and are not caught by automatic brand-name matching. Company-owned exceptions have their own corporate records: Westlake Ace and Great Lakes Ace, Houchens' Price Less IGA and Crossroads IGA, and CHS's Cenex Zip Trip.
+**Cooperative** networks (Ace Hardware, True Value, Cenex) and **licensed independent** grocers (IGA, Piggly Wiggly) and **member-owned** credit unions (such as Navy Federal and BECU) are labeled *Independent / co-op*. The store belongs to the local owner, co-op earnings are paid back to members, and brand fees are small, so most of the money stays local. These are not hidden by the corporate or PE filters and are not caught by automatic brand-name matching. Company-owned exceptions have their own corporate records: Westlake Ace and Great Lakes Ace, Houchens' Price Less IGA and Crossroads IGA, and CHS's Cenex Zip Trip.
 
 A **How local?** slider in the Ownership filters panel lets each person decide how strict to be, depending on what is available where they are. It applies while corporate or PE brands are hidden:
 
-1. *Independent only* also hides co-op and licensed member stores such as Ace Hardware and IGA.
+1. *Independent only* also hides co-op, licensed, and member-owned stores such as Ace Hardware, IGA, and credit unions.
 2. *Locally owned* (the default) shows independents and co-op member stores but hides franchise and dealer locations with the rest of their brand.
 3. *Regional* also shows **local corporations**: privately held, US-owned chains (family, employee, founder, or co-op owned) whose headquarters is within 150 miles of that place. An H-E-B in Austin qualifies (San Antonio headquarters); one in Dallas does not.
 4. *Franchises* lets locally owned franchise locations back in.
@@ -77,7 +77,7 @@ Headquarters are recorded in the optional `headquarters` field (city, state, and
 
 The panel shows how each step changes the results in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v3`; choices saved by earlier versions are mapped to the step with the same meaning. A filter chip appears while the setting is not the default, and clearing it restores the default. Changing the slider never causes another Google request.
 
-The `localOperators` field (`franchise`, `dealer`, `cooperative`, or `licensed`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
+The `localOperators` field (`franchise`, `dealer`, `cooperative`, `licensed`, or `memberowned`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
 
 ## Default ownership and food filters
 

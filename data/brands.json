@@ -17102,6 +17102,1337 @@
         "lat": 30.27,
         "lng": -97.74
       }
+    },
+    {
+      "brand": "Supercuts",
+      "aliases": [
+        "Super Cuts"
+      ],
+      "type": "corporate",
+      "parent": "Regis Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+      "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+      "note": "Supercuts is Regis Corporation's largest salon brand. Most locations are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Supercuts",
+      "publicListing": {
+        "company": "Regis Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "RGS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+        "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Cost Cutters",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Regis Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+      "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+      "note": "Cost Cutters is a Regis salon brand. Most locations are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Cost%20Cutters",
+      "publicListing": {
+        "company": "Regis Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "RGS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+        "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "SmartStyle",
+      "aliases": [
+        "SmartStyle Hair Salon",
+        "Smart Style"
+      ],
+      "type": "corporate",
+      "parent": "Regis Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+      "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+      "note": "SmartStyle salons, mostly inside Walmart stores, are a Regis brand. Most locations are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=SmartStyle",
+      "publicListing": {
+        "company": "Regis Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "RGS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+        "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "First Choice Haircutters",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Regis Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+      "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+      "note": "First Choice Haircutters is a Regis salon brand. Most locations are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=First%20Choice%20Haircutters",
+      "publicListing": {
+        "company": "Regis Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "RGS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000716643/000071664326000031/rgs-20260630.htm",
+        "sourceTitle": "Regis Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Great Clips",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Great Clips, Inc. (privately held franchisor)",
+      "source": "https://www.komen.org/how-to-help/support-our-partners/great-clips/",
+      "sourceTitle": "Susan G. Komen — Great Clips, a 100% franchised salon brand",
+      "note": "Great Clips has about 4,400 salons, all owned by nearly 600 local franchisees.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Great%20Clips",
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Sport Clips",
+      "aliases": [
+        "Sport Clips Haircuts"
+      ],
+      "type": "corporate",
+      "parent": "Sport Clips, Inc. (privately held, Logan family)",
+      "source": "https://sportclips.com/about-us/press-box/press-releases/2026/07/sport-clips-haircuts-on-pace-for-significant-unit-expansion-by-end-of-2026",
+      "sourceTitle": "Sport Clips — 2026 unit expansion release",
+      "note": "Sport Clips is a privately held, family-led franchisor with about 1,800 shops.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sport%20Clips",
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "European Wax Center",
+      "aliases": [],
+      "type": "pe",
+      "parent": "European Wax Center · General Atlantic",
+      "source": "https://www.privsource.com/acquisitions/deal/general-atlantic-to-acquire-european-wax-center-take-private-D8S4Xk",
+      "sourceTitle": "PrivSource — General Atlantic takes European Wax Center private",
+      "note": "General Atlantic completed its take-private of European Wax Center in May 2026; the stock left Nasdaq. Most locations are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=European%20Wax%20Center",
+      "matchCategories": [
+        "beauty"
+      ],
+      "localOperators": "franchise",
+      "sponsors": [
+        "General Atlantic"
+      ]
+    },
+    {
+      "brand": "Planet Fitness",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Planet Fitness, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1637207/000163720726000011/plnt-20251231.htm",
+      "sourceTitle": "Planet Fitness — 2025 Form 10-K",
+      "note": "Franchisee-owned clubs produced $4.7 billion of Planet Fitness's $5.3 billion 2025 system-wide sales; the rest are corporate-owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Planet%20Fitness",
+      "publicListing": {
+        "company": "Planet Fitness, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "PLNT"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1637207/000163720726000011/plnt-20251231.htm",
+        "sourceTitle": "Planet Fitness — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "fitness"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "LA Fitness",
+      "aliases": [
+        "L.A. Fitness",
+        "Esporta Fitness",
+        "City Sports Club",
+        "Club Studio"
+      ],
+      "type": "corporate",
+      "parent": "Fitness International, LLC (privately held)",
+      "source": "https://www.ocbj.com/retail/xponential-brand-inks-deal-bring-brands-la-fitness/",
+      "sourceTitle": "Orange County Business Journal — Fitness International, owner of LA Fitness",
+      "note": "Fitness International, the privately held, founder-controlled owner of LA Fitness, Esporta Fitness, City Sports Club, and Club Studio, runs more than 700 clubs.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=LA%20Fitness",
+      "matchCategories": [
+        "fitness"
+      ],
+      "headquarters": {
+        "city": "Irvine",
+        "state": "CA",
+        "lat": 33.68,
+        "lng": -117.83
+      }
+    },
+    {
+      "brand": "Club Pilates",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Xponential Fitness, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+      "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+      "note": "Club Pilates is Xponential's largest franchised brand, with more than 1,400 studios.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Club%20Pilates",
+      "publicListing": {
+        "company": "Xponential Fitness, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "XPOF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+        "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "fitness"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Pure Barre",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Xponential Fitness, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+      "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+      "note": "Pure Barre is an Xponential Fitness franchised studio brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Pure%20Barre",
+      "publicListing": {
+        "company": "Xponential Fitness, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "XPOF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+        "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "fitness"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "YogaSix",
+      "aliases": [
+        "Yoga Six"
+      ],
+      "type": "corporate",
+      "parent": "Xponential Fitness, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+      "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+      "note": "YogaSix is an Xponential Fitness franchised studio brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=YogaSix",
+      "publicListing": {
+        "company": "Xponential Fitness, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "XPOF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+        "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "fitness"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "StretchLab",
+      "aliases": [
+        "Stretch Lab"
+      ],
+      "type": "corporate",
+      "parent": "Xponential Fitness, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+      "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+      "note": "StretchLab is an Xponential Fitness franchised studio brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=StretchLab",
+      "publicListing": {
+        "company": "Xponential Fitness, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "XPOF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1802156/000180215626000016/xpof-20251231.htm",
+        "sourceTitle": "Xponential Fitness — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "fitness",
+        "beauty"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Gold's Gym",
+      "aliases": [
+        "Golds Gym"
+      ],
+      "type": "corporate",
+      "parent": "RSG Group GmbH (privately held)",
+      "source": "https://athletechnews.com/rsg-group-set-to-acquire-golds-gym/",
+      "sourceTitle": "Athletech News — RSG Group acquires Gold's Gym",
+      "note": "Germany's privately held RSG Group bought Gold's Gym out of bankruptcy in 2020; most US gyms are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Gold%27s%20Gym",
+      "matchCategories": [
+        "fitness"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Jiffy Lube",
+      "aliases": [
+        "Jiffy Lube Multicare"
+      ],
+      "type": "pe",
+      "parent": "Jiffy Lube International · Monomoy Capital Partners",
+      "source": "https://www.morningstar.com/news/business-wire/20260701536508/monomoy-capital-partners-completes-acquisition-of-jiffy-lube-from-shell",
+      "sourceTitle": "Business Wire — Monomoy Capital Partners completes acquisition of Jiffy Lube from Shell (2026)",
+      "note": "Private equity firm Monomoy bought Jiffy Lube from Shell in 2026; most of its 2,000+ service centers are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Jiffy%20Lube",
+      "matchCategories": [
+        "auto"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Valvoline Instant Oil Change",
+      "aliases": [
+        "Valvoline",
+        "Valvoline Express Care",
+        "Great Canadian Oil Change"
+      ],
+      "type": "corporate",
+      "parent": "Valvoline Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1674910/000167491025000135/vvv-20250930.htm",
+      "sourceTitle": "Valvoline Inc. — fiscal 2025 Form 10-K",
+      "note": "Valvoline Inc. had 1,016 company-operated and 1,164 franchised stores at the end of fiscal 2025. Shops selling Valvoline oil are not thereby owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Valvoline%20Instant%20Oil%20Change",
+      "publicListing": {
+        "company": "Valvoline Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "VVV"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1674910/000167491025000135/vvv-20250930.htm",
+        "sourceTitle": "Valvoline Inc. — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "auto"
+      ]
+    },
+    {
+      "brand": "Monro Auto Service and Tire Centers",
+      "aliases": [
+        "Monro",
+        "Monro Muffler Brake",
+        "Mr. Tire",
+        "Tire Choice",
+        "Car-X"
+      ],
+      "type": "corporate",
+      "parent": "Monro, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000876427/000087642726000007/mnro-20260328x10k.htm",
+      "sourceTitle": "Monro — Form 10-K for fiscal 2026",
+      "note": "Monro operates about 1,100 company stores under Monro, Mr. Tire, Tire Choice, and other names, plus Car-X franchises.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Monro%20Auto%20Service%20and%20Tire%20Centers",
+      "publicListing": {
+        "company": "Monro, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "MNRO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000876427/000087642726000007/mnro-20260328x10k.htm",
+        "sourceTitle": "Monro — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "auto",
+        "other"
+      ]
+    },
+    {
+      "brand": "Goodyear Auto Service",
+      "aliases": [
+        "Goodyear Auto Service Center"
+      ],
+      "type": "corporate",
+      "parent": "The Goodyear Tire & Rubber Company",
+      "source": "https://www.goodyear.com/en-us/shops/OH/Stow/Goodyear-Auto-Service-Stow-000900537",
+      "sourceTitle": "Goodyear — company-owned Goodyear Auto Service store",
+      "note": "Goodyear operates company-owned Goodyear Auto Service stores. Independent dealers that sell Goodyear tires are not matched.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Goodyear%20Auto%20Service",
+      "publicListing": {
+        "company": "The Goodyear Tire & Rubber Company",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "GT"
+          }
+        ],
+        "source": "https://www.goodyear.com/en-us/shops/OH/Stow/Goodyear-Auto-Service-Stow-000900537",
+        "sourceTitle": "Goodyear — company stores (Nasdaq: GT)",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "auto",
+        "other"
+      ]
+    },
+    {
+      "brand": "Christian Brothers Automotive",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Christian Brothers Automotive Corporation (franchisor)",
+      "source": "https://www.franchise.org/2026/03/christian-brothers-automotive-accelerates-franchise-development-with-new-markets-identified-for-2026-growth/",
+      "sourceTitle": "International Franchise Association — Christian Brothers Automotive 2026 growth",
+      "note": "Christian Brothers Automotive is an auto repair franchise with about 340 locally owned shops.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Christian%20Brothers%20Automotive",
+      "matchCategories": [
+        "auto"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Gerber Collision & Glass",
+      "aliases": [
+        "Gerber Collision"
+      ],
+      "type": "corporate",
+      "parent": "Boyd Group Services Inc.",
+      "source": "https://www.barchart.com/story/news/36937552/boyd-group-services-inc-announces-regulatory-approval-of-the-joe-hudson-s-collision-center-acquisition-closing-expected-on-january-9-2026",
+      "sourceTitle": "Boyd Group Services — Joe Hudson's Collision Center acquisition approved (2026)",
+      "note": "Gerber Collision & Glass is the US banner of Boyd Group Services, which added Joe Hudson's Collision Center in 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Gerber%20Collision%20%26%20Glass",
+      "publicListing": {
+        "company": "Boyd Group Services Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Toronto Stock Exchange",
+            "ticker": "BYD"
+          },
+          {
+            "exchange": "NYSE",
+            "ticker": "BGSI"
+          }
+        ],
+        "source": "https://www.barchart.com/story/news/36937552/boyd-group-services-inc-announces-regulatory-approval-of-the-joe-hudson-s-collision-center-acquisition-closing-expected-on-january-9-2026",
+        "sourceTitle": "Boyd Group Services — TSX: BYD, NYSE: BGSI",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "auto"
+      ]
+    },
+    {
+      "brand": "Safelite AutoGlass",
+      "aliases": [
+        "Safelite"
+      ],
+      "type": "corporate",
+      "parent": "Belron · D'Ieteren Group",
+      "source": "https://www.aftermarketnews.com/safelite-group-acquires-cop-truroad-businesses/",
+      "sourceTitle": "Aftermarket News — Safelite Group (Belron) acquisitions",
+      "note": "Safelite is the US arm of Belron, controlled by Belgium's D'Ieteren Group; financial investors hold minority stakes in Belron.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Safelite%20AutoGlass",
+      "matchCategories": [
+        "auto"
+      ]
+    },
+    {
+      "brand": "Chase",
+      "aliases": [
+        "Chase Bank",
+        "JPMorgan Chase Bank"
+      ],
+      "type": "corporate",
+      "parent": "JPMorgan Chase & Co.",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+      "sourceTitle": "JPMorgan Chase — 2025 Form 10-K",
+      "note": "JPMorgan Chase operated 5,083 Chase branches at the end of 2025. The bare name only matches bank listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Chase",
+      "publicListing": {
+        "company": "JPMorgan Chase & Co.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "JPM"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+        "sourceTitle": "JPMorgan Chase — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Bank of America",
+      "aliases": [
+        "Bank of America Financial Center",
+        "BofA"
+      ],
+      "type": "corporate",
+      "parent": "Bank of America Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+      "sourceTitle": "Bank of America — 2025 Form 10-K",
+      "note": "Bank of America operates about 3,600 financial centers in 38 states and D.C.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Bank%20of%20America",
+      "publicListing": {
+        "company": "Bank of America Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BAC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+        "sourceTitle": "Bank of America — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Wells Fargo",
+      "aliases": [
+        "Wells Fargo Bank"
+      ],
+      "type": "corporate",
+      "parent": "Wells Fargo & Company",
+      "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm",
+      "sourceTitle": "Wells Fargo — 2025 Form 10-K",
+      "note": "Wells Fargo operates one of the largest US branch networks.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Wells%20Fargo",
+      "publicListing": {
+        "company": "Wells Fargo & Company",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "WFC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm",
+        "sourceTitle": "Wells Fargo — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Citibank",
+      "aliases": [
+        "Citi",
+        "Citibank Branch"
+      ],
+      "type": "corporate",
+      "parent": "Citigroup Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+      "sourceTitle": "Citigroup — 2025 Form 10-K",
+      "note": "Citi had 655 US retail branches in six metro areas at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Citibank",
+      "publicListing": {
+        "company": "Citigroup Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "C"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+        "sourceTitle": "Citigroup — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "PNC Bank",
+      "aliases": [
+        "PNC"
+      ],
+      "type": "corporate",
+      "parent": "The PNC Financial Services Group, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+      "sourceTitle": "PNC — 2025 Form 10-K",
+      "note": "PNC Bank is the bank of PNC Financial Services, which acquired FirstBank in January 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PNC%20Bank",
+      "publicListing": {
+        "company": "The PNC Financial Services Group, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "PNC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+        "sourceTitle": "PNC — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "FirstBank (PNC)",
+      "aliases": [
+        "FirstBank"
+      ],
+      "type": "corporate",
+      "parent": "The PNC Financial Services Group, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+      "sourceTitle": "PNC — 2025 Form 10-K (FirstBank acquisition)",
+      "note": "PNC completed its acquisition of Colorado-based FirstBank on January 5, 2026, and is converting its branches. The name is limited to Colorado and Arizona because unrelated banks use it elsewhere.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=FirstBank%20%28PNC%29",
+      "publicListing": {
+        "company": "The PNC Financial Services Group, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "PNC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm",
+        "sourceTitle": "PNC — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 36.9,
+          "west": -115.0,
+          "north": 41.1,
+          "east": -102.0
+        },
+        {
+          "south": 31.3,
+          "west": -114.9,
+          "north": 37.0,
+          "east": -109.0
+        }
+      ]
+    },
+    {
+      "brand": "U.S. Bank",
+      "aliases": [
+        "US Bank",
+        "U.S. Bank Branch"
+      ],
+      "type": "corporate",
+      "parent": "U.S. Bancorp",
+      "source": "https://www.usbank.com/about-us-bank/annual-report/2025/index/stories/about-us.html",
+      "sourceTitle": "U.S. Bancorp — 2025 annual report",
+      "note": "U.S. Bank is the fifth-largest US commercial bank, with branches mainly in the Midwest and West.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=U.S.%20Bank",
+      "publicListing": {
+        "company": "U.S. Bancorp",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "USB"
+          }
+        ],
+        "source": "https://www.usbank.com/about-us-bank/annual-report/2025/index/stories/about-us.html",
+        "sourceTitle": "U.S. Bancorp — 2025 annual report",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Truist",
+      "aliases": [
+        "Truist Bank"
+      ],
+      "type": "corporate",
+      "parent": "Truist Financial Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm",
+      "sourceTitle": "Truist — 2025 Form 10-K",
+      "note": "Truist Bank operated 1,927 branches at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Truist",
+      "publicListing": {
+        "company": "Truist Financial Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "TFC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm",
+        "sourceTitle": "Truist — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Capital One",
+      "aliases": [
+        "Capital One Bank",
+        "Capital One Café",
+        "Capital One Cafe"
+      ],
+      "type": "corporate",
+      "parent": "Capital One Financial Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "sourceTitle": "Capital One — 2025 Form 10-K",
+      "note": "Capital One operates bank branches and Capital One Cafés and acquired Discover in May 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Capital%20One",
+      "publicListing": {
+        "company": "Capital One Financial Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+        "sourceTitle": "Capital One — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank",
+        "coffee"
+      ]
+    },
+    {
+      "brand": "Fifth Third Bank",
+      "aliases": [
+        "Fifth Third",
+        "5/3 Bank"
+      ],
+      "type": "corporate",
+      "parent": "Fifth Third Bancorp",
+      "source": "https://www.sec.gov/Archives/edgar/data/35527/000119312526032625/d642888dex991.htm",
+      "sourceTitle": "Fifth Third — completed merger with Comerica (SEC 8-K, February 2026)",
+      "note": "Fifth Third completed its merger with Comerica on February 2, 2026, becoming the ninth-largest US bank.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Fifth%20Third%20Bank",
+      "publicListing": {
+        "company": "Fifth Third Bancorp",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "FITB"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/35527/000119312526032625/d642888dex991.htm",
+        "sourceTitle": "Fifth Third — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Comerica",
+      "aliases": [
+        "Comerica Bank"
+      ],
+      "type": "corporate",
+      "parent": "Fifth Third Bancorp (merged February 2026)",
+      "source": "https://www.sec.gov/Archives/edgar/data/35527/000119312526032625/d642888dex991.htm",
+      "sourceTitle": "Fifth Third — completed merger with Comerica (SEC 8-K, February 2026)",
+      "note": "Comerica merged into Fifth Third on February 2, 2026; Comerica listings may persist during branch conversion.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Comerica",
+      "publicListing": {
+        "company": "Fifth Third Bancorp",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "FITB"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/35527/000119312526032625/d642888dex991.htm",
+        "sourceTitle": "Fifth Third — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Regions Bank",
+      "aliases": [
+        "Regions"
+      ],
+      "type": "corporate",
+      "parent": "Regions Financial Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm",
+      "sourceTitle": "Regions Financial — 2025 Form 10-K",
+      "note": "Regions operated 1,247 branches, mainly in the South, Midwest, and Texas, at the end of 2025. The bare word only matches bank listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Regions%20Bank",
+      "publicListing": {
+        "company": "Regions Financial Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "RF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm",
+        "sourceTitle": "Regions Financial — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "KeyBank",
+      "aliases": [
+        "Key Bank"
+      ],
+      "type": "corporate",
+      "parent": "KeyCorp",
+      "source": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+      "sourceTitle": "KeyCorp — 2025 Form 10-K",
+      "note": "KeyBank operated 940 branches in 15 states at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=KeyBank",
+      "publicListing": {
+        "company": "KeyCorp",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "KEY"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+        "sourceTitle": "KeyCorp — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Huntington Bank",
+      "aliases": [
+        "Huntington National Bank",
+        "The Huntington National Bank",
+        "Huntington"
+      ],
+      "type": "corporate",
+      "parent": "Huntington Bancshares Incorporated",
+      "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+      "sourceTitle": "Huntington Bancshares — 2025 Form 10-K",
+      "note": "Huntington merged Veritex in 2025 and Cadence Bank in February 2026, for nearly 1,400 branches in 21 states. The bare name only matches bank listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Huntington%20Bank",
+      "publicListing": {
+        "company": "Huntington Bancshares Incorporated",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "HBAN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+        "sourceTitle": "Huntington Bancshares — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Cadence Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Huntington Bancshares Incorporated (merged February 2026)",
+      "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+      "sourceTitle": "Huntington Bancshares — 2025 Form 10-K (Cadence merger)",
+      "note": "Cadence Bank merged into Huntington National Bank on February 1, 2026; listings may persist during conversion. The name is limited to Cadence's Southern footprint.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Cadence%20Bank",
+      "publicListing": {
+        "company": "Huntington Bancshares Incorporated",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "HBAN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+        "sourceTitle": "Huntington Bancshares — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 25.8,
+          "west": -106.7,
+          "north": 37.0,
+          "east": -80.8
+        }
+      ]
+    },
+    {
+      "brand": "Citizens Bank",
+      "aliases": [
+        "Citizens"
+      ],
+      "type": "corporate",
+      "parent": "Citizens Financial Group, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+      "sourceTitle": "Citizens Financial Group — 2025 Form 10-K",
+      "note": "Citizens operates more than 1,000 branches in 14 states and D.C. Many unrelated community banks share the name, so it is limited to Citizens' Northeast, Mid-Atlantic, and Midwest footprint.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Citizens%20Bank",
+      "publicListing": {
+        "company": "Citizens Financial Group, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CFG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+        "sourceTitle": "Citizens Financial Group — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 38.0,
+          "west": -84.9,
+          "north": 47.5,
+          "east": -66.9
+        }
+      ]
+    },
+    {
+      "brand": "M&T Bank",
+      "aliases": [
+        "M & T Bank",
+        "M&T"
+      ],
+      "type": "corporate",
+      "parent": "M&T Bank Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm",
+      "sourceTitle": "M&T Bank — 2025 Form 10-K",
+      "note": "M&T Bank had 942 banking offices, mainly in the Northeast and Mid-Atlantic, at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=M%26T%20Bank",
+      "publicListing": {
+        "company": "M&T Bank Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "MTB"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm",
+        "sourceTitle": "M&T Bank — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "TD Bank",
+      "aliases": [
+        "TD Bank America's Most Convenient Bank"
+      ],
+      "type": "corporate",
+      "parent": "The Toronto-Dominion Bank",
+      "source": "https://td.mediaroom.com/index.php?item=35476",
+      "sourceTitle": "TD Bank Group newsroom",
+      "note": "TD Bank is the US retail bank of Canada's Toronto-Dominion Bank, with about 1,100 East Coast branches.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=TD%20Bank",
+      "publicListing": {
+        "company": "The Toronto-Dominion Bank",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "TD"
+          },
+          {
+            "exchange": "Toronto Stock Exchange",
+            "ticker": "TD"
+          }
+        ],
+        "source": "https://td.mediaroom.com/index.php?item=35476",
+        "sourceTitle": "TD Bank Group — NYSE and TSX: TD",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "bank"
+      ]
+    },
+    {
+      "brand": "Navy Federal Credit Union",
+      "aliases": [
+        "Navy Federal"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Vienna, Virginia",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "Navy Federal is the largest US credit union, serving military members, veterans, and their families. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Navy%20Federal%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "State Employees' Credit Union",
+      "aliases": [
+        "SECU",
+        "State Employees Credit Union"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Raleigh, North Carolina",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "SECU serves North Carolina's state employees and their families. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=State%20Employees%27%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 33.8,
+          "west": -84.4,
+          "north": 36.6,
+          "east": -75.4
+        }
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "PenFed Credit Union",
+      "aliases": [
+        "PenFed",
+        "Pentagon Federal Credit Union"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · McLean, Virginia",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "PenFed is one of the largest US credit unions. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PenFed%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "BECU",
+      "aliases": [
+        "Boeing Employees' Credit Union",
+        "Boeing Employees Credit Union"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Tukwila, Washington",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "BECU is Washington's largest credit union. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=BECU",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 45.5,
+          "west": -124.8,
+          "north": 49.0,
+          "east": -116.9
+        }
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "SchoolsFirst Federal Credit Union",
+      "aliases": [
+        "SchoolsFirst FCU",
+        "SchoolsFirst"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Tustin, California",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "SchoolsFirst serves California school employees and their families. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=SchoolsFirst%20Federal%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "Golden 1 Credit Union",
+      "aliases": [
+        "Golden 1"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Sacramento, California",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "Golden 1 is one of California's largest credit unions. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Golden%201%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 32.5,
+          "west": -124.5,
+          "north": 42.0,
+          "east": -114.1
+        }
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "America First Credit Union",
+      "aliases": [
+        "America First"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Riverdale, Utah",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "America First serves members in Utah, Nevada, Idaho, Arizona, and New Mexico. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=America%20First%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 31.3,
+          "west": -120.0,
+          "north": 44.5,
+          "east": -103.0
+        }
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "Mountain America Credit Union",
+      "aliases": [
+        "Mountain America"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Sandy, Utah",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "Mountain America is a large Western credit union. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Mountain%20America%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 31.3,
+          "west": -120.0,
+          "north": 45.0,
+          "east": -103.0
+        }
+      ],
+      "localOperators": "memberowned"
+    },
+    {
+      "brand": "Suncoast Credit Union",
+      "aliases": [
+        "Suncoast"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Tampa, Florida",
+      "source": "https://wtop.com/news/2026/06/20-largest-credit-unions-in-america/",
+      "sourceTitle": "WTOP — the 20 largest credit unions in America (2026)",
+      "note": "Suncoast is Florida's largest credit union. Credit unions are owned by their members, so it is labeled independent / co-op.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Suncoast%20Credit%20Union",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchBounds": [
+        {
+          "south": 24.4,
+          "west": -87.6,
+          "north": 31.0,
+          "east": -79.9
+        }
+      ],
+      "localOperators": "memberowned"
     }
   ]
 }

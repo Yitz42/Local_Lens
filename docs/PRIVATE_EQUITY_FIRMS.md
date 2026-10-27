@@ -306,6 +306,8 @@ Selected companies from the official current-investments view. General Atlantic 
 | Brevo | current portfolio investment | [General Atlantic — Current Investments](https://www.generalatlantic.com/investments/?type=current) | Customer relationship management platform listed with a 2025 investment. | 2026-10-16 |
 | Boats Group | current portfolio investment | [General Atlantic — Current Investments](https://www.generalatlantic.com/investments/?type=current) | Online boat marketplace group listed with a 2026 investment. | 2026-10-16 |
 
+Brands in Local Lens: European Wax Center.
+
 ## Golden Gate Capital
 
 Review: 2026-10-16 · Partial evidence · [Portfolio / source](https://goldengatecap.com/portfolio/)

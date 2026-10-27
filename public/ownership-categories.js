@@ -7,14 +7,15 @@ export const LOCAL_OPERATORS={
  franchise:{label:'Local franchise owner',note:'Most locations are owned by local franchisees, but royalties, marketing fees, required supplies, and often rent go to the brand owner, so it stays labeled by its corporate owner.'},
  dealer:{label:'Independent dealer',note:'Most locations are owned by independent dealers or station owners, but most sales go to the brand for fuel, service, or merchandise, so it stays labeled by its corporate owner.'},
  cooperative:{label:'Co-op member store',note:'Stores are owned by local members of a cooperative that returns its earnings to members, so most of the money stays local.'},
- licensed:{label:'Independent licensee',note:'Stores are independently owned grocers paying a small fee to use the banner, so most of the money stays local.'}
+ licensed:{label:'Independent licensee',note:'Stores are independently owned grocers paying a small fee to use the banner, so most of the money stays local.'},
+ memberowned:{label:'Member-owned',note:'Owned by its member-customers. Earnings return to members through rates and dividends instead of outside shareholders.'}
 };
 export function localOperatorNote(brand={}){return LOCAL_OPERATORS[brand.localOperators]?.note||'';}
 export function localOperatorLabel(brand={}){return LOCAL_OPERATORS[brand.localOperators]?.label||'';}
 // "How local?" slider: which locally run models may stay visible while corporate or PE brands are hidden.
 // The default keeps co-op and licensed independents, whose money mostly stays local.
 export const LOCAL_LEVELS=[
- {label:'Independent only',detail:'Also hide co-op and licensed member stores such as Ace Hardware and IGA.',models:[],hide:['cooperative','licensed']},
+ {label:'Independent only',detail:'Also hide co-op and licensed member stores such as Ace Hardware and IGA, and member-owned credit unions.',models:[],hide:['cooperative','licensed','memberowned']},
  {label:'Locally owned',detail:'Show independents and co-op member stores; hide franchise and dealer locations of hidden brands.',models:[]},
  {label:'Include regional & local corporations',detail:'Also show privately held chains headquartered within 150 miles of the place.',models:[],regional:true},
  {label:'Include local franchise owners',detail:'Also show franchise locations owned by local operators.',models:['franchise'],regional:true},
