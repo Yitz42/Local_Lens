@@ -592,7 +592,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "pe"
@@ -1817,7 +1818,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-27"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -2045,7 +2047,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Bob_Evans_Restaurants",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "pe"
@@ -2182,7 +2185,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -3086,7 +3090,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -3297,7 +3302,8 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "CAVA — second-quarter 2026 company results",
     "note": "The restaurant company identifies its CAVA brand and NYSE-listed equity. Publicly traded companies qualify for the corporate category regardless of size.",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "publicListing": {
       "company": "CAVA Group, Inc.",
@@ -3554,7 +3560,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Checkers",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "sponsors": [
       "Oak Hill Capital Partners"
@@ -3779,7 +3786,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Cicis_Pizza",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -4276,7 +4284,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Cook_Out_(restaurant)",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "headquarters": {
       "city": "Thomasville",
@@ -4869,7 +4878,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Del%20Taco",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -4889,7 +4899,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Denny%27s",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -6404,7 +6415,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-27"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -6453,7 +6465,8 @@ export const BRAND_DIRECTORY = [
     "note": "Five Guys identifies itself as privately owned and describes its franchise network. Its 2026 company history confirms it remains a family business with a large international restaurant network. The corporate category includes large private chains; a local franchise operator may have a different owner.",
     "checked": "2026-10-25",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "discoverySources": [
       {
@@ -6538,7 +6551,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -8267,7 +8281,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Hooters",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -8549,7 +8564,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-26",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_restaurant_chains_in_the_United_States",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "headquarters": {
       "city": "Irvine",
@@ -9517,6 +9533,7 @@ export const BRAND_DIRECTORY = [
     },
     "matchCategories": [
       "restaurant",
+      "bar",
       "coffee",
       "grocery"
     ],
@@ -11301,7 +11318,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Midas",
     "matchCategories": [
-      "other"
+      "other",
+      "auto"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -11652,7 +11670,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Nathan%27s%20Famous",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -12089,7 +12108,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=NTB",
     "matchCategories": [
-      "other"
+      "other",
+      "auto"
     ],
     "categories": [
       "corporate"
@@ -12405,7 +12425,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -12618,7 +12639,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "headquarters": {
       "city": "Savannah",
@@ -12806,6 +12828,7 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Perkins",
     "matchCategories": [
       "restaurant",
+      "bar",
       "coffee",
       "grocery"
     ],
@@ -13250,7 +13273,8 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -13314,7 +13338,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-27"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -14062,7 +14087,8 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Red_Ribbon_Bakeshop",
     "matchCategories": [
       "grocery",
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -14096,7 +14122,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-27"
     },
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -14400,7 +14427,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -14638,7 +14666,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "matchBounds": [
       {
@@ -14669,7 +14698,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Ruby_Tuesday_(restaurant)",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "pe"
@@ -15816,6 +15846,7 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "coffee",
       "restaurant",
+      "bar",
       "grocery"
     ],
     "localOperators": "franchise",
@@ -17034,7 +17065,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=TGI%20Fridays",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -17224,7 +17256,8 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -17736,7 +17769,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Torchy%27s%20Tacos",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -18495,7 +18529,8 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "categories": [
       "corporate"
@@ -19081,7 +19116,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=White%20Castle",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "headquarters": {
       "city": "Columbus",
@@ -19154,7 +19190,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Wienerschnitzel",
     "matchCategories": [
-      "restaurant"
+      "restaurant",
+      "bar"
     ],
     "localOperators": "franchise",
     "categories": [
