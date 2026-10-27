@@ -75,3 +75,11 @@ test('bank names only match bank listings and credit unions are member-owned ind
  assert.deepEqual(names(1),['Hometown Bank','Navy Federal Credit Union']);
  assert.deepEqual(names(0),['Hometown Bank'],'Independent only hides credit unions');
 });
+test('foreign-owned US banks are corporate, and Webster Bank only matches in its footprint',()=>{
+ for(const name of ['BMO','BMO Harris Bank','Santander Bank'])assert.equal(ownershipFor(p(name,'bank')).type,'corporate',name);
+ assert.equal(ownershipFor(p('BMO','restaurant')).type,'unknown');
+ const hartford={lat:41.76,lng:-72.67};
+ assert.equal(ownershipFor({...p('Webster Bank','bank'),...hartford}).parent,'Banco Santander, S.A. (Santander Bank N.A.)');
+ assert.equal(ownershipFor(p('Webster Bank','bank')).type,'unknown');
+ assert.equal(ownershipFor({...p('Webster Five Cents Savings Bank','bank'),...hartford}).type,'unknown');
+});

@@ -1,10 +1,10 @@
-import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261027-dropdown1';
-import {storeTypeFromTerms} from './store-types.js?v=20261027-dropdown1';
+import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261027-banks2';
+import {storeTypeFromTerms} from './store-types.js?v=20261027-banks2';
 import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261025-pharmacy1';
-export {ownershipCategories} from './ownership-categories.js?v=20261027-dropdown1';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-dropdown1';
-import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-dropdown1';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-dropdown1';
+export {ownershipCategories} from './ownership-categories.js?v=20261027-banks2';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-banks2';
+import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-banks2';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-banks2';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [

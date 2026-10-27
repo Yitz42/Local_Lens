@@ -1,12 +1,12 @@
-import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261027-dropdown1';
+import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261027-banks2';
 import {FOOD_TYPES,OWNERSHIP_PREFERENCE_KEY,initialOwnershipFilters,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
 function ownershipBadges(ownership,place){const local=localOperatorLabel(ownership),hq=place&&isLocalCorporation(place,ownership)?ownership.headquarters:null;return '<span class="ownership-badges">'+ownershipCategories(ownership).map(type=>`<span class="badge ${type}">${LABELS[type]}</span>`).join('')+(local?`<span class="badge local" title="${escape(localOperatorNote(ownership))}">${escape(local)}</span>`:'')+(hq?`<span class="badge local" title="Headquartered in ${escape(hq.city)}, ${escape(hq.state)}">Local HQ · ${escape(hq.city)}</span>`:'')+'</span>';}
-import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261027-dropdown1';
+import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261027-banks2';
 import {collectPlacePages} from './places-loader.js';
-import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261027-dropdown1';
-import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261027-dropdown1';
-import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261027-dropdown1';
-import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261027-dropdown1';
+import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261027-banks2';
+import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261027-banks2';
+import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261027-banks2';
+import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261027-banks2';
 const $=s=>document.querySelector(s);
 const reviewedDate=value=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(value+'T12:00:00Z'));
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

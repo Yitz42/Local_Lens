@@ -121,15 +121,15 @@ Five more place categories were added: Bars, Beauty & personal care, Fitness, Au
 
 Restaurants that also serve drinks stay restaurants. The Google types were chosen conservatively, and an all-places Google search still makes five requests; the new categories are searched only when selected. All 35 brands guarded to restaurants (such as Hooters, TGI Fridays, and BJ's Restaurant & Brewhouse) also gained the `bar` guard, so a location tagged as a bar still matches, and Midas and NTB gained `auto`.
 
-48 brands were added, bringing the directory to 885 listed brands. Every bank name is guarded to bank listings only, so `Chase` or `Regions` never matches a restaurant.
+51 brands were added, bringing the directory to 888 listed brands. Every bank name is guarded to bank listings only, so `Chase` or `Regions` never matches a restaurant.
 
 - **Salons:** Supercuts, Cost Cutters, SmartStyle, and First Choice Haircutters (Regis, Nasdaq RGS, mostly franchised); Great Clips and Sport Clips (franchised); European Wax Center (General Atlantic, PE, franchised).
 - **Fitness:** Planet Fitness (NYSE PLNT, franchised); LA Fitness (privately held Fitness International); Club Pilates, Pure Barre, YogaSix, and StretchLab (Xponential, NYSE XPOF, franchised); Gold's Gym (RSG Group, franchised).
 - **Auto service:** Jiffy Lube (Monomoy, PE, franchised); Valvoline Instant Oil Change (NYSE VVV); Monro (Nasdaq MNRO); Goodyear Auto Service (Nasdaq GT); Christian Brothers Automotive (franchised); Gerber Collision & Glass (Boyd Group); Safelite AutoGlass (Belron, majority-owned by D'Ieteren).
-- **Banks:** Chase, Bank of America, Wells Fargo, Citibank, PNC Bank, FirstBank (now PNC, limited to Colorado and Arizona), U.S. Bank, Truist, Capital One (bank and Capital One Café listings), Fifth Third, Comerica (now Fifth Third), Regions, KeyBank, Huntington, Cadence Bank (now Huntington, limited to the South), Citizens Bank (limited to its own footprint, since many community banks share the name), M&T Bank, and TD Bank.
+- **Banks:** Chase, Bank of America, Wells Fargo, Citibank, PNC Bank, FirstBank (now PNC, limited to Colorado and Arizona), U.S. Bank, Truist, Capital One (bank and Capital One Café listings), Fifth Third, Comerica (now Fifth Third), Regions, KeyBank, Huntington, Cadence Bank (now Huntington, limited to the South), Citizens Bank (limited to its own footprint, since many community banks share the name), M&T Bank, TD Bank, BMO (formerly BMO Harris and Bank of the West, owned by Bank of Montreal), Santander Bank (owned by Spain's Banco Santander), and Webster Bank (a Santander division since August 2026, limited to southern New England and New York so Webster Five and other local banks are not matched).
 - **Credit unions:** Navy Federal, State Employees' (North Carolina), PenFed, BECU (Washington), SchoolsFirst, Golden 1 (California), America First, Mountain America, and Suncoast (Florida). They use the new `memberowned` model and are labeled independent / co-op. *Independent only* hides them with co-ops.
 
-Ownership of Christian Brothers Automotive and any outside stake in Safelite were not confirmed beyond their franchisor and parent. BMO and Santander, whose US banks belong to foreign parents, were not added in this pass.
+Ownership of Christian Brothers Automotive and any outside stake in Safelite were not confirmed beyond their franchisor and parent.
 
 ## Not added in this pass
 
