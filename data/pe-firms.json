@@ -2,7 +2,7 @@
   "version": 1,
   "seed": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
   "snapshot": "https://en.wikipedia.org/w/index.php?title=List_of_private_equity_firms&oldid=1380031888",
-  "catalogChecked": "2026-10-17",
+  "catalogChecked": "2026-10-26",
   "coverage": "The Wikipedia seed is a research queue, not proof of current ownership. Reviewed records contain selected sourced investments and mapped brand affiliations; they are not complete portfolios.",
   "firms": [
     {
@@ -11,11 +11,20 @@
       "region": "Americas",
       "listedInWikipedia": true,
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
-      "status": "not_reviewed",
-      "checked": null,
-      "source": null,
-      "notes": "Current portfolio research has not been recorded for this firm.",
-      "holdings": []
+      "status": "partial",
+      "checked": "2026-10-26",
+      "source": "https://about.skechers.com/press-release/3g-capital-completes-acquisition-of-skechers",
+      "notes": "Selected current storefront investment only, supported by a primary company or investor source. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Skechers",
+          "relationship": "Current portfolio investment",
+          "source": "https://about.skechers.com/press-release/3g-capital-completes-acquisition-of-skechers",
+          "sourceTitle": "Skechers — 3G Capital acquisition completed September 2025",
+          "note": "3G Capital completed its acquisition of Skechers on September 12, 2025. Skechers' shares ceased trading on the NYSE. This identifies brand ownership; independent stockists are not thereby owned by the sponsor.",
+          "checked": "2026-10-26"
+        }
+      ]
     },
     {
       "firm": "3i",
@@ -279,16 +288,25 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "seedRank": 23,
       "status": "reviewed",
-      "checked": "2026-10-16",
+      "checked": "2026-10-26",
       "source": "https://www.apollo.com/strategies/asset-management/equity/private-equity",
-      "notes": "Opened Apollo’s private-equity strategy and a completed May 2026 retail acquisition. Prosol is a current international grocery investment; its French/Italian banners were not added to US matching. Existing Michaels was not duplicated. The Fresh Market’s former Apollo stake ended when Cencosud acquired the remaining shares in 2025; historical Smart & Final and Chuck E. Cheese associations were not asserted as current.",
+      "notes": "Opened Apollo’s private-equity strategy and a completed May 2026 retail acquisition. Prosol is a current international grocery investment; its French/Italian banners were not added to US matching. Existing Michaels was not duplicated. The Fresh Market’s former Apollo stake ended when Cencosud acquired the remaining shares in 2025; historical Smart & Final and Chuck E. Cheese associations were not asserted as current. The 2025 portfolio supplement published in 2026 also identifies Heritage Grocers Group; its current company page corroborates the mapped US banners. This is selected portfolio evidence, not a complete inventory.",
       "holdings": [
         {
           "company": "Prosol Group",
           "relationship": "current portfolio investment",
           "source": "https://ir.apollo.com/news-events/press-releases/detail/623/apollo-funds-complete-acquisition-of-prosol-group",
           "sourceTitle": "Apollo — acquisition of Prosol completed May 2026",
-          "note": "Apollo funds completed a majority purchase. Prosol operates or supplies Grand Frais/fresh. and other French/Italian banners; this is a current non-US grocery holding, not an addition to US place matching."
+          "note": "Apollo funds completed a majority purchase. Prosol operates or supplies Grand Frais/fresh. and other French/Italian banners; this is a current non-US grocery holding, not an addition to US place matching.",
+          "checked": "2026-10-16"
+        },
+        {
+          "company": "Heritage Grocers Group",
+          "relationship": "Current Apollo-managed portfolio investment",
+          "source": "https://www.apollo.com/content/dam/apolloaem/documents/impact/apollo-2025-rso-portfolio-supplement.pdf",
+          "sourceTitle": "Apollo — 2025 portfolio supplement published in 2026",
+          "note": "Heritage Grocers is included in Apollo’s portfolio report. The current Heritage company page identifies Cardenas Markets, Los Altos Ranch Market, El Rancho Supermercado, and Tony’s Fresh Market; brand affiliation does not verify a local operator.",
+          "checked": "2026-10-26"
         }
       ]
     },
@@ -1695,9 +1713,9 @@
       "listedInWikipedia": true,
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_private_equity_firms",
       "status": "reviewed",
-      "checked": "2026-10-16",
+      "checked": "2026-10-26",
       "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
-      "notes": "Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register.",
+      "notes": "Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register. This pass also checked United Pacific as a selected current investment; prior holding review dates are preserved.",
       "holdings": [
         {
           "company": "Amada Vino + Tapas",
@@ -1746,6 +1764,14 @@
           "sourceTitle": "Fortress — current middle-market private equity portfolio",
           "note": "Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership.",
           "checked": "2026-10-16"
+        },
+        {
+          "company": "United Pacific",
+          "relationship": "Current portfolio investment",
+          "source": "https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity",
+          "sourceTitle": "Fortress — current private-equity portfolio",
+          "note": "Fortress currently lists United Pacific and its Rocket stores. The classification applies to this operator, not every station using the same fuel supplier.",
+          "checked": "2026-10-26"
         }
       ]
     },
@@ -4770,6 +4796,76 @@
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": []
+    },
+    {
+      "firm": "Stripes",
+      "aliases": [
+        "Stripes Group"
+      ],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-26",
+      "source": "https://www.stripes.co/investments/erewhon",
+      "notes": "Selected consumer growth investment only. The current investor page marks Erewhon as current and growth-stage; this evidence does not establish a controlling stake or a complete Stripes portfolio.",
+      "holdings": [
+        {
+          "company": "Erewhon",
+          "relationship": "Current growth investment",
+          "source": "https://www.stripes.co/investments/erewhon",
+          "sourceTitle": "Stripes — current Erewhon investment",
+          "note": "The investor identifies an investment since 2019. Majority ownership and individual store ownership are not asserted.",
+          "checked": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "firm": "The Cynosure Group",
+      "aliases": [
+        "Cynosure",
+        "Cynosure Partners"
+      ],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-26",
+      "source": "https://ir.br.coffee/news-releases/news-release-details/black-rock-coffee-bar-announces-payoff-founders-margin-loan-and",
+      "notes": "Selected direct growth-equity investment in a listed coffee retailer. The company-issued May 2026 transaction announcement establishes completed investment and describes Cynosure’s private direct investment business. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Black Rock Coffee Bar",
+          "relationship": "Completed direct growth-equity investment; publicly listed issuer",
+          "source": "https://ir.br.coffee/news-releases/news-release-details/black-rock-coffee-bar-announces-payoff-founders-margin-loan-and",
+          "sourceTitle": "Black Rock Coffee Bar — completed Cynosure investment",
+          "note": "The company says Cynosure-advised entities acquired equity interests from founders. Founder ownership remains; 100% ownership is not asserted.",
+          "checked": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "firm": "TDR Capital",
+      "aliases": [
+        "TDR Capital LLP"
+      ],
+      "region": "Europe",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-26",
+      "source": "https://www.tdrcapital.com/portfolio/eg-group/",
+      "notes": "Bounded review of selected current EG Group / Cumberland Farms ownership only. The official portfolio and September 2026 issuer SEC filing were checked; this is not an exhaustive firm or subsidiary audit. The filing establishes TDR ownership through Optima entities and identifies Cumberland Farms Limited as an EG Group subsidiary. An IPO registration and reported takeover proposal are not treated as completed transactions.",
+      "holdings": [
+        {
+          "company": "EG Group / Cumberland Farms Limited",
+          "relationship": "current portfolio investment",
+          "source": "https://www.sec.gov/Archives/edgar/data/2123232/000119312526382176/d113224df1a.htm",
+          "sourceTitle": "Cumberland Farms — September 2026 SEC ownership disclosure",
+          "note": "The issuer identifies TDR funds among its ultimate beneficial owners through EG Group / Optima. Only selected US convenience banners were researched.",
+          "checked": "2026-10-26"
+        }
+      ]
     }
   ]
 }

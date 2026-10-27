@@ -18,10 +18,11 @@ test('the published list, matcher, and downloads cover the same reviewed brands'
  assert.deepEqual([...source.brands].sort((a,b)=>a.brand.localeCompare(b.brand,'en')).map(brand=>({...brand,categories:ownershipCategories(brand)})),BRAND_DIRECTORY);
  assert.deepEqual(download.brands,listed);
  for(const brand of listed){
-  const place={...origin,id:brand.brand,name:brand.brand,category:brand.matchCategories?.[0]||'restaurant'};
+  const scope=brand.matchBounds?.[0],location=scope?{lat:(scope.south+scope.north)/2,lng:(scope.west+scope.east)/2}:origin;
+  const place={...location,id:brand.brand,name:brand.brand,category:brand.matchCategories?.[0]||'restaurant'};
   assert.equal(ownershipFor(place).type,brand.type,brand.brand);
   assert.equal(ownershipFor(place).parent,brand.parent,brand.brand);
-  assert.equal(filterPlaces([place],{origin,hidden:[brand.type]}).length,0,brand.brand);
+  assert.equal(filterPlaces([place],{origin:place,hidden:[brand.type]}).length,0,brand.brand);
  }
  const csv=await readFile(new URL('../public/brands.csv',import.meta.url),'utf8');
  assert.equal(csv.trim().split('\r\n').length,listed.length+1);

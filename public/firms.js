@@ -1,4 +1,4 @@
-import {FIRM_CATALOG} from './pe-firm-directory.js?v=20261017-pesp1';
+import {FIRM_CATALOG} from './pe-firm-directory.js?v=20261026-chains1';
 const $=selector=>document.querySelector(selector);
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fold=value=>String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();

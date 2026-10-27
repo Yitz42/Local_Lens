@@ -2,7 +2,19 @@
 
 Research seed: [Wikipedia list of private equity firms](https://en.wikipedia.org/wiki/List_of_private_equity_firms) ([snapshot](https://en.wikipedia.org/w/index.php?title=List_of_private_equity_firms&oldid=1380031888)). Firm names from the seed are a research queue and may include historical names, venture firms, or merged businesses. A place in this catalog is not proof of any particular ownership relationship.
 
-50 of 299 catalog entries have recorded portfolio research. Selected holdings and mapped brands are sourced; this is not a complete inventory of any firm’s investments. Minority stakes, growth investments, portfolio-company brands, and franchises require the scope stated in each record. Unreviewed firms remain explicitly unreviewed.
+54 of 302 catalog entries have recorded portfolio research. Selected holdings and mapped brands are sourced; this is not a complete inventory of any firm’s investments. Minority stakes, growth investments, portfolio-company brands, and franchises require the scope stated in each record. Unreviewed firms remain explicitly unreviewed.
+
+## 3G Capital
+
+Review: 2026-10-26 · Partial evidence · [Portfolio / source](https://about.skechers.com/press-release/3g-capital-completes-acquisition-of-skechers)
+
+Selected current storefront investment only, supported by a primary company or investor source. This is not a complete portfolio review.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| Skechers | Current portfolio investment | [Skechers — 3G Capital acquisition completed September 2025](https://about.skechers.com/press-release/3g-capital-completes-acquisition-of-skechers) | 3G Capital completed its acquisition of Skechers on September 12, 2025. Skechers' shares ceased trading on the NYSE. This identifies brand ownership; independent stockists are not thereby owned by the sponsor. | 2026-10-26 |
+
+Brands in Local Lens: Skechers.
 
 ## Advent International
 
@@ -45,15 +57,16 @@ Selected technology and information-services investments. Individual pages expre
 
 ## Apollo Global Management
 
-Review: 2026-10-16 · Selected evidence checked · [Portfolio / source](https://www.apollo.com/strategies/asset-management/equity/private-equity)
+Review: 2026-10-26 · Selected evidence checked · [Portfolio / source](https://www.apollo.com/strategies/asset-management/equity/private-equity)
 
-Opened Apollo’s private-equity strategy and a completed May 2026 retail acquisition. Prosol is a current international grocery investment; its French/Italian banners were not added to US matching. Existing Michaels was not duplicated. The Fresh Market’s former Apollo stake ended when Cencosud acquired the remaining shares in 2025; historical Smart & Final and Chuck E. Cheese associations were not asserted as current.
+Opened Apollo’s private-equity strategy and a completed May 2026 retail acquisition. Prosol is a current international grocery investment; its French/Italian banners were not added to US matching. Existing Michaels was not duplicated. The Fresh Market’s former Apollo stake ended when Cencosud acquired the remaining shares in 2025; historical Smart & Final and Chuck E. Cheese associations were not asserted as current. The 2025 portfolio supplement published in 2026 also identifies Heritage Grocers Group; its current company page corroborates the mapped US banners. This is selected portfolio evidence, not a complete inventory.
 
 | Company / brand | Investment relationship | Source | Scope | Reviewed |
 | --- | --- | --- | --- | --- |
 | Prosol Group | current portfolio investment | [Apollo — acquisition of Prosol completed May 2026](https://ir.apollo.com/news-events/press-releases/detail/623/apollo-funds-complete-acquisition-of-prosol-group) | Apollo funds completed a majority purchase. Prosol operates or supplies Grand Frais/fresh. and other French/Italian banners; this is a current non-US grocery holding, not an addition to US place matching. | 2026-10-16 |
+| Heritage Grocers Group | Current Apollo-managed portfolio investment | [Apollo — 2025 portfolio supplement published in 2026](https://www.apollo.com/content/dam/apolloaem/documents/impact/apollo-2025-rso-portfolio-supplement.pdf) | Heritage Grocers is included in Apollo’s portfolio report. The current Heritage company page identifies Cardenas Markets, Los Altos Ranch Market, El Rancho Supermercado, and Tony’s Fresh Market; brand affiliation does not verify a local operator. | 2026-10-26 |
 
-Brands in Local Lens: Michaels, PetSmart.
+Brands in Local Lens: Cardenas Markets, El Rancho Supermercado, Los Altos Ranch Market, Michaels, PetSmart, Tony’s Fresh Market.
 
 ## Ares Management
 
@@ -237,9 +250,9 @@ Selected holdings from the official current portfolio, including enterprise soft
 
 ## Fortress Investment Group
 
-Review: 2026-10-16 · Selected evidence checked · [Portfolio / source](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity)
+Review: 2026-10-26 · Selected evidence checked · [Portfolio / source](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity)
 
-Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register.
+Selected brand affiliations compiled from reviewed Local Lens records. These may be held through portfolio companies or minority investments; this is not a complete legal-entity or ownership-percentage register. This pass also checked United Pacific as a selected current investment; prior holding review dates are preserved.
 
 | Company / brand | Investment relationship | Source | Scope | Reviewed |
 | --- | --- | --- | --- | --- |
@@ -249,8 +262,9 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Red Lobster | Brand-level backing; see source scope | [Fortress — current middle-market private equity portfolio](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity) | Fortress lists Red Lobster in its current private equity portfolio following the 2024 restructuring. Historical Darden, Golden Gate and Thai Union ownership is not the basis of this classification. | 2026-10-16 |
 | Stoney River Steakhouse and Grill | Brand-level backing; see source scope | [Fortress — current middle-market private equity portfolio](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity) | Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership. | 2026-10-16 |
 | Village Whiskey | Brand-level backing; see source scope | [Fortress — current middle-market private equity portfolio](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity) | Fortress’s current private equity portfolio identifies SPB and this restaurant brand. Local franchise or licensed operators may have separate ownership. | 2026-10-16 |
+| United Pacific | Current portfolio investment | [Fortress — current private-equity portfolio](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity) | Fortress currently lists United Pacific and its Rocket stores. The classification applies to this operator, not every station using the same fuel supplier. | 2026-10-26 |
 
-Brands in Local Lens: Amada Vino + Tapas, J. Alexander's, Krystal, Red Lobster, Stoney River Steakhouse and Grill, Village Whiskey.
+Brands in Local Lens: Amada Vino + Tapas, J. Alexander's, Krystal, Red Lobster, Rocket Convenience Stores, Stoney River Steakhouse and Grill, United Pacific, Village Whiskey.
 
 ## Freeman Spogli & Co.
 
@@ -537,6 +551,18 @@ Selected investments whose individual profiles are explicitly marked Current Inv
 
 Brands in Local Lens: Equinox.
 
+## Stripes
+
+Review: 2026-10-26 · Partial evidence · [Portfolio / source](https://www.stripes.co/investments/erewhon)
+
+Selected consumer growth investment only. The current investor page marks Erewhon as current and growth-stage; this evidence does not establish a controlling stake or a complete Stripes portfolio.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| Erewhon | Current growth investment | [Stripes — current Erewhon investment](https://www.stripes.co/investments/erewhon) | The investor identifies an investment since 2019. Majority ownership and individual store ownership are not asserted. | 2026-10-26 |
+
+Brands in Local Lens: Erewhon.
+
 ## Sun Capital Partners
 
 Review: 2026-10-16 · Selected evidence checked · [Portfolio / source](https://suncappart.com/portfolio/)
@@ -565,6 +591,30 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Lane Bryant | Brand-level backing; see source scope | [Sycamore — current investments](https://www.sycamorepartners.com/investments) | Sycamore lists Lane Bryant as a current investment; KnitWell provides oversight and shared services. | 2026-10-15 |
 
 Brands in Local Lens: Ann Taylor, Boots, Chico's, Duane Reade, Lane Bryant, LOFT, Playa Bowls, Soma, Staples, Talbots, The Goddard School, Torrid, Walgreens, White House Black Market.
+
+## TDR Capital
+
+Review: 2026-10-26 · Partial evidence · [Portfolio / source](https://www.tdrcapital.com/portfolio/eg-group/)
+
+Bounded review of selected current EG Group / Cumberland Farms ownership only. The official portfolio and September 2026 issuer SEC filing were checked; this is not an exhaustive firm or subsidiary audit. The filing establishes TDR ownership through Optima entities and identifies Cumberland Farms Limited as an EG Group subsidiary. An IPO registration and reported takeover proposal are not treated as completed transactions.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| EG Group / Cumberland Farms Limited | current portfolio investment | [Cumberland Farms — September 2026 SEC ownership disclosure](https://www.sec.gov/Archives/edgar/data/2123232/000119312526382176/d113224df1a.htm) | The issuer identifies TDR funds among its ultimate beneficial owners through EG Group / Optima. Only selected US convenience banners were researched. | 2026-10-26 |
+
+Brands in Local Lens: Certified Oil, Coen Markets, Cumberland Farms, Fastrac, Kwik Shop, Loaf N’ Jug, Minit Mart, Quik Stop, Sprint Food Stores, Tom Thumb (convenience stores), Turkey Hill Minit Markets.
+
+## The Cynosure Group
+
+Review: 2026-10-26 · Partial evidence · [Portfolio / source](https://ir.br.coffee/news-releases/news-release-details/black-rock-coffee-bar-announces-payoff-founders-margin-loan-and)
+
+Selected direct growth-equity investment in a listed coffee retailer. The company-issued May 2026 transaction announcement establishes completed investment and describes Cynosure’s private direct investment business. This is not a complete portfolio review.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| Black Rock Coffee Bar | Completed direct growth-equity investment; publicly listed issuer | [Black Rock Coffee Bar — completed Cynosure investment](https://ir.br.coffee/news-releases/news-release-details/black-rock-coffee-bar-announces-payoff-founders-margin-loan-and) | The company says Cynosure-advised entities acquired equity interests from founders. Founder ownership remains; 100% ownership is not asserted. | 2026-10-26 |
+
+Brands in Local Lens: Black Rock Coffee Bar.
 
 ## Thoma Bravo
 
@@ -663,7 +713,6 @@ The following entries have no recorded current-portfolio conclusion in this rele
 <details>
 <summary>Unreviewed firms from the Wikipedia seed</summary>
 
-- 3G Capital
 - 3i
 - ABS Capital
 - Actis
