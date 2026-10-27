@@ -43,3 +43,18 @@ test('current public equity and completed private ownership remain distinct',()=
  assert.equal(row('CITGO').type,'corporate');assert.ok(!row('CITGO').sponsors?.includes('Elliott Investment Management'));
  assert.equal(row('Pet Supplies Plus').type,'corporate');assert.equal(row('Pet Supplies Plus').sponsors,undefined);
 });
+test('October 27 restaurant and retail additions carry their reviewed owners and name guards',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category,type,parent] of [
+  ["Denny's",'restaurant','pe','TriArtisan'],['Qdoba Mexican Eats','restaurant','pe','Butterfly'],["Rally's #123",'restaurant','pe','Oak Hill'],
+  ['Del Taco','restaurant','corporate','Yadav'],['Krispy Kreme','coffee','corporate','Krispy Kreme'],['Office Depot','other','pe','Atlas'],
+  ['Nordstrom Rack','apparel','corporate','Liverpool'],['Zales','apparel','corporate','Signet'],['The Vitamin Shoppe','pharmacy','pe','Kingswood'],
+  ['Royal Farms','gas','corporate','Two Farms'],['GetGo','gas','corporate','Couche-Tard'],['Pep Boys','other','pe','Mavis']
+ ]){const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);}
+ for(const [name,category] of [['Checkers','grocery'],['Bob Evans','grocery'],['Hollister Hardware','home'],['Jared','restaurant'],['Kirkland Signature','general'],['Hollister','restaurant']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.equal(ownershipFor({lat:34.05,lng:-118.24,name:'GetGo',category:'gas'}).type,'unknown');
+ assert.match(ownershipFor(q("BJ's Restaurant & Brewhouse",'restaurant')).parent,/BJ's Restaurants/);
+ assert.match(ownershipFor(q("BJ's Wholesale Club",'general')).parent,/Wholesale Club/);
+ assert.equal(excludedBrandNameMatch(q("Denny's - Downtown",'restaurant'),['pe']).brand,"Denny's");
+ assert.equal(excludedBrandNameMatch(q('Hollister Plumbing Supply','home'),['corporate']),null);
+});

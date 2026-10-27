@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked": "2026-10-26",
+  "checked": "2026-10-27",
   "coverage": "US-focused storefront and fuel-brand directory, reviewed against primary company, investor, and regulatory sources. Coverage is not exhaustive; related international brands may appear for reference.",
   "brands": [
     {
@@ -178,6 +178,41 @@
       "note": "Icahn Automotive identifies AAMCO among its automotive service brands and identifies Icahn Enterprises as its parent. This is corporate chain affiliation; an individual franchised repair center can have a different local owner.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Abercrombie & Fitch",
+      "aliases": [
+        "Abercrombie and Fitch",
+        "Abercrombie",
+        "Abercrombie Kids"
+      ],
+      "type": "corporate",
+      "parent": "Abercrombie & Fitch Co.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1018840/000101884025000046/q32025pressrelease.htm",
+      "sourceTitle": "Abercrombie & Fitch Co. — third quarter fiscal 2025 results (SEC exhibit)",
+      "note": "Abercrombie & Fitch Co. operates its namesake and Hollister stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Abercrombie_%26_Fitch",
+      "publicListing": {
+        "company": "Abercrombie & Fitch Co.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "ANF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1018840/000101884025000046/q32025pressrelease.htm",
+        "sourceTitle": "Abercrombie & Fitch Co. — third quarter fiscal 2025 results (SEC exhibit)",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -448,6 +483,28 @@
       "checked": "2026-10-15",
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "Allsup's",
+      "aliases": [
+        "Allsups",
+        "Allsup's Convenience Store"
+      ],
+      "type": "pe",
+      "parent": "Yesway · BW Gas & Convenience Holdings (Brookwood Financial Partners affiliate)",
+      "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/yesway",
+      "sourceTitle": "CSP Top 202 (2026) — Yesway / Allsup's owned by BW Gas & Convenience Holdings",
+      "note": "Yesway acquired Allsup's in 2019. CSP's 2026 ranking lists the owner as BW Gas & Convenience Holdings, an affiliate of investment firm Brookwood Financial Partners.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allsup%27s",
+      "matchCategories": [
+        "gas",
+        "grocery",
+        "restaurant"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -1021,6 +1078,23 @@
       ]
     },
     {
+      "brand": "Bass Pro Shops",
+      "aliases": [
+        "Bass Pro",
+        "Bass Pro Shops Outdoor World"
+      ],
+      "type": "corporate",
+      "parent": "Great American Outdoors Group · Johnny Morris (privately held)",
+      "source": "https://foxbusiness.com/markets/bass-pro-shops-hooks-cabelas-in-5-5b-deal",
+      "sourceTitle": "Fox Business — Bass Pro Shops buys Cabela's; Johnny Morris remains CEO and majority owner",
+      "note": "Founder Johnny Morris's privately held Bass Pro Shops operates about 180 Bass Pro Shops and Cabela's stores. It is a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bass_Pro_Shops",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Bath & Body Works",
       "aliases": [
         "Bath and Body Works",
@@ -1073,6 +1147,40 @@
       ]
     },
     {
+      "brand": "Bed Bath & Beyond",
+      "aliases": [
+        "Bed Bath and Beyond",
+        "Bed Bath & Beyond Home"
+      ],
+      "type": "corporate",
+      "parent": "Bed Bath & Beyond, Inc. (formerly Beyond, Inc.)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1130713/000114036126012893/ef20069679_ex99-1.htm",
+      "sourceTitle": "Bed Bath & Beyond, Inc. — 2026 Form 8-K exhibit",
+      "note": "Bed Bath & Beyond, Inc., formerly Beyond, Inc., owns the brand and is reopening stores, including conversions of Kirkland's Home locations. Former Bed Bath & Beyond Inc. stores closed in 2023.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bed_Bath_%26_Beyond",
+      "publicListing": {
+        "company": "Bed Bath & Beyond, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BBBY"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1130713/000114036126012893/ef20069679_ex99-1.htm",
+        "sourceTitle": "Bed Bath & Beyond, Inc. — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Beef ‘O’ Brady’s",
       "aliases": [
         "Beef O Brady's",
@@ -1121,6 +1229,42 @@
       "sourceTitle": "Best Buy — about the company",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Big 5 Sporting Goods",
+      "aliases": [
+        "Big 5",
+        "Big 5 Sports"
+      ],
+      "type": "pe",
+      "parent": "Capitol Hill Group & Worldwide Golf partnership",
+      "source": "https://www.lw.com/en/news/latham-watkins-advises-big-5-sporting-goods-corp-in-acquisition-by-worldwide-golf-capitol-hill",
+      "sourceTitle": "Latham & Watkins — Big 5 Sporting Goods acquired by Worldwide Golf and Capitol Hill Group",
+      "note": "A partnership of private investment firm Capitol Hill Group and golf retailer Worldwide Golf took Big 5 private on October 2, 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Big_5_Sporting_Goods",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Big Lots",
+      "aliases": [
+        "Big Lots!"
+      ],
+      "type": "corporate",
+      "parent": "Variety Wholesalers, Inc.",
+      "source": "https://retailtouchpoints.com/features/news-briefs/variety-wholesalers-to-reopen-219-big-lots-stores-by-june",
+      "sourceTitle": "Retail TouchPoints — Variety Wholesalers reopens 219 Big Lots stores",
+      "note": "After Big Lots' 2024 bankruptcy, privately held discount retailer Variety Wholesalers acquired and reopened 219 Big Lots stores in 2025. Other former Big Lots locations closed.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Big_Lots",
       "categories": [
         "corporate"
       ]
@@ -1221,6 +1365,41 @@
       "categories": [
         "corporate",
         "pe"
+      ]
+    },
+    {
+      "brand": "BJ's Restaurant & Brewhouse",
+      "aliases": [
+        "BJ's Restaurant and Brewhouse",
+        "BJ's Brewhouse",
+        "BJ's Restaurants"
+      ],
+      "type": "corporate",
+      "parent": "BJ's Restaurants, Inc.",
+      "source": "https://s201.q4cdn.com/421727654/files/doc_news/BJs-Restaurants-Inc--Reports-Fiscal-First-Quarter-2026-Results-2026.pdf",
+      "sourceTitle": "BJ's Restaurants — fiscal first quarter 2026 results",
+      "note": "BJ's Restaurants, Inc. owns and operates the chain. It is unrelated to BJ's Wholesale Club, whose names are matched separately.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/BJ%27s_Restaurants",
+      "publicListing": {
+        "company": "BJ's Restaurants, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "BJRI"
+          }
+        ],
+        "source": "https://s201.q4cdn.com/421727654/files/doc_news/BJs-Restaurants-Inc--Reports-Fiscal-First-Quarter-2026-Results-2026.pdf",
+        "sourceTitle": "BJ's Restaurants — fiscal first quarter 2026 results",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1381,6 +1560,27 @@
       ]
     },
     {
+      "brand": "Bob Evans",
+      "aliases": [
+        "Bob Evans Restaurant",
+        "Bob Evans Restaurants",
+        "Bob Evans Farm Restaurant"
+      ],
+      "type": "pe",
+      "parent": "4x4 Capital investment",
+      "source": "https://pulse2.com/bob-evans-restaurants-4x4-capital-acquires-family-dining-chain-from-golden-gate-capital/amp/",
+      "sourceTitle": "Pulse 2.0 — 4x4 Capital acquires Bob Evans Restaurants from Golden Gate Capital (February 2026)",
+      "note": "Investment firm 4x4 Capital acquired the Bob Evans restaurant chain from Golden Gate Capital in February 2026. Bob Evans packaged foods belong to a separate company, so this record is restricted to restaurants.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bob_Evans_Restaurants",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Bob's Discount Furniture",
       "aliases": [
         "Bobs Discount Furniture"
@@ -1516,6 +1716,34 @@
       ]
     },
     {
+      "brand": "Boot Barn",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Boot Barn Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001610250/000110465926061346/boot-20260328x10k.htm",
+      "sourceTitle": "Boot Barn Holdings — Form 10-K for fiscal 2026",
+      "note": "Boot Barn operated 539 stores in 49 states, all under the Boot Barn name, as of March 28, 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Boot_Barn",
+      "publicListing": {
+        "company": "Boot Barn Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BOOT"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001610250/000110465926061346/boot-20260328x10k.htm",
+        "sourceTitle": "Boot Barn Holdings — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Boots",
       "aliases": [
         "Boots Pharmacy"
@@ -1531,6 +1759,25 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "BoxLunch",
+      "aliases": [
+        "Box Lunch Gifts"
+      ],
+      "type": "corporate",
+      "parent": "Hot Topic, Inc. · Spencer Spirit Holdings (privately held)",
+      "source": "https://fashionunited.com/news/business/spencer-spirit-finalises-hot-topic-acquisition/2026090374406",
+      "sourceTitle": "FashionUnited — Spencer Spirit finalises Hot Topic acquisition (September 2026)",
+      "note": "BoxLunch is a Hot Topic, Inc. gift and pop-culture chain acquired with Hot Topic by Spencer Spirit Holdings in September 2026. Lunch or catering businesses do not match because the record is limited to stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hot_Topic",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -1830,6 +2077,22 @@
       ]
     },
     {
+      "brand": "Cabela's",
+      "aliases": [
+        "Cabelas"
+      ],
+      "type": "corporate",
+      "parent": "Bass Pro Shops (privately held)",
+      "source": "https://foxbusiness.com/markets/bass-pro-shops-hooks-cabelas-in-5-5b-deal",
+      "sourceTitle": "Fox Business — Bass Pro Shops acquires Cabela's",
+      "note": "Bass Pro Shops acquired Cabela's in 2017 and runs it as a banner of the privately held combined company.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cabela%27s",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Cadogan Tate",
       "aliases": [
         "Cadogan Tate"
@@ -1912,6 +2175,24 @@
       },
       "categories": [
         "corporate",
+        "pe"
+      ]
+    },
+    {
+      "brand": "Captain D's",
+      "aliases": [
+        "Captain Ds",
+        "Captain D's Seafood",
+        "Captain D's Seafood Kitchen"
+      ],
+      "type": "pe",
+      "parent": "Centre Partners investment",
+      "source": "https://www.foodbusinessnews.net/articles/21422-centre-partners-re-acquires-captain-ds",
+      "sourceTitle": "Food Business News — Centre Partners re-acquires Captain D's",
+      "note": "Middle-market private equity firm Centre Partners re-acquired Captain D's from Sentinel Capital Partners. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Captain_D%27s",
+      "categories": [
         "pe"
       ]
     },
@@ -2440,6 +2721,32 @@
       ]
     },
     {
+      "brand": "Checkers",
+      "aliases": [
+        "Checkers Drive-In",
+        "Checkers Drive In Restaurants",
+        "Rally's",
+        "Rallys",
+        "Checkers & Rally's"
+      ],
+      "type": "pe",
+      "parent": "Oak Hill Capital Partners investment",
+      "source": "https://www.franchisetimes.com/top-400-2025/90-checkers-rallys/article_7b47b943-252f-4d78-af30-9655e4988a53.html",
+      "sourceTitle": "Franchise Times Top 400 (2025) — Checkers & Rally's owned by Oak Hill Capital",
+      "note": "Oak Hill Capital Partners acquired Checkers & Rally's from Sentinel in 2017 and still owned the double drive-thru chain in 2025. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Checkers",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "sponsors": [
+        "Oak Hill Capital Partners"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Cheddar’s Scratch Kitchen",
       "aliases": [
         "Cheddar's"
@@ -2958,6 +3265,26 @@
       ]
     },
     {
+      "brand": "Cook Out",
+      "aliases": [
+        "Cookout",
+        "Cook-Out"
+      ],
+      "type": "corporate",
+      "parent": "Cook Out, Inc. (privately held)",
+      "source": "https://yourislandnews.com/?p=53049",
+      "sourceTitle": "The Island News — Cook Out, privately owned by founder Morris Reaves",
+      "note": "Cook Out is privately owned by founder Morris Reaves's family and operates more than 350 drive-thru restaurants. Generic cookout or barbecue businesses do not match this record.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cook_Out_(restaurant)",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "CorePower Yoga",
       "aliases": [
         "Core Power Yoga"
@@ -3018,6 +3345,28 @@
         "sourceTitle": "Cracker Barrel — fiscal 2026 equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Crate & Barrel",
+      "aliases": [
+        "Crate and Barrel",
+        "Crate & Barrel Outlet",
+        "CB2",
+        "Crate & Kids"
+      ],
+      "type": "corporate",
+      "parent": "Crate and Barrel Holdings · Otto Group",
+      "source": "https://www.crateandbarrel.com/about-crate-and-barrel",
+      "sourceTitle": "Crate & Barrel — about us (member of the Otto Group)",
+      "note": "Crate and Barrel Holdings, including CB2 and Crate & Kids, is a member of the privately held Otto Group of Hamburg.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Crate_%26_Barrel",
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -3335,6 +3684,37 @@
       ]
     },
     {
+      "brand": "Dave & Buster's",
+      "aliases": [
+        "Dave and Buster's",
+        "Dave & Busters"
+      ],
+      "type": "corporate",
+      "parent": "Dave & Buster's Entertainment, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000008/play-20260203.htm",
+      "sourceTitle": "Dave & Buster's Entertainment — Form 10-K for the year ended February 3, 2026",
+      "note": "Dave & Buster's Entertainment owns and operates the dining-and-entertainment chain and Main Event.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dave_%26_Buster%27s",
+      "publicListing": {
+        "company": "Dave & Buster's Entertainment, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "PLAY"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000008/play-20260203.htm",
+        "sourceTitle": "Dave & Buster's — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Dave's Hot Chicken",
       "aliases": [
         "Daves Hot Chicken"
@@ -3401,6 +3781,43 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "Del Taco",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Yadav Enterprises, Inc.",
+      "source": "https://www.businesswire.com/news/home/20251222118321/en/Jack-in-the-Box-Inc.-Completes-Sale-of-Del-Taco-Holdings-Inc.",
+      "sourceTitle": "Jack in the Box — completed sale of Del Taco Holdings to Yadav Enterprises",
+      "note": "Jack in the Box completed the sale of Del Taco to Yadav Enterprises, a private multi-brand restaurant operator, on December 22, 2025. Del Taco is no longer part of a listed company. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Del_Taco",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Denny's",
+      "aliases": [
+        "Dennys",
+        "Denny's Diner"
+      ],
+      "type": "pe",
+      "parent": "TriArtisan Capital Advisors, Treville Capital Group & Yadav Enterprises",
+      "source": "https://www.sec.gov/Archives/edgar/data/852772/000119312526015085/d52435dex991.htm",
+      "sourceTitle": "Denny's Corporation — completion of acquisition (SEC 8-K exhibit, January 2026)",
+      "note": "An investor group of TriArtisan Capital Advisors, Treville Capital Group, and Yadav Enterprises took Denny's private on January 16, 2026; its shares ceased trading on Nasdaq. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Denny%27s",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -3840,6 +4257,34 @@
       ]
     },
     {
+      "brand": "El Pollo Loco",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "El Pollo Loco Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1606366/000160636626000017/loco-20251231x10k.htm",
+      "sourceTitle": "El Pollo Loco Holdings — 2025 Form 10-K",
+      "note": "El Pollo Loco Holdings operates and franchises the chain. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/El_Pollo_Loco",
+      "publicListing": {
+        "company": "El Pollo Loco Holdings, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "LOCO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1606366/000160636626000017/loco-20251231x10k.htm",
+        "sourceTitle": "El Pollo Loco Holdings — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "El Rancho Supermercado",
       "aliases": [
         "Supermercado El Rancho",
@@ -4205,6 +4650,34 @@
       ]
     },
     {
+      "brand": "Famous Footwear",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Caleres, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/14707/000001470725000017/cal-20250201x10k.htm",
+      "sourceTitle": "Caleres — Form 10-K (Famous Footwear segment)",
+      "note": "Famous Footwear is Caleres's family-footwear retail chain of more than 800 stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Famous_Footwear",
+      "publicListing": {
+        "company": "Caleres, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CAL"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/14707/000001470725000017/cal-20250201x10k.htm",
+        "sourceTitle": "Caleres — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Fareway",
       "aliases": [
         "Fareway Stores",
@@ -4453,6 +4926,40 @@
       ]
     },
     {
+      "brand": "First Watch",
+      "aliases": [
+        "First Watch Daytime Cafe",
+        "First Watch Restaurant"
+      ],
+      "type": "corporate",
+      "parent": "First Watch Restaurant Group, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1789940/000178994026000014/fwrg-20251228.htm",
+      "sourceTitle": "First Watch Restaurant Group — 2025 Form 10-K",
+      "note": "First Watch operated 633 restaurants at the end of 2025 and is Nasdaq-listed. Former majority owner Advent International cut its holding to under 9% in 2025, so the brand is not labeled PE backed.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/First_Watch",
+      "publicListing": {
+        "company": "First Watch Restaurant Group, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "FWRG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1789940/000178994026000014/fwrg-20251228.htm",
+        "sourceTitle": "First Watch Restaurant Group — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Fitness Connection",
       "aliases": [],
       "type": "pe",
@@ -4538,6 +5045,37 @@
       "matchCategories": [
         "restaurant"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Floor & Decor",
+      "aliases": [
+        "Floor and Decor",
+        "Floor & Decor Design Studio"
+      ],
+      "type": "corporate",
+      "parent": "Floor & Decor Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1507079/000162828026009770/fnd-20251225.htm",
+      "sourceTitle": "Floor & Decor Holdings — 2025 Form 10-K",
+      "note": "Floor & Decor operated 270 warehouse-format stores and five design studios at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Floor_%26_Decor",
+      "publicListing": {
+        "company": "Floor & Decor Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "FND"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1507079/000162828026009770/fnd-20251225.htm",
+        "sourceTitle": "Floor & Decor Holdings — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -4937,7 +5475,9 @@
       "brand": "Fry’s Food and Drug",
       "aliases": [
         "Fry's Food Stores",
-        "Frys Food and Drug"
+        "Frys Food and Drug",
+        "Fry's Marketplace",
+        "Fry's Food & Drug"
       ],
       "type": "corporate",
       "parent": "The Kroger Co.",
@@ -4974,6 +5514,37 @@
         "source": "https://investors.dinebrands.com/news-releases/news-release-details/dine-brands-global-inc-announces-third-quarter-2026-dividend",
         "sourceTitle": "Dine Brands — September 2026 company profile and equity listing",
         "checked": "2026-10-26"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "GameStop",
+      "aliases": [
+        "Game Stop",
+        "GameStop Prime"
+      ],
+      "type": "corporate",
+      "parent": "GameStop Corp.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1326380/000162828025014731/gme-20250201.htm",
+      "sourceTitle": "GameStop — Form 10-K",
+      "note": "GameStop operates its own stores and closed hundreds of US locations in 2025–2026; a listing does not establish that a store is still open.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/GameStop",
+      "publicListing": {
+        "company": "GameStop Corp.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "GME"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1326380/000162828025014731/gme-20250201.htm",
+        "sourceTitle": "GameStop — Form 10-K",
+        "checked": "2026-10-27"
       },
       "categories": [
         "corporate"
@@ -5042,6 +5613,37 @@
         "sourceTitle": "Kroger — current equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "GetGo",
+      "aliases": [
+        "GetGo Cafe + Market",
+        "GetGo Café + Market",
+        "GetGo Cafe and Market",
+        "WetGo"
+      ],
+      "type": "corporate",
+      "parent": "Alimentation Couche-Tard Inc.",
+      "source": "https://www.grocerydive.com/news/couche-tard-closes-getgo-acquisition-giant-eagle/752047/",
+      "sourceTitle": "Grocery Dive — Couche-Tard closes GetGo acquisition from Giant Eagle",
+      "note": "Alimentation Couche-Tard acquired GetGo from Giant Eagle in June 2025 and runs it as a separate business unit. Some former sites were divested to MAPCO. The regional guard limits this to GetGo's Mid-Atlantic and Midwest area.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/GetGo",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 37,
+          "west": -88.2,
+          "north": 42.6,
+          "east": -75
+        }
+      ],
       "categories": [
         "corporate"
       ]
@@ -5265,6 +5867,23 @@
         "sourceTitle": "DICK’S — current NYSE equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Golden Corral",
+      "aliases": [
+        "Golden Corral Buffet & Grill",
+        "Golden Corral Buffet and Grill"
+      ],
+      "type": "corporate",
+      "parent": "Golden Corral Corporation · Investors Management Corp. (privately held)",
+      "source": "https://restaurantbusinessonline.com/operations/how-golden-corral-bucking-buffet-collapse",
+      "sourceTitle": "Restaurant Business — privately held Golden Corral, owned by Investors Management Corp.",
+      "note": "Golden Corral is privately held through Investors Management Corp. It is a large private chain. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Golden_Corral",
       "categories": [
         "corporate"
       ]
@@ -5765,6 +6384,40 @@
       ]
     },
     {
+      "brand": "Hollister Co.",
+      "aliases": [
+        "Hollister",
+        "Hollister Co"
+      ],
+      "type": "corporate",
+      "parent": "Abercrombie & Fitch Co.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1018840/000101884025000046/q32025pressrelease.htm",
+      "sourceTitle": "Abercrombie & Fitch Co. — third quarter fiscal 2025 results (SEC exhibit)",
+      "note": "Hollister is one of Abercrombie & Fitch Co.'s two brand groups. The bare name is limited to clothing and store listings because it is also a place name.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hollister_Co.",
+      "publicListing": {
+        "company": "Abercrombie & Fitch Co.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "ANF"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1018840/000101884025000046/q32025pressrelease.htm",
+        "sourceTitle": "Abercrombie & Fitch Co. — third quarter fiscal 2025 results (SEC exhibit)",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "HomeGoods",
       "aliases": [],
       "type": "corporate",
@@ -5791,6 +6444,25 @@
       ]
     },
     {
+      "brand": "Hooters",
+      "aliases": [
+        "Hooters Restaurant"
+      ],
+      "type": "corporate",
+      "parent": "Original Hooters (Hooters Inc.) & Hoot Owl Restaurants",
+      "source": "https://restaurantbusinessonline.com/financing/bankrupt-hooters-kicks-comeback-under-new-owners",
+      "sourceTitle": "Restaurant Business — Hooters comeback under its founders' group",
+      "note": "The founders' Original Hooters group and franchisee Hoot Owl Restaurants acquired Hooters of America out of bankruptcy in October 2025; the chain is now franchisee-operated. It is a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hooters",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Hornbacher’s",
       "aliases": [
         "Hornbachers",
@@ -5806,6 +6478,23 @@
         "grocery"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Hot Topic",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Spencer Spirit Holdings (privately held)",
+      "source": "https://fashionunited.com/news/business/spencer-spirit-finalises-hot-topic-acquisition/2026090374406",
+      "sourceTitle": "FashionUnited — Spencer Spirit finalises Hot Topic acquisition (September 2026)",
+      "note": "Spencer Spirit Holdings completed its purchase of Hot Topic, BoxLunch, and Her Universe from Sycamore Partners on September 2, 2026, ending Sycamore's private equity ownership.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hot_Topic",
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -5833,6 +6522,20 @@
           "east": -117
         }
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Huddle House",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Ascent Hospitality Management · Elysium Management",
+      "source": "https://restaurantbusinessonline.com/financing/elysium-management-buys-huddle-house",
+      "sourceTitle": "Restaurant Business — Elysium Management buys Huddle House",
+      "note": "Huddle House belongs to Ascent Hospitality Management, a holding company created by Elysium Management, which manages a family office's investments. It is classified as a large private chain rather than PE backed. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Huddle_House",
       "categories": [
         "corporate"
       ]
@@ -6144,6 +6847,41 @@
       ]
     },
     {
+      "brand": "Jared",
+      "aliases": [
+        "Jared Jewelers",
+        "Jared The Galleria of Jewelry",
+        "Jared Vault"
+      ],
+      "type": "corporate",
+      "parent": "Signet Jewelers Limited",
+      "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+      "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+      "note": "Jared is one of Signet's three largest North American jewelry brands. The bare name only matches store listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jared_(store)",
+      "publicListing": {
+        "company": "Signet Jewelers Limited",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SIG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+        "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Jay C Food Stores",
       "aliases": [
         "JayC",
@@ -6175,6 +6913,25 @@
         "sourceTitle": "Kroger — current equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "JCPenney",
+      "aliases": [
+        "JC Penney",
+        "J.C. Penney",
+        "J. C. Penney",
+        "JCPenney Salon"
+      ],
+      "type": "corporate",
+      "parent": "Catalyst Brands (Simon Property Group, Brookfield, Authentic Brands Group & Shein)",
+      "source": "https://corporate.jcpenney.com/2025/01/08/sparc-group-has-merged-with-jcpenney-to-form-catalyst-brands/",
+      "sourceTitle": "JCPenney — SPARC Group merges with JCPenney to form Catalyst Brands",
+      "note": "JCPenney combined with SPARC Group in January 2025 to form Catalyst Brands, owned by Simon Property Group, Brookfield Corporation, Authentic Brands Group, and Shein. Catalyst Brands is not itself listed.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/J._C._Penney",
       "categories": [
         "corporate"
       ]
@@ -6229,6 +6986,23 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Jet's Pizza",
+      "aliases": [
+        "Jets Pizza",
+        "Jet's Pizza Detroit Style"
+      ],
+      "type": "corporate",
+      "parent": "Jet's America, Inc. (privately held)",
+      "source": "https://www.jetspizza.com/?p=1161",
+      "sourceTitle": "Jet's Pizza — About Jet's (family-founded Jet's America, Inc.)",
+      "note": "Jet's America is privately held by its founding family and franchises more than 400 Jet's Pizza locations. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jet%27s_Pizza",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -6331,6 +7105,70 @@
       ]
     },
     {
+      "brand": "Journeys",
+      "aliases": [
+        "Journeys Kidz"
+      ],
+      "type": "corporate",
+      "parent": "Genesco Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/18498/000119312526123492/gco-20260131.htm",
+      "sourceTitle": "Genesco — Form 10-K for fiscal 2026",
+      "note": "Journeys is Genesco's largest retail group. The bare name only matches store listings, not travel or other services.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Journeys_(store)",
+      "publicListing": {
+        "company": "Genesco Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "GCO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/18498/000119312526123492/gco-20260131.htm",
+        "sourceTitle": "Genesco — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Kay Jewelers",
+      "aliases": [
+        "Kay Outlet",
+        "Kay Jewelers Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Signet Jewelers Limited",
+      "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+      "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+      "note": "Kay is one of Signet's three largest North American jewelry brands.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kay_Jewelers",
+      "publicListing": {
+        "company": "Signet Jewelers Limited",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SIG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+        "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Kessler’s Foods",
       "aliases": [
         "Kessler's Food and Grocery"
@@ -6425,6 +7263,40 @@
       ]
     },
     {
+      "brand": "Kirkland's Home",
+      "aliases": [
+        "Kirkland's",
+        "Kirklands Home"
+      ],
+      "type": "corporate",
+      "parent": "The Brand House Collective · Bed Bath & Beyond, Inc. (brand owner)",
+      "source": "https://www.businesswire.com/news/home/20250915355554/en/Bed-Bath-Beyond-Inc.-Completes-%2410-Million-Acquisition-of-Kirklands-Home-Brand-Assets",
+      "sourceTitle": "Business Wire — Bed Bath & Beyond, Inc. acquires Kirkland's Home brand assets",
+      "note": "Bed Bath & Beyond, Inc. bought the Kirkland's Home brand in September 2025; The Brand House Collective operates the stores under a pending merger, and some are converting to Bed Bath & Beyond. Costco's Kirkland Signature is a different brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kirkland%27s",
+      "publicListing": {
+        "company": "Bed Bath & Beyond, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BBBY"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1130713/000114036126012893/ef20069679_ex99-1.htm",
+        "sourceTitle": "Bed Bath & Beyond, Inc. — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "KJ’s Market",
       "aliases": [],
       "type": "corporate",
@@ -6475,6 +7347,42 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Krispy Kreme",
+      "aliases": [
+        "Krispy Kreme Doughnuts",
+        "Krispy Kreme Doughnut"
+      ],
+      "type": "corporate",
+      "parent": "Krispy Kreme, Inc. · JAB Holding Company (largest shareholder)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000015/dnut-20251228.htm",
+      "sourceTitle": "Krispy Kreme, Inc. — 2025 Form 10-K",
+      "note": "Krispy Kreme, Inc. is Nasdaq-listed; JAB Holding Company remains its largest shareholder after the 2021 relisting. Grocery and convenience stores selling Krispy Kreme doughnuts are not thereby company-owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Krispy_Kreme",
+      "publicListing": {
+        "company": "Krispy Kreme, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "DNUT"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000015/dnut-20251228.htm",
+        "sourceTitle": "Krispy Kreme, Inc. — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "restaurant",
+        "coffee",
+        "grocery"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -6877,6 +7785,24 @@
       "categories": [
         "corporate",
         "pe"
+      ]
+    },
+    {
+      "brand": "Little Caesars",
+      "aliases": [
+        "Little Caesars Pizza",
+        "Little Caesar's",
+        "Little Caesar's Pizza"
+      ],
+      "type": "corporate",
+      "parent": "Ilitch Holdings, Inc. (privately held)",
+      "source": "https://ilitchholdings.com",
+      "sourceTitle": "Ilitch Holdings — brands including Little Caesars",
+      "note": "Little Caesars has been privately held since 1959 and belongs to the Ilitch family's companies. It is a large private chain. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Little_Caesars",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -7487,6 +8413,34 @@
       ]
     },
     {
+      "brand": "Mattress Firm",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Somnigroup International Inc.",
+      "source": "https://finance.yahoo.com/news/somnigroup-international-inc-sgi-q4-190123295.html",
+      "sourceTitle": "Yahoo Finance — Somnigroup International (NYSE: SGI) results including Mattress Firm",
+      "note": "Tempur Sealy completed its acquisition of Mattress Firm in 2025 and renamed itself Somnigroup International.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mattress_Firm",
+      "publicListing": {
+        "company": "Somnigroup International Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SGI"
+          }
+        ],
+        "source": "https://finance.yahoo.com/news/somnigroup-international-inc-sgi-q4-190123295.html",
+        "sourceTitle": "Yahoo Finance — Somnigroup International (NYSE: SGI)",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Maverik",
       "aliases": [
         "Maverik Adventure's First Stop"
@@ -7927,6 +8881,22 @@
       ]
     },
     {
+      "brand": "MOD Pizza",
+      "aliases": [
+        "MOD Super Fast Pizza"
+      ],
+      "type": "corporate",
+      "parent": "Elite Restaurant Group",
+      "source": "https://ktla.com/news/consumer-business/mod-pizza-aquired-by-california-restaurant-group-after-bankruptcy-reports/amp/",
+      "sourceTitle": "KTLA — Elite Restaurant Group acquires MOD Pizza",
+      "note": "Southern California-based Elite Restaurant Group acquired MOD Pizza in 2024. It is a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/MOD_Pizza",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Moe's Southwest Grill",
       "aliases": [
         "Moes Southwest Grill"
@@ -8075,6 +9045,27 @@
         "sourceTitle": "Genuine Parts — current NYSE equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Nathan's Famous",
+      "aliases": [
+        "Nathans Famous",
+        "Nathan's Famous Hot Dogs",
+        "Nathan's Hot Dogs"
+      ],
+      "type": "corporate",
+      "parent": "Nathan's Famous, Inc. · Smithfield Foods (agreed acquisition)",
+      "source": "https://www.qsrmagazine.com/story/pork-producer-smithfield-foods-to-buy-nathans-famous-for-450-million/",
+      "sourceTitle": "QSR — Smithfield Foods to buy Nathan's Famous for $450 million",
+      "note": "Smithfield Foods agreed in January 2026 to acquire Nathan's Famous, expected to close in the first half of 2026; this review did not confirm the closing, so no stock listing is recorded. Grocery hot dogs and licensed counters are not company-owned stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nathan%27s_Famous",
+      "matchCategories": [
+        "restaurant"
+      ],
       "categories": [
         "corporate"
       ]
@@ -8305,6 +9296,69 @@
       ]
     },
     {
+      "brand": "Noodles & Company",
+      "aliases": [
+        "Noodles and Company",
+        "Noodles & Co."
+      ],
+      "type": "corporate",
+      "parent": "Noodles & Company",
+      "source": "https://www.sec.gov/Archives/edgar/data/1275158/000127515826000021/ndls-20251230.htm",
+      "sourceTitle": "Noodles & Company — 2025 Form 10-K",
+      "note": "Noodles & Company remained publicly traded during its 2026 strategic review; no completed sale was found. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Noodles_%26_Company",
+      "publicListing": {
+        "company": "Noodles & Company",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "NDLS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1275158/000127515826000021/ndls-20251230.htm",
+        "sourceTitle": "Noodles & Company — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Nordstrom",
+      "aliases": [
+        "Nordstrom Local"
+      ],
+      "type": "corporate",
+      "parent": "Nordstrom family (50.1%) & El Puerto de Liverpool (49.9%)",
+      "source": "https://chainstoreage.com/done-deal-nordstrom-completes-acquisition-nordstrom-family-and-liverpool",
+      "sourceTitle": "Chain Store Age — Nordstrom completes go-private acquisition by the Nordstrom family and Liverpool",
+      "note": "Nordstrom went private on May 20, 2025 and was delisted from the NYSE. The Nordstrom family holds 50.1% and Mexican retailer El Puerto de Liverpool 49.9%. It remains a large corporate chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nordstrom",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Nordstrom Rack",
+      "aliases": [
+        "Nordstrom Rack Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Nordstrom, Inc. · Nordstrom family & El Puerto de Liverpool",
+      "source": "https://chainstoreage.com/done-deal-nordstrom-completes-acquisition-nordstrom-family-and-liverpool",
+      "sourceTitle": "Chain Store Age — Nordstrom completes go-private acquisition by the Nordstrom family and Liverpool",
+      "note": "Nordstrom Rack is Nordstrom's off-price banner. Nordstrom has been privately held by the Nordstrom family and El Puerto de Liverpool since May 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nordstrom",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "North Italia",
       "aliases": [],
       "type": "corporate",
@@ -8399,6 +9453,39 @@
       ],
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "Office Depot",
+      "aliases": [
+        "Office Depot OfficeMax",
+        "Office Depot Business Solutions"
+      ],
+      "type": "pe",
+      "parent": "The ODP Corporation · Atlas Holdings",
+      "source": "https://www.willkie.com/news/2025/12/atlas-holdings-completes-take-private-acquisition-of-the-odp-corporation-parent-of-office-depot",
+      "sourceTitle": "Willkie — Atlas Holdings completes take-private of The ODP Corporation (December 2025)",
+      "note": "Atlas Holdings completed its take-private of The ODP Corporation, parent of Office Depot and OfficeMax, on December 10, 2025; ODP was delisted from Nasdaq.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Office_Depot",
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "OfficeMax",
+      "aliases": [
+        "Office Max"
+      ],
+      "type": "pe",
+      "parent": "The ODP Corporation · Atlas Holdings",
+      "source": "https://www.willkie.com/news/2025/12/atlas-holdings-completes-take-private-acquisition-of-the-odp-corporation-parent-of-office-depot",
+      "sourceTitle": "Willkie — Atlas Holdings completes take-private of The ODP Corporation (December 2025)",
+      "note": "OfficeMax stores belong to The ODP Corporation, which Atlas Holdings took private in December 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/OfficeMax",
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -8568,6 +9655,25 @@
       ],
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "P.F. Chang's",
+      "aliases": [
+        "PF Chang's",
+        "P.F. Chang's China Bistro",
+        "PF Changs China Bistro",
+        "P.F. Chang's To Go"
+      ],
+      "type": "pe",
+      "parent": "TriArtisan Capital Advisors & Paulson & Co.",
+      "source": "https://www.restaurantbusinessonline.com/financing/private-equity-firms-acquire-pf-changs",
+      "sourceTitle": "Restaurant Business — TriArtisan and Paulson acquire P.F. Chang's",
+      "note": "TriArtisan Capital Advisors and Paulson & Co. acquired P.F. Chang's from Centerbridge Partners in 2019. No later sale was found; the source predates this review.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/P._F._Chang%27s",
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -8795,6 +9901,49 @@
       "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Peet%27s_Coffee",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Pep Boys",
+      "aliases": [
+        "Pep Boys Auto",
+        "Pep Boys Manny Moe & Jack"
+      ],
+      "type": "pe",
+      "parent": "Mavis Tire · TSG Consumer Partners investment",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000813762/000110465926099264/tm2623713d1_8k.htm",
+      "sourceTitle": "Icahn Enterprises — completed sale of Pep Boys to Mavis Tire Supply (SEC 8-K, August 2026)",
+      "note": "Icahn Enterprises sold Pep Boys to Mavis Tire Supply on August 20, 2026; Icahn kept the real estate. Mavis is recorded in this directory as a TSG Consumer Partners investment.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pep_Boys",
+      "sponsors": [
+        "TSG Consumer Partners"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Perkins",
+      "aliases": [
+        "Perkins Restaurant & Bakery",
+        "Perkins Family Restaurant",
+        "Perkins Restaurant and Bakery"
+      ],
+      "type": "corporate",
+      "parent": "Ascent Hospitality Management · Elysium Management",
+      "source": "https://www.fsrmagazine.com/feature/huddle-house-acquires-perkins-out-bankruptcy/",
+      "sourceTitle": "FSR — Huddle House acquires Perkins out of bankruptcy",
+      "note": "Huddle House's parent acquired Perkins Restaurant & Bakery out of bankruptcy and runs it as a separate brand. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Perkins_Restaurant_%26_Bakery",
+      "matchCategories": [
+        "restaurant",
+        "coffee",
+        "grocery"
+      ],
       "categories": [
         "corporate"
       ]
@@ -9164,6 +10313,40 @@
       ]
     },
     {
+      "brand": "Portillo's",
+      "aliases": [
+        "Portillos",
+        "Portillo's Hot Dogs"
+      ],
+      "type": "corporate",
+      "parent": "Portillo's Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001871509/000187150926000056/ptlo-20260628.htm",
+      "sourceTitle": "Portillo's Inc. — Form 10-Q for the quarter ended June 28, 2026",
+      "note": "Portillo's Inc. operates about 109 restaurants and its Class A stock trades on Nasdaq.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Portillo%27s_Restaurants",
+      "publicListing": {
+        "company": "Portillo's Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "PTLO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001871509/000187150926000056/ptlo-20260628.htm",
+        "sourceTitle": "Portillo's Inc. — Form 10-Q, June 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Pottery Barn",
       "aliases": [],
       "type": "corporate",
@@ -9401,6 +10584,24 @@
       ]
     },
     {
+      "brand": "Qdoba",
+      "aliases": [
+        "QDOBA Mexican Eats",
+        "Qdoba Mexican Grill",
+        "QDOBA Mexican Grill"
+      ],
+      "type": "pe",
+      "parent": "Butterfly Equity",
+      "source": "https://www.nrn.com/fast-casual/qdoba-completes-435-million-whole-business-securitization",
+      "sourceTitle": "Nation's Restaurant News — Butterfly Equity-backed Qdoba completes 2026 securitization",
+      "note": "Butterfly Equity acquired Qdoba in 2022 and continued to back it in a 2025 continuation fund and a May 2026 refinancing. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Qdoba",
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "QFC",
       "aliases": [],
       "type": "corporate",
@@ -9594,6 +10795,23 @@
       ]
     },
     {
+      "brand": "Raising Cane's",
+      "aliases": [
+        "Raising Cane's Chicken Fingers",
+        "Raising Canes Chicken Fingers"
+      ],
+      "type": "corporate",
+      "parent": "Raising Cane's Restaurants, L.L.C. (privately held)",
+      "source": "https://www.fox4news.com/news/raising-canes-massive-expansion-us",
+      "sourceTitle": "FOX — Raising Cane's national expansion and development pipeline",
+      "note": "Founder Todd Graves's chain is privately held and plans roughly 100 openings in 2026 toward a 1,600-restaurant goal. It is a large private chain without a stock listing or documented PE investment.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raising_Cane%27s_Chicken_Fingers",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Raley’s",
       "aliases": [
         "Raley's"
@@ -9776,6 +10994,40 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Red_Ribbon_Bakeshop",
       "matchCategories": [
         "grocery",
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Red Robin",
+      "aliases": [
+        "Red Robin Gourmet Burgers",
+        "Red Robin Gourmet Burgers and Brews"
+      ],
+      "type": "corporate",
+      "parent": "Red Robin Gourmet Burgers, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001171759/000095014226001781/eh260793930_ex9901.htm",
+      "sourceTitle": "Red Robin Gourmet Burgers — 2026 Form 8-K exhibit",
+      "note": "Red Robin sold more than 100 company-operated restaurants to franchisees in 2026. The brand owner is listed; many restaurants are now franchise-operated.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Red_Robin",
+      "publicListing": {
+        "company": "Red Robin Gourmet Burgers, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "RRGB"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001171759/000095014226001781/eh260793930_ex9901.htm",
+        "sourceTitle": "Red Robin Gourmet Burgers — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
         "restaurant"
       ],
       "categories": [
@@ -10096,6 +11348,50 @@
       ]
     },
     {
+      "brand": "Royal Farms",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Two Farms, Inc. (privately held, Kemp family)",
+      "source": "https://www.slashgear.com/2156270/royal-farms-gas-station-who-owns-company/",
+      "sourceTitle": "SlashGear — who owns Royal Farms",
+      "note": "Royal Farms is owned by the Kemp family's privately held Two Farms Inc. and has about 290 Mid-Atlantic stores, so it is listed as a large private chain. The regional guard keeps unrelated farm businesses from matching.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Royal_Farms",
+      "matchCategories": [
+        "gas",
+        "grocery",
+        "restaurant"
+      ],
+      "matchBounds": [
+        {
+          "south": 36.5,
+          "west": -80.6,
+          "north": 41,
+          "east": -74.9
+        }
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Ruby Tuesday",
+      "aliases": [],
+      "type": "pe",
+      "parent": "NRD Capital investment",
+      "source": "https://hospitalitytech.com/ruby-tuesday-be-acquired-nrd-capital-240-share",
+      "sourceTitle": "Hospitality Technology — NRD Capital acquires Ruby Tuesday",
+      "note": "Private equity firm NRD Capital acquired Ruby Tuesday in 2017 and continued to own it after the chain's 2020–2021 Chapter 11 restructuring. No later sale was found.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ruby_Tuesday_(restaurant)",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Ruler Foods",
       "aliases": [
         "Ruler"
@@ -10124,6 +11420,22 @@
         "sourceTitle": "Kroger — current equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Rural King",
+      "aliases": [
+        "Rural King Supply"
+      ],
+      "type": "corporate",
+      "parent": "RK Holdings, LLP (privately held, family owned)",
+      "source": "https://www.homepagenews.com/retail-articles/rural-king-celebrates-65th-anniversary-as-it-expands-in-pennsylvania/",
+      "sourceTitle": "HomePage News — family-owned Rural King celebrates its 65th anniversary",
+      "note": "Rural King is a privately held, family-owned farm and home chain with more than 150 stores in 17 states in 2026. It is a large private chain.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rural_King",
       "categories": [
         "corporate"
       ]
@@ -10170,6 +11482,36 @@
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Sally Beauty",
+      "aliases": [
+        "Sally Beauty Supply"
+      ],
+      "type": "corporate",
+      "parent": "Sally Beauty Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1368458/000119312525280122/sbh-20250930.htm",
+      "sourceTitle": "Sally Beauty Holdings — fiscal 2025 Form 10-K",
+      "note": "Sally Beauty Holdings operates about 3,100 Sally Beauty stores and the Beauty Systems Group professional stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sally_Beauty_Holdings",
+      "publicListing": {
+        "company": "Sally Beauty Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SBH"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1368458/000119312525280122/sbh-20250930.htm",
+        "sourceTitle": "Sally Beauty Holdings — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -10903,6 +12245,36 @@
       ]
     },
     {
+      "brand": "Smashburger",
+      "aliases": [
+        "Smash Burger"
+      ],
+      "type": "corporate",
+      "parent": "Jollibee Foods Corporation",
+      "source": "https://abs-cbn.com/business/12/14/18/jollibee-takes-full-ownership-of-smashburger",
+      "sourceTitle": "ABS-CBN — Jollibee takes full ownership of Smashburger",
+      "note": "Jollibee Foods Corporation has owned all of Smashburger since 2018. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Smashburger_(restaurant_chain)",
+      "publicListing": {
+        "company": "Jollibee Foods Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Philippine Stock Exchange",
+            "ticker": "JFC"
+          }
+        ],
+        "source": "https://abs-cbn.com/business/12/14/18/jollibee-takes-full-ownership-of-smashburger",
+        "sourceTitle": "ABS-CBN — Jollibee Foods Corporation (PSE: JFC) Smashburger ownership",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Smith’s Food and Drug",
       "aliases": [
         "Smith's",
@@ -11007,6 +12379,41 @@
       "sourceTitle": "7-Eleven — family of banners and brands",
       "note": "7-Eleven, Inc. identifies this as a convenience retail banner in its network. This identifies brand affiliation; individual stores may have independent franchise operators.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Spencer's",
+      "aliases": [
+        "Spencer Gifts"
+      ],
+      "type": "corporate",
+      "parent": "Spencer Spirit Holdings (privately held)",
+      "source": "https://fashionunited.com/news/business/spencer-spirit-finalises-hot-topic-acquisition/2026090374406",
+      "sourceTitle": "FashionUnited — Spencer Spirit Holdings completes Hot Topic acquisition",
+      "note": "Spencer's gift stores belong to Spencer Spirit Holdings. The name is limited to store listings because it is also a common surname.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Spencer_Gifts",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Spirit Halloween",
+      "aliases": [
+        "Spirit Halloween Superstore"
+      ],
+      "type": "corporate",
+      "parent": "Spencer Spirit Holdings (privately held)",
+      "source": "https://fashionunited.com/news/business/spencer-spirit-finalises-hot-topic-acquisition/2026090374406",
+      "sourceTitle": "FashionUnited — Spencer Spirit Holdings, parent of Spirit Halloween, completes Hot Topic acquisition",
+      "note": "Spirit Halloween's seasonal stores belong to Spencer Spirit Holdings, a privately held specialty retailer with more than 3,000 stores across its brands.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Spirit_Halloween",
       "categories": [
         "corporate"
       ]
@@ -11148,6 +12555,37 @@
       "matchCategories": [
         "grocery"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Steak 'n Shake",
+      "aliases": [
+        "Steak n Shake",
+        "Steak and Shake"
+      ],
+      "type": "corporate",
+      "parent": "Biglari Holdings Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001726173/000162828026054841/bh-20260630.htm",
+      "sourceTitle": "Biglari Holdings — Form 10-Q for the quarter ended June 30, 2026",
+      "note": "Steak n Shake is a restaurant subsidiary of Biglari Holdings, with company-operated, franchise-partner, and traditional franchise locations.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Steak_%27n_Shake",
+      "publicListing": {
+        "company": "Biglari Holdings Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BH"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001726173/000162828026054841/bh-20260630.htm",
+        "sourceTitle": "Biglari Holdings — Form 10-Q, June 2026",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -11617,6 +13055,20 @@
       ]
     },
     {
+      "brand": "Taco Cabana",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Yadav Enterprises, Inc.",
+      "source": "https://elrestaurante.com/news/taco-cabana-owner-buys-del-taco/",
+      "sourceTitle": "El Restaurante — Taco Cabana owner Yadav Enterprises buys Del Taco",
+      "note": "Yadav Enterprises bought Taco Cabana from Fiesta Restaurant Group and owns the brand alongside Del Taco. It is a large private restaurant group. Individual restaurants may have independent franchise operators.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Taco_Cabana",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Taco Del Mar",
       "aliases": [
         "Taco Del Mar"
@@ -11894,6 +13346,39 @@
       ]
     },
     {
+      "brand": "The Container Store",
+      "aliases": [
+        "Container Store"
+      ],
+      "type": "corporate",
+      "parent": "Bed Bath & Beyond, Inc.",
+      "source": "https://www.digitalcommerce360.com/2026/04/06/bed-bath-beyond-to-acquire-the-container-store/amp/",
+      "sourceTitle": "Digital Commerce 360 — Bed Bath & Beyond to acquire The Container Store",
+      "note": "Bed Bath & Beyond, Inc. agreed in April 2026 to acquire The Container Store, with closing reported in July 2026 and plans to add the Bed Bath & Beyond name to its stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Container_Store",
+      "publicListing": {
+        "company": "Bed Bath & Beyond, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BBBY"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1130713/000114036126012893/ef20069679_ex99-1.htm",
+        "sourceTitle": "Bed Bath & Beyond, Inc. — 2026 Form 8-K exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "The Counter",
       "aliases": [
         "The Counter Custom Burgers"
@@ -12024,6 +13509,23 @@
       "sponsors": [
         "Leonard Green & Partners"
       ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "The Vitamin Shoppe",
+      "aliases": [
+        "Vitamin Shoppe",
+        "Super Supplements"
+      ],
+      "type": "pe",
+      "parent": "Kingswood Capital Management & Performance Investment Partners",
+      "source": "https://www.businesswire.com/news/home/20250520092532/en/Kingswood-Capital-Management-and-Performance-Investment-Partners-Complete-Acquisition-of-The-Vitamin-Shoppe",
+      "sourceTitle": "Business Wire — Kingswood and Performance Investment Partners complete acquisition of The Vitamin Shoppe",
+      "note": "Kingswood Capital Management and Performance Investment Partners acquired The Vitamin Shoppe, including its Super Supplements stores, from Franchise Group on May 20, 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Vitamin_Shoppe",
       "categories": [
         "pe"
       ]
@@ -12780,6 +14282,38 @@
       ]
     },
     {
+      "brand": "Victoria's Secret",
+      "aliases": [
+        "Victoria's Secret & Co.",
+        "Victoria's Secret Beauty",
+        "Victoria's Secret PINK"
+      ],
+      "type": "corporate",
+      "parent": "Victoria's Secret & Co.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1856437/000185643725000006/vsco-20250201.htm",
+      "sourceTitle": "Victoria's Secret & Co. — Form 10-K",
+      "note": "Victoria's Secret & Co. operates the Victoria's Secret and PINK store network.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Victoria%27s_Secret",
+      "publicListing": {
+        "company": "Victoria's Secret & Co.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "VSCO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1856437/000185643725000006/vsco-20250201.htm",
+        "sourceTitle": "Victoria's Secret & Co. — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Village Inn",
       "aliases": [],
       "type": "corporate",
@@ -12952,6 +14486,20 @@
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Waffle House",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Waffle House, Inc. (privately held)",
+      "source": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026010524",
+      "sourceTitle": "Texas Department of Licensing and Regulation — 2026 Waffle House, Inc. project record",
+      "note": "Waffle House, Inc. of Norcross, Georgia is a privately held, family-controlled company with nearly 2,000 restaurants. It is a large private chain. Some restaurants are franchised.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Waffle_House",
       "categories": [
         "corporate"
       ]
@@ -13226,6 +14774,25 @@
       ]
     },
     {
+      "brand": "White Castle",
+      "aliases": [
+        "White Castle Hamburgers"
+      ],
+      "type": "corporate",
+      "parent": "White Castle System, Inc. (family owned)",
+      "source": "https://nrn.com/restaurant-operations/how-white-castle-plans-to-grow-under-outside-leadership",
+      "sourceTitle": "Nation's Restaurant News — family-owned White Castle's leadership and growth",
+      "note": "White Castle is family owned and led by fourth-generation CEO Lisa Ingram, with about 340 company-operated restaurants. White Castle grocery products sold in other stores are not thereby company-owned stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/White_Castle_(restaurant)",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "White House Black Market",
       "aliases": [
         "WHBM"
@@ -13268,6 +14835,26 @@
         "sourceTitle": "Amazon — second-quarter 2026 listing statement",
         "checked": "2026-10-25"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Wienerschnitzel",
+      "aliases": [
+        "Wiener Schnitzel",
+        "Der Wienerschnitzel"
+      ],
+      "type": "corporate",
+      "parent": "Galardi Group (family owned)",
+      "source": "https://www.nrn.com/corporate/wienerschnitzel-explores-next-generation-moves",
+      "sourceTitle": "Nation's Restaurant News — family-owned Galardi Group and Wienerschnitzel",
+      "note": "The Galardi family's Galardi Group owns and franchises Wienerschnitzel, a chain of more than 300 restaurants. The bare dish name does not match unless the place is a restaurant.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Wienerschnitzel",
+      "matchCategories": [
+        "restaurant"
+      ],
       "categories": [
         "corporate"
       ]
@@ -13492,6 +15079,24 @@
       ]
     },
     {
+      "brand": "Yesway",
+      "aliases": [],
+      "type": "pe",
+      "parent": "BW Gas & Convenience Holdings (Brookwood Financial Partners affiliate)",
+      "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/yesway",
+      "sourceTitle": "CSP Top 202 (2026) — Yesway owned by BW Gas & Convenience Holdings",
+      "note": "CSP's 2026 ranking lists Yesway, with about 450 stores, as owned by BW Gas & Convenience Holdings, an affiliate of investment firm Brookwood Financial Partners.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allsup%27s",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Yoke’s Fresh Market",
       "aliases": [
         "Yoke's Fresh Markets",
@@ -13508,6 +15113,41 @@
         "grocery"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Zales",
+      "aliases": [
+        "Zales Jewelers",
+        "Zales Outlet",
+        "Zales the Diamond Store"
+      ],
+      "type": "corporate",
+      "parent": "Signet Jewelers Limited",
+      "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+      "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+      "note": "Zales is one of Signet's three largest North American jewelry brands.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Zale_Corporation",
+      "publicListing": {
+        "company": "Signet Jewelers Limited",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SIG"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+        "sourceTitle": "Signet Jewelers — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -13549,6 +15189,34 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Zumiez",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Zumiez Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1318008/000095017025038692/zumz-20250201.htm",
+      "sourceTitle": "Zumiez — Form 10-K",
+      "note": "Zumiez Inc. operates its own specialty apparel and skate stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Zumiez",
+      "publicListing": {
+        "company": "Zumiez Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "ZUMZ"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1318008/000095017025038692/zumz-20250201.htm",
+        "sourceTitle": "Zumiez — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
       ]
     }
   ]

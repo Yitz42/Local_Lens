@@ -4163,7 +4163,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Checkers",
+          "parent": "Oak Hill Capital Partners investment",
+          "type": "pe",
+          "source": "https://www.franchisetimes.com/top-400-2025/90-checkers-rallys/article_7b47b943-252f-4d78-af30-9655e4988a53.html",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Oak Investment Partners",
@@ -5936,6 +5944,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.tsgconsumer.com/investments/",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "Pep Boys",
+          "parent": "Mavis Tire · TSG Consumer Partners investment",
+          "type": "pe",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000813762/000110465926099264/tm2623713d1_8k.htm",
+          "checked": "2026-10-27"
         },
         {
           "brand": "Pura Vida Miami",

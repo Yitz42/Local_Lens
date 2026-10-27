@@ -668,7 +668,7 @@ Reviewed individual Current/Exited labels. The page mixes both statuses. Dutch B
 | Thrive Pet Healthcare | current portfolio investment | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) | Explicit Current status; no ownership percentage asserted. | 2026-10-16 |
 | Wrench Group | current portfolio investment | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) | Explicit Current status; no ownership percentage asserted. | 2026-10-16 |
 
-Brands in Local Lens: ATI Restoration, Cadogan Tate, CorePower Yoga, Crumbl, EoS Fitness, Los Tacos No. 1, Mavis Tires & Brakes, Pura Vida Miami, Sola Salons, Super Star Car Wash, Thrive Pet Healthcare, Woodhouse Spa.
+Brands in Local Lens: ATI Restoration, Cadogan Tate, CorePower Yoga, Crumbl, EoS Fitness, Los Tacos No. 1, Mavis Tires & Brakes, Pep Boys, Pura Vida Miami, Sola Salons, Super Star Car Wash, Thrive Pet Healthcare, Woodhouse Spa.
 
 ## Verlinvest
 
