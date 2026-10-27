@@ -58,3 +58,11 @@ test('October 27 restaurant and retail additions carry their reviewed owners and
  assert.equal(excludedBrandNameMatch(q("Denny's - Downtown",'restaurant'),['pe']).brand,"Denny's");
  assert.equal(excludedBrandNameMatch(q('Hollister Plumbing Supply','home'),['corporate']),null);
 });
+test('national chains with unconfirmed owners are corporate without inferred sponsors',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category] of [['TGI Fridays','restaurant'],['Blaze Pizza','restaurant'],['Chuck E. Cheese','restaurant'],["Torchy's Tacos",'restaurant'],['Sbarro','restaurant'],['Cicis','restaurant'],['Smoothie King','coffee'],['Fleet Farm','general'],["Carter's",'apparel'],["OshKosh B'gosh",'apparel']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,'corporate',name);assert.equal(owner.sponsors,undefined,name);
+ }
+ for(const [name,category] of [["Carter's",'restaurant'],['OshKosh','restaurant'],["Torchy's",'grocery'],['TGIF','grocery']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.deepEqual(ownershipFor(q("Carter's",'apparel')).publicListing.exchanges,[{exchange:'NYSE',ticker:'CRI'}]);
+});

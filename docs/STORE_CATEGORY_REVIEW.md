@@ -1,6 +1,6 @@
 # Store categories and large-chain additions
 
-Checked October 27, 2026. This pass split the map's **More stores** category and added 70 large US chains that were missing from the directory. It also added three Fry's (Kroger) spellings to the existing record, bringing the directory from 625 to **695 corporate or PE brands**. Classifications rely on SEC filings, company releases, and dated trade-press reports. Wikipedia is kept only as a research reference. Page fetches were unavailable during this review, so each source is the most direct dated report found by search. Several entries record a 2025–2026 change of ownership.
+Checked October 27, 2026. This pass split the map's **More stores** category and added 80 large US chains that were missing from the directory. It also added three Fry's (Kroger) spellings to the existing record, bringing the directory from 625 to **705 corporate or PE brands**. Classifications rely on SEC filings, company releases, and dated trade-press reports. Wikipedia is kept only as a research reference. Page fetches were unavailable during this review, so each source is the most direct dated report found by search. Several entries record a 2025–2026 change of ownership.
 
 ## Store categories
 
@@ -36,8 +36,12 @@ Grocery, convenience, gas, coffee, and restaurant terms are still checked first,
 
 ## Name guards
 
-Names that are also common words, surnames, or place names only match store or restaurant listings: Checkers, Bob Evans, Hollister, Jared, Journeys, Spencer's, BoxLunch, Wienerschnitzel, Cook Out, Zales, and Kirkland's. GetGo and Royal Farms also have regional bounds. BJ's Restaurant & Brewhouse is a separate record from BJ's Wholesale Club. Kirkland's is not matched to Costco's Kirkland Signature.
+Names that are also common words, surnames, or place names only match store or restaurant listings: Checkers, Bob Evans, Hollister, Jared, Journeys, Spencer's, BoxLunch, Wienerschnitzel, Cook Out, Zales, Kirkland's, TGI Fridays, Torchy's, Cicis, Carter's, and OshKosh. GetGo and Royal Farms also have regional bounds. BJ's Restaurant & Brewhouse is a separate record from BJ's Wholesale Club. Kirkland's is not matched to Costco's Kirkland Signature.
+
+## National chains with unconfirmed owners
+
+TGI Fridays, Blaze Pizza, Chuck E. Cheese, Torchy's Tacos, Sbarro, Cicis, Smoothie King, and Fleet Farm are added as corporate national chains. Their current owners could not be confirmed from a dated primary source, so they carry no PE sponsor or stock listing. Each note records the reported owner where one exists, such as Sugarloaf Hospitality for TGI Fridays, D&G Investors for Cicis, or Golub Capital for Fleet Farm. They are hidden by the default corporate exclusion. If any is later confirmed as PE backed, its record should move to the PE type with a sponsor. Carter's and OshKosh B'gosh were added with Carter's, Inc.'s NYSE listing.
 
 ## Not added in this pass
 
-Current ownership could not be confirmed from a dated source for TGI Fridays, Blaze Pizza, Chuck E. Cheese, Torchy's Tacos, Sbarro, Cicis, Smoothie King, Fleet Farm, and Carter's. Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.
+Harveys Supermarkets has been converted to Winn-Dixie. Regional private convenience chains under about 100 stores, such as Weigel's and Rutter's, were left unclassified. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.

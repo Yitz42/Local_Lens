@@ -13146,6 +13146,194 @@
       "sponsors": [
         "TSG Consumer Partners"
       ]
+    },
+    {
+      "brand": "TGI Fridays",
+      "aliases": [
+        "TGI Friday's",
+        "T.G.I. Friday's",
+        "TGIF"
+      ],
+      "type": "corporate",
+      "parent": "TGI Fridays brand · reported owner Sugarloaf Hospitality",
+      "source": "https://www.nrn.com/casual-dining/tgi-fridays-liquidation-plan-approved-as-chapter-11-winds-down",
+      "sourceTitle": "Nation's Restaurant News — TGI Fridays liquidation plan approved as Chapter 11 winds down",
+      "note": "The brand continues after its 2024 Chapter 11 case, with about 70 US restaurants in 2026; reports name an investment group led by former CEO Ray Blanchette as owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/TGI_Fridays",
+      "matchCategories": [
+        "restaurant"
+      ]
+    },
+    {
+      "brand": "Blaze Pizza",
+      "aliases": [
+        "Blaze Fast-Fire'd Pizza"
+      ],
+      "type": "corporate",
+      "parent": "Blaze Pizza, LLC · owner not confirmed",
+      "source": "https://franchisors.franchising.com/articles/patel_inks_5unit_deal_with_blaze_pizza.html",
+      "sourceTitle": "Franchising.com — Blaze Pizza multi-unit franchise agreement",
+      "note": "Blaze Pizza is a national franchised pizza chain. Some reports name Brentwood Associates as controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Blaze_Pizza"
+    },
+    {
+      "brand": "Chuck E. Cheese",
+      "aliases": [
+        "Chuck E Cheese",
+        "Chuck E. Cheese's"
+      ],
+      "type": "corporate",
+      "parent": "CEC Entertainment, LLC",
+      "source": "https://www.restaurantbusinessonline.com/leadership/scott-drake-named-ceo-chuck-e-cheese-owner-cec-entertainment",
+      "sourceTitle": "Restaurant Business — Scott Drake named CEO of Chuck E. Cheese owner CEC Entertainment",
+      "note": "CEC Entertainment owns and franchises Chuck E. Cheese and Peter Piper Pizza. It emerged from bankruptcy in 2020 under new ownership. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chuck_E._Cheese"
+    },
+    {
+      "brand": "Torchy's Tacos",
+      "aliases": [
+        "Torchys Tacos",
+        "Torchy's"
+      ],
+      "type": "corporate",
+      "parent": "Torchy's Holdings · owner not confirmed",
+      "source": "https://www.generalatlantic.com/media-article/torchys-tacos-general-atlantic-announce-strategic-partnership/",
+      "sourceTitle": "General Atlantic — Torchy's Tacos strategic partnership",
+      "note": "General Atlantic took a minority stake in Torchy's in 2017 alongside its founders; whether that investment is current was not confirmed. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Torchy%27s_Tacos",
+      "matchCategories": [
+        "restaurant"
+      ]
+    },
+    {
+      "brand": "Sbarro",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Sbarro, LLC · owner not confirmed",
+      "source": "https://www.nrn.com/quick-service/sbarro-ceo-convenience-stores-international-markets-key-to-pizza-chain-s-resurgence",
+      "sourceTitle": "Nation's Restaurant News — Sbarro CEO on convenience-store and international growth (2026)",
+      "note": "Sbarro has more than 850 locations worldwide, many inside malls, airports, and convenience stores. Reports differ on its controlling owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sbarro"
+    },
+    {
+      "brand": "Cicis Pizza",
+      "aliases": [
+        "Cicis",
+        "Cici's Pizza",
+        "Cici's"
+      ],
+      "type": "corporate",
+      "parent": "Cicis Holdings · D&G Investors (reported)",
+      "source": "https://www.meatpoultry.com/articles/24703-cicis-pizza-completes-restructuring",
+      "sourceTitle": "Meat+Poultry — Cicis Pizza completes restructuring",
+      "note": "Cicis was sold to its lender D&G Investors, affiliated with SSCP Management and Gala Capital Partners, in its 2021 restructuring. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cicis_Pizza",
+      "matchCategories": [
+        "restaurant"
+      ]
+    },
+    {
+      "brand": "Smoothie King",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Smoothie King Franchises, Inc. (privately held)",
+      "source": "https://www.verdictfoodservice.com/newsletters/smoothie-king-to-open-stores-2026",
+      "sourceTitle": "Verdict Foodservice — Smoothie King 2026 store growth",
+      "note": "Smoothie King is a privately held national franchise chain of more than 1,100 stores; reports name CEO Wan Kim as majority owner. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Smoothie_King",
+      "matchCategories": [
+        "coffee",
+        "restaurant",
+        "grocery"
+      ]
+    },
+    {
+      "brand": "Fleet Farm",
+      "aliases": [
+        "Mills Fleet Farm"
+      ],
+      "type": "corporate",
+      "parent": "Fleet Farm · owner not confirmed",
+      "source": "https://media.kkr.com/news-releases/news-release-details/mills-fleet-farm-announces-new-ownership-carry-founders-vision",
+      "sourceTitle": "KKR — Mills Fleet Farm announces new ownership (2016)",
+      "note": "Fleet Farm is an Upper Midwest farm and home chain of about 50 large stores. KKR bought it in 2016, and later reports say Golub Capital acquired it in December 2024; neither is assigned here. This record classifies it as a large national chain; the current owner could not be confirmed from a dated primary source, so no owner-specific PE or stock label is assigned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fleet_Farm",
+      "matchCategories": [
+        "other",
+        "gas",
+        "grocery"
+      ]
+    },
+    {
+      "brand": "Carter's",
+      "aliases": [
+        "Carters",
+        "Carter's Babies and Kids",
+        "Carter's Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Carter's, Inc.",
+      "source": "https://ir.carters.com/node/19926",
+      "sourceTitle": "Carter's, Inc. — fourth quarter and fiscal 2025 results",
+      "note": "Carter's, Inc. operates Carter's and OshKosh B'gosh stores. The possessive surname only matches store listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Carter%27s",
+      "publicListing": {
+        "company": "Carter's, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CRI"
+          }
+        ],
+        "source": "https://ir.carters.com/node/19926",
+        "sourceTitle": "Carter's, Inc. — fourth quarter and fiscal 2025 results",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ]
+    },
+    {
+      "brand": "OshKosh B'gosh",
+      "aliases": [
+        "OshKosh",
+        "Oshkosh Bgosh"
+      ],
+      "type": "corporate",
+      "parent": "Carter's, Inc.",
+      "source": "https://ir.carters.com/node/19926",
+      "sourceTitle": "Carter's, Inc. — fourth quarter and fiscal 2025 results",
+      "note": "OshKosh B'gosh is a Carter's, Inc. brand with its own stores. The bare name only matches store listings because Oshkosh is also a city.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/OshKosh_B%27gosh",
+      "publicListing": {
+        "company": "Carter's, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CRI"
+          }
+        ],
+        "source": "https://ir.carters.com/node/19926",
+        "sourceTitle": "Carter's, Inc. — fourth quarter and fiscal 2025 results",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ]
     }
   ]
 }
