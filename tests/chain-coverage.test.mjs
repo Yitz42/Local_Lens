@@ -38,8 +38,8 @@ test('current public equity and completed private ownership remain distinct',()=
  assert.deepEqual(row('Dillard’s').publicListing.exchanges,[{exchange:'TXSE',ticker:'DDS'}]);
  assert.equal(row('Cumberland Farms').publicListing,undefined);
  assert.deepEqual(row('Black Rock Coffee Bar').categories,['corporate','pe']);
- assert.ok(row('Cenex').publicListing.exchanges.some(s=>s.ticker==='CHSCP'));
- assert.match(row('Cenex').note,/preferred equity/);
+ assert.equal(row('Cenex').publicListing,undefined);assert.equal(row('Cenex').type,'independent');
+ assert.match(row('Cenex').note,/preferred stock/);assert.equal(row('Cenex Zip Trip').type,'corporate');
  assert.equal(row('CITGO').type,'corporate');assert.ok(!row('CITGO').sponsors?.includes('Elliott Investment Management'));
  assert.equal(row('Pet Supplies Plus').type,'corporate');assert.equal(row('Pet Supplies Plus').sponsors,undefined);
 });

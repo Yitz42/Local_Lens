@@ -59,9 +59,13 @@ Corporate includes any reviewed operating company with equity listed on a stock 
 
 The category row separates Pharmacies, Home & hardware, Clothing & shoes, and Department & discount from More stores. Overture taxonomy, OpenStreetMap shop tags, and Google place types each map to these categories, and grocery, fuel, coffee, and restaurant tags still take precedence. A brand guard of `other` in `data/brands.json` covers every store category. The October 27, 2026 passes also added 149 large restaurant, retail, and convenience chains across the new categories, including 2025–2026 ownership changes such as Denny's, Del Taco, Office Depot, Nordstrom, Hot Topic, and Pep Boys. See the [store category review](docs/STORE_CATEGORY_REVIEW.md).
 
-## Locally owned locations
+## Where the money goes
 
-147 brands carry a **Locally owned locations** badge because most of their US locations are owned and run by local franchisees (`franchise`), independent dealers or station owners (`dealer`), or members of a retailer-owned cooperative (`cooperative`). Examples are McDonald's, Subway, and Dunkin'; Shell, Chevron, and NAPA Auto Parts; and Ace Hardware and IGA. The badge appears on map cards, place details, and the brand list, which can filter on it. The `localOperators` field is included in the JSON and CSV downloads. The badge does not change a brand's corporate or PE label or the ownership filters, and it does not verify the owner of a particular store. Brands are marked only when local ownership is the norm, not merely possible. Chick-fil-A is not marked, because its operators run company-owned restaurants.
+Locally run stores are classified by where most of the money goes. **Franchise** brands (such as McDonald's, Subway, and Dunkin') and **dealer** brands (fuel brands, NAPA Auto Parts, prepaid wireless dealers, and Ashley's licensed stores) keep their corporate or PE label. A local owner runs the store, but royalties, marketing fees, required supplies, fuel or service sales, and often rent flow mainly to the brand owner. These brands show a *Local franchise owner* or *Independent dealer* badge, and the corporate and PE filters still hide them.
+
+**Cooperative** networks (Ace Hardware, True Value, Cenex) and **licensed independent** grocers (IGA, Piggly Wiggly) are labeled *Independent / co-op*. The store belongs to the local owner, co-op earnings are paid back to members, and brand fees are small, so most of the money stays local. These are not hidden by the corporate or PE filters and are not caught by automatic brand-name matching. Company-owned exceptions have their own corporate records: Westlake Ace and Great Lakes Ace, Houchens' Price Less IGA and Crossroads IGA, and CHS's Cenex Zip Trip.
+
+The `localOperators` field (`franchise`, `dealer`, `cooperative`, or `licensed`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
 
 ## Default ownership and food filters
 

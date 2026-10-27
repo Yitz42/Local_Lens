@@ -312,22 +312,20 @@
     {
       "brand": "Ace Hardware",
       "aliases": [
-        "Ace Hardware Corporation",
-        "Westlake Ace Hardware",
-        "Great Lakes Ace Hardware"
+        "Ace Hardware Corporation"
       ],
-      "type": "corporate",
-      "parent": "Ace Hardware Corporation · retailer-owned cooperative",
+      "type": "independent",
+      "parent": "Independently owned member stores · Ace Hardware Corporation (retailer-owned cooperative)",
       "source": "https://newsroom.acehardware.com/download/697b4cda-933c-47b7-ba95-95441c9a018e/2025financialreportfinal.pdf",
       "sourceTitle": "Ace Hardware — 2025 financial report issued in 2026",
-      "note": "Ace is a retailer-owned cooperative. Most member stores are independently owned; Ace Retail Holdings owns Westlake Ace and Great Lakes Ace. This label describes cooperative brand affiliation and does not assert Ace owns every local hardware store.",
-      "checked": "2026-10-26",
+      "note": "Most Ace stores are independently owned by local members of the retailer-owned Ace cooperative, which returns its earnings to members. Because most of the money stays with the local owner, member stores are labeled independent / co-op. Company-owned Westlake Ace and Great Lakes Ace stores are a separate corporate record.",
+      "checked": "2026-10-27",
       "matchCategories": [
         "other"
       ],
       "localOperators": "cooperative",
       "categories": [
-        "corporate"
+        "independent"
       ]
     },
     {
@@ -2882,51 +2880,21 @@
     {
       "brand": "Cenex",
       "aliases": [],
-      "type": "corporate",
-      "parent": "CHS Inc. · farmer-owned cooperative",
+      "type": "independent",
+      "parent": "Locally owned retailers and local cooperatives · CHS Inc. (farmer-owned cooperative, brand owner)",
       "source": "https://www.cenex.com/business-and-growth/about-us/who-we-are",
       "sourceTitle": "Cenex — CHS brand and locally owned retailer network",
-      "note": "Cenex identifies itself as the energy brand of CHS and explicitly describes its locally owned retail network. The corporate filter identifies brand affiliation, not CHS ownership of each station. CHS has listed preferred equity; this is not a claim of listed common stock.",
-      "checked": "2026-10-26",
+      "note": "Cenex stations are owned by local businesses and local farmer cooperatives that sell CHS's Cenex fuel. CHS is itself farmer-owned and returns earnings to member cooperatives; its listed shares are preferred stock, not common equity. Cenex Zip Trip stores, which CHS operates, are a separate corporate record.",
+      "checked": "2026-10-27",
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_gas_station_chains_in_North_America",
       "matchCategories": [
         "gas",
         "grocery",
         "other"
       ],
-      "publicListing": {
-        "company": "CHS Inc.",
-        "relationship": "brand_owner",
-        "securityType": "equity",
-        "exchanges": [
-          {
-            "exchange": "Nasdaq",
-            "ticker": "CHSCP"
-          },
-          {
-            "exchange": "Nasdaq",
-            "ticker": "CHSCO"
-          },
-          {
-            "exchange": "Nasdaq",
-            "ticker": "CHSCN"
-          },
-          {
-            "exchange": "Nasdaq",
-            "ticker": "CHSCM"
-          },
-          {
-            "exchange": "Nasdaq",
-            "ticker": "CHSCL"
-          }
-        ],
-        "source": "https://www.chsinc.com/about-us/owners-and-investors/",
-        "sourceTitle": "CHS — Nasdaq-listed preferred equity classes",
-        "checked": "2026-10-26"
-      },
       "localOperators": "cooperative",
       "categories": [
-        "corporate"
+        "independent"
       ]
     },
     {
@@ -7439,19 +7407,19 @@
         "IGA Supermarket",
         "IGA Supermarkets"
       ],
-      "type": "corporate",
-      "parent": "Independent Grocers Alliance · independent affiliated retailers",
+      "type": "independent",
+      "parent": "Independently owned grocers · Independent Grocers Alliance (banner licensor)",
       "source": "https://corporate.iga.com/news/press-room/iga-launches-program-to-address-food-desert-crisis-in-urban-rural-america?hs_amp=true",
       "sourceTitle": "IGA — January 2026 independent grocery alliance statement",
-      "note": "IGA is a large banner alliance whose stores are independently owned and operated. The corporate category describes network affiliation, not chain ownership or private equity. Alex Lee does not own every IGA.",
-      "checked": "2026-10-25",
+      "note": "IGA stores are independently owned and operated by local grocers who license the banner. Licensing fees are small, so most of the money stays with the local owner; they are labeled independent. Houchens' Price Less IGA and Crossroads IGA are separate corporate records.",
+      "checked": "2026-10-27",
       "matchCategories": [
         "grocery"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
-      "localOperators": "cooperative",
+      "localOperators": "licensed",
       "categories": [
-        "corporate"
+        "independent"
       ]
     },
     {
@@ -11404,19 +11372,19 @@
     {
       "brand": "Piggly Wiggly",
       "aliases": [],
-      "type": "corporate",
-      "parent": "Piggly Wiggly, LLC · C&S Wholesale Grocers affiliation",
+      "type": "independent",
+      "parent": "Independently owned grocers · Piggly Wiggly, LLC (C&S Wholesale Grocers, banner licensor)",
       "source": "https://www.pigglywiggly.com/",
       "sourceTitle": "Piggly Wiggly — official banner and licensing statement",
-      "note": "The large licensed banner is affiliated with C&S. Stores can be independently owned and operated; this does not classify every C&S wholesale customer as a C&S-owned store.",
-      "checked": "2026-10-25",
+      "note": "Piggly Wiggly stores are mostly independently owned grocers licensing the banner from C&S Wholesale Grocers. Most of the money stays with the local owner, so they are labeled independent. Buying groceries from a wholesaler does not make a store corporate-owned.",
+      "checked": "2026-10-27",
       "matchCategories": [
         "grocery"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
-      "localOperators": "cooperative",
+      "localOperators": "licensed",
       "categories": [
-        "corporate"
+        "independent"
       ]
     },
     {
@@ -15807,18 +15775,18 @@
         "True Value Hardware",
         "TrueValue"
       ],
-      "type": "corporate",
-      "parent": "True Value Company · Do it Best cooperative",
+      "type": "independent",
+      "parent": "Independently owned retailers · Do it Best cooperative (brand owner)",
       "source": "https://truevaluecompany.com/do-it-best-successfully-completes-purchase-of-true-value",
       "sourceTitle": "Do it Best / True Value — completed acquisition",
-      "note": "Do it Best completed its purchase of True Value in November 2024, including brand rights. True Value retailers are independently owned; the label describes affiliation with the large cooperative network, not ownership of each local dealer.",
-      "checked": "2026-10-26",
+      "note": "Do it Best, a member-owned cooperative, bought True Value in November 2024. True Value stores are independently owned by local retailers, so most of the money stays with the local owner; they are labeled independent / co-op.",
+      "checked": "2026-10-27",
       "matchCategories": [
         "other"
       ],
       "localOperators": "cooperative",
       "categories": [
-        "corporate"
+        "independent"
       ]
     },
     {
@@ -16689,6 +16657,25 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Westlake Ace Hardware",
+      "aliases": [
+        "Great Lakes Ace Hardware",
+        "Westlake Ace"
+      ],
+      "type": "corporate",
+      "parent": "Ace Retail Holdings · Ace Hardware Corporation",
+      "source": "https://newsroom.acehardware.com/download/697b4cda-933c-47b7-ba95-95441c9a018e/2025financialreportfinal.pdf",
+      "sourceTitle": "Ace Hardware — 2025 financial report issued in 2026",
+      "note": "Ace Retail Holdings, a subsidiary of the Ace cooperative, owns and operates Westlake Ace and Great Lakes Ace stores. Unlike member stores, these are company-owned.",
+      "checked": "2026-10-27",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {

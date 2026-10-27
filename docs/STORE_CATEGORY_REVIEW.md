@@ -56,11 +56,20 @@ Short or common names only match the matching store category: H&M (which also ne
 
 ## Remaining private chains
 
-Rooms To Go, Living Spaces, Boscov's, Von Maur, bealls (including Bealls Outlet, Burkes Outlet, and Bealls Florida), Books-A-Million, Northern Tool + Equipment, and Scheels (employee owned) were added as large private chains. Kendra Scott is labeled PE: founder Kendra Scott keeps majority control, but [65 Equity Partners led a 2024 minority investment](https://www.privsource.com/acquisitions/deal/65-equity-partners-leads-minority-investment-in-kendra-scott-LXSoRG). The directory now lists 774 corporate or PE brands.
+Rooms To Go, Living Spaces, Boscov's, Von Maur, bealls (including Bealls Outlet, Burkes Outlet, and Bealls Florida), Books-A-Million, Northern Tool + Equipment, and Scheels (employee owned) were added as large private chains. Kendra Scott is labeled PE: founder Kendra Scott keeps majority control, but [65 Equity Partners led a 2024 minority investment](https://www.privsource.com/acquisitions/deal/65-equity-partners-leads-minority-investment-in-kendra-scott-LXSoRG). The directory now lists 770 corporate or PE brands and 5 independent / co-op networks.
 
-## Locally owned locations
+## Locally run stores and where the money goes
 
-The optional `localOperators` field marks 147 brands whose US locations are mostly owned locally: 119 franchise systems, 23 dealer networks (fuel brands, NAPA Auto Parts, prepaid wireless dealers, and Ashley's licensed stores), and 5 cooperatives or independent-grocer networks (Ace Hardware, True Value, IGA, Piggly Wiggly, and Cenex). Brands were marked from their published business models only where franchised, dealer, or member stores are the norm. Mixed systems such as Panera, Buffalo Wild Wings, Five Guys, La-Z-Boy, and 7-Eleven are not marked. Chick-fil-A is not marked, because its operators run restaurants the company owns. The marker is informational and does not change ownership filtering.
+The optional `localOperators` field marks 147 brands whose US locations are mostly run by local owners. The ownership label follows where most of the money goes:
+
+| Model | Brands | Label | Why |
+| --- | ---: | --- | --- |
+| `franchise` | 119 | Corporate or PE, plus a *Local franchise owner* badge | Royalties (often 4–8% of sales), marketing fees, required supplies, and sometimes rent go to the franchisor. Together these usually exceed the owner's profit. |
+| `dealer` | 23 | Corporate or PE, plus an *Independent dealer* badge | Most sales are the brand's fuel, wireless service, parts, or furniture. |
+| `cooperative` | 3 | Independent / co-op (Ace Hardware, True Value, Cenex) | Member-owned. Co-op earnings are returned to the local member stores. |
+| `licensed` | 2 | Independent / co-op (IGA, Piggly Wiggly) | Independently owned grocers pay a small banner fee and keep their profits. |
+
+Buying inventory from a wholesaler is not treated as money going to a corporate owner, because every independent store does that. Company-owned exceptions are separate corporate records: Westlake Ace and Great Lakes Ace (Ace Retail Holdings, newly split out), Price Less IGA and Crossroads IGA (Houchens), and Cenex Zip Trip (CHS). CHS's listed preferred stock is described in the Cenex note instead of a common-equity listing. Mixed systems such as Panera, Buffalo Wild Wings, Five Guys, La-Z-Boy, and 7-Eleven are not marked, and neither is Chick-fil-A, whose operators run company-owned restaurants.
 
 ## Not added in this pass
 
