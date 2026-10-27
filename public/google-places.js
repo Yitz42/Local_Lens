@@ -1,4 +1,4 @@
-import {foodTypesFromTerms,foodTypeLabel} from './food-types.js';
+import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';

@@ -1,4 +1,4 @@
-import {matchesOwnershipCategory} from './ownership-categories.js?v=20261025-public1';
+import {matchesOwnershipCategory} from './ownership-categories.js?v=20261025-pharmacy1';
 export const TYPE_LABELS={corporate:'Corporate brand',pe:'Private equity backed'};
 const fold=value=>String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 export function searchBrands(brands,{query='',type='all'}={}){
