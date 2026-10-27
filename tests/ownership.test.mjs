@@ -42,6 +42,26 @@ test('corporate exclusion hides the corrected brands while retaining unknown pla
  assert.deepEqual(filterPlaces(places,{origin,hidden:['corporate']}).map(p=>p.name),['Neighborhood Kitchen']);
  assert.equal(filterPlaces(places,{origin,hidden:['pe']}).length,4);
 });
+test('Einstein full-name variants are corporate even when listed under groceries',()=>{
+ for(const category of ['restaurant','coffee','grocery','other'])for(const name of ['Einstein Bros. Bagels','Einstin Bros. Bagels','Einstien Bros. Bagels','Einstein Bros Bagel','Einstein Bagel','Einstein’s Bros. Bagels']){
+  const place=p(name,{category});
+  assert.equal(ownershipFor(place).type,'corporate',name+' / '+category);
+  assert.match(ownershipFor(place).parent,/JAB/);
+  assert.equal(filterPlaces([place],{origin,hidden:['corporate'],matchBrandNames:false}).length,0);
+ }
+ for(const name of ['Einstein Cafe','Einstein Academy','Einstin Cafe'])assert.equal(ownershipFor(p(name,{category:'grocery'})).type,'unknown');
+});
+test('Giant pharmacy departments have a corporate parent across grocery and pharmacy categories',()=>{
+ const location={lat:40.27,lng:-76.89};
+ for(const category of ['grocery','other'])for(const name of ['Giant Pharmacy','GIANT PHARMACY #42','Giant Food Pharmacy','Giant Food Stores Pharmacy','The GIANT Company Pharmacy']){
+  const place=p(name,{...location,category});const owner=ownershipFor(place);
+  assert.equal(owner.type,'corporate',name);assert.match(owner.parent,/Ahold Delhaize/);
+  assert.deepEqual(owner.publicListing.exchanges,[{exchange:'Euronext Amsterdam',ticker:'AD'}]);
+  assert.equal(filterPlaces([place],{origin:location,hidden:['corporate'],matchBrandNames:false}).length,0);
+ }
+ for(const name of ['Giant Eagle Pharmacy','Giant Plumbing','Giant Pharmacy Consulting'])assert.equal(ownershipFor(p(name,{...location,category:'other'})).type,'unknown');
+ assert.equal(ownershipFor(p('Giant Pharmacy',{category:'other'})).type,'unknown');
+});
 test('former pharmacy chains are classified in legacy records without claiming a current listing',()=>{
  const names=['Rite Aid','RiteAid','Rite Aid Pharmacy #1234','Rite Aid Drugstore','Bartell Drugs','Bartell Drug Company','Bartell Drugs Pharmacy #42'];
  for(const category of ['grocery','other'])for(const name of names){

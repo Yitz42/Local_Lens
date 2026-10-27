@@ -31,6 +31,18 @@ test('automatic names catch brand departments and locations without asserting ow
  assert.ok(excludedBrandNameMatch(p('Subway - Riverside','restaurant'),['pe']));
  assert.equal(excludedBrandNameMatch(p('Subway - Riverside','restaurant'),['corporate']),null);
 });
+test('Einstein grocery listings and Giant pharmacy names obey the corporate exclusion',()=>{
+ for(const name of ['Einstin Bros. Bagels - Downtown','Einstien Bros. Bagels - Downtown','Einstein Bros. Bagels - Downtown']){
+  const place=p(name,'grocery');
+  assert.equal(excludedBrandNameMatch(place,['corporate']).brand,'Einstein Bros. Bagels');
+  assert.equal(excludedBrandNameMatch(place,['pe']),null);
+ }
+ for(const category of ['grocery','other']){
+  const place={...p('Giant Pharmacy - Downtown',category),lat:40.27,lng:-76.89};
+  assert.equal(excludedBrandNameMatch(place,['corporate']).brand,'Giant Pharmacy');
+ }
+ assert.equal(excludedBrandNameMatch(p('Einstein Cafe','grocery'),['corporate']),null);
+});
 test('automatic name matches preserve category and punctuation guards and skip independent references',()=>{
  assert.equal(excludedBrandNameMatch(p('Apple Pie Kitchen','restaurant'),['corporate']),null);
  assert.equal(excludedBrandNameMatch(p('ACME - Downtown','restaurant'),['corporate']),null);

@@ -3318,14 +3318,19 @@
         "Einstein Bros.",
         "Einstein Brothers Bagels",
         "Einstein’s Bagels",
-        "Einstein Bagels"
+        "Einstein Bagels",
+        "Einstin Bros. Bagels",
+        "Einstien Bros. Bagels",
+        "Einstein Bros. Bagel",
+        "Einstein Bagel",
+        "Einstein’s Bros. Bagels"
       ],
       "type": "corporate",
       "parent": "Bagel Brands · JAB Holding Company",
       "source": "https://www.einsteinbros.com/franchise/",
       "sourceTitle": "Einstein Bros. Bagels — company history and franchising",
-      "note": "Einstein identifies its acquisition by privately owned JAB Holding Company (Bagel Brands) on its franchise page. This labels the large-chain brand; local franchise ownership is not verified.",
-      "checked": "2026-10-15"
+      "note": "Einstein identifies its acquisition by privately owned JAB Holding Company (Bagel Brands) on its franchise page. This labels the large-chain brand; local franchise ownership is not verified. Matching also accepts narrow full-chain-name spelling variants; this does not extend the label to unrelated Einstein-named businesses.",
+      "checked": "2026-10-26"
     },
     {
       "brand": "El Rancho Supermercado",
@@ -4379,13 +4384,27 @@
       ],
       "type": "corporate",
       "parent": "Ahold Delhaize",
-      "source": "https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/",
-      "sourceTitle": "Ahold Delhaize — US brands digital platform",
+      "source": "https://aholddelhaize.com/brands/the-giant-company/",
+      "sourceTitle": "Ahold Delhaize — GIANT brand and pharmacy network",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15",
+      "checked": "2026-10-26",
       "matchCategories": [
         "grocery"
-      ]
+      ],
+      "publicListing": {
+        "company": "Koninklijke Ahold Delhaize N.V.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Euronext Amsterdam",
+            "ticker": "AD"
+          }
+        ],
+        "source": "https://aholddelhaize.com/investors/shareholder-information/",
+        "sourceTitle": "Ahold Delhaize — current ordinary-share listing information",
+        "checked": "2026-10-26"
+      }
     },
     {
       "brand": "Giant Eagle",
@@ -4408,12 +4427,72 @@
       "aliases": [],
       "type": "corporate",
       "parent": "Ahold Delhaize",
-      "source": "https://newsroom.aholddelhaize.com/ahold-delhaize-usa-completes-omnichannel-platform-rollout-across-all-brands/",
-      "sourceTitle": "Ahold Delhaize — US brands digital platform",
+      "source": "https://aholddelhaize.com/brands/giant-food/",
+      "sourceTitle": "Ahold Delhaize — Giant Food brand and pharmacy network",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15",
+      "checked": "2026-10-26",
       "matchCategories": [
         "grocery"
+      ],
+      "publicListing": {
+        "company": "Koninklijke Ahold Delhaize N.V.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Euronext Amsterdam",
+            "ticker": "AD"
+          }
+        ],
+        "source": "https://aholddelhaize.com/investors/shareholder-information/",
+        "sourceTitle": "Ahold Delhaize — current ordinary-share listing information",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "brand": "Giant Pharmacy",
+      "aliases": [
+        "Giant Food Pharmacy",
+        "Giant Food Stores Pharmacy",
+        "The GIANT Company Pharmacy"
+      ],
+      "type": "corporate",
+      "parent": "Ahold Delhaize · Giant Food / The GIANT Company pharmacy networks",
+      "source": "https://aholddelhaize.com/brands/giant-food/",
+      "sourceTitle": "Ahold Delhaize — Giant Food and its pharmacies",
+      "note": "Ahold Delhaize identifies pharmacy operations at both Giant Food and The GIANT Company. The shared Giant Pharmacy name establishes their common corporate parent without claiming which operating company owns an individual listing. Matching accepts grocery and pharmacy/store categories within a broad Mid-Atlantic guard; it does not include Giant Eagle or unrelated Giant-named businesses.",
+      "checked": "2026-10-26",
+      "publicListing": {
+        "company": "Koninklijke Ahold Delhaize N.V.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Euronext Amsterdam",
+            "ticker": "AD"
+          }
+        ],
+        "source": "https://aholddelhaize.com/investors/shareholder-information/",
+        "sourceTitle": "Ahold Delhaize — current ordinary-share listing information",
+        "checked": "2026-10-26"
+      },
+      "matchCategories": [
+        "grocery",
+        "other"
+      ],
+      "matchBounds": [
+        {
+          "south": 36.4,
+          "west": -81,
+          "north": 42.7,
+          "east": -74
+        }
+      ],
+      "discoverySources": [
+        {
+          "title": "Ahold Delhaize — The GIANT Company and its pharmacies",
+          "url": "https://aholddelhaize.com/brands/the-giant-company/"
+        }
       ]
     },
     {

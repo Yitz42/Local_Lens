@@ -2,7 +2,7 @@
 
 Checked October 26, 2026. The supplied [North American gas station chain list](https://en.wikipedia.org/wiki/List_of_gas_station_chains_in_North_America) was used to find gaps. Current company, investor, exchange, and regulatory sources support classifications; the Wikipedia list is not automatically imported as ownership evidence. The app's ownership research remains focused on US locations. Canadian-only and Mexican-only entries were not assigned US ownership rules from this list.
 
-Together with the [grocery and restaurant review](CHAIN_LIST_REVIEW.md), this release adds **261 distinct brands** and brings the selected directory from 361 to **622 corporate or PE brands**. There are **478 corporate filter memberships and 158 PE memberships**, including 14 brands that belong to both. The two local independent reference records are separate. Counts below describe the research batches; a brand can serve more than one place category.
+Together with the [grocery and restaurant review](CHAIN_LIST_REVIEW.md), that expansion added **261 distinct brands** and brought the selected directory from 361 to **622 corporate or PE brands**. A subsequent pharmacy-name update adds Giant Pharmacy as a shared Ahold Delhaize pharmacy record, bringing the current total to 623. The expansion had **478 corporate filter memberships and 158 PE memberships**, including 14 brands that belong to both. Giant Pharmacy adds one corporate membership. The two local independent reference records are separate. Counts below describe the research batches; a brand can serve more than one place category.
 
 | Research area | New brands |
 | --- | ---: |
