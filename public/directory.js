@@ -1,5 +1,5 @@
-import {ownershipCategories,localOperatorNote,localOperatorLabel,isListedBrand} from './ownership-categories.js?v=20261027-services2';
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261027-services2';
+import {ownershipCategories,localOperatorNote,localOperatorLabel,isListedBrand} from './ownership-categories.js?v=20261027-dropdown1';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261027-dropdown1';
 import {TYPE_LABELS,searchBrands} from './directory-utils.js';
 const $=selector=>document.querySelector(selector);
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

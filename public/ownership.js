@@ -1,20 +1,22 @@
-import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261027-services2';
-import {storeTypeFromTerms} from './store-types.js?v=20261027-services2';
+import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261027-dropdown1';
+import {storeTypeFromTerms} from './store-types.js?v=20261027-dropdown1';
 import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261025-pharmacy1';
-export {ownershipCategories} from './ownership-categories.js?v=20261027-services2';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-services2';
-import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-services2';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-services2';
+export {ownershipCategories} from './ownership-categories.js?v=20261027-dropdown1';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261027-dropdown1';
+import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261027-dropdown1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-dropdown1';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [
- {id:'all',name:'All places',icon:'grid'}, {id:'restaurant',name:'Restaurants',icon:'food'}, {id:'bar',name:'Bars',icon:'bar'},
- {id:'grocery',name:'Groceries',icon:'grocery'}, {id:'gas',name:'Gas stations',icon:'gas'},
- {id:'coffee',name:'Coffee & cafés',icon:'coffee'}, {id:'pharmacy',name:'Pharmacies',icon:'pharmacy'},
- {id:'home',name:'Home & hardware',icon:'home'}, {id:'apparel',name:'Clothing & shoes',icon:'apparel'},
- {id:'general',name:'Department & discount',icon:'general'}, {id:'other',name:'More stores',icon:'shop'},
- {id:'beauty',name:'Beauty & salons',icon:'beauty'}, {id:'fitness',name:'Fitness',icon:'fitness'}, {id:'auto',name:'Auto service',icon:'auto'},
- {id:'bank',name:'Banks & credit unions',icon:'bank'}
+ {id:'all',name:'All places',icon:'grid'},
+ {id:'restaurant',name:'Restaurants',icon:'food',group:'Food & drink'}, {id:'bar',name:'Bars',icon:'bar',group:'Food & drink'},
+ {id:'coffee',name:'Coffee & cafés',icon:'coffee',group:'Food & drink'}, {id:'grocery',name:'Groceries',icon:'grocery',group:'Food & drink'},
+ {id:'pharmacy',name:'Pharmacies',icon:'pharmacy',group:'Stores'}, {id:'home',name:'Home & hardware',icon:'home',group:'Stores'},
+ {id:'apparel',name:'Clothing & shoes',icon:'apparel',group:'Stores'}, {id:'general',name:'Department & discount',icon:'general',group:'Stores'},
+ {id:'other',name:'More stores',icon:'shop',group:'Stores'},
+ {id:'gas',name:'Gas stations',icon:'gas',group:'Services'}, {id:'auto',name:'Auto service',icon:'auto',group:'Services'},
+ {id:'beauty',name:'Beauty & salons',icon:'beauty',group:'Services'}, {id:'fitness',name:'Fitness',icon:'fitness',group:'Services'},
+ {id:'bank',name:'Banks & credit unions',icon:'bank',group:'Services'}
 ];
 export function normalize(s=''){return s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g,'');}
 const brandIndex=new Map();

@@ -1,4 +1,4 @@
-import {matchesOwnershipCategory,isListedBrand} from './ownership-categories.js?v=20261027-services2';
+import {matchesOwnershipCategory,isListedBrand} from './ownership-categories.js?v=20261027-dropdown1';
 export const TYPE_LABELS={corporate:'Corporate brand',pe:'Private equity backed',independent:'Independent / co-op'};
 const fold=value=>String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 export function searchBrands(brands,{query='',type='all'}={}){

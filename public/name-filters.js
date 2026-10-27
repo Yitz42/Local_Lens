@@ -1,6 +1,6 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261027-services2';
-import {ownershipCategories} from './ownership-categories.js?v=20261027-services2';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-services2';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261027-dropdown1';
+import {ownershipCategories} from './ownership-categories.js?v=20261027-dropdown1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-dropdown1';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';
 export const MAX_HIDDEN_NAMES=100;

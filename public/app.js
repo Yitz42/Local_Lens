@@ -1,12 +1,12 @@
-import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261027-services2';
+import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261027-dropdown1';
 import {FOOD_TYPES,OWNERSHIP_PREFERENCE_KEY,initialOwnershipFilters,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
 function ownershipBadges(ownership,place){const local=localOperatorLabel(ownership),hq=place&&isLocalCorporation(place,ownership)?ownership.headquarters:null;return '<span class="ownership-badges">'+ownershipCategories(ownership).map(type=>`<span class="badge ${type}">${LABELS[type]}</span>`).join('')+(local?`<span class="badge local" title="${escape(localOperatorNote(ownership))}">${escape(local)}</span>`:'')+(hq?`<span class="badge local" title="Headquartered in ${escape(hq.city)}, ${escape(hq.state)}">Local HQ · ${escape(hq.city)}</span>`:'')+'</span>';}
-import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261027-services2';
+import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261027-dropdown1';
 import {collectPlacePages} from './places-loader.js';
-import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261027-services2';
-import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261027-services2';
-import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261027-services2';
-import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261027-services2';
+import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261027-dropdown1';
+import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261027-dropdown1';
+import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261027-dropdown1';
+import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261027-dropdown1';
 const $=s=>document.querySelector(s);
 const reviewedDate=value=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(value+'T12:00:00Z'));
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -76,7 +76,10 @@ renderMarkers();updateSavedCount();}
 function syncStoreType(){$('#store-type-wrap').hidden=state.category!=='other';$('#store-type').value=state.storeType;}
 $('#store-type').innerHTML='<option value="all">All store types</option>'+STORE_TYPES.map(type=>`<option value="${type.id}">${escape(type.name)}</option>`).join('')+'<option value="other">Everything else</option>';
 $('#store-type').onchange=event=>{state.storeType=event.target.value;state.limit=60;render();$('#result-list').scrollTop=0;};
-function renderCategories(){syncStoreType();$('#categories').innerHTML=CATEGORIES.map(c=>`<button class="category-button ${state.category===c.id?'active':''}" data-category="${c.id}" aria-pressed="${state.category===c.id}">${icon(c.icon)}${c.name}</button>`).join('');$('#categories').querySelectorAll('button').forEach(b=>b.onclick=()=>{state.category=b.dataset.category;state.storeType='all';if(!['all','restaurant'].includes(state.category))state.foodTypes=[];state.limit=60;renderCategories();render();refreshGoogleSearch();$('#result-list').scrollTop=0;});}
+function categoryOptions(){const groups=[...new Set(CATEGORIES.map(c=>c.group).filter(Boolean))];const option=c=>`<option value="${c.id}">${escape(c.name)}</option>`;return CATEGORIES.filter(c=>!c.group).map(option).join('')+groups.map(group=>`<optgroup label="${escape(group)}">${CATEGORIES.filter(c=>c.group===group).map(option).join('')}</optgroup>`).join('');}
+$('#category').innerHTML=categoryOptions();
+$('#category').onchange=event=>{state.category=event.target.value;state.storeType='all';if(!['all','restaurant'].includes(state.category))state.foodTypes=[];state.limit=60;renderCategories();render();refreshGoogleSearch();$('#result-list').scrollTop=0;};
+function renderCategories(){syncStoreType();const current=CATEGORIES.find(c=>c.id===state.category)||CATEGORIES[0];$('#category').value=current.id;$('#category-icon').innerHTML=icon(current.icon);$('#category').closest('.category-picker').classList.toggle('active',current.id!=='all');}
 function renderFoodFilters(){$('#food-options').innerHTML=FOOD_TYPES.map(type=>`<label class="food-option"><input type="checkbox" value="${type.id}" data-food="${type.id}"><span>${escape(type.name)}</span></label>`).join('');$('#food-options').querySelectorAll('input').forEach(input=>input.onchange=()=>{state.foodTypes=input.checked?[...new Set([...state.foodTypes,input.value])]:state.foodTypes.filter(id=>id!==input.value);if(input.checked&&!['all','restaurant'].includes(state.category))state.category='all';state.limit=60;renderCategories();render();refreshGoogleSearch();$('#result-list').scrollTop=0;});}
 function syncFoodFilters(){$('#food-count').textContent=state.foodTypes.length?state.foodTypes.length+' selected':'Any';$('#food-options').querySelectorAll('input').forEach(input=>input.checked=state.foodTypes.includes(input.value));}
 function saveNameFilters(){persist(NAME_FILTERS_KEY,{matchBrandNames:state.matchBrandNames,hiddenNames:state.hiddenNames});state.limit=60;render();}

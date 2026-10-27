@@ -4,7 +4,7 @@ Checked October 27, 2026. This pass split the map's **More stores** category and
 
 ## Store categories
 
-Pharmacies, Home & hardware, Clothing & shoes, and Department & discount now have their own place-category buttons. More stores keeps the remaining retail, such as electronics, books, pets, florists, and auto parts.
+Pharmacies, Home & hardware, Clothing & shoes, and Department & discount are now their own place categories. All categories are picked from one dropdown grouped into Food & drink, Stores, and Services. More stores keeps the remaining retail, such as electronics, books, pets, florists, and auto parts.
 
 | Category | Overture taxonomy | OpenStreetMap | Google Places types |
 | --- | --- | --- | --- |
