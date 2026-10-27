@@ -102,6 +102,10 @@ Wikipedia could not be reached from the review environment. Article links that a
 
 Family-, employee-, and regionally owned chains are classified as corporate private chains, like other large private chains. Ricker's was not added, because the results did not establish whether its stores moved with GetGo in Couche-Tard's 2025 purchase.
 
+## Local corporations by headquarters
+
+The How local? slider's *Regional* step, between *Locally owned* and *Franchises*, treats a chain as a local corporation where its headquarters is within 150 miles of the place. It applies only to the 134 records with a `headquarters` field: privately held, US-owned chains whose profits stay with a family, employees, a founder, or members. Examples are H-E-B (San Antonio), Publix (Lakeland), Wegmans (Rochester), Sheetz (Altoona), Wawa, Hy-Vee, Kwik Trip, Weigel's, and Market Basket. Publicly traded companies, PE-backed companies, and foreign-owned chains (such as ALDI, Trader Joe's, Lidl, IKEA, and 7-Eleven) are excluded. When a chain belongs to another private owner, the owner's headquarters is used: Festival Foods (Wisconsin) uses Schnucks in St. Louis, and Enmarket uses Nouria in Worcester. Headquarters coordinates are city centers, which is precise enough for a 150-mile radius. In the Austin example, the step adds two H-E-B-family stores.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added. Services such as banks, gyms, salons, and auto repair are outside the map's store categories.

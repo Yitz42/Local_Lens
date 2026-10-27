@@ -69,10 +69,13 @@ A **How local?** slider in the Ownership filters panel lets each person decide h
 
 1. *Independent only* also hides co-op and licensed member stores such as Ace Hardware and IGA.
 2. *Locally owned* (the default) shows independents and co-op member stores but hides franchise and dealer locations with the rest of their brand.
-3. *Franchises* lets locally owned franchise locations back in.
-4. *+ Dealers* also shows dealer-run locations such as branded gas stations.
+3. *Regional* also shows **local corporations**: privately held, US-owned chains (family, employee, founder, or co-op owned) whose headquarters is within 150 miles of that place. An H-E-B in Austin qualifies (San Antonio headquarters); one in Dallas does not.
+4. *Franchises* lets locally owned franchise locations back in.
+5. *+ Dealers* also shows dealer-run locations such as branded gas stations.
 
-The panel shows how each step changes the results in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v2`; an earlier `v1` choice moves up one step so it keeps the same meaning. A filter chip appears while the setting is not the default, and clearing it restores the default. Changing the slider never causes another Google request.
+Headquarters are recorded in the optional `headquarters` field (city, state, and approximate coordinates) for 134 chains. They are recorded only for privately held, US-owned companies. Publicly traded companies, PE-backed companies, and subsidiaries of foreign owners are never treated as local corporations, because their profits go to outside shareholders or owners. Within 150 miles of the headquarters, map cards show a *Local HQ* badge and place details give the distance.
+
+The panel shows how each step changes the results in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v3`; choices saved by earlier versions are mapped to the step with the same meaning. A filter chip appears while the setting is not the default, and clearing it restores the default. Changing the slider never causes another Google request.
 
 The `localOperators` field (`franchise`, `dealer`, `cooperative`, or `licensed`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
 

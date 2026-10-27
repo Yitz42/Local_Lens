@@ -54,6 +54,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Buena Park",
+      "state": "CA",
+      "lat": 33.87,
+      "lng": -118
+    },
     "categories": [
       "corporate"
     ]
@@ -161,6 +167,12 @@ export const BRAND_DIRECTORY = [
     "note": "84 Lumber is privately held, primarily owned by Maggie Hardy since 1992, with about 320 facilities in 34 states. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=84%20Lumber",
+    "headquarters": {
+      "city": "Eighty Four",
+      "state": "PA",
+      "lat": 40.17,
+      "lng": -80.13
+    },
     "categories": [
       "corporate"
     ]
@@ -180,6 +192,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Buena Park",
+      "state": "CA",
+      "lat": 33.87,
+      "lng": -118
+    },
     "categories": [
       "corporate"
     ]
@@ -239,6 +257,12 @@ export const BRAND_DIRECTORY = [
       "other",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Orlando",
+      "state": "FL",
+      "lat": 28.54,
+      "lng": -81.38
+    },
     "categories": [
       "corporate"
     ]
@@ -499,6 +523,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -988,6 +1018,12 @@ export const BRAND_DIRECTORY = [
         "east": -89.5
       }
     ],
+    "headquarters": {
+      "city": "Enid",
+      "state": "OK",
+      "lat": 36.4,
+      "lng": -97.88
+    },
     "categories": [
       "corporate"
     ]
@@ -1226,6 +1262,12 @@ export const BRAND_DIRECTORY = [
     "note": "The Raley’s Companies lists this grocery banner in its private, family-owned retail group. Large private chains are included in the corporate category.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Raley%27s_Supermarkets",
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -1262,6 +1304,12 @@ export const BRAND_DIRECTORY = [
     "note": "Founder Johnny Morris's privately held Bass Pro Shops operates about 180 Bass Pro Shops and Cabela's stores. It is a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Bass_Pro_Shops",
+    "headquarters": {
+      "city": "Springfield",
+      "state": "MO",
+      "lat": 37.21,
+      "lng": -93.29
+    },
     "categories": [
       "corporate"
     ]
@@ -1338,6 +1386,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "headquarters": {
+      "city": "Bradenton",
+      "state": "FL",
+      "lat": 27.5,
+      "lng": -82.57
+    },
     "categories": [
       "corporate"
     ]
@@ -1413,6 +1467,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -1570,6 +1630,12 @@ export const BRAND_DIRECTORY = [
     "note": "After Big Lots' 2024 bankruptcy, privately held discount retailer Variety Wholesalers acquired and reopened 219 Big Lots stores in 2025. Other former Big Lots locations closed.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Big%20Lots",
+    "headquarters": {
+      "city": "Henderson",
+      "state": "NC",
+      "lat": 36.33,
+      "lng": -78.4
+    },
     "categories": [
       "corporate"
     ]
@@ -1635,6 +1701,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Springfield",
+      "state": "MA",
+      "lat": 42.1,
+      "lng": -72.59
+    },
     "categories": [
       "corporate"
     ]
@@ -1672,6 +1744,12 @@ export const BRAND_DIRECTORY = [
       "other",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.88,
+      "lng": -87.63
+    },
     "categories": [
       "corporate"
     ]
@@ -1847,6 +1925,12 @@ export const BRAND_DIRECTORY = [
         "east": -82.4
       }
     ],
+    "headquarters": {
+      "city": "Janesville",
+      "state": "WI",
+      "lat": 42.68,
+      "lng": -89.02
+    },
     "categories": [
       "corporate"
     ]
@@ -2042,6 +2126,12 @@ export const BRAND_DIRECTORY = [
         "east": -87
       }
     ],
+    "headquarters": {
+      "city": "Sioux City",
+      "state": "IA",
+      "lat": 42.5,
+      "lng": -96.4
+    },
     "categories": [
       "corporate"
     ]
@@ -2127,6 +2217,12 @@ export const BRAND_DIRECTORY = [
     "note": "The Anderson family took Books-A-Million private in 2015; it operates about 260 bookstores. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Books-A-Million",
+    "headquarters": {
+      "city": "Birmingham",
+      "state": "AL",
+      "lat": 33.52,
+      "lng": -86.8
+    },
     "categories": [
       "corporate"
     ]
@@ -2219,6 +2315,12 @@ export const BRAND_DIRECTORY = [
     "note": "Boscov's is the largest family-owned US department store chain, with about 50 stores in nine states, led by the third generation of the Boscov family. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Boscov%27s",
+    "headquarters": {
+      "city": "Reading",
+      "state": "PA",
+      "lat": 40.34,
+      "lng": -75.93
+    },
     "categories": [
       "corporate"
     ]
@@ -2384,6 +2486,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Lufkin",
+      "state": "TX",
+      "lat": 31.34,
+      "lng": -94.73
+    },
     "categories": [
       "corporate"
     ]
@@ -2404,6 +2512,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -2470,6 +2584,12 @@ export const BRAND_DIRECTORY = [
         "url": "https://buc-ees.com/privacy-policy/"
       }
     ],
+    "headquarters": {
+      "city": "Lake Jackson",
+      "state": "TX",
+      "lat": 29.03,
+      "lng": -95.43
+    },
     "categories": [
       "corporate"
     ]
@@ -2701,6 +2821,12 @@ export const BRAND_DIRECTORY = [
     "note": "Bass Pro Shops acquired Cabela's in 2017 and runs it as a banner of the privately held combined company.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Cabela%27s",
+    "headquarters": {
+      "city": "Springfield",
+      "state": "MO",
+      "lat": 37.21,
+      "lng": -93.29
+    },
     "categories": [
       "corporate"
     ]
@@ -2850,6 +2976,12 @@ export const BRAND_DIRECTORY = [
     "note": "Family-owned Carhartt runs about 60 company stores and plans about 100 by 2030. Stores that sell Carhartt clothing are not thereby Carhartt-owned.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Carhartt",
+    "headquarters": {
+      "city": "Dearborn",
+      "state": "MI",
+      "lat": 42.32,
+      "lng": -83.18
+    },
     "categories": [
       "corporate"
     ]
@@ -3113,6 +3245,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -3300,6 +3438,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49
+    },
     "categories": [
       "corporate"
     ]
@@ -3457,6 +3601,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Chick-fil-A — family business and local operators",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. Individual restaurants have local Owner-Operators; this label describes the national brand.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Atlanta",
+      "state": "GA",
+      "lat": 33.75,
+      "lng": -84.39
+    },
     "categories": [
       "corporate"
     ]
@@ -3919,6 +4069,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -4122,6 +4278,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "headquarters": {
+      "city": "Thomasville",
+      "state": "NC",
+      "lat": 35.88,
+      "lng": -80.08
+    },
     "categories": [
       "corporate"
     ]
@@ -4847,6 +5009,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Chesterfield",
+      "state": "MO",
+      "lat": 38.66,
+      "lng": -90.58
+    },
     "categories": [
       "corporate"
     ]
@@ -4913,6 +5081,12 @@ export const BRAND_DIRECTORY = [
         "east": -80.5
       }
     ],
+    "headquarters": {
+      "city": "Medina",
+      "state": "OH",
+      "lat": 41.14,
+      "lng": -81.86
+    },
     "categories": [
       "corporate"
     ]
@@ -4930,6 +5104,12 @@ export const BRAND_DIRECTORY = [
     "note": "Privately held Discount Tire operates more than 1,200 stores, also as America's Tire, and owns Tire Rack.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Discount_Tire",
+    "headquarters": {
+      "city": "Scottsdale",
+      "state": "AZ",
+      "lat": 33.49,
+      "lng": -111.93
+    },
     "categories": [
       "corporate"
     ]
@@ -4975,6 +5155,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "West Des Moines",
+      "state": "IA",
+      "lat": 41.58,
+      "lng": -93.71
+    },
     "categories": [
       "corporate"
     ]
@@ -5169,6 +5355,12 @@ export const BRAND_DIRECTORY = [
     "note": "Privately held Dunham's Athleisure Corporation runs about 260 Dunham's Sports stores. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Dunham%27s_Sports",
+    "headquarters": {
+      "city": "Waterford",
+      "state": "MI",
+      "lat": 42.7,
+      "lng": -83.4
+    },
     "categories": [
       "corporate"
     ]
@@ -5415,6 +5607,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Worcester",
+      "state": "MA",
+      "lat": 42.26,
+      "lng": -71.8
+    },
     "categories": [
       "corporate"
     ]
@@ -5798,6 +5996,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Valparaiso",
+      "state": "IN",
+      "lat": 41.47,
+      "lng": -87.06
+    },
     "categories": [
       "corporate"
     ]
@@ -5926,6 +6130,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Boone",
+      "state": "IA",
+      "lat": 42.06,
+      "lng": -93.88
+    },
     "categories": [
       "corporate"
     ]
@@ -6077,6 +6287,12 @@ export const BRAND_DIRECTORY = [
         "east": -86.6
       }
     ],
+    "headquarters": {
+      "city": "St. Louis",
+      "state": "MO",
+      "lat": 38.63,
+      "lng": -90.2
+    },
     "categories": [
       "corporate"
     ]
@@ -6245,6 +6461,12 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.fiveguys.com/news/media-mentions/featured-stories/five-guys-celebrates-40-years-of-burgers-fries-and-family/"
       }
     ],
+    "headquarters": {
+      "city": "Lorton",
+      "state": "VA",
+      "lat": 38.7,
+      "lng": -77.23
+    },
     "categories": [
       "corporate"
     ]
@@ -6497,6 +6719,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Brooklyn",
+      "state": "NY",
+      "lat": 40.68,
+      "lng": -73.94
+    },
     "categories": [
       "corporate"
     ]
@@ -6525,6 +6753,12 @@ export const BRAND_DIRECTORY = [
         "east": -108.8
       }
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -6552,6 +6786,12 @@ export const BRAND_DIRECTORY = [
         "east": -75
       }
     ],
+    "headquarters": {
+      "city": "Abingdon",
+      "state": "VA",
+      "lat": 36.71,
+      "lng": -81.98
+    },
     "categories": [
       "corporate"
     ]
@@ -6763,6 +7003,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -6780,6 +7026,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -7053,6 +7305,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "lat": 40.44,
+      "lng": -79.99
+    },
     "categories": [
       "corporate"
     ]
@@ -7477,6 +7735,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Lyndhurst",
+      "state": "NJ",
+      "lat": 40.81,
+      "lng": -74.12
+    },
     "categories": [
       "corporate"
     ]
@@ -7493,6 +7757,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "H-E-B — brands and affiliates",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49
+    },
     "categories": [
       "corporate"
     ]
@@ -7571,6 +7841,12 @@ export const BRAND_DIRECTORY = [
     "note": "Half Price Books is the largest family-owned new and used bookstore chain in the US, with stores in 19 states. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Half%20Price%20Books",
+    "headquarters": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.78,
+      "lng": -96.8
+    },
     "categories": [
       "corporate"
     ]
@@ -7622,6 +7898,12 @@ export const BRAND_DIRECTORY = [
     "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Harbor_Freight_Tools",
+    "headquarters": {
+      "city": "Calabasas",
+      "state": "CA",
+      "lat": 34.14,
+      "lng": -118.66
+    },
     "categories": [
       "corporate"
     ]
@@ -7662,6 +7944,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "West Valley City",
+      "state": "UT",
+      "lat": 40.69,
+      "lng": -111.99
+    },
     "categories": [
       "corporate"
     ]
@@ -7684,6 +7972,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Springdale",
+      "state": "AR",
+      "lat": 36.19,
+      "lng": -94.13
+    },
     "categories": [
       "corporate"
     ]
@@ -7749,6 +8043,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Warrensville Heights",
+      "state": "OH",
+      "lat": 41.44,
+      "lng": -81.54
+    },
     "categories": [
       "corporate"
     ]
@@ -7797,6 +8097,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Panda Restaurant Group — brands and family ownership",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Rosemead",
+      "state": "CA",
+      "lat": 34.08,
+      "lng": -118.07
+    },
     "categories": [
       "corporate"
     ]
@@ -7862,6 +8168,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "headquarters": {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "lat": 35.47,
+      "lng": -97.52
+    },
     "categories": [
       "corporate"
     ]
@@ -7978,6 +8290,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -8025,6 +8343,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Carmi",
+      "state": "IL",
+      "lat": 38.09,
+      "lng": -88.16
+    },
     "categories": [
       "corporate"
     ]
@@ -8052,6 +8376,12 @@ export const BRAND_DIRECTORY = [
         "east": -117
       }
     ],
+    "headquarters": {
+      "city": "Spokane",
+      "state": "WA",
+      "lat": 47.66,
+      "lng": -117.43
+    },
     "categories": [
       "corporate"
     ]
@@ -8106,6 +8436,12 @@ export const BRAND_DIRECTORY = [
     "note": "Hy-Vee is a large employee-owned supermarket company. The corporate category describes the chain structure and does not assert private equity ownership.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Hy-Vee",
+    "headquarters": {
+      "city": "West Des Moines",
+      "state": "IA",
+      "lat": 41.58,
+      "lng": -93.71
+    },
     "categories": [
       "corporate"
     ]
@@ -8215,6 +8551,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "headquarters": {
+      "city": "Irvine",
+      "state": "CA",
+      "lat": 33.68,
+      "lng": -117.83
+    },
     "categories": [
       "corporate"
     ]
@@ -8397,6 +8739,12 @@ export const BRAND_DIRECTORY = [
         "east": -104
       }
     ],
+    "headquarters": {
+      "city": "Meridian",
+      "state": "ID",
+      "lat": 43.61,
+      "lng": -116.39
+    },
     "categories": [
       "corporate"
     ]
@@ -8656,6 +9004,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "H-E-B — brands and affiliates",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49
+    },
     "categories": [
       "corporate"
     ]
@@ -8891,6 +9245,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -8991,6 +9351,12 @@ export const BRAND_DIRECTORY = [
         "east": -71.4
       }
     ],
+    "headquarters": {
+      "city": "Gouverneur",
+      "state": "NY",
+      "lat": 44.34,
+      "lng": -75.46
+    },
     "categories": [
       "corporate"
     ]
@@ -9042,6 +9408,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Hickory",
+      "state": "NC",
+      "lat": 35.73,
+      "lng": -81.34
+    },
     "categories": [
       "corporate"
     ]
@@ -9106,6 +9478,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Woodbury",
+      "state": "MN",
+      "lat": 44.92,
+      "lng": -92.96
+    },
     "categories": [
       "corporate"
     ]
@@ -9196,6 +9574,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "Salt Lake City",
+      "state": "UT",
+      "lat": 40.76,
+      "lng": -111.89
+    },
     "categories": [
       "corporate"
     ]
@@ -9226,6 +9610,12 @@ export const BRAND_DIRECTORY = [
         "east": -74.5
       }
     ],
+    "headquarters": {
+      "city": "Warren",
+      "state": "PA",
+      "lat": 41.84,
+      "lng": -79.15
+    },
     "categories": [
       "corporate"
     ]
@@ -9269,6 +9659,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "La Crosse",
+      "state": "WI",
+      "lat": 43.8,
+      "lng": -91.24
+    },
     "categories": [
       "corporate"
     ]
@@ -9290,6 +9686,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "La Crosse",
+      "state": "WI",
+      "lat": 43.8,
+      "lng": -91.24
+    },
     "categories": [
       "corporate"
     ]
@@ -9694,6 +10096,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "headquarters": {
+      "city": "La Mirada",
+      "state": "CA",
+      "lat": 33.92,
+      "lng": -118.01
+    },
     "categories": [
       "corporate"
     ]
@@ -9819,6 +10227,12 @@ export const BRAND_DIRECTORY = [
       "other"
     ],
     "preservePunctuation": true,
+    "headquarters": {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "lat": 35.47,
+      "lng": -97.52
+    },
     "categories": [
       "corporate"
     ]
@@ -9851,6 +10265,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Hickory",
+      "state": "NC",
+      "lat": 35.73,
+      "lng": -81.34
+    },
     "categories": [
       "corporate"
     ]
@@ -9934,6 +10354,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Edina",
+      "state": "MN",
+      "lat": 44.89,
+      "lng": -93.35
+    },
     "categories": [
       "corporate"
     ]
@@ -10238,6 +10664,12 @@ export const BRAND_DIRECTORY = [
         "east": -69.8
       }
     ],
+    "headquarters": {
+      "city": "Tewksbury",
+      "state": "MA",
+      "lat": 42.61,
+      "lng": -71.23
+    },
     "categories": [
       "corporate"
     ]
@@ -10257,6 +10689,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Pittsburgh",
+      "state": "PA",
+      "lat": 40.44,
+      "lng": -79.99
+    },
     "categories": [
       "corporate"
     ]
@@ -10301,6 +10739,12 @@ export const BRAND_DIRECTORY = [
         "east": -86.6
       }
     ],
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -10463,6 +10907,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "Salt Lake City",
+      "state": "UT",
+      "lat": 40.76,
+      "lng": -111.89
+    },
     "categories": [
       "corporate"
     ]
@@ -10567,6 +11017,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Meijer — company overview",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Grand Rapids",
+      "state": "MI",
+      "lat": 42.96,
+      "lng": -85.67
+    },
     "categories": [
       "corporate"
     ]
@@ -10632,6 +11088,12 @@ export const BRAND_DIRECTORY = [
     "note": "This is a large private retail chain. Local Lens includes large privately held chains in the corporate category.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Menards",
+    "headquarters": {
+      "city": "Eau Claire",
+      "state": "WI",
+      "lat": 44.81,
+      "lng": -91.5
+    },
     "categories": [
       "corporate"
     ]
@@ -10746,6 +11208,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "H-E-B — brands and affiliates",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49
+    },
     "categories": [
       "corporate"
     ]
@@ -10809,6 +11277,12 @@ export const BRAND_DIRECTORY = [
     "note": "Micro Center is the 30-store retail chain of privately held Micro Electronics, Inc.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Micro_Center",
+    "headquarters": {
+      "city": "Hilliard",
+      "state": "OH",
+      "lat": 40.03,
+      "lng": -83.16
+    },
     "categories": [
       "corporate"
     ]
@@ -11447,6 +11921,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -11540,6 +12020,12 @@ export const BRAND_DIRECTORY = [
     "note": "Founded in 1981 by Don Kotula, Northern Tool + Equipment is a family-owned retailer with about 130 stores in 23 states. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Northern%20Tool%20%2B%20Equipment",
+    "headquarters": {
+      "city": "Burnsville",
+      "state": "MN",
+      "lat": 44.77,
+      "lng": -93.28
+    },
     "categories": [
       "corporate"
     ]
@@ -11560,6 +12046,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Anaheim",
+      "state": "CA",
+      "lat": 33.84,
+      "lng": -117.91
+    },
     "categories": [
       "corporate"
     ]
@@ -11967,6 +12459,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Panda Restaurant Group — brands and family ownership",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Rosemead",
+      "state": "CA",
+      "lat": 34.08,
+      "lng": -118.07
+    },
     "categories": [
       "corporate"
     ]
@@ -11980,6 +12478,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Panda Restaurant Group — brands and family ownership",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Rosemead",
+      "state": "CA",
+      "lat": 34.08,
+      "lng": -118.07
+    },
     "categories": [
       "corporate"
     ]
@@ -12116,6 +12620,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "restaurant"
     ],
+    "headquarters": {
+      "city": "Savannah",
+      "state": "GA",
+      "lat": 32.08,
+      "lng": -81.09
+    },
     "categories": [
       "corporate"
     ]
@@ -12422,6 +12932,12 @@ export const BRAND_DIRECTORY = [
     "note": "Arthur M. Blank is PGA TOUR Superstore's chairman and owner. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PGA%20TOUR%20Superstore",
+    "headquarters": {
+      "city": "Atlanta",
+      "state": "GA",
+      "lat": 33.75,
+      "lng": -84.39
+    },
     "categories": [
       "corporate"
     ]
@@ -13006,6 +13522,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Publix — company facts",
     "note": "Publix is a large employee-owned supermarket chain. Its employee ownership is stated explicitly; the corporate label describes its large-chain structure.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Lakeland",
+      "state": "FL",
+      "lat": 28.04,
+      "lng": -81.95
+    },
     "categories": [
       "corporate"
     ]
@@ -13177,6 +13699,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "QuikTrip — company story",
     "note": "QuikTrip identifies itself as one of the largest privately held US companies, operating more than 1,250 stores. Large private chains are included in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Tulsa",
+      "state": "OK",
+      "lat": 36.15,
+      "lng": -95.99
+    },
     "categories": [
       "corporate"
     ]
@@ -13221,6 +13749,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "Atlanta",
+      "state": "GA",
+      "lat": 33.75,
+      "lng": -84.39
+    },
     "categories": [
       "corporate"
     ]
@@ -13240,6 +13774,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas"
     ],
+    "headquarters": {
+      "city": "Atlanta",
+      "state": "GA",
+      "lat": 33.75,
+      "lng": -84.39
+    },
     "categories": [
       "corporate"
     ]
@@ -13288,6 +13828,12 @@ export const BRAND_DIRECTORY = [
     "note": "Founder Todd Graves's chain is privately held and plans roughly 100 openings in 2026 toward a 1,600-restaurant goal. It is a large private chain without a stock listing or documented PE investment.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Raising%20Cane%27s",
+    "headquarters": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.02,
+      "lng": -96.7
+    },
     "categories": [
       "corporate"
     ]
@@ -13307,6 +13853,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -13327,6 +13879,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "West Sacramento",
+      "state": "CA",
+      "lat": 38.58,
+      "lng": -121.53
+    },
     "categories": [
       "corporate"
     ]
@@ -13402,6 +13960,12 @@ export const BRAND_DIRECTORY = [
     "note": "The privately held, family-operated retailer has about 150 showrooms and is the Northeast's largest furniture retailer.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Raymour%20%26%20Flanigan",
+    "headquarters": {
+      "city": "Liverpool",
+      "state": "NY",
+      "lat": 43.1,
+      "lng": -76.2
+    },
     "categories": [
       "corporate"
     ]
@@ -13455,6 +14019,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -13567,6 +14137,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Reading",
+      "state": "PA",
+      "lat": 40.34,
+      "lng": -75.93
+    },
     "categories": [
       "corporate"
     ]
@@ -13589,6 +14165,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Reading",
+      "state": "PA",
+      "lat": 40.34,
+      "lng": -75.93
+    },
     "categories": [
       "corporate"
     ]
@@ -13608,6 +14190,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "headquarters": {
+      "city": "Kent",
+      "state": "WA",
+      "lat": 47.38,
+      "lng": -122.23
+    },
     "categories": [
       "corporate"
     ]
@@ -13729,6 +14317,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Twin Falls",
+      "state": "ID",
+      "lat": 42.56,
+      "lng": -114.46
+    },
     "categories": [
       "corporate"
     ]
@@ -13913,6 +14507,12 @@ export const BRAND_DIRECTORY = [
     "note": "Rooms To Go is privately held and family owned, led by co-founder Jeffrey Seaman, with well over 100 showrooms in the Southeast and Texas. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Rooms%20To%20Go",
+    "headquarters": {
+      "city": "Seffner",
+      "state": "FL",
+      "lat": 27.98,
+      "lng": -82.28
+    },
     "categories": [
       "corporate"
     ]
@@ -13933,6 +14533,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Spokane",
+      "state": "WA",
+      "lat": 47.66,
+      "lng": -117.43
+    },
     "categories": [
       "corporate"
     ]
@@ -14009,6 +14615,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Thibodaux",
+      "state": "LA",
+      "lat": 29.8,
+      "lng": -90.82
+    },
     "categories": [
       "corporate"
     ]
@@ -14036,6 +14648,12 @@ export const BRAND_DIRECTORY = [
         "east": -74.9
       }
     ],
+    "headquarters": {
+      "city": "Baltimore",
+      "state": "MD",
+      "lat": 39.29,
+      "lng": -76.61
+    },
     "categories": [
       "corporate"
     ]
@@ -14118,6 +14736,12 @@ export const BRAND_DIRECTORY = [
     "note": "Rural King is a privately held, family-owned farm and home chain with more than 150 stores in 17 states in 2026. It is a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Rural_King",
+    "headquarters": {
+      "city": "Mattoon",
+      "state": "IL",
+      "lat": 39.48,
+      "lng": -88.37
+    },
     "categories": [
       "corporate"
     ]
@@ -14162,6 +14786,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "York",
+      "state": "PA",
+      "lat": 39.96,
+      "lng": -76.73
+    },
     "categories": [
       "corporate"
     ]
@@ -14399,6 +15029,12 @@ export const BRAND_DIRECTORY = [
     "note": "Scheels is a privately held, employee-owned sporting goods chain of more than 30 very large stores. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Scheels",
+    "headquarters": {
+      "city": "Fargo",
+      "state": "ND",
+      "lat": 46.88,
+      "lng": -96.79
+    },
     "categories": [
       "corporate"
     ]
@@ -14439,6 +15075,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Louis",
+      "state": "MO",
+      "lat": 38.63,
+      "lng": -90.2
+    },
     "categories": [
       "corporate"
     ]
@@ -14546,6 +15188,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Hialeah",
+      "state": "FL",
+      "lat": 25.86,
+      "lng": -80.28
+    },
     "categories": [
       "corporate"
     ]
@@ -14659,6 +15307,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Sheetz — company ownership FAQ",
     "note": "Sheetz identifies itself as a privately held, family-owned and operated company. Local Lens includes large family-owned chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Altoona",
+      "state": "PA",
+      "lat": 40.52,
+      "lng": -78.39
+    },
     "categories": [
       "corporate"
     ]
@@ -15266,6 +15920,12 @@ export const BRAND_DIRECTORY = [
       "other",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Houston",
+      "state": "TX",
+      "lat": 29.76,
+      "lng": -95.37
+    },
     "categories": [
       "corporate"
     ]
@@ -15327,6 +15987,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Greenville",
+      "state": "SC",
+      "lat": 34.85,
+      "lng": -82.4
+    },
     "categories": [
       "corporate"
     ]
@@ -15390,6 +16056,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -15514,6 +16186,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "San Bernardino",
+      "state": "CA",
+      "lat": 34.11,
+      "lng": -117.29
+    },
     "categories": [
       "corporate"
     ]
@@ -15572,6 +16250,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Norwalk",
+      "state": "CT",
+      "lat": 41.12,
+      "lng": -73.41
+    },
     "categories": [
       "corporate"
     ]
@@ -15595,6 +16279,12 @@ export const BRAND_DIRECTORY = [
       "grocery",
       "other"
     ],
+    "headquarters": {
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "lat": 43.08,
+      "lng": -73.78
+    },
     "categories": [
       "corporate"
     ]
@@ -15653,6 +16343,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "West Des Moines",
+      "state": "IA",
+      "lat": 41.58,
+      "lng": -93.71
+    },
     "categories": [
       "corporate"
     ]
@@ -15785,6 +16481,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -15894,6 +16596,12 @@ export const BRAND_DIRECTORY = [
         "east": -88.7
       }
     ],
+    "headquarters": {
+      "city": "Tyler",
+      "state": "TX",
+      "lat": 32.35,
+      "lng": -95.3
+    },
     "categories": [
       "corporate"
     ]
@@ -15923,6 +16631,12 @@ export const BRAND_DIRECTORY = [
         "east": -82
       }
     ],
+    "headquarters": {
+      "city": "Hermantown",
+      "state": "MN",
+      "lat": 46.81,
+      "lng": -92.24
+    },
     "categories": [
       "corporate"
     ]
@@ -16141,6 +16855,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "St. Cloud",
+      "state": "MN",
+      "lat": 45.56,
+      "lng": -94.16
+    },
     "categories": [
       "corporate"
     ]
@@ -16696,6 +17416,12 @@ export const BRAND_DIRECTORY = [
         "east": -86.8
       }
     ],
+    "headquarters": {
+      "city": "Dubuque",
+      "state": "IA",
+      "lat": 42.5,
+      "lng": -90.66
+    },
     "categories": [
       "corporate"
     ]
@@ -17060,6 +17786,12 @@ export const BRAND_DIRECTORY = [
     "note": "Total Wine & More is the largest privately owned US beer, wine, and spirits retailer, with about 300 stores.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Total_Wine_%26_More",
+    "headquarters": {
+      "city": "Bethesda",
+      "state": "MD",
+      "lat": 38.98,
+      "lng": -77.1
+    },
     "categories": [
       "corporate"
     ]
@@ -17309,6 +18041,12 @@ export const BRAND_DIRECTORY = [
       "other",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.27,
+      "lng": -97.74
+    },
     "categories": [
       "corporate"
     ]
@@ -17543,6 +18281,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Sylmar",
+      "state": "CA",
+      "lat": 34.31,
+      "lng": -118.45
+    },
     "categories": [
       "corporate"
     ]
@@ -17908,6 +18652,12 @@ export const BRAND_DIRECTORY = [
     "note": "Von Maur is a family-owned department store chain led by the fourth generation of the von Maur family, with about 40 stores planned. It is classified as a large private chain.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Von%20Maur",
+    "headquarters": {
+      "city": "Davenport",
+      "state": "IA",
+      "lat": 41.52,
+      "lng": -90.58
+    },
     "categories": [
       "corporate"
     ]
@@ -17935,6 +18685,12 @@ export const BRAND_DIRECTORY = [
     "note": "Waffle House, Inc. of Norcross, Georgia is a privately held, family-controlled company with nearly 2,000 restaurants. It is a large private chain. Some restaurants are franchised.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Waffle%20House",
+    "headquarters": {
+      "city": "Norcross",
+      "state": "GA",
+      "lat": 33.94,
+      "lng": -84.21
+    },
     "categories": [
       "corporate"
     ]
@@ -18030,6 +18786,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Wawa — store network and employee stock ownership",
     "note": "Wawa describes a network of more than 1,000 stores and an employee stock ownership plan. Local Lens includes large chains in the corporate category; employee ownership does not make each location an independent store.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Wawa",
+      "state": "PA",
+      "lat": 39.9,
+      "lng": -75.46
+    },
     "categories": [
       "corporate"
     ]
@@ -18060,6 +18822,12 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Wegmans — about us",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "headquarters": {
+      "city": "Rochester",
+      "state": "NY",
+      "lat": 43.16,
+      "lng": -77.61
+    },
     "categories": [
       "corporate"
     ]
@@ -18089,6 +18857,12 @@ export const BRAND_DIRECTORY = [
       "gas",
       "grocery"
     ],
+    "headquarters": {
+      "city": "Powell",
+      "state": "TN",
+      "lat": 36.03,
+      "lng": -84.03
+    },
     "categories": [
       "corporate"
     ]
@@ -18309,6 +19083,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "restaurant"
     ],
+    "headquarters": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.96,
+      "lng": -83
+    },
     "categories": [
       "corporate"
     ]
@@ -18424,6 +19204,12 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "headquarters": {
+      "city": "Boise",
+      "state": "ID",
+      "lat": 43.62,
+      "lng": -116.2
+    },
     "categories": [
       "corporate"
     ]
@@ -18505,6 +19291,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Hermantown",
+      "state": "MN",
+      "lat": 46.81,
+      "lng": -92.24
+    },
     "categories": [
       "corporate"
     ]
@@ -18527,6 +19319,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Janesville",
+      "state": "WI",
+      "lat": 42.68,
+      "lng": -89.02
+    },
     "categories": [
       "corporate"
     ]
@@ -18657,6 +19455,12 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "headquarters": {
+      "city": "Spokane",
+      "state": "WA",
+      "lat": 47.66,
+      "lng": -117.43
+    },
     "categories": [
       "corporate"
     ]
