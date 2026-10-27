@@ -66,3 +66,11 @@ test('national chains with unconfirmed owners are corporate without inferred spo
  for(const [name,category] of [["Carter's",'restaurant'],['OshKosh','restaurant'],["Torchy's",'grocery'],['TGIF','grocery']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
  assert.deepEqual(ownershipFor(q("Carter's",'apparel')).publicListing.exchanges,[{exchange:'NYSE',ticker:'CRI'}]);
 });
+test('store-category additions keep short brand names inside their store category',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category,type,parent] of [['H&M','apparel','corporate','Hennes'],['Express','apparel','corporate','WHP'],['RH','home','corporate','RH'],['Belk','general','pe','KKR'],["Gabe's",'general','pe','Brigade'],['PacSun','apparel','pe','Golden Gate'],['Coach Outlet','apparel','corporate','Tapestry'],['Eyeglass World','pharmacy','corporate','National Vision'],['Total Wine','other','corporate','Trone']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);
+ }
+ for(const [name,category] of [['H M Plumbing','home'],['HM Supply','apparel'],['Express','grocery'],['RH','other'],['Columbia','apparel'],['Ashley','home'],['Vans','other'],['Pandora','restaurant'],['Saks OFF 5TH','apparel']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.equal(excludedBrandNameMatch(q('Express Lube','other'),['corporate']),null);
+});

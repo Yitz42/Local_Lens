@@ -151,7 +151,7 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Family Dollar | Brand-level backing; see source scope | [Dollar Tree — completed sale of Family Dollar](https://corporate.dollartree.com/news-media/press-releases/detail/288/dollar-tree-completes-sale-of-family-dollar-business-to) | Dollar Tree confirms completion of the July 2025 sale to Brigade and Macellum. Family Dollar is no longer grouped under Dollar Tree. | 2026-10-16 |
 | Guitar Center | Brand-level investment backing; see source scope | [Guitar Center — company statement identifying its equity investor group](https://static.guitarcenter.com/static/gc/2023/page-bcc/corporate-information/press-room/articles/gc-art-new-executives-10-31-23.pdf) | Guitar Center identifies funds managed by Ares Private Equity Group, The Carlyle Group and Brigade Capital Management as its equity investors. This identifies investment backing; it does not assert sole ownership by any one sponsor. | 2026-10-16 |
 
-Brands in Local Lens: Family Dollar, Guitar Center.
+Brands in Local Lens: Family Dollar, Gabe's, Guitar Center.
 
 ## CapitalSpring
 
@@ -313,6 +313,8 @@ Review: 2026-10-16 · Partial evidence · [Portfolio / source](https://goldengat
 Official portfolio opened but asset cards/current status did not render, so review is partial and no new current holdings are asserted. Official news archive reports sale of Bob Evans Restaurants to 4x4 Capital in February 2026; do not keep Bob Evans under Golden Gate. California Pizza Kitchen, Eddie Bauer, Red Lobster, and older Pacific Sunwear stories are historical or affected by later transactions and were not relabeled from those stories. Current news archive reviewed: https://goldengatecap.com/news/ .
 
 
+Brands in Local Lens: PacSun.
+
 ## Hellman & Friedman
 
 Review: 2026-10-16 · Selected evidence checked · [Portfolio / source](https://hf.com/our-portfolio/)
@@ -373,7 +375,7 @@ Opened the official company directory, which states an August 24, 2026 portfolio
 | PetVet Care Centers | current portfolio investment | [KKR — June 30, 2026 Form 10-Q](https://ir.kkr.com/media/document/9c560b72-6b1b-4aff-affa-01c36a7f1661/assets/KKR_10Q_6.30.26.pdf?disposition=inline) | The quarterly report discusses unrealized PetVet investment losses in the current period, establishing a continuing investment. Individual veterinary-hospital brands were not inferred. | 2026-10-16 |
 | Heartland Dental | current portfolio investment | [KKR — Max Lin current board biography](https://www.kkr.com/about/our-people/max-lin) | The current official KKR biography lists Heartland Dental among the companies on whose boards its Americas healthcare leader currently serves. This corroborates the group affiliation, not ownership of any similarly named independent dental practice. | 2026-10-16 |
 
-Brands in Local Lens: Nothing Bundt Cakes.
+Brands in Local Lens: Belk, Nothing Bundt Cakes.
 
 ## L Catterton
 
@@ -385,7 +387,7 @@ Official portfolio distinguishes Current/Historical but company cards did not re
 | --- | --- | --- | --- | --- |
 | Birkenstock | minority public-company stake | [Birkenstock — August 2026 SEC prospectus supplement](https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm) | L Catterton-controlled selling entity would retain approximately 44.75%, or 42.43% if the option is fully exercised, following the offering. Percentages are filing-date scenarios, not a claim of exact present ownership. | 2026-10-16 |
 
-Brands in Local Lens: Birkenstock.
+Brands in Local Lens: Birkenstock, West Marine.
 
 ## Leonard Green & Partners
 

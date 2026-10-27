@@ -183,6 +183,26 @@
       ]
     },
     {
+      "brand": "Aaron's",
+      "aliases": [
+        "Aarons",
+        "Aaron's Lease to Own"
+      ],
+      "type": "corporate",
+      "parent": "The Aaron's Company · IQVentures (privately held)",
+      "source": "https://chainstoreage.com/done-deal-aarons-company-acquired-504-million",
+      "sourceTitle": "Chain Store Age — Aaron's Company acquired for $504 million",
+      "note": "IQVentures, a fintech company, took Aaron's private in October 2024. The name only matches store listings. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Aaron%27s_Company",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Abercrombie & Fitch",
       "aliases": [
         "Abercrombie and Fitch",
@@ -630,6 +650,34 @@
       ]
     },
     {
+      "brand": "Anthropologie",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Urban Outfitters, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+      "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+      "note": "Anthropologie is Urban Outfitters, Inc.'s largest brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anthropologie",
+      "publicListing": {
+        "company": "Urban Outfitters, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "URBN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+        "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Anytime Fitness",
       "aliases": [],
       "type": "pe",
@@ -735,6 +783,55 @@
       "sourceTitle": "Marathon Petroleum — retail brand network",
       "note": "Marathon Petroleum identifies this as a fuel brand in its retail network. Regional supply or licensing arrangements and station operators can vary; this establishes corporate brand affiliation, not local ownership.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Arhaus",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Arhaus, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1875444/000187544426000010/arhs-20251231.htm",
+      "sourceTitle": "Arhaus — 2025 Form 10-K",
+      "note": "Arhaus operated 107 showrooms in 31 states at the end of 2025.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Arhaus",
+      "publicListing": {
+        "company": "Arhaus, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "ARHS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1875444/000187544426000010/arhs-20251231.htm",
+        "sourceTitle": "Arhaus — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Ashley HomeStore",
+      "aliases": [
+        "Ashley Furniture HomeStore",
+        "Ashley Furniture",
+        "Ashley Store"
+      ],
+      "type": "corporate",
+      "parent": "Ashley Global Retail · Ashley Furniture Industries (privately held, family owned)",
+      "source": "https://pitchbook.com/profiles/company/62208-01",
+      "sourceTitle": "PitchBook — Ashley Global Retail, privately held",
+      "note": "Ashley's retail arm is privately held and family owned. Many Ashley stores are licensed to independent operators; the bare name Ashley is not matched.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Furniture_Industries",
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -1216,6 +1313,42 @@
       "matchCategories": [
         "grocery"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Belk",
+      "aliases": [
+        "Belk Outlet"
+      ],
+      "type": "pe",
+      "parent": "Lender group including KKR and Hein Park funds",
+      "source": "https://chainstoreage.com/news/belk-begins-new-ownership-era",
+      "sourceTitle": "Chain Store Age — Belk begins new ownership era",
+      "note": "Lenders including funds associated with KKR and Hein Park took a controlling interest in Belk from Sycamore Partners in 2024.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Belk",
+      "matchCategories": [
+        "other"
+      ],
+      "sponsors": [
+        "KKR"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
+      "brand": "Bergdorf Goodman",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Saks Global (privately held; Chapter 11 since January 2026)",
+      "source": "https://abc7news.com/post/luxury-retailer-saks-global-files-bankruptcy-prepares-restructure/18400868/",
+      "sourceTitle": "ABC News — Saks Global files for bankruptcy as it prepares to restructure",
+      "note": "Bergdorf Goodman belongs to Saks Global, which filed for Chapter 11 in January 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bergdorf_Goodman",
       "categories": [
         "corporate"
       ]
@@ -1986,6 +2119,39 @@
       ]
     },
     {
+      "brand": "Buckle",
+      "aliases": [
+        "The Buckle"
+      ],
+      "type": "corporate",
+      "parent": "The Buckle, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/885245/000088524525000109/bke20251121-8kexhibit.htm",
+      "sourceTitle": "The Buckle, Inc. — third quarter fiscal 2025 results (SEC exhibit)",
+      "note": "Buckle operates about 440 stores in 42 states. The bare word only matches clothing stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Buckle_(clothing_retailer)",
+      "publicListing": {
+        "company": "The Buckle, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BKE"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/885245/000088524525000109/bke20251121-8kexhibit.htm",
+        "sourceTitle": "The Buckle, Inc. — SEC exhibit",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Buffalo Wild Wings",
       "aliases": [],
       "type": "pe",
@@ -2021,6 +2187,37 @@
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Build-A-Bear Workshop",
+      "aliases": [
+        "Build-A-Bear",
+        "Build A Bear"
+      ],
+      "type": "corporate",
+      "parent": "Build-A-Bear Workshop, Inc.",
+      "source": "https://www.businesswire.com/news/home/20260312903527/en/build-a-bear-workshop-reports-fourth-and-record-fiscal-2025-results-increases-quarterly-dividend/",
+      "sourceTitle": "Build-A-Bear Workshop — fiscal 2025 results",
+      "note": "Build-A-Bear operates its own stores and some franchised and partner locations.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Build-A-Bear_Workshop",
+      "publicListing": {
+        "company": "Build-A-Bear Workshop, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BBW"
+          }
+        ],
+        "source": "https://www.businesswire.com/news/home/20260312903527/en/build-a-bear-workshop-reports-fourth-and-record-fiscal-2025-results-increases-quarterly-dividend/",
+        "sourceTitle": "Build-A-Bear Workshop — fiscal 2025 results",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -2496,6 +2693,40 @@
         "grocery"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Cato",
+      "aliases": [
+        "Cato Fashions",
+        "Cato Fashion"
+      ],
+      "type": "corporate",
+      "parent": "The Cato Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000018255/000156276225000062/cato-20250201.htm",
+      "sourceTitle": "The Cato Corporation — Form 10-K",
+      "note": "Cato operated about 1,100 fashion stores, mainly in the Southeast. The bare name only matches clothing stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cato_Corporation",
+      "publicListing": {
+        "company": "The Cato Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CATO"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000018255/000156276225000062/cato-20250201.htm",
+        "sourceTitle": "The Cato Corporation — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
       "categories": [
         "corporate"
       ]
@@ -3061,6 +3292,36 @@
       ]
     },
     {
+      "brand": "Citi Trends",
+      "aliases": [
+        "CitiTrends"
+      ],
+      "type": "corporate",
+      "parent": "Citi Trends, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1318484/000155837025004897/ctrn-20250201x10k.htm",
+      "sourceTitle": "Citi Trends — Form 10-K",
+      "note": "Citi Trends operates about 590 off-price apparel and home stores in 33 states.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Citi_Trends",
+      "publicListing": {
+        "company": "Citi Trends, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "CTRN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1318484/000155837025004897/ctrn-20250201x10k.htm",
+        "sourceTitle": "Citi Trends — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "City Gear",
       "aliases": [
         "CityGear"
@@ -3187,6 +3448,40 @@
       ]
     },
     {
+      "brand": "Coach",
+      "aliases": [
+        "Coach Outlet",
+        "Coach New York"
+      ],
+      "type": "corporate",
+      "parent": "Tapestry, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001116132/000111613226000018/tpr-20260627.htm",
+      "sourceTitle": "Tapestry — Form 10-K for fiscal 2026",
+      "note": "Coach is Tapestry's largest brand. The bare name only matches clothing and accessory stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Coach_New_York",
+      "publicListing": {
+        "company": "Tapestry, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "TPR"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001116132/000111613226000018/tpr-20260627.htm",
+        "sourceTitle": "Tapestry — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Coborn’s",
       "aliases": [
         "Coborn's Foods",
@@ -3256,6 +3551,40 @@
         "sourceTitle": "MTY — October 2026 results and equity listing",
         "checked": "2026-10-26"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Columbia Sportswear",
+      "aliases": [
+        "Columbia Factory Store",
+        "Columbia Sportswear Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Columbia Sportswear Company",
+      "source": "https://www.sec.gov/Archives/edgar/data/1050797/000105079726000028/colm-20251231.htm",
+      "sourceTitle": "Columbia Sportswear — 2025 Form 10-K",
+      "note": "Columbia Sportswear operates its own branded and outlet stores. The bare word Columbia is not matched.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Columbia_Sportswear",
+      "publicListing": {
+        "company": "Columbia Sportswear Company",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "COLM"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1050797/000105079726000028/colm-20251231.htm",
+        "sourceTitle": "Columbia Sportswear — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
       "categories": [
         "corporate"
       ]
@@ -3494,6 +3823,40 @@
           "title": "AT&T — Cricket Wireless acquisition and brand history",
           "url": "https://about.att.com/innovation/ip/brands/history"
         }
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Crocs",
+      "aliases": [
+        "Crocs Store",
+        "Crocs Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Crocs, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+      "sourceTitle": "Crocs, Inc. — 2025 Form 10-K",
+      "note": "Crocs operates branded and outlet stores; shoe stores selling Crocs are not company-owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Crocs",
+      "publicListing": {
+        "company": "Crocs, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "CROX"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000006/crox-20251231.htm",
+        "sourceTitle": "Crocs, Inc. — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
       ],
       "categories": [
         "corporate"
@@ -4036,6 +4399,23 @@
       ]
     },
     {
+      "brand": "Discount Tire",
+      "aliases": [
+        "America's Tire",
+        "Discount Tire Direct"
+      ],
+      "type": "corporate",
+      "parent": "The Reinalt-Thomas Corporation (privately held)",
+      "source": "https://www.torquenews.com/1083/discount-tire-quires-tire-rack-creating-tire-retail-powerhouse",
+      "sourceTitle": "Torque News — Discount Tire acquires Tire Rack",
+      "note": "Privately held Discount Tire operates more than 1,200 stores, also as America's Tire, and owns Tire Rack.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Discount_Tire",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "DK Fuel",
       "aliases": [
         "DK"
@@ -4527,6 +4907,59 @@
       ]
     },
     {
+      "brand": "Ethan Allen",
+      "aliases": [
+        "Ethan Allen Design Center"
+      ],
+      "type": "corporate",
+      "parent": "Ethan Allen Interiors Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000896156/000143774926029578/eth20260630c_10k.htm",
+      "sourceTitle": "Ethan Allen — Form 10-K for fiscal 2026",
+      "note": "Ethan Allen has 141 company-operated and 30 independently owned design centers. The name only matches store listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ethan_Allen_(company)",
+      "publicListing": {
+        "company": "Ethan Allen Interiors Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "ETD"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000896156/000143774926029578/eth20260630c_10k.htm",
+        "sourceTitle": "Ethan Allen — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Express",
+      "aliases": [
+        "Express Factory Outlet",
+        "Express Edit"
+      ],
+      "type": "corporate",
+      "parent": "Phoenix (WHP Global, Simon Property Group, Brookfield Properties & Centennial)",
+      "source": "https://www.retaildive.com/news/express-bonobos-acquired-bankruptcy-simon-brookfield-centennial-whp-global/719103",
+      "sourceTitle": "Retail Dive — Express and Bonobos acquired out of bankruptcy by WHP-led Phoenix",
+      "note": "A joint venture led by WHP Global with mall owners Simon, Brookfield, and Centennial bought Express out of bankruptcy in 2024. The bare word only matches clothing stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Express,_Inc.",
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "ExtraMile",
       "aliases": [
         "ExtraMile by Jacksons"
@@ -4558,6 +4991,34 @@
       "sourceTitle": "ExxonMobil — our global brands",
       "note": "This is an ExxonMobil fuel brand. A branded station may be owned and operated by an independent business.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Eyeglass World",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "National Vision Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1710155/000162828026014379/eye-20260103.htm",
+      "sourceTitle": "National Vision Holdings — fiscal 2025 Form 10-K",
+      "note": "Eyeglass World is a National Vision optical store brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/National_Vision",
+      "publicListing": {
+        "company": "National Vision Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "EYE"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1710155/000162828026014379/eye-20260103.htm",
+        "sourceTitle": "National Vision Holdings — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -4602,6 +5063,37 @@
       "matchCategories": [
         "other"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "EZPawn",
+      "aliases": [
+        "EZ Pawn",
+        "EZPAWN Pawnshop"
+      ],
+      "type": "corporate",
+      "parent": "EZCORP, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/876523/000087652325000094/ezpw-20250930.htm",
+      "sourceTitle": "EZCORP — fiscal 2025 Form 10-K",
+      "note": "EZPawn is EZCORP's US pawn store brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/EZCORP",
+      "publicListing": {
+        "company": "EZCORP, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "EZPW"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/876523/000087652325000094/ezpw-20250930.htm",
+        "sourceTitle": "EZCORP — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -5525,6 +6017,39 @@
       ]
     },
     {
+      "brand": "Free People",
+      "aliases": [
+        "FP Movement"
+      ],
+      "type": "corporate",
+      "parent": "Urban Outfitters, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+      "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+      "note": "Free People and FP Movement are Urban Outfitters, Inc. brands.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Free_People",
+      "publicListing": {
+        "company": "Urban Outfitters, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "URBN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+        "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "FRESH by Brookshire’s",
       "aliases": [
         "Fresh by Brookshire"
@@ -5627,6 +6152,29 @@
       },
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "Gabe's",
+      "aliases": [
+        "Gabes",
+        "Gabriel Brothers"
+      ],
+      "type": "pe",
+      "parent": "Former term lenders including Brigade Capital Management, Arbour Lane, and Anchorage",
+      "source": "https://www.retaildive.com/news/off-pricer-gabes-under-new-ownership-avoids-bankruptcy/758424/",
+      "sourceTitle": "Retail Dive — off-pricer Gabe's under new ownership",
+      "note": "Lenders including Brigade Capital Management converted most of Gabe's term debt into equity in 2025, taking ownership from Warburg Pincus.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gabe%27s",
+      "matchCategories": [
+        "other"
+      ],
+      "sponsors": [
+        "Brigade Capital Management"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -6247,6 +6795,41 @@
       ]
     },
     {
+      "brand": "H&M",
+      "aliases": [
+        "H & M",
+        "H&M Home"
+      ],
+      "type": "corporate",
+      "parent": "H & M Hennes & Mauritz AB",
+      "source": "https://hmgroup.com/wp-content/uploads/2026/03/PR-HM-Group-Annual-and-Sustainability-Report-2025.pdf",
+      "sourceTitle": "H&M Group — Annual and Sustainability Report 2025 release",
+      "note": "H&M Group operates H&M stores, including in the US. The ampersand is required and the name only matches clothing stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/H%26M",
+      "publicListing": {
+        "company": "H & M Hennes & Mauritz AB",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq Stockholm",
+            "ticker": "HM B"
+          }
+        ],
+        "source": "https://hmgroup.com/wp-content/uploads/2026/03/PR-HM-Group-Annual-and-Sustainability-Report-2025.pdf",
+        "sourceTitle": "H&M Group — 2025 report release (Nasdaq Stockholm: H&M B)",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "preservePunctuation": true,
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Habit Burger & Grill",
       "aliases": [
         "The Habit Burger Grill",
@@ -6374,6 +6957,37 @@
       "sourceTitle": "Kroger — family of banners",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Havertys",
+      "aliases": [
+        "Haverty's",
+        "Havertys Furniture"
+      ],
+      "type": "corporate",
+      "parent": "Haverty Furniture Companies, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/216085/000162828026012199/hvt-20251231.htm",
+      "sourceTitle": "Havertys — 2025 Form 10-K",
+      "note": "Havertys operates 129 furniture stores in 17 states.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Havertys",
+      "publicListing": {
+        "company": "Haverty Furniture Companies, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "HVT"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/216085/000162828026012199/hvt-20251231.htm",
+        "sourceTitle": "Havertys — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -6870,6 +7484,25 @@
       ]
     },
     {
+      "brand": "J.Crew",
+      "aliases": [
+        "J. Crew",
+        "J Crew",
+        "J.Crew Factory",
+        "J.Crew Mercantile"
+      ],
+      "type": "corporate",
+      "parent": "J.Crew Group · Anchorage Capital Group (majority owner since 2020)",
+      "source": "https://www.sfnet.com/home/chapters/canada/news-detail/2020/09/10/anchorage-capital-group-becomes-majority-owner-of-j-crew-group",
+      "sourceTitle": "SFNet — Anchorage Capital Group becomes majority owner of J.Crew Group",
+      "note": "Anchorage Capital became J.Crew Group's majority owner when it emerged from Chapter 11 in 2020. The owner is taken from the cited report; a later change was not found.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/J.Crew",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Jack in the Box",
       "aliases": [],
       "type": "corporate",
@@ -7215,6 +7848,24 @@
       ]
     },
     {
+      "brand": "Jos. A. Bank",
+      "aliases": [
+        "Jos A Bank",
+        "JoS. A. Bank",
+        "Jos. A. Bank Clothiers"
+      ],
+      "type": "corporate",
+      "parent": "Tailored Brands, Inc. (controlled by Silver Point Capital funds)",
+      "source": "https://www.costar.com/article/1800052174/mens-wearhouse-parent-eyes-wall-street-return-as-department-stores-retreat",
+      "sourceTitle": "CoStar — Men's Wearhouse parent eyes Wall Street return",
+      "note": "Tailored Brands operated 181 Jos. A. Bank stores in 2026 and filed for a Nasdaq listing; no completed listing is recorded here.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Jos._A._Bank_Clothiers",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Journeys",
       "aliases": [
         "Journeys Kidz"
@@ -7243,6 +7894,57 @@
       "matchCategories": [
         "other"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "K&G Fashion Superstore",
+      "aliases": [
+        "K&G Fashion",
+        "K & G Fashion Superstore"
+      ],
+      "type": "corporate",
+      "parent": "Tailored Brands, Inc. (controlled by Silver Point Capital funds)",
+      "source": "https://www.costar.com/article/1800052174/mens-wearhouse-parent-eyes-wall-street-return-as-department-stores-retreat",
+      "sourceTitle": "CoStar — Men's Wearhouse parent eyes Wall Street return",
+      "note": "K&G is a Tailored Brands banner.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tailored_Brands",
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Kate Spade",
+      "aliases": [
+        "Kate Spade New York",
+        "kate spade outlet"
+      ],
+      "type": "corporate",
+      "parent": "Tapestry, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001116132/000111613226000018/tpr-20260627.htm",
+      "sourceTitle": "Tapestry — Form 10-K for fiscal 2026",
+      "note": "Kate Spade is a Tapestry brand.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kate_Spade_New_York",
+      "publicListing": {
+        "company": "Tapestry, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "TPR"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001116132/000111613226000018/tpr-20260627.htm",
+        "sourceTitle": "Tapestry — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -7636,6 +8338,38 @@
       ]
     },
     {
+      "brand": "La-Z-Boy",
+      "aliases": [
+        "La-Z-Boy Home Furnishings & Decor",
+        "La-Z-Boy Furniture Galleries",
+        "Lazboy"
+      ],
+      "type": "corporate",
+      "parent": "La-Z-Boy Incorporated",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000057131/000005713126000019/lzb-20260425.htm",
+      "sourceTitle": "La-Z-Boy — Form 10-K for fiscal 2026",
+      "note": "La-Z-Boy owns 230 of its 378 branded stores; the rest are independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/La-Z-Boy",
+      "publicListing": {
+        "company": "La-Z-Boy Incorporated",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "LZB"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000057131/000005713126000019/lzb-20260425.htm",
+        "sourceTitle": "La-Z-Boy — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Lakeshore Learning",
       "aliases": [
         "Lakeshore Learning Store",
@@ -7730,6 +8464,41 @@
       },
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Levi's",
+      "aliases": [
+        "Levi's Store",
+        "Levi's Outlet",
+        "Levi Strauss & Co."
+      ],
+      "type": "corporate",
+      "parent": "Levi Strauss & Co.",
+      "source": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000008/lvis-20251130.htm",
+      "sourceTitle": "Levi Strauss & Co. — 2025 Form 10-K",
+      "note": "Levi Strauss & Co. had 1,231 company-operated stores at the end of fiscal 2025; about 1,300 franchised stores are separately operated.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+      "publicListing": {
+        "company": "Levi Strauss & Co.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "LEVI"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/94845/000009484526000008/lvis-20251130.htm",
+        "sourceTitle": "Levi Strauss & Co. — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
       ],
       "categories": [
         "corporate"
@@ -8201,6 +8970,20 @@
       "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Madewell",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "J.Crew Group · Anchorage Capital Group (majority owner since 2020)",
+      "source": "https://www.sfnet.com/home/chapters/canada/news-detail/2020/09/10/anchorage-capital-group-becomes-majority-owner-of-j-crew-group",
+      "sourceTitle": "SFNet — Anchorage Capital Group becomes majority owner of J.Crew Group",
+      "note": "Madewell is part of J.Crew Group, majority-owned by Anchorage Capital since 2020. The owner is taken from the cited report; a later change was not found.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Madewell",
       "categories": [
         "corporate"
       ]
@@ -8707,6 +9490,23 @@
       ]
     },
     {
+      "brand": "Men's Wearhouse",
+      "aliases": [
+        "Mens Wearhouse",
+        "The Men's Wearhouse"
+      ],
+      "type": "corporate",
+      "parent": "Tailored Brands, Inc. (controlled by Silver Point Capital funds)",
+      "source": "https://www.costar.com/article/1800052174/mens-wearhouse-parent-eyes-wall-street-return-as-department-stores-retreat",
+      "sourceTitle": "CoStar — Men's Wearhouse parent eyes Wall Street return",
+      "note": "Tailored Brands operated 637 Men's Wearhouse stores in 2026 and filed for a Nasdaq listing under MENW; no completed listing is recorded here.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Men%27s_Wearhouse",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Menards",
       "aliases": [],
       "type": "corporate",
@@ -8833,6 +9633,36 @@
       ]
     },
     {
+      "brand": "Michael Kors",
+      "aliases": [
+        "Michael Kors Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Capri Holdings Limited",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001530721/000153072126000047/cpri-20260328.htm",
+      "sourceTitle": "Capri Holdings — Form 10-K for fiscal 2026",
+      "note": "Michael Kors is Capri Holdings' largest brand. Department stores selling the brand are not Capri-owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Michael_Kors",
+      "publicListing": {
+        "company": "Capri Holdings Limited",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CPRI"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001530721/000153072126000047/cpri-20260328.htm",
+        "sourceTitle": "Capri Holdings — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Michaels",
       "aliases": [
         "Michaels Arts & Crafts",
@@ -8849,6 +9679,20 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Micro Center",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Micro Electronics, Inc. (privately held)",
+      "source": "https://www.slashgear.com/2280803/who-owns-micro-center-other-tech-brands-owned-by-micro-electronics/",
+      "sourceTitle": "SlashGear — Micro Center owned by privately held Micro Electronics",
+      "note": "Micro Center is the 30-store retail chain of privately held Micro Electronics, Inc.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Micro_Center",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -8938,6 +9782,23 @@
           "url": "https://www.mintmobile.com/why-mint-mobile/"
         }
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Miracle-Ear",
+      "aliases": [
+        "Miracle Ear",
+        "Miracle-Ear Hearing Aid Center"
+      ],
+      "type": "corporate",
+      "parent": "Amplifon S.p.A.",
+      "source": "https://corporate.amplifon.com/en/investors/press-releases/f-pr-Amplifon-grows-in-USA-Arizona-29-04-2025",
+      "sourceTitle": "Amplifon — US growth and Miracle-Ear network (April 2025)",
+      "note": "Amplifon owns Miracle-Ear, with more than 420 direct US locations and about 1,200 franchised ones. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Miracle-Ear",
       "categories": [
         "corporate"
       ]
@@ -9267,6 +10128,22 @@
       "matchCategories": [
         "grocery"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Neiman Marcus",
+      "aliases": [
+        "Neiman Marcus Last Call"
+      ],
+      "type": "corporate",
+      "parent": "Saks Global (privately held; Chapter 11 since January 2026)",
+      "source": "https://abc7news.com/post/luxury-retailer-saks-global-files-bankruptcy-prepares-restructure/18400868/",
+      "sourceTitle": "ABC News — Saks Global files for bankruptcy as it prepares to restructure",
+      "note": "Saks Global acquired Neiman Marcus in 2024 and filed for Chapter 11 in January 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Neiman_Marcus",
       "categories": [
         "corporate"
       ]
@@ -9645,6 +10522,37 @@
       ]
     },
     {
+      "brand": "Once Upon a Child",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Winmark Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+      "sourceTitle": "Winmark — 2025 Form 10-K",
+      "note": "Once Upon a Child is a Winmark franchise brand. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winmark",
+      "publicListing": {
+        "company": "Winmark Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WINA"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+        "sourceTitle": "Winmark — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "One9",
       "aliases": [
         "One9 Travel Center",
@@ -9821,6 +10729,26 @@
       ]
     },
     {
+      "brand": "PacSun",
+      "aliases": [
+        "Pacific Sunwear",
+        "Pac Sun"
+      ],
+      "type": "pe",
+      "parent": "PSEB · Golden Gate Capital",
+      "source": "https://www.yahoo.com/news/articles/pacsun-retailer-big-plans-2026-021817770.html",
+      "sourceTitle": "USA Today via Yahoo — PacSun's 2026 store plans",
+      "note": "PacSun has been owned by Golden Gate Capital since its 2016 bankruptcy.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/PacSun",
+      "sponsors": [
+        "Golden Gate Capital"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Panda Express",
       "aliases": [],
       "type": "corporate",
@@ -9842,6 +10770,26 @@
       "sourceTitle": "Panda Restaurant Group — brands and family ownership",
       "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category. The company operates most locations, with certain nontraditional licensed locations.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Pandora",
+      "aliases": [
+        "Pandora Jewelry",
+        "Pandora Store"
+      ],
+      "type": "corporate",
+      "parent": "Pandora A/S",
+      "source": "https://www.tipranks.com/news/company-announcements/pandora-a-s-reports-strong-q1-2025-growth",
+      "sourceTitle": "TipRanks — Pandora A/S results",
+      "note": "Pandora A/S operates and converts Pandora-branded jewelry stores in the US. The bare name only matches clothing and jewelry stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pandora_(jewelry)",
+      "matchCategories": [
+        "apparel"
+      ],
       "categories": [
         "corporate"
       ]
@@ -10368,6 +11316,64 @@
       ]
     },
     {
+      "brand": "Plato's Closet",
+      "aliases": [
+        "Platos Closet"
+      ],
+      "type": "corporate",
+      "parent": "Winmark Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+      "sourceTitle": "Winmark — 2025 Form 10-K",
+      "note": "Plato's Closet is a Winmark franchise brand. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winmark",
+      "publicListing": {
+        "company": "Winmark Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WINA"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+        "sourceTitle": "Winmark — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Play It Again Sports",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Winmark Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+      "sourceTitle": "Winmark — 2025 Form 10-K",
+      "note": "Play It Again Sports is a Winmark franchise brand. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winmark",
+      "publicListing": {
+        "company": "Winmark Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WINA"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+        "sourceTitle": "Winmark — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Playa Bowls",
       "aliases": [],
       "type": "pe",
@@ -10529,6 +11535,26 @@
       "checked": "2026-10-15",
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "PPG Paints",
+      "aliases": [
+        "PPG Paints Store",
+        "Pittsburgh Paints"
+      ],
+      "type": "pe",
+      "parent": "The Pittsburgh Paints Company · American Industrial Partners",
+      "source": "https://www.businesswire.com/news/home/20241017698758/en/PPG-reaches-agreement-to-sell-architectural-coatings-U.S.-and-Canada-business-to-American-Industrial-Partners-announces-comprehensive-cost-reduction-program",
+      "sourceTitle": "PPG — sale of US and Canada architectural coatings to American Industrial Partners",
+      "note": "American Industrial Partners bought PPG's US and Canadian architectural coatings business and its company-owned paint stores, now The Pittsburgh Paints Company. Independent dealers selling these paints are not owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/PPG_Industries",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -11053,6 +12079,23 @@
       ]
     },
     {
+      "brand": "Raymour & Flanigan",
+      "aliases": [
+        "Raymour and Flanigan",
+        "Raymour & Flanigan Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Raymours Furniture Company (privately held, family owned)",
+      "source": "https://homenewsnow.com/blog/2026/05/14/raymour-flanigan-opens-1st-maryland-showroom/",
+      "sourceTitle": "Home News Now — Raymour & Flanigan opens its first Maryland showroom (May 2026)",
+      "note": "The privately held, family-operated retailer has about 150 showrooms and is the Northeast's largest furniture retailer.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raymour_%26_Flanigan",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Real Urban BBQ",
       "aliases": [],
       "type": "corporate",
@@ -11266,6 +12309,73 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Rent-A-Center",
+      "aliases": [
+        "Rent A Center",
+        "RentACenter"
+      ],
+      "type": "corporate",
+      "parent": "Upbound Group, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/933036/000093303626000008/upbd-20251231.htm",
+      "sourceTitle": "Upbound Group — 2025 Form 10-K",
+      "note": "Rent-A-Center is an Upbound segment with company and franchise stores. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rent-A-Center",
+      "publicListing": {
+        "company": "Upbound Group, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "UPBD"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/933036/000093303626000008/upbd-20251231.htm",
+        "sourceTitle": "Upbound Group — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "RH",
+      "aliases": [
+        "Restoration Hardware",
+        "RH Gallery",
+        "RH Outlet",
+        "RH Baby & Child"
+      ],
+      "type": "corporate",
+      "parent": "RH",
+      "source": "https://www.sec.gov/Archives/edgar/data/1528849/000155837025004329/rh-20250201x10k.htm",
+      "sourceTitle": "RH — Form 10-K",
+      "note": "RH operates its Galleries and outlets. The bare initials only match home stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/RH_(company)",
+      "publicListing": {
+        "company": "RH",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "RH"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1528849/000155837025004329/rh-20250201x10k.htm",
+        "sourceTitle": "RH — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "home"
       ],
       "categories": [
         "corporate"
@@ -11536,6 +12646,22 @@
       ]
     },
     {
+      "brand": "rue21",
+      "aliases": [
+        "rue 21"
+      ],
+      "type": "corporate",
+      "parent": "YM Inc. (privately held)",
+      "source": "https://www.costar.com/article/864369536/new-rue21-owner-gives-shuttered-chain-another-lease-on-life",
+      "sourceTitle": "CoStar — new rue21 owner gives shuttered chain another lease on life",
+      "note": "Toronto-based YM Inc. bought the rue21 brand out of bankruptcy in 2024 and reopened about 120 stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rue21",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Ruler Foods",
       "aliases": [
         "Ruler"
@@ -11626,6 +12752,22 @@
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Saks Fifth Avenue",
+      "aliases": [
+        "Saks Fifth Ave"
+      ],
+      "type": "corporate",
+      "parent": "Saks Global (privately held; Chapter 11 since January 2026)",
+      "source": "https://abc7news.com/post/luxury-retailer-saks-global-files-bankruptcy-prepares-restructure/18400868/",
+      "sourceTitle": "ABC News — Saks Global files for bankruptcy as it prepares to restructure",
+      "note": "Privately held Saks Global, parent of Saks Fifth Avenue, Neiman Marcus, and Bergdorf Goodman, filed for Chapter 11 in January 2026 and kept stores open during the restructuring. Saks OFF 5TH is a separate company and is not matched.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Saks_Fifth_Avenue",
       "categories": [
         "corporate"
       ]
@@ -11750,6 +12892,39 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Savers",
+      "aliases": [
+        "Savers Thrift Store"
+      ],
+      "type": "corporate",
+      "parent": "Savers Value Village, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000014/svv-20260103.htm",
+      "sourceTitle": "Savers Value Village — fiscal 2025 Form 10-K",
+      "note": "Savers Value Village is a for-profit thrift retailer. The name is limited to store listings.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Savers",
+      "publicListing": {
+        "company": "Savers Value Village, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SVV"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000014/svv-20260103.htm",
+        "sourceTitle": "Savers Value Village — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
       ],
       "categories": [
         "corporate"
@@ -12386,6 +13561,34 @@
       ]
     },
     {
+      "brand": "Sleep Number",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Sleep Number Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/827187/000082718726000014/snbr-20260103.htm",
+      "sourceTitle": "Sleep Number — fiscal 2025 Form 10-K",
+      "note": "Sleep Number sells through its own stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sleep_Number",
+      "publicListing": {
+        "company": "Sleep Number Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "SNBR"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/827187/000082718726000014/snbr-20260103.htm",
+        "sourceTitle": "Sleep Number — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Smart & Final",
       "aliases": [
         "Smart and Final",
@@ -12908,6 +14111,37 @@
       "note": "Keurig Dr Pepper lists this among its company coffee brands. The label identifies corporate brand affiliation; an independently operated cafe that merely serves these beans is not matched by its own name.",
       "checked": "2026-10-16",
       "wikipedia": "https://en.wikipedia.org/wiki/Stumptown_Coffee_Roasters",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Style Encore",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Winmark Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+      "sourceTitle": "Winmark — 2025 Form 10-K",
+      "note": "Style Encore is a Winmark franchise brand. Franchise locations may be independently owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Winmark",
+      "publicListing": {
+        "company": "Winmark Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "WINA"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/908315/000090831526000007/wina-20251227x10k.htm",
+        "sourceTitle": "Winmark — 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "other"
+      ],
       "categories": [
         "corporate"
       ]
@@ -13526,6 +14760,37 @@
       ]
     },
     {
+      "brand": "The Children's Place",
+      "aliases": [
+        "Children's Place",
+        "Childrens Place"
+      ],
+      "type": "corporate",
+      "parent": "The Children's Place, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1041859/000162828025018195/plce-20250201.htm",
+      "sourceTitle": "The Children's Place — Form 10-K",
+      "note": "The Children's Place operates about 500 North American stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Children%27s_Place",
+      "publicListing": {
+        "company": "The Children's Place, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "PLCE"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1041859/000162828025018195/plce-20250201.htm",
+        "sourceTitle": "The Children's Place — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "The Coffee Bean & Tea Leaf",
       "aliases": [
         "Coffee Bean & Tea Leaf",
@@ -13696,6 +14961,36 @@
       ]
     },
     {
+      "brand": "The North Face",
+      "aliases": [
+        "North Face"
+      ],
+      "type": "corporate",
+      "parent": "V.F. Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm",
+      "sourceTitle": "V.F. Corporation — Form 10-K for fiscal 2026",
+      "note": "The North Face is VF's largest brand. Outdoor stores selling the brand are not thereby VF-owned.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_North_Face",
+      "publicListing": {
+        "company": "V.F. Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "VFC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm",
+        "sourceTitle": "V.F. Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "The Shade Store",
       "aliases": [],
       "type": "pe",
@@ -13759,6 +15054,56 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "Tiffany & Co.",
+      "aliases": [
+        "Tiffany and Co.",
+        "Tiffany & Co"
+      ],
+      "type": "corporate",
+      "parent": "LVMH Moët Hennessy Louis Vuitton",
+      "source": "https://www.dawn.com/news/1518774/lvmh-puts-a-ring-on-jeweller-tiffany-in-162bn-union",
+      "sourceTitle": "Dawn — LVMH acquires Tiffany",
+      "note": "LVMH completed its acquisition of Tiffany & Co. in 2021.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tiffany_%26_Co.",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Tilly's",
+      "aliases": [
+        "Tillys"
+      ],
+      "type": "corporate",
+      "parent": "Tilly's, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1524025/000162828025017352/tlys-20250201.htm",
+      "sourceTitle": "Tilly's, Inc. — Form 10-K",
+      "note": "Tilly's operates its own specialty apparel stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tilly%27s",
+      "publicListing": {
+        "company": "Tilly's, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "TLYS"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1524025/000162828025017352/tlys-20250201.htm",
+        "sourceTitle": "Tilly's, Inc. — Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
+      ],
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -14008,6 +15353,23 @@
       "categories": [
         "corporate",
         "pe"
+      ]
+    },
+    {
+      "brand": "Total Wine & More",
+      "aliases": [
+        "Total Wine",
+        "Total Wine and More"
+      ],
+      "type": "corporate",
+      "parent": "Retail Services & Systems, Inc. (privately held by the Trone family)",
+      "source": "https://www.winespectator.com/articles/total-wine-35-anniversary-300-stores-103126",
+      "sourceTitle": "Wine Spectator — Total Wine's rise to 300 stores",
+      "note": "Total Wine & More is the largest privately owned US beer, wine, and spirits retailer, with about 300 stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Total_Wine_%26_More",
+      "categories": [
+        "corporate"
       ]
     },
     {
@@ -14336,6 +15698,20 @@
       ]
     },
     {
+      "brand": "Uniqlo",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Fast Retailing Co., Ltd.",
+      "source": "https://www.retailtouchpoints.com/features/news-briefs/uniqlo-plans-11-new-u-s-stores-in-2026",
+      "sourceTitle": "Retail TouchPoints — Uniqlo plans 11 new US stores in 2026",
+      "note": "Uniqlo is Fast Retailing's main brand and is expanding its US store network in 2026.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Uniqlo",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "United Pacific",
       "aliases": [],
       "type": "pe",
@@ -14364,6 +15740,34 @@
       "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
       "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
       "checked": "2026-10-15",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Urban Outfitters",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Urban Outfitters, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+      "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+      "note": "Urban Outfitters, Inc. operates Urban Outfitters, Anthropologie, and Free People stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Urban_Outfitters",
+      "publicListing": {
+        "company": "Urban Outfitters, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "URBN"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/912615/000119312526137916/urbn-20260131.htm",
+        "sourceTitle": "Urban Outfitters, Inc. — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
       "categories": [
         "corporate"
       ]
@@ -14415,6 +15819,68 @@
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "matchCategories": [
         "grocery"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Value Village",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Savers Value Village, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000014/svv-20260103.htm",
+      "sourceTitle": "Savers Value Village — fiscal 2025 Form 10-K",
+      "note": "Value Village is a banner of for-profit thrift retailer Savers Value Village.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Savers",
+      "publicListing": {
+        "company": "Savers Value Village, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SVV"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1883313/000188331326000014/svv-20260103.htm",
+        "sourceTitle": "Savers Value Village — fiscal 2025 Form 10-K",
+        "checked": "2026-10-27"
+      },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Vans",
+      "aliases": [
+        "Vans Store",
+        "Vans Outlet"
+      ],
+      "type": "corporate",
+      "parent": "V.F. Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm",
+      "sourceTitle": "V.F. Corporation — Form 10-K for fiscal 2026",
+      "note": "Vans is a VF brand with company stores. The bare name only matches clothing and shoe stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Vans",
+      "publicListing": {
+        "company": "V.F. Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "VFC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm",
+        "sourceTitle": "V.F. Corporation — Form 10-K for fiscal 2026",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
       ],
       "categories": [
         "corporate"
@@ -14911,6 +16377,23 @@
       ]
     },
     {
+      "brand": "West Marine",
+      "aliases": [],
+      "type": "pe",
+      "parent": "L Catterton & Oaktree (Chapter 11 since May 2026)",
+      "source": "https://bondoro.com/content/files/2026/05/West-Marine_Slide-Summary_05.20.26.pdf",
+      "sourceTitle": "West Marine — May 2026 bankruptcy slide summary",
+      "note": "West Marine's equity is co-sponsored by L Catterton and Oaktree. It filed for Chapter 11 in May 2026 and is closing some stores.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/West_Marine",
+      "sponsors": [
+        "L Catterton"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Wetzel’s Pretzels",
       "aliases": [
         "Wetzel's Pretzels"
@@ -15226,6 +16709,26 @@
       ]
     },
     {
+      "brand": "World Market",
+      "aliases": [
+        "Cost Plus World Market",
+        "Cost Plus"
+      ],
+      "type": "pe",
+      "parent": "Kingswood Capital Management investment",
+      "source": "https://spectrumnews1.com/ca/southern-california/business/2021/01/19/los-angeles-based-private-equity-firm-buys-cost-plus-in--110-million-deal",
+      "sourceTitle": "Spectrum News — private equity firm Kingswood buys Cost Plus World Market",
+      "note": "Kingswood Capital Management bought Cost Plus World Market from Bed Bath & Beyond in 2021. The owner is taken from the cited report; a later change was not found.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cost_Plus_World_Market",
+      "matchCategories": [
+        "other"
+      ],
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "WORLDPAC",
       "aliases": [
         "World Pac"
@@ -15365,6 +16868,37 @@
       },
       "matchCategories": [
         "other"
+      ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Zara",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Industria de Diseño Textil, S.A. (Inditex)",
+      "source": "https://www.modaes.com/global/companies/inditex-maintains-its-new-pace-grows-32-and-earns-622-billion-in-2025",
+      "sourceTitle": "Modaes — Inditex fiscal 2025 results",
+      "note": "Zara is Inditex's largest brand; Inditex is listed in Madrid and controlled by Pontegadea.",
+      "checked": "2026-10-27",
+      "wikipedia": "https://en.wikipedia.org/wiki/Zara_(retailer)",
+      "publicListing": {
+        "company": "Industria de Diseño Textil, S.A.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Bolsa de Madrid",
+            "ticker": "ITX"
+          }
+        ],
+        "source": "https://www.modaes.com/global/companies/inditex-maintains-its-new-pace-grows-32-and-earns-622-billion-in-2025",
+        "sourceTitle": "Modaes — Inditex fiscal 2025 results",
+        "checked": "2026-10-27"
+      },
+      "matchCategories": [
+        "apparel"
       ],
       "categories": [
         "corporate"

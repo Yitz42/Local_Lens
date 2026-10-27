@@ -946,6 +946,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-16"
         },
         {
+          "brand": "Gabe's",
+          "parent": "Former term lenders including Brigade Capital Management, Arbour Lane, and Anchorage",
+          "type": "pe",
+          "source": "https://www.retaildive.com/news/off-pricer-gabes-under-new-ownership-avoids-bankruptcy/758424/",
+          "checked": "2026-10-27"
+        },
+        {
           "brand": "Guitar Center",
           "parent": "Guitar Center Holdings · Ares / Carlyle / Brigade investor group",
           "type": "pe",
@@ -2524,7 +2531,15 @@ export const FIRM_CATALOG = {
       "source": "https://goldengatecap.com/portfolio/",
       "notes": "Official portfolio opened but asset cards/current status did not render, so review is partial and no new current holdings are asserted. Official news archive reports sale of Bob Evans Restaurants to 4x4 Capital in February 2026; do not keep Bob Evans under Golden Gate. California Pizza Kitchen, Eddie Bauer, Red Lobster, and older Pacific Sunwear stories are historical or affected by later transactions and were not relabeled from those stories. Current news archive reviewed: https://goldengatecap.com/news/ .",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "PacSun",
+          "parent": "PSEB · Golden Gate Capital",
+          "type": "pe",
+          "source": "https://www.yahoo.com/news/articles/pacsun-retailer-big-plans-2026-021817770.html",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Goldman Sachs Alternatives",
@@ -3248,6 +3263,13 @@ export const FIRM_CATALOG = {
       ],
       "mappedBrands": [
         {
+          "brand": "Belk",
+          "parent": "Lender group including KKR and Hein Park funds",
+          "type": "pe",
+          "source": "https://chainstoreage.com/news/belk-begins-new-ownership-era",
+          "checked": "2026-10-27"
+        },
+        {
           "brand": "Nothing Bundt Cakes",
           "parent": "KKR fund-backed investment",
           "type": "pe",
@@ -3324,6 +3346,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "West Marine",
+          "parent": "L Catterton & Oaktree (Chapter 11 since May 2026)",
+          "type": "pe",
+          "source": "https://bondoro.com/content/files/2026/05/West-Marine_Slide-Summary_05.20.26.pdf",
+          "checked": "2026-10-27"
         }
       ]
     },
