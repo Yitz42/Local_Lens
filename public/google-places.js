@@ -1,5 +1,5 @@
 import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
-import {storeTypeFromTerms} from './store-types.js?v=20261027-pages1';
+import {storeTypeFromTerms} from './store-types.js?v=20261029-eatery1';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';
@@ -19,11 +19,20 @@ export function googleSearchGroups(category='all',foodTypes=[]){
  const cuisineTypes=[...new Set(foodTypes.map(id=>CUISINES[id]).filter(Boolean))];
  return cuisineTypes.length?[cuisineTypes]:category==='all'?[GOOGLE_TYPES.restaurant,GOOGLE_TYPES.grocery,GOOGLE_TYPES.gas,GOOGLE_TYPES.coffee,STORE_TYPES]:[GOOGLE_TYPES[category]||GOOGLE_TYPES.other];
 }
+const CATEGORY_ORDER=['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank'];
+// Google lists many eateries as bakeries or delis too; those types only mean a shop when there is no restaurant type.
+const SHOP_FOOD_TYPES=['bakery','deli'];
+const isRestaurantType=type=>type==='restaurant'||type==='sandwich_shop'||type==='bagel_shop'||!!type?.endsWith('_restaurant');
+function categoryOfType(type){return CATEGORY_ORDER.find(category=>GOOGLE_TYPES[category].includes(type))||(isRestaurantType(type)?'restaurant':null);}
 export function googleCategory(types=[],primary=''){
- const list=[primary,...types];
- for(const category of ['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank'])if(list.some(type=>GOOGLE_TYPES[category].includes(type)))return category;
- if(list.some(type=>type?.endsWith('_restaurant')||type==='sandwich_shop'))return 'restaurant';
- return 'other';
+ const list=[primary,...types].filter(Boolean),eatery=list.some(isRestaurantType);
+ const main=categoryOfType(primary);
+ if(main&&!(SHOP_FOOD_TYPES.includes(primary)&&eatery))return main;
+ for(const category of CATEGORY_ORDER){
+  const matches=list.filter(type=>GOOGLE_TYPES[category].includes(type));
+  if(matches.length&&!(category==='grocery'&&eatery&&matches.every(type=>SHOP_FOOD_TYPES.includes(type))))return category;
+ }
+ return eatery?'restaurant':'other';
 }
 export function normalizeGooglePlace(place){
  const location=place.location,lat=typeof location?.lat==='function'?location.lat():location?.lat,lng=typeof location?.lng==='function'?location.lng():location?.lng;
