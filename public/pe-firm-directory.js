@@ -2301,6 +2301,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-16"
         },
         {
+          "brand": "Camp Bow Wow",
+          "parent": "Camp Bow Wow · Propelled Brands",
+          "type": "pe",
+          "source": "https://chainstoreage.com/propelled-brands-acquires-growing-dog-daycare-grooming-chain",
+          "checked": "2026-10-29"
+        },
+        {
           "brand": "FASTSIGNS",
           "parent": "Propelled Brands · Freeman Spogli & Co. and LightBay Capital",
           "type": "pe",
@@ -3708,6 +3715,13 @@ export const FIRM_CATALOG = {
         }
       ],
       "mappedBrands": [
+        {
+          "brand": "Camp Bow Wow",
+          "parent": "Camp Bow Wow · Propelled Brands",
+          "type": "pe",
+          "source": "https://chainstoreage.com/propelled-brands-acquires-growing-dog-daycare-grooming-chain",
+          "checked": "2026-10-29"
+        },
         {
           "brand": "FASTSIGNS",
           "parent": "Propelled Brands · Freeman Spogli & Co. and LightBay Capital",

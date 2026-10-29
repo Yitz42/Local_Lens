@@ -131,6 +131,28 @@ Restaurants that also serve drinks stay restaurants. The Google types were chose
 
 Ownership of Christian Brothers Automotive and any outside stake in Safelite were not confirmed beyond their franchisor and parent.
 
+## Print & ship, laundry, pet care, and repair
+
+Four more service categories were added on October 29, 2026.
+
+| Category | Overture taxonomy | OpenStreetMap | Google Places |
+| --- | --- | --- | --- |
+| Print & ship | `printing_service` and its children, `print_media`, `shipping_center`, `post_office` (courier lockers excluded) | `shop=copyshop`, `craft=printer`, `amenity=post_office`, `office=courier` | `courier_service`, `post_office`, plus a "print shop" text search |
+| Laundry & dry cleaning | `laundry_service`, `laundromat`, `dry_cleaning` | `shop=laundry/dry_cleaning` | `laundry` |
+| Pet care & vets | `animal_or_pet_service` and its veterinary, grooming, boarding, sitting, and training children | `amenity=veterinary/animal_boarding`, `shop=pet_grooming` | `veterinary_care`, plus a "pet grooming" text search |
+| Repair & alterations | phone, computer, and electronics repair, shoe, watch, and jewelry repair, tailors (IT consultants excluded) | `craft=electronics_repair/shoemaker/tailor/watchmaker`, `shop=repair/tailor` | a "phone and computer repair" text search |
+
+Pet stores stay in More stores. The text searches run only when that category is selected, so an all-places Google search still makes five requests.
+
+17 brands were added, bringing the directory to 905 listed brands:
+
+- **Print & ship:** FedEx Office (NYSE FDX, company-run), The UPS Store (NYSE UPS, franchised), AlphaGraphics and PostNet (MBE Worldwide, family-controlled with an Oaktree minority stake; franchised), Minuteman Press (family-owned by the Titus family since 1973; franchised), and Sir Speedy, PIP, and Signal Graphics (privately held Franchise Services, Inc. of Mission Viejo; franchised).
+- **Pet care & vets:** Banfield Pet Hospital, VCA Animal Hospitals, and BluePearl (Mars, privately held), and Camp Bow Wow (Propelled Brands, backed by Freeman Spogli and LightBay Capital; franchised).
+- **Repair:** uBreakiFix by Asurion (privately held Asurion; franchised) and CPR Cell Phone Repair (Assurant, NYSE AIZ; franchised).
+- **Laundry & dry cleaning:** Tide Cleaners (Procter & Gamble, NYSE PG; franchised), and Lapels Cleaners and Martinizing (Clean Brands, LLC, backed by private equity firm Greybull Stewardship; franchised).
+
+Existing brands without a category guard, such as Staples, Office Depot, Petco, PetSmart, Thrive Pet Healthcare, and Batteries Plus, also match in these categories.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

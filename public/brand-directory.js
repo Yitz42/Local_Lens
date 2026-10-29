@@ -626,6 +626,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "AlphaGraphics",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "MBE Worldwide S.p.A. (Fiorelli family; Oaktree minority stake)",
+    "source": "https://www.mbeglobal.com/mbe-worldwide-acquires-alphagraphics-inc",
+    "sourceTitle": "MBE Worldwide — acquires AlphaGraphics",
+    "note": "Italian, family-controlled MBE Worldwide bought the AlphaGraphics print franchise in 2017. Funds managed by Oaktree agreed in 2020 to take up to a 40% minority stake in MBE. Most centers are franchised.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AlphaGraphics",
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Amada Vino + Tapas",
     "aliases": [
       "Amada Vino + Tapas",
@@ -1197,6 +1216,25 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Gap Inc. — brand portfolio",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Banfield Pet Hospital",
+    "aliases": [
+      "Banfield"
+    ],
+    "type": "corporate",
+    "parent": "Mars, Incorporated (Mars Veterinary Health)",
+    "source": "https://marsveterinary.com/who-we-are/our-companies/",
+    "sourceTitle": "Mars Veterinary Health — our companies",
+    "note": "Banfield has been part of Mars since 2007; many hospitals are inside PetSmart stores.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Banfield%20Pet%20Hospital",
+    "matchCategories": [
+      "pets"
+    ],
     "categories": [
       "corporate"
     ]
@@ -2119,6 +2157,26 @@ export const BRAND_DIRECTORY = [
     "note": "The company identifies this as one of its retail brands. This labels corporate brand affiliation; local operating ownership is not separately verified.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "BluePearl Pet Hospital",
+    "aliases": [
+      "BluePearl",
+      "BluePearl Specialty and Emergency Pet Hospital"
+    ],
+    "type": "corporate",
+    "parent": "Mars, Incorporated (Mars Veterinary Health)",
+    "source": "https://marsveterinary.com/who-we-are/our-companies/",
+    "sourceTitle": "Mars Veterinary Health — our companies",
+    "note": "BluePearl specialty and emergency hospitals joined Mars in 2015.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=BluePearl",
+    "matchCategories": [
+      "pets"
+    ],
     "categories": [
       "corporate"
     ]
@@ -3052,6 +3110,28 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Camp Bow Wow",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Camp Bow Wow · Propelled Brands",
+    "source": "https://chainstoreage.com/propelled-brands-acquires-growing-dog-daycare-grooming-chain",
+    "sourceTitle": "Chain Store Age — Propelled Brands acquires Camp Bow Wow (2024)",
+    "note": "Propelled Brands, backed by Freeman Spogli and LightBay Capital, bought the dog daycare and boarding franchise in 2024.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Camp%20Bow%20Wow",
+    "matchCategories": [
+      "pets"
+    ],
+    "localOperators": "franchise",
+    "sponsors": [
+      "Freeman Spogli & Co.",
+      "LightBay Capital"
+    ],
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -4787,6 +4867,41 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Costco — company profile",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "CPR Cell Phone Repair",
+    "aliases": [
+      "CPR - Cell Phone Repair"
+    ],
+    "type": "corporate",
+    "parent": "Assurant, Inc.",
+    "source": "https://www.ifixit.com/News/33660/assurant-buys-cpr-cell-phone-repair",
+    "sourceTitle": "iFixit — Assurant buys CPR Cell Phone Repair (2019)",
+    "note": "Assurant bought the CPR franchise system in 2019. The bare name \"CPR\" is not matched because CPR training businesses share it.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=CPR%20Cell%20Phone%20Repair",
+    "publicListing": {
+      "company": "Assurant, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "AIZ"
+        }
+      ],
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001267238&type=10-K",
+      "sourceTitle": "SEC EDGAR — Assurant, Inc. annual reports",
+      "checked": "2026-10-29"
+    },
+    "matchCategories": [
+      "repair",
+      "other"
+    ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -6719,6 +6834,44 @@ export const BRAND_DIRECTORY = [
         "title": "OHG Brands — completed asset acquisition and current group name",
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "FedEx Office",
+    "aliases": [
+      "FedEx Office Print & Ship Center",
+      "FedEx Office Print and Ship Center",
+      "FedEx Kinko's",
+      "Kinko's",
+      "FedEx Ship Center"
+    ],
+    "type": "corporate",
+    "parent": "FedEx Corporation",
+    "source": "https://s21.q4cdn.com/665674268/files/doc_financials/2025/q4/FedEX-10K-Form.pdf",
+    "sourceTitle": "FedEx Corporation — 2025 Form 10-K",
+    "note": "FedEx Office operated about 2,000 company-run print and ship stores as of May 31, 2025. Independent FedEx Authorized ShipCenters are separate businesses.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=FedEx%20Office",
+    "publicListing": {
+      "company": "FedEx Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "FDX"
+        }
+      ],
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048911&type=10-K",
+      "sourceTitle": "SEC EDGAR — FedEx Corporation annual reports",
+      "checked": "2026-10-29"
+    },
+    "matchCategories": [
+      "print",
+      "other"
     ],
     "categories": [
       "corporate"
@@ -10619,6 +10772,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Lapels Cleaners",
+    "aliases": [
+      "Lapels Dry Cleaning",
+      "Lapels"
+    ],
+    "type": "pe",
+    "parent": "Lapels Cleaners · Clean Brands, LLC (Greybull Stewardship)",
+    "source": "https://cleanfranchisebrands.com/lapels-buys-martinizing-brands-to-form-largest-dry-cleaner",
+    "sourceTitle": "Clean Brands — Lapels buys Martinizing brands to form largest dry cleaner (2021)",
+    "note": "Greybull Stewardship invested in Lapels in 2018; Lapels and Greybull formed Clean Brands in 2021, led by CEO Kevin Dubois. Stores are independently owned franchises. The short name only matches laundry listings.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lapels%20Cleaners",
+    "matchCategories": [
+      "laundry"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Laredo Taco Company",
     "aliases": [],
     "type": "corporate",
@@ -11658,6 +11832,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Martinizing",
+    "aliases": [
+      "Martinizing Cleaners",
+      "Martinizing Dry Cleaning",
+      "One Hour Martinizing"
+    ],
+    "type": "pe",
+    "parent": "Martinizing · Clean Brands, LLC (Greybull Stewardship)",
+    "source": "https://cleanfranchisebrands.com/lapels-buys-martinizing-brands-to-form-largest-dry-cleaner",
+    "sourceTitle": "Clean Brands — Lapels buys Martinizing brands to form largest dry cleaner (2021)",
+    "note": "Clean Brands, formed in 2021 by Lapels Cleaners and its private equity partner Greybull Stewardship, owns the Martinizing franchise system. Locations are run by local franchisees.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Martinizing%20Dry%20Cleaning",
+    "matchCategories": [
+      "laundry"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Marukai Market",
     "aliases": [
       "Marukai",
@@ -12263,6 +12459,27 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.mintmobile.com/why-mint-mobile/"
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Minuteman Press",
+    "aliases": [
+      "Minuteman Press Printing"
+    ],
+    "type": "corporate",
+    "parent": "Minuteman Press International (family-owned franchisor · Titus family)",
+    "source": "https://www.businesswire.com/news/home/20200116005005/en/Nick-Titus-Named-President-of-Minuteman-Press-International-Making-Way-for-Third-Generation-of-Family-Owned-Franchise-System",
+    "sourceTitle": "Business Wire — Nick Titus named president of family-owned Minuteman Press International (2020)",
+    "note": "Founded in 1973 by Roy Titus and his son Bob Titus, who remains CEO; Roy's grandson Nick Titus became president in 2020. Nearly 1,000 print shops are independently owned franchises.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Minuteman%20Press",
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -14051,6 +14268,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "PIP",
+    "aliases": [
+      "PIP Printing",
+      "PIP Marketing, Signs, Print",
+      "PIP Printing & Marketing Services"
+    ],
+    "type": "corporate",
+    "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+    "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+    "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+    "note": "Officially PIP Marketing, Signs, Print, a Franchise Services brand (chairman Don F. Lowe, CEO Richard Lowe). Locations are independently owned franchises. The short name only matches print listings.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PIP%20Printing",
+    "matchCategories": [
+      "print"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pizza Hut",
     "aliases": [],
     "type": "pe",
@@ -14363,6 +14602,25 @@ export const BRAND_DIRECTORY = [
       "restaurant",
       "bar"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "PostNet",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "MBE Worldwide S.p.A. (Fiorelli family; Oaktree minority stake)",
+    "source": "https://www.mbeglobal.com/mbe-worldwide-acquires-postnet-international-franchise-corporation",
+    "sourceTitle": "MBE Worldwide — acquires PostNet",
+    "note": "PostNet print, pack, and ship centers are franchised; the franchisor belongs to MBE Worldwide.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PostNet",
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -16814,6 +17072,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Signal Graphics",
+    "aliases": [
+      "Signal Graphics Printing"
+    ],
+    "type": "corporate",
+    "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+    "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+    "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+    "note": "A Franchise Services print, sign, and marketing brand run by local franchisees.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Signal%20Graphics",
+    "matchCategories": [
+      "print"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Simple Mobile",
     "aliases": [],
     "type": "corporate",
@@ -16876,6 +17154,27 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Sir Speedy",
+    "aliases": [
+      "Sir Speedy Print, Signs, Marketing"
+    ],
+    "type": "corporate",
+    "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+    "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+    "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+    "note": "Founded in 1968. Parent Franchise Services is led by chairman Don F. Lowe and CEO Richard Lowe (since January 2025). Locations are independently owned franchises.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sir%20Speedy",
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -18794,6 +19093,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The UPS Store",
+    "aliases": [
+      "UPS Store"
+    ],
+    "type": "corporate",
+    "parent": "The UPS Store, Inc. · United Parcel Service",
+    "source": "https://www.theupsstore.com/about/pressroom/the-ups-store-inc-earns-no-7-ranking-on-entrepreneur-s-annual-franchise-500-list",
+    "sourceTitle": "The UPS Store — press room",
+    "note": "More than 5,500 U.S. locations; almost all are independently owned franchises.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20UPS%20Store",
+    "publicListing": {
+      "company": "United Parcel Service, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "UPS"
+        }
+      ],
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K",
+      "sourceTitle": "SEC EDGAR — United Parcel Service, Inc. annual reports",
+      "checked": "2026-10-29"
+    },
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "The Vitamin Shoppe",
     "aliases": [
       "Vitamin Shoppe",
@@ -18872,6 +19206,40 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Tide Cleaners",
+    "aliases": [
+      "Tide Dry Cleaners"
+    ],
+    "type": "corporate",
+    "parent": "The Procter & Gamble Company",
+    "source": "https://1851franchise.com/tide-services/tide-cleaners-franchise-costs-fees-profit-data-2026-2732597",
+    "sourceTitle": "1851 Franchise — Tide Cleaners franchise (2026)",
+    "note": "A Procter & Gamble dry cleaning franchise; most stores are run by franchisees.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Tide%20Cleaners",
+    "publicListing": {
+      "company": "The Procter & Gamble Company",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "PG"
+        }
+      ],
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K",
+      "sourceTitle": "SEC EDGAR — The Procter & Gamble Company annual reports",
+      "checked": "2026-10-29"
+    },
+    "matchCategories": [
+      "laundry"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -19554,6 +19922,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "uBreakiFix by Asurion",
+    "aliases": [
+      "uBreakiFix",
+      "Asurion Tech Repair & Solutions"
+    ],
+    "type": "corporate",
+    "parent": "Asurion, LLC (privately held)",
+    "source": "https://www.androidpolice.com/2019/08/27/asurion-acquires-ubreakifix-adding-phone-repairs-to-its-handset-insurance-business/",
+    "sourceTitle": "Android Police — Asurion acquires uBreakiFix (2019)",
+    "note": "Device-protection company Asurion owns the uBreakiFix repair chain; most stores are franchised.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=uBreakiFix",
+    "matchCategories": [
+      "repair",
+      "other"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Ulta Beauty",
     "aliases": [
       "Ulta"
@@ -19866,6 +20256,26 @@ export const BRAND_DIRECTORY = [
     },
     "matchCategories": [
       "apparel"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "VCA Animal Hospitals",
+    "aliases": [
+      "VCA",
+      "VCA Animal Hospital"
+    ],
+    "type": "corporate",
+    "parent": "Mars, Incorporated (Mars Veterinary Health)",
+    "source": "https://marsveterinary.com/who-we-are/our-companies/",
+    "sourceTitle": "Mars Veterinary Health — our companies",
+    "note": "Mars bought VCA in 2017 for about $9.1 billion; many VCA hospitals keep their original local names.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=VCA%20Animal%20Hospitals",
+    "matchCategories": [
+      "pets"
     ],
     "categories": [
       "corporate"
