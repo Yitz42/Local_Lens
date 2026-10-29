@@ -109,6 +109,10 @@ test('kosher, vegetarian, and vegan are dietary requirements across food categor
  assert.ok(!matchesFoodTypes(place('Veggie Diner','restaurant',['vegetarian']),['vegan']));
  assert.equal(foodTypeLabel(place('Kosher Bite','restaurant',['burgers'])),'Kosher · Burgers');
  assert.deepEqual(fromOSM([{type:'node',id:1,lat:30.27,lon:-97.75,tags:{name:'Shalom Grill',amenity:'restaurant','diet:kosher':'only'}}])[0].foodTypes,['kosher']);
+ assert.deepEqual(foodTypesFromTerms(['special_diet_restaurant','halal_restaurant']),['halal']);
+ assert.ok(matchesFoodTypes(place('Dearborn Halal Meat','grocery'),['halal']));
+ assert.deepEqual(fromOSM([{type:'node',id:2,lat:30.27,lon:-97.75,tags:{name:'Grill House',amenity:'restaurant','diet:halal':'yes'}}])[0].foodTypes,['halal']);
+ assert.equal(googleSearchGroups('all',['halal']).length,5);
  assert.deepEqual(googleSearchGroups('all',['vegan']),[['vegan_restaurant']]);
  assert.deepEqual(googleSearchGroups('restaurant',['vegetarian']),[['vegetarian_restaurant','vegan_restaurant']]);
  assert.equal(googleSearchGroups('all',['kosher']).length,5,'kosher uses the normal groups plus a text search');

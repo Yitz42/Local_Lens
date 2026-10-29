@@ -8,6 +8,7 @@ export function initialOwnershipFilters(stored){
 // Dietary types are requirements: a place must match every one selected. Cuisines match any selected.
 export const FOOD_TYPES=[
  {id:'kosher',name:'Kosher',diet:true,terms:['kosher','kosher_restaurant','kosher_food','kosher_store','kosher_grocery_store'],namePattern:/\bkosher\b(?![- ]style)/i},
+ {id:'halal',name:'Halal',diet:true,terms:['halal','halal_restaurant','halal_food','halal_store','halal_grocery_store'],namePattern:/\b(halal|zabiha|zabihah)\b/i},
  {id:'vegetarian',name:'Vegetarian',diet:true,terms:['vegetarian','vegetarian_restaurant','vegan','vegan_restaurant'],namePattern:/\b(vegetarian|vegan)\b/i},
  {id:'vegan',name:'Vegan',diet:true,terms:['vegan','vegan_restaurant'],namePattern:/\bvegan\b/i},
  {id:'italian',name:'Italian',terms:['italian','italian_restaurant','northern_italian_restaurant','southern_italian_restaurant']},
