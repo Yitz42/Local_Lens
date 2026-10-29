@@ -18486,13 +18486,31 @@
         "Martinizing Dry Cleaning",
         "One Hour Martinizing"
       ],
-      "type": "corporate",
-      "parent": "Martinizing International, LLC (privately held franchisor)",
-      "source": "https://martinizing.com/terms-conditions",
-      "sourceTitle": "Martinizing — terms and conditions",
-      "note": "A dry cleaning franchise system; locations are run by local franchisees.",
+      "type": "pe",
+      "parent": "Martinizing · Clean Brands, LLC (Greybull Stewardship)",
+      "source": "https://cleanfranchisebrands.com/lapels-buys-martinizing-brands-to-form-largest-dry-cleaner",
+      "sourceTitle": "Clean Brands — Lapels buys Martinizing brands to form largest dry cleaner (2021)",
+      "note": "Clean Brands, formed in 2021 by Lapels Cleaners and its private equity partner Greybull Stewardship, owns the Martinizing franchise system. Locations are run by local franchisees.",
       "checked": "2026-10-29",
       "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Martinizing%20Dry%20Cleaning",
+      "matchCategories": [
+        "laundry"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Lapels Cleaners",
+      "aliases": [
+        "Lapels Dry Cleaning",
+        "Lapels"
+      ],
+      "type": "pe",
+      "parent": "Lapels Cleaners · Clean Brands, LLC (Greybull Stewardship)",
+      "source": "https://cleanfranchisebrands.com/lapels-buys-martinizing-brands-to-form-largest-dry-cleaner",
+      "sourceTitle": "Clean Brands — Lapels buys Martinizing brands to form largest dry cleaner (2021)",
+      "note": "Greybull Stewardship invested in Lapels in 2018; Lapels and Greybull formed Clean Brands in 2021, led by CEO Kevin Dubois. Stores are independently owned franchises. The short name only matches laundry listings.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lapels%20Cleaners",
       "matchCategories": [
         "laundry"
       ],
