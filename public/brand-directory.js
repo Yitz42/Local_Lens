@@ -12443,6 +12443,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Minuteman Press",
+    "aliases": [
+      "Minuteman Press Printing"
+    ],
+    "type": "corporate",
+    "parent": "Minuteman Press International (family-owned franchisor · Titus family)",
+    "source": "https://www.businesswire.com/news/home/20200116005005/en/Nick-Titus-Named-President-of-Minuteman-Press-International-Making-Way-for-Third-Generation-of-Family-Owned-Franchise-System",
+    "sourceTitle": "Business Wire — Nick Titus named president of family-owned Minuteman Press International (2020)",
+    "note": "Founded in 1973 by Roy Titus and his son Bob Titus, who remains CEO; Roy's grandson Nick Titus became president in 2020. Nearly 1,000 print shops are independently owned franchises.",
+    "checked": "2026-10-29",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Minuteman%20Press",
+    "matchCategories": [
+      "print",
+      "other"
+    ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Miracle-Ear",
     "aliases": [
       "Miracle Ear",
