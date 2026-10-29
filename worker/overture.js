@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='more-services-v1';
+export const PLACE_FORMAT='print-design-v2';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -37,8 +37,9 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(gym|fitness_studio|yoga_studio|pilates_studio|boxing_gym|boxing_class|boot_camp|fitness_trainer|dance_studio|martial_arts_club|climbing_gym|cycling_studio)$/.test(t)))return 'fitness';
  if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|car_wash|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
  if(terms.some(t=>/^(bank_or_credit_union|bank|credit_union)$/.test(t)))return 'bank';
- // Courier lockers and freight services stay out; print shops, shipping centers, and post offices count.
- if(terms.some(t=>/^(printing_service|screen_printing_service|t_shirt_printing_service|commercial_printer|print_media|copy_shop|shipping_center|post_office|mailbox_center|packing_and_shipping_service)$/.test(t)))return 'print';
+ // Print shops, graphic designers, and sign makers. Shipping centers are left out because the label also covers
+ // post offices, parcel lockers, and drop boxes.
+ if(terms.some(t=>/^(printing_service|screen_printing_service|t_shirt_printing_service|commercial_printer|print_media|copy_shop|graphic_designer|sign_making|signmaking|sign_maker)$/.test(t)))return 'print';
  if(terms.some(t=>/^(laundry_service|laundromat|dry_cleaning|laundry)$/.test(t)))return 'laundry';
  if(terms.some(t=>/^(animal_or_pet_service|veterinary_care|veterinarian|animal_hospital|emergency_pet_hospital|pet_care_service|pet_groomer|pet_sitting|pet_boarding|pet_training|dog_trainer|dog_walker)$/.test(t)))return 'pets';
  if(!terms.some(t=>/^(it_consultant|computer_hardware_company)$/.test(t))&&terms.some(t=>/^(it_service_and_computer_repair|mobile_phone_repair|electronics_repair_shop|computer_repair|shoe_repair|watch_repair_service|jewelry_repair_service|sewing_and_alterations|tailor)$/.test(t)))return 'repair';
