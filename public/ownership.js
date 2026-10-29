@@ -1,10 +1,10 @@
-import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261029-diet2';
-import {storeTypeFromTerms} from './store-types.js?v=20261029-diet2';
-import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261029-diet2';
-export {ownershipCategories} from './ownership-categories.js?v=20261029-diet2';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261029-diet2';
-import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261029-diet2';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-diet2';
+import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261029-kosher1';
+import {storeTypeFromTerms} from './store-types.js?v=20261029-kosher1';
+import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261029-kosher1';
+export {ownershipCategories} from './ownership-categories.js?v=20261029-kosher1';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261029-kosher1';
+import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261029-kosher1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-kosher1';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [

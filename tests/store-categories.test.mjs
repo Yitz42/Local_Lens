@@ -130,3 +130,18 @@ test('a Google kosher search adds one text search and tags nearby results',async
  assert.deepEqual(calls,[['nearby',['restaurant']],['text','kosher restaurant']]);
  assert.deepEqual(result.places.map(place=>[place.name,place.foodTypes.includes('kosher')]).sort(),[['Corner Diner',false],['Shalom Grill',true]]);
 });
+test('kosher listings match certified places by name and location only',async()=>{
+ const {kosherListingFor,KOSHER_PLACES}=await import('../public/kosher-places.js');
+ const {matchesFoodTypes,foodTypesFromTerms}=await import('../public/food-types.js');
+ const at=(name,lat,lng,category='restaurant')=>({id:name,name,lat,lng,category,foodTypes:[]});
+ assert.equal(kosherListingFor(at("Dunkin'",39.36227,-76.71118,'coffee'))?.agency,'Star-D');
+ assert.equal(kosherListingFor(at("Dunkin'",39.40,-76.70,'coffee')),null,'other Dunkin locations are not certified');
+ assert.equal(kosherListingFor(at("Mama Leah's Pizza",39.37648,-76.72610)).name,"Mama Leah's");
+ assert.equal(kosherListingFor(at('Taam Thai Sushi and Asian Fusion',39.37671,-76.72639)),null,'same building, different name');
+ assert.ok(matchesFoodTypes(at('Seven Mile Market',39.36571,-76.71270,'grocery'),['kosher']));
+ assert.ok(matchesFoodTypes(at('Some Corner Store',39.36571,-76.71270,'grocery'),['kosher'])===false);
+ assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),myKosher:true},['kosher']),'a personal mark counts');
+ assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),osmKosher:true},['kosher']),'an OpenStreetMap match counts');
+ for(const name of ['Glatt Grill','Shalom Bakery Cholov Yisroel','Mangal Grill Express Kosher STAR K'])assert.deepEqual(foodTypesFromTerms([],name),['kosher'],name);
+ assert.ok(KOSHER_PLACES.every(entry=>entry.source.startsWith('https://')&&Number.isFinite(entry.lat)&&Number.isFinite(entry.lng)&&entry.address));
+});

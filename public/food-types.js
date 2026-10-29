@@ -1,3 +1,4 @@
+import {kosherListingFor} from './kosher-places.js?v=20261029-kosher1';
 export const OWNERSHIP_PREFERENCE_KEY='local-lens-hidden-v2';
 export const DEFAULT_OWNERSHIP_FILTERS=['pe','corporate'];
 export function initialOwnershipFilters(stored){
@@ -7,7 +8,7 @@ export function initialOwnershipFilters(stored){
 }
 // Dietary types are requirements: a place must match every one selected. Cuisines match any selected.
 export const FOOD_TYPES=[
- {id:'kosher',name:'Kosher',diet:true,terms:['kosher','kosher_restaurant','kosher_food','kosher_store','kosher_grocery_store'],namePattern:/\bkosher\b(?![- ]style)/i},
+ {id:'kosher',name:'Kosher',diet:true,terms:['kosher','kosher_restaurant','kosher_food','kosher_store','kosher_grocery_store'],namePattern:/\b(kosher|glatt|cholov yisroel|chalav yisrael|pas yisroel|star[- ]?k)\b(?![- ]style)/i},
  {id:'halal',name:'Halal',diet:true,terms:['halal','halal_restaurant','halal_food','halal_store','halal_grocery_store'],namePattern:/\b(halal|zabiha|zabihah)\b/i},
  {id:'vegetarian',name:'Vegetarian',diet:true,terms:['vegetarian','vegetarian_restaurant','vegan','vegan_restaurant'],namePattern:/\b(vegetarian|vegan)\b/i},
  {id:'vegan',name:'Vegan',diet:true,terms:['vegan','vegan_restaurant'],namePattern:/\bvegan\b/i},
@@ -36,7 +37,8 @@ export function foodTypesFromTerms(input=[],name=''){
  const terms=new Set((Array.isArray(input)?input:[input]).flat(2).filter(value=>typeof value==='string').flatMap(value=>value.split(/[;,|·]/)).map(normalise));
  return FOOD_TYPES.filter(type=>terms.has(type.id)||type.terms.some(term=>terms.has(term))||(type.namePattern?.test(name)??false)).map(type=>type.id);
 }
-export function foodTypesForPlace(place){return [...new Set([...foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']),...foodTypesFromTerms([],place.name||'').filter(isDietType)])];}
+// Kosher also comes from certified listings and from places a person marked kosher themselves.
+export function foodTypesForPlace(place){return [...new Set([...foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']),...foodTypesFromTerms([],place.name||'').filter(isDietType),...(place.myKosher||place.osmKosher||kosherListingFor(place)?['kosher']:[])])];}
 export function foodTypeLabel(place){const ids=foodTypesForPlace(place);return FOOD_TYPES.filter(type=>ids.includes(type.id)).map(type=>type.name).join(' · ');}
 export function matchesFoodTypes(place,selected=[]){
  if(!selected.length)return true;

@@ -93,6 +93,14 @@ Use the Food types checkboxes for Italian, pizza, and other supported cuisines o
 
 **Dietary** choices (Kosher, Halal, Vegetarian, Vegan) sit above the cuisines. Unlike cuisines, each checked dietary choice is required, so Kosher + Pizza shows kosher pizza places. Vegan places also count as vegetarian. Dietary choices work in Restaurants, Coffee & cafés, Groceries, and Bars, so kosher bakeries and markets appear too; cuisines apply to restaurants only. A place is labeled from its data: Overture's `kosher_restaurant`, `halal_restaurant`, `vegetarian_restaurant`, and `vegan_restaurant` categories, OpenStreetMap's `diet:kosher`, `diet:halal`, `diet:vegetarian`, and `diet:vegan` tags (`yes` or `only`), Google's vegetarian and vegan restaurant types, or the word in the place's name ("kosher-style" does not count; "zabiha" counts as halal). Google has no kosher or halal type, so a Kosher or Halal search with Google connected adds one text search for that word around the area. Place details say where a dietary label comes from and, for kosher or halal, to check the certification; the app does not verify it.
 
+Kosher has three more sources, because general map data misses many kosher places:
+
+- `public/kosher-places.js` lists certified places with the certifier, address, and a link to the agency's certificate or a kosher directory listing. It starts with the Baltimore / Pikesville area (Star-K). A listing only matches a place with the same name within 150 m, so a chain such as Dunkin' counts only at its certified location. To add a place, copy an entry and fill in its source; drop entries whose certification lapses.
+- While Kosher is selected, the browser asks OpenStreetMap's Overpass API once per area for places tagged `diet:kosher=yes|only` or `cuisine=kosher`. Matching loaded places get the label, and kosher places missing from the loaded results are added. If Overpass is unavailable, the other sources still work.
+- **Mark as kosher** in place details lets a person label places they know. Marks are saved only in that browser (`local-lens-my-kosher-v1`).
+
+Names containing glatt, cholov yisroel, chalav yisrael, pas yisroel, or Star-K also count as kosher.
+
 The Worker preserves food tags and uses a new edge-cache namespace. Nearby browser caches use format 2 so old records that omitted cuisine tags are not reused as current responses. Saved places remain available; food choices are scoped to the current view.
 
 ## All large brands and chains
