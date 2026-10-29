@@ -83,3 +83,12 @@ test('foreign-owned US banks are corporate, and Webster Bank only matches in its
  assert.equal(ownershipFor(p('Webster Bank','bank')).type,'unknown');
  assert.equal(ownershipFor({...p('Webster Five Cents Savings Bank','bank'),...hartford}).type,'unknown');
 });
+test('Google eateries that are also listed as bakeries or delis are restaurants',()=>{
+ assert.equal(googleCategory(['bagel_shop','bakery','cafe','coffee_shop','restaurant','food_store','food','store'],'bagel_shop'),'restaurant');
+ assert.equal(googleCategory(['bakery','restaurant','food'],'bakery'),'restaurant');
+ assert.equal(googleCategory(['deli','sandwich_shop','restaurant']),'restaurant');
+ assert.equal(googleCategory(['bakery','food_store','store'],'bakery'),'grocery');
+ assert.equal(googleCategory(['supermarket','bakery','deli','restaurant'],'supermarket'),'grocery');
+ assert.equal(googleCategory(['coffee_shop','bakery','restaurant'],'coffee_shop'),'coffee');
+ assert.equal(googleCategory(['bar','restaurant'],'bar'),'bar');
+});

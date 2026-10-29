@@ -1,12 +1,12 @@
-import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261027-pages1';
+import {allBrandsFilterState,setAllBrandsHidden,localOperatorNote,localOperatorLabel,LOCAL_LEVELS,DEFAULT_LOCAL_LEVEL,cleanLocalLevel} from './ownership-categories.js?v=20261029-eatery1';
 import {FOOD_TYPES,OWNERSHIP_PREFERENCE_KEY,initialOwnershipFilters,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
 function ownershipBadges(ownership,place){const local=localOperatorLabel(ownership),hq=place&&isLocalCorporation(place,ownership)?ownership.headquarters:null;return '<span class="ownership-badges">'+ownershipCategories(ownership).map(type=>`<span class="badge ${type}">${LABELS[type]}</span>`).join('')+(local?`<span class="badge local" title="${escape(localOperatorNote(ownership))}">${escape(local)}</span>`:'')+(hq?`<span class="badge local" title="Headquartered in ${escape(hq.city)}, ${escape(hq.state)}">Local HQ · ${escape(hq.city)}</span>`:'')+'</span>';}
-import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261027-pages1';
+import {CHECKED,ownershipCategories,LABELS,CATEGORIES,fromOSM,filterPlaces,ownershipFor,distance,headquartersDistanceMiles,isLocalCorporation} from './ownership.js?v=20261029-eatery1';
 import {collectPlacePages} from './places-loader.js';
-import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261027-pages1';
-import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261027-pages1';
-import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261027-pages1';
-import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261027-pages1';
+import {PLACE_CACHE_FORMAT,areaKey,findNearbyCache,storeNearbyCache} from './place-cache.js?v=20261029-eatery1';
+import {GOOGLE_SAVED_STORAGE,googleKey,savedGoogleIds,createGoogleMap,searchGooglePlaces,resolveGoogleSaved} from './google-places.js?v=20261029-eatery1';
+import {STORE_TYPES,storeTypeName} from './store-types.js?v=20261029-eatery1';
+import {NAME_FILTERS_KEY,MAX_HIDDEN_NAMES,MAX_NAME_LENGTH,cleanHiddenNames,initialNameFilters} from './name-filters.js?v=20261029-eatery1';
 const $=s=>document.querySelector(s);
 const reviewedDate=value=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(value+'T12:00:00Z'));
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -100,7 +100,7 @@ function showDetails(id,open=true,fallback){const p=[...state.places,...state.sa
 async function fetchJSON(url,options={},timeout=18000){const controller=new AbortController();const signal=options.signal;const abort=()=>controller.abort();if(signal?.aborted)controller.abort();signal?.addEventListener('abort',abort,{once:true});const timer=setTimeout(abort,timeout);try{const response=await fetch(url,{...options,signal:controller.signal});if(!response.ok)throw new Error('Service returned '+response.status);return await response.json();}finally{clearTimeout(timer);signal?.removeEventListener('abort',abort);}}
 // Static hosts such as GitHub Pages have no /api route, so their build reads Overture's tiles from the browser instead.
 const BROWSER_PLACES=document.querySelector('meta[name="local-lens-places"]')?.content==='browser';let browserLookup;
-function placePage(params,page,signal){if(!BROWSER_PLACES)return fetchJSON('./api/places?'+params+'&page='+page,{signal},35000);browserLookup??=import('./overture-browser.js?v=20261027-pages1').then(module=>module.lookupPlacesPage);return browserLookup.then(lookup=>lookup(Number(params.get('lat')),Number(params.get('lng')),Number(params.get('radius')),page));}
+function placePage(params,page,signal){if(!BROWSER_PLACES)return fetchJSON('./api/places?'+params+'&page='+page,{signal},35000);browserLookup??=import('./overture-browser.js?v=20261029-eatery1').then(module=>module.lookupPlacesPage);return browserLookup.then(lookup=>lookup(Number(params.get('lat')),Number(params.get('lng')),Number(params.get('radius')),page));}
 async function loadPlaces({seed=false}={}){
  if(state.googleMode){
   const id=++requestId;fetchController?.abort();state.places=[];state.loadedAt=null;state.busy=true;state.loadError=false;state.cached=false;state.example=false;render();$('#search-map').hidden=true;
