@@ -1,5 +1,5 @@
-import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261029-services3';
-import {storeTypeFromTerms} from './store-types.js?v=20261029-services3';
+import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261029-print3';
+import {storeTypeFromTerms} from './store-types.js?v=20261029-print3';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';
@@ -11,7 +11,7 @@ export const GOOGLE_TYPES={
  apparel:['clothing_store','shoe_store','jewelry_store'],general:['department_store','discount_store','warehouse_store'],
  other:['electronics_store','book_store','pet_store','florist','auto_parts_store','sporting_goods_store','gift_shop'],
  bar:['bar','night_club'],beauty:['beauty_salon','hair_care','spa'],fitness:['gym'],auto:['car_repair','car_wash'],bank:['bank'],
- print:['courier_service','post_office'],laundry:['laundry'],pets:['veterinary_care'],repair:[]
+ print:[],laundry:['laundry'],pets:['veterinary_care'],repair:[]
 };
 // An all-places search keeps one request for every store category so it stays within five requests.
 const STORE_TYPES=['pharmacy','home','apparel','general','other'].flatMap(category=>GOOGLE_TYPES[category]);
@@ -21,7 +21,7 @@ export function googleSearchGroups(category='all',foodTypes=[]){
  return cuisineTypes.length?[cuisineTypes]:category==='all'?[GOOGLE_TYPES.restaurant,GOOGLE_TYPES.grocery,GOOGLE_TYPES.gas,GOOGLE_TYPES.coffee,STORE_TYPES]:[GOOGLE_TYPES[category]||GOOGLE_TYPES.other].filter(group=>group.length);
 }
 // Google has no place type for print shops, groomers, or repair shops, so these categories add one text search.
-export const CATEGORY_TEXT_SEARCHES={print:'print shop',pets:'pet grooming',repair:'phone and computer repair'};
+export const CATEGORY_TEXT_SEARCHES={print:['print shop','graphic design and printing','sign shop','commercial printing'],pets:['pet grooming'],repair:['phone and computer repair']};
 const CATEGORY_ORDER=['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank','print','laundry','pets','repair'];
 // Google lists many eateries as bakeries or delis too; those types only mean a shop when there is no restaurant type.
 const SHOP_FOOD_TYPES=['bakery','deli'];
@@ -61,9 +61,12 @@ export function loadGoogleMaps(key){
 }
 const TEXT_SEARCH_DIETS=['kosher','halal'];
 const TEXT_SEARCH_SUFFIX={restaurant:' restaurant',grocery:' grocery store',coffee:' bakery cafe',bar:' bar'};
+// Text search results that are libraries, schools, post offices, or government offices are never the business a category asks for.
+const NOT_A_BUSINESS=['library','school','primary_school','secondary_school','university','post_office','local_government_office','city_hall','courthouse','embassy','courier_service'];
+function areaBounds(origin,radius){const lat=radius/111320,lng=radius/(111320*Math.cos(origin.lat*Math.PI/180));return {south:origin.lat-lat,west:origin.lng-lng,north:origin.lat+lat,east:origin.lng+lng};}
 function metersBetween(a,b){const r=Math.PI/180,h=Math.sin((b.lat-a.lat)*r/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin((b.lng-a.lng)*r/2)**2;return 12742000*Math.asin(Math.sqrt(h));}
 export async function searchGooglePlaces(Place,origin,radius,category='all',foodTypes=[],onProgress=()=>{}){
- const groups=googleSearchGroups(category,foodTypes),textSearches=foodTypes.filter(id=>TEXT_SEARCH_DIETS.includes(id)),categorySearch=CATEGORY_TEXT_SEARCHES[category],unique=new Map();let done=0;const total=groups.length+textSearches.length+(categorySearch?1:0);
+ const groups=googleSearchGroups(category,foodTypes),textSearches=foodTypes.filter(id=>TEXT_SEARCH_DIETS.includes(id)),categorySearches=CATEGORY_TEXT_SEARCHES[category]||[],unique=new Map();let done=0;const total=groups.length+textSearches.length+categorySearches.length;
  // A small fixed set of requests, never a grid crawl. Nearby Search caps each request at 20 results.
  for(const types of groups){
   const response=await Place.searchNearby({fields:GOOGLE_FIELDS,locationRestriction:{center:origin,radius},includedTypes:types,maxResultCount:20,rankPreference:'DISTANCE'});
@@ -72,13 +75,19 @@ export async function searchGooglePlaces(Place,origin,radius,category='all',food
  }
  // Google has no kosher or halal place type, so a text search finds places it associates with that food.
  for(const diet of textSearches){
-  const response=await Place.searchByText({fields:GOOGLE_FIELDS,textQuery:diet+(TEXT_SEARCH_SUFFIX[category]||''),locationBias:{center:origin,radius},maxResultCount:20});
+  const response=await Place.searchByText({fields:GOOGLE_FIELDS,textQuery:diet+(TEXT_SEARCH_SUFFIX[category]||''),locationRestriction:areaBounds(origin,radius),maxResultCount:20});
   for(const raw of response.places||[]){const place=normalizeGooglePlace(raw);if(!place||metersBetween(origin,place)>radius)continue;const existing=unique.get(place.id)||place;unique.set(place.id,{...existing,foodTypes:[...new Set([...existing.foodTypes,diet])]});}
   onProgress(++done,total);
  }
- if(categorySearch){
-  const response=await Place.searchByText({fields:GOOGLE_FIELDS,textQuery:categorySearch,locationBias:{center:origin,radius},maxResultCount:20});
-  for(const raw of response.places||[]){const place=normalizeGooglePlace(raw);if(!place||metersBetween(origin,place)>radius||unique.has(place.id))continue;const {storeType,...rest}=place;unique.set(place.id,{...rest,category});}
+ for(const query of categorySearches){
+  const response=await Place.searchByText({fields:GOOGLE_FIELDS,textQuery:query,locationRestriction:areaBounds(origin,radius),maxResultCount:20});
+  for(const raw of response.places||[]){
+   const place=normalizeGooglePlace(raw),types=[raw.primaryType,...(raw.types||[])];
+   if(!place||metersBetween(origin,place)>radius||unique.has(place.id)||types.some(type=>NOT_A_BUSINESS.includes(type)))continue;
+   // A result Google files under another category (a pharmacy that prints photos) keeps that category.
+   if(place.category!=='other'){unique.set(place.id,place);continue;}
+   const {storeType,...rest}=place;unique.set(place.id,{...rest,category});
+  }
   onProgress(++done,total);
  }
  return {places:[...unique.values()],fetchedAt:new Date().toISOString(),source:'Google Maps',limited:true};

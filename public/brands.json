@@ -6828,13 +6828,14 @@
         "FedEx Office Print and Ship Center",
         "FedEx Kinko's",
         "Kinko's",
-        "FedEx Ship Center"
+        "FedEx Ship Center",
+        "FedEx OnSite"
       ],
       "type": "corporate",
       "parent": "FedEx Corporation",
       "source": "https://s21.q4cdn.com/665674268/files/doc_financials/2025/q4/FedEX-10K-Form.pdf",
       "sourceTitle": "FedEx Corporation — 2025 Form 10-K",
-      "note": "FedEx Office operated about 2,000 company-run print and ship stores as of May 31, 2025. Independent FedEx Authorized ShipCenters are separate businesses.",
+      "note": "FedEx Office operated about 2,000 company-run print and ship stores as of May 31, 2025. FedEx OnSite centers at campuses and hotels are part of FedEx Office; independent FedEx Authorized ShipCenters are separate businesses.",
       "checked": "2026-10-29",
       "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=FedEx%20Office",
       "publicListing": {
