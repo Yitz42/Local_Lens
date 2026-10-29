@@ -28,7 +28,7 @@ Run `npm run build`, then `node --use-env-proxy --use-system-ca scripts/dev.mjs`
 
 Nearby places come from the October 21, 2026 Overture Maps release. Overture deletes each release's tile archive about 60 days after publishing it, so `RELEASE` in `worker/overture.js` must be moved to a newer release (listed at `https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=tiles/&delimiter=/`) before then. The Worker reads bounded byte ranges from Overture’s published global Places PMTiles archive on S3 and decodes vector tiles locally. No Overpass service, account, or maps API key is required. The archive is a dated dataset, not real-time verification of business status.
 
-The API returns four tiles per page to bound Worker memory and subrequests. The browser collects every page, three at a time, and deduplicates GERS IDs before presenting the final count. A missing page produces a visible loading error rather than an incomplete zero-result claim. Permanently closed records and non-store/non-food business categories are excluded. Search radius filtering uses straight-line distance. The server uses bounded in-memory and best-effort edge caches; the browser retains up to four recent areas for seven days and only reuses data covering the requested geography and radius.
+The API returns four tiles per page to bound Worker memory and subrequests. The browser collects every page, three at a time (eight at a time on the GitHub Pages build, which reads Overture directly), and deduplicates GERS IDs before presenting the final count. A missing page produces a visible loading error rather than an incomplete zero-result claim. Permanently closed records and non-store/non-food business categories are excluded. Search radius filtering uses straight-line distance. The server uses bounded in-memory and best-effort edge caches; the browser retains up to four recent areas for seven days and only reuses data covering the requested geography and radius.
 
 Nominatim receives explicitly submitted location searches; there is no autocomplete. Map tiles are from OpenStreetMap. Recent area records and saved places stay in the current browser. Coordinates are rounded to three decimal places before reaching the place-data API. No coordinates or credential values are logged by application code.
 
@@ -84,6 +84,10 @@ Headquarters are recorded in the optional `headquarters` field (city, state, and
 The panel shows how each step changes the results in the current area. Company-owned chains remain hidden at every step. The choice is saved in the browser under `local-lens-local-level-v3`; choices saved by earlier versions are mapped to the step with the same meaning. A filter chip appears while the setting is not the default, and clearing it restores the default. Changing the slider never causes another Google request.
 
 The `localOperators` field (`franchise`, `dealer`, `cooperative`, `licensed`, or `memberowned`) appears in the JSON and CSV downloads. The brand list can filter on independent / co-op networks or on all locally owned or operated brands. These labels describe a brand's usual model, not the owner of a particular store. Chick-fil-A is not marked, because its operators run restaurants the company owns.
+
+## Search distance
+
+The **Within** menu above the list (and on the map) searches ½, 1, 2 (default), 5, or 10 miles around the search center; both menus stay in sync. The place API accepts radii from 500 m to 16.1 km. A 10-mile search near Baltimore covers about 300 map tiles and roughly 15,000 places, so it takes noticeably longer to load; at high latitudes, where tiles are smaller, a 10-mile search can exceed the 512-tile limit and asks for a smaller radius.
 
 ## Default ownership and food filters
 

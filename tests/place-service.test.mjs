@@ -59,3 +59,13 @@ test('cached places cannot leak into a different city or larger radius',()=>{
  assert.equal(findNearbyCache([record],record.origin,8047,now),null);
  assert.equal(findNearbyCache([record],record.origin,1609,now+8*86400000),null);
 });
+test('the place API accepts searches up to 10 miles',async()=>{
+ const {createWorker}=await import('../worker/index.js');
+ const seen=[];const worker=createWorker({},{lookup:async(lat,lng,radius,page)=>{seen.push(radius);return {places:[],page,totalPages:1,release:'test',fetchedAt:new Date().toISOString()};},cache:null});
+ assert.equal((await worker.fetch(new Request('https://local.test/api/places?lat=39.37&lng=-76.72&radius=16093&page=0'))).status,200);
+ assert.equal((await worker.fetch(new Request('https://local.test/api/places?lat=39.37&lng=-76.72&radius=805&page=0'))).status,200);
+ assert.equal((await worker.fetch(new Request('https://local.test/api/places?lat=39.37&lng=-76.72&radius=20000&page=0'))).status,400);
+ assert.deepEqual(seen,[16093,805]);
+ const {planTiles}=await import('../worker/overture.js');
+ assert.ok(planTiles(39.37,-76.72,16093).length<=512,'a 10-mile search fits the tile limit at mid latitudes');
+});
