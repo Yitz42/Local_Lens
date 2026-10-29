@@ -14278,7 +14278,7 @@ export const BRAND_DIRECTORY = [
     "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
     "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
     "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
-    "note": "A Franchise Services print and marketing brand. Locations are independently owned franchises. The short name only matches print listings.",
+    "note": "Officially PIP Marketing, Signs, Print, a Franchise Services brand (chairman Don F. Lowe, CEO Richard Lowe). Locations are independently owned franchises. The short name only matches print listings.",
     "checked": "2026-10-29",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PIP%20Printing",
     "matchCategories": [
@@ -17167,7 +17167,7 @@ export const BRAND_DIRECTORY = [
     "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
     "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
     "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
-    "note": "Founded in 1968; Richard Lowe became CEO of parent Franchise Services in January 2025. Locations are independently owned franchises.",
+    "note": "Founded in 1968. Parent Franchise Services is led by chairman Don F. Lowe and CEO Richard Lowe (since January 2025). Locations are independently owned franchises.",
     "checked": "2026-10-29",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sir%20Speedy",
     "matchCategories": [
