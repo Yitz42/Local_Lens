@@ -18517,6 +18517,60 @@
       "localOperators": "franchise"
     },
     {
+      "brand": "Sir Speedy",
+      "aliases": [
+        "Sir Speedy Print, Signs, Marketing"
+      ],
+      "type": "corporate",
+      "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+      "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+      "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+      "note": "Founded in 1968; Richard Lowe became CEO of parent Franchise Services in January 2025. Locations are independently owned franchises.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sir%20Speedy",
+      "matchCategories": [
+        "print",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "PIP",
+      "aliases": [
+        "PIP Printing",
+        "PIP Marketing, Signs, Print",
+        "PIP Printing & Marketing Services"
+      ],
+      "type": "corporate",
+      "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+      "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+      "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+      "note": "A Franchise Services print and marketing brand. Locations are independently owned franchises. The short name only matches print listings.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PIP%20Printing",
+      "matchCategories": [
+        "print"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Signal Graphics",
+      "aliases": [
+        "Signal Graphics Printing"
+      ],
+      "type": "corporate",
+      "parent": "Franchise Services, Inc. (privately held · Mission Viejo, California)",
+      "source": "https://www.franserv.com/richard-lowe-is-named-ceo-of-franchise-services-inc/",
+      "sourceTitle": "Franchise Services, Inc. — Richard Lowe named CEO (2025)",
+      "note": "A Franchise Services print, sign, and marketing brand run by local franchisees.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Signal%20Graphics",
+      "matchCategories": [
+        "print"
+      ],
+      "localOperators": "franchise"
+    },
+    {
       "brand": "BMO",
       "aliases": [
         "BMO Bank",
