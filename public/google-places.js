@@ -1,5 +1,5 @@
-import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
-import {storeTypeFromTerms} from './store-types.js?v=20261029-eatery1';
+import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261029-diet1';
+import {storeTypeFromTerms} from './store-types.js?v=20261029-diet1';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';
@@ -14,9 +14,9 @@ export const GOOGLE_TYPES={
 };
 // An all-places search keeps one request for every store category so it stays within five requests.
 const STORE_TYPES=['pharmacy','home','apparel','general','other'].flatMap(category=>GOOGLE_TYPES[category]);
-const CUISINES={italian:'italian_restaurant',pizza:'pizza_restaurant',mexican:'mexican_restaurant',chinese:'chinese_restaurant',japanese:'japanese_restaurant',sushi:'sushi_restaurant',indian:'indian_restaurant',thai:'thai_restaurant',american:'american_restaurant',burgers:'hamburger_restaurant',barbecue:'barbecue_restaurant',seafood:'seafood_restaurant',mediterranean:'mediterranean_restaurant',greek:'greek_restaurant',french:'french_restaurant',sandwiches:'sandwich_shop'};
+const CUISINES={italian:'italian_restaurant',pizza:'pizza_restaurant',mexican:'mexican_restaurant',chinese:'chinese_restaurant',japanese:'japanese_restaurant',sushi:'sushi_restaurant',indian:'indian_restaurant',thai:'thai_restaurant',american:'american_restaurant',burgers:'hamburger_restaurant',barbecue:'barbecue_restaurant',seafood:'seafood_restaurant',mediterranean:'mediterranean_restaurant',greek:'greek_restaurant',french:'french_restaurant',sandwiches:'sandwich_shop',kosher:null,vegetarian:['vegetarian_restaurant','vegan_restaurant'],vegan:'vegan_restaurant'};
 export function googleSearchGroups(category='all',foodTypes=[]){
- const cuisineTypes=[...new Set(foodTypes.map(id=>CUISINES[id]).filter(Boolean))];
+ const cuisineTypes=['all','restaurant'].includes(category)?[...new Set(foodTypes.flatMap(id=>CUISINES[id]??[]))]:[];
  return cuisineTypes.length?[cuisineTypes]:category==='all'?[GOOGLE_TYPES.restaurant,GOOGLE_TYPES.grocery,GOOGLE_TYPES.gas,GOOGLE_TYPES.coffee,STORE_TYPES]:[GOOGLE_TYPES[category]||GOOGLE_TYPES.other];
 }
 const CATEGORY_ORDER=['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank'];
@@ -56,13 +56,21 @@ export function loadGoogleMaps(key){
  });
  return loading;
 }
+const TEXT_SEARCH_SUFFIX={restaurant:' restaurant',grocery:' grocery store',coffee:' bakery cafe',bar:' bar'};
+function metersBetween(a,b){const r=Math.PI/180,h=Math.sin((b.lat-a.lat)*r/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin((b.lng-a.lng)*r/2)**2;return 12742000*Math.asin(Math.sqrt(h));}
 export async function searchGooglePlaces(Place,origin,radius,category='all',foodTypes=[],onProgress=()=>{}){
- const groups=googleSearchGroups(category,foodTypes),unique=new Map();let done=0;
+ const groups=googleSearchGroups(category,foodTypes),textSearches=foodTypes.filter(id=>id==='kosher'),unique=new Map();let done=0;
  // A small fixed set of requests, never a grid crawl. Nearby Search caps each request at 20 results.
  for(const types of groups){
   const response=await Place.searchNearby({fields:GOOGLE_FIELDS,locationRestriction:{center:origin,radius},includedTypes:types,maxResultCount:20,rankPreference:'DISTANCE'});
   for(const raw of response.places||[]){const place=normalizeGooglePlace(raw);if(place)unique.set(place.id,place);}
-  onProgress(++done,groups.length);
+  onProgress(++done,groups.length+textSearches.length);
+ }
+ // Google has no kosher place type, so a text search finds places it associates with kosher food.
+ for(const diet of textSearches){
+  const response=await Place.searchByText({fields:GOOGLE_FIELDS,textQuery:'kosher'+(TEXT_SEARCH_SUFFIX[category]||''),locationBias:{center:origin,radius},maxResultCount:20});
+  for(const raw of response.places||[]){const place=normalizeGooglePlace(raw);if(!place||metersBetween(origin,place)>radius)continue;const existing=unique.get(place.id)||place;unique.set(place.id,{...existing,foodTypes:[...new Set([...existing.foodTypes,diet])]});}
+  onProgress(++done,groups.length+textSearches.length);
  }
  return {places:[...unique.values()],fetchedAt:new Date().toISOString(),source:'Google Maps',limited:true};
 }

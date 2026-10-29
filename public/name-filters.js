@@ -1,6 +1,6 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261029-eatery1';
-import {ownershipCategories} from './ownership-categories.js?v=20261029-eatery1';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-eatery1';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261029-diet1';
+import {ownershipCategories} from './ownership-categories.js?v=20261029-diet1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-diet1';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';
 export const MAX_HIDDEN_NAMES=100;

@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='service-categories-v1';
+export const PLACE_FORMAT='diet-types-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){

@@ -2,7 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {categoryForOverture} from '../worker/overture.js';
 import {googleCategory,googleSearchGroups} from '../public/google-places.js';
-import {CATEGORIES,categoryFor,filterPlaces,ownershipFor} from '../public/ownership.js';
+import {CATEGORIES,categoryFor,filterPlaces,ownershipFor,fromOSM} from '../public/ownership.js';
+import {GOOGLE_TYPES} from '../public/google-places.js';
+const GOOGLE_TYPES_GROCERY=GOOGLE_TYPES.grocery;
 import {excludedBrandNameMatch} from '../public/name-filters.js';
 import {PLACE_CATEGORIES} from '../public/brand-scope.js';
 const origin={lat:30.2747,lng:-97.7523};
@@ -91,4 +93,36 @@ test('Google eateries that are also listed as bakeries or delis are restaurants'
  assert.equal(googleCategory(['supermarket','bakery','deli','restaurant'],'supermarket'),'grocery');
  assert.equal(googleCategory(['coffee_shop','bakery','restaurant'],'coffee_shop'),'coffee');
  assert.equal(googleCategory(['bar','restaurant'],'bar'),'bar');
+});
+test('kosher, vegetarian, and vegan are dietary requirements across food categories',async()=>{
+ const {foodTypesFromTerms,matchesFoodTypes,foodTypeLabel}=await import('../public/food-types.js');
+ const {googleSearchGroups}=await import('../public/google-places.js');
+ assert.deepEqual(foodTypesFromTerms(['food_and_drink','restaurant','special_diet_restaurant','kosher_restaurant']),['kosher']);
+ assert.deepEqual(foodTypesFromTerms(['vegan_restaurant']).sort(),['vegan','vegetarian']);
+ const place=(name,category,foodTypes=[])=>({...p(name,category),foodTypes});
+ assert.ok(matchesFoodTypes(place("Goldman's Kosher Bakery",'grocery'),['kosher']),'kosher in the name counts');
+ assert.ok(!matchesFoodTypes(place('Kosher-Style Deli','restaurant'),['kosher']),'kosher-style does not');
+ assert.ok(!matchesFoodTypes(place('Kosher Tape Plus','other'),['kosher']),'only food categories get dietary labels');
+ assert.ok(matchesFoodTypes(place('Tov Pizza','restaurant',['kosher','pizza']),['kosher','pizza']));
+ assert.ok(!matchesFoodTypes(place('Pizza Hut','restaurant',['pizza']),['kosher','pizza']),'a dietary choice is required, not optional');
+ assert.ok(matchesFoodTypes(place('Green Leaf Vegan Cafe','coffee'),['vegetarian']),'vegan places are vegetarian');
+ assert.ok(!matchesFoodTypes(place('Veggie Diner','restaurant',['vegetarian']),['vegan']));
+ assert.equal(foodTypeLabel(place('Kosher Bite','restaurant',['burgers'])),'Kosher · Burgers');
+ assert.deepEqual(fromOSM([{type:'node',id:1,lat:30.27,lon:-97.75,tags:{name:'Shalom Grill',amenity:'restaurant','diet:kosher':'only'}}])[0].foodTypes,['kosher']);
+ assert.deepEqual(googleSearchGroups('all',['vegan']),[['vegan_restaurant']]);
+ assert.deepEqual(googleSearchGroups('restaurant',['vegetarian']),[['vegetarian_restaurant','vegan_restaurant']]);
+ assert.equal(googleSearchGroups('all',['kosher']).length,5,'kosher uses the normal groups plus a text search');
+ assert.deepEqual(googleSearchGroups('grocery',['vegan']),[GOOGLE_TYPES_GROCERY]);
+});
+test('a Google kosher search adds one text search and tags nearby results',async()=>{
+ const {searchGooglePlaces}=await import('../public/google-places.js');
+ const raw=(id,name,lat,lng,types)=>({id,displayName:name,location:{lat,lng},types,primaryType:types[0],businessStatus:'OPERATIONAL'});
+ const calls=[];
+ const Place={
+  searchNearby:async request=>{calls.push(['nearby',request.includedTypes]);return {places:[raw('a','Corner Diner',30.275,-97.752,['restaurant'])]};},
+  searchByText:async request=>{calls.push(['text',request.textQuery]);return {places:[raw('b','Shalom Grill',30.276,-97.753,['restaurant']),raw('c','Far Away Kosher',31.5,-97.75,['restaurant'])]};}
+ };
+ const result=await searchGooglePlaces(Place,origin,3000,'restaurant',['kosher']);
+ assert.deepEqual(calls,[['nearby',['restaurant']],['text','kosher restaurant']]);
+ assert.deepEqual(result.places.map(place=>[place.name,place.foodTypes.includes('kosher')]).sort(),[['Corner Diner',false],['Shalom Grill',true]]);
 });

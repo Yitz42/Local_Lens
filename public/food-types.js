@@ -5,7 +5,11 @@ export function initialOwnershipFilters(stored){
  const valid=[...new Set(stored.filter(type=>['pe','corporate','unknown'].includes(type)))];
  return stored.length&&!valid.length?[...DEFAULT_OWNERSHIP_FILTERS]:valid;
 }
+// Dietary types are requirements: a place must match every one selected. Cuisines match any selected.
 export const FOOD_TYPES=[
+ {id:'kosher',name:'Kosher',diet:true,terms:['kosher','kosher_restaurant','kosher_food','kosher_store','kosher_grocery_store'],namePattern:/\bkosher\b(?![- ]style)/i},
+ {id:'vegetarian',name:'Vegetarian',diet:true,terms:['vegetarian','vegetarian_restaurant','vegan','vegan_restaurant'],namePattern:/\b(vegetarian|vegan)\b/i},
+ {id:'vegan',name:'Vegan',diet:true,terms:['vegan','vegan_restaurant'],namePattern:/\bvegan\b/i},
  {id:'italian',name:'Italian',terms:['italian','italian_restaurant','northern_italian_restaurant','southern_italian_restaurant']},
  {id:'pizza',name:'Pizza',terms:['pizza','pizzeria','pizza_restaurant','pizza_delivery','pizza_takeaway','neapolitan_pizza_restaurant']},
  {id:'mexican',name:'Mexican',terms:['mexican','mexican_restaurant','tex_mex','tex_mex_restaurant']},
@@ -24,10 +28,18 @@ export const FOOD_TYPES=[
  {id:'sandwiches',name:'Sandwiches',terms:['sandwich','sandwiches','sandwich_shop','sandwich_restaurant']}
 ];
 const normalise=value=>value.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
-export function foodTypesFromTerms(input=[]){
+// Food categories where a dietary label makes sense.
+export const DIET_CATEGORIES=['restaurant','coffee','grocery','bar'];
+export const isDietType=id=>!!FOOD_TYPES.find(type=>type.id===id)?.diet;
+export function foodTypesFromTerms(input=[],name=''){
  const terms=new Set((Array.isArray(input)?input:[input]).flat(2).filter(value=>typeof value==='string').flatMap(value=>value.split(/[;,|·]/)).map(normalise));
- return FOOD_TYPES.filter(type=>terms.has(type.id)||type.terms.some(term=>terms.has(term))).map(type=>type.id);
+ return FOOD_TYPES.filter(type=>terms.has(type.id)||type.terms.some(term=>terms.has(term))||(type.namePattern?.test(name)??false)).map(type=>type.id);
 }
-export function foodTypesForPlace(place){return foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']);}
+export function foodTypesForPlace(place){return [...new Set([...foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']),...foodTypesFromTerms([],place.name||'').filter(isDietType)])];}
 export function foodTypeLabel(place){const ids=foodTypesForPlace(place);return FOOD_TYPES.filter(type=>ids.includes(type.id)).map(type=>type.name).join(' · ');}
-export function matchesFoodTypes(place,selected=[]){return !selected.length||foodTypesForPlace(place).some(type=>selected.includes(type));}
+export function matchesFoodTypes(place,selected=[]){
+ if(!selected.length)return true;
+ const ids=foodTypesForPlace(place),diets=selected.filter(isDietType),cuisines=selected.filter(id=>!isDietType(id));
+ if(diets.length&&!(DIET_CATEGORIES.includes(place.category)&&diets.every(id=>ids.includes(id))))return false;
+ return !cuisines.length||cuisines.some(id=>ids.includes(id));
+}
