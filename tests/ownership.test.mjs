@@ -142,3 +142,33 @@ test('the all-brands control combines corporate and PE exclusions while preservi
  assert.deepEqual(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],true)}).map(place=>place.name),['Town Kitchen']);
  assert.equal(filterPlaces(places,{origin,hidden:setAllBrandsHidden([],false)}).length,places.length);
 });
+test('the How local slider lets locally run franchise and dealer locations of hidden brands back in',async()=>{
+ const {LOCAL_LEVELS,cleanLocalLevel}=await import('../public/ownership-categories.js');
+ const places=[p("McDonald's"),p('Shell',{category:'gas'}),p('Olive Garden'),p('Ace Hardware',{category:'other'}),p('Neighborhood Kitchen'),p("McDonald's - Main St")];
+ const names=level=>filterPlaces(places,{origin,hidden:['corporate','pe'],matchBrandNames:true,localLevel:level}).map(place=>place.name).sort();
+ assert.deepEqual(names(0),['Neighborhood Kitchen']);
+ assert.deepEqual(names(1),['Ace Hardware','Neighborhood Kitchen']);
+ assert.deepEqual(filterPlaces(places,{origin,hidden:['corporate','pe'],matchBrandNames:true}).map(place=>place.name).sort(),names(1));
+ assert.deepEqual(names(2),['Ace Hardware','Neighborhood Kitchen']);
+ assert.deepEqual(names(3),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen']);
+ assert.deepEqual(names(4),['Ace Hardware',"McDonald's","McDonald's - Main St",'Neighborhood Kitchen','Shell']);
+ assert.ok(!names(4).includes('Olive Garden'));
+ assert.ok(filterPlaces(places,{origin,hidden:['unknown'],localLevel:0}).some(place=>place.name==='Ace Hardware'),'co-ops are only hidden while chains are hidden');
+ assert.equal(LOCAL_LEVELS.length,5);assert.equal(cleanLocalLevel(7),1);assert.equal(cleanLocalLevel('2'),1);assert.equal(cleanLocalLevel(0),0);
+});
+test('privately held chains count as local corporations near their headquarters',async()=>{
+ const {isLocalCorporation,headquartersDistanceMiles}=await import('../public/ownership.js');const {BRAND_DIRECTORY}=await import('../public/brand-directory.js');
+ const place=(name,category,lat,lng)=>({id:name,name,category,lat,lng});
+ const options=level=>({origin:{lat:30.27,lng:-97.74},hidden:['corporate','pe'],matchBrandNames:true,localLevel:level,radius:Infinity});
+ assert.equal(ownershipFor(place('Bomgaars','other',35.08,-106.65)).type,'corporate');
+ const austinHEB=place('H-E-B','grocery',30.27,-97.74),dallasHEB=place('H-E-B','grocery',32.78,-96.80),knoxWeigels=place("Weigel's",'gas',35.96,-83.92),azBomgaars=place('Bomgaars','other',35.08,-106.65),austinWalmart=place('Walmart','general',30.27,-97.74);
+ assert.ok(isLocalCorporation(austinHEB,ownershipFor(austinHEB)),'San Antonio HQ is within 150 miles of Austin');
+ assert.ok(!isLocalCorporation(dallasHEB,ownershipFor(dallasHEB)),'Dallas is farther than 150 miles');
+ assert.ok(isLocalCorporation(knoxWeigels,ownershipFor(knoxWeigels)));
+ assert.equal(headquartersDistanceMiles(austinWalmart,ownershipFor(austinWalmart)),null);
+ const shown=level=>filterPlaces([austinHEB,dallasHEB,knoxWeigels,azBomgaars,austinWalmart],options(level)).map(p=>p.name+'@'+p.lat).sort();
+ assert.deepEqual(shown(1),[]);
+ assert.deepEqual(shown(2),['H-E-B@30.27',"Weigel's@35.96"]);
+ assert.deepEqual(shown(4),['H-E-B@30.27',"Weigel's@35.96"]);
+ assert.equal(BRAND_DIRECTORY.filter(brand=>brand.headquarters).every(brand=>brand.type==='corporate'&&!brand.publicListing),true);
+});

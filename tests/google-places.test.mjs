@@ -9,7 +9,7 @@ test('Google listings preserve explicit food types and exclude closed or future 
  assert.equal(place.id,'google/ChIJTest');assert.equal(place.category,'restaurant');assert.deepEqual(place.foodTypes,['pizza']);assert.equal(place.source,'Google Maps');assert.deepEqual(place.attributions,raw().attributions);
  for(const businessStatus of ['CLOSED_PERMANENTLY','CLOSED_TEMPORARILY','FUTURE_OPENING'])assert.equal(normalizeGooglePlace(raw({businessStatus})),null);
  assert.equal(normalizeGooglePlace(raw({location:null})),null);
- assert.equal(normalizeGooglePlace(raw({types:[],primaryType:'pharmacy'})).category,'other');
+ assert.equal(normalizeGooglePlace(raw({types:[],primaryType:'pharmacy'})).category,'pharmacy');
  assert.deepEqual(normalizeGooglePlace(raw({displayName:'Pizza Palace',types:['restaurant'],primaryType:'restaurant'})).foodTypes,[]);
 });
 test('Google listings use the existing default ownership exclusions',()=>{

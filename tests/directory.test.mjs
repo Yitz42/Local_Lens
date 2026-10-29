@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {BRAND_DIRECTORY} from '../public/brand-directory.js';
 import {ownershipFor,filterPlaces} from '../public/ownership.js';
-import {ownershipCategories} from '../public/ownership-categories.js';
+import {ownershipCategories,isListedBrand} from '../public/ownership-categories.js';
 import {searchBrands} from '../public/directory-utils.js';
 import {validateDirectory} from '../scripts/build-directory.mjs';
 import {createWorker} from '../worker/index.js';
@@ -12,7 +12,7 @@ const origin={lat:30.2747,lng:-97.7523};
 test('the published list, matcher, and downloads cover the same reviewed brands',async()=>{
  const source=validateDirectory(JSON.parse(await readFile(new URL('../data/brands.json',import.meta.url),'utf8')));
  const download=JSON.parse(await readFile(new URL('../public/brands.json',import.meta.url),'utf8'));
- const listed=BRAND_DIRECTORY.filter(brand=>brand.type!=='independent');
+ const listed=BRAND_DIRECTORY.filter(isListedBrand);
  assert.ok(listed.length>150,'Substantially expanded directory expected');
  assert.equal(source.brands.length,BRAND_DIRECTORY.length);
  assert.deepEqual([...source.brands].sort((a,b)=>a.brand.localeCompare(b.brand,'en')).map(brand=>({...brand,categories:ownershipCategories(brand)})),BRAND_DIRECTORY);
@@ -115,4 +115,30 @@ test('listing evidence rejects debt securities and sponsor-only relationships',(
  for(const changes of [{securityType:'bond'},{relationship:'investor'},{exchanges:[]},{checked:'yesterday'}]){
   assert.throws(()=>validateDirectory({version:1,brands:[{...row,publicListing:{...row.publicListing,...changes}}]}),/public equity listing/);
  }
+});
+test('locally owned location models are labeled and searchable without changing ownership type',async()=>{
+ const {searchBrands}=await import('../public/directory-utils.js');
+ const {localOperatorNote}=await import('../public/ownership-categories.js');
+ const byName=name=>BRAND_DIRECTORY.find(brand=>brand.brand===name);
+ assert.equal(byName('Subway').localOperators,'franchise');assert.equal(byName('Shell').localOperators,'dealer');assert.equal(byName('Ace Hardware').localOperators,'cooperative');
+ assert.equal(byName('Olive Garden').localOperators,undefined);assert.equal(byName('Chick-fil-A').localOperators,undefined);
+ assert.match(localOperatorNote(byName('Subway')),/franchisees/);assert.equal(localOperatorNote(byName('Olive Garden')),'');
+ const local=searchBrands(BRAND_DIRECTORY,{type:'local'});
+ assert.ok(local.length>100&&local.every(brand=>brand.localOperators));
+ assert.equal(ownershipFor({...origin,name:"McDonald's",category:'restaurant'}).localOperators,'franchise');
+ assert.equal(ownershipFor({...origin,name:"McDonald's",category:'restaurant'}).type,'corporate');
+ const csv=await readFile(new URL('../public/brands.csv',import.meta.url),'utf8');assert.ok(csv.split('\r\n')[0].includes('"localOperators"'));
+});
+test('ownership follows where the money goes for locally run brands',()=>{
+ const at={...origin},q=(name,category)=>({...at,name,category});
+ for(const [name,category] of [['Ace Hardware','other'],['True Value','home'],['IGA','grocery'],['Piggly Wiggly','grocery'],['Cenex','gas']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,'independent',name);
+  assert.equal(filterPlaces([q(name,category)],{origin,category,hidden:['corporate','pe']}).length,1,name);
+ }
+ for(const [name,category] of [["McDonald's",'restaurant'],['Shell','gas'],['Westlake Ace Hardware','other'],['Price Less IGA','grocery'],['Cenex Zip Trip','gas']]){
+  assert.equal(ownershipFor(q(name,category)).type,'corporate',name);
+  assert.equal(filterPlaces([q(name,category)],{origin,category,hidden:['corporate','pe']}).length,0,name);
+ }
+ assert.ok(searchBrands(BRAND_DIRECTORY,{type:'independent'}).some(brand=>brand.brand==='Ace Hardware'));
+ assert.ok(!searchBrands(BRAND_DIRECTORY,{type:'independent'}).some(brand=>brand.brand==='Wheatsville Food Co-op'));
 });

@@ -1,4 +1,5 @@
-import {foodTypesFromTerms,foodTypeLabel} from './food-types.js';
+import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261025-pharmacy1';
+import {storeTypeFromTerms} from './store-types.js?v=20261027-pages1';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';
@@ -6,16 +7,21 @@ export const GOOGLE_FIELDS=['id','displayName','location','formattedAddress','bu
 export const GOOGLE_TYPES={
  restaurant:['restaurant'],grocery:['supermarket','grocery_store','convenience_store','bakery','deli'],
  gas:['gas_station'],coffee:['cafe','coffee_shop','tea_house','ice_cream_shop'],
- other:['pharmacy','drugstore','department_store','clothing_store','hardware_store','electronics_store','book_store','pet_store','florist','home_goods_store','shoe_store','auto_parts_store']
+ pharmacy:['pharmacy','drugstore'],home:['hardware_store','home_improvement_store','home_goods_store','furniture_store'],
+ apparel:['clothing_store','shoe_store','jewelry_store'],general:['department_store','discount_store','warehouse_store'],
+ other:['electronics_store','book_store','pet_store','florist','auto_parts_store','sporting_goods_store','gift_shop'],
+ bar:['bar','night_club'],beauty:['beauty_salon','hair_care','spa'],fitness:['gym'],auto:['car_repair','car_wash'],bank:['bank']
 };
+// An all-places search keeps one request for every store category so it stays within five requests.
+const STORE_TYPES=['pharmacy','home','apparel','general','other'].flatMap(category=>GOOGLE_TYPES[category]);
 const CUISINES={italian:'italian_restaurant',pizza:'pizza_restaurant',mexican:'mexican_restaurant',chinese:'chinese_restaurant',japanese:'japanese_restaurant',sushi:'sushi_restaurant',indian:'indian_restaurant',thai:'thai_restaurant',american:'american_restaurant',burgers:'hamburger_restaurant',barbecue:'barbecue_restaurant',seafood:'seafood_restaurant',mediterranean:'mediterranean_restaurant',greek:'greek_restaurant',french:'french_restaurant',sandwiches:'sandwich_shop'};
 export function googleSearchGroups(category='all',foodTypes=[]){
  const cuisineTypes=[...new Set(foodTypes.map(id=>CUISINES[id]).filter(Boolean))];
- return cuisineTypes.length?[cuisineTypes]:category==='all'?Object.values(GOOGLE_TYPES):[GOOGLE_TYPES[category]||GOOGLE_TYPES.other];
+ return cuisineTypes.length?[cuisineTypes]:category==='all'?[GOOGLE_TYPES.restaurant,GOOGLE_TYPES.grocery,GOOGLE_TYPES.gas,GOOGLE_TYPES.coffee,STORE_TYPES]:[GOOGLE_TYPES[category]||GOOGLE_TYPES.other];
 }
 export function googleCategory(types=[],primary=''){
  const list=[primary,...types];
- for(const category of ['gas','grocery','coffee','restaurant','other'])if(list.some(type=>GOOGLE_TYPES[category].includes(type)))return category;
+ for(const category of ['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank'])if(list.some(type=>GOOGLE_TYPES[category].includes(type)))return category;
  if(list.some(type=>type?.endsWith('_restaurant')||type==='sandwich_shop'))return 'restaurant';
  return 'other';
 }
@@ -24,7 +30,7 @@ export function normalizeGooglePlace(place){
  // Operational is a business status, not a claim that it is open at this hour.
  if(!place.id||!place.displayName||!Number.isFinite(lat)||!Number.isFinite(lng)||['CLOSED_PERMANENTLY','CLOSED_TEMPORARILY','FUTURE_OPENING'].includes(place.businessStatus))return null;
  const types=Array.isArray(place.types)?place.types:[],foodTypes=foodTypesFromTerms([place.primaryType,...types]);
- return {id:'google/'+place.id,googlePlaceId:place.id,name:place.displayName,lat,lng,category:googleCategory(types,place.primaryType),address:place.formattedAddress||'',addressCity:'',foodTypes,cuisine:foodTypeLabel({foodTypes}),source:'Google Maps',googleMapsURI:place.googleMapsURI||'',attributions:(place.attributions||[]).filter(a=>typeof a.provider==='string').map(a=>({provider:a.provider,providerURI:a.providerURI||''})),businessStatus:place.businessStatus||null};
+ return {id:'google/'+place.id,googlePlaceId:place.id,name:place.displayName,lat,lng,category:googleCategory(types,place.primaryType),...(googleCategory(types,place.primaryType)==='other'?{storeType:storeTypeFromTerms([place.primaryType,...types])}:{}),address:place.formattedAddress||'',addressCity:'',foodTypes,cuisine:foodTypeLabel({foodTypes}),source:'Google Maps',googleMapsURI:place.googleMapsURI||'',attributions:(place.attributions||[]).filter(a=>typeof a.provider==='string').map(a=>({provider:a.provider,providerURI:a.providerURI||''})),businessStatus:place.businessStatus||null};
 }
 export function savedGoogleIds(value){return Array.isArray(value)?[...new Set(value.filter(id=>typeof id==='string'&&/^[A-Za-z0-9_-]{1,255}$/.test(id)))]:[];}
 export function googleKey(storage){try{return (storage??globalThis.localStorage)?.getItem(GOOGLE_KEY_STORAGE)?.trim()||'';}catch{return '';}}

@@ -151,7 +151,7 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Family Dollar | Brand-level backing; see source scope | [Dollar Tree — completed sale of Family Dollar](https://corporate.dollartree.com/news-media/press-releases/detail/288/dollar-tree-completes-sale-of-family-dollar-business-to) | Dollar Tree confirms completion of the July 2025 sale to Brigade and Macellum. Family Dollar is no longer grouped under Dollar Tree. | 2026-10-16 |
 | Guitar Center | Brand-level investment backing; see source scope | [Guitar Center — company statement identifying its equity investor group](https://static.guitarcenter.com/static/gc/2023/page-bcc/corporate-information/press-room/articles/gc-art-new-executives-10-31-23.pdf) | Guitar Center identifies funds managed by Ares Private Equity Group, The Carlyle Group and Brigade Capital Management as its equity investors. This identifies investment backing; it does not assert sole ownership by any one sponsor. | 2026-10-16 |
 
-Brands in Local Lens: Family Dollar, Guitar Center.
+Brands in Local Lens: Family Dollar, Gabe's, Guitar Center.
 
 ## CapitalSpring
 
@@ -306,12 +306,16 @@ Selected companies from the official current-investments view. General Atlantic 
 | Brevo | current portfolio investment | [General Atlantic — Current Investments](https://www.generalatlantic.com/investments/?type=current) | Customer relationship management platform listed with a 2025 investment. | 2026-10-16 |
 | Boats Group | current portfolio investment | [General Atlantic — Current Investments](https://www.generalatlantic.com/investments/?type=current) | Online boat marketplace group listed with a 2026 investment. | 2026-10-16 |
 
+Brands in Local Lens: European Wax Center.
+
 ## Golden Gate Capital
 
 Review: 2026-10-16 · Partial evidence · [Portfolio / source](https://goldengatecap.com/portfolio/)
 
 Official portfolio opened but asset cards/current status did not render, so review is partial and no new current holdings are asserted. Official news archive reports sale of Bob Evans Restaurants to 4x4 Capital in February 2026; do not keep Bob Evans under Golden Gate. California Pizza Kitchen, Eddie Bauer, Red Lobster, and older Pacific Sunwear stories are historical or affected by later transactions and were not relabeled from those stories. Current news archive reviewed: https://goldengatecap.com/news/ .
 
+
+Brands in Local Lens: PacSun.
 
 ## Hellman & Friedman
 
@@ -373,7 +377,7 @@ Opened the official company directory, which states an August 24, 2026 portfolio
 | PetVet Care Centers | current portfolio investment | [KKR — June 30, 2026 Form 10-Q](https://ir.kkr.com/media/document/9c560b72-6b1b-4aff-affa-01c36a7f1661/assets/KKR_10Q_6.30.26.pdf?disposition=inline) | The quarterly report discusses unrealized PetVet investment losses in the current period, establishing a continuing investment. Individual veterinary-hospital brands were not inferred. | 2026-10-16 |
 | Heartland Dental | current portfolio investment | [KKR — Max Lin current board biography](https://www.kkr.com/about/our-people/max-lin) | The current official KKR biography lists Heartland Dental among the companies on whose boards its Americas healthcare leader currently serves. This corroborates the group affiliation, not ownership of any similarly named independent dental practice. | 2026-10-16 |
 
-Brands in Local Lens: Nothing Bundt Cakes.
+Brands in Local Lens: Belk, Nothing Bundt Cakes.
 
 ## L Catterton
 
@@ -385,7 +389,7 @@ Official portfolio distinguishes Current/Historical but company cards did not re
 | --- | --- | --- | --- | --- |
 | Birkenstock | minority public-company stake | [Birkenstock — August 2026 SEC prospectus supplement](https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm) | L Catterton-controlled selling entity would retain approximately 44.75%, or 42.43% if the option is fully exercised, following the offering. Percentages are filing-date scenarios, not a claim of exact present ownership. | 2026-10-16 |
 
-Brands in Local Lens: Birkenstock.
+Brands in Local Lens: Birkenstock, West Marine.
 
 ## Leonard Green & Partners
 
@@ -528,7 +532,7 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Auntie Anne's | Brand-level backing; see source scope | [Roark — current investments](https://www.roarkcapital.com/portfolio) | Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership. | 2026-10-15 |
 | Baskin-Robbins | Brand-level backing; see source scope | [Roark — current investments](https://www.roarkcapital.com/portfolio) | Brand-level PE backing is listed in Roark’s current portfolio. A local franchisee may have separate ownership. | 2026-10-15 |
 
-Brands in Local Lens: 1-800 Radiator, ABRA, Anytime Fitness, Arby's, Auntie Anne's, Baskin-Robbins, Buffalo Wild Wings, Carl's Jr., CARSTAR, Carvel, Cinnabon, Culver's, Dave's Hot Chicken, Dunkin', Fitness Connection, Hardee's, i9 Sports, Jamba, Jim 'N Nick's Bar-B-Q, Jimmy John's, Maaco, Massage Envy, Mathnasium, McAlister's Deli, Meineke, Merry Maids, Miller's Ale House, Moe's Southwest Grill, Orangetheory Fitness, Primrose Schools, SafeSplash, Schlotzsky's, School of Rock, ServiceMaster Clean, ServiceMaster Restore, SONIC Drive-In, Subway, Take 5 Oil Change, The Bar Method, Two Men and a Truck, Waxing the City.
+Brands in Local Lens: 1-800 Radiator, ABRA, Anytime Fitness, Arby's, Auntie Anne's, Baskin-Robbins, Buffalo Wild Wings, Carl's Jr., CARSTAR, Carvel, Cinnabon, Culver's, Dave's Hot Chicken, Dunkin', Fitness Connection, Hardee's, i9 Sports, Jamba, Jim 'N Nick's Bar-B-Q, Jimmy John's, Maaco, Massage Envy, Mathnasium, McAlister's Deli, Meineke, Merry Maids, Miller's Ale House, Moe's Southwest Grill, Orangetheory Fitness, Pet Supermarket, Primrose Schools, SafeSplash, Schlotzsky's, School of Rock, ServiceMaster Clean, ServiceMaster Restore, SONIC Drive-In, Subway, Take 5 Oil Change, The Bar Method, Two Men and a Truck, Waxing the City.
 
 ## Sentinel Capital Partners
 
@@ -668,7 +672,7 @@ Reviewed individual Current/Exited labels. The page mixes both statuses. Dutch B
 | Thrive Pet Healthcare | current portfolio investment | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) | Explicit Current status; no ownership percentage asserted. | 2026-10-16 |
 | Wrench Group | current portfolio investment | [TSG Consumer — current and exited investment status](https://www.tsgconsumer.com/investments/) | Explicit Current status; no ownership percentage asserted. | 2026-10-16 |
 
-Brands in Local Lens: ATI Restoration, Cadogan Tate, CorePower Yoga, Crumbl, EoS Fitness, Los Tacos No. 1, Mavis Tires & Brakes, Pura Vida Miami, Sola Salons, Super Star Car Wash, Thrive Pet Healthcare, Woodhouse Spa.
+Brands in Local Lens: ATI Restoration, Cadogan Tate, CorePower Yoga, Crumbl, EoS Fitness, Los Tacos No. 1, Mavis Tires & Brakes, Pep Boys, Pura Vida Miami, Sola Salons, Super Star Car Wash, Thrive Pet Healthcare, Woodhouse Spa.
 
 ## Verlinvest
 

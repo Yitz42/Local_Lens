@@ -946,6 +946,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-16"
         },
         {
+          "brand": "Gabe's",
+          "parent": "Former term lenders including Brigade Capital Management, Arbour Lane, and Anchorage",
+          "type": "pe",
+          "source": "https://www.retaildive.com/news/off-pricer-gabes-under-new-ownership-avoids-bankruptcy/758424/",
+          "checked": "2026-10-27"
+        },
+        {
           "brand": "Guitar Center",
           "parent": "Guitar Center Holdings · Ares / Carlyle / Brigade investor group",
           "type": "pe",
@@ -2444,7 +2451,15 @@ export const FIRM_CATALOG = {
           "note": "Online boat marketplace group listed with a 2026 investment."
         }
       ],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "European Wax Center",
+          "parent": "European Wax Center · General Atlantic",
+          "type": "pe",
+          "source": "https://www.privsource.com/acquisitions/deal/general-atlantic-to-acquire-european-wax-center-take-private-D8S4Xk",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Genstar Capital",
@@ -2524,7 +2539,15 @@ export const FIRM_CATALOG = {
       "source": "https://goldengatecap.com/portfolio/",
       "notes": "Official portfolio opened but asset cards/current status did not render, so review is partial and no new current holdings are asserted. Official news archive reports sale of Bob Evans Restaurants to 4x4 Capital in February 2026; do not keep Bob Evans under Golden Gate. California Pizza Kitchen, Eddie Bauer, Red Lobster, and older Pacific Sunwear stories are historical or affected by later transactions and were not relabeled from those stories. Current news archive reviewed: https://goldengatecap.com/news/ .",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "PacSun",
+          "parent": "PSEB · Golden Gate Capital",
+          "type": "pe",
+          "source": "https://www.yahoo.com/news/articles/pacsun-retailer-big-plans-2026-021817770.html",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Goldman Sachs Alternatives",
@@ -3248,6 +3271,13 @@ export const FIRM_CATALOG = {
       ],
       "mappedBrands": [
         {
+          "brand": "Belk",
+          "parent": "Lender group including KKR and Hein Park funds",
+          "type": "pe",
+          "source": "https://chainstoreage.com/news/belk-begins-new-ownership-era",
+          "checked": "2026-10-27"
+        },
+        {
           "brand": "Nothing Bundt Cakes",
           "parent": "KKR fund-backed investment",
           "type": "pe",
@@ -3324,6 +3354,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.sec.gov/Archives/edgar/data/1977102/000119312526352280/birk-20260814.htm",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "West Marine",
+          "parent": "L Catterton & Oaktree (Chapter 11 since May 2026)",
+          "type": "pe",
+          "source": "https://bondoro.com/content/files/2026/05/West-Marine_Slide-Summary_05.20.26.pdf",
+          "checked": "2026-10-27"
         }
       ]
     },
@@ -4163,7 +4200,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Checkers",
+          "parent": "Oak Hill Capital Partners investment",
+          "type": "pe",
+          "source": "https://www.franchisetimes.com/top-400-2025/90-checkers-rallys/article_7b47b943-252f-4d78-af30-9655e4988a53.html",
+          "checked": "2026-10-27"
+        }
+      ]
     },
     {
       "firm": "Oak Investment Partners",
@@ -4848,6 +4893,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.roarkcapital.com/portfolio",
           "checked": "2026-10-15"
+        },
+        {
+          "brand": "Pet Supermarket",
+          "parent": "Pet Retail Brands · Roark Capital",
+          "type": "pe",
+          "source": "https://pet-insight.com/article/retailer-spotlight-pet-supermarket/",
+          "checked": "2026-10-27"
         },
         {
           "brand": "Primrose Schools",
@@ -5936,6 +5988,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.tsgconsumer.com/investments/",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "Pep Boys",
+          "parent": "Mavis Tire · TSG Consumer Partners investment",
+          "type": "pe",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000813762/000110465926099264/tm2623713d1_8k.htm",
+          "checked": "2026-10-27"
         },
         {
           "brand": "Pura Vida Miami",

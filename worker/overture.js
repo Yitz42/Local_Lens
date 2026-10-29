@@ -2,11 +2,12 @@ import {PMTiles,FetchSource} from 'pmtiles';
 import {VectorTile} from '@mapbox/vector-tile';
 import {PbfReader} from 'pbf';
 import {foodTypesFromTerms,foodTypeLabel} from '../public/food-types.js';
-export const RELEASE='2026-09-23.1';
-export const DATA_DATE='2026-09-23T00:00:00Z';
+import {storeTypeFromTerms} from '../public/store-types.js';
+export const RELEASE='2026-10-21.0';
+export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='food-types-v1';
+export const PLACE_FORMAT='service-categories-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -23,9 +24,19 @@ export function categoryForOverture(properties){
  const terms=taxonomyTerms(properties);
  if(terms.some(t=>/^(gas_station|fuel_station|petrol_station)$/.test(t)))return 'gas';
  if(terms.some(t=>/^(coffee_shop|cafe|cafeteria|tea_house|tea_room|bubble_tea_shop|juice_bar|ice_cream_shop)$/.test(t)))return 'coffee';
- if(terms.some(t=>/^(grocery_store|supermarket|convenience_store|bakery|greengrocer|food_market|specialty_food_store|farmers_market)$/.test(t)))return 'grocery';
+ if(terms.some(t=>/^(grocery_store|supermarket|convenience_store|bakery|greengrocer|food_market|specialty_food_store|specialty_foods_store|farmers_market|butcher_shop|seafood_market|fishmonger|cheese_shop|health_food_store|herb_and_spice_store|patisserie_cake_shop)$/.test(t)))return 'grocery';
+ // Bars are separate unless the venue is also tagged as a restaurant.
+ if(terms.some(t=>/^(alcoholic_beverage_venue|bar|pub|lounge|brewery|beer_garden|cocktail_bar|wine_bar|sports_bar|dance_club|nightlife_venue)$/.test(t))&&!terms.some(t=>t.includes('restaurant')))return 'bar';
  if(terms.some(t=>t==='restaurant'||t==='food_and_drink'||t.includes('restaurant')||t==='fast_food'||t==='food_truck'))return 'restaurant';
- if(terms.some(t=>t==='shopping'||t==='retail'||t==='pharmacy'||t==='drugstore'))return 'other';
+ if(terms.some(t=>/^(pharmacy_and_drug_store|pharmacy|drugstore)$/.test(t)))return 'pharmacy';
+ if(terms.some(t=>/^(hardware_home_and_garden_store|hardware_store|home_improvement_store|building_supply_store|furniture_store|home_goods_store|nursery_and_gardening_store|paint_store)$/.test(t)))return 'home';
+ if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
+ if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
+ if(terms.some(t=>t==='shopping'||t==='retail'))return 'other';
+ if(terms.some(t=>/^(beauty_salon|hair_salon|nail_salon|barber|skin_care_and_makeup|hair_removal|waxing|tanning_salon|spa|day_spa|medical_spa|massage_therapy|tattoo_and_piercing|eyelash_service)$/.test(t)))return 'beauty';
+ if(terms.some(t=>/^(gym|fitness_studio|yoga_studio|pilates_studio|boxing_gym|boxing_class|boot_camp|fitness_trainer|dance_studio|martial_arts_club|climbing_gym|cycling_studio)$/.test(t)))return 'fitness';
+ if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|car_wash|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
+ if(terms.some(t=>/^(bank_or_credit_union|bank|credit_union)$/.test(t)))return 'bank';
  return null;
 }
 export function distance(a,b){const r=Math.PI/180,dlat=(b.lat-a.lat)*r,dlng=(b.lng-a.lng)*r;const h=Math.sin(dlat/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dlng/2)**2;return 6371000*2*Math.atan2(Math.sqrt(h),Math.sqrt(Math.max(0,1-h)));}
@@ -46,7 +57,7 @@ export function normalizePlace(feature){
  const address=parse(p.addresses,[])[0]||{},brand=parse(p.brand,{}).names?.primary||'';
  const websites=parse(p.websites,[]);
  const foodTypes=foodTypesFromTerms([...taxonomyTerms(p,true),p.cuisine||'',parse(p.cuisines,[])]);
- return {id:'overture/'+id,name:String(name),brand:String(brand),lat,lng,category,address:address.freeform||'',addressCity:address.locality||'',website:websites.find(v=>typeof v==='string'&&/^https?:\/\//.test(v))||'',cuisine:foodTypeLabel({foodTypes}),foodTypes,amenity:p.basic_category||'',source:'Overture Maps',release:RELEASE};
+ return {id:'overture/'+id,name:String(name),brand:String(brand),lat,lng,category,address:address.freeform||'',addressCity:address.locality||'',website:websites.find(v=>typeof v==='string'&&/^https?:\/\//.test(v))||'',cuisine:foodTypeLabel({foodTypes}),foodTypes,amenity:p.basic_category||'',source:'Overture Maps',release:RELEASE,...(category==='other'?{storeType:storeTypeFromTerms(taxonomyTerms(p))}:{})};
 }
 export async function lookupPlacesPage(lat,lng,radius,page=0,source=archive){
  const tiles=planTiles(lat,lng,radius),totalPages=Math.max(1,Math.ceil(tiles.length/PAGE_SIZE));

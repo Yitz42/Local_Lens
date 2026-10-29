@@ -5,7 +5,7 @@ import {collectPlacePages} from '../public/places-loader.js';
 import {findNearbyCache,PLACE_CACHE_FORMAT} from '../public/place-cache.js';
 const url='https://local.test/api/places?lat=42.360&lng=-71.058&radius=1609';
 const item={id:'overture/abc',name:'Neighborhood Market',lat:42.36,lng:-71.058,category:'grocery'};
-const payload={places:[item],page:0,totalPages:1,release:RELEASE,dataDate:'2026-09-23T00:00:00Z',fetchedAt:new Date().toISOString()};
+const payload={places:[item],page:0,totalPages:1,release:RELEASE,dataDate:'2026-10-21T00:00:00Z',fetchedAt:new Date().toISOString()};
 class MemoryCache{map=new Map();async match(req){return this.map.get(req.url)?.clone();}async put(req,res){this.map.set(req.url,res.clone());}}
 test('a transient file failure retries automatically and completed pages are cached',async()=>{
  let calls=0;const worker=createWorker({}, {lookup:async()=>{calls++;if(calls===1)throw new Error('temporary connection');return payload;}});
@@ -39,7 +39,7 @@ test('Overture records preserve brand, geography, address, category and source',
  assert.equal(categoryForOverture({basic_category:'gas_station'}),'gas');
  assert.equal(categoryForOverture({basic_category:'coffee_shop'}),'coffee');
  assert.equal(categoryForOverture({basic_category:'restaurant'}),'restaurant');
- assert.equal(categoryForOverture({taxonomy:'{"hierarchy":["shopping","clothing_store"]}'}),'other');
+ assert.equal(categoryForOverture({taxonomy:'{"hierarchy":["shopping","clothing_store"]}'}),'apparel');
  assert.equal(categoryForOverture({basic_category:'financial_service'}),null);
  assert.equal(normalizePlace({geometry:{type:'Point',coordinates:[0,0]},properties:{id:'closed','@name':'Old shop',basic_category:'restaurant',operating_status:'permanently_closed'}}),null);
 });

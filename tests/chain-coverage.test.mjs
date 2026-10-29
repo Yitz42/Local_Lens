@@ -38,8 +38,61 @@ test('current public equity and completed private ownership remain distinct',()=
  assert.deepEqual(row('Dillard’s').publicListing.exchanges,[{exchange:'TXSE',ticker:'DDS'}]);
  assert.equal(row('Cumberland Farms').publicListing,undefined);
  assert.deepEqual(row('Black Rock Coffee Bar').categories,['corporate','pe']);
- assert.ok(row('Cenex').publicListing.exchanges.some(s=>s.ticker==='CHSCP'));
- assert.match(row('Cenex').note,/preferred equity/);
+ assert.equal(row('Cenex').publicListing,undefined);assert.equal(row('Cenex').type,'independent');
+ assert.match(row('Cenex').note,/preferred stock/);assert.equal(row('Cenex Zip Trip').type,'corporate');
  assert.equal(row('CITGO').type,'corporate');assert.ok(!row('CITGO').sponsors?.includes('Elliott Investment Management'));
  assert.equal(row('Pet Supplies Plus').type,'corporate');assert.equal(row('Pet Supplies Plus').sponsors,undefined);
+});
+test('October 27 restaurant and retail additions carry their reviewed owners and name guards',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category,type,parent] of [
+  ["Denny's",'restaurant','pe','TriArtisan'],['Qdoba Mexican Eats','restaurant','pe','Butterfly'],["Rally's #123",'restaurant','pe','Oak Hill'],
+  ['Del Taco','restaurant','corporate','Yadav'],['Krispy Kreme','coffee','corporate','Krispy Kreme'],['Office Depot','other','pe','Atlas'],
+  ['Nordstrom Rack','apparel','corporate','Liverpool'],['Zales','apparel','corporate','Signet'],['The Vitamin Shoppe','pharmacy','pe','Kingswood'],
+  ['Royal Farms','gas','corporate','Two Farms'],['GetGo','gas','corporate','Couche-Tard'],['Pep Boys','other','pe','Mavis']
+ ]){const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);}
+ for(const [name,category] of [['Checkers','grocery'],['Bob Evans','grocery'],['Hollister Hardware','home'],['Jared','restaurant'],['Kirkland Signature','general'],['Hollister','restaurant']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.equal(ownershipFor({lat:34.05,lng:-118.24,name:'GetGo',category:'gas'}).type,'unknown');
+ assert.match(ownershipFor(q("BJ's Restaurant & Brewhouse",'restaurant')).parent,/BJ's Restaurants/);
+ assert.match(ownershipFor(q("BJ's Wholesale Club",'general')).parent,/Wholesale Club/);
+ assert.equal(excludedBrandNameMatch(q("Denny's - Downtown",'restaurant'),['pe']).brand,"Denny's");
+ assert.equal(excludedBrandNameMatch(q('Hollister Plumbing Supply','home'),['corporate']),null);
+});
+test('national chains with unconfirmed owners are corporate without inferred sponsors',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category] of [['TGI Fridays','restaurant'],['Blaze Pizza','restaurant'],['Chuck E. Cheese','restaurant'],["Torchy's Tacos",'restaurant'],['Sbarro','restaurant'],['Cicis','restaurant'],['Smoothie King','coffee'],['Fleet Farm','general'],["Carter's",'apparel'],["OshKosh B'gosh",'apparel']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,'corporate',name);assert.equal(owner.sponsors,undefined,name);
+ }
+ for(const [name,category] of [["Carter's",'restaurant'],['OshKosh','restaurant'],["Torchy's",'grocery'],['TGIF','grocery']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.deepEqual(ownershipFor(q("Carter's",'apparel')).publicListing.exchanges,[{exchange:'NYSE',ticker:'CRI'}]);
+});
+test('store-category additions keep short brand names inside their store category',()=>{
+ const at={lat:39.29,lng:-76.61},q=(name,category)=>({...at,name,category});
+ for(const [name,category,type,parent] of [['H&M','apparel','corporate','Hennes'],['Express','apparel','corporate','WHP'],['RH','home','corporate','RH'],['Belk','general','pe','KKR'],["Gabe's",'general','pe','Brigade'],['PacSun','apparel','pe','Golden Gate'],['Coach Outlet','apparel','corporate','Tapestry'],['Eyeglass World','pharmacy','corporate','National Vision'],['Total Wine','other','corporate','Trone']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);
+ }
+ for(const [name,category] of [['H M Plumbing','home'],['HM Supply','apparel'],['Express','grocery'],['RH','other'],['Columbia','apparel'],['Ashley','home'],['Vans','other'],['Pandora','restaurant'],['Saks OFF 5TH','apparel']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+ assert.equal(excludedBrandNameMatch(q('Express Lube','other'),['corporate']),null);
+});
+test('specialty, tire, liquor, and regional additions keep their owners and guards',()=>{
+ const q=(name,category,lat=39.29,lng=-76.61)=>({name,category,lat,lng});
+ for(const [name,category,type,parent,local] of [['Big O Tires','other','corporate','Sumitomo','franchise'],['Les Schwab','other','pe','Meritage'],['Pet Supermarket','other','pe','Roark'],['Red Wing Shoes','apparel','corporate','Red Wing','dealer'],['Benjamin Moore','other','corporate','Berkshire','dealer'],['Helzberg Diamonds','apparel','corporate','Berkshire'],["Spec's",'other','corporate','Spec']]){
+  const owner=ownershipFor(q(name,category));assert.equal(owner.type,type,name);assert.ok(owner.parent.includes(parent),name);assert.equal(owner.localOperators,local,name);
+ }
+ assert.equal(ownershipFor(q('Market Basket','grocery',42.6,-71.3)).type,'corporate');
+ assert.equal(ownershipFor(q('Market Basket','grocery',30.2,-93.2)).type,'unknown');
+ for(const [name,category] of [['Red Wing','apparel'],['Hallmark Inn','restaurant'],['Patagonia','restaurant'],['Lush','restaurant']])assert.equal(ownershipFor(q(name,category)).type,'unknown',name);
+});
+test('regional chains only match inside their operating areas',()=>{
+ const q=(name,category,lat,lng)=>({name,category,lat,lng});
+ for(const [name,category,inside,outside,type] of [
+  ["Weigel's",'gas',[36.0,-83.9],[34.0,-118.2],'corporate'],["Parker's",'gas',[32.1,-81.1],[40.7,-74.0],'corporate'],['Family Express','gas',[41.5,-87.0],[29.8,-95.4],'corporate'],
+  ['Enmarket','gas',[32.1,-81.1],[44.9,-93.3],'corporate'],["Bucky's",'gas',[41.3,-96.0],[29.8,-95.4],'corporate'],['Food Bazaar','grocery',[40.7,-73.9],[41.9,-87.6],'corporate'],
+  ['Farm & Fleet','other',[42.3,-89.1],[33.4,-112.1],'corporate'],['Coastal Farm & Ranch','other',[45.5,-122.7],[39.0,-77.0],'pe'],['Kinney Drugs','pharmacy',[43.0,-76.1],[30.3,-97.7],'corporate'],['Twin Liquors','other',[30.3,-97.7],[39.3,-76.6],'corporate']]){
+  assert.equal(ownershipFor(q(name,category,...inside)).type,type,name+' inside');
+  assert.equal(ownershipFor(q(name,category,...outside)).type,'unknown',name+' outside');
+ }
+ assert.equal(ownershipFor(q("Parker's",'restaurant',32.1,-81.1)).type,'corporate');
+ assert.equal(ownershipFor(q("Parker's",'other',32.1,-81.1)).type,'unknown');
+ assert.equal(ownershipFor(q('Fleet Farm','other',44.9,-93.3)).parent.includes('Blain'),false);
 });

@@ -1,6 +1,6 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261026-stores3';
-import {ownershipCategories} from './ownership-categories.js';
-import {inUSCoverage,matchesBrandScope} from './brand-scope.js?v=20261026-stores3';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261027-pages1';
+import {ownershipCategories} from './ownership-categories.js?v=20261027-pages1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261027-pages1';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';
 export const MAX_HIDDEN_NAMES=100;
@@ -31,7 +31,7 @@ export function excludedBrandNameMatch(place,hidden=[]){
  for(const candidate of candidates)for(const id of [...nameKeys(candidate.value)].sort((a,b)=>b.length-a.length))for(const brand of index.get(id)||[]){
   if(!matchesBrandScope(place,brand))continue;
   const exactBrand=candidate.explicit&&String(candidate.value).split(';').some(component=>key(component)===id);
-  if(!exactBrand&&brand.matchCategories&&!brand.matchCategories.includes(place.category))continue;
+  if(!exactBrand&&!matchesBrandCategory(place,brand))continue;
   if(brand.preservePunctuation&&![brand.brand,...brand.aliases].some(alias=>literalNameMatch(candidate.value,alias)))continue;
   if(ownershipCategories(brand).some(type=>hidden.includes(type)))return brand;
  }
