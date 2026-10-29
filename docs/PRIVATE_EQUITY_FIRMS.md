@@ -278,7 +278,7 @@ Selected current investments include Philz Coffee, Batteries Plus, and Propelled
 | Batteries Plus | Brand-level investment backing; see source scope | [Freeman Spogli — Batteries Plus investment](https://www.freemanspogli.com/portfolio/batteries-plus/) | The sponsor identifies its Batteries Plus investment; its January 2026 current portfolio overview separately corroborates the battery and light-bulb franchisor as current. Roark is a former owner. A franchise location may have a separate local operator. | 2026-10-16 |
 | FASTSIGNS | Brand-level investment backing; see source scope | [Freeman Spogli — Propelled Brands investment](https://www.freemanspogli.com/portfolio/propelled-brands/) | Freeman Spogli identifies Propelled Brands as the parent of FASTSIGNS. Its January 2026 current portfolio overview corroborates this investment; official LightBay and franchise-company materials identify LightBay Capital and Freeman Spogli as private equity owners. Local franchise ownership can differ. | 2026-10-16 |
 
-Brands in Local Lens: Batteries Plus, FASTSIGNS, Philz Coffee.
+Brands in Local Lens: Batteries Plus, Camp Bow Wow, FASTSIGNS, Philz Coffee.
 
 ## Garnett Station Partners
 
@@ -434,7 +434,7 @@ Selected storefront-brand evidence from the portfolio-company category review. T
 | --- | --- | --- | --- | --- |
 | FASTSIGNS | Brand-level investment backing; see source scope | [Freeman Spogli — Propelled Brands investment](https://www.freemanspogli.com/portfolio/propelled-brands/) | Freeman Spogli identifies Propelled Brands as the parent of FASTSIGNS. Its January 2026 current portfolio overview corroborates this investment; official LightBay and franchise-company materials identify LightBay Capital and Freeman Spogli as private equity owners. Local franchise ownership can differ. | 2026-10-16 |
 
-Brands in Local Lens: FASTSIGNS.
+Brands in Local Lens: Camp Bow Wow, FASTSIGNS.
 
 ## LongRange Capital
 

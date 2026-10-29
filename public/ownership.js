@@ -1,10 +1,10 @@
-import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261029-radius2';
-import {storeTypeFromTerms} from './store-types.js?v=20261029-radius2';
-import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261029-radius2';
-export {ownershipCategories} from './ownership-categories.js?v=20261029-radius2';
-import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261029-radius2';
-import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261029-radius2';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-radius2';
+import {ownershipCategories,allowsLocalOperator,hidesLocalOperator,allowsRegional,DEFAULT_LOCAL_LEVEL,LOCAL_HQ_RADIUS_MILES} from './ownership-categories.js?v=20261029-services3';
+import {storeTypeFromTerms} from './store-types.js?v=20261029-services3';
+import {foodTypesFromTerms,matchesFoodTypes} from './food-types.js?v=20261029-services3';
+export {ownershipCategories} from './ownership-categories.js?v=20261029-services3';
+import {BRAND_DIRECTORY,DIRECTORY_META} from './brand-directory.js?v=20261029-services3';
+import {excludedBrandNameMatch,hiddenNameMatch} from './name-filters.js?v=20261029-services3';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261029-services3';
 export const CHECKED = DIRECTORY_META.checked;
 export const LABELS = {independent:'Independent / co-op', corporate:'Corporate brand', pe:'Private equity backed', unknown:'Unknown ownership'};
 export const CATEGORIES = [
@@ -16,7 +16,9 @@ export const CATEGORIES = [
  {id:'other',name:'More stores',icon:'shop',group:'Stores'},
  {id:'gas',name:'Gas stations',icon:'gas',group:'Services'}, {id:'auto',name:'Auto service',icon:'auto',group:'Services'},
  {id:'beauty',name:'Beauty & salons',icon:'beauty',group:'Services'}, {id:'fitness',name:'Fitness',icon:'fitness',group:'Services'},
- {id:'bank',name:'Banks & credit unions',icon:'bank',group:'Services'}
+ {id:'bank',name:'Banks & credit unions',icon:'bank',group:'Services'},
+ {id:'print',name:'Print & ship',icon:'print',group:'Services'}, {id:'laundry',name:'Laundry & dry cleaning',icon:'laundry',group:'Services'},
+ {id:'pets',name:'Pet care & vets',icon:'pet',group:'Services'}, {id:'repair',name:'Repair & alterations',icon:'repair',group:'Services'}
 ];
 export function normalize(s=''){return s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g,'');}
 const brandIndex=new Map();
@@ -31,7 +33,7 @@ export function ownershipFor(p){
  for(const candidate of candidates)for(const rule of brandIndex.get(candidate.key)||[]){if(!matchesBrandScope(p,rule))continue;if(rule.local&&distance(p,{lat:30.2747,lng:-97.7523})>25000)continue;if(!candidate.explicitBrand&&!matchesBrandCategory(p,rule))continue;if(rule.preservePunctuation&&![rule.brand,...rule.aliases].some(alias=>alias.trim().toLowerCase().normalize('NFKC')===candidate.value))continue;return {...rule};}
  return {type:'unknown',parent:'Not yet verified',note:'This place has not been matched to our curated ownership directory. It may be independent, corporate, or private equity backed. Unknown does not mean independent.'};
 }
-export function categoryFor(t){if(t.amenity==='fuel')return 'gas';if(['bar','pub','biergarten','nightclub'].includes(t.amenity))return 'bar';if(t.amenity==='bank')return 'bank';if(['hairdresser','beauty','nails','massage','tattoo'].includes(t.shop))return 'beauty';if(['fitness_centre'].includes(t.leisure))return 'fitness';if(['car_repair','tyres'].includes(t.shop)||t.amenity==='car_wash')return 'auto';if(['cafe','ice_cream'].includes(t.amenity))return 'coffee';if(['restaurant','fast_food','food_court'].includes(t.amenity))return 'restaurant';if(['supermarket','convenience','greengrocer','bakery','deli','butcher','seafood','cheese','health_food'].includes(t.shop))return 'grocery';if(t.amenity==='pharmacy'||['chemist','pharmacy'].includes(t.shop))return 'pharmacy';if(['hardware','doityourself','furniture','garden_centre','houseware','paint','interior_decoration','kitchen','bathroom_furnishing','appliance','flooring','carpet','lighting','bed','trade'].includes(t.shop))return 'home';if(['clothes','shoes','boutique','fashion_accessories','jewelry','bag'].includes(t.shop))return 'apparel';if(['department_store','variety_store','discount','general','wholesale'].includes(t.shop))return 'general';return 'other';}
+export function categoryFor(t){if(t.amenity==='fuel')return 'gas';if(['bar','pub','biergarten','nightclub'].includes(t.amenity))return 'bar';if(t.amenity==='bank')return 'bank';if(t.shop==='copyshop'||t.craft==='printer'||t.amenity==='post_office'||t.office==='courier')return 'print';if(['laundry','dry_cleaning'].includes(t.shop))return 'laundry';if(t.amenity==='veterinary'||t.shop==='pet_grooming'||t.amenity==='animal_boarding')return 'pets';if(['electronics_repair','shoemaker','tailor','watchmaker'].includes(t.craft)||['repair','tailor','shoe_repair','computer_repair','mobile_phone_repair'].includes(t.shop))return 'repair';if(['hairdresser','beauty','nails','massage','tattoo'].includes(t.shop))return 'beauty';if(['fitness_centre'].includes(t.leisure))return 'fitness';if(['car_repair','tyres'].includes(t.shop)||t.amenity==='car_wash')return 'auto';if(['cafe','ice_cream'].includes(t.amenity))return 'coffee';if(['restaurant','fast_food','food_court'].includes(t.amenity))return 'restaurant';if(['supermarket','convenience','greengrocer','bakery','deli','butcher','seafood','cheese','health_food'].includes(t.shop))return 'grocery';if(t.amenity==='pharmacy'||['chemist','pharmacy'].includes(t.shop))return 'pharmacy';if(['hardware','doityourself','furniture','garden_centre','houseware','paint','interior_decoration','kitchen','bathroom_furnishing','appliance','flooring','carpet','lighting','bed','trade'].includes(t.shop))return 'home';if(['clothes','shoes','boutique','fashion_accessories','jewelry','bag'].includes(t.shop))return 'apparel';if(['department_store','variety_store','discount','general','wholesale'].includes(t.shop))return 'general';return 'other';}
 export function fromOSM(elements){const out=[],seen=new Set();for(const e of elements){const t=e.tags||{},lat=e.lat??e.center?.lat,lng=e.lon??e.center?.lon;if(!t.name||!Number.isFinite(lat)||!Number.isFinite(lng))continue;const key=normalize(t.name)+':'+lat.toFixed(4)+':'+lng.toFixed(4);if(seen.has(key))continue;seen.add(key);const address=[t['addr:housenumber'],t['addr:street']].filter(Boolean).join(' ');out.push({id:e.type+'/'+e.id,name:t.name,brand:t.brand||'',lat,lng,category:categoryFor(t),address,addressCity:t['addr:city']||'',website:t.website||t['contact:website']||'',...(categoryFor(t)==='other'?{storeType:storeTypeFromTerms([t.shop])}:{}),cuisine:(t.cuisine||'').replaceAll('_',' '),foodTypes:foodTypesFromTerms([t.cuisine||'',...['kosher','halal','vegetarian','vegan'].filter(diet=>['yes','only'].includes(t['diet:'+diet]))]),amenity:t.amenity||t.shop||'store'});}return out;}
 // A privately held chain counts as a local corporation where its headquarters is within LOCAL_HQ_RADIUS_MILES.
 export function headquartersDistanceMiles(place,brand){const hq=brand?.headquarters;if(!hq||brand.type!=='corporate'||brand.publicListing||!Number.isFinite(place?.lat)||!Number.isFinite(place?.lng))return null;return distance(place,hq)/1609.344;}

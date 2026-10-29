@@ -18230,6 +18230,275 @@
       ]
     },
     {
+      "brand": "FedEx Office",
+      "aliases": [
+        "FedEx Office Print & Ship Center",
+        "FedEx Office Print and Ship Center",
+        "FedEx Kinko's",
+        "Kinko's",
+        "FedEx Ship Center"
+      ],
+      "type": "corporate",
+      "parent": "FedEx Corporation",
+      "source": "https://s21.q4cdn.com/665674268/files/doc_financials/2025/q4/FedEX-10K-Form.pdf",
+      "sourceTitle": "FedEx Corporation — 2025 Form 10-K",
+      "note": "FedEx Office operated about 2,000 company-run print and ship stores as of May 31, 2025. Independent FedEx Authorized ShipCenters are separate businesses.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=FedEx%20Office",
+      "publicListing": {
+        "company": "FedEx Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "FDX"
+          }
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048911&type=10-K",
+        "sourceTitle": "SEC EDGAR — FedEx Corporation annual reports",
+        "checked": "2026-10-29"
+      },
+      "matchCategories": [
+        "print",
+        "other"
+      ]
+    },
+    {
+      "brand": "The UPS Store",
+      "aliases": [
+        "UPS Store"
+      ],
+      "type": "corporate",
+      "parent": "The UPS Store, Inc. · United Parcel Service",
+      "source": "https://www.theupsstore.com/about/pressroom/the-ups-store-inc-earns-no-7-ranking-on-entrepreneur-s-annual-franchise-500-list",
+      "sourceTitle": "The UPS Store — press room",
+      "note": "More than 5,500 U.S. locations; almost all are independently owned franchises.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20UPS%20Store",
+      "publicListing": {
+        "company": "United Parcel Service, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "UPS"
+          }
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K",
+        "sourceTitle": "SEC EDGAR — United Parcel Service, Inc. annual reports",
+        "checked": "2026-10-29"
+      },
+      "matchCategories": [
+        "print",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "AlphaGraphics",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "MBE Worldwide S.p.A. (Fiorelli family; Oaktree minority stake)",
+      "source": "https://www.mbeglobal.com/mbe-worldwide-acquires-alphagraphics-inc",
+      "sourceTitle": "MBE Worldwide — acquires AlphaGraphics",
+      "note": "Italian, family-controlled MBE Worldwide bought the AlphaGraphics print franchise in 2017. Funds managed by Oaktree agreed in 2020 to take up to a 40% minority stake in MBE. Most centers are franchised.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AlphaGraphics",
+      "matchCategories": [
+        "print",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "PostNet",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "MBE Worldwide S.p.A. (Fiorelli family; Oaktree minority stake)",
+      "source": "https://www.mbeglobal.com/mbe-worldwide-acquires-postnet-international-franchise-corporation",
+      "sourceTitle": "MBE Worldwide — acquires PostNet",
+      "note": "PostNet print, pack, and ship centers are franchised; the franchisor belongs to MBE Worldwide.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=PostNet",
+      "matchCategories": [
+        "print",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Banfield Pet Hospital",
+      "aliases": [
+        "Banfield"
+      ],
+      "type": "corporate",
+      "parent": "Mars, Incorporated (Mars Veterinary Health)",
+      "source": "https://marsveterinary.com/who-we-are/our-companies/",
+      "sourceTitle": "Mars Veterinary Health — our companies",
+      "note": "Banfield has been part of Mars since 2007; many hospitals are inside PetSmart stores.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Banfield%20Pet%20Hospital",
+      "matchCategories": [
+        "pets"
+      ]
+    },
+    {
+      "brand": "VCA Animal Hospitals",
+      "aliases": [
+        "VCA",
+        "VCA Animal Hospital"
+      ],
+      "type": "corporate",
+      "parent": "Mars, Incorporated (Mars Veterinary Health)",
+      "source": "https://marsveterinary.com/who-we-are/our-companies/",
+      "sourceTitle": "Mars Veterinary Health — our companies",
+      "note": "Mars bought VCA in 2017 for about $9.1 billion; many VCA hospitals keep their original local names.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=VCA%20Animal%20Hospitals",
+      "matchCategories": [
+        "pets"
+      ]
+    },
+    {
+      "brand": "BluePearl Pet Hospital",
+      "aliases": [
+        "BluePearl",
+        "BluePearl Specialty and Emergency Pet Hospital"
+      ],
+      "type": "corporate",
+      "parent": "Mars, Incorporated (Mars Veterinary Health)",
+      "source": "https://marsveterinary.com/who-we-are/our-companies/",
+      "sourceTitle": "Mars Veterinary Health — our companies",
+      "note": "BluePearl specialty and emergency hospitals joined Mars in 2015.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=BluePearl",
+      "matchCategories": [
+        "pets"
+      ]
+    },
+    {
+      "brand": "Camp Bow Wow",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Camp Bow Wow · Propelled Brands",
+      "source": "https://chainstoreage.com/propelled-brands-acquires-growing-dog-daycare-grooming-chain",
+      "sourceTitle": "Chain Store Age — Propelled Brands acquires Camp Bow Wow (2024)",
+      "note": "Propelled Brands, backed by Freeman Spogli and LightBay Capital, bought the dog daycare and boarding franchise in 2024.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Camp%20Bow%20Wow",
+      "matchCategories": [
+        "pets"
+      ],
+      "localOperators": "franchise",
+      "sponsors": [
+        "Freeman Spogli & Co.",
+        "LightBay Capital"
+      ]
+    },
+    {
+      "brand": "uBreakiFix by Asurion",
+      "aliases": [
+        "uBreakiFix",
+        "Asurion Tech Repair & Solutions"
+      ],
+      "type": "corporate",
+      "parent": "Asurion, LLC (privately held)",
+      "source": "https://www.androidpolice.com/2019/08/27/asurion-acquires-ubreakifix-adding-phone-repairs-to-its-handset-insurance-business/",
+      "sourceTitle": "Android Police — Asurion acquires uBreakiFix (2019)",
+      "note": "Device-protection company Asurion owns the uBreakiFix repair chain; most stores are franchised.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=uBreakiFix",
+      "matchCategories": [
+        "repair",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "CPR Cell Phone Repair",
+      "aliases": [
+        "CPR - Cell Phone Repair"
+      ],
+      "type": "corporate",
+      "parent": "Assurant, Inc.",
+      "source": "https://www.ifixit.com/News/33660/assurant-buys-cpr-cell-phone-repair",
+      "sourceTitle": "iFixit — Assurant buys CPR Cell Phone Repair (2019)",
+      "note": "Assurant bought the CPR franchise system in 2019. The bare name \"CPR\" is not matched because CPR training businesses share it.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=CPR%20Cell%20Phone%20Repair",
+      "publicListing": {
+        "company": "Assurant, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "AIZ"
+          }
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001267238&type=10-K",
+        "sourceTitle": "SEC EDGAR — Assurant, Inc. annual reports",
+        "checked": "2026-10-29"
+      },
+      "matchCategories": [
+        "repair",
+        "other"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Tide Cleaners",
+      "aliases": [
+        "Tide Dry Cleaners"
+      ],
+      "type": "corporate",
+      "parent": "The Procter & Gamble Company",
+      "source": "https://1851franchise.com/tide-services/tide-cleaners-franchise-costs-fees-profit-data-2026-2732597",
+      "sourceTitle": "1851 Franchise — Tide Cleaners franchise (2026)",
+      "note": "A Procter & Gamble dry cleaning franchise; most stores are run by franchisees.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Tide%20Cleaners",
+      "publicListing": {
+        "company": "The Procter & Gamble Company",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "PG"
+          }
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K",
+        "sourceTitle": "SEC EDGAR — The Procter & Gamble Company annual reports",
+        "checked": "2026-10-29"
+      },
+      "matchCategories": [
+        "laundry"
+      ],
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Martinizing",
+      "aliases": [
+        "Martinizing Cleaners",
+        "Martinizing Dry Cleaning",
+        "One Hour Martinizing"
+      ],
+      "type": "corporate",
+      "parent": "Martinizing International, LLC (privately held franchisor)",
+      "source": "https://martinizing.com/terms-conditions",
+      "sourceTitle": "Martinizing — terms and conditions",
+      "note": "A dry cleaning franchise system; locations are run by local franchisees.",
+      "checked": "2026-10-29",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Martinizing%20Dry%20Cleaning",
+      "matchCategories": [
+        "laundry"
+      ],
+      "localOperators": "franchise"
+    },
+    {
       "brand": "BMO",
       "aliases": [
         "BMO Bank",

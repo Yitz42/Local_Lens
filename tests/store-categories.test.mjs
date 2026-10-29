@@ -145,3 +145,27 @@ test('kosher listings match certified places by name and location only',async()=
  for(const name of ['Glatt Grill','Shalom Bakery Cholov Yisroel','Mangal Grill Express Kosher STAR K'])assert.deepEqual(foodTypesFromTerms([],name),['kosher'],name);
  assert.ok(KOSHER_PLACES.every(entry=>entry.source.startsWith('https://')&&Number.isFinite(entry.lat)&&Number.isFinite(entry.lng)&&entry.address));
 });
+test('print & ship, laundry, pet care, and repair have their own categories',async()=>{
+ const {googleSearchGroups,CATEGORY_TEXT_SEARCHES,searchGooglePlaces}=await import('../public/google-places.js');
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'printing_service',...h('services_and_business','printing_service')}),'print');
+ assert.equal(categoryForOverture({basic_category:'shipping_center',...h('services_and_business','shipping_or_delivery_service','shipping_center')}),'print');
+ assert.equal(categoryForOverture({basic_category:'courier_and_delivery_service',...h('services_and_business','shipping_or_delivery_service','courier_and_delivery_service')}),null,'parcel lockers stay out');
+ assert.equal(categoryForOverture({basic_category:'dry_cleaning',...h('services_and_business','laundry_service','dry_cleaning')}),'laundry');
+ assert.equal(categoryForOverture({basic_category:'veterinarian',...h('lifestyle_services','animal_or_pet_service','veterinary_care','veterinarian')}),'pets');
+ assert.equal(categoryForOverture({basic_category:'pet_store',...h('shopping','specialty_store','animal_and_pet_store','pet_store')}),'other','pet stores stay in More stores');
+ assert.equal(categoryForOverture({basic_category:'mobile_phone_repair',...h('services_and_business','technical_service','it_service_and_computer_repair','mobile_phone_repair')}),'repair');
+ assert.equal(categoryForOverture({basic_category:'shoe_repair',...h('lifestyle_services','personal_or_beauty_service','shoe_repair')}),'repair');
+ assert.equal(categoryForOverture({basic_category:'it_consultant',...h('services_and_business','technical_service','it_service_and_computer_repair','it_consultant')}),null);
+ assert.equal(categoryForOverture({basic_category:'automotive_repair',...h('travel_and_transportation','vehicle_service','automotive_service','automotive_repair')}),'auto');
+ assert.equal(categoryFor({shop:'copyshop'}),'print');assert.equal(categoryFor({shop:'dry_cleaning'}),'laundry');assert.equal(categoryFor({amenity:'veterinary'}),'pets');assert.equal(categoryFor({craft:'tailor'}),'repair');
+ assert.equal(googleCategory(['laundry']),'laundry');assert.equal(googleCategory(['veterinary_care']),'pets');assert.equal(googleCategory(['post_office']),'print');
+ assert.deepEqual(googleSearchGroups('repair'),[]);assert.deepEqual(googleSearchGroups('laundry'),[['laundry']]);assert.equal(googleSearchGroups('all').length,5);
+ const calls=[];const raw=(id,name,types)=>({id,displayName:name,location:{lat:30.275,lng:-97.752},types,primaryType:types[0],businessStatus:'OPERATIONAL'});
+ const Place={searchNearby:async r=>{calls.push(['nearby',r.includedTypes]);return {places:[raw('n','Corner Post Office',['post_office'])]};},searchByText:async r=>{calls.push(['text',r.textQuery]);return {places:[raw('t','Ace Printing',['point_of_interest','store'])]};}};
+ const result=await searchGooglePlaces(Place,origin,3000,'print');
+ assert.deepEqual(calls,[['nearby',['courier_service','post_office']],['text',CATEGORY_TEXT_SEARCHES.print]]);
+ assert.deepEqual(result.places.map(place=>[place.name,place.category]).sort(),[['Ace Printing','print'],['Corner Post Office','print']]);
+ for(const [name,category,type] of [['FedEx Office Print & Ship Center','print','corporate'],['The UPS Store','print','corporate'],['Banfield Pet Hospital','pets','corporate'],['Camp Bow Wow','pets','pe'],['uBreakiFix by Asurion','repair','corporate'],['Tide Cleaners','laundry','corporate']])assert.equal(ownershipFor(p(name,category)).type,type,name);
+ assert.equal(ownershipFor(p('VCA','restaurant')).type,'unknown');assert.equal(ownershipFor(p('CPR Training Center','repair')).type,'unknown');
+});
