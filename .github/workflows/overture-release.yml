@@ -1,0 +1,59 @@
+name: Update Overture release
+
+# Overture deletes each monthly release about 60 days after publishing it, so the app must move forward before
+# its archive disappears. Every week this checks for a newer places archive; when there is one it switches the
+# app to it, checks that places still load and the tests pass, commits to main, and redeploys the site.
+on:
+  schedule:
+    - cron: '37 15 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: overture-release
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - id: release
+        run: node scripts/update-overture-release.mjs
+      - name: Check that places load from the new archive
+        if: steps.release.outputs.release
+        run: |
+          node --input-type=module -e "
+          const m=await import('./worker/overture.js');
+          const r=await m.lookupPlacesPage(39.29,-76.61,1609,0);
+          console.log(r.release, r.places.length, 'places in downtown Baltimore (page 1 of', r.totalPages + ')');
+          if(r.release!=='${{ steps.release.outputs.release }}'||r.places.length<100)process.exit(1);
+          "
+      - if: steps.release.outputs.release
+        run: npm test
+      - if: steps.release.outputs.release
+        run: npm run pages
+      - name: Commit to main
+        if: steps.release.outputs.release
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add worker/overture.js
+          git commit -m "Move to Overture release ${{ steps.release.outputs.release }}" -m "Automatic update from ${{ steps.release.outputs.previous }}; places load and tests pass."
+          git push origin HEAD:main
+      # Pushes made with the workflow token do not start other workflows, but a manual dispatch does.
+      - name: Redeploy the site
+        if: steps.release.outputs.release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
