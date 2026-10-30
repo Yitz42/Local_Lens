@@ -2649,7 +2649,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Nationwide Vision",
+          "parent": "EyeCare Partners · FFL Partners",
+          "type": "pe",
+          "source": "https://fflpartners.com/eyecare-partners-completes-acquisition-of-nationwide-vision",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Frontenac Company",
