@@ -480,6 +480,33 @@ Not added yet:
 - Frisch's, which changed hands again and has no confirmed current owner.
 - Nonprofit health systems.
 
+## Round 20: family-owned regional chains
+
+Regional coverage is up from 13.3% to **16.5%**. Each chain below was checked against trade press, local news, or the company's own history. Each gets a headquarters, so the *How local?* slider can count it as a local or regional company, and a home-region limit, so the name doesn't match unrelated businesses elsewhere.
+
+- **Convenience stores:**
+  - United Dairy Farmers (Lindner family), Mirabito, Byrne Dairy & Deli, and Crosby's (Reid Petroleum).
+  - Toot'n Totum (Mitchell family), Stinker Stores (Jones family), OnCue, and Plaid Pantry.
+  - Twice Daily, Sudden Service, Little General, and Maverick Quick Shop (Tri Star Energy, Nashville).
+  - Double Quick (Refuel, which bought it in 2020).
+  - Terrible's (Herbst family) and Big Apple (C.N. Brown).
+- **Restaurants:**
+  - Skyline Chili (Williams family, CEO Kevin McDonnell, and the Greater Cincinnati Foundation) and Gold Star Chili (Daoud family).
+  - Imo's Pizza (Imo family), Biscuitville (Jennings family), Eat'n Park (Broadhurst family), and Bill Miller Bar-B-Q (Miller family).
+  - Runza (Everett family), Filiberto's (Tenorio family and licensees), and Farmer Boys (Havadjias family).
+  - Barro's Pizza (Barro siblings) and Blake's Lotaburger (Rule family).
+  - Lou Malnati's (Malnati family, with an investment from Meritage Group).
+  - Cottage Inn Pizza (owned by Christina Narra since 2023).
+- **Other:**
+  - Belle Tire (Barnes family) and Brown Bear Car Wash (Odermat family).
+  - Bi-Mart, which is employee-owned and labeled corporate with an Oregon headquarters.
+- **Cooperatives:** MFA Oil and its Break Time stores, owned by farmer members, are labeled independent / co-op.
+- **Fixes:**
+  - Certified Oil (EG Group, TDR) now also matches its convenience store listings, not only fuel.
+  - Great Lakes Ace now matches Ace Hardware.
+
+Not added, because current ownership was unclear: Monical's, Bush's Chicken, Brake Check, Frisch's, and Taco Mayo.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

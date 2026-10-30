@@ -482,7 +482,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Ace Hardware",
     "aliases": [
-      "Ace Hardware Corporation"
+      "Ace Hardware Corporation",
+      "Great Lakes Ace"
     ],
     "type": "independent",
     "parent": "Independently owned member stores · Ace Hardware Corporation (retailer-owned cooperative)",
@@ -2170,6 +2171,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Barro's Pizza",
+    "aliases": [
+      "Barros Pizza"
+    ],
+    "type": "corporate",
+    "parent": "Barro's Pizza (Barro family, privately held)",
+    "source": "https://communityimpact.com/dallas-fort-worth/mckinney/dining/2022/11/17/family-owned-barros-pizza-starts-texas-journey-in-mckinney",
+    "sourceTitle": "Community Impact — family-owned Barro's Pizza",
+    "note": "Barro's Pizza is owned by the four Barro siblings.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -114.8,
+        "north": 37,
+        "east": -93.5
+      }
+    ],
+    "headquarters": {
+      "city": "Mesa",
+      "state": "AZ",
+      "lat": 33.42,
+      "lng": -111.83
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Bartell Drugs",
     "aliases": [
       "Bartell Drug",
@@ -2516,6 +2550,37 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Belle Tire",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Belle Tire (Barnes family, privately held)",
+    "source": "https://www.belletire.com/about-us",
+    "sourceTitle": "Belle Tire — about us",
+    "note": "The Barnes family has owned Belle Tire since 1984.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "auto"
+    ],
+    "matchBounds": [
+      {
+        "south": 38.4,
+        "west": -88.1,
+        "north": 46,
+        "east": -80.5
+      }
+    ],
+    "headquarters": {
+      "city": "Southfield",
+      "state": "MI",
+      "lat": 42.47,
+      "lng": -83.22
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Beltone",
     "aliases": [
       "Beltone Hearing Aid Center",
@@ -2760,6 +2825,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Bi-Mart",
+    "aliases": [
+      "Bi-Mart Membership Discount Stores"
+    ],
+    "type": "corporate",
+    "parent": "Bi-Mart Corporation (employee-owned)",
+    "source": "https://bimart.com/company",
+    "sourceTitle": "Bi-Mart — company",
+    "note": "Bi-Mart has been owned by its employees since 2004.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "general",
+      "pharmacy",
+      "home",
+      "other"
+    ],
+    "matchBounds": [
+      {
+        "south": 41.9,
+        "west": -124.8,
+        "north": 49,
+        "east": -111
+      }
+    ],
+    "headquarters": {
+      "city": "Eugene",
+      "state": "OR",
+      "lat": 44.05,
+      "lng": -123.09
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Big 5 Sporting Goods",
     "aliases": [
       "Big 5",
@@ -2777,6 +2878,42 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Big Apple",
+    "aliases": [
+      "Big Apple Store",
+      "Big Apple Food Stores",
+      "C.N. Brown"
+    ],
+    "type": "corporate",
+    "parent": "C.N. Brown Company (Brown and Jones families, privately held)",
+    "source": "https://cstoredecisions.com/2012/02/18/big-apple-plants-the-seeds-for-new-growth/",
+    "sourceTitle": "CStore Decisions — Big Apple and the families behind C.N. Brown",
+    "note": "C.N. Brown, owned by the Brown and Jones families of South Paris, Maine, runs the Big Apple stores.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 42.7,
+        "west": -73.5,
+        "north": 47.5,
+        "east": -66.9
+      }
+    ],
+    "headquarters": {
+      "city": "South Paris",
+      "state": "ME",
+      "lat": 44.22,
+      "lng": -70.51
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -2890,6 +3027,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Bill Miller Bar-B-Q",
+    "aliases": [
+      "Bill Miller BBQ",
+      "Bill Miller's Bar-B-Q"
+    ],
+    "type": "corporate",
+    "parent": "Bill Miller Bar-B-Q Enterprises (Miller family, privately held)",
+    "source": "https://kens5.com/article/news/bill-miller-bar-b-q-assures-customers-it-will-stay-family-owned/273-17d41a64-ef87-440c-b244-5db54e9011e7",
+    "sourceTitle": "KENS 5 — Bill Miller Bar-B-Q will stay family-owned",
+    "note": "Bill Miller Bar-B-Q has been family-owned and operated since 1953.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -106.7,
+        "north": 36.6,
+        "east": -93.5
+      }
+    ],
+    "headquarters": {
+      "city": "San Antonio",
+      "state": "TX",
+      "lat": 29.42,
+      "lng": -98.49
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Binny's Beverage Depot",
     "aliases": [
       "Binny's",
@@ -2947,6 +3118,40 @@ export const BRAND_DIRECTORY = [
     "categories": [
       "corporate",
       "pe"
+    ]
+  },
+  {
+    "brand": "Biscuitville",
+    "aliases": [
+      "Biscuitville Fresh Southern"
+    ],
+    "type": "corporate",
+    "parent": "Biscuitville (Jennings family, privately held)",
+    "source": "https://nsjonline.com/?p=57203",
+    "sourceTitle": "North State Journal — hometown favorite Biscuitville",
+    "note": "Biscuitville remains owned by the founding Jennings family, and every restaurant is company-owned.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "coffee"
+    ],
+    "matchBounds": [
+      {
+        "south": 33.8,
+        "west": -84.3,
+        "north": 39.5,
+        "east": -75.5
+      }
+    ],
+    "headquarters": {
+      "city": "Greensboro",
+      "state": "NC",
+      "lat": 36.07,
+      "lng": -79.79
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -3097,6 +3302,39 @@ export const BRAND_DIRECTORY = [
       "lat": 42.68,
       "lng": -89.02
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Blake's Lotaburger",
+    "aliases": [
+      "Lotaburger"
+    ],
+    "type": "corporate",
+    "parent": "Blake's Lotaburger (Rule family, privately held)",
+    "source": "https://magazine.foodchainmagazine.com/food-chain-issue-205-april-2025/0873554001745920522/p158",
+    "sourceTitle": "Food Chain Magazine — Blake's Lotaburger (April 2025)",
+    "note": "Ron Rule bought Blake's Lotaburger from founder Blake Chanslor in 2003, and it remains family-owned.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -109.1,
+        "north": 37,
+        "east": -103
+      }
+    ],
+    "headquarters": {
+      "city": "Albuquerque",
+      "state": "NM",
+      "lat": 35.08,
+      "lng": -106.65
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -3902,6 +4140,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Brown Bear Car Wash",
+    "aliases": [
+      "Brown Bear"
+    ],
+    "type": "corporate",
+    "parent": "Car Wash Enterprises (Odermat family, privately held)",
+    "source": "https://www.carwash.org/car-wash-news/brown-bear-car-wash-celebrating-its-64th-birthday",
+    "sourceTitle": "International Carwash Association — family-owned Brown Bear Car Wash",
+    "note": "Brown Bear is run by Seattle's family-owned Car Wash Enterprises, founded by Vic Odermat in 1957.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "carwash",
+      "auto",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 45.5,
+        "west": -124.8,
+        "north": 49,
+        "east": -116.9
+      }
+    ],
+    "headquarters": {
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.61,
+      "lng": -122.33
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Bruegger’s Bagels",
     "aliases": [
       "Bruegger's Bagels",
@@ -4268,6 +4541,41 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Byrne Dairy & Deli",
+    "aliases": [
+      "Byrne Dairy and Deli",
+      "Byrne Dairy"
+    ],
+    "type": "corporate",
+    "parent": "Byrne Dairy (Byrne family, privately held)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/byrne-dairy-co",
+    "sourceTitle": "CSP — Top 202 convenience stores: Byrne Dairy",
+    "note": "Byrne Dairy has been family-owned and operated since 1933.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 40.5,
+        "west": -79.8,
+        "north": 45,
+        "east": -71.8
+      }
+    ],
+    "headquarters": {
+      "city": "LaFayette",
+      "state": "NY",
+      "lat": 42.89,
+      "lng": -76.11
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -5459,7 +5767,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-26",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_gas_station_chains_in_North_America",
     "matchCategories": [
-      "gas"
+      "gas",
+      "grocery"
     ],
     "sponsors": [
       "TDR Capital"
@@ -7094,6 +7403,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Cottage Inn Pizza",
+    "aliases": [
+      "Cottage Inn"
+    ],
+    "type": "corporate",
+    "parent": "Cottage Inn Pizza (owned by Christina Narra since 2023)",
+    "source": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/with-new-owner-growth-back-on-the-menu-at-76-year-old-cottage-inn-pizza/article_4a860eb6-b299-11ef-baac-9718989317d7.html",
+    "sourceTitle": "Franchise Times — Cottage Inn Pizza's new owner",
+    "note": "Ann Arbor attorney Christina Narra bought the long family-owned Cottage Inn chain in 2023; restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 38.4,
+        "west": -88.1,
+        "north": 46,
+        "east": -80.5
+      }
+    ],
+    "headquarters": {
+      "city": "Ann Arbor",
+      "state": "MI",
+      "lat": 42.28,
+      "lng": -83.74
+    },
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "COUNTRY Financial",
     "aliases": [
       "Country Financial"
@@ -7299,6 +7642,40 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "apparel"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Crosby's",
+    "aliases": [
+      "Crosby's Food Mart"
+    ],
+    "type": "corporate",
+    "parent": "Reid Petroleum Group (Reid family)",
+    "source": "https://www.foodrepublic.com/2203676/east-coast-gas-station-chain-pizza-new-york-crosbys/",
+    "sourceTitle": "Food Republic — Crosby's, family-owned by Reid's descendants",
+    "note": "Crosby's is a division of the family-owned Reid Petroleum Group of Lockport, New York.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 39.7,
+        "west": -80.6,
+        "north": 45,
+        "east": -71.8
+      }
+    ],
+    "headquarters": {
+      "city": "Lockport",
+      "state": "NY",
+      "lat": 43.17,
+      "lng": -78.69
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8302,6 +8679,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Double Quick",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Refuel Operating Company (privately held)",
+    "source": "https://www.csnews.com/refuel-takes-ownership-double-quick-convenience-stores",
+    "sourceTitle": "CSNews — Refuel takes ownership of Double Quick",
+    "note": "Charleston-based Refuel bought the Double Quick chain from Gresham Petroleum in 2020.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 30.1,
+        "west": -94.7,
+        "north": 36.5,
+        "east": -84.9
+      }
+    ],
+    "headquarters": {
+      "city": "Charleston",
+      "state": "SC",
+      "lat": 32.78,
+      "lng": -79.93
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Drybar",
     "aliases": [
       "Drybar Blow Dry Bar"
@@ -8650,6 +9059,40 @@ export const BRAND_DIRECTORY = [
         "east": -69.9
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Eat'n Park",
+    "aliases": [
+      "Eat 'n Park",
+      "Eat n Park"
+    ],
+    "type": "corporate",
+    "parent": "Eat'n Park Hospitality Group (Broadhurst family, privately held)",
+    "source": "https://eatnpark.com/about-us",
+    "sourceTitle": "Eat'n Park — about us",
+    "note": "Eat'n Park is a family-owned Pittsburgh restaurant company led by the Broadhurst family.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 37.2,
+        "west": -84.8,
+        "north": 42.3,
+        "east": -74.7
+      }
+    ],
+    "headquarters": {
+      "city": "Homestead",
+      "state": "PA",
+      "lat": 40.4,
+      "lng": -79.91
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -9635,6 +10078,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Farmer Boys",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Farmer Boys Food, Inc. (Havadjias family, privately held)",
+    "source": "https://www.franchising.com/amp/news/20240426_farmer_boys_in_riverside_welcomes_new_ownership_with_founders_son.html",
+    "sourceTitle": "Franchising.com — Farmer Boys and the founding Havadjias family",
+    "note": "The Havadjias brothers founded Farmer Boys in 1981, and their families remain involved; most restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -124.5,
+        "north": 42,
+        "east": -109
+      }
+    ],
+    "headquarters": {
+      "city": "Riverside",
+      "state": "CA",
+      "lat": 33.95,
+      "lng": -117.4
+    },
+    "localOperators": "franchise",
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Farmers Insurance",
     "aliases": [
       "Farmers Insurance Group",
@@ -9964,6 +10439,41 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "bank"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Filiberto's",
+    "aliases": [
+      "Filiberto's Mexican Food",
+      "Filibertos"
+    ],
+    "type": "corporate",
+    "parent": "Filiberto's (Tenorio family and licensees)",
+    "source": "https://www.phoenixnewtimes.com/food-drink/6-phoenix-filibertos-locations-have-closed-heres-what-we-know-21889310/",
+    "sourceTitle": "Phoenix New Times — who owns Filiberto's",
+    "note": "Filiberto's restaurants are run by the founding Tenorio family's extended family, friends, and former employees under licensing deals.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -120,
+        "north": 37,
+        "east": -109
+      }
+    ],
+    "headquarters": {
+      "city": "Mesa",
+      "state": "AZ",
+      "lat": 33.42,
+      "lng": -111.83
+    },
+    "localOperators": "licensed",
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11992,6 +12502,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Gold Star Chili",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Gold Star Chili (Daoud family, privately held)",
+    "source": "https://local12.com/news/local/founder-of-gold-star-chili-passes-away-at-age-83",
+    "sourceTitle": "Local 12 — founder of Gold Star Chili, family business",
+    "note": "Four Daoud brothers founded Gold Star in 1965, and the family still owns it. Many restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.5,
+        "west": -88.1,
+        "north": 42,
+        "east": -80.5
+      }
+    ],
+    "headquarters": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1,
+      "lng": -84.51
+    },
+    "localOperators": "franchise",
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Gold's Gym",
     "aliases": [
       "Golds Gym"
@@ -13987,6 +14529,40 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Imo's Pizza",
+    "aliases": [
+      "Imo's"
+    ],
+    "type": "corporate",
+    "parent": "Imo's Pizza (Imo family, privately held)",
+    "source": "https://www.imospizza.com/our-history/",
+    "sourceTitle": "Imo's Pizza — our history",
+    "note": "Ed and Margie Imo's family still runs Imo's; many restaurants are independently owned franchises.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 35.9,
+        "west": -95.8,
+        "north": 42.5,
+        "east": -87.5
+      }
+    ],
+    "headquarters": {
+      "city": "St. Louis",
+      "state": "MO",
+      "lat": 38.63,
+      "lng": -90.2
+    },
+    "localOperators": "franchise",
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -16488,6 +17064,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Lou Malnati's",
+    "aliases": [
+      "Lou Malnati's Pizzeria"
+    ],
+    "type": "corporate",
+    "parent": "Lou Malnati's (Malnati family with Meritage Group investment)",
+    "source": "https://www.cbsnews.com/amp/chicago/news/lou-malnatis-sells-to-private-firm",
+    "sourceTitle": "CBS Chicago — Lou Malnati's sells stake to a private investment firm",
+    "note": "The Malnati family kept part ownership when San Francisco investment firm Meritage Group bought a stake.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.9,
+        "west": -91.5,
+        "north": 43.5,
+        "east": -86
+      }
+    ],
+    "headquarters": {
+      "city": "Northbrook",
+      "state": "IL",
+      "lat": 42.13,
+      "lng": -87.83
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Love’s Travel Stops",
     "aliases": [
       "Love's Travel Stop",
@@ -17901,6 +18510,36 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "MFA Oil",
+    "aliases": [
+      "Break Time",
+      "MFA Oil Petro-Card 24"
+    ],
+    "type": "independent",
+    "parent": "MFA Oil Company (farmer-owned cooperative)",
+    "source": "https://ncfc.org/members/mfa-oil-company",
+    "sourceTitle": "National Council of Farmer Cooperatives — MFA Oil",
+    "note": "MFA Oil, owner of the Break Time stores, is a cooperative owned by more than 40,000 farmer members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "matchBounds": [
+      {
+        "south": 33,
+        "west": -96,
+        "north": 41,
+        "east": -88
+      }
+    ],
+    "localOperators": "cooperative",
+    "matchNamePrefix": true,
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Mi Tienda",
     "aliases": [],
     "type": "corporate",
@@ -18206,6 +18845,42 @@ export const BRAND_DIRECTORY = [
       "other"
     ],
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Mirabito",
+    "aliases": [
+      "Mirabito Quickway",
+      "Quickway Food Stores",
+      "Convenience Express"
+    ],
+    "type": "corporate",
+    "parent": "Mirabito Holdings (family-owned)",
+    "source": "https://www.mirabito.com/why-mirabito/history/",
+    "sourceTitle": "Mirabito — our history",
+    "note": "Mirabito is a family-owned energy and convenience company based in Binghamton, New York.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 39.7,
+        "west": -80.6,
+        "north": 45,
+        "east": -71.8
+      }
+    ],
+    "headquarters": {
+      "city": "Binghamton",
+      "state": "NY",
+      "lat": 42.1,
+      "lng": -75.91
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -19676,6 +20351,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "OnCue",
+    "aliases": [
+      "OnCue Express"
+    ],
+    "type": "corporate",
+    "parent": "OnCue Marketing (family-owned)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2025/oncue-marketing-llc",
+    "sourceTitle": "CSP — Top 202 convenience stores: OnCue",
+    "note": "OnCue is a family-owned Oklahoma convenience chain.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -106.7,
+        "north": 37,
+        "east": -94.4
+      }
+    ],
+    "headquarters": {
+      "city": "Stillwater",
+      "state": "OK",
+      "lat": 36.12,
+      "lng": -97.06
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "One Hour Heating & Air Conditioning",
     "aliases": [
       "One Hour Heating and Air Conditioning",
@@ -20864,6 +21573,38 @@ export const BRAND_DIRECTORY = [
     "note": "The privately held family group identifies PJ’s Coffee as a substantial franchised brand and records its acquisition in the company history. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Plaid Pantry",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Plaid Pantries, Inc. (privately held)",
+    "source": "https://www.plaidpantry.com/company/",
+    "sourceTitle": "Plaid Pantry — company",
+    "note": "Plaid Pantry is a locally owned and operated convenience chain in the Portland area.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 41.9,
+        "west": -124.8,
+        "north": 49,
+        "east": -111
+      }
+    ],
+    "headquarters": {
+      "city": "Beaverton",
+      "state": "OR",
+      "lat": 45.49,
+      "lng": -122.8
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -23210,6 +23951,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Runza",
+    "aliases": [
+      "Runza Restaurant",
+      "Runza Restaurants"
+    ],
+    "type": "corporate",
+    "parent": "Runza (Everett family, privately held)",
+    "source": "https://runza.com/about/history",
+    "sourceTitle": "Runza — our history",
+    "note": "The Everett family still owns Runza; some restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.9,
+        "west": -105.1,
+        "north": 43.1,
+        "east": -89.9
+      }
+    ],
+    "headquarters": {
+      "city": "Lincoln",
+      "state": "NE",
+      "lat": 40.81,
+      "lng": -96.7
+    },
+    "localOperators": "franchise",
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Rural King",
     "aliases": [
       "Rural King Supply"
@@ -24654,6 +25430,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Skyline Chili",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Skyline Chili (Williams family, Kevin McDonnell, and the Greater Cincinnati Foundation)",
+    "source": "https://www.local12.com/news/local/skyline-chili-purchase-agreement-keeps-restaurant-chain-locally-owned-cincinnati",
+    "sourceTitle": "Local 12 — Skyline Chili purchase keeps the chain locally owned",
+    "note": "A purchase kept Skyline Chili locally owned and privately held, by the Williams family, CEO Kevin McDonnell, and the Greater Cincinnati Foundation. Many restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.5,
+        "west": -88.1,
+        "north": 42,
+        "east": -80.5
+      }
+    ],
+    "headquarters": {
+      "city": "Fairfield",
+      "state": "OH",
+      "lat": 39.35,
+      "lng": -84.56
+    },
+    "localOperators": "franchise",
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Sleep Number",
     "aliases": [],
     "type": "corporate",
@@ -25514,6 +26322,40 @@ export const BRAND_DIRECTORY = [
       "lat": 43.08,
       "lng": -73.78
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Stinker Stores",
+    "aliases": [
+      "Stinker"
+    ],
+    "type": "corporate",
+    "parent": "Stinker Stores (Jones family, privately held)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2026/stinker-stores-inc",
+    "sourceTitle": "CSP — Top 202 convenience stores: Stinker Stores",
+    "note": "Stinker Stores is wholly owned by the Jones family of Boise.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 37,
+        "west": -117.3,
+        "north": 49,
+        "east": -102
+      }
+    ],
+    "headquarters": {
+      "city": "Boise",
+      "state": "ID",
+      "lat": 43.62,
+      "lng": -116.2
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -26586,6 +27428,43 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "homeservices"
     ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Terrible's",
+    "aliases": [
+      "Terrible Herbst",
+      "Terrible's Car Wash"
+    ],
+    "type": "corporate",
+    "parent": "Terrible Herbst, Inc. (Herbst family, privately held)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2025/terribles",
+    "sourceTitle": "CSP — Top 202 convenience stores: Terrible's",
+    "note": "The Herbst family founded Terrible's in Las Vegas in 1959 and still runs its stores and car washes.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas",
+      "carwash",
+      "auto"
+    ],
+    "matchBounds": [
+      {
+        "south": 32.5,
+        "west": -124.5,
+        "north": 42,
+        "east": -109
+      }
+    ],
+    "headquarters": {
+      "city": "Las Vegas",
+      "state": "NV",
+      "lat": 36.17,
+      "lng": -115.14
+    },
     "matchNamePrefix": true,
     "categories": [
       "corporate"
@@ -27708,6 +28587,43 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Toot'n Totum",
+    "aliases": [
+      "Toot n Totum",
+      "Toot'n Totum Food Stores"
+    ],
+    "type": "corporate",
+    "parent": "Toot'n Totum Food Stores (Mitchell family, privately held)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2021/tootn-totum-food-stores",
+    "sourceTitle": "CSP — Top 202 convenience stores: Toot'n Totum",
+    "note": "The Mitchell family founded Toot'n Totum in Amarillo in 1950 and still runs it.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas",
+      "carwash",
+      "auto"
+    ],
+    "matchBounds": [
+      {
+        "south": 31,
+        "west": -109.1,
+        "north": 40,
+        "east": -94.4
+      }
+    ],
+    "headquarters": {
+      "city": "Amarillo",
+      "state": "TX",
+      "lat": 35.22,
+      "lng": -101.83
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Topgolf",
     "aliases": [
       "Topgolf Swing Suite"
@@ -28246,6 +29162,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Twice Daily",
+    "aliases": [
+      "Sudden Service",
+      "Little General",
+      "Maverick Quick Shop"
+    ],
+    "type": "corporate",
+    "parent": "Tri Star Energy (Kimbro Oil and The Parman Corporation)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2017/tri-star-energy-llc",
+    "sourceTitle": "CSP — Tri Star Energy (Twice Daily, Sudden Service)",
+    "note": "Twice Daily, Sudden Service, and Tri Star's other stores belong to Nashville-based Tri Star Energy, a partnership of two Tennessee family companies.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 30.2,
+        "west": -90.3,
+        "north": 39.2,
+        "east": -81.6
+      }
+    ],
+    "headquarters": {
+      "city": "Nashville",
+      "state": "TN",
+      "lat": 36.16,
+      "lng": -86.78
+    },
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Twin Liquors",
     "aliases": [],
     "type": "corporate",
@@ -28544,6 +29496,41 @@ export const BRAND_DIRECTORY = [
     "note": "Uniqlo is Fast Retailing's main brand and is expanding its US store network in 2026.",
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Uniqlo",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "United Dairy Farmers",
+    "aliases": [
+      "UDF"
+    ],
+    "type": "corporate",
+    "parent": "United Dairy Farmers (Lindner family, privately held)",
+    "source": "https://www.udfinc.com/about-us/",
+    "sourceTitle": "United Dairy Farmers — about us",
+    "note": "The Lindner family has owned United Dairy Farmers since founding it in 1938.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas",
+      "coffee"
+    ],
+    "matchBounds": [
+      {
+        "south": 36.5,
+        "west": -88.1,
+        "north": 42,
+        "east": -80.5
+      }
+    ],
+    "headquarters": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1,
+      "lng": -84.51
+    },
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]

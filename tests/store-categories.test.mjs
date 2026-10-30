@@ -389,3 +389,11 @@ test('regional scan: state banks, credit unions with state limits, and merged na
  assert.equal(at('Five Star Bank','bank',38.58,-121.49).type,'unknown','a different Five Star Bank in California');
  assert.equal(at('Independent Bank','bank',42.73,-84.55).type,'unknown','Michigan\'s Independent Bank is a different company');
 });
+test('family-owned regional chains carry a headquarters and stay in their region',()=>{
+ const at=(name,category,lat,lng)=>ownershipFor({id:name,name,category,lat,lng});
+ for(const [name,category,lat,lng,brand] of [['United Dairy Farmers','grocery',39.1,-84.5,'United Dairy Farmers'],['Skyline Chili','restaurant',39.1,-84.5,'Skyline Chili'],['Runza Restaurant','restaurant',40.8,-96.7,'Runza'],['Bill Miller Bar-B-Q','restaurant',29.4,-98.5,'Bill Miller Bar-B-Q'],['Mirabito','grocery',42.1,-75.9,'Mirabito'],['Brown Bear Car Wash','carwash',47.6,-122.3,'Brown Bear Car Wash']]){const o=at(name,category,lat,lng);assert.equal(o.brand,brand,name);assert.ok(o.headquarters,name);}
+ assert.equal(at('Break Time','grocery',38.95,-92.33).type,'independent','MFA Oil is a farmer-owned cooperative');
+ assert.equal(at('Runza','restaurant',39.29,-76.61).type,'unknown','regional names stay in their region');
+ assert.equal(at('Certified Oil','grocery',39.96,-83.0).type,'pe');
+ assert.equal(at('Great Lakes Ace','home',42.33,-83.05).brand,'Ace Hardware');
+});
