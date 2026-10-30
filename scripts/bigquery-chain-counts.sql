@@ -6,7 +6,7 @@ WITH us_places AS (
   SELECT
     names.primary AS name,
     TRIM(REGEXP_REPLACE(LOWER(names.primary), r'[^a-z0-9]+', ' ')) AS name_key,
-    categories.primary AS category,
+    basic_category AS category,
     brand.names.primary AS brand,
     addresses.list[SAFE_OFFSET(0)].element.region AS region
   FROM `bigquery-public-data.overture_maps.place`
