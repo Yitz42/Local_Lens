@@ -1,6 +1,6 @@
-import {BRAND_DIRECTORY} from './brand-directory.js?v=20261030-googlemore1';
-import {ownershipCategories} from './ownership-categories.js?v=20261030-googlemore1';
-import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261030-googlemore1';
+import {BRAND_DIRECTORY} from './brand-directory.js?v=20261030-autoload1';
+import {ownershipCategories} from './ownership-categories.js?v=20261030-autoload1';
+import {inUSCoverage,matchesBrandScope,matchesBrandCategory} from './brand-scope.js?v=20261030-autoload1';
 
 export const NAME_FILTERS_KEY='local-lens-name-filters-v1';
 export const MAX_HIDDEN_NAMES=100;
