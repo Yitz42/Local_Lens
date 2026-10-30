@@ -1303,7 +1303,9 @@
     },
     {
       "brand": "Bonanza Steakhouse",
-      "aliases": [],
+      "aliases": [
+        "Bonanza"
+      ],
       "type": "corporate",
       "parent": "OHG Brands · FBG Bid Co. LLC",
       "source": "https://ohgbrands.com/",
@@ -1317,7 +1319,10 @@
           "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
         }
       ],
-      "localOperators": "franchise"
+      "localOperators": "franchise",
+      "matchCategories": [
+        "restaurant"
+      ]
     },
     {
       "brand": "Bonefish Grill",
@@ -1709,7 +1714,8 @@
       "brand": "Caliber Collision",
       "aliases": [
         "Caliber Collision Centers",
-        "Caliber Auto Care"
+        "Caliber Auto Care",
+        "Caliber"
       ],
       "type": "pe",
       "parent": "Leonard Green & Partners portfolio investment",
@@ -1719,6 +1725,10 @@
       "checked": "2026-10-15",
       "sponsors": [
         "Leonard Green & Partners"
+      ],
+      "matchCategories": [
+        "auto",
+        "carwash"
       ]
     },
     {
@@ -4611,7 +4621,8 @@
     {
       "brand": "GIANT",
       "aliases": [
-        "The GIANT Company"
+        "The GIANT Company",
+        "Giant Food Stores"
       ],
       "type": "corporate",
       "parent": "Ahold Delhaize",
@@ -5285,7 +5296,8 @@
       "brand": "Holiday Stationstores",
       "aliases": [
         "Holiday Stationstore",
-        "Holiday Station Stores"
+        "Holiday Station Stores",
+        "Holiday Station"
       ],
       "type": "corporate",
       "parent": "Alimentation Couche-Tard Inc.",
@@ -8188,7 +8200,8 @@
     {
       "brand": "Phillips 66",
       "aliases": [
-        "Phillips66"
+        "Phillips66",
+        "Phillips"
       ],
       "type": "corporate",
       "parent": "Phillips 66",
@@ -9394,7 +9407,8 @@
       "brand": "Sam’s Club",
       "aliases": [
         "Sam's Club",
-        "Sam's Club Optical Center"
+        "Sam's Club Optical Center",
+        "Sam's Club Optical"
       ],
       "type": "corporate",
       "parent": "Walmart Inc.",
@@ -10304,7 +10318,8 @@
       "aliases": [
         "Stewart's Shops",
         "Stewart's Shop",
-        "Stewarts Shops"
+        "Stewarts Shops",
+        "Stewart's"
       ],
       "type": "corporate",
       "parent": "Stewart’s Shops · family and employee ownership",
@@ -10323,7 +10338,15 @@
         "state": "NY",
         "lat": 43.08,
         "lng": -73.78
-      }
+      },
+      "matchBounds": [
+        {
+          "south": 41.0,
+          "west": -76.6,
+          "north": 45.1,
+          "east": -71.4
+        }
+      ]
     },
     {
       "brand": "Stoney River Steakhouse and Grill",
@@ -13189,7 +13212,8 @@
       "aliases": [
         "BJ's Restaurant and Brewhouse",
         "BJ's Brewhouse",
-        "BJ's Restaurants"
+        "BJ's Restaurants",
+        "BJ's"
       ],
       "type": "corporate",
       "parent": "BJ's Restaurants, Inc.",
@@ -15317,7 +15341,8 @@
       "checked": "2026-10-27",
       "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Ashley%20HomeStore",
       "matchCategories": [
-        "other"
+        "other",
+        "home"
       ],
       "localOperators": "dealer"
     },
@@ -19277,7 +19302,8 @@
         "Tribute Portfolio",
         "City Express by Marriott",
         "StudioRes",
-        "Four Points Flex"
+        "Four Points Flex",
+        "Fairfield"
       ],
       "type": "corporate",
       "parent": "Marriott International, Inc.",
@@ -20639,7 +20665,8 @@
         "Extended Stay America Select Suites",
         "Extended Stay America Premier Suites",
         "ESA Suites",
-        "Extended Stay Hotels"
+        "Extended Stay Hotels",
+        "Extended Stay"
       ],
       "type": "pe",
       "parent": "Extended Stay America · Blackstone & Starwood Capital",
@@ -26854,7 +26881,9 @@
     },
     {
       "brand": "Gold Star Chili",
-      "aliases": [],
+      "aliases": [
+        "Gold Star"
+      ],
       "type": "corporate",
       "parent": "Gold Star Chili (Daoud family, privately held)",
       "source": "https://local12.com/news/local/founder-of-gold-star-chili-passes-away-at-age-83",

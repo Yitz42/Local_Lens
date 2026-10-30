@@ -410,3 +410,9 @@ test('Sprouts matches its short name only as a grocery and is listed as publicly
  for(const [name,category] of [['Sprouts','restaurant'],['Sprouts Learning Center','childcare']])assert.equal(ownershipFor({name,category,lat:39.27,lng:-76.57}).type,'unknown',name);
  assert.equal(sprouts.publicListing?.exchanges?.[0]?.ticker,'SFM');
 });
+
+test('short listing names match their brands only in the right category or region',()=>{
+ const at=(name,category,lat=40,lng=-75)=>ownershipFor({name,category,lat,lng});
+ for(const [name,category,brand,lat,lng] of [['Giant Food Stores','grocery','GIANT',40.27,-76.88],['Fairfield','hotel','Marriott'],['Holiday Station','gas','Holiday Stationstores'],['Ashley Furniture','home','Ashley HomeStore'],['Phillips','gas','Phillips 66'],["Stewart's",'gas','Stewart’s Shops',43.08,-73.78],['Caliber','auto','Caliber Collision'],["BJ's",'restaurant',"BJ's Restaurant & Brewhouse"],['Bonanza','restaurant','Bonanza Steakhouse'],['Extended Stay','hotel','Extended Stay America']])assert.equal(at(name,category,lat,lng).brand,brand,name);
+ for(const [name,category,lat,lng] of [['Fairfield','restaurant'],['Compass','fitness'],['Caliber','restaurant'],['Bonanza','other'],["Stewart's",'gas',30.3,-97.7]])assert.equal(at(name,category,lat,lng).type,'unknown',name+' in '+category);
+});

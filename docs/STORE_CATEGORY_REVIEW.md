@@ -547,6 +547,18 @@ Regional coverage is up from 17.8% to **18.5%**.
 
 Not added, because current ownership was unclear: Pluckers, Smithfield's Chicken 'N Bar-B-Q, Clean Rite, CD One Price, East of Chicago, and R-store. Al's Formal Wear closed in 2023.
 
+## Short listing names
+
+Prompted by a Google listing named just "sprouts" that showed as unknown. Listings often drop the end of a brand name ("Giant Food Stores", "Fairfield", "BJ's"). A scan of Overture's US names found short forms that share a website domain with a researched brand. They are now aliases, each kept to the brand's own categories or region:
+
+- Sprouts → Sprouts Farmers Market (groceries only; the record now notes its Nasdaq listing, SFM).
+- Giant Food Stores → GIANT; Fairfield → Marriott (hotels); Extended Stay → Extended Stay America.
+- Holiday Station → Holiday Stationstores; Phillips → Phillips 66 (gas and convenience); Stewart's → Stewart's Shops (upstate New York and Vermont only).
+- Gold Star → Gold Star Chili; BJ's → BJ's Restaurant & Brewhouse (restaurants and bars); Bonanza → Bonanza Steakhouse (restaurants).
+- Caliber → Caliber Collision (auto and car wash); Sam's Club Optical → Sam's Club. Ashley HomeStore listings in the home category now match.
+
+Left out on purpose: bare "Ashley" and "Compass" (local businesses and other companies share them), "Red Wing", "Pink", "Kangaroo", "Kwik", and "The Coffee Bean".
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
