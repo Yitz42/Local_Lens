@@ -16,23 +16,29 @@ WITH us_places AS (
   WHERE addresses.list[SAFE_OFFSET(0)].element.country = 'US'
     AND names.primary IS NOT NULL
     AND confidence >= 0.5
+),
+agg AS (
+  SELECT
+    name_key,
+    APPROX_TOP_COUNT(name, 1)[OFFSET(0)].value AS example_name,
+    COUNT(*) AS locations,
+    COUNT(DISTINCT region) AS states,
+    APPROX_TOP_COUNT(region, 5) AS top_regions,
+    ROUND(AVG(lat), 2) AS center_lat,
+    ROUND(AVG(lng), 2) AS center_lng,
+    ROUND(MIN(lat), 2) AS min_lat, ROUND(MAX(lat), 2) AS max_lat,
+    ROUND(MIN(lng), 2) AS min_lng, ROUND(MAX(lng), 2) AS max_lng,
+    APPROX_TOP_COUNT(category, 1)[OFFSET(0)].value AS top_category,
+    APPROX_TOP_COUNT(brand, 1)[OFFSET(0)].value AS top_brand,
+    APPROX_TOP_COUNT(domain, 1)[OFFSET(0)].value AS top_domain
+  FROM us_places
+  WHERE name_key != ''
+  GROUP BY name_key
+  HAVING locations >= 5
 )
 SELECT
-  name_key,
-  APPROX_TOP_COUNT(name, 1)[OFFSET(0)].value AS example_name,
-  COUNT(*) AS locations,
-  COUNT(DISTINCT region) AS states,
-  ARRAY_TO_STRING(ARRAY(SELECT CONCAT(t.value, ':', CAST(t.count AS STRING)) FROM UNNEST(APPROX_TOP_COUNT(region, 5)) t WHERE t.value IS NOT NULL), ' ') AS top_states,
-  ROUND(AVG(lat), 2) AS center_lat,
-  ROUND(AVG(lng), 2) AS center_lng,
-  ROUND(MIN(lat), 2) AS min_lat, ROUND(MAX(lat), 2) AS max_lat,
-  ROUND(MIN(lng), 2) AS min_lng, ROUND(MAX(lng), 2) AS max_lng,
-  APPROX_TOP_COUNT(category, 1)[OFFSET(0)].value AS top_category,
-  APPROX_TOP_COUNT(brand, 1)[OFFSET(0)].value AS top_brand,
-  APPROX_TOP_COUNT(domain, 1)[OFFSET(0)].value AS top_domain
-FROM us_places
-WHERE name_key != ''
-GROUP BY name_key
-HAVING locations >= 5
+  * EXCEPT (top_regions),
+  ARRAY_TO_STRING(ARRAY(SELECT CONCAT(t.value, ':', CAST(t.count AS STRING)) FROM UNNEST(top_regions) t WHERE t.value IS NOT NULL), ' ') AS top_states
+FROM agg
 ORDER BY locations DESC
 LIMIT 60000;
