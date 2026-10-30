@@ -40,6 +40,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "1-800 WATER DAMAGE",
+    "aliases": [
+      "1-800 Water Damage"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "1-800 WATER DAMAGE belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "168 Market",
     "aliases": [
       "168 Markets"
@@ -525,6 +548,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "ADT",
+    "aliases": [
+      "ADT Security Services",
+      "ADT Solutions"
+    ],
+    "type": "corporate",
+    "parent": "ADT Inc.",
+    "source": "https://investor.adt.com/",
+    "sourceTitle": "ADT — investor relations",
+    "note": "ADT is listed on the NYSE (ADT). Some ADT-branded installers are independent authorized dealers.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Advance Auto Parts",
     "aliases": [],
     "type": "corporate",
@@ -567,6 +611,29 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Aire Serv",
+    "aliases": [
+      "Aire Serv Heating & Air Conditioning"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Aire Serv is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -903,6 +970,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "America's Swimming Pool Company",
+    "aliases": [
+      "ASP - America's Swimming Pool Company",
+      "ASP Pool Company"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "America's Swimming Pool Company belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "American Eagle",
     "aliases": [
       "American Eagle Outfitters",
@@ -1133,6 +1224,31 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "ARS/Rescue Rooter",
+    "aliases": [
+      "ARS Rescue Rooter",
+      "Rescue Rooter",
+      "American Residential Services"
+    ],
+    "type": "pe",
+    "parent": "American Residential Services · GI Partners (majority) and Charlesbank",
+    "source": "https://www.privsource.com/acquisitions/deal/8WSWm4",
+    "sourceTitle": "PrivSource — GI Partners acquires majority stake in ARS; Charlesbank reinvests (2020)",
+    "note": "GI Partners became majority owner of ARS in 2020, with Charlesbank Capital Partners and management staying invested. ARS also runs many local companies under their own names.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "GI Partners",
+      "Charlesbank Capital Partners"
+    ],
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -2010,6 +2126,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "BELFOR Property Restoration",
+    "aliases": [
+      "BELFOR"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "BELFOR has been owned by American Securities since 2019.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Belk",
     "aliases": [
       "Belk Outlet"
@@ -2127,6 +2265,27 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Benjamin Franklin Plumbing",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Benjamin Franklin Plumbing belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -3863,6 +4022,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "California Closets",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "California Closets is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "California Pizza Kitchen",
     "aliases": [
       "CPK"
@@ -4690,6 +4867,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CertaPro Painters",
+    "aliases": [
+      "Certapro Painters"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "CertaPro Painters is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Certified Oil",
     "aliases": [
       "Certified"
@@ -4891,6 +5088,30 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Chem-Dry",
+    "aliases": [
+      "Chem-Dry Carpet & Upholstery Cleaning",
+      "Chem Dry"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "Chem-Dry belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -5812,6 +6033,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Color World Housepainting",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Color World Housepainting belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -7212,6 +7454,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "DoodyCalls",
+    "aliases": [
+      "DoodyCalls Pet Waste Removal"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "DoodyCalls belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "pets"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Drybar",
     "aliases": [
       "Drybar Blow Dry Bar"
@@ -7225,6 +7491,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "matchCategories": [
       "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Dryer Vent Wizard",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Dryer Vent Wizard is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
     ],
     "matchNamePrefix": true,
     "categories": [
@@ -7310,6 +7597,27 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Sycamore Partners"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "DUCTZ",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "DUCTZ belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -9016,6 +9324,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Five Star Painting",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Five Star Painting is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Flagstar Bank",
     "aliases": [
       "Flagstar"
@@ -9136,6 +9465,24 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Floor & Decor Holdings — 2025 Form 10-K",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Floor Coverings International",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Floor Coverings International is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -10208,6 +10555,28 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Glass Doctor",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Glass Doctor is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -11543,6 +11912,44 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "HomeTeam Pest Defense",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Rollins, Inc.",
+    "source": "https://www.rollins.com/investor-relations",
+    "sourceTitle": "Rollins — investor relations",
+    "note": "HomeTeam Pest Defense belongs to Rollins, listed on the NYSE (ROL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Homewatch CareGivers",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Homewatch CareGivers belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Honda",
     "aliases": [
       "American Honda Motor Co"
@@ -11560,6 +11967,27 @@ export const BRAND_DIRECTORY = [
     "matchNameAnywhere": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "HOODZ",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "HOODZ belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -15919,6 +16347,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mister Sparky",
+    "aliases": [
+      "Mister Sparky Electric"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Mister Sparky belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Mitsuwa Marketplace",
     "aliases": [
       "Mitsuwa"
@@ -15982,6 +16433,27 @@ export const BRAND_DIRECTORY = [
       "Roark"
     ],
     "localOperators": "franchise",
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Molly Maid",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Molly Maid is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -16051,6 +16523,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Monster Tree Service",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Monster Tree Service belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Montessori Unlimited",
     "aliases": [],
     "type": "pe",
@@ -16107,6 +16600,48 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mosquito Joe",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mosquito Joe is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mosquito Squad",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Mosquito Squad belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Motel 6",
     "aliases": [
       "Studio 6"
@@ -16153,6 +16688,99 @@ export const BRAND_DIRECTORY = [
     "localOperators": "memberowned",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "Mr. Appliance",
+    "aliases": [
+      "Mr Appliance"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Appliance is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Electric",
+    "aliases": [
+      "Mr Electric"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Electric is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Handyman",
+    "aliases": [
+      "Mr Handyman"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Handyman is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Rooter Plumbing",
+    "aliases": [
+      "Mr. Rooter",
+      "Mr Rooter Plumbing"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Rooter Plumbing is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -16245,6 +16873,29 @@ export const BRAND_DIRECTORY = [
       "Goldman Sachs Alternatives",
       "Charlesbank Capital Partners"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "N-Hance Wood Refinishing",
+    "aliases": [
+      "N-Hance"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "N-Hance Wood Refinishing belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -16980,6 +17631,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "One Hour Heating & Air Conditioning",
+    "aliases": [
+      "One Hour Heating and Air Conditioning",
+      "One Hour Air Conditioning & Heating",
+      "One Hour Heating & Air"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "One Hour Heating & Air Conditioning belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "One Medical",
     "aliases": [
       "Amazon One Medical"
@@ -17122,6 +17798,26 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Orkin",
+    "aliases": [
+      "Orkin Pest Control"
+    ],
+    "type": "corporate",
+    "parent": "Rollins, Inc.",
+    "source": "https://www.rollins.com/investor-relations",
+    "sourceTitle": "Rollins — investor relations",
+    "note": "Orkin belongs to Rollins, listed on the NYSE (ROL). Some locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -17466,6 +18162,26 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Paul Davis Restoration",
+    "aliases": [
+      "Paul Davis Emergency Services"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Paul Davis Restoration is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -17905,6 +18621,26 @@ export const BRAND_DIRECTORY = [
     "localOperators": "licensed",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "Pillar To Post Home Inspectors",
+    "aliases": [
+      "Pillar To Post"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Pillar To Post Home Inspectors is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -18429,6 +19165,29 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Precision Garage Door Service",
+    "aliases": [
+      "Precision Door Service"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Precision Garage Door Service is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -19088,6 +19847,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Rainbow Restoration",
+    "aliases": [
+      "Rainbow International Restoration"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Rainbow Restoration is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Rainforest Cafe",
     "aliases": [
       "Rainforest Café"
@@ -19328,6 +20110,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Real Property Management",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Real Property Management is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -19989,6 +20792,27 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Roto-Rooter",
+    "aliases": [
+      "Roto-Rooter Plumbing & Water Cleanup",
+      "Roto Rooter"
+    ],
+    "type": "corporate",
+    "parent": "Chemed Corporation",
+    "source": "https://ir.chemed.com/",
+    "sourceTitle": "Chemed — investor relations",
+    "note": "Roto-Rooter belongs to Chemed, listed on the NYSE (CHE). Some locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -20878,6 +21702,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SERVPRO",
+    "aliases": [
+      "Servpro"
+    ],
+    "type": "pe",
+    "parent": "SERVPRO · Blackstone (majority) and the Isaacson family",
+    "source": "https://www.blackstone.com/news/press/servpro-leading-franchisor-of-residential-and-commercial-property-damage-restoration-services-announces-recapitalization-and-long-term-partnership-with-blackstone/",
+    "sourceTitle": "Blackstone — SERVPRO recapitalization and partnership (2019)",
+    "note": "Blackstone's long-term private equity funds bought control of SERVPRO in 2019; the founding family kept a significant stake. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Shake Shack",
     "aliases": [],
     "type": "corporate",
@@ -20922,6 +21769,28 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "ShelfGenie",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "ShelfGenie is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "home"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -23248,6 +24117,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Terminix",
+    "aliases": [
+      "Terminix Pest Control",
+      "Terminix Termite & Pest Control"
+    ],
+    "type": "corporate",
+    "parent": "Rentokil Initial plc",
+    "source": "https://www.rentokil-initial.com/investors",
+    "sourceTitle": "Rentokil Initial — investors",
+    "note": "Rentokil, listed in London and New York (RTO), bought Terminix in 2022.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tesla",
     "aliases": [
       "Tesla Showroom",
@@ -23444,6 +24333,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Cleaning Authority",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "The Cleaning Authority belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "The Coffee Bean & Tea Leaf",
     "aliases": [
       "Coffee Bean & Tea Leaf",
@@ -23590,6 +24500,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Grounds Guys",
+    "aliases": [
+      "Grounds Guys"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "The Grounds Guys is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "The Home Depot",
     "aliases": [
       "Home Depot",
@@ -23729,6 +24662,27 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "The Patch Boys",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "The Patch Boys belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -26343,6 +27297,27 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Window Genie",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Window Genie is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {

@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='carwash-lab-hearing-v1';
+export const PLACE_FORMAT='homeservices-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -58,6 +58,9 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
  // Real estate and insurance agents; builders, investors, surveyors, and associations stay out.
  if(!terms.some(t=>/^(builder|home_developer|real_estate_investment|land_surveying|homeowner_association|housing_cooperative|real_estate_photography|display_home_center|home_organization|shared_office_space)$/.test(t))&&terms.some(t=>/^(real_estate_agent|real_estate_service|property_management|commercial_real_estate|insurance_agency|auto_insurance|life_insurance|home_and_rental_insurance|health_insurance_office)$/.test(t)))return 'realestate';
+ // Home services: trades and services that come to the home. General contractors, engineers, recycling centers,
+ // and fire protection (often volunteer fire companies) stay out.
+ if(terms.some(t=>/^(plumbing|hvac_service|electrician|pest_control_service|roofing|home_cleaning|landscaping|lawn_service|tree_service|garage_door_service|painting|damage_restoration|fire_and_water_damage_restoration|appliance_repair_service|carpet_cleaning|handyman|pool_cleaning|chimney_sweep|chimney_service|air_duct_cleaning_service|junk_removal_and_hauling|mover|home_inspector|windows_installation|gutter_service|water_heater_installation_repair|septic_service|security_systems|bathroom_remodeling|kitchen_remodeling|flooring_contractor|fence_and_gate_sales_service)$/.test(t)))return 'homeservices';
  if(terms.some(t=>/^(funeral_service|funeral_home|crematorium|cremation_service|cemetery|mortuary)$/.test(t)))return 'funeral';
  // Senior living and in-home care; government senior centers stay out.
  if(terms.some(t=>/^(senior_living_facility|retirement_home|assisted_living_facility|memory_care_facility|nursing_home|skilled_nursing_facility|home_health_care|home_care)$/.test(t)))return 'senior';

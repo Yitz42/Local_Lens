@@ -338,3 +338,13 @@ test('car makes match dealer listings only, with the dealer badge',()=>{
  assert.equal(ownershipFor(p('Heritage Honda Westminster','cars')).localOperators,'dealer');
  for(const [name,category] of [['Toyota Specialist Auto Repair','auto'],['Lincoln Auto Sales','cars'],['Dodge City Motors','cars'],['Genesis Auto Group','cars'],['Tesla Collision','auto']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
 });
+test('home services category and franchise platforms',()=>{
+ const h=(basic,name,...terms)=>({basic_category:basic,'@name':name,taxonomy:JSON.stringify({primary:terms.at(-1),hierarchy:terms})});
+ assert.equal(categoryForOverture(h('home_service','Benjamin Franklin Plumbing','services_and_business','home_service','plumbing')),'homeservices');
+ assert.equal(categoryForOverture(h('home_service','Terminix','services_and_business','home_service','pest_control_service')),'homeservices');
+ for(const name of ['savon contracting inc','Pikesville Volunteer Fire','Mehta Consultants Inc'])assert.equal(categoryForOverture(h('home_service',name,'services_and_business','home_service',name==='savon contracting inc'?'contractor':name.includes('Fire')?'fire_protection_service':'structural_engineer')),null,name);
+ assert.equal(categoryForOverture(h('home_service','B & K Custom Tailors','services_and_business','home_service','sewing_and_alterations','tailor')),'repair','tailors stay in repair');
+ assert.equal(categoryFor({craft:'plumber'}),'homeservices');assert.equal(googleCategory(['plumber']),'homeservices');
+ for(const [name,brand,type] of [['Mr. Rooter Plumbing of Baltimore','Mr. Rooter Plumbing','pe'],['Benjamin Franklin Plumbing','Benjamin Franklin Plumbing','pe'],['SERVPRO of Northwest Baltimore County','SERVPRO','pe'],['Rainbow Restoration of Owings Mills','Rainbow Restoration','pe'],['Certapro Painters Of Owings Mills / Westminster','CertaPro Painters','corporate'],['Terminix','Terminix','corporate'],['1-800 WATER DAMAGE of Northwest Baltimore','1-800 WATER DAMAGE','pe'],['Mr. Appliance of Owings Mills','Mr. Appliance','pe']]){const o=ownershipFor(p(name,'homeservices'));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+ for(const name of ['Paul Davis Plumbing','ARS Roofing','Precision Garage Door Repair'])assert.equal(ownershipFor(p(name,'homeservices')).type,'unknown',name);
+});

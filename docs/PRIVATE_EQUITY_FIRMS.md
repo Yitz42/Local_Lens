@@ -55,7 +55,7 @@ Selected technology and information-services investments. Individual pages expre
 | HyperGuest | current portfolio investment | [Apax — HyperGuest](https://www.apax.com/partnerships/hyperguest/) | Marked Current, investment year 2026; hotel distribution and payment platform. | 2026-10-16 |
 | techoraco | current portfolio investment | [Apax — techoraco](https://www.apax.com/partnerships/techoraco/) | Marked Current, investment year 2026; digital infrastructure events platform. | 2026-10-16 |
 
-Brands in Local Lens: Cadence Academy.
+Brands in Local Lens: America's Swimming Pool Company, Benjamin Franklin Plumbing, Cadence Academy, Color World Housepainting, DoodyCalls, Homewatch CareGivers, Mister Sparky, Monster Tree Service, Mosquito Squad, One Hour Heating & Air Conditioning, The Cleaning Authority.
 
 ## Apollo Global Management
 
@@ -133,7 +133,7 @@ Selected sourced investments and brand affiliations, with individual holding rev
 | Tropical Smoothie Cafe | Brand-level backing; see source scope | [Blackstone — current investment and board biography](https://www.blackstone.com/people/david-kestnbaum/) | Blackstone’s current executive biography lists Tropical Smoothie Cafe as a current investment and board role; its official June 2024 announcement confirms the acquisition closed. | 2026-10-16 |
 | Great Wolf Resorts / Great Wolf Lodge | Company identifies Blackstone shareholders | [Great Wolf — current Career Pathways shareholder statement](https://www.greatwolf.com/jobs/programs/career-pathways) | Great Wolf’s company page identifies Blackstone as a shareholder. This record does not claim a current ownership percentage or resolve other investors. Hotels and waterparks are firm-research context; the map’s supported place categories are unchanged. | 2026-10-17 |
 
-Brands in Local Lens: 7 Brew, Extended Stay America, Great Wolf Lodge, Jersey Mike's Subs, LEGOLAND Discovery Center, Madame Tussauds, SEA LIFE, Tropical Smoothie Cafe.
+Brands in Local Lens: 7 Brew, Extended Stay America, Great Wolf Lodge, Jersey Mike's Subs, LEGOLAND Discovery Center, Madame Tussauds, SEA LIFE, SERVPRO, Tropical Smoothie Cafe.
 
 ## Brentwood Associates
 
@@ -395,7 +395,7 @@ Opened the official company directory, which states an August 24, 2026 portfolio
 | PetVet Care Centers | current portfolio investment | [KKR — June 30, 2026 Form 10-Q](https://ir.kkr.com/media/document/9c560b72-6b1b-4aff-affa-01c36a7f1661/assets/KKR_10Q_6.30.26.pdf?disposition=inline) | The quarterly report discusses unrealized PetVet investment losses in the current period, establishing a continuing investment. Individual veterinary-hospital brands were not inferred. | 2026-10-16 |
 | Heartland Dental | current portfolio investment | [KKR — Max Lin current board biography](https://www.kkr.com/about/our-people/max-lin) | The current official KKR biography lists Heartland Dental among the companies on whose boards its Americas healthcare leader currently serves. This corroborates the group affiliation, not ownership of any similarly named independent dental practice. | 2026-10-16 |
 
-Brands in Local Lens: Belk, Heartland Dental, Nothing Bundt Cakes, Quick Quack Car Wash.
+Brands in Local Lens: Aire Serv, Belk, Dryer Vent Wizard, Five Star Painting, Glass Doctor, Heartland Dental, Molly Maid, Mosquito Joe, Mr. Appliance, Mr. Electric, Mr. Handyman, Mr. Rooter Plumbing, Nothing Bundt Cakes, Precision Garage Door Service, Quick Quack Car Wash, Rainbow Restoration, Real Property Management, ShelfGenie, The Grounds Guys, Window Genie.
 
 ## L Catterton
 

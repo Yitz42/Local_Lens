@@ -9,8 +9,8 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 
 ## What it does today
 
-- **Map and list of nearby places** in 36 categories, from restaurants and groceries to doctors, hospitals, labs, car washes, hotels, car dealers, and funeral homes. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
-- **Ownership labels** for 1,121 researched brands (868 corporate, 237 private-equity-backed, and 16 co-ops, licensed
+- **Map and list of nearby places** in 37 categories, from restaurants and groceries to doctors, hospitals, labs, plumbers and pest control, car washes, hotels, car dealers, and funeral homes. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
+- **Ownership labels** for 1,166 researched brands (878 corporate, 272 private-equity-backed, and 16 co-ops, licensed
   independent grocers, and credit unions). Every record links to a source, usually an SEC filing, a company announcement,
   or a news report. Wikipedia is used only to find candidates, never as the ownership source.
 - **Hospital ownership** for about 1,500 for-profit and private-equity-backed US hospitals, matched facility by

@@ -338,6 +338,19 @@ Also added, each from investor or company sources:
 
 National coverage of chain locations is now 58.7%. Dealers mostly have unique names under the 5-location cutoff, so the scan undercounts the car-make gain.
 
+## Home services
+
+The BigQuery category count (`scripts/bigquery-category-counts.sql`) showed that Overture's largest US category, `home_service` (about 884,000 places), had no place in the app. The new **Home services** category (Services group) covers the trades and services that come to the home: plumbing, HVAC, electricians, pest control, roofing, cleaning, lawn and tree care, garage doors, painting, damage restoration, appliance repair, carpet and duct cleaning, handymen, pools, chimneys, junk removal, movers, home inspectors, windows, gutters, septic, security systems, and kitchen, bath, and flooring remodelers. General contractors, engineers, recycling centers, and fire protection (often volunteer fire companies) stay out; tailors stay in Repair. Matching mappings: OpenStreetMap `craft=plumber/electrician/hvac/roofer/painter/gardener/cleaning/...` and `office=pest_control/moving_company`, and Google `plumber`, `electrician`, `roofing_contractor`, `painter`, and `moving_company`, plus text searches for pest control, HVAC repair, and house cleaning.
+
+The sector is one of the most consolidated by private equity. Brands added (45):
+
+- **Neighborly (KKR, 2021):** Mr. Rooter, Mr. Electric, Aire Serv, Mr. Appliance, Mr. Handyman, Molly Maid, Glass Doctor, Rainbow Restoration, Five Star Painting, Window Genie, Precision Garage Door Service, Mosquito Joe, The Grounds Guys, Dryer Vent Wizard, ShelfGenie, and Real Property Management.
+- **Authority Brands (Apax):** One Hour Heating & Air Conditioning, Benjamin Franklin Plumbing, Mister Sparky, Mosquito Squad, The Cleaning Authority, America's Swimming Pool Company, Monster Tree Service, Homewatch CareGivers, DoodyCalls, and Color World Housepainting.
+- **Other PE platforms:** SERVPRO (Blackstone, 2019); ARS/Rescue Rooter (GI Partners with Charlesbank); BELFOR and BELFOR Franchise Group's 1-800 WATER DAMAGE, Chem-Dry, N-Hance, The Patch Boys, DUCTZ, and HOODZ (American Securities, 2019).
+- **Public companies:** FirstService (CertaPro Painters, Paul Davis Restoration, California Closets, Floor Coverings International, Pillar To Post), Roto-Rooter (Chemed), Orkin and HomeTeam (Rollins), Terminix (Rentokil), and ADT.
+
+ServiceMaster Clean and Restore, Merry Maids, Two Men and a Truck (Roark), and TruGreen (CD&R) were already listed. In a live check around Pikesville, 40 of 1,441 home-service listings matched, all correctly; the rest are mostly local tradespeople. Generic aliases ("ARS", "Paul Davis", "HomeTeam", "Precision Garage Door") were left out so independent businesses with those names stay unknown.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

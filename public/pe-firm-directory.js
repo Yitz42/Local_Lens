@@ -208,6 +208,27 @@ export const FIRM_CATALOG = {
       "holdings": [],
       "mappedBrands": [
         {
+          "brand": "1-800 WATER DAMAGE",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "BELFOR Property Restoration",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Chem-Dry",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Childtime",
           "parent": "Learning Care Group · American Securities",
           "type": "pe",
@@ -215,10 +236,24 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-30"
         },
         {
+          "brand": "DUCTZ",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Everbrook Academy",
           "parent": "Learning Care Group · American Securities",
           "type": "pe",
           "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "HOODZ",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
           "checked": "2026-10-30"
         },
         {
@@ -236,10 +271,24 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-30"
         },
         {
+          "brand": "N-Hance Wood Refinishing",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "The Children's Courtyard",
           "parent": "Learning Care Group · American Securities",
           "type": "pe",
           "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "The Patch Boys",
+          "parent": "BELFOR · American Securities",
+          "type": "pe",
+          "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
           "checked": "2026-10-30"
         },
         {
@@ -386,10 +435,80 @@ export const FIRM_CATALOG = {
       ],
       "mappedBrands": [
         {
+          "brand": "America's Swimming Pool Company",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Benjamin Franklin Plumbing",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Cadence Academy",
           "parent": "Cadence Education · Apax Partners",
           "type": "pe",
           "source": "https://www.morganstanley.com/im/en-us/individual-investor/insights/press-release/apax-partners-acquires-cadence-education-from-capital-partners.html",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Color World Housepainting",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "DoodyCalls",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Homewatch CareGivers",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mister Sparky",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Monster Tree Service",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mosquito Squad",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "One Hour Heating & Air Conditioning",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "The Cleaning Authority",
+          "parent": "Authority Brands · Apax Partners funds",
+          "type": "pe",
+          "source": "https://www.apax.com/partnerships/authority-brands/",
           "checked": "2026-10-30"
         }
       ]
@@ -933,6 +1052,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-30"
         },
         {
+          "brand": "SERVPRO",
+          "parent": "SERVPRO · Blackstone (majority) and the Isaacson family",
+          "type": "pe",
+          "source": "https://www.blackstone.com/news/press/servpro-leading-franchisor-of-residential-and-commercial-property-damage-restoration-services-announces-recapitalization-and-long-term-partnership-with-blackstone/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Tropical Smoothie Cafe",
           "parent": "Blackstone-managed private equity funds",
           "type": "pe",
@@ -1412,6 +1538,13 @@ export const FIRM_CATALOG = {
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
       "mappedBrands": [
+        {
+          "brand": "ARS/Rescue Rooter",
+          "parent": "American Residential Services · GI Partners (majority) and Charlesbank",
+          "type": "pe",
+          "source": "https://www.privsource.com/acquisitions/deal/8WSWm4",
+          "checked": "2026-10-30"
+        },
         {
           "brand": "MyEyeDr.",
           "parent": "MyEyeDr. · Goldman Sachs Asset Management",
@@ -2629,7 +2762,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "ARS/Rescue Rooter",
+          "parent": "American Residential Services · GI Partners (majority) and Charlesbank",
+          "type": "pe",
+          "source": "https://www.privsource.com/acquisitions/deal/8WSWm4",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "GIMV",
@@ -3484,6 +3625,13 @@ export const FIRM_CATALOG = {
       ],
       "mappedBrands": [
         {
+          "brand": "Aire Serv",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Belk",
           "parent": "Lender group including KKR and Hein Park funds",
           "type": "pe",
@@ -3491,10 +3639,73 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-27"
         },
         {
+          "brand": "Dryer Vent Wizard",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Five Star Painting",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Glass Doctor",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Heartland Dental",
           "parent": "Heartland Dental · KKR",
           "type": "pe",
           "source": "https://www.prnewswire.com/news-releases/heartland-dental-celebrates-transformative-growth-innovation-and-community-impact-in-2025-302671856.html",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Molly Maid",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mosquito Joe",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mr. Appliance",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mr. Electric",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mr. Handyman",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mr. Rooter Plumbing",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
           "checked": "2026-10-30"
         },
         {
@@ -3505,10 +3716,52 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-15"
         },
         {
+          "brand": "Precision Garage Door Service",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Quick Quack Car Wash",
           "parent": "Quick Quack · KKR, Seidler Equity Partners and founders",
           "type": "pe",
           "source": "https://www.carwash.com/quick-quack-investment-kkr/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Rainbow Restoration",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Real Property Management",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "ShelfGenie",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "The Grounds Guys",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Window Genie",
+          "parent": "Neighborly · KKR",
+          "type": "pe",
+          "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
           "checked": "2026-10-30"
         }
       ]
