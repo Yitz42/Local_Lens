@@ -17,8 +17,7 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 - **"Where the money goes" filters.** Franchises and dealer-run stations keep their brand's label but show a
   local-owner badge. A *How local?* slider lets people choose between independents only, locally owned
   (including co-ops), regional (private US chains headquartered within 150 miles), franchises, and dealers.
-- **Food filters**, including kosher, halal, vegetarian, and vegan. Kosher also uses a sourced list of
-  certified places (Baltimore area so far), OpenStreetMap tags, and a personal *Mark as kosher* button.
+- **Food filters** for cuisines and dietary needs.
 - **A searchable brand directory** and a private equity firm directory with CSV and JSON downloads.
 - **No account and no tracking.** Saved places and preferences stay in the browser.
 
@@ -45,7 +44,6 @@ Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localh
   describes the brand.
 - **Name matching is imperfect.** Guards prevent most false matches, but unusual names can still slip through
   either way.
-- **Kosher certification data** is strongest around Baltimore, because it was built from Star-K listings.
 - **Google mode** is limited to 20 places per search and costs the key owner per request.
 
 ## What a real version would need
@@ -57,7 +55,7 @@ Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localh
    "this changed hands," with evidence and review.
 3. **Location-level ownership** for franchises and small businesses, from state business registries,
    franchise disclosure documents, or owner verification.
-4. **Broader coverage**: regional chains, more cities' certification lists, and countries beyond the US.
+4. **Broader coverage**: regional chains, more local businesses, and countries beyond the US.
 5. **Reliable place data and hosting**: an automated job to move to each new Overture release, monitoring, and
    possibly a paid places provider.
 6. **Editorial and legal review** of how labels are worded, especially for private equity and franchises.
