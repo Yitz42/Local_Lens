@@ -429,6 +429,32 @@ National coverage is now 59.3%.
 
 Not added: Johns Hopkins and MedStar practices (nonprofit health systems), and local chains with no ownership source (Pizza Boli's, America's Best Wings, Jerry's Subs & Pizza).
 
+## Round 18: regional banks and merged-bank names
+
+Coverage is now 59.7% nationally and 49.9% around Baltimore. Added, each from an investor or company source:
+
+- **Banks:** Renasant, Hancock Whitney, Centennial (Home BancShares, limited to the Southeast), IBC, Banner, Trustmark, NBT, Trustco, First Merchants, and ACNB.
+- **Old bank names now matched to their current owners:**
+  - Great Western → First Interstate.
+  - Chemical → Huntington.
+  - IBERIABANK → First Horizon.
+  - BBVA Compass → PNC.
+  - Susquehanna → Truist.
+- **Maryland credit unions** (member-owned, limited to the Maryland area): NASA, Freedom, First Financial, and Chessie.
+- **Apparel and home:**
+  - Tommy Hilfiger (PVH), Fossil, Lucky Brand (Catalyst Brands), and Garage (Groupe Dynamite; exact name only).
+  - Bassett Furniture, with independent licensed dealers.
+  - Dunn-Edwards (Nippon Paint) and MATHESON (Nippon Sanso).
+  - Platt Electric Supply (Rexel).
+- **Housing:** Meritage Homes, K. Hovnanian, and Weichert Realtors (privately held; many offices franchised).
+- **Other name variants:**
+  - U.S. HealthWorks → Concentra.
+  - Just Tires, Goodyear Commercial Tire, and Roll by Goodyear → Goodyear.
+  - Enterprise Car Sales → Enterprise.
+  - PetSmart grooming, training, and day camp → PetSmart.
+  - Tiger Mart → Exxon.
+  - Casual Male XL → Destination XL.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

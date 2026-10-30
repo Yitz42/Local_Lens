@@ -371,3 +371,8 @@ test('Maryland and brand-tag round: local chains, co-ops, insurers, and merged b
  assert.equal(ownershipFor(md('Jane Doe - Erie Insurance','realestate')).brand,'Erie Insurance');
  assert.equal(ownershipFor({id:'nc',name:'SECU Credit Union',category:'bank',lat:35.78,lng:-78.64}).brand!=='SECU Maryland',true,'Maryland SECU stays in Maryland');
 });
+test('round 18: regional banks, merged-bank names, and apparel and home brands',()=>{
+ for(const [name,category,brand] of [['Great Western Bank','bank','First Interstate Bank'],['Chemical Bank','bank','Huntington Bank'],['IBERIABANK','bank','First Horizon Bank'],['BBVA Compass','bank','PNC Bank'],['Susquehanna Bank','bank','Truist'],['US HealthWorks','clinic','Concentra Urgent Care'],['Just Tires','auto','Goodyear Auto Service'],['PetSmart Grooming','pets','PetSmart'],['Platt Electric Supply','home','Rexel'],['Tommy Hilfiger','apparel','Tommy Hilfiger'],['Renasant Bank','bank','Renasant Bank'],['Jane Doe - Weichert Realtors','realestate','Weichert Realtors']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor({id:'f',name:'NASA Federal Credit Union',category:'bank',lat:38.82,lng:-76.75}).type,'independent');
+ assert.equal(ownershipFor(p('Garage Door Pros','home')).type,'unknown','Garage clothing only matches its exact name');
+});
