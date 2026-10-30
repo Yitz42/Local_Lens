@@ -232,7 +232,152 @@ A second shared tracker of about 260 large private-equity-owned employers was co
 
 Wikipedia's private equity portfolio category (about 530 pages, most of them past deals, defunct chains, or companies without storefronts) was used only to find candidates. Added after checking a current source: Express Oil Change & Tire Engineers (Golden Gate), TOGO'S (Southfield Mezzanine), California Pizza Kitchen (Consortium Brand Partners-led group, December 2025), Benihana, RA Sushi, STK and Kona Grill (The ONE Group, Nasdaq), Paper Source (Barnes & Noble, Elliott), and the Hertz and Avis Budget rental brands. Left out: Coinstar (kiosks, and Apollo's reported sale had not been confirmed), Vineyard Vines (no current ownership change found), and chains outside the US.
 
-The directory now lists 985 brands (752 corporate, 219 PE backed, 16 independent or co-op).
+The directory now lists 985 brands (752 corporate, 219 PE backed, 14 independent or co-op).
+
+## Round 13: finding gaps by how often a chain repeats
+
+`scripts/find-gaps.mjs` scans Overture places around 12 metro areas (Baltimore, Nashville, Dallas, Phoenix, Chicago, Atlanta, Houston, Philadelphia, Seattle, Orlando, Detroit, Cincinnati) and lists names that stay unknown in at least three of them, ranked by how many metros they appear in. Before this round, 205 such chains covered 3,730 categorized places; after it, 187 chains covered 3,276.
+
+**Leading-name descriptors.** Many misses were known brands with a descriptor added ("Olive Garden Italian Restaurant", "Pep Boys Auto Service & Tires", "Kroger Pharmacy", "Sunoco Gas Station", "Bank of America ATM"). `ownershipFor` now also tries the name with one trailing descriptor removed (restaurant, gas station, pharmacy, self storage, rent a car, auto service, store, express, spa, ATM, and similar). The rest of the name must still match a brand exactly.
+
+**New categories:**
+
+| Category | Overture | OpenStreetMap | Google |
+| --- | --- | --- | --- |
+| Car washes (split from Auto service) | `car_wash` | `amenity=car_wash` | `car_wash` |
+| Labs & imaging | `laboratory_testing`, `medical_laboratory`, `diagnostic_imaging`, plasma and blood donation (primary category only; dental labs stay out) | `healthcare=laboratory/blood_donation/sample_collection` | `medical_lab` |
+| Hearing care | `hearing_aid_store`, `hearing_aid_provider`, `audiologist` | `shop=hearing_aids`, `healthcare=audiologist` | text search "hearing aids" |
+
+Overture also files many tax preparers under `trusts`, which had no category; tax-named listings now go to Tax & money services.
+
+**Brands added (56):**
+
+- **Car washes:**
+  - Whistle Express and Take 5 Car Wash (Oaktree funds; Whistle bought Take 5 from Driven Brands in 2025).
+  - Quick Quack (KKR minority investment, Seidler, and the founders).
+- **Beauty and wellness:**
+  - Hand & Stone (Harvest Partners).
+  - WellBiz Brands' Drybar, Amazing Lash Studio, Elements Massage, Fitness Together, and Radiant Waxing (Transom Capital since early 2026).
+  - The Lash Lounge (The Riverside Company).
+  - LaserAway (Ares).
+  - M·A·C, Aveda, and Origins (Estée Lauder); Kiehl's (L'Oréal); Benefit (LVMH); Charlotte Tilbury (Puig).
+- **Health:**
+  - Quest Diagnostics and Labcorp.
+  - Concentra and One Medical (Amazon).
+  - HearUSA (WS Audiology: founding families and EQT); Beltone (GN); HearingLife (Demant); Connect Hearing (Sonova).
+  - BrightStar Care (Peak Rock Capital).
+- **Food:** Potbelly (RaceTrac, October 2025) and See's Candies (Berkshire Hathaway).
+- **Retail:**
+  - GNC (Harbin Pharmaceutical).
+  - Cash America (FirstCash), Lovesac, and Leslie's.
+  - Steve Madden and Ralph Lauren; Tommy Bahama and Lilly Pulitzer (Oxford Industries); Vera Bradley; Allen Edmonds (Caleres).
+  - TAG Heuer (LVMH); Gucci and Saint Laurent (Kering).
+  - Framebridge (Graham Holdings) and Geek Squad (Best Buy).
+- **Services:**
+  - CubeSmart; Penske and Ryder truck rental.
+  - OneMain and Charles Schwab (with TD Ameritrade).
+  - HUB International (Hellman & Friedman); Goosehead and Gallagher.
+  - Nationwide and Farmers agents (dealer badge, matched anywhere in the name).
+  - CBRE, JLL, and Cushman & Wakefield.
+
+**Aliases added:** Vetco (Petco), MinuteClinic and CVS Beauty (CVS), Walmart Vision, WFM Coffee Bar (Whole Foods), Home Depot tool rental, Wells Fargo Advisors, and uBreakiFix listing names.
+
+**Still unknown, and why:**
+
+- **Closed chains still in the map data:** RadioShack, Payless, Party City, Pier 1, Forever 21, Joann, Sprint, and Papyrus.
+- **No current primary source found:** Marco's Pizza (one unconfirmed report of PE stakes), Veterinary Emergency Group (growth investors, no controlling owner found), Restore Hyper Wellness, Right At Home, and Liberty Tax (its parent went through bankruptcy).
+- **Nonprofits:** Goodwill and the YMCA.
+
+## Nationwide gap scan with BigQuery
+
+Overture's places are also published in BigQuery's public datasets. `scripts/bigquery-chains-detailed.sql` (about 10 GB, inside the free tier) lists every US place name with at least 5 locations, with its states, extent, and most common website domain. `scripts/rank-bigquery-gaps.mjs` checks each name against the directory at its own center point, so regional brands count. It also lists unmatched names that share a website with a matched brand, which are likely name variants. The other `scripts/bigquery-*.sql` files count places per category, group chains by website or Wikidata brand ID, list the top names in each category, and list chains around Baltimore.
+
+Of the 60,000 names, those in app categories cover about 1.27 million US places. The share with an ownership label went from **53.4% to 58.0%** in this round:
+
+- **Name variants (about 160 aliases).** Each one was found through a shared website and reviewed by hand. Examples: Suntrust and BB&T (Truist), TCF (Huntington), BBVA (PNC), Union Bank (U.S. Bank), and People's United (M&T); Mr. Tire, Car-X, and Tire Choice (Monro); Speedco and Love's Truck Care (Love's); On The Run, Flash Foods, Holiday Car Wash, and Kangaroo Express (Circle K); TA and Petro (bp); BJ's tire, optical, and gas listings; plus store-in-store names such as "Sunglass Hut at Macy's" and "Claire's Walmart". Generic names that happened to share a website were left out: "Gas Station", "The Bistro", "Deals", "Pink", and "OFFLINE".
+- **More trailing descriptors:** gas, fuel, fuel center, food mart, outlet, factory store, retail, mattress store, bank branch, and supermarket branch. "Kroger Fuel Center" and "Santander Bank Branch" now match. Bare "Red Wing" stays unmatched because of the Minnesota town.
+- **New brands (31):**
+  - **PE backed:** Krispy Krunchy Chicken (Main Post Partners), Hanger Clinic (Patient Square), Keller Williams (Stone Point Capital, with Gary Keller), and Clarks (LionRock Capital).
+  - **Corporate:**
+    - Hunt Brothers Pizza (Hunt family) and VIP Petcare (Tractor Supply, May 2026).
+    - John Deere and Quick Lane (dealer-run); Fastenal, Ferguson, SiteOne, Builders FirstSource, QXO, and Foundation Building Materials (Lowe's).
+    - It's Just Wings (Brinker) and Kumon; A&W Restaurants, owned by its franchisees since 2011.
+    - Aéropostale (Catalyst Brands), Gymboree (The Children's Place), Banter and Piercing Pagoda (Signet).
+    - First American Title, U.S. Physical Therapy (Drayer, SERC), Genoa Healthcare (Optum), and Clayton Homes (Berkshire).
+    - First Horizon, Flagstar, SouthState, Old National, and Umpqua banks.
+  - **Independent:** Best Western (a nonprofit owned by its member hotels) and Good Neighbor Pharmacy (Cencora's network of independently owned pharmacies).
+
+Still unmatched at the top of the list: closed chains still in the data (Payless, Kmart, Sears, Pier 1, Forever 21, Justice); ignition-interlock vendors; CAT Scale; and private chains with no current ownership source, such as Long John Silver's, Dickey's, Godfather's, Rainbow Shops, Curves, and Snap Fitness. Generic names like "China Wok" and "First National Bank" are different businesses that happen to share a name.
+
+## Car makes and remaining public chains
+
+Car dealers had only dealer groups (CarMax, AutoNation, Lithia, Carvana) and no car makes. Twenty-nine makes from twelve listed manufacturers are now included:
+
+- **Toyota:** Toyota, Lexus.
+- **Honda:** Honda, Acura.
+- **Ford:** Ford, Lincoln.
+- **GM:** Chevrolet, GMC, Buick, Cadillac.
+- **Stellantis:** Jeep, Chrysler, Dodge/Ram.
+- **Nissan:** Nissan, Infiniti.
+- **Hyundai Motor Group:** Hyundai, Kia, Genesis.
+- **Volkswagen Group:** Volkswagen, Audi, Porsche.
+- **BMW:** BMW, MINI.
+- **Others:** Subaru, Mazda, Mercedes-Benz, Volvo Cars, Harley-Davidson, Tesla (exact store names only, after "Tesla Collision", an independent body shop, matched in a live check), plus EchoPark (Sonic Automotive).
+
+US dealerships are independently owned franchises, so these carry the dealer badge. Tesla is the exception: it sells through company-owned stores.
+
+Dealer names usually put the make after the owner ("Koons Toyota of Annapolis"), so distinctive makes match anywhere in the name, but only in the Car dealers category. Independent repair shops ("Toyota Specialist Auto Repair") stay unknown. Lincoln, Dodge, Genesis, and MINI match only exact names, because they are also common place or business names.
+
+Also added, each from investor or company sources:
+
+- Airgas (Air Liquide), Fidelity National Title, Stewart Title, BOSS (Hugo Boss), and Rexel.
+- Pizza Inn and Pie Five (Rave Restaurant Group), Tumi (Samsonite), and Eddie Bauer (Catalyst Brands).
+- SRS Distribution (Home Depot, 2024) and Rack Room Shoes with Off Broadway (Deichmann).
+- Associated, UMB, Prosperity, Bank OZK, First Interstate, Simmons, Valley, and Fulton banks.
+- The Little Clinic (Kroger).
+
+National coverage of chain locations is now 58.7%. Dealers mostly have unique names under the 5-location cutoff, so the scan undercounts the car-make gain.
+
+## Home services
+
+The BigQuery category count (`scripts/bigquery-category-counts.sql`) showed that Overture's largest US category, `home_service` (about 884,000 places), had no place in the app. The new **Home services** category (Services group) covers the trades and services that come to the home: plumbing, HVAC, electricians, pest control, roofing, cleaning, lawn and tree care, garage doors, painting, damage restoration, appliance repair, carpet and duct cleaning, handymen, pools, chimneys, junk removal, movers, home inspectors, windows, gutters, septic, security systems, and kitchen, bath, and flooring remodelers. General contractors, engineers, recycling centers, and fire protection (often volunteer fire companies) stay out; tailors stay in Repair. Matching mappings: OpenStreetMap `craft=plumber/electrician/hvac/roofer/painter/gardener/cleaning/...` and `office=pest_control/moving_company`, and Google `plumber`, `electrician`, `roofing_contractor`, `painter`, and `moving_company`, plus text searches for pest control, HVAC repair, and house cleaning.
+
+The sector is one of the most consolidated by private equity. Brands added (45):
+
+- **Neighborly (KKR, 2021):** Mr. Rooter, Mr. Electric, Aire Serv, Mr. Appliance, Mr. Handyman, Molly Maid, Glass Doctor, Rainbow Restoration, Five Star Painting, Window Genie, Precision Garage Door Service, Mosquito Joe, The Grounds Guys, Dryer Vent Wizard, ShelfGenie, and Real Property Management.
+- **Authority Brands (Apax):** One Hour Heating & Air Conditioning, Benjamin Franklin Plumbing, Mister Sparky, Mosquito Squad, The Cleaning Authority, America's Swimming Pool Company, Monster Tree Service, Homewatch CareGivers, DoodyCalls, and Color World Housepainting.
+- **Other PE platforms:** SERVPRO (Blackstone, 2019); ARS/Rescue Rooter (GI Partners with Charlesbank); BELFOR and BELFOR Franchise Group's 1-800 WATER DAMAGE, Chem-Dry, N-Hance, The Patch Boys, DUCTZ, and HOODZ (American Securities, 2019).
+- **Public companies:** FirstService (CertaPro Painters, Paul Davis Restoration, California Closets, Floor Coverings International, Pillar To Post), Roto-Rooter (Chemed), Orkin and HomeTeam (Rollins), Terminix (Rentokil), and ADT.
+
+ServiceMaster Clean and Restore, Merry Maids, Two Men and a Truck (Roark), and TruGreen (CD&R) were already listed. In a live check around Pikesville, 40 of 1,441 home-service listings matched, all correctly; the rest are mostly local tradespeople. Generic aliases ("ARS", "Paul Davis", "HomeTeam", "Precision Garage Door") were left out so independent businesses with those names stay unknown.
+
+## Specialist doctors, mental health, and equipment rental
+
+Two new Health categories cover care the app had no place for. Specialist practices and mental health clinics add up to about 400,000 US places in Overture.
+
+- **Specialist doctors:**
+  - Cardiology, dermatology, gastroenterology, orthopedics, urology, ENT, neurology, oncology, pain management, endocrinology, nephrology, pulmonology, rheumatology, allergy, OB/GYN, sports medicine, and plastic surgery.
+  - Surgery centers.
+  - Overture files many of these under internal medicine, so the rule runs before primary care. Plain internal medicine stays in Doctors & urgent care, and oral surgery stays with Dentists.
+- **Mental health & addiction:**
+  - Counseling, psychology, psychiatry, psychotherapy, and addiction treatment. Addiction treatment was previously left out of Physical therapy and had no category.
+  - OpenStreetMap `healthcare=psychotherapist/counselling` also maps here. Google has no place type for these, so text searches are used instead.
+- **Equipment rental** joins Storage & rentals (`machine_and_tool_rental`, `equipment_rental`, `party_equipment_rental`, `dumpster_rental`). There were only a handful of these places near Pikesville, too few for a category of their own.
+
+Brands added (10):
+
+- **Specialists:**
+  - National Spine & Pain Centers (Avista Capital Partners).
+  - Forefront Dermatology (Partners Group).
+  - Gastro Health (OMERS Private Equity).
+  - GI Alliance (Cardinal Health, 73% since January 2025).
+- **Mental health:**
+  - Mindpath Health (Centerbridge and Leonard Green).
+  - Thriveworks (Regal Healthcare Capital Partners).
+  - Acadia Healthcare. LifeStance Health was already listed.
+- **Equipment rental:** United Rentals, Sunbelt Rentals, and Herc Rentals (with H&E).
+
+Left out because the ownership trail conflicts across sources: Chesapeake Urology (Audax to United Urology Group to OneOncology) and Epiphany Dermatology. Around Pikesville, 427 specialist and 525 mental health listings now appear, mostly individual practices; National Spine & Pain Centers and two Thriveworks offices are labeled.
 
 ## Not added in this pass
 

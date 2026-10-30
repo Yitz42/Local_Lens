@@ -20,7 +20,7 @@ test('personal names persist as validated user choices and remain independent of
  assert.deepEqual(filterPlaces(places,{origin,hidden:[],hiddenNames:['Neighborhood Market']}).map(p=>p.name),['7-Eleven Fuel','Another Market']);
 });
 test('automatic names catch brand departments and locations without asserting ownership',()=>{
- const place=p('7-Eleven Fuel','gas');
+ const place=p('7-Eleven Fuel - Downtown','gas');
  assert.equal(ownershipFor(place).type,'unknown');
  assert.equal(excludedBrandNameMatch(place,['corporate']).brand,'7-Eleven');
  assert.equal(filterPlaces([place],{origin,hidden:['corporate'],matchBrandNames:true}).length,0);

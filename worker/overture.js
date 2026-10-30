@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='hospitals-v1';
+export const PLACE_FORMAT='specialists-mental-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -36,10 +36,12 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(eyewear_store|optician|vision_or_eye_care_clinic|optometry|ophthalmology|optometrist)$/.test(t)))return 'eye';
  if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
  if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
+ if(terms.some(t=>/^(hearing_aid_store|hearing_aid_provider|hearing_aids|audiologist|audiology)$/.test(t)))return 'hearing';
  if(terms.some(t=>t==='shopping'||t==='retail'))return 'other';
  if(terms.some(t=>/^(beauty_salon|hair_salon|nail_salon|barber|skin_care_and_makeup|hair_removal|waxing|tanning_salon|spa|day_spa|medical_spa|massage_therapy|tattoo_and_piercing|eyelash_service)$/.test(t)))return 'beauty';
  if(terms.some(t=>/^(gym|fitness_studio|yoga_studio|pilates_studio|boxing_gym|boxing_class|boot_camp|fitness_trainer|dance_studio|martial_arts_club|climbing_gym|cycling_studio)$/.test(t)))return 'fitness';
- if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|car_wash|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
+ if(terms.some(t=>/^car_wash$/.test(t)))return 'carwash';
+ if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
  if(terms.some(t=>/^(bank_or_credit_union|bank|credit_union)$/.test(t)))return 'bank';
  // Print shops, graphic designers, and sign makers. Shipping centers are left out because the label also covers
  // post offices, parcel lockers, and drop boxes.
@@ -48,24 +50,36 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(movie_theater|cinema|drive_in_theater|bowling_alley|arcade|escape_room|amusement_park|trampoline_park|mini_golf|mini_golf_course|laser_tag|go_kart_track|family_entertainment_center)$/.test(t)))return 'fun';
  // Day care, preschool, and tutoring. Schools and colleges stay out.
  if(terms.some(t=>/^(child_care_and_day_care|day_care_preschool|preschool|tutoring_service|test_preparation)$/.test(t)))return 'childcare';
- // Self storage and vehicle rental; parcel lockers and warehouses stay out.
- if(terms.some(t=>/^(self_storage_facility|truck_rental_service|car_rental_service)$/.test(t)))return 'storage';
+ // Self storage, vehicle rental, and equipment rental; parcel lockers and warehouses stay out.
+ if(terms.some(t=>/^(self_storage_facility|truck_rental_service|car_rental_service|machine_and_tool_rental|equipment_rental|construction_equipment_rental|party_equipment_rental|dumpster_rental)$/.test(t)))return 'storage';
+ // Overture files many tax preparers under 'trusts'; only tax-named listings count.
+ if(terms.includes('trusts')&&/\b(tax|h ?& ?r block|jackson hewitt)\b/i.test(properties['@name']||''))return 'money';
  // Coin and Bitcoin kiosks and ATMs are machines, not businesses.
  if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
  // Real estate and insurance agents; builders, investors, surveyors, and associations stay out.
  if(!terms.some(t=>/^(builder|home_developer|real_estate_investment|land_surveying|homeowner_association|housing_cooperative|real_estate_photography|display_home_center|home_organization|shared_office_space)$/.test(t))&&terms.some(t=>/^(real_estate_agent|real_estate_service|property_management|commercial_real_estate|insurance_agency|auto_insurance|life_insurance|home_and_rental_insurance|health_insurance_office)$/.test(t)))return 'realestate';
+ // Home services: trades and services that come to the home. General contractors, engineers, recycling centers,
+ // and fire protection (often volunteer fire companies) stay out.
+ if(terms.some(t=>/^(plumbing|hvac_service|electrician|pest_control_service|roofing|home_cleaning|landscaping|lawn_service|tree_service|garage_door_service|painting|damage_restoration|fire_and_water_damage_restoration|appliance_repair_service|carpet_cleaning|handyman|pool_cleaning|chimney_sweep|chimney_service|air_duct_cleaning_service|junk_removal_and_hauling|mover|home_inspector|windows_installation|gutter_service|water_heater_installation_repair|septic_service|security_systems|bathroom_remodeling|kitchen_remodeling|flooring_contractor|fence_and_gate_sales_service)$/.test(t)))return 'homeservices';
  if(terms.some(t=>/^(funeral_service|funeral_home|crematorium|cremation_service|cemetery|mortuary)$/.test(t)))return 'funeral';
  // Senior living and in-home care; government senior centers stay out.
  if(terms.some(t=>/^(senior_living_facility|retirement_home|assisted_living_facility|memory_care_facility|nursing_home|skilled_nursing_facility|home_health_care|home_care)$/.test(t)))return 'senior';
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
+ // Medical labs, imaging centers, and plasma donation; dental labs stay out.
+ if([properties.basic_category,parse(properties.taxonomy,{}).primary].some(t=>/^(laboratory_testing|medical_laboratory|diagnostic_imaging|diagnostic_services|blood_and_plasma_donation_center|plasma_donation_center|blood_bank)$/.test(t))&&!/\b(dental|dentistry)\b/i.test(properties['@name']||''))return 'lab';
  // Hospitals. Overture's hospital label also covers many doctors' offices and departments, so the name must read
  // as a hospital or medical center, and offices, departments, and support services inside hospitals stay out.
  if([properties.basic_category,parse(properties.taxonomy,{}).primary].some(t=>/^(hospital|general_hospital|childrens_hospital|psychiatric_hospital|rehabilitation_hospital|specialty_hospital|health_care|outpatient_care_facility|behavioral_or_mental_health_clinic)$/.test(t))&&/\b(hospitals?|medical cent(er|re)|med ctr|infirmary|shock trauma center)\b/i.test(properties['@name']||'')&&!/\b(animal|pet|veterinary|parking|pharmacy|atm|office|building|foundation|auxiliary|gift|cafeteria|clinic|associates|physicians?|group|lab|laboratory|imaging|radiology|ems|liaison|services|holdings|information|wellness|outpatient|out patient|wound|cardiology|neurology|oncology|pediatrics|obgyn|department|div|division|nuclear|pavilion|md|dds|pharmacies|care|unit|floor|entrance|rad|delivery)\b/i.test(properties['@name']||'')&&!/^(center|centre|institute) for\b/i.test(properties['@name']||''))return 'hospital';
  // Physical, occupational, and speech therapy and chiropractic; addiction treatment and prosthetics stay out.
  if(!terms.some(t=>/^(addiction_rehabilitation_center|prosthetics|orthotics)$/.test(t))&&terms.some(t=>/^(physical_therapy|physical_medicine_and_rehabilitation|occupational_therapy|speech_therapy|rehabilitation_center|chiropractic|chiropractor)$/.test(t)))return 'therapy';
  if(terms.some(t=>/^(dental_clinic|dentist|general_dentistry|orthodontics|orthodontist|pediatric_dentistry|cosmetic_dentistry|endodontics|periodontics|prosthodontics|oral_surgeon|oral_and_maxillofacial_surgery)$/.test(t)))return 'dental';
+ // Specialist doctors and surgery centers. Overture files many specialties under internal medicine, so this runs
+ // before the primary care rule; oral surgery stays with dentists (above).
+ if(terms.some(t=>/^(orthopedics|orthopedic_surgery|podiatry|cardiology|urology|dermatology|oncology|neurology|neurosurgery|gastroenterology|ear_nose_and_throat|otolaryngology|pain_management|endocrinology|nephrology|pulmonology|rheumatology|allergy_and_immunology|hematology|infectious_disease|obstetrics_and_gynecology|surgery_center|surgery|plastic_and_reconstructive_surgery|cosmetic_surgery|cardiothoracic_surgery|vascular_surgery|general_surgery|pediatric_surgery|sports_medicine|anesthesiology|sleep_medicine|fertility|reproductive_endocrinology)$/.test(t)))return 'specialists';
+ // Mental health and addiction treatment.
+ if(terms.some(t=>/^(behavioral_or_mental_health_clinic|counseling|psychology|psychiatry|psychotherapy|child_psychiatry|marriage_or_relationship_counseling|addiction_rehabilitation_center|addiction_treatment|substance_abuse_treatment|crisis_intervention_service|mental_health_service)$/.test(t)))return 'mental';
  // Walk-in and primary care. Public health offices, ambulance services, and specialists stay out.
  if(!terms.some(t=>/^(public_health_clinic|ambulance_or_ems_service)$/.test(t))&&terms.some(t=>/^(urgent_care_clinic|walk_in_clinic|emergency_department|emergency_or_urgent_care_facility|primary_care_or_general_clinic|family_practice|pediatric_clinic|internal_medicine)$/.test(t)))return 'clinic';
  if(terms.some(t=>/^(animal_or_pet_service|veterinary_care|veterinarian|animal_hospital|emergency_pet_hospital|pet_care_service|pet_groomer|pet_sitting|pet_boarding|pet_training|dog_trainer|dog_walker)$/.test(t)))return 'pets';

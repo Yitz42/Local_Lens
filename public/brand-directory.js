@@ -40,6 +40,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "1-800 WATER DAMAGE",
+    "aliases": [
+      "1-800 Water Damage"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "1-800 WATER DAMAGE belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "168 Market",
     "aliases": [
       "168 Markets"
@@ -203,6 +226,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "A&W Restaurants",
+    "aliases": [
+      "A&W Restaurant",
+      "A&W",
+      "A&W All-American Food"
+    ],
+    "type": "corporate",
+    "parent": "A Great American Brand LLC (owned by A&W franchisees)",
+    "source": "https://awrestaurants.com/press/press-release/121021-aw-restaurants-celebrates-10-years-under-franchisee-ownership/",
+    "sourceTitle": "A&W Restaurants — 10 years under franchisee ownership (2021)",
+    "note": "A group of A&W franchisees has owned the US A&W brand since buying it from Yum! Brands in 2011; restaurants are locally owned franchises. A&W Canada is a separate company.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant",
+      "coffee"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "AAMCO",
     "aliases": [
       "AAMCO Transmissions",
@@ -225,7 +270,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Aaron's",
     "aliases": [
       "Aarons",
-      "Aaron's Lease to Own"
+      "Aaron's Lease to Own",
+      "Aaron's Rent To Own"
     ],
     "type": "corporate",
     "parent": "The Aaron's Company · IQVentures (privately held)",
@@ -306,7 +352,8 @@ export const BRAND_DIRECTORY = [
     "brand": "ABRA",
     "aliases": [
       "ABRA Auto Body",
-      "ABRA Auto Body & Glass"
+      "ABRA Auto Body & Glass",
+      "Abra Auto Body Repair of America"
     ],
     "type": "pe",
     "parent": "Driven Brands · Roark investment",
@@ -372,6 +419,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Acadia Healthcare",
+    "aliases": [
+      "Acadia Comprehensive Treatment Center",
+      "Comprehensive Treatment Center"
+    ],
+    "type": "corporate",
+    "parent": "Acadia Healthcare Company, Inc.",
+    "source": "https://acadiahealthcare.com/investors/",
+    "sourceTitle": "Acadia Healthcare — investors",
+    "note": "Acadia Healthcare is listed on Nasdaq (ACHC) and runs behavioral hospitals and addiction treatment centers.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "mental",
+      "clinic",
+      "hospital"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Ace Hardware",
     "aliases": [
       "Ace Hardware Corporation"
@@ -402,6 +471,24 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Acura",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Honda Motor Co., Ltd.",
+    "source": "https://global.honda/en/investors/",
+    "sourceTitle": "Honda — investors",
+    "note": "Acura is a Honda Motor Co., Ltd. brand (TSE/NYSE: HMC). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -483,6 +570,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "ADT",
+    "aliases": [
+      "ADT Security Services",
+      "ADT Solutions"
+    ],
+    "type": "corporate",
+    "parent": "ADT Inc.",
+    "source": "https://investor.adt.com/",
+    "sourceTitle": "ADT — investor relations",
+    "note": "ADT is listed on the NYSE (ADT). Some ADT-branded installers are independent authorized dealers.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Advance Auto Parts",
     "aliases": [],
     "type": "corporate",
@@ -504,6 +612,70 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "American Eagle Outfitters — about AEO",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Aéropostale",
+    "aliases": [
+      "Aeropostale"
+    ],
+    "type": "corporate",
+    "parent": "Catalyst Brands (Simon Property Group, Brookfield, Authentic Brands Group & Shein)",
+    "source": "https://corporate.jcpenney.com/2025/01/08/sparc-group-has-merged-with-jcpenney-to-form-catalyst-brands/",
+    "sourceTitle": "JCPenney — SPARC Group merges with JCPenney to form Catalyst Brands (January 2025)",
+    "note": "Aéropostale stores are run by Catalyst Brands, formed when SPARC Group merged with JCPenney; Authentic Brands Group owns the brand name.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Aire Serv",
+    "aliases": [
+      "Aire Serv Heating & Air Conditioning"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Aire Serv is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Airgas",
+    "aliases": [
+      "Airgas Store",
+      "Airgas Branch"
+    ],
+    "type": "corporate",
+    "parent": "Air Liquide S.A.",
+    "source": "https://www.airliquide.com/investors",
+    "sourceTitle": "Air Liquide — investors",
+    "note": "Airgas is an Air Liquide company; Air Liquide is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other",
+      "general"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -552,7 +724,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Albertsons",
-    "aliases": [],
+    "aliases": [
+      "Sav-on Pharmacy"
+    ],
     "type": "corporate",
     "parent": "Albertsons Companies, Inc.",
     "source": "https://www.sec.gov/Archives/edgar/data/1646972/000164697226000032/aci-20260228.htm",
@@ -572,6 +746,23 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "ALDI US — about us",
     "note": "This is a large privately held chain. Local Lens includes large private chains in the corporate category.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Allen Edmonds",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Caleres, Inc.",
+    "source": "https://investor.caleres.com/",
+    "sourceTitle": "Caleres — investor relations",
+    "note": "Allen Edmonds is a Caleres brand; Caleres is listed on the NYSE (CAL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -701,6 +892,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Amazing Lash Studio",
+    "aliases": [],
+    "type": "pe",
+    "parent": "WellBiz Brands · Transom Capital",
+    "source": "https://athletechnews.com/drybar-fitness-together-parent-wellbiz-acquisition-transom-capital/",
+    "sourceTitle": "Athletech News — Transom Capital acquires WellBiz Brands (2026)",
+    "note": "Amazing Lash Studio belongs to WellBiz Brands, bought by Transom Capital in early 2026. Studios are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "AMC Theatres",
     "aliases": [
       "AMC",
@@ -783,9 +992,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "America's Swimming Pool Company",
+    "aliases": [
+      "ASP - America's Swimming Pool Company",
+      "ASP Pool Company"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "America's Swimming Pool Company belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "American Eagle",
     "aliases": [
-      "American Eagle Outfitters"
+      "American Eagle Outfitters",
+      "American Eagle & Aerie",
+      "Aerie & OFFLINE"
     ],
     "type": "corporate",
     "parent": "American Eagle Outfitters, Inc.",
@@ -1014,11 +1249,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "ARS/Rescue Rooter",
+    "aliases": [
+      "ARS Rescue Rooter",
+      "Rescue Rooter",
+      "American Residential Services"
+    ],
+    "type": "pe",
+    "parent": "American Residential Services · GI Partners (majority) and Charlesbank",
+    "source": "https://www.privsource.com/acquisitions/deal/8WSWm4",
+    "sourceTitle": "PrivSource — GI Partners acquires majority stake in ARS; Charlesbank reinvests (2020)",
+    "note": "GI Partners became majority owner of ARS in 2020, with Charlesbank Capital Partners and management staying invested. ARS also runs many local companies under their own names.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "GI Partners",
+      "Charlesbank Capital Partners"
+    ],
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Ashley HomeStore",
     "aliases": [
       "Ashley Furniture HomeStore",
       "Ashley Furniture",
-      "Ashley Store"
+      "Ashley Store",
+      "Ashley Outlet",
+      "Ashley Store + Outlet"
     ],
     "type": "corporate",
     "parent": "Ashley Global Retail · Ashley Furniture Industries (privately held, family owned)",
@@ -1037,7 +1299,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Aspen Dental",
-    "aliases": [],
+    "aliases": [
+      "Motto Clear Aligners",
+      "Motto"
+    ],
     "type": "pe",
     "parent": "The Aspen Group · LGP investment",
     "source": "https://www.leonardgreen.com/portfolio/",
@@ -1049,6 +1314,23 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Associated Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Associated Banc-Corp",
+    "source": "https://investor.associatedbank.com/",
+    "sourceTitle": "Associated Banc-Corp — investor relations",
+    "note": "Associated Banc-Corp is listed on the NYSE (ASB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -1171,7 +1453,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Atwoods",
     "aliases": [
       "Atwoods Ranch & Home",
-      "Atwoods Ranch and Home"
+      "Atwoods Ranch and Home",
+      "Atwoods Ranch & Home Goods"
     ],
     "type": "corporate",
     "parent": "Atwood Distributing (family owned)",
@@ -1194,6 +1477,24 @@ export const BRAND_DIRECTORY = [
       "lat": 36.4,
       "lng": -97.88
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Audi",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Volkswagen AG",
+    "source": "https://www.volkswagen-group.com/en/investor-relations",
+    "sourceTitle": "Volkswagen Group — investor relations",
+    "note": "Audi is a Volkswagen AG brand (Frankfurt: VOW3). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -1261,6 +1562,27 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "AutoZone — investor overview",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Aveda",
+    "aliases": [
+      "Aveda Lifestyle Salon",
+      "Aveda Institute"
+    ],
+    "type": "corporate",
+    "parent": "The Estée Lauder Companies Inc.",
+    "source": "https://www.elcompanies.com/en/our-brands",
+    "sourceTitle": "Estée Lauder Companies — our brands",
+    "note": "Aveda is an Estée Lauder brand. Many salons that sell Aveda products are independent; only Aveda-named stores and institutes match.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "beauty"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -1421,7 +1743,9 @@ export const BRAND_DIRECTORY = [
     "brand": "Bank of America",
     "aliases": [
       "Bank of America Financial Center",
-      "BofA"
+      "BofA",
+      "Bank of America Private Bank",
+      "Bank of America Advanced Center"
     ],
     "type": "corporate",
     "parent": "Bank of America Corporation",
@@ -1446,6 +1770,43 @@ export const BRAND_DIRECTORY = [
     },
     "matchCategories": [
       "bank"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Bank OZK",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Bank OZK",
+    "source": "https://ir.ozk.com/",
+    "sourceTitle": "Bank OZK — investor relations",
+    "note": "Bank OZK is listed on Nasdaq (OZK).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Banter by Piercing Pagoda",
+    "aliases": [
+      "Piercing Pagoda",
+      "Banter by Piecing Pagoda"
+    ],
+    "type": "corporate",
+    "parent": "Signet Jewelers Limited",
+    "source": "https://www.sec.gov/Archives/edgar/data/832988/000083298826000055/sig-20260131.htm",
+    "sourceTitle": "Signet Jewelers — annual report",
+    "note": "Banter and Piercing Pagoda are Signet brands; Signet is listed on the NYSE (SIG).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
     ],
     "categories": [
       "corporate"
@@ -1679,7 +2040,8 @@ export const BRAND_DIRECTORY = [
     "brand": "BECU",
     "aliases": [
       "Boeing Employees' Credit Union",
-      "Boeing Employees Credit Union"
+      "Boeing Employees Credit Union",
+      "BECU credit union"
     ],
     "type": "independent",
     "parent": "Member-owned credit union · Tukwila, Washington",
@@ -1786,6 +2148,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "BELFOR Property Restoration",
+    "aliases": [
+      "BELFOR"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "BELFOR has been owned by American Securities since 2019.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Belk",
     "aliases": [
       "Belk Outlet"
@@ -1805,6 +2189,29 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Beltone",
+    "aliases": [
+      "Beltone Hearing Aid Center",
+      "Beltone Hearing Care Center"
+    ],
+    "type": "corporate",
+    "parent": "GN Store Nord A/S",
+    "source": "https://www.gn.com/",
+    "sourceTitle": "GN Group — company website",
+    "note": "Beltone is a GN brand; GN is listed in Copenhagen. Many Beltone offices are independently owned.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "hearing",
+      "other",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -1842,6 +2249,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Benefit Cosmetics",
+    "aliases": [
+      "Benefit Cosmetics BrowBar",
+      "Benefit BrowBar"
+    ],
+    "type": "corporate",
+    "parent": "LVMH",
+    "source": "https://www.lvmh.com/en/our-maisons",
+    "sourceTitle": "LVMH — our maisons",
+    "note": "Benefit Cosmetics is an LVMH brand; LVMH is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Benihana",
     "aliases": [
       "Benihana Japanese Steakhouse"
@@ -1859,6 +2287,27 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Benjamin Franklin Plumbing",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Benjamin Franklin Plumbing belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -1907,6 +2356,31 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Best Western",
+    "aliases": [
+      "Best Western Plus",
+      "Best Western Premier",
+      "Best Western Hotels & Resorts",
+      "SureStay",
+      "SureStay Plus",
+      "Executive Residency by Best Western"
+    ],
+    "type": "independent",
+    "parent": "Best Western Hotels & Resorts (nonprofit membership association of hotel owners)",
+    "source": "https://www.hotelmanagement.net/own/bw-membership-votes-down-for-profit-conversion",
+    "sourceTitle": "Hotel Management — Best Western members vote down for-profit conversion",
+    "note": "Best Western International is a nonprofit owned by its member hotels; each hotel is independently owned and operated.",
+    "checked": "2026-10-30",
+    "localOperators": "cooperative",
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -2191,7 +2665,11 @@ export const BRAND_DIRECTORY = [
     "brand": "BJ’s Wholesale Club",
     "aliases": [
       "BJ's Wholesale Club",
-      "BJs Wholesale Club"
+      "BJs Wholesale Club",
+      "BJ's Optical",
+      "BJ's Tire Center",
+      "BJ's Gas",
+      "BJ's Gas Station"
     ],
     "type": "corporate",
     "parent": "BJ’s Wholesale Club Holdings, Inc.",
@@ -2419,7 +2897,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "BMO Bank",
       "BMO Harris Bank",
-      "BMO Harris"
+      "BMO Harris",
+      "BMO Bank N.A."
     ],
     "type": "corporate",
     "parent": "Bank of Montreal (BMO Financial Group)",
@@ -2449,6 +2928,24 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "bank"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "BMW",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Bayerische Motoren Werke AG",
+    "source": "https://www.bmwgroup.com/en/investor-relations.html",
+    "sourceTitle": "BMW Group — investor relations",
+    "note": "BMW is a Bayerische Motoren Werke AG brand (Frankfurt: BMW). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -2756,6 +3253,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "BOSS",
+    "aliases": [
+      "Hugo Boss",
+      "BOSS Store",
+      "BOSS Shop",
+      "BOSS Menswear Shop",
+      "BOSS Outlet"
+    ],
+    "type": "corporate",
+    "parent": "HUGO BOSS AG",
+    "source": "https://group.hugoboss.com/en/investors",
+    "sourceTitle": "HUGO BOSS — investors",
+    "note": "HUGO BOSS is listed in Frankfurt.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "BoxLunch",
     "aliases": [
       "Box Lunch Gifts"
@@ -2777,7 +3296,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "bp",
     "aliases": [
-      "BP"
+      "BP",
+      "BP America"
     ],
     "type": "corporate",
     "parent": "bp p.l.c.",
@@ -2859,6 +3379,26 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "dental"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "BrightStar Care",
+    "aliases": [
+      "BrightStar Care of"
+    ],
+    "type": "pe",
+    "parent": "BrightStar Care · Peak Rock Capital affiliate",
+    "source": "https://homehealthcarenews.com/2025/03/brightstar-care-acquired-by-peak-rock-capital-affiliate/",
+    "sourceTitle": "Home Health Care News — BrightStar Care acquired by Peak Rock Capital affiliate (March 2025)",
+    "note": "An affiliate of Peak Rock Capital bought the BrightStar Care franchisor in 2025 with founder Shelly Sun Berkowitz. Agencies are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -3117,7 +3657,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Bucky's",
     "aliases": [
       "Bucky's Express",
-      "Buckys"
+      "Buckys",
+      "Bucky's Convenience Stores"
     ],
     "type": "corporate",
     "parent": "Casey's General Stores, Inc.",
@@ -3179,7 +3720,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Buffalo Wild Wings",
-    "aliases": [],
+    "aliases": [
+      "Buffalo Wild Wings GO",
+      "Buffalo Wild Wings 'GO'"
+    ],
     "type": "pe",
     "parent": "Inspire Brands · Roark",
     "source": "https://www.roarkcapital.com/portfolio",
@@ -3218,6 +3762,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Buick",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "General Motors Company",
+    "source": "https://investor.gm.com/",
+    "sourceTitle": "General Motors — investor relations",
+    "note": "Buick is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Build-A-Bear Workshop",
     "aliases": [
       "Build-A-Bear",
@@ -3244,6 +3806,27 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Build-A-Bear Workshop — fiscal 2025 results",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Builders FirstSource",
+    "aliases": [
+      "Builder FirstSource",
+      "Stock Building Supply"
+    ],
+    "type": "corporate",
+    "parent": "Builders FirstSource, Inc.",
+    "source": "https://investors.bldr.com/",
+    "sourceTitle": "Builders FirstSource — investor relations",
+    "note": "Builders FirstSource is listed on the NYSE (BLDR).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -3300,7 +3883,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Burlington",
     "aliases": [
       "Burlington Coat Factory",
-      "Burlington Stores"
+      "Burlington Stores",
+      "Baby Depot"
     ],
     "type": "corporate",
     "parent": "Burlington Stores, Inc.",
@@ -3363,7 +3947,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Cadence Bank",
-    "aliases": [],
+    "aliases": [
+      "Bancorp South",
+      "BancorpSouth"
+    ],
     "type": "corporate",
     "parent": "Huntington Bancshares Incorporated (merged February 2026)",
     "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
@@ -3401,6 +3988,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Cadillac",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "General Motors Company",
+    "source": "https://investor.gm.com/",
+    "sourceTitle": "General Motors — investor relations",
+    "note": "Cadillac is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Cadogan Tate",
     "aliases": [
       "Cadogan Tate"
@@ -3422,7 +4027,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Caliber Collision",
     "aliases": [
-      "Caliber Collision Centers"
+      "Caliber Collision Centers",
+      "Caliber Auto Care"
     ],
     "type": "pe",
     "parent": "Leonard Green & Partners portfolio investment",
@@ -3435,6 +4041,24 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "California Closets",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "California Closets is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -3788,7 +4412,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "CARSTAR",
-    "aliases": [],
+    "aliases": [
+      "CARSTAR Auto Body Repair Experts"
+    ],
     "type": "pe",
     "parent": "Driven Brands · Roark investment",
     "source": "https://www.roarkcapital.com/portfolio",
@@ -3911,7 +4537,9 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Casey's General Store",
       "Casey's General Stores",
-      "Casey's"
+      "Casey's",
+      "goodstop by Casey's",
+      "goodstop"
     ],
     "type": "corporate",
     "parent": "Casey’s General Stores, Inc.",
@@ -3923,7 +4551,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "other"
+      "other",
+      "restaurant"
     ],
     "publicListing": {
       "company": "Casey’s General Stores, Inc.",
@@ -3940,6 +4569,26 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "preservePunctuation": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Cash America Pawn",
+    "aliases": [
+      "Cash America"
+    ],
+    "type": "corporate",
+    "parent": "FirstCash Holdings, Inc.",
+    "source": "https://investors.firstcash.com/",
+    "sourceTitle": "FirstCash — investor relations",
+    "note": "Cash America Pawn is a FirstCash brand; FirstCash is listed on Nasdaq (FCFS).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "money"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -4052,6 +4701,25 @@ export const BRAND_DIRECTORY = [
     },
     "type": "corporate",
     "checked": "2026-10-25",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "CBRE",
+    "aliases": [
+      "Cb Richard Ellis"
+    ],
+    "type": "corporate",
+    "parent": "CBRE Group, Inc.",
+    "source": "https://ir.cbre.com/",
+    "sourceTitle": "CBRE — investor relations",
+    "note": "CBRE is listed on the NYSE (CBRE).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -4221,6 +4889,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CertaPro Painters",
+    "aliases": [
+      "Certapro Painters"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "CertaPro Painters is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Certified Oil",
     "aliases": [
       "Certified"
@@ -4310,6 +4998,45 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Charles Schwab",
+    "aliases": [
+      "Schwab",
+      "TD Ameritrade",
+      "Charles Schwab & Co."
+    ],
+    "type": "corporate",
+    "parent": "The Charles Schwab Corporation",
+    "source": "https://www.aboutschwab.com/investor-relations",
+    "sourceTitle": "Charles Schwab — investor relations",
+    "note": "Schwab is listed on the NYSE (SCHW) and absorbed TD Ameritrade's branches after buying it in 2020.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank",
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Charlotte Tilbury",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Puig Brands, S.A.",
+    "source": "https://www.puig.com/en/brands/",
+    "sourceTitle": "Puig — brands",
+    "note": "Charlotte Tilbury is majority owned by Puig, which is listed in Spain.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "beauty"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Chase",
     "aliases": [
       "Chase Bank",
@@ -4386,8 +5113,54 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Chem-Dry",
+    "aliases": [
+      "Chem-Dry Carpet & Upholstery Cleaning",
+      "Chem Dry"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "Chem-Dry belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Chevrolet",
+    "aliases": [
+      "Chevy"
+    ],
+    "type": "corporate",
+    "parent": "General Motors Company",
+    "source": "https://investor.gm.com/",
+    "sourceTitle": "General Motors — investor relations",
+    "note": "Chevrolet is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Chevron",
-    "aliases": [],
+    "aliases": [
+      "Chevron Food Mart"
+    ],
     "type": "corporate",
     "parent": "Chevron Corporation",
     "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
@@ -4592,6 +5365,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Chrysler",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Stellantis N.V.",
+    "source": "https://www.stellantis.com/en/investors",
+    "sourceTitle": "Stellantis — investors",
+    "note": "Chrysler is a Stellantis N.V. brand (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Chuck E. Cheese",
     "aliases": [
       "Chuck E Cheese",
@@ -4743,7 +5534,14 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Circle K",
-    "aliases": [],
+    "aliases": [
+      "On The Run",
+      "Flash Foods",
+      "Holiday Car Wash",
+      "Circle K | Car Wash",
+      "Circle K Corporation",
+      "Kangaroo Express"
+    ],
     "type": "corporate",
     "parent": "Alimentation Couche-Tard Inc.",
     "source": "https://corporate.couche-tard.com/where-we-operate",
@@ -4756,7 +5554,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "CITGO",
-    "aliases": [],
+    "aliases": [
+      "Citgo Food Mart",
+      "CITGO Petroleum Corporation"
+    ],
     "type": "corporate",
     "parent": "CITGO Petroleum Corporation · CITGO Holding, Inc. / PDV Holding, Inc.",
     "source": "https://www.citgo.com/who-we-are/venezuela/",
@@ -4841,7 +5642,9 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Citizens Bank",
     "aliases": [
-      "Citizens"
+      "Citizens",
+      "Citizens Bank Supermarket Branch",
+      "Citizens Supermarket Branch"
     ],
     "type": "corporate",
     "parent": "Citizens Financial Group, Inc.",
@@ -4966,7 +5769,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Claire’s",
-    "aliases": [],
+    "aliases": [
+      "Claire's Walmart",
+      "Icing By Claire's"
+    ],
     "type": "pe",
     "parent": "Claire’s North American business · Ames Watson",
     "source": "https://www.prnewswire.com/news-releases/ames-watson-takes-over-business-operations-of-claires-in-north-america-302561063.html",
@@ -4984,6 +5790,43 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Clarks",
+    "aliases": [
+      "Clarks Bostonian Outlet",
+      "C&J Clark"
+    ],
+    "type": "pe",
+    "parent": "C&J Clark · LionRock Capital (majority) and the Clark family",
+    "source": "https://fashionunited.uk/news/business/clarks-majority-stake-acquisition-completed-new-ceo-named/2021031554422",
+    "sourceTitle": "FashionUnited — LionRock completes majority stake in Clarks (March 2021)",
+    "note": "Hong Kong private equity firm LionRock Capital bought a majority of Clarks in 2021; the founding family kept a minority stake.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Clayton Homes",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Berkshire Hathaway Inc.",
+    "source": "https://www.berkshirehathaway.com/subs/sublinks.html",
+    "sourceTitle": "Berkshire Hathaway — operating companies",
+    "note": "Clayton Homes is a Berkshire Hathaway company. Many retail home centers are independent dealers.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate",
+      "home"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -5215,10 +6058,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Color World Housepainting",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Color World Housepainting belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Columbia Sportswear",
     "aliases": [
       "Columbia Factory Store",
-      "Columbia Sportswear Outlet"
+      "Columbia Sportswear Outlet",
+      "Columbia Sportswear Company"
     ],
     "type": "corporate",
     "parent": "Columbia Sportswear Company",
@@ -5336,6 +6201,46 @@ export const BRAND_DIRECTORY = [
       "realestate"
     ],
     "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Concentra Urgent Care",
+    "aliases": [
+      "Concentra"
+    ],
+    "type": "corporate",
+    "parent": "Concentra Group Holdings Parent, Inc.",
+    "source": "https://ir.concentra.com/",
+    "sourceTitle": "Concentra — investor relations",
+    "note": "Concentra was spun off from Select Medical and is listed on the NYSE (CON).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "clinic",
+      "therapy",
+      "lab"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Connect Hearing",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Sonova Holding AG",
+    "source": "https://www.sonova.com/",
+    "sourceTitle": "Sonova — company website",
+    "note": "Connect Hearing is part of Sonova's audiological care business; Sonova is listed in Switzerland.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "hearing",
+      "other",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -5519,7 +6424,9 @@ export const BRAND_DIRECTORY = [
     "brand": "Costco",
     "aliases": [
       "Costco Wholesale",
-      "Costco Business Center"
+      "Costco Business Center",
+      "Costco Tire Center",
+      "Costco Tire Service Center"
     ],
     "type": "corporate",
     "parent": "Costco Wholesale Corporation",
@@ -5828,6 +6735,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CubeSmart",
+    "aliases": [
+      "CubeSmart Self Storage",
+      "Cubesmart"
+    ],
+    "type": "corporate",
+    "parent": "CubeSmart (REIT)",
+    "source": "https://investors.cubesmart.com/",
+    "sourceTitle": "CubeSmart — investor relations",
+    "note": "CubeSmart is a self-storage REIT listed on the NYSE (CUBE). Some stores it manages are owned by third parties.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Culligan",
     "aliases": [
       "Culligan Water",
@@ -5890,6 +6817,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Cushman & Wakefield",
+    "aliases": [
+      "Cushman & Wakefield - Commercial Real Estate Services"
+    ],
+    "type": "corporate",
+    "parent": "Cushman & Wakefield",
+    "source": "https://ir.cushmanwakefield.com/",
+    "sourceTitle": "Cushman & Wakefield — investor relations",
+    "note": "Cushman & Wakefield is listed on the NYSE (CWK).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "CVS Pharmacy",
     "aliases": [
       "CVS",
@@ -5899,7 +6845,13 @@ export const BRAND_DIRECTORY = [
       "CVS Pharmacy at Target",
       "CVS Pharmacy in Target",
       "CVS Photo",
-      "CVS Photo Center"
+      "CVS Photo Center",
+      "MinuteClinic",
+      "MinuteClinic at CVS",
+      "CVS Beauty",
+      "Longs Drugs",
+      "CVS Pharmacy inside Target Store",
+      "CVS Pharmacy Specialty Services"
     ],
     "type": "corporate",
     "parent": "CVS Health Corporation",
@@ -6396,6 +7348,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Dodge",
+    "aliases": [
+      "Ram Trucks"
+    ],
+    "type": "corporate",
+    "parent": "Stellantis N.V.",
+    "source": "https://www.stellantis.com/en/investors",
+    "sourceTitle": "Stellantis — investors",
+    "note": "Dodge and Ram are Stellantis brands (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only exact names match, because Dodge is also a common place name.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Dollar Fresh Market",
     "aliases": [
       "Dollar Fresh",
@@ -6423,7 +7394,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Dollar General",
-    "aliases": [],
+    "aliases": [
+      "Dollar General Market"
+    ],
     "type": "corporate",
     "parent": "Dollar General Corporation",
     "source": "https://investor.dollargeneral.com/",
@@ -6500,6 +7473,71 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "DoodyCalls",
+    "aliases": [
+      "DoodyCalls Pet Waste Removal"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "DoodyCalls belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "pets"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Drybar",
+    "aliases": [
+      "Drybar Blow Dry Bar"
+    ],
+    "type": "pe",
+    "parent": "WellBiz Brands · Transom Capital",
+    "source": "https://athletechnews.com/drybar-fitness-together-parent-wellbiz-acquisition-transom-capital/",
+    "sourceTitle": "Athletech News — Transom Capital acquires Drybar parent WellBiz Brands (2026)",
+    "note": "Transom Capital bought WellBiz Brands, owner of Drybar, from KSL Capital in early 2026. Many shops are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Dryer Vent Wizard",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Dryer Vent Wizard is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -6581,6 +7619,27 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Sycamore Partners"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "DUCTZ",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "DUCTZ belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -6750,6 +7809,44 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "EchoPark Automotive",
+    "aliases": [
+      "EchoPark"
+    ],
+    "type": "corporate",
+    "parent": "Sonic Automotive, Inc.",
+    "source": "https://ir.sonicautomotive.com/",
+    "sourceTitle": "Sonic Automotive — investor relations",
+    "note": "EchoPark is Sonic Automotive's used-car chain; Sonic is listed on the NYSE (SAH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Eddie Bauer",
+    "aliases": [
+      "Eddie Bauer Outlet"
+    ],
+    "type": "corporate",
+    "parent": "Catalyst Brands (Simon Property Group, Brookfield, Authentic Brands Group & Shein)",
+    "source": "https://corporate.jcpenney.com/2025/01/08/sparc-group-has-merged-with-jcpenney-to-form-catalyst-brands/",
+    "sourceTitle": "JCPenney — SPARC Group merges with JCPenney to form Catalyst Brands (January 2025)",
+    "note": "Eddie Bauer stores were run by SPARC Group, now part of Catalyst Brands; Authentic Brands Group owns the brand name.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Eddie V’s",
     "aliases": [
       "Eddie V's Prime Seafood"
@@ -6856,6 +7953,25 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Chedraui",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Elements Massage",
+    "aliases": [],
+    "type": "pe",
+    "parent": "WellBiz Brands · Transom Capital",
+    "source": "https://athletechnews.com/drybar-fitness-together-parent-wellbiz-acquisition-transom-capital/",
+    "sourceTitle": "Athletech News — Transom Capital acquires WellBiz Brands (2026)",
+    "note": "Elements Massage belongs to WellBiz Brands, bought by Transom Capital in early 2026. Studios are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty",
+      "fitness"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -7160,7 +8276,8 @@ export const BRAND_DIRECTORY = [
       "Extended Stay America Suites",
       "Extended Stay America Select Suites",
       "Extended Stay America Premier Suites",
-      "ESA Suites"
+      "ESA Suites",
+      "Extended Stay Hotels"
     ],
     "type": "pe",
     "parent": "Extended Stay America · Blackstone & Starwood Capital",
@@ -7240,7 +8357,9 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Exxon",
     "aliases": [
-      "ExxonMobil"
+      "ExxonMobil",
+      "Exxon & Mobil Stations",
+      "Exxon Corp"
     ],
     "type": "corporate",
     "parent": "Exxon Mobil Corporation",
@@ -7577,6 +8696,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Farmers Insurance",
+    "aliases": [
+      "Farmers Insurance Group",
+      "Farmers Insurance Agent"
+    ],
+    "type": "corporate",
+    "parent": "Farmers Group, Inc. · Zurich Insurance Group",
+    "source": "https://www.zurich.com/",
+    "sourceTitle": "Zurich Insurance Group — company website",
+    "note": "Farmers Group is a Zurich Insurance Group company; Zurich is listed in Switzerland. Local agents are independent contractors.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Fas Mart",
     "aliases": [],
     "type": "corporate",
@@ -7605,6 +8746,27 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "ARKO — current equity listing and retail business",
       "checked": "2026-10-26"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Fastenal",
+    "aliases": [
+      "Fastenal Fulfillment Center"
+    ],
+    "type": "corporate",
+    "parent": "Fastenal Company",
+    "source": "https://investor.fastenal.com/",
+    "sourceTitle": "Fastenal — investor relations",
+    "note": "Fastenal is listed on Nasdaq (FAST).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other",
+      "general"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -7739,6 +8901,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Ferguson",
+    "aliases": [
+      "Ferguson Plumbing Supply",
+      "Ferguson Bath, Kitchen & Lighting Gallery",
+      "Ferguson Enterprises"
+    ],
+    "type": "corporate",
+    "parent": "Ferguson Enterprises Inc.",
+    "source": "https://corporate.ferguson.com/investors",
+    "sourceTitle": "Ferguson — investors",
+    "note": "Ferguson is listed on the NYSE (FERG).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other",
+      "general"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Festival Foods (Wisconsin)",
     "aliases": [
       "Festival Foods",
@@ -7768,6 +8952,26 @@ export const BRAND_DIRECTORY = [
       "lat": 38.63,
       "lng": -90.2
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Fidelity National Title",
+    "aliases": [
+      "Fidelity National Title Insurance Co.",
+      "Fidelity National Title Company"
+    ],
+    "type": "corporate",
+    "parent": "Fidelity National Financial, Inc.",
+    "source": "https://investor.fnf.com/",
+    "sourceTitle": "Fidelity National Financial — investor relations",
+    "note": "FNF is listed on the NYSE (FNF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -7873,7 +9077,11 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Firestone Complete Auto Care",
-    "aliases": [],
+    "aliases": [
+      "Bridgestone Retail Operations",
+      "Bridgestone",
+      "Firestone"
+    ],
     "type": "corporate",
     "parent": "Bridgestone Retail Operations · Bridgestone Americas",
     "source": "https://www.bebridgestone.com/our-businesses/bridgestone-retail-operations/",
@@ -7881,6 +9089,26 @@ export const BRAND_DIRECTORY = [
     "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "First American Title",
+    "aliases": [
+      "First American Title Insurance Company",
+      "First American Title Company"
+    ],
+    "type": "corporate",
+    "parent": "First American Financial Corporation",
+    "source": "https://investors.firstam.com/",
+    "sourceTitle": "First American — investor relations",
+    "note": "First American is listed on the NYSE (FAF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -7913,6 +9141,44 @@ export const BRAND_DIRECTORY = [
       "beauty"
     ],
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "First Horizon Bank",
+    "aliases": [
+      "First Horizon",
+      "First Tennessee",
+      "First Tennessee Bank"
+    ],
+    "type": "corporate",
+    "parent": "First Horizon Corporation",
+    "source": "https://ir.firsthorizon.com/",
+    "sourceTitle": "First Horizon — investor relations",
+    "note": "First Horizon is listed on the NYSE (FHN).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "First Interstate Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "First Interstate BancSystem, Inc.",
+    "source": "https://investors.fibk.com/",
+    "sourceTitle": "First Interstate BancSystem — investor relations",
+    "note": "First Interstate BancSystem is listed on Nasdaq (FIBK).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8016,6 +9282,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Fitness Together",
+    "aliases": [],
+    "type": "pe",
+    "parent": "WellBiz Brands · Transom Capital",
+    "source": "https://athletechnews.com/drybar-fitness-together-parent-wellbiz-acquisition-transom-capital/",
+    "sourceTitle": "Athletech News — Transom Capital acquires WellBiz Brands (2026)",
+    "note": "Fitness Together belongs to WellBiz Brands, bought by Transom Capital in early 2026. Studios are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "fitness"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Five Below",
     "aliases": [],
     "type": "corporate",
@@ -8057,6 +9341,46 @@ export const BRAND_DIRECTORY = [
       "lat": 38.7,
       "lng": -77.23
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Five Star Painting",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Five Star Painting is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Flagstar Bank",
+    "aliases": [
+      "Flagstar"
+    ],
+    "type": "corporate",
+    "parent": "Flagstar Financial, Inc.",
+    "source": "https://ir.flagstar.com/",
+    "sourceTitle": "Flagstar Financial — investor relations",
+    "note": "Flagstar Financial (formerly New York Community Bancorp) is listed on the NYSE (FLG).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8104,7 +9428,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Fleming's Prime Steakhouse & Wine Bar",
       "Fleming’s Prime Steakhouse",
-      "Fleming’s Steakhouse"
+      "Fleming’s Steakhouse",
+      "Fleming's"
     ],
     "type": "corporate",
     "parent": "Bloomin’ Brands, Inc.",
@@ -8162,6 +9487,24 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Floor & Decor Holdings — 2025 Form 10-K",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Floor Coverings International",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Floor Coverings International is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8494,6 +9837,49 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Ford",
+    "aliases": [
+      "Ford Motor Company",
+      "Ford Motor Co."
+    ],
+    "type": "corporate",
+    "parent": "Ford Motor Company",
+    "source": "https://shareholder.ford.com/",
+    "sourceTitle": "Ford — shareholder relations",
+    "note": "Ford is a Ford Motor Company brand (NYSE: F). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Forefront Dermatology",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Forefront Dermatology · Partners Group (majority), physicians, and OMERS",
+    "source": "https://forefrontdermatology.com/partners-group-in-partnership-with-existing-physician-owners-acquires-forefront-dermatology/",
+    "sourceTitle": "Forefront Dermatology — Partners Group acquires Forefront (2022)",
+    "note": "Partners Group bought a majority of Forefront Dermatology in 2022; physician owners and OMERS Private Equity kept stakes.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Partners Group"
+    ],
+    "matchCategories": [
+      "specialists",
+      "clinic",
+      "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Forest Hills Foods",
     "aliases": [
       "Forest Hills Food"
@@ -8508,6 +9894,44 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Foundation Building Materials",
+    "aliases": [
+      "FBM"
+    ],
+    "type": "corporate",
+    "parent": "Lowe's Companies, Inc.",
+    "source": "https://distributionstrategy.com/2025/10/lowes-completes-8-8-billion-acquisition-of-foundation-building-materials/",
+    "sourceTitle": "Distribution Strategy Group — Lowe's completes FBM acquisition (October 2025)",
+    "note": "Lowe's (NYSE LOW) bought Foundation Building Materials from American Securities in October 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Framebridge",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Graham Holdings Company",
+    "source": "https://www.ghco.com/",
+    "sourceTitle": "Graham Holdings — company website",
+    "note": "Graham Holdings (NYSE GHC) owns Framebridge.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "home",
+      "print"
+    ],
     "categories": [
       "corporate"
     ]
@@ -8654,7 +10078,8 @@ export const BRAND_DIRECTORY = [
       "Fry's Food Stores",
       "Frys Food and Drug",
       "Fry's Marketplace",
-      "Fry's Food & Drug"
+      "Fry's Food & Drug",
+      "Fry's"
     ],
     "type": "corporate",
     "parent": "The Kroger Co.",
@@ -8662,6 +10087,23 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Kroger — family of banners",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Fulton Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Fulton Financial Corporation",
+    "source": "https://investor.fultonbank.com/",
+    "sourceTitle": "Fulton Financial — investor relations",
+    "note": "Fulton Financial is listed on Nasdaq (FULT).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8721,6 +10163,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Gallagher",
+    "aliases": [
+      "Arthur J. Gallagher",
+      "Gallagher Insurance",
+      "Gallagher Insurance, Risk Management & Consulting"
+    ],
+    "type": "corporate",
+    "parent": "Arthur J. Gallagher & Co.",
+    "source": "https://investor.ajg.com/",
+    "sourceTitle": "Gallagher — investor relations",
+    "note": "Gallagher is listed on the NYSE (AJG).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "GameStop",
     "aliases": [
       "Game Stop",
@@ -8767,6 +10229,43 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Gastro Health",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Gastro Health · OMERS Private Equity",
+    "source": "https://www.omers.com/news/omers-announces-partnership-with-gastro-health",
+    "sourceTitle": "OMERS — partnership with Gastro Health (2021)",
+    "note": "OMERS Private Equity bought Gastro Health from Audax Private Equity in 2021.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "specialists",
+      "clinic",
+      "lab"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Geek Squad",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Best Buy Co., Inc.",
+    "source": "https://investors.bestbuy.com/",
+    "sourceTitle": "Best Buy — investor relations",
+    "note": "Geek Squad is Best Buy's repair service; Best Buy is listed on the NYSE (BBY).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "repair",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Gelson’s",
     "aliases": [
       "Gelson's Markets"
@@ -8786,9 +10285,48 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Genesis",
+    "aliases": [
+      "Genesis Motor America"
+    ],
+    "type": "corporate",
+    "parent": "Hyundai Motor Group",
+    "source": "https://www.hyundai.com/worldwide/en/company/ir",
+    "sourceTitle": "Hyundai Motor Company — investor relations",
+    "note": "Genesis is Hyundai Motor Group's luxury brand. US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only exact names match.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Genoa Healthcare",
+    "aliases": [
+      "Genoa Pharmacy"
+    ],
+    "type": "corporate",
+    "parent": "Optum · UnitedHealth Group",
+    "source": "https://www.genoahealthcare.com/",
+    "sourceTitle": "Genoa Healthcare — an Optum company",
+    "note": "Genoa runs pharmacies inside behavioral health centers and is part of UnitedHealth Group's Optum (NYSE UNH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "pharmacy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Gerber Collision & Glass",
     "aliases": [
-      "Gerber Collision"
+      "Gerber Collision",
+      "Gerber Collision and Glass"
     ],
     "type": "corporate",
     "parent": "Boyd Group Services Inc.",
@@ -8882,6 +10420,25 @@ export const BRAND_DIRECTORY = [
         "east": -75
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "GI Alliance",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Cardinal Health, Inc. (73%) and physician owners",
+    "source": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000009/a25q2_x123124xex991xnewsre.htm",
+    "sourceTitle": "Cardinal Health — second-quarter fiscal 2025 results, GI Alliance acquisition completed",
+    "note": "Cardinal Health (NYSE CAH) bought 73% of GI Alliance in January 2025; affiliated physicians own the rest.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "specialists",
+      "clinic",
+      "lab"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -9083,6 +10640,68 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Glass Doctor",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Glass Doctor is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "GMC",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "General Motors Company",
+    "source": "https://investor.gm.com/",
+    "sourceTitle": "General Motors — investor relations",
+    "note": "GMC is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "GNC",
+    "aliases": [
+      "GNC Live Well",
+      "General Nutrition Center"
+    ],
+    "type": "corporate",
+    "parent": "Harbin Pharmaceutical Group",
+    "source": "https://insights.citeline.com/RS152324/GNC-Continues-Product-Lineup-Changes-Under-Harbin-Pharmaceutical-Ownership/link-BW64BBNKTBCYTGLCDNWPTZCMSA",
+    "sourceTitle": "Citeline — GNC under Harbin Pharmaceutical ownership",
+    "note": "Harbin Pharmaceutical Group, a listed Chinese drugmaker, bought GNC out of bankruptcy in 2020. Some stores are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "other",
+      "pharmacy",
+      "grocery"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Going Going Gone!",
     "aliases": [
       "Going Going Gone",
@@ -9217,9 +10836,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Good Neighbor Pharmacy",
+    "aliases": [],
+    "type": "independent",
+    "parent": "Independently owned pharmacies in Cencora's Good Neighbor Pharmacy network",
+    "source": "https://www.mygnp.com/",
+    "sourceTitle": "Good Neighbor Pharmacy — network of independently owned pharmacies",
+    "note": "Good Neighbor Pharmacy is a network brand for independently owned local pharmacies supplied by Cencora; each store belongs to its local owner.",
+    "checked": "2026-10-30",
+    "localOperators": "licensed",
+    "matchCategories": [
+      "pharmacy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Goodyear Auto Service",
     "aliases": [
-      "Goodyear Auto Service Center"
+      "Goodyear Auto Service Center",
+      "Goodyear",
+      "Good Year",
+      "The Goodyear Tire & Rubber Company",
+      "Goodyear Tire & Rubber Company",
+      "Goodyear Tires"
     ],
     "type": "corporate",
     "parent": "The Goodyear Tire & Rubber Company",
@@ -9246,6 +10888,27 @@ export const BRAND_DIRECTORY = [
       "auto",
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Goosehead Insurance",
+    "aliases": [
+      "Goosehead Insurance Agency"
+    ],
+    "type": "corporate",
+    "parent": "Goosehead Insurance, Inc.",
+    "source": "https://ir.gooseheadinsurance.com/",
+    "sourceTitle": "Goosehead — investor relations",
+    "note": "Goosehead is listed on Nasdaq (GSHD). Most offices are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -9434,13 +11097,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Gucci",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Kering SA",
+    "source": "https://www.kering.com/en/houses/",
+    "sourceTitle": "Kering — houses",
+    "note": "Gucci is a Kering house; Kering is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Guess",
     "aliases": [
       "GUESS?",
       "Guess?",
       "GUESS Factory",
       "Guess Factory",
-      "Marciano"
+      "Marciano",
+      "G by GUESS"
     ],
     "type": "corporate",
     "parent": "Guess? operating company · brand co-owned by Authentic Brands Group (51%) and the Marciano family",
@@ -9479,7 +11161,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Gulf",
     "aliases": [
-      "Gulf Oil"
+      "Gulf Oil",
+      "Gulf Gas"
     ],
     "type": "corporate",
     "parent": "RaceTrac, Inc. · US Gulf fuel brand",
@@ -9492,6 +11175,24 @@ export const BRAND_DIRECTORY = [
       "gas"
     ],
     "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Gymboree",
+    "aliases": [
+      "Gymboree Outlet"
+    ],
+    "type": "corporate",
+    "parent": "The Children's Place, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1041859/000162828025018195/plce-20250201.htm",
+    "sourceTitle": "The Children's Place — annual report",
+    "note": "The Children's Place (Nasdaq PLCE) owns the Gymboree brand and sells it in its own stores and online.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
     "categories": [
       "corporate"
     ]
@@ -9683,6 +11384,53 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Hand & Stone Massage and Facial Spa",
+    "aliases": [
+      "Hand & Stone",
+      "Hand and Stone",
+      "Hand and Stone Massage and Facial Spa"
+    ],
+    "type": "pe",
+    "parent": "Hand & Stone · Harvest Partners",
+    "source": "https://www.businesswire.com/news/home/20220607005416/en/Levine-Leichtman-Capital-Partners-Sells-Hand-Stone",
+    "sourceTitle": "Business Wire — LLCP sells Hand & Stone to Harvest Partners (June 2022)",
+    "note": "Funds managed by Harvest Partners bought the Hand & Stone franchisor in 2022. Most spas are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Harvest Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty",
+      "fitness"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Hanger Clinic",
+    "aliases": [
+      "Hanger Clinic: Prosthetics & Orthotics",
+      "Hanger Prosthetics & Orthotics"
+    ],
+    "type": "pe",
+    "parent": "Hanger, Inc. · Patient Square Capital",
+    "source": "https://corporate.hanger.com/?p=3797",
+    "sourceTitle": "Hanger — completes acquisition by Patient Square Capital (October 2022)",
+    "note": "Patient Square Capital took Hanger private in 2022.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Hannaford",
     "aliases": [],
     "type": "corporate",
@@ -9734,6 +11482,26 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Harley-Davidson",
+    "aliases": [
+      "Harley Davidson"
+    ],
+    "type": "corporate",
+    "parent": "Harley-Davidson, Inc.",
+    "source": "https://investor.harley-davidson.com/",
+    "sourceTitle": "Harley-Davidson — investor relations",
+    "note": "Harley-Davidson is a Harley-Davidson, Inc. brand (NYSE: HOG). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -9836,6 +11604,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "HearingLife",
+    "aliases": [
+      "Hearing Life"
+    ],
+    "type": "corporate",
+    "parent": "Demant A/S",
+    "source": "https://www.demant.com/",
+    "sourceTitle": "Demant — company website",
+    "note": "HearingLife is Demant's US retail hearing care chain; Demant is listed in Copenhagen.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "hearing",
+      "other",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Heartland Dental",
     "aliases": [],
     "type": "pe",
@@ -9851,6 +11640,30 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "KKR"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "HearUSA",
+    "aliases": [
+      "HearUSA Hearing Center"
+    ],
+    "type": "pe",
+    "parent": "WS Audiology · Tøpholm & Westermann families and EQT funds",
+    "source": "https://eqtgroup.com/news/eqt-private-equity-and-santo-to-invest-further-in-ws-audiology",
+    "sourceTitle": "EQT — EQT Private Equity and Santo invest further in WS Audiology",
+    "note": "HearUSA belongs to WS Audiology, privately owned by the founding families and funds managed by EQT.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "EQT"
+    ],
+    "matchCategories": [
+      "hearing",
+      "other",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -9918,6 +11731,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Herc Rentals",
+    "aliases": [
+      "H&E Equipment Services",
+      "H&E Rentals"
+    ],
+    "type": "corporate",
+    "parent": "Herc Holdings Inc.",
+    "source": "https://ir.hercrentals.com/",
+    "sourceTitle": "Herc Holdings — investor relations",
+    "note": "Herc Holdings is listed on the NYSE (HRI) and bought H&E Equipment Services in 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Hertz",
     "aliases": [
       "Hertz Car Rental",
@@ -9963,7 +11798,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Hibbett Sports",
     "aliases": [
       "Hibbett",
-      "Hibbett Sporting Goods"
+      "Hibbett Sporting Goods",
+      "Sports Additions"
     ],
     "type": "corporate",
     "parent": "JD Sports Fashion plc",
@@ -10101,7 +11937,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Hollister Co.",
     "aliases": [
       "Hollister",
-      "Hollister Co"
+      "Hollister Co",
+      "Gilly Hicks"
     ],
     "type": "corporate",
     "parent": "Abercrombie & Fitch Co.",
@@ -10179,6 +12016,85 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "HomeTeam Pest Defense",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Rollins, Inc.",
+    "source": "https://www.rollins.com/investor-relations",
+    "sourceTitle": "Rollins — investor relations",
+    "note": "HomeTeam Pest Defense belongs to Rollins, listed on the NYSE (ROL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Homewatch CareGivers",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Homewatch CareGivers belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Honda",
+    "aliases": [
+      "American Honda Motor Co"
+    ],
+    "type": "corporate",
+    "parent": "Honda Motor Co., Ltd.",
+    "source": "https://global.honda/en/investors/",
+    "sourceTitle": "Honda — investors",
+    "note": "Honda is a Honda Motor Co., Ltd. brand (TSE/NYSE: HMC). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "HOODZ",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "HOODZ belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Hooters",
     "aliases": [
       "Hooters Restaurant"
@@ -10240,6 +12156,29 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "HUB International",
+    "aliases": [
+      "Hub International",
+      "HUB International Insurance"
+    ],
+    "type": "pe",
+    "parent": "HUB International · Hellman & Friedman",
+    "source": "https://www.hubinternational.com/media-center/press-releases/2025/05/hub-secures-significant-minority-investment-and-reaches-new-milestone/",
+    "sourceTitle": "HUB International — minority investment; H&F keeps control (May 2025)",
+    "note": "Hellman & Friedman keeps a controlling interest in HUB after a 2025 minority investment.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Hellman & Friedman"
+    ],
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -10327,11 +12266,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Hunt Brothers Pizza",
+    "aliases": [
+      "Hunt Brother's Pizza"
+    ],
+    "type": "corporate",
+    "parent": "Hunt Brothers Pizza LLC (Hunt family, privately held)",
+    "source": "https://www.cspdailynews.com/foodservice/secret-their-success-hunt-brothers-pizza-30",
+    "sourceTitle": "CSP Daily News — Hunt Brothers Pizza at 30",
+    "note": "The family-run Nashville company supplies a turnkey pizza program to convenience stores, which run it themselves.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "restaurant",
+      "grocery",
+      "gas"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Huntington Bank",
     "aliases": [
       "Huntington National Bank",
       "The Huntington National Bank",
-      "Huntington"
+      "Huntington",
+      "Huntington Private Bank",
+      "TCF Bank"
     ],
     "type": "corporate",
     "parent": "Huntington Bancshares Incorporated",
@@ -10387,7 +12350,10 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Hy-Vee",
     "aliases": [
-      "Hy Vee"
+      "Hy Vee",
+      "Hy-Vee Market Grille",
+      "Hy-Vee Clinic Pharmacy",
+      "Hy-Vee Fast & Fresh"
     ],
     "type": "corporate",
     "parent": "Hy-Vee, Inc.",
@@ -10444,6 +12410,26 @@ export const BRAND_DIRECTORY = [
       "hotel"
     ],
     "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "aliases": [
+      "Hyundai Motor America"
+    ],
+    "type": "corporate",
+    "parent": "Hyundai Motor Group",
+    "source": "https://www.hyundai.com/worldwide/en/company/ir",
+    "sourceTitle": "Hyundai Motor Company — investor relations",
+    "note": "Hyundai is a Hyundai Motor Group brand (KRX-listed Hyundai Motor Company and Kia Corporation). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -10615,6 +12601,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Infiniti",
+    "aliases": [
+      "INFINITI"
+    ],
+    "type": "corporate",
+    "parent": "Nissan Motor Co., Ltd.",
+    "source": "https://www.nissan-global.com/EN/IR/",
+    "sourceTitle": "Nissan — investor relations",
+    "note": "Infiniti is a Nissan Motor Co., Ltd. brand (TSE: 7201). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Ingles Markets",
     "aliases": [
       "Ingles"
@@ -10690,6 +12696,22 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "It's Just Wings",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Brinker International, Inc.",
+    "source": "https://investors.brinker.com/overview/",
+    "sourceTitle": "Brinker International — investor overview",
+    "note": "It's Just Wings is a delivery-only brand cooked in Brinker's Chili's kitchens; Brinker is listed on the NYSE (EAT).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -11023,6 +13045,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Jeep",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Stellantis N.V.",
+    "source": "https://www.stellantis.com/en/investors",
+    "sourceTitle": "Stellantis — investors",
+    "note": "Jeep is a Stellantis N.V. brand (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Jersey Mike's Subs",
     "aliases": [
       "Jersey Mikes Subs",
@@ -11132,6 +13172,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "JLL",
+    "aliases": [
+      "Jones Lang LaSalle"
+    ],
+    "type": "corporate",
+    "parent": "Jones Lang LaSalle Incorporated",
+    "source": "https://ir.jll.com/",
+    "sourceTitle": "JLL — investor relations",
+    "note": "JLL is listed on the NYSE (JLL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Joe V’s Smart Shop",
     "aliases": [
       "Joe V's"
@@ -11148,6 +13207,29 @@ export const BRAND_DIRECTORY = [
       "lat": 29.42,
       "lng": -98.49
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "John Deere",
+    "aliases": [
+      "John Deere Dealer"
+    ],
+    "type": "corporate",
+    "parent": "Deere & Company",
+    "source": "https://investor.deere.com/",
+    "sourceTitle": "Deere & Company — investor relations",
+    "note": "Deere & Company is listed on the NYSE (DE). John Deere stores are run by independent dealers.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars",
+      "home",
+      "other",
+      "auto"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11238,7 +13320,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Journeys",
     "aliases": [
-      "Journeys Kidz"
+      "Journeys Kidz",
+      "Underground By Journeys"
     ],
     "type": "corporate",
     "parent": "Genesco Inc.",
@@ -11351,6 +13434,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Keller Williams",
+    "aliases": [
+      "Keller Williams Realty",
+      "Keller Williams Real Estate"
+    ],
+    "type": "pe",
+    "parent": "Keller Williams Realty · Gary Keller and Stone Point Capital",
+    "source": "https://www.stonepoint.com/news/keller-williams-announces-strategic-partnership-to-accelerate-growth/",
+    "sourceTitle": "Stone Point Capital — Keller Williams strategic partnership (March 2025)",
+    "note": "Private equity firm Stone Point Capital took an ownership stake in Keller Williams in 2025; Gary Keller and the leadership team are the other owners. Market centers are franchised and agents are independent contractors.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Stone Point Capital"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Kendra Scott",
     "aliases": [],
     "type": "pe",
@@ -11416,7 +13524,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "KeyBank",
     "aliases": [
-      "Key Bank"
+      "Key Bank",
+      "Key Private Bank"
     ],
     "type": "corporate",
     "parent": "KeyCorp",
@@ -11463,6 +13572,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kia",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Kia Corporation (Hyundai Motor Group)",
+    "source": "https://worldwide.kia.com/en/company/ir",
+    "sourceTitle": "Kia — investor relations",
+    "note": "Kia is a Kia Corporation (Hyundai Motor Group) brand (KRX: 000270). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Kiddie Academy",
     "aliases": [],
     "type": "corporate",
@@ -11497,6 +13624,26 @@ export const BRAND_DIRECTORY = [
     "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Kiehl's",
+    "aliases": [
+      "Kiehl's Since 1851"
+    ],
+    "type": "corporate",
+    "parent": "L'Oréal Groupe",
+    "source": "https://www.loreal.com/en/our-brands/",
+    "sourceTitle": "L'Oréal — our brands",
+    "note": "Kiehl's is a L'Oréal brand; L'Oréal is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "beauty"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11777,8 +13924,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Krispy Krunchy Chicken",
+    "aliases": [
+      "Krispy Krunchy"
+    ],
+    "type": "pe",
+    "parent": "Krispy Krunchy Foods · Main Post Partners investment",
+    "source": "https://restaurantbusinessonline.com/financing/retail-concept-krispy-krunchy-chicken-gets-growth-investment",
+    "sourceTitle": "Restaurant Business — Krispy Krunchy Chicken gets growth investment from Main Post Partners (2021)",
+    "note": "Private equity firm Main Post Partners invested in Krispy Krunchy in 2021. The chicken is sold from counters inside independently owned convenience stores, which buy the program from the brand.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "restaurant",
+      "grocery",
+      "gas"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Kroger",
-    "aliases": [],
+    "aliases": [
+      "The Little Clinic"
+    ],
     "type": "corporate",
     "parent": "The Kroger Co.",
     "source": "https://www.thekrogerco.com/",
@@ -11832,6 +14003,28 @@ export const BRAND_DIRECTORY = [
       "lat": 40.76,
       "lng": -111.89
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Kumon",
+    "aliases": [
+      "Kumon Math and Reading Center",
+      "Kumon Math & Reading Center",
+      "Kumon Learning Center"
+    ],
+    "type": "corporate",
+    "parent": "Kumon Institute of Education Co., Ltd. (privately held)",
+    "source": "https://www.kumon.com/about-kumon",
+    "sourceTitle": "Kumon — about Kumon",
+    "note": "Kumon is a privately held Japanese education company. US centers are run by local franchisees.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11952,7 +14145,8 @@ export const BRAND_DIRECTORY = [
     "brand": "La Colombe",
     "aliases": [
       "La Colombe Coffee",
-      "La Colombe Coffee Roasters"
+      "La Colombe Coffee Roasters",
+      "La Colombe Coffee Workshop"
     ],
     "type": "corporate",
     "parent": "Chobani, LLC",
@@ -12051,6 +14245,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Labcorp",
+    "aliases": [
+      "LabCorp",
+      "Labcorp at Walgreens",
+      "Labcorp Patient Service Center"
+    ],
+    "type": "corporate",
+    "parent": "Labcorp Holdings Inc.",
+    "source": "https://ir.labcorp.com/",
+    "sourceTitle": "Labcorp — investor relations",
+    "note": "Labcorp is listed on the NYSE (LH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "lab",
+      "clinic",
+      "pharmacy",
+      "general",
+      "grocery"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Lakeshore Learning",
     "aliases": [
       "Lakeshore Learning Store",
@@ -12071,7 +14290,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Lane Bryant",
-    "aliases": [],
+    "aliases": [
+      "Cacique"
+    ],
     "type": "pe",
     "parent": "Sycamore Partners",
     "source": "https://www.sycamorepartners.com/investments",
@@ -12117,6 +14338,27 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "LaserAway",
+    "aliases": [],
+    "type": "pe",
+    "parent": "LaserAway · Ares Management investment",
+    "source": "https://www.businesswire.com/news/home/20211021006090/en",
+    "sourceTitle": "Business Wire — LaserAway announces strategic investment by Ares Management (2021)",
+    "note": "Ares Management's private equity funds invested in LaserAway in 2021, alongside the founders.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Ares Management"
+    ],
+    "matchCategories": [
+      "beauty",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -12214,6 +14456,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Leslie's",
+    "aliases": [
+      "Leslie's Pool Supplies",
+      "Leslie's Pool Supplies, Service & Repair"
+    ],
+    "type": "corporate",
+    "parent": "Leslie's, Inc.",
+    "source": "https://ir.lesliespool.com/",
+    "sourceTitle": "Leslie's — investor relations",
+    "note": "Leslie's is listed on Nasdaq (LESL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "home"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Levi's",
     "aliases": [
       "Levi's Store",
@@ -12244,6 +14506,24 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "apparel"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lexus",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Toyota Motor Corporation",
+    "source": "https://global.toyota/en/ir/",
+    "sourceTitle": "Toyota — investor relations",
+    "note": "Lexus is a Toyota Motor Corporation brand (TSE/NYSE: TM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -12297,7 +14577,9 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Lids",
     "aliases": [
-      "Lids Sports Group"
+      "Lids Sports Group",
+      "Locker Room by Lids",
+      "Fanzz"
     ],
     "type": "pe",
     "parent": "Lids · Ames Watson investment",
@@ -12408,6 +14690,40 @@ export const BRAND_DIRECTORY = [
     "categories": [
       "corporate",
       "pe"
+    ]
+  },
+  {
+    "brand": "Lilly Pulitzer",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Oxford Industries, Inc.",
+    "source": "https://investor.oxfordinc.com/",
+    "sourceTitle": "Oxford Industries — investor relations",
+    "note": "Lilly Pulitzer is an Oxford Industries brand; Oxford is listed on the NYSE (OXM).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lincoln",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Ford Motor Company",
+    "source": "https://shareholder.ford.com/",
+    "sourceTitle": "Ford — shareholder relations",
+    "note": "Lincoln is a Ford Motor Company brand (NYSE: F). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only listings named exactly Lincoln match, because many unrelated businesses use the name.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -12593,7 +14909,12 @@ export const BRAND_DIRECTORY = [
       "Love's",
       "Love's Country Store",
       "Love's Country Stores",
-      "Love's Travel Stops & Country Stores"
+      "Love's Travel Stops & Country Stores",
+      "Speedco Truck Lube and Tires",
+      "Speedco",
+      "Love's Truck Care",
+      "Love's Travel Stops and Country Stores",
+      "Loves"
     ],
     "type": "corporate",
     "parent": "Love’s Travel Stops & Country Stores",
@@ -12605,7 +14926,8 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "gas",
       "grocery",
-      "other"
+      "other",
+      "auto"
     ],
     "preservePunctuation": true,
     "headquarters": {
@@ -12614,6 +14936,25 @@ export const BRAND_DIRECTORY = [
       "lat": 35.47,
       "lng": -97.52
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lovesac",
+    "aliases": [
+      "The Lovesac Company"
+    ],
+    "type": "corporate",
+    "parent": "The Lovesac Company",
+    "source": "https://investor.lovesac.com/",
+    "sourceTitle": "Lovesac — investor relations",
+    "note": "Lovesac is listed on Nasdaq (LOVE).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
     "categories": [
       "corporate"
     ]
@@ -12805,10 +15146,33 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "M·A·C Cosmetics",
+    "aliases": [
+      "MAC Cosmetics",
+      "M.A.C Cosmetics",
+      "M·A·C"
+    ],
+    "type": "corporate",
+    "parent": "The Estée Lauder Companies Inc.",
+    "source": "https://www.elcompanies.com/en/our-brands",
+    "sourceTitle": "Estée Lauder Companies — our brands",
+    "note": "M·A·C is an Estée Lauder brand; Estée Lauder is listed on the NYSE.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "beauty",
+      "apparel"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "M&T Bank",
     "aliases": [
       "M & T Bank",
-      "M&T"
+      "M&T",
+      "People's United Bank"
     ],
     "type": "corporate",
     "parent": "M&T Bank Corporation",
@@ -12841,7 +15205,10 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Maaco",
     "aliases": [
-      "Maaco Auto Body Shop & Painting"
+      "Maaco Auto Body Shop & Painting",
+      "Maaco Collision Repair & Auto Painting",
+      "Maaco Auto Body Shop and Painting",
+      "Maaco Auto Body Shop"
     ],
     "type": "pe",
     "parent": "Driven Brands · Roark investment",
@@ -13501,6 +15868,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mazda",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Mazda Motor Corporation",
+    "source": "https://www.mazda.com/en/investors/",
+    "sourceTitle": "Mazda — investors",
+    "note": "Mazda is a Mazda Motor Corporation brand (TSE: 7261). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "McAlister's Deli",
     "aliases": [
       "McAlisters Deli",
@@ -13571,7 +15956,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Meijer",
-    "aliases": [],
+    "aliases": [
+      "Meijer Express"
+    ],
     "type": "corporate",
     "parent": "Meijer, Inc.",
     "source": "https://newsroom.meijer.com/about",
@@ -13591,7 +15978,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Meineke",
     "aliases": [
-      "Meineke Car Care Center"
+      "Meineke Car Care Center",
+      "Meineke Car Care"
     ],
     "type": "pe",
     "parent": "Driven Brands · Roark investment",
@@ -13626,7 +16014,9 @@ export const BRAND_DIRECTORY = [
     "brand": "Men's Wearhouse",
     "aliases": [
       "Mens Wearhouse",
-      "The Men's Wearhouse"
+      "The Men's Wearhouse",
+      "Men's Wearhouse & Tux",
+      "Men's Wearhouse and Tux"
     ],
     "type": "corporate",
     "parent": "Tailored Brands, Inc. (controlled by Silver Point Capital funds)",
@@ -13655,6 +16045,26 @@ export const BRAND_DIRECTORY = [
       "lat": 44.81,
       "lng": -91.5
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "aliases": [
+      "Mercedes Benz"
+    ],
+    "type": "corporate",
+    "parent": "Mercedes-Benz Group AG",
+    "source": "https://group.mercedes-benz.com/investors/",
+    "sourceTitle": "Mercedes-Benz Group — investors",
+    "note": "Mercedes-Benz is a Mercedes-Benz Group AG brand (Frankfurt: MBG). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -13912,6 +16322,47 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mindpath Health",
+    "aliases": [
+      "Mindpath Care Centers"
+    ],
+    "type": "pe",
+    "parent": "Mindpath Health · Centerbridge Partners and Leonard Green & Partners",
+    "source": "https://mergr.com/transaction/centerbridge-partners-acquires-mindpath-health",
+    "sourceTitle": "Mergr — Centerbridge Partners and Leonard Green acquire Mindpath Health (December 2020)",
+    "note": "Centerbridge Partners and Leonard Green & Partners bought Mindpath Health in December 2020.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Centerbridge Partners",
+      "Leonard Green & Partners"
+    ],
+    "matchCategories": [
+      "mental",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "MINI",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Bayerische Motoren Werke AG",
+    "source": "https://www.bmwgroup.com/en/investor-relations.html",
+    "sourceTitle": "BMW Group — investor relations",
+    "note": "MINI is a Bayerische Motoren Werke AG brand (Frankfurt: BMW). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Minit Mart",
     "aliases": [],
     "type": "pe",
@@ -13969,7 +16420,9 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Minuteman Press",
     "aliases": [
-      "Minuteman Press Printing"
+      "Minuteman Press Printing",
+      "International Minute Press",
+      "Minuteman Press International"
     ],
     "type": "corporate",
     "parent": "Minuteman Press International (family-owned franchisor · Titus family)",
@@ -14017,6 +16470,29 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "Leonard Green & Partners"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mister Sparky",
+    "aliases": [
+      "Mister Sparky Electric"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Mister Sparky belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -14090,6 +16566,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Molly Maid",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Molly Maid is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Monarch Dental",
     "aliases": [
       "Monarch Dental & Orthodontics"
@@ -14117,7 +16614,12 @@ export const BRAND_DIRECTORY = [
       "Monro Muffler Brake",
       "Mr. Tire",
       "Tire Choice",
-      "Car-X"
+      "Car-X",
+      "Mr. Tire Auto Service Centers",
+      "Car-X Tire & Auto",
+      "Car-X Tire and Auto",
+      "Monro Muffler Brake & Service",
+      "Tire Choice Auto Service Centers"
     ],
     "type": "corporate",
     "parent": "Monro, Inc.",
@@ -14146,6 +16648,27 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Monster Tree Service",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Monster Tree Service belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -14205,6 +16728,48 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mosquito Joe",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mosquito Joe is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mosquito Squad",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "Mosquito Squad belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Motel 6",
     "aliases": [
       "Studio 6"
@@ -14251,6 +16816,99 @@ export const BRAND_DIRECTORY = [
     "localOperators": "memberowned",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "Mr. Appliance",
+    "aliases": [
+      "Mr Appliance"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Appliance is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Electric",
+    "aliases": [
+      "Mr Electric"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Electric is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Handyman",
+    "aliases": [
+      "Mr Handyman"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Handyman is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Mr. Rooter Plumbing",
+    "aliases": [
+      "Mr. Rooter",
+      "Mr Rooter Plumbing"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Mr. Rooter Plumbing is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -14324,7 +16982,9 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "MyEyeDr",
       "My Eye Dr",
-      "My Eye Doctor"
+      "My Eye Doctor",
+      "Rx Optical, a MyEyeDr. Company",
+      "Rx Optical"
     ],
     "type": "pe",
     "parent": "MyEyeDr. · Goldman Sachs Asset Management",
@@ -14341,6 +17001,29 @@ export const BRAND_DIRECTORY = [
       "Goldman Sachs Alternatives",
       "Charlesbank Capital Partners"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "N-Hance Wood Refinishing",
+    "aliases": [
+      "N-Hance"
+    ],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "N-Hance Wood Refinishing belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -14413,6 +17096,50 @@ export const BRAND_DIRECTORY = [
     "note": "Enterprise Holdings expressly identifies itself as the owner of this rental brand. This large privately held company is included in the corporate category; locations operate through subsidiaries and franchises.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "National Spine & Pain Centers",
+    "aliases": [
+      "National Spine and Pain Centers"
+    ],
+    "type": "pe",
+    "parent": "National Spine & Pain Centers · Avista Capital Partners",
+    "source": "https://prnewswire.com/news-releases/avista-capital-partners-has-acquired-national-spine--pain-centers-llc-300468411.html",
+    "sourceTitle": "PR Newswire — Avista Capital Partners acquires National Spine & Pain Centers (2017)",
+    "note": "Avista Capital Partners bought the practice-management company behind National Spine & Pain Centers from Sentinel Capital Partners in 2017.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Avista Capital Partners"
+    ],
+    "matchCategories": [
+      "specialists",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Nationwide",
+    "aliases": [
+      "Nationwide Insurance"
+    ],
+    "type": "corporate",
+    "parent": "Nationwide Mutual Insurance Company (policyholder-owned)",
+    "source": "https://www.nationwide.com/personal/about-us/",
+    "sourceTitle": "Nationwide — about us",
+    "note": "Nationwide is a mutual company owned by its policyholders. Agency listings named after a person get the dealer badge.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -14649,6 +17376,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Nissan",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Nissan Motor Co., Ltd.",
+    "source": "https://www.nissan-global.com/EN/IR/",
+    "sourceTitle": "Nissan — investor relations",
+    "note": "Nissan is a Nissan Motor Co., Ltd. brand (TSE: 7201). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Noah’s New York Bagels",
     "aliases": [
       "Noah's New York Bagels",
@@ -14842,7 +17587,10 @@ export const BRAND_DIRECTORY = [
     "brand": "NTB",
     "aliases": [
       "NTB Tire & Service Centers",
-      "National Tire & Battery"
+      "National Tire & Battery",
+      "NTB - National Tire & Battery",
+      "NTB National Tire and Battery",
+      "Merchant's Tire & Auto Centers"
     ],
     "type": "corporate",
     "parent": "TBC Corporation · Sumitomo Corporation",
@@ -14939,6 +17687,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Old National Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Old National Bancorp",
+    "source": "https://www.oldnational.com/investor-relations/",
+    "sourceTitle": "Old National — investor relations",
+    "note": "Old National is listed on Nasdaq (ONB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Old Navy",
     "aliases": [],
     "type": "corporate",
@@ -15017,6 +17782,50 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "One Hour Heating & Air Conditioning",
+    "aliases": [
+      "One Hour Heating and Air Conditioning",
+      "One Hour Air Conditioning & Heating",
+      "One Hour Heating & Air"
+    ],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "One Hour Heating & Air Conditioning belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "One Medical",
+    "aliases": [
+      "Amazon One Medical"
+    ],
+    "type": "corporate",
+    "parent": "Amazon.com, Inc.",
+    "source": "https://www.onemedical.com/",
+    "sourceTitle": "One Medical — an Amazon company",
+    "note": "Amazon bought One Medical in 2023.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "One9",
     "aliases": [
       "One9 Travel Center",
@@ -15052,6 +17861,26 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Berkshire Hathaway — May 2026 release confirming both common-stock listings",
       "checked": "2026-10-26"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "OneMain Financial",
+    "aliases": [
+      "OneMain"
+    ],
+    "type": "corporate",
+    "parent": "OneMain Holdings, Inc.",
+    "source": "https://investor.onemainfinancial.com/",
+    "sourceTitle": "OneMain — investor relations",
+    "note": "OneMain is listed on the NYSE (OMF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "money",
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -15106,6 +17935,42 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Origins",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "The Estée Lauder Companies Inc.",
+    "source": "https://www.elcompanies.com/en/our-brands",
+    "sourceTitle": "Estée Lauder Companies — our brands",
+    "note": "Origins is an Estée Lauder brand; Estée Lauder is listed on the NYSE.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Orkin",
+    "aliases": [
+      "Orkin Pest Control"
+    ],
+    "type": "corporate",
+    "parent": "Rollins, Inc.",
+    "source": "https://www.rollins.com/investor-relations",
+    "sourceTitle": "Rollins — investor relations",
+    "note": "Orkin belongs to Rollins, listed on the NYSE (ROL). Some locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -15453,6 +18318,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Paul Davis Restoration",
+    "aliases": [
+      "Paul Davis Emergency Services"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Paul Davis Restoration is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pavilions",
     "aliases": [],
     "type": "corporate",
@@ -15543,7 +18428,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Peet’s Coffee",
     "aliases": [
       "Peet's Coffee & Tea",
-      "Peet's"
+      "Peet's",
+      "Peet's Coffee and Tea"
     ],
     "type": "corporate",
     "parent": "JDE Peet’s · Keurig Dr Pepper",
@@ -15578,10 +18464,33 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Penske Truck Rental",
+    "aliases": [
+      "Penske Truck Leasing",
+      "Penske Rental"
+    ],
+    "type": "corporate",
+    "parent": "Penske Truck Leasing · Penske Corporation and Mitsui",
+    "source": "https://www.pensketruckleasing.com/company/",
+    "sourceTitle": "Penske Truck Leasing — about the company",
+    "note": "Penske Truck Leasing is a partnership of Penske Corporation and Mitsui & Co.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pep Boys",
     "aliases": [
       "Pep Boys Auto",
-      "Pep Boys Manny Moe & Jack"
+      "Pep Boys Manny Moe & Jack",
+      "Pep Boys Auto Parts & Service",
+      "Pep Boys Auto Service & Tire"
     ],
     "type": "pe",
     "parent": "Mavis Tire · TSG Consumer Partners investment",
@@ -15602,7 +18511,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Perkins Restaurant & Bakery",
       "Perkins Family Restaurant",
-      "Perkins Restaurant and Bakery"
+      "Perkins Restaurant and Bakery",
+      "Perkins American Food Co."
     ],
     "type": "corporate",
     "parent": "Ascent Hospitality Management · Elysium Management",
@@ -15662,7 +18572,12 @@ export const BRAND_DIRECTORY = [
     "brand": "Petco",
     "aliases": [
       "Petco Animal Supplies",
-      "Petco Health and Wellness"
+      "Petco Health and Wellness",
+      "Vetco Vaccination Clinic",
+      "Vetco",
+      "Vetco Total Care Animal Hospital",
+      "Petco Dog Training",
+      "Petco Grooming"
     ],
     "type": "pe",
     "parent": "Petco Health and Wellness Company · CVC / CPP Investments",
@@ -15822,6 +18737,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Pie Five Pizza",
+    "aliases": [
+      "Pie Five"
+    ],
+    "type": "corporate",
+    "parent": "Rave Restaurant Group, Inc.",
+    "source": "https://www.raverg.com/investors",
+    "sourceTitle": "Rave Restaurant Group — investors",
+    "note": "Rave Restaurant Group is listed on Nasdaq (RAVE); restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Piggly Wiggly",
     "aliases": [],
     "type": "independent",
@@ -15840,11 +18775,33 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Pillar To Post Home Inspectors",
+    "aliases": [
+      "Pillar To Post"
+    ],
+    "type": "corporate",
+    "parent": "FirstService Corporation",
+    "source": "https://www.firstservice.com/",
+    "sourceTitle": "FirstService — company website",
+    "note": "Pillar To Post Home Inspectors is a FirstService Brands company; FirstService is listed on Nasdaq and the TSX (FSV). Most locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pilot",
     "aliases": [
       "Pilot Travel Center",
       "Pilot Travel Centers",
-      "Pilot Flying J"
+      "Pilot Flying J",
+      "Pilot Convenience Store",
+      "Pilot Flying J Truck Care"
     ],
     "type": "corporate",
     "parent": "Pilot Company · Berkshire Hathaway Inc.",
@@ -15902,7 +18859,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Pizza Hut",
-    "aliases": [],
+    "aliases": [
+      "WingStreet",
+      "Wing Street"
+    ],
     "type": "pe",
     "parent": "Pizza Hut · LongRange Capital",
     "source": "https://www.longrangecapital.com/news/longrange-capital-completes-acquisition-of-pizza-hut-from-yum-brands",
@@ -15916,6 +18876,26 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Pizza Inn",
+    "aliases": [
+      "Pizza Inn Express"
+    ],
+    "type": "corporate",
+    "parent": "Rave Restaurant Group, Inc.",
+    "source": "https://www.raverg.com/investors",
+    "sourceTitle": "Rave Restaurant Group — investors",
+    "note": "Rave Restaurant Group is listed on Nasdaq (RAVE); restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -16076,7 +19056,11 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "PNC Bank",
     "aliases": [
-      "PNC"
+      "PNC",
+      "PNC Mortgage",
+      "PNC Private Bank",
+      "BBVA Bank",
+      "BBVA"
     ],
     "type": "corporate",
     "parent": "The PNC Financial Services Group, Inc.",
@@ -16183,6 +19167,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Porsche",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Dr. Ing. h.c. F. Porsche AG (majority owned by Volkswagen AG)",
+    "source": "https://investorrelations.porsche.com/",
+    "sourceTitle": "Porsche — investor relations",
+    "note": "Porsche is a Dr. Ing. h.c. F. Porsche AG (majority owned by Volkswagen AG) brand (Frankfurt: P911). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Portillo's",
     "aliases": [
       "Portillos",
@@ -16237,6 +19239,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Potbelly",
+    "aliases": [
+      "Potbelly Sandwich Shop",
+      "Potbelly Sandwich Works"
+    ],
+    "type": "corporate",
+    "parent": "RaceTrac, Inc. (privately held)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1195734/000119312525248610/d73150dex991.htm",
+    "sourceTitle": "Potbelly — 8-K on completion of RaceTrac acquisition (October 2025)",
+    "note": "Family-owned convenience retailer RaceTrac took Potbelly private in October 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pottery Barn",
     "aliases": [],
     "type": "corporate",
@@ -16281,7 +19303,8 @@ export const BRAND_DIRECTORY = [
     "brand": "PPG Paints",
     "aliases": [
       "PPG Paints Store",
-      "Pittsburgh Paints"
+      "Pittsburgh Paints",
+      "PPG Paints - Paint Store"
     ],
     "type": "pe",
     "parent": "The Pittsburgh Paints Company · American Industrial Partners",
@@ -16293,6 +19316,29 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Precision Garage Door Service",
+    "aliases": [
+      "Precision Door Service"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Precision Garage Door Service is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -16447,6 +19493,23 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Prosperity Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Prosperity Bancshares, Inc.",
+    "source": "https://www.prosperitybankusa.com/investor-relations",
+    "sourceTitle": "Prosperity Bancshares — investor relations",
+    "note": "Prosperity Bancshares is listed on the NYSE (PB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -16622,6 +19685,73 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Quest Diagnostics",
+    "aliases": [
+      "Quest Diagnostics Patient Service Center"
+    ],
+    "type": "corporate",
+    "parent": "Quest Diagnostics Incorporated",
+    "source": "https://ir.questdiagnostics.com/",
+    "sourceTitle": "Quest Diagnostics — investor relations",
+    "note": "Quest Diagnostics is listed on the NYSE (DGX).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "lab",
+      "clinic",
+      "pharmacy",
+      "general",
+      "grocery"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Quick Lane",
+    "aliases": [
+      "Quick Lane Tire & Auto Center",
+      "Quick Lane Tire and Auto Center"
+    ],
+    "type": "corporate",
+    "parent": "Ford Motor Company",
+    "source": "https://shareholder.ford.com/",
+    "sourceTitle": "Ford — shareholder relations",
+    "note": "Quick Lane is Ford's service brand; most locations are run by Ford dealers. Ford is listed on the NYSE (F).",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Quick Quack Car Wash",
+    "aliases": [
+      "Quick Quack"
+    ],
+    "type": "pe",
+    "parent": "Quick Quack · KKR, Seidler Equity Partners and founders",
+    "source": "https://www.carwash.com/quick-quack-investment-kkr/",
+    "sourceTitle": "Carwash.com — Quick Quack announces strategic investment by KKR (June 2024)",
+    "note": "KKR made a significant minority investment in 2024; Seidler Equity Partners and the founders kept meaningful stakes.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "matchCategories": [
+      "carwash",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "QuickChek",
     "aliases": [
       "Quick Chek",
@@ -16737,6 +19867,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "QXO",
+    "aliases": [
+      "Beacon Building Products"
+    ],
+    "type": "corporate",
+    "parent": "QXO, Inc.",
+    "source": "https://investors.qxo.com/",
+    "sourceTitle": "QXO — investor relations",
+    "note": "QXO is listed on the NYSE and bought Beacon Roofing Supply in 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "RA Sushi",
     "aliases": [
       "RA Sushi Bar Restaurant"
@@ -16807,6 +19957,67 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Rack Room Shoes",
+    "aliases": [
+      "Off Broadway Shoe Warehouse",
+      "Off Broadway Shoes"
+    ],
+    "type": "corporate",
+    "parent": "Deichmann SE (privately held, Germany)",
+    "source": "https://corpsite.deichmann.com/wp-content/uploads/2024/09/DSD_Expansionsbroschüre_ENGLISH_FS24-1.pdf",
+    "sourceTitle": "Deichmann — group expansion brochure (Rack Room Shoes acquired 1984)",
+    "note": "Rack Room Shoes has been part of the family-owned German Deichmann Group since 1984.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Radiant Waxing",
+    "aliases": [],
+    "type": "pe",
+    "parent": "WellBiz Brands · Transom Capital",
+    "source": "https://athletechnews.com/drybar-fitness-together-parent-wellbiz-acquisition-transom-capital/",
+    "sourceTitle": "Athletech News — Transom Capital acquires WellBiz Brands (2026)",
+    "note": "Radiant Waxing belongs to WellBiz Brands, bought by Transom Capital in early 2026. Salons are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Rainbow Restoration",
+    "aliases": [
+      "Rainbow International Restoration"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Rainbow Restoration is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -16910,6 +20121,27 @@ export const BRAND_DIRECTORY = [
       "lat": 38.58,
       "lng": -121.53
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Ralph Lauren",
+    "aliases": [
+      "Polo Ralph Lauren",
+      "Polo Ralph Lauren Factory Store",
+      "Ralph Lauren Factory Store"
+    ],
+    "type": "corporate",
+    "parent": "Ralph Lauren Corporation",
+    "source": "https://investor.ralphlauren.com/",
+    "sourceTitle": "Ralph Lauren — investor relations",
+    "note": "Ralph Lauren is listed on the NYSE (RL).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -17029,6 +20261,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Real Property Management",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Real Property Management is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -17360,6 +20613,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Rexel",
+    "aliases": [
+      "Rexel USA"
+    ],
+    "type": "corporate",
+    "parent": "Rexel S.A.",
+    "source": "https://www.rexel.com/en/finance/",
+    "sourceTitle": "Rexel — finance",
+    "note": "Rexel is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "RH",
     "aliases": [
       "Restoration Hardware",
@@ -17675,6 +20948,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Roto-Rooter",
+    "aliases": [
+      "Roto-Rooter Plumbing & Water Cleanup",
+      "Roto Rooter"
+    ],
+    "type": "corporate",
+    "parent": "Chemed Corporation",
+    "source": "https://ir.chemed.com/",
+    "sourceTitle": "Chemed — investor relations",
+    "note": "Roto-Rooter belongs to Chemed, listed on the NYSE (CHE). Some locations are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Round Table Pizza",
     "aliases": [],
     "type": "corporate",
@@ -17896,6 +21190,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Ryder Truck Rental",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Ryder System, Inc.",
+    "source": "https://investors.ryder.com/",
+    "sourceTitle": "Ryder — investor relations",
+    "note": "Ryder is listed on the NYSE (R).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Safelite AutoGlass",
     "aliases": [
       "Safelite"
@@ -17941,6 +21253,27 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Saint Laurent",
+    "aliases": [
+      "Yves Saint Laurent",
+      "YSL"
+    ],
+    "type": "corporate",
+    "parent": "Kering SA",
+    "source": "https://www.kering.com/en/houses/",
+    "sourceTitle": "Kering — houses",
+    "note": "Saint Laurent is a Kering house; Kering is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -17994,7 +21327,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Sam’s Club",
     "aliases": [
-      "Sam's Club"
+      "Sam's Club",
+      "Sam's Club Optical Center"
     ],
     "type": "corporate",
     "parent": "Walmart Inc.",
@@ -18398,11 +21732,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "See's Candies",
+    "aliases": [
+      "See's Candy",
+      "See's"
+    ],
+    "type": "corporate",
+    "parent": "Berkshire Hathaway Inc.",
+    "source": "https://www.berkshirehathaway.com/subs/sublinks.html",
+    "sourceTitle": "Berkshire Hathaway — operating companies",
+    "note": "See's Candies is a Berkshire Hathaway company.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "grocery",
+      "coffee",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Select Physical Therapy",
     "aliases": [
       "NovaCare Rehabilitation",
       "NovaCare",
-      "Physiotherapy Associates"
+      "Physiotherapy Associates",
+      "Select Medical"
     ],
     "type": "pe",
     "parent": "Select Medical · founders and Welsh, Carson, Anderson & Stowe",
@@ -18495,6 +21853,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SERVPRO",
+    "aliases": [
+      "Servpro"
+    ],
+    "type": "pe",
+    "parent": "SERVPRO · Blackstone (majority) and the Isaacson family",
+    "source": "https://www.blackstone.com/news/press/servpro-leading-franchisor-of-residential-and-commercial-property-damage-restoration-services-announces-recapitalization-and-long-term-partnership-with-blackstone/",
+    "sourceTitle": "Blackstone — SERVPRO recapitalization and partnership (2019)",
+    "note": "Blackstone's long-term private equity funds bought control of SERVPRO in 2019; the founding family kept a significant stake. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Shake Shack",
     "aliases": [],
     "type": "corporate",
@@ -18542,8 +21923,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
-    "brand": "Shell",
+    "brand": "ShelfGenie",
     "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "ShelfGenie is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices",
+      "home"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Shell",
+    "aliases": [
+      "Shell Food Mart"
+    ],
     "type": "corporate",
     "parent": "Shell plc",
     "source": "https://www.shell.com/who-we-are.html",
@@ -18561,7 +21966,9 @@ export const BRAND_DIRECTORY = [
       "Sherwin-Williams Paint Store",
       "Sherwin Williams Paint Store",
       "Sherwin-Williams Commercial Paint Store",
-      "Sherwin-Williams Paints"
+      "Sherwin-Williams Paints",
+      "Sherwin-Williams Floorcovering Store",
+      "Sherwin-Williams Automotive Finishes"
     ],
     "type": "corporate",
     "parent": "The Sherwin-Williams Company",
@@ -18864,6 +22271,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Simmons Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Simmons First National Corporation",
+    "source": "https://ir.simmonsbank.com/",
+    "sourceTitle": "Simmons First National — investor relations",
+    "note": "Simmons First National is listed on Nasdaq (SFNC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Simple Mobile",
     "aliases": [],
     "type": "corporate",
@@ -18952,6 +22376,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SiteOne Landscape Supply",
+    "aliases": [
+      "SiteOne"
+    ],
+    "type": "corporate",
+    "parent": "SiteOne Landscape Supply, Inc.",
+    "source": "https://investors.siteone.com/",
+    "sourceTitle": "SiteOne — investor relations",
+    "note": "SiteOne is listed on the NYSE (SITE).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "home"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Six Flags",
     "aliases": [
       "Six Flags America",
@@ -18996,7 +22440,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Skechers Factory Outlet",
       "Skechers Warehouse Outlet",
-      "Skechers Outlet"
+      "Skechers Outlet",
+      "SKECHERS Retail"
     ],
     "type": "pe",
     "parent": "Skechers U.S.A., Inc. · 3G Capital",
@@ -19187,7 +22632,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Soma",
-    "aliases": [],
+    "aliases": [
+      "Soma Intimates"
+    ],
     "type": "pe",
     "parent": "KnitWell Group · Sycamore Partners",
     "source": "https://www.sycamorepartners.com/news-article/knitwell-group-adds-chicos-white-house-black-market-and-soma",
@@ -19279,6 +22726,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SouthState Bank",
+    "aliases": [
+      "South State Bank"
+    ],
+    "type": "corporate",
+    "parent": "SouthState Corporation",
+    "source": "https://investors.southstatebank.com/",
+    "sourceTitle": "SouthState — investor relations",
+    "note": "SouthState is listed on the NYSE (SSB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Spec's",
     "aliases": [
       "Spec's Wines, Spirits & Finer Foods",
@@ -19344,7 +22810,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Speedway",
-    "aliases": [],
+    "aliases": [
+      "Speedy Cafe"
+    ],
     "type": "corporate",
     "parent": "7-Eleven, Inc.",
     "source": "https://corp.7-eleven.com/corp/about",
@@ -19548,6 +23016,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SRS Distribution",
+    "aliases": [
+      "SRS Building Products",
+      "American Roofing Supply"
+    ],
+    "type": "corporate",
+    "parent": "The Home Depot, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000177/exhibit991-6182024srsclosi.htm",
+    "sourceTitle": "The Home Depot — completes acquisition of SRS Distribution (June 2024)",
+    "note": "Home Depot (NYSE HD) bought SRS Distribution in 2024.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Staples",
     "aliases": [
       "Staples US Retail",
@@ -19711,6 +23200,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Steve Madden",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Steven Madden, Ltd.",
+    "source": "https://investor.stevemadden.com/",
+    "sourceTitle": "Steve Madden — investor relations",
+    "note": "Steven Madden is listed on Nasdaq (SHOO).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Stew Leonard's",
     "aliases": [
       "Stew Leonards"
@@ -19739,6 +23245,26 @@ export const BRAND_DIRECTORY = [
       "lat": 41.12,
       "lng": -73.41
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Stewart Title",
+    "aliases": [
+      "Stewart Title Company",
+      "Stewart Title Guaranty Company"
+    ],
+    "type": "corporate",
+    "parent": "Stewart Information Services Corporation",
+    "source": "https://ir.stewart.com/",
+    "sourceTitle": "Stewart — investor relations",
+    "note": "Stewart is listed on the NYSE (STC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -19988,6 +23514,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Subaru",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Subaru Corporation",
+    "source": "https://www.subaru.co.jp/en/ir/",
+    "sourceTitle": "Subaru — investor relations",
+    "note": "Subaru is a Subaru Corporation brand (TSE: 7270). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Subway",
     "aliases": [],
     "type": "pe",
@@ -20048,6 +23592,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Sunbelt Rentals",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Ashtead Group (Sunbelt Rentals)",
+    "source": "https://www.ashtead-group.com/investors",
+    "sourceTitle": "Ashtead Group — investors",
+    "note": "Sunbelt Rentals is Ashtead Group's equipment rental business; the group is publicly listed.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Suncoast Credit Union",
     "aliases": [
       "Suncoast"
@@ -20077,7 +23640,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Sunglass Hut",
-    "aliases": [],
+    "aliases": [
+      "Sunglass Hut at Macy's",
+      "Sunglass Outfitters by Sunglass Hut"
+    ],
     "type": "corporate",
     "parent": "EssilorLuxottica SA",
     "source": "https://www.essilorluxottica.com/en/brands/direct-to-consumer/",
@@ -20107,7 +23673,11 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Sunoco",
-    "aliases": [],
+    "aliases": [
+      "APlus",
+      "A Plus Mini Market",
+      "A-Plus"
+    ],
     "type": "corporate",
     "parent": "Sunoco LP",
     "source": "https://www.sunocolp.com/",
@@ -20516,6 +24086,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "TAG Heuer",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "LVMH",
+    "source": "https://www.lvmh.com/en/our-maisons",
+    "sourceTitle": "LVMH — our maisons",
+    "note": "TAG Heuer is an LVMH brand; LVMH is listed in Paris.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tahoe Joe’s",
     "aliases": [
       "Tahoe Joe's",
@@ -20550,6 +24138,24 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Take 5 Car Wash",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Whistle Express · Oaktree Capital funds",
+    "source": "https://www.businesswire.com/news/home/20250225313854/en/Whistle-Express-Signs-Definitive-Agreement-to-Acquire-Take-5-Car-Wash-Creating-the-Largest-Express-Car-Wash-Company-in-the-United-States",
+    "sourceTitle": "Business Wire — Whistle Express (Oaktree-backed) to acquire Take 5 Car Wash (2025)",
+    "note": "Driven Brands sold Take 5 Car Wash to Oaktree-backed Whistle Express in 2025; sites are being rebranded, and 53 later went to Tsunami Express. Take 5 Oil Change is a separate Driven Brands business.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "carwash",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -20681,8 +24287,53 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Terminix",
+    "aliases": [
+      "Terminix Pest Control",
+      "Terminix Termite & Pest Control"
+    ],
+    "type": "corporate",
+    "parent": "Rentokil Initial plc",
+    "source": "https://www.rentokil-initial.com/investors",
+    "sourceTitle": "Rentokil Initial — investors",
+    "note": "Rentokil, listed in London and New York (RTO), bought Terminix in 2022.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Tesla",
+    "aliases": [
+      "Tesla Showroom",
+      "Tesla Service Center",
+      "Tesla Delivery Center"
+    ],
+    "type": "corporate",
+    "parent": "Tesla, Inc.",
+    "source": "https://ir.tesla.com/",
+    "sourceTitle": "Tesla — investor relations",
+    "note": "Tesla is listed on Nasdaq (TSLA) and sells and services cars in its own company-owned stores.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "cars",
+      "auto"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Texaco",
-    "aliases": [],
+    "aliases": [
+      "Texaco with Techron",
+      "Texaco Food Mart",
+      "Texaco Xpress Lube"
+    ],
     "type": "corporate",
     "parent": "Chevron Corporation",
     "source": "https://chevroncorp.gcs-web.com/static-files/6beae4d6-142e-4a4d-bee9-1714cad041a3",
@@ -20852,6 +24503,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Cleaning Authority",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Authority Brands · Apax Partners funds",
+    "source": "https://www.apax.com/partnerships/authority-brands/",
+    "sourceTitle": "Apax — Authority Brands",
+    "note": "The Cleaning Authority belongs to Authority Brands, controlled by funds advised by Apax Partners. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "The Coffee Bean & Tea Leaf",
     "aliases": [
       "Coffee Bean & Tea Leaf",
@@ -20998,9 +24670,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Grounds Guys",
+    "aliases": [
+      "Grounds Guys"
+    ],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "The Grounds Guys is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "The Home Depot",
     "aliases": [
-      "Home Depot"
+      "Home Depot",
+      "Tool & Truck Rental at The Home Depot",
+      "The Home Depot Tool Rental",
+      "Home Services at The Home Depot"
     ],
     "type": "corporate",
     "parent": "The Home Depot, Inc.",
@@ -21065,6 +24763,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Lash Lounge",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Head to Toe Brands · The Riverside Company",
+    "source": "https://www.riversidecompany.com/currents/lash-lounge-add-on-news-release",
+    "sourceTitle": "The Riverside Company — The Lash Lounge investment (March 2024)",
+    "note": "The Riverside Company bought The Lash Lounge franchisor in 2024 as the base of its Head to Toe Brands platform. Salons are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "beauty"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "The Learning Experience",
     "aliases": [
       "Learning Experience",
@@ -21117,6 +24832,27 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "The Patch Boys",
+    "aliases": [],
+    "type": "pe",
+    "parent": "BELFOR · American Securities",
+    "source": "https://belforfranchisegroup.com/about/history-of-belfor-franchise-group/",
+    "sourceTitle": "BELFOR Franchise Group — brand history",
+    "note": "The Patch Boys belongs to BELFOR Franchise Group, part of BELFOR, which American Securities bought in 2019. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -21291,6 +25027,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Thriveworks",
+    "aliases": [
+      "Thriveworks Counseling",
+      "Thriveworks Counseling & Psychiatry"
+    ],
+    "type": "pe",
+    "parent": "Thriveworks · Regal Healthcare Capital Partners (largest holder)",
+    "source": "https://bhbusiness.com/2022/04/20/fast-growing-mental-health-company-thriveworks-names-new-ceo/",
+    "sourceTitle": "Behavioral Health Business — Thriveworks investors and leadership",
+    "note": "Private equity firm Regal Healthcare Capital Partners is Thriveworks' largest equity holder; Wellington Management led a 2021 investment round.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "mental",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Tide Cleaners",
     "aliases": [
       "Tide Dry Cleaners"
@@ -21447,7 +25204,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "TJ Maxx",
     "aliases": [
-      "T.J. Maxx"
+      "T.J. Maxx",
+      "T.J. Maxx & HomeGoods"
     ],
     "type": "corporate",
     "parent": "The TJX Companies, Inc.",
@@ -21557,6 +25315,25 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Tommy Bahama",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Oxford Industries, Inc.",
+    "source": "https://investor.oxfordinc.com/",
+    "sourceTitle": "Oxford Industries — investor relations",
+    "note": "Tommy Bahama is an Oxford Industries brand; Oxford is listed on the NYSE (OXM).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "restaurant",
+      "bar"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -21769,6 +25546,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Toyota",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Toyota Motor Corporation",
+    "source": "https://global.toyota/en/ir/",
+    "sourceTitle": "Toyota — investor relations",
+    "note": "Toyota is a Toyota Motor Corporation brand (TSE/NYSE: TM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tracfone",
     "aliases": [
       "Tracfone Wireless"
@@ -21804,7 +25599,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Tractor Supply Company",
     "aliases": [
-      "Tractor Supply"
+      "Tractor Supply",
+      "Garden Center at Tractor Supply"
     ],
     "type": "corporate",
     "parent": "Tractor Supply Company",
@@ -21834,7 +25630,13 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "TravelCenters of America",
     "aliases": [
-      "Travel Centers of America"
+      "Travel Centers of America",
+      "TA Travel Center",
+      "TA Express",
+      "TA Truck Service",
+      "Petro Stopping Center",
+      "Petro Stopping Centers",
+      "Petro Travel Center"
     ],
     "type": "corporate",
     "parent": "bp p.l.c.",
@@ -21908,7 +25710,10 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Truist",
     "aliases": [
-      "Truist Bank"
+      "Truist Bank",
+      "Suntrust",
+      "SunTrust Bank",
+      "BB&T"
     ],
     "type": "corporate",
     "parent": "Truist Financial Corporation",
@@ -21934,6 +25739,27 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "bank"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Tumi",
+    "aliases": [
+      "TUMI Store",
+      "TUMI Outlet Store"
+    ],
+    "type": "corporate",
+    "parent": "Samsonite Group S.A.",
+    "source": "https://corporate.samsonite.com/",
+    "sourceTitle": "Samsonite — corporate site",
+    "note": "Tumi is a Samsonite brand; Samsonite is listed in Hong Kong and New York.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22085,7 +25911,8 @@ export const BRAND_DIRECTORY = [
     "brand": "U.S. Bank",
     "aliases": [
       "US Bank",
-      "U.S. Bank Branch"
+      "U.S. Bank Branch",
+      "Union Bank"
     ],
     "type": "corporate",
     "parent": "U.S. Bancorp",
@@ -22116,10 +25943,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "U.S. Physical Therapy",
+    "aliases": [
+      "Drayer Physical Therapy Institute",
+      "SERC Physical Therapy",
+      "USPh"
+    ],
+    "type": "corporate",
+    "parent": "U.S. Physical Therapy, Inc.",
+    "source": "https://www.usph.com/",
+    "sourceTitle": "U.S. Physical Therapy — company website",
+    "note": "U.S. Physical Therapy is listed on the NYSE (USPH) and runs clinics under many local names; only its widely used names are matched.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "uBreakiFix by Asurion",
     "aliases": [
       "uBreakiFix",
-      "Asurion Tech Repair & Solutions"
+      "Asurion Tech Repair & Solutions",
+      "uBreakiFix - Phone and Computer Repair"
     ],
     "type": "corporate",
     "parent": "Asurion, LLC (privately held)",
@@ -22182,6 +26031,40 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.t-mobile.com/news/business/t-mobile-closes-acquisition-mint-and-ultra-mobile"
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "UMB Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "UMB Financial Corporation",
+    "source": "https://investorrelations.umb.com/",
+    "sourceTitle": "UMB Financial — investor relations",
+    "note": "UMB Financial is listed on Nasdaq (UMBF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Umpqua Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Columbia Banking System, Inc.",
+    "source": "https://investors.columbiabankingsystem.com/",
+    "sourceTitle": "Columbia Banking System — investor relations",
+    "note": "Umpqua Bank is Columbia Banking System's bank (Nasdaq COLB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22259,6 +26142,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "United Rentals",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "United Rentals, Inc.",
+    "source": "https://investors.unitedrentals.com/",
+    "sourceTitle": "United Rentals — investor relations",
+    "note": "United Rentals is listed on the NYSE (URI).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "United Supermarkets",
     "aliases": [],
     "type": "corporate",
@@ -22321,7 +26223,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Valero",
-    "aliases": [],
+    "aliases": [
+      "Valero Corner Store"
+    ],
     "type": "corporate",
     "parent": "Valero Energy Corporation",
     "source": "https://www.valero.com/refining/fuels/branded-valero/branded-distributors",
@@ -22374,6 +26278,25 @@ export const BRAND_DIRECTORY = [
       "lat": 34.31,
       "lng": -118.45
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Valley Bank",
+    "aliases": [
+      "Valley National Bank"
+    ],
+    "type": "corporate",
+    "parent": "Valley National Bancorp",
+    "source": "https://www.valley.com/investor-relations",
+    "sourceTitle": "Valley National Bancorp — investor relations",
+    "note": "Valley National Bancorp is listed on Nasdaq (VLY).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22518,6 +26441,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Vera Bradley",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Vera Bradley, Inc.",
+    "source": "https://investors.verabradley.com/",
+    "sourceTitle": "Vera Bradley — investor relations",
+    "note": "Vera Bradley is listed on Nasdaq (VRA).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Verizon",
     "aliases": [
       "Verizon Wireless",
@@ -22584,7 +26525,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Victoria's Secret & Co.",
       "Victoria's Secret Beauty",
-      "Victoria's Secret PINK"
+      "Victoria's Secret PINK",
+      "PINK by Victoria's Secret"
     ],
     "type": "corporate",
     "parent": "Victoria's Secret & Co.",
@@ -22613,7 +26555,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Village Inn",
-    "aliases": [],
+    "aliases": [
+      "Village Inn Restaurants"
+    ],
     "type": "corporate",
     "parent": "BBQ Holdings · MTY Food Group Inc.",
     "source": "https://www.bbq-holdings.com/brands/",
@@ -22699,6 +26643,26 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "VIP Petcare",
+    "aliases": [
+      "VIP Petcare Vaccination Clinic",
+      "VIP Petcare Community Clinic"
+    ],
+    "type": "corporate",
+    "parent": "Tractor Supply Company",
+    "source": "https://www.digitalcommerce360.com/2026/05/29/tractor-supply-vip-petcare-acquisition/",
+    "sourceTitle": "Digital Commerce 360 — Tractor Supply acquires VIP Petcare (May 2026)",
+    "note": "Tractor Supply (Nasdaq TSCO) bought VIP Petcare's mobile vaccination clinic business from PetIQ in May 2026. Clinics are often held in other retailers' stores.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "pets"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -22788,6 +26752,44 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Volkswagen",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Volkswagen AG",
+    "source": "https://www.volkswagen-group.com/en/investor-relations",
+    "sourceTitle": "Volkswagen Group — investor relations",
+    "note": "Volkswagen is a Volkswagen AG brand (Frankfurt: VOW3). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Volvo Cars",
+    "aliases": [
+      "Volvo"
+    ],
+    "type": "corporate",
+    "parent": "Volvo Car AB (majority owned by Geely)",
+    "source": "https://investors.volvocars.com/",
+    "sourceTitle": "Volvo Cars — investors",
+    "note": "Volvo Cars is a Volvo Car AB (majority owned by Geely) brand (Nasdaq Stockholm: VOLCAR B). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -22886,7 +26888,15 @@ export const BRAND_DIRECTORY = [
     "brand": "Walmart",
     "aliases": [
       "Walmart Supercenter",
-      "Walmart Neighborhood Market"
+      "Walmart Neighborhood Market",
+      "Walmart Vision & Glasses",
+      "Walmart Vision Center",
+      "Walmart Auto Care Center",
+      "Walmart Auto Care Centers",
+      "Walmart Pet Services",
+      "Walmart Tire & Lube Express",
+      "Walmart Fuel & Convenience",
+      "Walmart Vision and Glasses"
     ],
     "type": "corporate",
     "parent": "Walmart Inc.",
@@ -23098,7 +27108,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Wells Fargo",
     "aliases": [
-      "Wells Fargo Bank"
+      "Wells Fargo Bank",
+      "Wells Fargo Advisors"
     ],
     "type": "corporate",
     "parent": "Wells Fargo & Company",
@@ -23308,8 +27319,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Whistle Express Car Wash",
+    "aliases": [
+      "Whistle Express"
+    ],
+    "type": "pe",
+    "parent": "Whistle Express · Oaktree Capital funds",
+    "source": "https://www.businesswire.com/news/home/20250225313854/en/Whistle-Express-Signs-Definitive-Agreement-to-Acquire-Take-5-Car-Wash-Creating-the-Largest-Express-Car-Wash-Company-in-the-United-States",
+    "sourceTitle": "Business Wire — Whistle Express (Oaktree-backed) to acquire Take 5 Car Wash (2025)",
+    "note": "Whistle Express is backed by funds managed by Oaktree Capital Management and bought Take 5 Car Wash in 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "carwash",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "White Cap",
-    "aliases": [],
+    "aliases": [
+      "HD Supply White Cap"
+    ],
     "type": "pe",
     "parent": "White Cap · Clayton, Dubilier & Rice",
     "source": "https://www.cdr.com/portfolio/white-cap",
@@ -23374,7 +27407,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Whole Foods Market",
     "aliases": [
-      "Whole Foods"
+      "Whole Foods",
+      "WFM Coffee Bar"
     ],
     "type": "corporate",
     "parent": "Amazon",
@@ -23473,6 +27507,27 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Window Genie",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Neighborly · KKR",
+    "source": "https://pctonline.com/article/neighborly-acquired-by-global-investment-firm-kkr",
+    "sourceTitle": "PCT — Neighborly acquired by KKR (2021)",
+    "note": "Window Genie is a Neighborly brand; KKR bought Neighborly in 2021. Local businesses are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "KKR"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "homeservices"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -23914,7 +27969,10 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Zaxby’s",
-    "aliases": [],
+    "aliases": [
+      "Zaxbys Chicken Fingers & Buffalo Wings",
+      "Zaxby's Chicken Fingers & Buffalo Wings"
+    ],
     "type": "pe",
     "parent": "Zaxby’s · Leonard Green & Partners investment",
     "source": "https://www.leonardgreen.com/portfolio/",

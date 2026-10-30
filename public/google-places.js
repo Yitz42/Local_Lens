@@ -10,9 +10,9 @@ export const GOOGLE_TYPES={
  pharmacy:['pharmacy','drugstore'],home:['hardware_store','home_improvement_store','home_goods_store','furniture_store'],
  apparel:['clothing_store','shoe_store','jewelry_store'],general:['department_store','discount_store','warehouse_store'],
  other:['electronics_store','book_store','pet_store','florist','auto_parts_store','sporting_goods_store','gift_shop'],
- bar:['bar','night_club'],beauty:['beauty_salon','hair_care','spa'],fitness:['gym'],auto:['car_repair','car_wash'],bank:['bank'],
+ bar:['bar','night_club'],beauty:['beauty_salon','hair_care','spa'],fitness:['gym'],auto:['car_repair'],carwash:['car_wash'],bank:['bank'],
  print:[],laundry:['laundry'],pets:['veterinary_care'],repair:[],
- dental:['dentist','dental_clinic'],hospital:['hospital','general_hospital'],clinic:['doctor'],eye:[],hotel:['lodging'],fun:['movie_theater','bowling_alley','amusement_center'],childcare:['child_care_agency','preschool'],storage:['storage','car_rental'],money:[],realestate:['real_estate_agency','insurance_agency'],cars:['car_dealer'],phone:['cell_phone_store','telecommunications_service_provider'],therapy:['physiotherapist','chiropractor'],senior:[],funeral:['funeral_home']
+ dental:['dentist','dental_clinic'],hospital:['hospital','general_hospital'],specialists:[],mental:[],homeservices:['plumber','electrician','roofing_contractor','painter','moving_company'],lab:['medical_lab'],hearing:[],clinic:['doctor'],eye:[],hotel:['lodging'],fun:['movie_theater','bowling_alley','amusement_center'],childcare:['child_care_agency','preschool'],storage:['storage','car_rental'],money:[],realestate:['real_estate_agency','insurance_agency'],cars:['car_dealer'],phone:['cell_phone_store','telecommunications_service_provider'],therapy:['physiotherapist','chiropractor'],senior:[],funeral:['funeral_home']
 };
 // An all-places search keeps one request for every store category so it stays within five requests.
 const STORE_TYPES=['pharmacy','home','apparel','general','other'].flatMap(category=>GOOGLE_TYPES[category]);
@@ -22,8 +22,8 @@ export function googleSearchGroups(category='all',foodTypes=[]){
  return cuisineTypes.length?[cuisineTypes]:category==='all'?[GOOGLE_TYPES.restaurant,GOOGLE_TYPES.grocery,GOOGLE_TYPES.gas,GOOGLE_TYPES.coffee,STORE_TYPES]:[GOOGLE_TYPES[category]||GOOGLE_TYPES.other].filter(group=>group.length);
 }
 // Google has no place type for print shops, groomers, or repair shops, so these categories add one text search.
-export const CATEGORY_TEXT_SEARCHES={print:['print shop','graphic design and printing','sign shop','commercial printing'],pets:['pet grooming'],repair:['phone and computer repair'],clinic:['urgent care'],eye:['optometrist','eyeglasses store'],childcare:['tutoring center'],storage:['truck rental'],money:['tax preparation','money transfer'],senior:['assisted living','home care for seniors']};
-const CATEGORY_ORDER=['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank','print','laundry','pets','repair','dental','hospital','clinic','eye','hotel','fun','childcare','storage','money','realestate','cars','phone','therapy','senior','funeral'];
+export const CATEGORY_TEXT_SEARCHES={print:['print shop','graphic design and printing','sign shop','commercial printing'],pets:['pet grooming'],repair:['phone and computer repair'],clinic:['urgent care'],eye:['optometrist','eyeglasses store'],childcare:['tutoring center'],storage:['truck rental','equipment rental'],money:['tax preparation','money transfer'],senior:['assisted living','home care for seniors'],hearing:['hearing aids'],specialists:['dermatologist','cardiologist','orthopedic doctor','gastroenterologist'],mental:['mental health counseling','psychiatrist','addiction treatment center'],homeservices:['pest control','HVAC repair','house cleaning service'],lab:['medical lab','imaging center']};
+const CATEGORY_ORDER=['gas','grocery','coffee','restaurant','bar','pharmacy','home','apparel','general','other','beauty','fitness','auto','carwash','bank','print','laundry','pets','homeservices','repair','dental','specialists','mental','lab','hearing','hospital','clinic','eye','hotel','fun','childcare','storage','money','realestate','cars','phone','therapy','senior','funeral'];
 // Google lists many eateries as bakeries or delis too; those types only mean a shop when there is no restaurant type.
 const SHOP_FOOD_TYPES=['bakery','deli'];
 const isRestaurantType=type=>type==='restaurant'||type==='sandwich_shop'||type==='bagel_shop'||!!type?.endsWith('_restaurant');

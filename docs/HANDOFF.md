@@ -9,8 +9,8 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 
 ## What it does today
 
-- **Map and list of nearby places** in 33 categories, from restaurants and groceries to doctors, hospitals, hotels, car dealers, and funeral homes. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
-- **Ownership labels** for 985 researched brands (752 corporate, 219 private-equity-backed, and 16 co-ops, licensed
+- **Map and list of nearby places** in 39 categories, from restaurants and groceries to doctors, specialists, mental health care, hospitals, labs, plumbers and pest control, car washes, hotels, car dealers, and funeral homes. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
+- **Ownership labels** for 1,176 researched brands (883 corporate, 277 private-equity-backed, and 16 co-ops, licensed
   independent grocers, and credit unions). Every record links to a source, usually an SEC filing, a company announcement,
   or a news report. Wikipedia is used only to find candidates, never as the ownership source.
 - **Hospital ownership** for about 1,500 for-profit and private-equity-backed US hospitals, matched facility by
@@ -31,6 +31,8 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 | Ownership data | `data/brands.json`, `data/pe-firms.json` | Hand-researched. `npm run directory` validates them and generates the app, CSV, JSON, and Markdown files. |
 | Matching | `public/ownership.js`, `public/brand-scope.js` | Brand names match place names. Short or shared names are limited to a category (`matchCategories`) or a region (`matchBounds`) to avoid false matches. |
 | App | `public/` (plain JavaScript modules, no framework) | Runs as a static site (GitHub Pages) or with a small Worker that serves place pages (`worker/`). |
+| Finding gaps | `scripts/find-gaps.mjs` | Scans 12 metro areas and lists chain names that are still unmatched, ranked by how many metros they appear in. Run it before each research round. |
+| Nationwide gaps | `scripts/bigquery-*.sql`, `scripts/rank-bigquery-gaps.mjs` | Free BigQuery scans of Overture's US places; the ranking script reports the share of chain locations with an ownership label (58% in October 2026) and lists the biggest unmatched chains and likely name variants. |
 | Tests | `tests/` (`npm test`) | About 100 tests covering matching, categories, filters, and the data files. |
 
 Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localhost:8000.

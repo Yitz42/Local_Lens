@@ -55,7 +55,7 @@ Selected technology and information-services investments. Individual pages expre
 | HyperGuest | current portfolio investment | [Apax — HyperGuest](https://www.apax.com/partnerships/hyperguest/) | Marked Current, investment year 2026; hotel distribution and payment platform. | 2026-10-16 |
 | techoraco | current portfolio investment | [Apax — techoraco](https://www.apax.com/partnerships/techoraco/) | Marked Current, investment year 2026; digital infrastructure events platform. | 2026-10-16 |
 
-Brands in Local Lens: Cadence Academy.
+Brands in Local Lens: America's Swimming Pool Company, Benjamin Franklin Plumbing, Cadence Academy, Color World Housepainting, DoodyCalls, Homewatch CareGivers, Mister Sparky, Monster Tree Service, Mosquito Squad, One Hour Heating & Air Conditioning, The Cleaning Authority.
 
 ## Apollo Global Management
 
@@ -80,7 +80,7 @@ Selected Guitar Center equity backing is supported by the company statement and 
 | --- | --- | --- | --- | --- |
 | Guitar Center | Brand-level investment backing; see source scope | [Guitar Center — company statement identifying its equity investor group](https://static.guitarcenter.com/static/gc/2023/page-bcc/corporate-information/press-room/articles/gc-art-new-executives-10-31-23.pdf) | Guitar Center identifies funds managed by Ares Private Equity Group, The Carlyle Group and Brigade Capital Management as its equity investors. This identifies investment backing; it does not assert sole ownership by any one sponsor. | 2026-10-16 |
 
-Brands in Local Lens: Guitar Center.
+Brands in Local Lens: Guitar Center, LaserAway.
 
 ## Bain Capital
 
@@ -133,7 +133,7 @@ Selected sourced investments and brand affiliations, with individual holding rev
 | Tropical Smoothie Cafe | Brand-level backing; see source scope | [Blackstone — current investment and board biography](https://www.blackstone.com/people/david-kestnbaum/) | Blackstone’s current executive biography lists Tropical Smoothie Cafe as a current investment and board role; its official June 2024 announcement confirms the acquisition closed. | 2026-10-16 |
 | Great Wolf Resorts / Great Wolf Lodge | Company identifies Blackstone shareholders | [Great Wolf — current Career Pathways shareholder statement](https://www.greatwolf.com/jobs/programs/career-pathways) | Great Wolf’s company page identifies Blackstone as a shareholder. This record does not claim a current ownership percentage or resolve other investors. Hotels and waterparks are firm-research context; the map’s supported place categories are unchanged. | 2026-10-17 |
 
-Brands in Local Lens: 7 Brew, Extended Stay America, Great Wolf Lodge, Jersey Mike's Subs, LEGOLAND Discovery Center, Madame Tussauds, SEA LIFE, Tropical Smoothie Cafe.
+Brands in Local Lens: 7 Brew, Extended Stay America, Great Wolf Lodge, Jersey Mike's Subs, LEGOLAND Discovery Center, Madame Tussauds, SEA LIFE, SERVPRO, Tropical Smoothie Cafe.
 
 ## Brentwood Associates
 
@@ -250,6 +250,8 @@ Selected holdings from the official current portfolio, including enterprise soft
 | IFS | current portfolio investment | [EQT — IFS](https://eqtgroup.com/about/current-portfolio/ifs) | Enterprise software investment listed in EQT's current portfolio; other investors also participate. | 2026-10-16 |
 | Nord Anglia Education | current portfolio investment | [EQT — Nord Anglia Education](https://eqtgroup.com/about/current-portfolio/nord-anglia) | Education investment in the current portfolio. A consortium, including investors other than EQT, completed a new acquisition in March 2025. | 2026-10-16 |
 
+Brands in Local Lens: HearUSA.
+
 ## Fortress Investment Group
 
 Review: 2026-10-26 · Selected evidence checked · [Portfolio / source](https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity)
@@ -343,6 +345,8 @@ Selected investments explicitly marked Current. The portfolio marks At Home Past
 | Circana | current portfolio investment | [Hellman & Friedman — Our Portfolio](https://hf.com/our-portfolio/) | Listed Current; market research and analytics business formed from NPD and IRI. | 2026-10-16 |
 | Curriculum Associates | minority investment | [Hellman & Friedman — Our Portfolio](https://hf.com/our-portfolio/) | Listed Current; H&F expressly describes its 2022 investment as minority. | 2026-10-16 |
 
+Brands in Local Lens: HUB International.
+
 ## Hg
 
 Review: 2026-10-16 · Selected evidence checked · [Portfolio / source](https://hgcapital.com/portfolio)
@@ -391,7 +395,7 @@ Opened the official company directory, which states an August 24, 2026 portfolio
 | PetVet Care Centers | current portfolio investment | [KKR — June 30, 2026 Form 10-Q](https://ir.kkr.com/media/document/9c560b72-6b1b-4aff-affa-01c36a7f1661/assets/KKR_10Q_6.30.26.pdf?disposition=inline) | The quarterly report discusses unrealized PetVet investment losses in the current period, establishing a continuing investment. Individual veterinary-hospital brands were not inferred. | 2026-10-16 |
 | Heartland Dental | current portfolio investment | [KKR — Max Lin current board biography](https://www.kkr.com/about/our-people/max-lin) | The current official KKR biography lists Heartland Dental among the companies on whose boards its Americas healthcare leader currently serves. This corroborates the group affiliation, not ownership of any similarly named independent dental practice. | 2026-10-16 |
 
-Brands in Local Lens: Belk, Heartland Dental, Nothing Bundt Cakes.
+Brands in Local Lens: Aire Serv, Belk, Dryer Vent Wizard, Five Star Painting, Glass Doctor, Heartland Dental, Molly Maid, Mosquito Joe, Mr. Appliance, Mr. Electric, Mr. Handyman, Mr. Rooter Plumbing, Nothing Bundt Cakes, Precision Garage Door Service, Quick Quack Car Wash, Rainbow Restoration, Real Property Management, ShelfGenie, The Grounds Guys, Window Genie.
 
 ## L Catterton
 
@@ -424,7 +428,7 @@ Selected sourced brand affiliations and current investments. Each holding keeps 
 | Vital Care Infusion Services | Brand-level investment backing; see source scope | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor marks the pharmacy franchisor as a current buyout investment. Local pharmacies are independently operated franchises; the label describes the franchisor, not ownership of each pharmacy. Bare “Vital Care” is not matched because the name is ambiguous. | 2026-10-17 |
 | Stepping Stones Group | Current buyout investment | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor expressly marks this therapy and clinical-staffing company current. It is employer research context, not a claim that schools or partner clinics receiving its services are owned by the sponsor. | 2026-10-17 |
 
-Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Topgolf, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
+Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mindpath Health, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Topgolf, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
 
 ## Levine Leichtman Capital Partners
 
@@ -506,7 +510,7 @@ Selected holdings supported by 2026 operating announcements. Private credit posi
 | Emeria | current portfolio investment | [Partners Group — Emeria operating update, August 19, 2026](https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=2c98ead6-29e9-4d1a-b01d-60b77d16de55) | The 2026 operating update describes current ownership and the original 2016 acquisition. | 2026-10-16 |
 | Empira Group | current portfolio investment | [Partners Group — Breitling branded residences announcement, June 26, 2026](https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=0846833f-aa2a-4c4c-b6a4-a09c865f01ea) | The 2026 release states Partners Group acquired this residential real estate investor and developer the previous year. | 2026-10-16 |
 
-Brands in Local Lens: Breitling.
+Brands in Local Lens: Breitling, Forefront Dermatology.
 
 ## Permira
 
