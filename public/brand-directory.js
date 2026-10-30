@@ -88,6 +88,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "1st Source Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "1st Source Corporation",
+    "source": "https://investor.1stsource.com/",
+    "sourceTitle": "1st Source Corporation — investor relations",
+    "note": "1st Source Corporation is listed (Nasdaq: SRCE).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "24 Hour Fitness",
     "aliases": [
       "24-Hour Fitness"
@@ -1010,6 +1027,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Amegy Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Zions Bancorporation, N.A.",
+    "source": "https://www.zionsbancorporation.com/investor-relations",
+    "sourceTitle": "Zions Bancorporation, N.A. — investor relations",
+    "note": "Zions Bancorporation, N.A. is listed (Nasdaq: ZION).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "America First Credit Union",
     "aliases": [
       "America First"
@@ -1897,6 +1931,43 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Banc of California",
+    "aliases": [
+      "Pacific Western Bank",
+      "PacWest"
+    ],
+    "type": "corporate",
+    "parent": "Banc of California, Inc.",
+    "source": "https://investors.bancofcal.com/",
+    "sourceTitle": "Banc of California, Inc. — investor relations",
+    "note": "Banc of California is listed on the NYSE (BANC) and merged with PacWest, owner of Pacific Western Bank, in 2023.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "BancFirst",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "BancFirst Corporation",
+    "source": "https://www.bancfirst.bank/investor-relations",
+    "sourceTitle": "BancFirst Corporation — investor relations",
+    "note": "BancFirst Corporation is listed (Nasdaq: BANF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Banfield Pet Hospital",
     "aliases": [
       "Banfield"
@@ -1947,6 +2018,45 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "bank"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Bank of Hawaii",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Bank of Hawaii Corporation",
+    "source": "https://ir.boh.com/",
+    "sourceTitle": "Bank of Hawaii Corporation — investor relations",
+    "note": "Bank of Hawaii Corporation is listed (NYSE: BOH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Bank of Oklahoma",
+    "aliases": [
+      "BOK Financial",
+      "Bank of Texas",
+      "Bank of Albuquerque",
+      "BOKF"
+    ],
+    "type": "corporate",
+    "parent": "BOK Financial Corporation",
+    "source": "https://investor.bokf.com/",
+    "sourceTitle": "BOK Financial Corporation — investor relations",
+    "note": "BOK Financial Corporation is listed (Nasdaq: BOKF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -3664,6 +3774,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Broadview Federal Credit Union",
+    "aliases": [
+      "Broadview FCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Albany, New York",
+    "source": "https://www.broadviewfcu.com/",
+    "sourceTitle": "Broadview Federal Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 40.5,
+        "west": -79.8,
+        "north": 45,
+        "east": -71.8
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Brookdale",
     "aliases": [
       "Brookdale Senior Living"
@@ -4278,6 +4416,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "California Bank & Trust",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Zions Bancorporation, N.A.",
+    "source": "https://www.zionsbancorporation.com/investor-relations",
+    "sourceTitle": "Zions Bancorporation, N.A. — investor relations",
+    "note": "Zions Bancorporation, N.A. is listed (Nasdaq: ZION).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "California Closets",
     "aliases": [],
     "type": "corporate",
@@ -4323,6 +4478,23 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Chevron — 2025 Form 10-K filed February 2026",
     "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Camden National Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Camden National Corporation",
+    "source": "https://ir.camdennational.bank/",
+    "sourceTitle": "Camden National Corporation — investor relations",
+    "note": "Camden National Corporation is listed (Nasdaq: CAC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -4404,6 +4576,31 @@ export const BRAND_DIRECTORY = [
     "categories": [
       "corporate",
       "pe"
+    ]
+  },
+  {
+    "brand": "Capital City Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Capital City Bank Group, Inc.",
+    "source": "https://www.ccbg.com/investor-relations",
+    "sourceTitle": "Capital City Bank Group, Inc. — investor relations",
+    "note": "Capital City Bank Group, Inc. is listed (Nasdaq: CCBG).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -87.7,
+        "north": 31.1,
+        "east": -80
+      }
+    ],
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -6033,7 +6230,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Citizens",
       "Citizens Bank Supermarket Branch",
-      "Citizens Supermarket Branch"
+      "Citizens Supermarket Branch",
+      "Investors Bank"
     ],
     "type": "corporate",
     "parent": "Citizens Financial Group, Inc.",
@@ -7621,6 +7819,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Desert Financial Credit Union",
+    "aliases": [
+      "Desert Financial"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Phoenix, Arizona",
+    "source": "https://www.desertfinancial.com/",
+    "sourceTitle": "Desert Financial Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -114.8,
+        "north": 37,
+        "east": -109
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Destination XL",
     "aliases": [
       "DXL",
@@ -8404,6 +8630,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Eastern Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Eastern Bankshares, Inc.",
+    "source": "https://investor.easternbank.com/",
+    "sourceTitle": "Eastern Bankshares, Inc. — investor relations",
+    "note": "Eastern Bankshares, Inc. is listed (Nasdaq: EBC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 41,
+        "west": -73.8,
+        "north": 45.4,
+        "east": -69.9
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "EchoPark Automotive",
     "aliases": [
       "EchoPark"
@@ -8452,6 +8703,24 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Darden — our company",
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Edina Realty",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "HomeServices of America · Berkshire Hathaway",
+    "source": "https://www.edinarealty.com/about-us",
+    "sourceTitle": "Edina Realty — about us",
+    "note": "Edina Realty is a HomeServices of America company, part of Berkshire Hathaway. Agents are independent contractors.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -8629,6 +8898,32 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Ent Credit Union",
+    "aliases": [],
+    "type": "independent",
+    "parent": "Member-owned credit union · Colorado Springs, Colorado",
+    "source": "https://www.ent.com/",
+    "sourceTitle": "Ent Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37,
+        "west": -109.1,
+        "north": 41,
+        "east": -102
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -9641,7 +9936,9 @@ export const BRAND_DIRECTORY = [
     "brand": "Fifth Third Bank",
     "aliases": [
       "Fifth Third",
-      "5/3 Bank"
+      "5/3 Bank",
+      "MB Financial Bank",
+      "MB Financial"
     ],
     "type": "corporate",
     "parent": "Fifth Third Bancorp",
@@ -9790,6 +10087,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "First Commonwealth Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "First Commonwealth Financial Corporation",
+    "source": "https://ir.fcbanking.com/",
+    "sourceTitle": "First Commonwealth Financial Corporation — investor relations",
+    "note": "First Commonwealth Financial Corporation is listed (NYSE: FCF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 39.7,
+        "west": -80.6,
+        "north": 42.3,
+        "east": -74.7
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "First Financial Federal Credit Union",
     "aliases": [
       "First Financial FCU"
@@ -9867,6 +10189,25 @@ export const BRAND_DIRECTORY = [
     "source": "https://www.firstmerchants.com/investors",
     "sourceTitle": "First Merchants Corporation — investor relations",
     "note": "First Merchants Corporation is listed (Nasdaq: FRME).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "First Mid Bank & Trust",
+    "aliases": [
+      "First Mid Bank and Trust"
+    ],
+    "type": "corporate",
+    "parent": "First Mid Bancshares, Inc.",
+    "source": "https://investors.firstmid.com/",
+    "sourceTitle": "First Mid Bancshares, Inc. — investor relations",
+    "note": "First Mid Bancshares, Inc. is listed (Nasdaq: FMBH).",
     "checked": "2026-10-30",
     "matchCategories": [
       "bank"
@@ -10053,6 +10394,31 @@ export const BRAND_DIRECTORY = [
       "lat": 38.7,
       "lng": -77.23
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Five Star Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Financial Institutions, Inc.",
+    "source": "https://www.fisi-investors.com/",
+    "sourceTitle": "Financial Institutions, Inc. — investor relations",
+    "note": "Financial Institutions, Inc. is listed (Nasdaq: FISI).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 40.5,
+        "west": -79.8,
+        "north": 45,
+        "east": -71.8
+      }
+    ],
     "categories": [
       "corporate"
     ]
@@ -10698,6 +11064,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Founders Federal Credit Union",
+    "aliases": [
+      "Founders FCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Lancaster, South Carolina",
+    "source": "https://www.foundersfcu.com/",
+    "sourceTitle": "Founders Federal Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 32,
+        "west": -83.4,
+        "north": 35.2,
+        "east": -78.5
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Framebridge",
     "aliases": [],
     "type": "corporate",
@@ -10875,6 +11269,23 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Frost Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Cullen/Frost Bankers, Inc.",
+    "source": "https://investor.frostbank.com/",
+    "sourceTitle": "Cullen/Frost Bankers, Inc. — investor relations",
+    "note": "Cullen/Frost Bankers, Inc. is listed (NYSE: CFR).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -12519,6 +12930,33 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Heartland Bank and Trust Company",
+    "aliases": [
+      "Heartland Bank & Trust"
+    ],
+    "type": "corporate",
+    "parent": "HBT Financial, Inc.",
+    "source": "https://ir.hbtbank.com/",
+    "sourceTitle": "HBT Financial, Inc. — investor relations",
+    "note": "HBT Financial, Inc. is listed (Nasdaq: HBT).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 36.9,
+        "west": -91.5,
+        "north": 42.5,
+        "east": -87
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Heartland Dental",
     "aliases": [],
     "type": "pe",
@@ -13401,6 +13839,34 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Idaho Central Credit Union",
+    "aliases": [
+      "ICCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Chubbuck, Idaho",
+    "source": "https://www.iccu.com/",
+    "sourceTitle": "Idaho Central Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 42,
+        "west": -117.3,
+        "north": 49,
+        "east": -111
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -14425,6 +14891,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kearny Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Kearny Financial Corp.",
+    "source": "https://ir.kearnybank.com/",
+    "sourceTitle": "Kearny Financial Corp. — investor relations",
+    "note": "Kearny Financial Corp. is listed (Nasdaq: KRNY).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Keller Williams",
     "aliases": [
       "Keller Williams Realty",
@@ -15256,6 +15739,31 @@ export const BRAND_DIRECTORY = [
       "grocery"
     ],
     "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lake City Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Lakeland Financial Corporation",
+    "source": "https://investors.lakecitybank.com/",
+    "sourceTitle": "Lakeland Financial Corporation — investor relations",
+    "note": "Lakeland Financial Corporation is listed (Nasdaq: LKFN).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37.8,
+        "west": -88.1,
+        "north": 41.8,
+        "east": -84.8
+      }
+    ],
     "categories": [
       "corporate"
     ]
@@ -17182,6 +17690,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Members 1st Federal Credit Union",
+    "aliases": [
+      "Members 1st FCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Mechanicsburg, Pennsylvania",
+    "source": "https://www.members1st.org/",
+    "sourceTitle": "Members 1st Federal Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 39.7,
+        "west": -80.6,
+        "north": 42.3,
+        "east": -74.7
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Men's Wearhouse",
     "aliases": [
       "Mens Wearhouse",
@@ -17453,6 +17989,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mid Penn Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Mid Penn Bancorp, Inc.",
+    "source": "https://ir.midpennbank.com/",
+    "sourceTitle": "Mid Penn Bancorp, Inc. — investor relations",
+    "note": "Mid Penn Bancorp, Inc. is listed (Nasdaq: MPB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Midas",
     "aliases": [
       "Midas Auto Service",
@@ -17472,6 +18025,34 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "MIDFLORIDA Credit Union",
+    "aliases": [
+      "MidFlorida Credit Union"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Lakeland, Florida",
+    "source": "https://www.midflorida.com/",
+    "sourceTitle": "MIDFLORIDA Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -87.7,
+        "north": 31.1,
+        "east": -80
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -18327,6 +18908,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "National Bank of Arizona",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Zions Bancorporation, N.A.",
+    "source": "https://www.zionsbancorporation.com/investor-relations",
+    "sourceTitle": "Zions Bancorporation, N.A. — investor relations",
+    "note": "Zions Bancorporation, N.A. is listed (Nasdaq: ZION).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "National Car Rental",
     "aliases": [
       "National Rent A Car"
@@ -18913,6 +19511,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "OceanFirst Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "OceanFirst Financial Corp.",
+    "source": "https://ir.oceanfirst.com/",
+    "sourceTitle": "OceanFirst Financial Corp. — investor relations",
+    "note": "OceanFirst Financial Corp. is listed (Nasdaq: OCFC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Office Depot",
     "aliases": [
       "Office Depot OfficeMax",
@@ -19353,6 +19968,24 @@ export const BRAND_DIRECTORY = [
       "restaurant",
       "bar"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "OXXO",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "FEMSA (Fomento Económico Mexicano)",
+    "source": "https://femsa.gcs-web.com/",
+    "sourceTitle": "FEMSA — investor relations",
+    "note": "OXXO is FEMSA's convenience store chain; FEMSA is listed in Mexico and on the NYSE (FMX).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -20231,6 +20864,23 @@ export const BRAND_DIRECTORY = [
     "note": "The privately held family group identifies PJ’s Coffee as a substantial franchised brand and records its acquisition in the company history. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "PlainsCapital Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Hilltop Holdings Inc.",
+    "source": "https://ir.hilltop-holdings.com/",
+    "sourceTitle": "Hilltop Holdings Inc. — investor relations",
+    "note": "Hilltop Holdings Inc. is listed (NYSE: HTH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22242,6 +22892,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Rockland Trust",
+    "aliases": [
+      "Rockland Trust Bank"
+    ],
+    "type": "corporate",
+    "parent": "Independent Bank Corp.",
+    "source": "https://ir.rocklandtrust.com/",
+    "sourceTitle": "Independent Bank Corp. — investor relations",
+    "note": "Independent Bank Corp. is listed (Nasdaq: INDB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Rooms To Go",
     "aliases": [
       "Rooms To Go Kids",
@@ -22624,6 +23293,23 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "storage",
       "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "S&T Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "S&T Bancorp, Inc.",
+    "source": "https://ir.stbancorp.com/",
+    "sourceTitle": "S&T Bancorp, Inc. — investor relations",
+    "note": "S&T Bancorp, Inc. is listed (Nasdaq: STBA).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
     ],
     "matchNamePrefix": true,
     "categories": [
@@ -23108,6 +23794,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Seacoast Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Seacoast Banking Corporation of Florida",
+    "source": "https://ir.seacoastbanking.com/",
+    "sourceTitle": "Seacoast Banking Corporation of Florida — investor relations",
+    "note": "Seacoast Banking Corporation of Florida is listed (Nasdaq: SBCF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Seasons 52",
     "aliases": [],
     "type": "corporate",
@@ -23212,7 +23915,9 @@ export const BRAND_DIRECTORY = [
       "NovaCare Rehabilitation",
       "NovaCare",
       "Physiotherapy Associates",
-      "Select Medical"
+      "Select Medical",
+      "Kessler Rehabilitation Center",
+      "Kessler Rehab"
     ],
     "type": "pe",
     "parent": "Select Medical · founders and Welsh, Carson, Anderson & Stowe",
@@ -24215,9 +24920,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Southside Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Southside Bancshares, Inc.",
+    "source": "https://investors.southside.com/",
+    "sourceTitle": "Southside Bancshares, Inc. — investor relations",
+    "note": "Southside Bancshares, Inc. is listed (Nasdaq: SBSI).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -106.7,
+        "north": 36.6,
+        "east": -93.5
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "SouthState Bank",
     "aliases": [
-      "South State Bank"
+      "South State Bank",
+      "Independent Financial"
     ],
     "type": "corporate",
     "parent": "SouthState Corporation",
@@ -24808,6 +25539,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Stock Yards Bank & Trust",
+    "aliases": [
+      "Stock Yards Bank and Trust"
+    ],
+    "type": "corporate",
+    "parent": "Stock Yards Bancorp, Inc.",
+    "source": "https://investors.syb.com/",
+    "sourceTitle": "Stock Yards Bancorp, Inc. — investor relations",
+    "note": "Stock Yards Bancorp, Inc. is listed (Nasdaq: SYBT).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Stoney River Steakhouse and Grill",
     "aliases": [
       "Stoney River Steakhouse and Grill",
@@ -25060,6 +25810,32 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Summit Credit Union",
+    "aliases": [],
+    "type": "independent",
+    "parent": "Member-owned credit union · Madison, Wisconsin",
+    "source": "https://www.summitcreditunion.com/",
+    "sourceTitle": "Summit Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 42.5,
+        "west": -92.9,
+        "north": 47.1,
+        "east": -86.8
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -27243,6 +28019,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Tri Counties Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "TriCo Bancshares",
+    "source": "https://www.tcbk.com/investor-relations",
+    "sourceTitle": "TriCo Bancshares — investor relations",
+    "note": "TriCo Bancshares is listed (Nasdaq: TCBK).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tropical Smoothie Cafe",
     "aliases": [
       "Tropical Smoothie Café"
@@ -27822,6 +28615,26 @@ export const BRAND_DIRECTORY = [
       "specialists",
       "clinic",
       "hospital"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Univest Bank and Trust Co.",
+    "aliases": [
+      "Univest Bank",
+      "Univest"
+    ],
+    "type": "corporate",
+    "parent": "Univest Financial Corporation",
+    "source": "https://investors.univest.net/",
+    "sourceTitle": "Univest Financial Corporation — investor relations",
+    "note": "Univest Financial Corporation is listed (Nasdaq: UVSP).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
     ],
     "matchNamePrefix": true,
     "categories": [
@@ -28483,6 +29296,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "VyStar Credit Union",
+    "aliases": [
+      "VyStar"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Jacksonville, Florida",
+    "source": "https://www.vystarcu.org/",
+    "sourceTitle": "VyStar Credit Union — credit union website",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "localOperators": "memberowned",
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -87.7,
+        "north": 31.1,
+        "east": -80
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "WaFd Bank",
     "aliases": [
       "Washington Federal"
@@ -28903,6 +29744,23 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Westamerica Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Westamerica Bancorporation",
+    "source": "https://www.westamerica.com/investor-relations",
+    "sourceTitle": "Westamerica Bancorporation — investor relations",
+    "note": "Westamerica Bancorporation is listed (Nasdaq: WABC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -29431,6 +30289,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "WSFS Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "WSFS Financial Corporation",
+    "source": "https://investors.wsfsbank.com/",
+    "sourceTitle": "WSFS Financial Corporation — investor relations",
+    "note": "WSFS Financial Corporation is listed (Nasdaq: WSFS).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "WSS",
     "aliases": [
       "Warehouse Shoe Sale"
@@ -29640,6 +30515,25 @@ export const BRAND_DIRECTORY = [
       "lat": 47.66,
       "lng": -117.43
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Yoshinoya",
+    "aliases": [
+      "Yoshinoya Beef Bowl"
+    ],
+    "type": "corporate",
+    "parent": "Yoshinoya Holdings Co., Ltd.",
+    "source": "https://www.yoshinoya-holdings.com/english/ir/",
+    "sourceTitle": "Yoshinoya Holdings — investor relations",
+    "note": "Yoshinoya America belongs to Yoshinoya Holdings, listed in Tokyo.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
