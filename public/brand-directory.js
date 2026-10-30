@@ -1181,6 +1181,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "American Tire Depot",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Big Brand Tire & Service · Percheron Capital",
+    "source": "https://www.moderntiredealer.com/articles/32770-percheron-big-brand-tire-acquires-american-tire-depot",
+    "sourceTitle": "Modern Tire Dealer — Percheron / Big Brand Tire acquires American Tire Depot's retail stores (2021)",
+    "note": "Private equity firm Percheron Capital, through Big Brand Tire & Service, bought American Tire Depot's retail stores in 2021.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "auto"
+    ],
+    "matchBounds": [
+      {
+        "south": 32.5,
+        "west": -124.5,
+        "north": 42,
+        "east": -114.1
+      }
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Americas Best Value Inn",
     "aliases": [
       "Americas Best Value Inn & Suites",
@@ -2943,6 +2968,34 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Big Brand Tire & Service",
+    "aliases": [
+      "Big Brand Tire and Service",
+      "Big Brand Tire"
+    ],
+    "type": "pe",
+    "parent": "Big Brand Tire & Service · Percheron Capital",
+    "source": "https://www.moderntiredealer.com/articles/32770-percheron-big-brand-tire-acquires-american-tire-depot",
+    "sourceTitle": "Modern Tire Dealer — Percheron and Big Brand Tire",
+    "note": "Big Brand Tire & Service is owned by private equity firm Percheron Capital.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "auto"
+    ],
+    "matchBounds": [
+      {
+        "south": 25.8,
+        "west": -124.5,
+        "north": 42,
+        "east": -93.5
+      }
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -8130,6 +8183,38 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Dari Mart",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Dari Mart Stores (Gibson family, privately held)",
+    "source": "https://www.darimart.com/from-farm-to-family-60-years-of-dari-mart/",
+    "sourceTitle": "Dari Mart — 60 years of Dari Mart and the Gibson family",
+    "note": "The Gibson family's Lochmead dairy farm founded Dari Mart in 1965, and the family still runs it.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 41.9,
+        "west": -124.8,
+        "north": 46.3,
+        "east": -116.4
+      }
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Junction City",
+      "state": "OR",
+      "lat": 44.22,
+      "lng": -123.21
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Dash In",
     "aliases": [
       "Dash In Food Stores",
@@ -8988,6 +9073,34 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Duffy's Sports Grill",
+    "aliases": [
+      "Duffy's"
+    ],
+    "type": "corporate",
+    "parent": "Duffy's Sports Grill (family-owned restaurant group)",
+    "source": "https://retailrestaurantfb.com/?p=26839",
+    "sourceTitle": "Retail & Restaurant F&B — Duffy's Sports Grill, a Florida family-owned restaurant group",
+    "note": "Duffy's is a Palm Beach County, Florida family-owned restaurant group.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "bar"
+    ],
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -87.7,
+        "north": 31.1,
+        "east": -80
+      }
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -10120,7 +10233,8 @@ export const BRAND_DIRECTORY = [
     "note": "C&S identifies this among its company-operated grocery banners. C&S completed its acquisition of SpartanNash in September 2025. This classification applies to the operated banner, not independently owned wholesale customers.",
     "checked": "2026-10-25",
     "matchCategories": [
-      "grocery"
+      "grocery",
+      "pharmacy"
     ],
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
     "categories": [
@@ -11717,6 +11831,39 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Fosters Freeze",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Mesh Brands (Dahya family, privately held)",
+    "source": "https://www.franchisetimes.com/franchise_news/mesh-brands-aims-to-revive-legacy-treat-and-gyro-concepts/article_973303a3-444c-425c-a621-f5e817a6ca4b.html",
+    "sourceTitle": "Franchise Times — Mesh Brands and Fosters Freeze",
+    "note": "Brothers Neal and Nimesh Dahya own Fosters Freeze through Mesh Brands; restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "coffee"
+    ],
+    "matchBounds": [
+      {
+        "south": 32.5,
+        "west": -124.5,
+        "north": 42,
+        "east": -114.1
+      },
+      {
+        "south": 30.4,
+        "west": -85.6,
+        "north": 35,
+        "east": -80.8
+      }
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Foundation Building Materials",
     "aliases": [
       "FBM"
@@ -12779,6 +12926,40 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Golden Pantry",
+    "aliases": [
+      "Golden Pantry Food Stores"
+    ],
+    "type": "corporate",
+    "parent": "Golden Pantry Food Stores (Griffith family, privately held)",
+    "source": "https://csnews.com/golden-pantry-celebrates-golden-anniversary",
+    "sourceTitle": "CSNews — Golden Pantry celebrates 50 years",
+    "note": "Founder Tom Griffith's family runs Golden Pantry from Watkinsville, Georgia.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 30.4,
+        "west": -85.6,
+        "north": 35,
+        "east": -80.8
+      }
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Watkinsville",
+      "state": "GA",
+      "lat": 33.86,
+      "lng": -83.41
+    },
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -15554,6 +15735,35 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.globenewswire.com/news-release/2026/09/30/3372425/0/en/fbg-bid-co-llc-announces-the-launch-of-ohg-brands.html"
       }
     ],
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Johnny's New York Style Pizza",
+    "aliases": [
+      "Johnny's Pizza",
+      "Johnny Brusco's New York Style Pizza"
+    ],
+    "type": "corporate",
+    "parent": "Johnny's Pizza Franchise Systems (founder-owned)",
+    "source": "https://johnnyspizza.com/history",
+    "sourceTitle": "Johnny's New York Style Pizza — history",
+    "note": "Founders Bruce Jackson and Scott Allen still run Johnny's Pizza Franchise Systems; restaurants are franchised.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 24.4,
+        "west": -91.7,
+        "north": 36.7,
+        "east": -75.4
+      }
+    ],
+    "matchNamePrefix": true,
     "localOperators": "franchise",
     "categories": [
       "corporate"
@@ -19987,6 +20197,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Nationwide Vision",
+    "aliases": [],
+    "type": "pe",
+    "parent": "EyeCare Partners · FFL Partners",
+    "source": "https://fflpartners.com/eyecare-partners-completes-acquisition-of-nationwide-vision",
+    "sourceTitle": "FFL Partners — EyeCare Partners completes acquisition of Nationwide Vision",
+    "note": "EyeCare Partners, a portfolio company of FFL Partners, bought Nationwide Vision's Arizona and Florida offices in 2019.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "eye"
+    ],
+    "matchBounds": [
+      {
+        "south": 31.3,
+        "west": -114.8,
+        "north": 37,
+        "east": -109
+      },
+      {
+        "south": 24.4,
+        "west": -87.7,
+        "north": 31.1,
+        "east": -80
+      }
+    ],
+    "matchNamePrefix": true,
+    "sponsors": [
+      "Friedman Fleischer & Lowe"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Native Grill & Wings",
     "aliases": [
       "Native Grill and Wings"
@@ -20608,6 +20852,39 @@ export const BRAND_DIRECTORY = [
       "realestate"
     ],
     "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Olga's Kitchen",
+    "aliases": [
+      "Olga's"
+    ],
+    "type": "corporate",
+    "parent": "TEAM Schostak Family Restaurants (Schostak family, privately held)",
+    "source": "https://www.metrotimes.com/food-drink/michigan-based-chain-restaurants-that-are-actually-good-photos-29236291/",
+    "sourceTitle": "Metro Times — Olga's Kitchen and TEAM Schostak Family Restaurants",
+    "note": "Olga's Kitchen is owned by Livonia-based TEAM Schostak Family Restaurants.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchBounds": [
+      {
+        "south": 38.4,
+        "west": -90.5,
+        "north": 47.5,
+        "east": -82.1
+      }
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Livonia",
+      "state": "MI",
+      "lat": 42.37,
+      "lng": -83.35
+    },
     "categories": [
       "corporate"
     ]
@@ -21851,7 +22128,8 @@ export const BRAND_DIRECTORY = [
       "Pilot Travel Centers",
       "Pilot Flying J",
       "Pilot Convenience Store",
-      "Pilot Flying J Truck Care"
+      "Pilot Flying J Truck Care",
+      "SC Fuels"
     ],
     "type": "corporate",
     "parent": "Pilot Company · Berkshire Hathaway Inc.",
@@ -21861,7 +22139,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-26",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_gas_station_chains_in_North_America",
     "matchCategories": [
-      "gas"
+      "gas",
+      "grocery"
     ],
     "publicListing": {
       "company": "Berkshire Hathaway Inc.",
@@ -26482,6 +26761,32 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Sprint Mart",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Victory Marketing (Morris Petroleum and The Dutch Group)",
+    "source": "https://www.cspdailynews.com/top-202-convenience-stores-2022/victory-marketingsprint-mart",
+    "sourceTitle": "CSP — Victory Marketing (Sprint Mart)",
+    "note": "Sprint Mart stores are owned through Victory Marketing, a joint venture of Morris Petroleum and The Dutch Group.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "grocery",
+      "gas"
+    ],
+    "matchBounds": [
+      {
+        "south": 29,
+        "west": -94.1,
+        "north": 35,
+        "east": -84.9
+      }
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {

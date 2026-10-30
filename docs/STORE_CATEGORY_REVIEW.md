@@ -530,6 +530,23 @@ Regional coverage is up from 16.5% to **17.8%**. As in round 20, each chain has 
 
 Not added, because current ownership was unclear: Cobblestone Auto Spa, Nice N Easy, WaBa Grill, Higginbotham Brothers, and Taco Palenque.
 
+## Round 22: regional chains, continued
+
+Regional coverage is up from 17.8% to **18.5%**.
+
+- **Family-owned or privately held:**
+  - Golden Pantry (Griffith family), Dari Mart (Gibson family), and Duffy's Sports Grill.
+  - Olga's Kitchen (TEAM Schostak Family Restaurants) and Sprint Mart (Victory Marketing).
+  - Fosters Freeze (Mesh Brands, Dahya family) and Johnny's New York Style Pizza, both franchised.
+- **PE-backed:**
+  - Big Brand Tire & Service and American Tire Depot (Percheron Capital).
+  - Nationwide Vision (EyeCare Partners, backed by FFL Partners).
+- **Sister brands:**
+  - SC Fuels → Pilot.
+  - Pilot now also matches as a grocery/convenience listing, and Family Fare matches its pharmacies.
+
+Not added, because current ownership was unclear: Pluckers, Smithfield's Chicken 'N Bar-B-Q, Clean Rite, CD One Price, East of Chicago, and R-store. Al's Formal Wear closed in 2023.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
