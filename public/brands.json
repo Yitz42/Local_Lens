@@ -26773,13 +26773,32 @@
     },
     {
       "brand": "Sprouts Farmers Market",
-      "aliases": [],
+      "aliases": [
+        "Sprouts"
+      ],
+      "matchCategories": [
+        "grocery"
+      ],
       "type": "corporate",
       "parent": "Sprouts Farmers Market, Inc.",
       "source": "https://investors.sprouts.com/overview/",
       "sourceTitle": "Sprouts — investor overview",
-      "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
-      "checked": "2026-10-15",
+      "note": "Sprouts Farmers Market, Inc. is a publicly traded company (Nasdaq: SFM) that owns and runs its stores; it is not owned by a parent company or private equity firm.",
+      "checked": "2026-10-30",
+      "publicListing": {
+        "company": "Sprouts Farmers Market, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "SFM"
+          }
+        ],
+        "source": "https://investors.sprouts.com/overview/",
+        "sourceTitle": "Sprouts — investor overview",
+        "checked": "2026-10-30"
+      },
       "categories": [
         "corporate"
       ]

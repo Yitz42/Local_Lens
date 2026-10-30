@@ -1,4 +1,4 @@
-import {kosherListingFor} from './kosher-places.js?v=20261030-counts1';
+import {kosherListingFor} from './kosher-places.js?v=20261030-details1';
 export const OWNERSHIP_PREFERENCE_KEY='local-lens-hidden-v2';
 export const DEFAULT_OWNERSHIP_FILTERS=['pe','corporate'];
 export function initialOwnershipFilters(stored){
@@ -38,7 +38,7 @@ export function foodTypesFromTerms(input=[],name=''){
  return FOOD_TYPES.filter(type=>terms.has(type.id)||type.terms.some(term=>terms.has(term))||(type.namePattern?.test(name)??false)).map(type=>type.id);
 }
 // Kosher also comes from certified listings and from places a person marked kosher themselves.
-export function foodTypesForPlace(place){return [...new Set([...foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']),...foodTypesFromTerms([],place.name||'').filter(isDietType),...(place.myKosher||place.osmKosher||kosherListingFor(place)?['kosher']:[])])];}
+export function foodTypesForPlace(place){return [...new Set([...foodTypesFromTerms([place.foodTypes||[],place.cuisine||'']),...foodTypesFromTerms([],place.name||'').filter(isDietType),...(place.myKosher||place.osmKosher||kosherListingFor(place)?['kosher']:[]),...(Array.isArray(place.myDiets)?place.myDiets.filter(isDietType):[])])];}
 export function foodTypeLabel(place){const ids=foodTypesForPlace(place);return FOOD_TYPES.filter(type=>ids.includes(type.id)).map(type=>type.name).join(' · ');}
 export function matchesFoodTypes(place,selected=[]){
  if(!selected.length)return true;
