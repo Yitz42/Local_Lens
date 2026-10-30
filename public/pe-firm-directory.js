@@ -2702,7 +2702,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "The Learning Experience",
+          "parent": "The Learning Experience · Harvest Partners",
+          "type": "pe",
+          "source": "https://thelearningexperience.com/press/harvest-partners-announces-acquisition-of-the-learning-experience/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Heartland Industrial Partners",

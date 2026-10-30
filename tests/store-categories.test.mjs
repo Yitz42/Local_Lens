@@ -214,3 +214,14 @@ test('round 3: movies & fun covers theaters, bowling, arcades, and parks',()=>{
  for(const [name,brand] of [['AMC Owings Mills 17','AMC Theatres'],['Cinemark Towson and XD','Cinemark'],['Bowlero Normandy','Lucky Strike'],['AMF Woodlawn Lanes','Lucky Strike'],['Lucky Strike Pikesville','Lucky Strike'],['Six Flags America','Six Flags']])assert.equal(ownershipFor(p(name,'fun')).brand,brand,name);
  assert.equal(ownershipFor(p('AMF Bakery','grocery')).type,'unknown');assert.equal(ownershipFor(p('Lucky Strike Diner','restaurant')).type,'unknown');
 });
+test('round 4: child care and tutoring, with leading-name matching for school chains',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'day_care_preschool',...h('services_and_business','family_service','child_care_and_day_care','day_care_preschool')}),'childcare');
+ assert.equal(categoryForOverture({basic_category:'tutoring_service',...h('education','educational_service','tutoring_service')}),'childcare');
+ assert.equal(categoryForOverture({basic_category:'school',...h('education','place_of_learning','school')}),null,'schools stay out');
+ assert.equal(categoryFor({amenity:'childcare'}),'childcare');assert.equal(categoryFor({amenity:'kindergarten'}),'childcare');
+ for(const [name,brand,type] of [['KinderCare of Owings Mills','KinderCare','corporate'],['Primrose School of Owings Mills','Primrose Schools','pe'],['The Goddard School of Pikesville','The Goddard School','pe'],['Mathnasium of Pikesville','Mathnasium','pe'],['Sylvan Learning Center of Towson','Sylvan Learning','pe'],['The Learning Experience - Reisterstown','The Learning Experience','pe'],['Kiddie Academy of Owings Mills','Kiddie Academy','corporate']])assert.deepEqual([ownershipFor(p(name,'childcare')).brand,ownershipFor(p(name,'childcare')).type],[brand,type],name);
+ const kiddie=ownershipFor(p('Kiddie Academy of Owings Mills','childcare'));
+ assert.equal(kiddie.headquarters.city,'Abingdon');assert.equal(kiddie.localOperators,'franchise');
+ assert.equal(ownershipFor(p('Primrose Garden Center','home')).type,'unknown');
+});

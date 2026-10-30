@@ -6792,7 +6792,11 @@
       "sponsors": [
         "Roark"
       ],
-      "localOperators": "franchise"
+      "localOperators": "franchise",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Maverik",
@@ -8449,7 +8453,11 @@
       "sponsors": [
         "Roark"
       ],
-      "localOperators": "franchise"
+      "localOperators": "franchise",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Publix",
@@ -10896,7 +10904,11 @@
       "sponsors": [
         "Sycamore Partners"
       ],
-      "localOperators": "franchise"
+      "localOperators": "franchise",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "The Home Depot",
@@ -19392,6 +19404,103 @@
         "fun"
       ],
       "matchNamePrefix": true
+    },
+    {
+      "brand": "KinderCare",
+      "aliases": [
+        "KinderCare Learning Center",
+        "KinderCare Learning Centers",
+        "Crème de la Crème",
+        "Creme de la Creme"
+      ],
+      "type": "corporate",
+      "parent": "KinderCare Learning Companies, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1873529/000119312526106342/klc-20260103.htm",
+      "sourceTitle": "KinderCare Learning Companies — fiscal 2025 Form 10-K",
+      "note": "KinderCare centers made up 88% of the company's fiscal 2025 revenue; it began trading on the NYSE in October 2024.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=KinderCare",
+      "publicListing": {
+        "company": "KinderCare Learning Companies, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "KLC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1873529/000119312526106342/klc-20260103.htm",
+        "sourceTitle": "KinderCare Learning Companies — fiscal 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "The Learning Experience",
+      "aliases": [
+        "Learning Experience",
+        "TLE"
+      ],
+      "type": "pe",
+      "parent": "The Learning Experience · Harvest Partners",
+      "source": "https://thelearningexperience.com/press/harvest-partners-announces-acquisition-of-the-learning-experience/",
+      "sourceTitle": "The Learning Experience — Harvest Partners announces acquisition (2025)",
+      "note": "Funds managed by Harvest Partners took a majority stake from Golden Gate Capital in July 2025. Centers are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Learning%20Experience",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true,
+      "localOperators": "franchise",
+      "sponsors": [
+        "Harvest Partners"
+      ]
+    },
+    {
+      "brand": "Kiddie Academy",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Kiddie Academy Educational Child Care (privately owned franchisor)",
+      "source": "https://kiddieacademy.com/franchising/franchising-with-us/",
+      "sourceTitle": "Kiddie Academy — franchising with us",
+      "note": "Founded by George and Pauline Miller in 1980 and headquartered in Abingdon, Maryland; more than 380 academies are run by local franchisees.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Kiddie%20Academy",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true,
+      "localOperators": "franchise",
+      "headquarters": {
+        "city": "Abingdon",
+        "state": "MD",
+        "lat": 39.4673,
+        "lng": -76.3488
+      }
+    },
+    {
+      "brand": "Sylvan Learning",
+      "aliases": [
+        "Sylvan Learning Center",
+        "Sylvan"
+      ],
+      "type": "pe",
+      "parent": "Sylvan Learning · Unleashed Brands (Seidler Equity Partners)",
+      "source": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/unleashed-brands-buys-sylvan-learning/article_a568813e-d4c7-11ee-bb32-1f85230cfdda.html",
+      "sourceTitle": "Franchise Times — Unleashed Brands buys Sylvan Learning (2024)",
+      "note": "Unleashed Brands, owned by private equity firm Seidler Equity Partners since 2023, bought Sylvan in 2024. Centers are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sylvan%20Learning",
+      "matchCategories": [
+        "childcare"
+      ],
+      "matchNamePrefix": true,
+      "localOperators": "franchise"
     }
   ]
 }

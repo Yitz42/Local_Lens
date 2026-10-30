@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='fun-v1';
+export const PLACE_FORMAT='childcare-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -43,6 +43,8 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(printing_service|screen_printing_service|t_shirt_printing_service|commercial_printer|print_media|copy_shop|graphic_designer|sign_making|signmaking|sign_maker)$/.test(t)))return 'print';
  if(terms.some(t=>/^(laundry_service|laundromat|dry_cleaning|laundry)$/.test(t)))return 'laundry';
  if(terms.some(t=>/^(movie_theater|cinema|drive_in_theater|bowling_alley|arcade|escape_room|amusement_park|trampoline_park|mini_golf|mini_golf_course|laser_tag|go_kart_track|family_entertainment_center)$/.test(t)))return 'fun';
+ // Day care, preschool, and tutoring. Schools and colleges stay out.
+ if(terms.some(t=>/^(child_care_and_day_care|day_care_preschool|preschool|tutoring_service|test_preparation)$/.test(t)))return 'childcare';
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
