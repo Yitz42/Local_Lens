@@ -250,6 +250,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-30"
         },
         {
+          "brand": "FleetPride",
+          "parent": "FleetPride · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/news/press-release/american-securities-acquires-fleetpride-from-tpg-capital/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "HOODZ",
           "parent": "BELFOR · American Securities",
           "type": "pe",
@@ -827,6 +834,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://baincapitalprivateequity.com/portfolio",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "Gong Cha",
+          "parent": "Gong cha · TA Associates (sale to Bain Capital agreed)",
+          "type": "pe",
+          "source": "https://www.restaurantdive.com/news/bain-capital-buys-gong-cha-bubble-tea-chain/827124/",
+          "checked": "2026-10-30"
         }
       ]
     },
@@ -1769,7 +1783,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Crash Champions",
+          "parent": "Crash Champions · Clearlake Capital",
+          "type": "pe",
+          "source": "https://www.privateequitywire.co.uk/crash-champions-secures-growth-investment-clearlake/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Close Brothers Group",
@@ -5996,7 +6018,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Gong Cha",
+          "parent": "Gong cha · TA Associates (sale to Bain Capital agreed)",
+          "type": "pe",
+          "source": "https://www.restaurantdive.com/news/bain-capital-buys-gong-cha-bubble-tea-chain/827124/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Tavistock Group",
@@ -6303,6 +6333,13 @@ export const FIRM_CATALOG = {
         }
       ],
       "mappedBrands": [
+        {
+          "brand": "Classic Collision",
+          "parent": "Classic Collision · TPG",
+          "type": "pe",
+          "source": "https://mergr.com/transaction/tpg-acquires-classic-collision",
+          "checked": "2026-10-30"
+        },
         {
           "brand": "LifeStance Health",
           "parent": "LifeStance Health Group · TPG minority investment",

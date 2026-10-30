@@ -93,7 +93,7 @@ Opened the private-equity portfolio and active US LBM case study; checked Canada
 | Canada Goose | current portfolio investment | [Canada Goose — 2026 SEC financial statements](https://www.sec.gov/Archives/edgar/data/1690511/000169051126000012/R8.htm) | The company identifies Bain-advised funds among its principal shareholders in its fiscal 2026 report; public listing does not eliminate the sponsor relationship. | 2026-10-16 |
 | US LBM | current portfolio investment | [Bain Capital Industrials — US LBM active investment](https://www.baincapitalindustrials.com/portfolio/us-lbm) | Explicitly marked Active, with investment metrics through December 2025 and discussion of the 2023 reinvestment. This is a building-materials holding group with regional storefront banners; those banners were not inferred or automatically added. | 2026-10-16 |
 
-Brands in Local Lens: Bob's Discount Furniture, Canada Goose, Fogo de Chão.
+Brands in Local Lens: Bob's Discount Furniture, Canada Goose, Fogo de Chão, Gong Cha.
 
 ## BC Partners
 
@@ -659,7 +659,7 @@ Opened the official portfolio with Active/Partially Realized/Realized filters. T
 | --- | --- | --- | --- | --- |
 | LifeStance Health | minority | [LifeStance — TPG beneficial-ownership filing in 2026](https://www.sec.gov/Archives/edgar/data/1845257/000199937126018021/xslSCHEDULE_13G_X02/primary_doc.xml) | TPG-affiliated entities reported a 25.7% stake as of the event/denominator dates in this filing. Later secondary offerings can change the percentage; the app note states minority backing without presenting 25.7% as today’s exact percentage. | 2026-10-16 |
 
-Brands in Local Lens: LifeStance Health.
+Brands in Local Lens: Classic Collision, LifeStance Health.
 
 ## TSG Consumer Partners
 

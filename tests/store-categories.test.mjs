@@ -363,3 +363,11 @@ test('round 16: dental support groups, Sonesta economy hotels, banks, and name v
  assert.equal(ownershipFor({id:'c',name:'Commerce Bank',category:'bank',lat:39.10,lng:-94.58}).brand,'Commerce Bank','Kansas City');
  assert.equal(ownershipFor({id:'c2',name:'Commerce Bank',category:'bank',lat:40.0,lng:-75.0}).type,'unknown','other banks share the name outside the Midwest');
 });
+test('Maryland and brand-tag round: local chains, co-ops, insurers, and merged banks',()=>{
+ const md=(name,category,brand='')=>({id:name,name,brand,category,lat:39.37,lng:-76.72});
+ for(const [name,category,brand,type] of [["High's",'gas',"High's",'corporate'],['Dash In','grocery','Dash In','corporate'],['Roy Rogers','restaurant','Roy Rogers','corporate'],['Ledo Pizza','restaurant','Ledo Pizza','corporate'],['Sandy Spring Bank','bank','Atlantic Union Bank','corporate'],['Old Line Bank','bank','WesBanco','corporate'],['Pivot Physical Therapy','therapy','Athletico Physical Therapy','pe'],['Long & Foster Real Estate','realestate','Long & Foster','corporate'],['Mattress Warehouse','home','Mattress Warehouse','pe'],['SECU Credit Union','bank','SECU Maryland','independent']]){const o=ownershipFor(md(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+ assert.ok(ownershipFor(md('Roy Rogers','restaurant')).headquarters,'local corporations carry a headquarters for the How local? slider');
+ assert.equal(ownershipFor(md("Gill-Roy's Hardware",'home','Do it Best')).type,'independent','Overture brand tags identify co-op members');
+ assert.equal(ownershipFor(md('Jane Doe - Erie Insurance','realestate')).brand,'Erie Insurance');
+ assert.equal(ownershipFor({id:'nc',name:'SECU Credit Union',category:'bank',lat:35.78,lng:-78.64}).brand!=='SECU Maryland',true,'Maryland SECU stays in Maryland');
+});
