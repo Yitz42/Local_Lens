@@ -1105,6 +1105,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Athletico Physical Therapy",
+    "aliases": [
+      "Athletico"
+    ],
+    "type": "pe",
+    "parent": "Athletico · BDT Capital Partners",
+    "source": "https://www.prnewswire.com/news-releases/athletico-physical-therapy-welcomes-growth-investment-from-bdt-capital-partners-llc-300363577.html",
+    "sourceTitle": "Athletico — growth investment from BDT Capital Partners (2016)",
+    "note": "BDT Capital Partners (now BDT & MSD Partners) invested in Athletico in 2016 and remains its majority owner according to later deal reports.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "BDT & MSD Partners"
+    ],
+    "matchCategories": [
+      "therapy",
+      "clinic",
+      "fitness"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "ATI Physical Therapy",
     "aliases": [
       "ATI"
@@ -1237,6 +1261,27 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "AutoZone — investor overview",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Avis",
+    "aliases": [
+      "Avis Car Rental",
+      "Avis Rent A Car"
+    ],
+    "type": "corporate",
+    "parent": "Avis Budget Group, Inc.",
+    "source": "https://ir.avisbudgetgroup.com/",
+    "sourceTitle": "Avis Budget Group — investor relations",
+    "note": "Avis Budget Group is publicly traded. Some locations are run by licensees.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -1792,6 +1837,26 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Berkshire Hathaway — 2024 annual report (Helzberg and Ben Bridge)",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Benihana",
+    "aliases": [
+      "Benihana Japanese Steakhouse"
+    ],
+    "type": "corporate",
+    "parent": "The ONE Group Hospitality, Inc.",
+    "source": "https://ir.togrp.com/press-releases/detail/525/the-one-group-hospitality-inc-completes-acquisition-of",
+    "sourceTitle": "The ONE Group — completes acquisition of the owner of Benihana (May 2024)",
+    "note": "The ONE Group, a Nasdaq-listed restaurant company, bought Benihana from Angelo Gordon in 2024.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "bar"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -2777,6 +2842,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Bright Now! Dental",
+    "aliases": [
+      "Bright Now Dental",
+      "Bright Now! Dental & Orthodontics"
+    ],
+    "type": "pe",
+    "parent": "Smile Brands · Gryphon Investors",
+    "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+    "sourceTitle": "Gryphon Investors — Smile Brands (current investment)",
+    "note": "Smile Brands, a current Gryphon investment, provides business support to Bright Now! Dental offices under long-term agreements with affiliated dental groups.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Gryphon Investors"
+    ],
+    "matchCategories": [
+      "dental"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Brilliant Earth",
     "aliases": [],
     "type": "corporate",
@@ -3070,6 +3157,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Budget Car Rental",
+    "aliases": [
+      "Budget Rent A Car",
+      "Budget Truck Rental"
+    ],
+    "type": "corporate",
+    "parent": "Avis Budget Group, Inc.",
+    "source": "https://ir.avisbudgetgroup.com/",
+    "sourceTitle": "Avis Budget Group — investor relations",
+    "note": "Budget is part of the publicly traded Avis Budget Group. Some locations are run by licensees.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Buffalo Wild Wings",
     "aliases": [],
     "type": "pe",
@@ -3231,6 +3339,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Cadence Academy",
+    "aliases": [
+      "Cadence Academy Preschool",
+      "Cadence Education"
+    ],
+    "type": "pe",
+    "parent": "Cadence Education · Apax Partners",
+    "source": "https://www.morganstanley.com/im/en-us/individual-investor/insights/press-release/apax-partners-acquires-cadence-education-from-capital-partners.html",
+    "sourceTitle": "Morgan Stanley — Apax Partners acquires Cadence Education (2020)",
+    "note": "Funds advised by Apax Partners bought Cadence Education in 2020. Cadence also runs schools under dozens of local names that are not all listed here.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Apax Partners"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Cadence Bank",
     "aliases": [],
     "type": "corporate",
@@ -3304,6 +3435,25 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "California Pizza Kitchen",
+    "aliases": [
+      "CPK"
+    ],
+    "type": "corporate",
+    "parent": "Investor group led by Consortium Brand Partners",
+    "source": "https://www.entrepreneur.com/business-news/california-pizza-kitchen-just-sold-for-300-million/501152",
+    "sourceTitle": "Entrepreneur — California Pizza Kitchen sold to investor group (December 2025)",
+    "note": "An investor group led by Consortium Brand Partners, with Eldridge Industries, Aurify Brands, and Convive Brands, agreed in December 2025 to buy CPK from the lenders who took it over after its 2020 bankruptcy; Bain Capital Credit provided financing.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -3821,6 +3971,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Castle Dental",
+    "aliases": [
+      "Castle Dental & Orthodontics"
+    ],
+    "type": "pe",
+    "parent": "Smile Brands · Gryphon Investors",
+    "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+    "sourceTitle": "Gryphon Investors — Smile Brands (current investment)",
+    "note": "Smile Brands, a current Gryphon investment, provides business support to Castle Dental offices under long-term agreements with affiliated dental groups.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Gryphon Investors"
+    ],
+    "matchCategories": [
+      "dental"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Cato",
     "aliases": [
       "Cato Fashions",
@@ -4281,6 +4452,29 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Childtime",
+    "aliases": [
+      "Childtime Learning Center",
+      "Childtime Childcare"
+    ],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs Childtime schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -6241,6 +6435,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Dollar Rent A Car",
+    "aliases": [
+      "Dollar Car Rental"
+    ],
+    "type": "corporate",
+    "parent": "Hertz Global Holdings, Inc.",
+    "source": "https://ir.hertz.com/",
+    "sourceTitle": "Hertz Global Holdings — investor relations",
+    "note": "Dollar is one of Hertz's rental brands; Hertz is publicly traded.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "storage"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Dollar Tree",
     "aliases": [],
     "type": "corporate",
@@ -6877,6 +7090,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Everbrook Academy",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs Everbrook Academy schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Express",
     "aliases": [
       "Express Factory Outlet",
@@ -6894,6 +7127,57 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Express Oil Change & Tire Engineers",
+    "aliases": [
+      "Express Oil Change",
+      "Express Oil Change and Tire Engineers",
+      "Tire Engineers"
+    ],
+    "type": "pe",
+    "parent": "Express Oil Change · Golden Gate Capital (combined with Mavis)",
+    "source": "https://goldengatecap.com/golden-gate-capital-acquires-express-oil-change-tire-engineers/",
+    "sourceTitle": "Golden Gate Capital — acquires Express Oil Change & Tire Engineers (2017)",
+    "note": "Golden Gate Capital bought Express Oil Change in 2017; the company later combined with private-equity-backed Mavis. Some shops are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Golden Gate Capital"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Extended Stay America",
+    "aliases": [
+      "Extended Stay America Suites",
+      "Extended Stay America Select Suites",
+      "Extended Stay America Premier Suites",
+      "ESA Suites"
+    ],
+    "type": "pe",
+    "parent": "Extended Stay America · Blackstone & Starwood Capital",
+    "source": "https://www.blackstone.com/news/press/the-blackstone-group-completes-acquisition-of-extended-stay-america-inc/",
+    "sourceTitle": "Blackstone — Blackstone and Starwood complete acquisition of Extended Stay America (June 2021)",
+    "note": "Funds managed by Blackstone Real Estate Partners and Starwood Capital took Extended Stay America private in 2021. Some hotels are franchised to other owners.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -9093,6 +9377,30 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Great Wolf Lodge",
+    "aliases": [
+      "Great Wolf Resorts"
+    ],
+    "type": "pe",
+    "parent": "Great Wolf Resorts · Blackstone & Centerbridge",
+    "source": "https://blackstone.com/news/press/blackstone-to-acquire-65-controlling-interest-in-great-wolf-resorts-and-form-new-2-9-billion-joint-venture-with-centerbridge-partners",
+    "sourceTitle": "Blackstone — 65% controlling interest in Great Wolf Resorts, joint venture with Centerbridge",
+    "note": "Blackstone real estate funds hold a controlling interest in Great Wolf Resorts alongside Centerbridge Partners, the previous owner.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone",
+      "Centerbridge Partners"
+    ],
+    "matchCategories": [
+      "hotel",
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Grocery Outlet",
     "aliases": [
       "Grocery Outlet Bargain Market"
@@ -9121,6 +9429,28 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Grocery Outlet — Form 10-Q exchange and ticker",
       "checked": "2026-10-25"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Guess",
+    "aliases": [
+      "GUESS?",
+      "Guess?",
+      "GUESS Factory",
+      "Guess Factory",
+      "Marciano"
+    ],
+    "type": "corporate",
+    "parent": "Guess? operating company · brand co-owned by Authentic Brands Group (51%) and the Marciano family",
+    "source": "https://fashionunited.com/news/business/guess-goes-private-as-authentic-finalises-majority-takeover/2026012370205",
+    "sourceTitle": "FashionUnited — Guess goes private as Authentic finalises majority takeover (January 2026)",
+    "note": "Guess went private in January 2026. Authentic Brands Group owns 51% of the brand; the Marciano family and Carlos Alberini own the rest, and management owns the business that runs the stores.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
     "categories": [
       "corporate"
     ]
@@ -9583,6 +9913,29 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Berkshire Hathaway — 2024 annual report (Helzberg and Ben Bridge)",
       "checked": "2026-10-27"
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Hertz",
+    "aliases": [
+      "Hertz Car Rental",
+      "Hertz Rent A Car",
+      "Hertz Car Sales"
+    ],
+    "type": "corporate",
+    "parent": "Hertz Global Holdings, Inc.",
+    "source": "https://ir.hertz.com/",
+    "sourceTitle": "Hertz Global Holdings — investor relations",
+    "note": "Hertz is a publicly traded company. Some locations are run by licensees.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "storage",
+      "cars"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -10314,6 +10667,29 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Intelligentsia_Coffee_%26_Tea",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Interim HealthCare",
+    "aliases": [
+      "Interim Healthcare"
+    ],
+    "type": "pe",
+    "parent": "Caring Brands International · Wellspring Capital Management",
+    "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+    "sourceTitle": "Home Health Care News — Wellspring acquires Interim HealthCare's parent (October 2021)",
+    "note": "Wellspring Capital Management bought Caring Brands International, the Interim HealthCare franchisor, in 2021. Local offices are mostly independently owned franchises.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Wellspring Capital Management"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -11293,6 +11669,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kona Grill",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "The ONE Group Hospitality, Inc.",
+    "source": "https://www.restaurantbusinessonline.com/financing/stk-parent-one-group-completes-acquisition-benihana-365m",
+    "sourceTitle": "Restaurant Business — STK parent One Group (owner of Kona Grill) completes Benihana deal",
+    "note": "The ONE Group, a Nasdaq-listed restaurant company, bought Kona Grill out of bankruptcy in 2019.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "bar"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Kona Ice",
     "aliases": [
       "Kona Ice"
@@ -11605,6 +11999,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "La Petite Academy",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs La Petite Academy schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "La-Z-Boy",
     "aliases": [
       "La-Z-Boy Home Furnishings & Decor",
@@ -11722,6 +12136,30 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "LEGOLAND Discovery Center",
+    "aliases": [
+      "Legoland Discovery Centre",
+      "LEGOLAND"
+    ],
+    "type": "pe",
+    "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+    "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+    "sourceTitle": "CPP Investments — KIRKBI, Blackstone and CPP Investments offer for Merlin Entertainments",
+    "note": "Merlin Entertainments was taken private in 2019; KIRKBI, the LEGO family's investment company, owns half and Blackstone and CPP Investments the other half. LEGO stores are a separate company.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "matchCategories": [
+      "fun",
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -12449,6 +12887,26 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Macy%27s,_Inc.",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Madame Tussauds",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+    "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+    "sourceTitle": "CPP Investments — KIRKBI, Blackstone and CPP Investments offer for Merlin Entertainments",
+    "note": "Merlin Entertainments was taken private in 2019; KIRKBI owns half and Blackstone and CPP Investments the other half.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -13632,6 +14090,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Monarch Dental",
+    "aliases": [
+      "Monarch Dental & Orthodontics"
+    ],
+    "type": "pe",
+    "parent": "Smile Brands · Gryphon Investors",
+    "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+    "sourceTitle": "Gryphon Investors — Smile Brands (current investment)",
+    "note": "Smile Brands, a current Gryphon investment, provides business support to Monarch Dental offices under long-term agreements with affiliated dental groups.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Gryphon Investors"
+    ],
+    "matchCategories": [
+      "dental"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Monro Auto Service and Tire Centers",
     "aliases": [
       "Monro",
@@ -13667,6 +14146,26 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Montessori Unlimited",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs Montessori Unlimited schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -14848,6 +15347,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Paper Source",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Barnes & Noble, Inc. · Elliott-advised funds",
+    "source": "https://www.barnesandnoble.com/terms/about-barnesandnoble",
+    "sourceTitle": "Barnes & Noble — official company information",
+    "note": "Barnes & Noble, owned by Elliott-advised funds, bought Paper Source out of bankruptcy in 2021.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other",
+      "home",
+      "apparel",
+      "general"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Paris Baguette",
     "aliases": [],
     "type": "corporate",
@@ -15780,6 +16298,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Pret A Manger",
+    "aliases": [
+      "Pret"
+    ],
+    "type": "corporate",
+    "parent": "Pret A Manger · JAB Holding Company",
+    "source": "https://www.foodbusinessnews.net/articles/11891-jab-adds-to-portfolio-with-pret-a-manger",
+    "sourceTitle": "Food Business News — JAB adds Pret A Manger to its portfolio (2018)",
+    "note": "JAB Holding, the Reimann family's investment company, bought a majority of Pret in 2018 and still owned it in 2026.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "coffee",
+      "restaurant"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Pretzelmaker",
     "aliases": [],
     "type": "corporate",
@@ -16197,6 +16734,26 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "RA Sushi",
+    "aliases": [
+      "RA Sushi Bar Restaurant"
+    ],
+    "type": "corporate",
+    "parent": "The ONE Group Hospitality, Inc.",
+    "source": "https://ir.togrp.com/press-releases/detail/525/the-one-group-hospitality-inc-completes-acquisition-of",
+    "sourceTitle": "The ONE Group — completes acquisition of the owner of Benihana and RA Sushi (May 2024)",
+    "note": "RA Sushi came to The ONE Group, a Nasdaq-listed restaurant company, with its 2024 purchase of Benihana's owner.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "bar"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -17771,6 +18328,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SEA LIFE",
+    "aliases": [
+      "SEA LIFE Aquarium",
+      "Sea Life Centre"
+    ],
+    "type": "pe",
+    "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+    "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+    "sourceTitle": "CPP Investments — KIRKBI, Blackstone and CPP Investments offer for Merlin Entertainments",
+    "note": "Merlin Entertainments was taken private in 2019; KIRKBI owns half and Blackstone and CPP Investments the other half.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Blackstone"
+    ],
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Seasons 52",
     "aliases": [],
     "type": "corporate",
@@ -19193,6 +19773,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "STK Steakhouse",
+    "aliases": [
+      "STK"
+    ],
+    "type": "corporate",
+    "parent": "The ONE Group Hospitality, Inc.",
+    "source": "https://ir.togrp.com/press-releases/detail/525/the-one-group-hospitality-inc-completes-acquisition-of",
+    "sourceTitle": "The ONE Group — company press release",
+    "note": "STK is The ONE Group's own steakhouse brand; the company is listed on Nasdaq.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant",
+      "bar"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Stoney River Steakhouse and Grill",
     "aliases": [
       "Stoney River Steakhouse and Grill",
@@ -19776,6 +20376,29 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SYNERGY HomeCare",
+    "aliases": [
+      "Synergy Home Care"
+    ],
+    "type": "pe",
+    "parent": "SYNERGY HomeCare Franchising · Levine Leichtman Capital Partners",
+    "source": "https://homehealthcarenews.com/2025/01/llcp-acquires-synergy-homecare-poised-for-growth/",
+    "sourceTitle": "Home Health Care News — LLCP acquires SYNERGY HomeCare (January 2025)",
+    "note": "Levine Leichtman Capital Partners bought the SYNERGY HomeCare franchisor in January 2025. Local offices are independently owned franchises.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Levine Leichtman Capital Partners"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "T-Mobile",
     "aliases": [
       "T-Mobile Authorized Retailer",
@@ -20173,6 +20796,28 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "The Children's Courtyard",
+    "aliases": [
+      "Children's Courtyard"
+    ],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs The Children's Courtyard schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -20607,6 +21252,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Thrifty Car Rental",
+    "aliases": [
+      "Thrifty Rent A Car"
+    ],
+    "type": "corporate",
+    "parent": "Hertz Global Holdings, Inc.",
+    "source": "https://ir.hertz.com/",
+    "sourceTitle": "Hertz Global Holdings — investor relations",
+    "note": "Thrifty is one of Hertz's rental brands; Hertz is publicly traded.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "storage"
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Thrive Pet Healthcare",
     "aliases": [
       "Thrive Pet Healthcare",
@@ -20796,6 +21460,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "TOGO'S",
+    "aliases": [
+      "Togo's",
+      "Togos",
+      "Togo's Sandwiches",
+      "TOGO'S Sandwiches"
+    ],
+    "type": "pe",
+    "parent": "Togo's Eateries · Southfield Mezzanine Capital",
+    "source": "https://restaurantbusinessonline.com/togos-sold-pe-firm",
+    "sourceTitle": "Restaurant Business — Togo's sold to a private equity firm (2019)",
+    "note": "Southfield Mezzanine Capital bought the Togo's franchisor in 2019. Most restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Tokyo Central",
     "aliases": [],
     "type": "corporate",
@@ -20898,6 +21584,30 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.heritagegrocersgroup.com/about-us"
       }
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Topgolf",
+    "aliases": [
+      "Topgolf Swing Suite"
+    ],
+    "type": "pe",
+    "parent": "Topgolf · Leonard Green & Partners (60%), Callaway (40%)",
+    "source": "https://www.ropesgray.com/en/news-and-events/news/2026/01/leonard-green-partners-acquire-majority-stake-in-topgolf-business-from-topgolf-callaway",
+    "sourceTitle": "Ropes & Gray — Leonard Green acquires majority stake in Topgolf (January 2026)",
+    "note": "Leonard Green & Partners bought 60% of Topgolf from Topgolf Callaway Brands in January 2026; Callaway kept 40%.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Leonard Green & Partners"
+    ],
+    "matchCategories": [
+      "fun",
+      "bar",
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -21255,6 +21965,29 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.cumberlandfarms.com/"
       }
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Tutor Time",
+    "aliases": [
+      "Tutor Time Learning Center",
+      "Tutor Time Child Care/Learning Center"
+    ],
+    "type": "pe",
+    "parent": "Learning Care Group · American Securities",
+    "source": "https://www.american-securities.com/companies/learning-care/",
+    "sourceTitle": "American Securities — Learning Care Group (current investment since 2014)",
+    "note": "Learning Care Group, a current American Securities investment, runs Tutor Time schools.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]

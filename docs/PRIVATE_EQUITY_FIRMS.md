@@ -2,7 +2,7 @@
 
 Research seed: [Wikipedia list of private equity firms](https://en.wikipedia.org/wiki/List_of_private_equity_firms) ([snapshot](https://en.wikipedia.org/w/index.php?title=List_of_private_equity_firms&oldid=1380031888)). Firm names from the seed are a research queue and may include historical names, venture firms, or merged businesses. A place in this catalog is not proof of any particular ownership relationship.
 
-54 of 302 catalog entries have recorded portfolio research. Selected holdings and mapped brands are sourced; this is not a complete inventory of any firm’s investments. Minority stakes, growth investments, portfolio-company brands, and franchises require the scope stated in each record. Unreviewed firms remain explicitly unreviewed.
+56 of 304 catalog entries have recorded portfolio research. Selected holdings and mapped brands are sourced; this is not a complete inventory of any firm’s investments. Minority stakes, growth investments, portfolio-company brands, and franchises require the scope stated in each record. Unreviewed firms remain explicitly unreviewed.
 
 ## 3G Capital
 
@@ -54,6 +54,8 @@ Selected technology and information-services investments. Individual pages expre
 | --- | --- | --- | --- | --- |
 | HyperGuest | current portfolio investment | [Apax — HyperGuest](https://www.apax.com/partnerships/hyperguest/) | Marked Current, investment year 2026; hotel distribution and payment platform. | 2026-10-16 |
 | techoraco | current portfolio investment | [Apax — techoraco](https://www.apax.com/partnerships/techoraco/) | Marked Current, investment year 2026; digital infrastructure events platform. | 2026-10-16 |
+
+Brands in Local Lens: Cadence Academy.
 
 ## Apollo Global Management
 
@@ -116,7 +118,7 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | Whataburger | Brand-level backing; see source scope | [Whataburger — official press kit and company history](https://stories.whataburger.com/press-kit/) | Whataburger’s company history records BDT Capital Partners acquiring a majority interest in 2019. Family involvement and franchisees can continue alongside fund ownership. | 2026-10-15 |
 | Culligan | Brand-level investment backing; see source scope | [Culligan — official corporate facts, reviewed August 2026](https://www.culligan.com/facts-culligan-dealer-north-america) | Culligan’s official facts page, reviewed August 6, 2026, states that parent Culligan International is majority owned by BDT & MSD Partners. Culligan operates a dealer network; this does not establish the equity owner of every local dealership. | 2026-10-16 |
 
-Brands in Local Lens: Culligan, Whataburger.
+Brands in Local Lens: Athletico Physical Therapy, Culligan, Whataburger.
 
 ## Blackstone
 
@@ -131,7 +133,7 @@ Selected sourced investments and brand affiliations, with individual holding rev
 | Tropical Smoothie Cafe | Brand-level backing; see source scope | [Blackstone — current investment and board biography](https://www.blackstone.com/people/david-kestnbaum/) | Blackstone’s current executive biography lists Tropical Smoothie Cafe as a current investment and board role; its official June 2024 announcement confirms the acquisition closed. | 2026-10-16 |
 | Great Wolf Resorts / Great Wolf Lodge | Company identifies Blackstone shareholders | [Great Wolf — current Career Pathways shareholder statement](https://www.greatwolf.com/jobs/programs/career-pathways) | Great Wolf’s company page identifies Blackstone as a shareholder. This record does not claim a current ownership percentage or resolve other investors. Hotels and waterparks are firm-research context; the map’s supported place categories are unchanged. | 2026-10-17 |
 
-Brands in Local Lens: 7 Brew, Jersey Mike's Subs, Tropical Smoothie Cafe.
+Brands in Local Lens: 7 Brew, Extended Stay America, Great Wolf Lodge, Jersey Mike's Subs, LEGOLAND Discovery Center, Madame Tussauds, SEA LIFE, Tropical Smoothie Cafe.
 
 ## Brentwood Associates
 
@@ -315,7 +317,19 @@ Review: 2026-10-16 · Partial evidence · [Portfolio / source](https://goldengat
 Official portfolio opened but asset cards/current status did not render, so review is partial and no new current holdings are asserted. Official news archive reports sale of Bob Evans Restaurants to 4x4 Capital in February 2026; do not keep Bob Evans under Golden Gate. California Pizza Kitchen, Eddie Bauer, Red Lobster, and older Pacific Sunwear stories are historical or affected by later transactions and were not relabeled from those stories. Current news archive reviewed: https://goldengatecap.com/news/ .
 
 
-Brands in Local Lens: PacSun.
+Brands in Local Lens: Express Oil Change & Tire Engineers, PacSun.
+
+## Gryphon Investors
+
+Review: 2026-10-30 · Partial evidence · [Portfolio / source](https://www.gryphon-inv.com/companies/smile-brands-inc/)
+
+Selected current storefront investment only. This is not a complete portfolio review.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| Smile Brands | Current portfolio investment | [Gryphon Investors — Smile Brands (current investment)](https://www.gryphon-inv.com/companies/smile-brands-inc/) | Smile Brands provides business support to Bright Now! Dental, Monarch Dental, and Castle Dental offices run by affiliated dental groups. | 2026-10-30 |
+
+Brands in Local Lens: Bright Now! Dental, Castle Dental, Monarch Dental.
 
 ## Hellman & Friedman
 
@@ -410,7 +424,7 @@ Selected sourced brand affiliations and current investments. Each holding keeps 
 | Vital Care Infusion Services | Brand-level investment backing; see source scope | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor marks the pharmacy franchisor as a current buyout investment. Local pharmacies are independently operated franchises; the label describes the franchisor, not ownership of each pharmacy. Bare “Vital Care” is not matched because the name is ambiguous. | 2026-10-17 |
 | Stepping Stones Group | Current buyout investment | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor expressly marks this therapy and clinical-staffing company current. It is employer research context, not a claim that schools or partner clinics receiving its services are owned by the sponsor. | 2026-10-17 |
 
-Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
+Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Topgolf, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
 
 ## Levine Leichtman Capital Partners
 
@@ -422,7 +436,7 @@ Selected brand affiliations compiled from reviewed Local Lens records. These may
 | --- | --- | --- | --- | --- |
 | Shipley Do-Nuts | Brand-level backing; see source scope | [LLCP — July 2025 Shipley acquisition](https://www.llcp.com/levine-leichtman-capital-partners-and-management-acquire-shipley-do-nuts/) | LLCP confirms it partnered with management to acquire Shipley from Peak Rock in July 2025. The former Peak Rock association is not used as the current parent. | 2026-10-16 |
 
-Brands in Local Lens: Shipley Do-Nuts.
+Brands in Local Lens: Shipley Do-Nuts, SYNERGY HomeCare.
 
 ## LightBay Capital
 
@@ -709,6 +723,18 @@ Selected growth and software investments. The official selected-investments page
 | --- | --- | --- | --- | --- |
 | Quantexa | current portfolio investment | [Warburg Pincus — Quantexa](https://warburgpincus.com/investments/quantexa/) | Official investment profile identifies a growth investment entered in 2021. A current team biography also identifies board representation; no controlling stake is asserted. | 2026-10-16 |
 | Clearwater Analytics | current portfolio investment | [Permira — Clearwater Analytics take-private completion, June 25, 2026](https://www.permira.com/news-and-insights/announcements/clearwater-analytics-completes-84-billion-take-private-acquisition-by-permira-and-warburg-pincus) | The completed 2026 transaction identifies a Permira- and Warburg Pincus-led investor group. Other investors also participate. | 2026-10-16 |
+
+## Wellspring Capital Management
+
+Review: 2026-10-30 · Partial evidence · [Portfolio / source](https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/)
+
+Selected storefront investment only. This is not a complete portfolio review.
+
+| Company / brand | Investment relationship | Source | Scope | Reviewed |
+| --- | --- | --- | --- | --- |
+| Caring Brands International (Interim HealthCare) | Acquired October 2021 | [Home Health Care News — Wellspring acquires Interim HealthCare parent (October 2021)](https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/) | Interim HealthCare offices are mostly independently owned franchises. | 2026-10-30 |
+
+Brands in Local Lens: Interim HealthCare.
 
 ## Research queue
 

@@ -27,6 +27,8 @@ publishers.
   [OpenStreetMap copyright page](https://www.openstreetmap.org/copyright).
 - **Google Maps content**, which is shown under Google's terms when a person connects their own key and is
   never stored in this repository.
+- **Hospital ownership** in `public/hospital-ownership.js`, which is derived from the third-party
+  [PE Hospital Tracker](https://airtable.com/appd2resSxUkpguFP/shrojR480lmH8vKpu/tbl058jjL6qNMqzkM). Check its terms before reusing it.
 - **Third-party libraries** in `public/vendor/`, which keep their own licenses.
 
 ## No warranty

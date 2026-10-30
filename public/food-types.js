@@ -1,4 +1,4 @@
-import {kosherListingFor} from './kosher-places.js?v=20261030-rounds10';
+import {kosherListingFor} from './kosher-places.js?v=20261030-hospitals1';
 export const OWNERSHIP_PREFERENCE_KEY='local-lens-hidden-v2';
 export const DEFAULT_OWNERSHIP_FILTERS=['pe','corporate'];
 export function initialOwnershipFilters(stored){

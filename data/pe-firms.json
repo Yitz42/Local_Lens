@@ -4866,6 +4866,50 @@
           "checked": "2026-10-26"
         }
       ]
+    },
+    {
+      "firm": "Gryphon Investors",
+      "aliases": [],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-30",
+      "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+      "notes": "Selected current storefront investment only. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Smile Brands",
+          "relationship": "Current portfolio investment",
+          "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+          "sourceTitle": "Gryphon Investors — Smile Brands (current investment)",
+          "note": "Smile Brands provides business support to Bright Now! Dental, Monarch Dental, and Castle Dental offices run by affiliated dental groups.",
+          "checked": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "firm": "Wellspring Capital Management",
+      "aliases": [
+        "Wellspring Capital"
+      ],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-30",
+      "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+      "notes": "Selected storefront investment only. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Caring Brands International (Interim HealthCare)",
+          "relationship": "Acquired October 2021",
+          "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+          "sourceTitle": "Home Health Care News — Wellspring acquires Interim HealthCare parent (October 2021)",
+          "note": "Interim HealthCare offices are mostly independently owned franchises.",
+          "checked": "2026-10-30"
+        }
+      ]
     }
   ]
 }

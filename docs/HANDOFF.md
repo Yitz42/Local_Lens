@@ -9,11 +9,12 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 
 ## What it does today
 
-- **Map and list of nearby places** in 32 categories, from restaurants and groceries to doctors, hotels, car dealers, and funeral homes
-  shops. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
-- **Ownership labels** for 951 researched brands (740 corporate, 197 private-equity-backed, and 14 co-ops, licensed
+- **Map and list of nearby places** in 33 categories, from restaurants and groceries to doctors, hospitals, hotels, car dealers, and funeral homes. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
+- **Ownership labels** for 985 researched brands (752 corporate, 219 private-equity-backed, and 16 co-ops, licensed
   independent grocers, and credit unions). Every record links to a source, usually an SEC filing, a company announcement,
   or a news report. Wikipedia is used only to find candidates, never as the ownership source.
+- **Hospital ownership** for about 1,500 for-profit and private-equity-backed US hospitals, matched facility by
+  facility from the third-party PE Hospital Tracker.
 - **"Where the money goes" filters.** Franchises and dealer-run stations keep their brand's label but show a
   local-owner badge. A *How local?* slider lets people choose between independents only, locally owned
   (including co-ops), regional (private US chains headquartered within 150 miles), franchises, and dealers.
@@ -30,7 +31,7 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 | Ownership data | `data/brands.json`, `data/pe-firms.json` | Hand-researched. `npm run directory` validates them and generates the app, CSV, JSON, and Markdown files. |
 | Matching | `public/ownership.js`, `public/brand-scope.js` | Brand names match place names. Short or shared names are limited to a category (`matchCategories`) or a region (`matchBounds`) to avoid false matches. |
 | App | `public/` (plain JavaScript modules, no framework) | Runs as a static site (GitHub Pages) or with a small Worker that serves place pages (`worker/`). |
-| Tests | `tests/` (`npm test`) | About 90 tests covering matching, categories, filters, and the data files. |
+| Tests | `tests/` (`npm test`) | About 100 tests covering matching, categories, filters, and the data files. |
 
 Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localhost:8000.
 
