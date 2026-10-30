@@ -54,8 +54,8 @@ Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localh
 1. **An ownership data pipeline.** Ongoing monitoring of SEC filings, deal announcements, and private equity
    trackers, with a review step before changes go live. Organizations that already track ownership, such as
    the Private Equity Stakeholder Project, are the natural source.
-2. **Corrections from the public.** A way for owners and customers to submit "this place is independent" or
-   "this changed hands," with evidence and review.
+2. **Corrections from the public.** The prototype has a "Wrong label?" link that opens a prefilled GitHub issue;
+   a real version needs a form that does not require a GitHub account, plus a review queue.
 3. **Location-level ownership** for franchises and small businesses, from state business registries,
    franchise disclosure documents, or owner verification.
 4. **Broader coverage**: regional chains, more local businesses, and countries beyond the US.
