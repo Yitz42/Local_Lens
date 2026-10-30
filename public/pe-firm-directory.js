@@ -743,7 +743,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "National Spine & Pain Centers",
+          "parent": "National Spine & Pain Centers · Avista Capital Partners",
+          "type": "pe",
+          "source": "https://prnewswire.com/news-releases/avista-capital-partners-has-acquired-national-spine--pain-centers-llc-300468411.html",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Axcel",
@@ -1496,6 +1504,13 @@ export const FIRM_CATALOG = {
           "parent": "Great Wolf Resorts · Blackstone & Centerbridge",
           "type": "pe",
           "source": "https://blackstone.com/news/press/blackstone-to-acquire-65-controlling-interest-in-great-wolf-resorts-and-form-new-2-9-billion-joint-venture-with-centerbridge-partners",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Mindpath Health",
+          "parent": "Mindpath Health · Centerbridge Partners and Leonard Green & Partners",
+          "type": "pe",
+          "source": "https://mergr.com/transaction/centerbridge-partners-acquires-mindpath-health",
           "checked": "2026-10-30"
         }
       ]
@@ -4048,6 +4063,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-15"
         },
         {
+          "brand": "Mindpath Health",
+          "parent": "Mindpath Health · Centerbridge Partners and Leonard Green & Partners",
+          "type": "pe",
+          "source": "https://mergr.com/transaction/centerbridge-partners-acquires-mindpath-health",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Mister Car Wash",
           "parent": "Leonard Green & Partners portfolio investment",
           "type": "pe",
@@ -4897,6 +4919,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=0846833f-aa2a-4c4c-b6a4-a09c865f01ea",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "Forefront Dermatology",
+          "parent": "Forefront Dermatology · Partners Group (majority), physicians, and OMERS",
+          "type": "pe",
+          "source": "https://forefrontdermatology.com/partners-group-in-partnership-with-existing-physician-owners-acquires-forefront-dermatology/",
+          "checked": "2026-10-30"
         }
       ]
     },

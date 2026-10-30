@@ -417,6 +417,28 @@
       ]
     },
     {
+      "brand": "Acadia Healthcare",
+      "aliases": [
+        "Acadia Comprehensive Treatment Center",
+        "Comprehensive Treatment Center"
+      ],
+      "type": "corporate",
+      "parent": "Acadia Healthcare Company, Inc.",
+      "source": "https://acadiahealthcare.com/investors/",
+      "sourceTitle": "Acadia Healthcare — investors",
+      "note": "Acadia Healthcare is listed on Nasdaq (ACHC) and runs behavioral hospitals and addiction treatment centers.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "mental",
+        "clinic",
+        "hospital"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Ace Hardware",
       "aliases": [
         "Ace Hardware Corporation"
@@ -9818,6 +9840,28 @@
       ]
     },
     {
+      "brand": "Forefront Dermatology",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Forefront Dermatology · Partners Group (majority), physicians, and OMERS",
+      "source": "https://forefrontdermatology.com/partners-group-in-partnership-with-existing-physician-owners-acquires-forefront-dermatology/",
+      "sourceTitle": "Forefront Dermatology — Partners Group acquires Forefront (2022)",
+      "note": "Partners Group bought a majority of Forefront Dermatology in 2022; physician owners and OMERS Private Equity kept stakes.",
+      "checked": "2026-10-30",
+      "sponsors": [
+        "Partners Group"
+      ],
+      "matchCategories": [
+        "specialists",
+        "clinic",
+        "beauty"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Forest Hills Foods",
       "aliases": [
         "Forest Hills Food"
@@ -10167,6 +10211,25 @@
       ]
     },
     {
+      "brand": "Gastro Health",
+      "aliases": [],
+      "type": "pe",
+      "parent": "Gastro Health · OMERS Private Equity",
+      "source": "https://www.omers.com/news/omers-announces-partnership-with-gastro-health",
+      "sourceTitle": "OMERS — partnership with Gastro Health (2021)",
+      "note": "OMERS Private Equity bought Gastro Health from Audax Private Equity in 2021.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "specialists",
+        "clinic",
+        "lab"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Geek Squad",
       "aliases": [],
       "type": "corporate",
@@ -10339,6 +10402,25 @@
           "east": -75
         }
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "GI Alliance",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Cardinal Health, Inc. (73%) and physician owners",
+      "source": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000009/a25q2_x123124xex991xnewsre.htm",
+      "sourceTitle": "Cardinal Health — second-quarter fiscal 2025 results, GI Alliance acquisition completed",
+      "note": "Cardinal Health (NYSE CAH) bought 73% of GI Alliance in January 2025; affiliated physicians own the rest.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "specialists",
+        "clinic",
+        "lab"
+      ],
+      "matchNamePrefix": true,
       "categories": [
         "corporate"
       ]
@@ -11626,6 +11708,28 @@
         "sourceTitle": "Berkshire Hathaway — 2024 annual report (Helzberg and Ben Bridge)",
         "checked": "2026-10-27"
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Herc Rentals",
+      "aliases": [
+        "H&E Equipment Services",
+        "H&E Rentals"
+      ],
+      "type": "corporate",
+      "parent": "Herc Holdings Inc.",
+      "source": "https://ir.hercrentals.com/",
+      "sourceTitle": "Herc Holdings — investor relations",
+      "note": "Herc Holdings is listed on the NYSE (HRI) and bought H&E Equipment Services in 2025.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "storage",
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true,
       "categories": [
         "corporate"
       ]
@@ -16200,6 +16304,30 @@
       ]
     },
     {
+      "brand": "Mindpath Health",
+      "aliases": [
+        "Mindpath Care Centers"
+      ],
+      "type": "pe",
+      "parent": "Mindpath Health · Centerbridge Partners and Leonard Green & Partners",
+      "source": "https://mergr.com/transaction/centerbridge-partners-acquires-mindpath-health",
+      "sourceTitle": "Mergr — Centerbridge Partners and Leonard Green acquire Mindpath Health (December 2020)",
+      "note": "Centerbridge Partners and Leonard Green & Partners bought Mindpath Health in December 2020.",
+      "checked": "2026-10-30",
+      "sponsors": [
+        "Centerbridge Partners",
+        "Leonard Green & Partners"
+      ],
+      "matchCategories": [
+        "mental",
+        "clinic"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "MINI",
       "aliases": [],
       "type": "corporate",
@@ -16952,6 +17080,29 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
       "categories": [
         "corporate"
+      ]
+    },
+    {
+      "brand": "National Spine & Pain Centers",
+      "aliases": [
+        "National Spine and Pain Centers"
+      ],
+      "type": "pe",
+      "parent": "National Spine & Pain Centers · Avista Capital Partners",
+      "source": "https://prnewswire.com/news-releases/avista-capital-partners-has-acquired-national-spine--pain-centers-llc-300468411.html",
+      "sourceTitle": "PR Newswire — Avista Capital Partners acquires National Spine & Pain Centers (2017)",
+      "note": "Avista Capital Partners bought the practice-management company behind National Spine & Pain Centers from Sentinel Capital Partners in 2017.",
+      "checked": "2026-10-30",
+      "sponsors": [
+        "Avista Capital Partners"
+      ],
+      "matchCategories": [
+        "specialists",
+        "clinic"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "pe"
       ]
     },
     {
@@ -23423,6 +23574,25 @@
       ]
     },
     {
+      "brand": "Sunbelt Rentals",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Ashtead Group (Sunbelt Rentals)",
+      "source": "https://www.ashtead-group.com/investors",
+      "sourceTitle": "Ashtead Group — investors",
+      "note": "Sunbelt Rentals is Ashtead Group's equipment rental business; the group is publicly listed.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "storage",
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Suncoast Credit Union",
       "aliases": [
         "Suncoast"
@@ -24839,6 +25009,27 @@
       ]
     },
     {
+      "brand": "Thriveworks",
+      "aliases": [
+        "Thriveworks Counseling",
+        "Thriveworks Counseling & Psychiatry"
+      ],
+      "type": "pe",
+      "parent": "Thriveworks · Regal Healthcare Capital Partners (largest holder)",
+      "source": "https://bhbusiness.com/2022/04/20/fast-growing-mental-health-company-thriveworks-names-new-ceo/",
+      "sourceTitle": "Behavioral Health Business — Thriveworks investors and leadership",
+      "note": "Private equity firm Regal Healthcare Capital Partners is Thriveworks' largest equity holder; Wellington Management led a 2021 investment round.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "mental",
+        "clinic"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "pe"
+      ]
+    },
+    {
       "brand": "Tide Cleaners",
       "aliases": [
         "Tide Dry Cleaners"
@@ -25930,6 +26121,25 @@
       ],
       "categories": [
         "pe"
+      ]
+    },
+    {
+      "brand": "United Rentals",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "United Rentals, Inc.",
+      "source": "https://investors.unitedrentals.com/",
+      "sourceTitle": "United Rentals — investor relations",
+      "note": "United Rentals is listed on the NYSE (URI).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "storage",
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "corporate"
       ]
     },
     {

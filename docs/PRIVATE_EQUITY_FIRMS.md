@@ -428,7 +428,7 @@ Selected sourced brand affiliations and current investments. Each holding keeps 
 | Vital Care Infusion Services | Brand-level investment backing; see source scope | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor marks the pharmacy franchisor as a current buyout investment. Local pharmacies are independently operated franchises; the label describes the franchisor, not ownership of each pharmacy. Bare “Vital Care” is not matched because the name is ambiguous. | 2026-10-17 |
 | Stepping Stones Group | Current buyout investment | [Leonard Green & Partners — current investment portfolio](https://www.leonardgreen.com/portfolio/) | The investor expressly marks this therapy and clinical-staffing company current. It is employer research context, not a claim that schools or partner clinics receiving its services are owned by the sponsor. | 2026-10-17 |
 
-Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Topgolf, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
+Brands in Local Lens: Aspen Dental, Caliber Collision, Chapter Aesthetic Studio, ClearChoice Dental Implant Centers, Crunch Fitness, Epiphany Dermatology, Lakeshore Learning, Life Time, MedVet, Milan Laser Hair Removal, Mindpath Health, Mister Car Wash, Sun Auto Tire & Service, The Shade Store, Topgolf, Velvet Taco, Vital Care Infusion Services, WellNow Urgent Care, Zaxby’s.
 
 ## Levine Leichtman Capital Partners
 
@@ -510,7 +510,7 @@ Selected holdings supported by 2026 operating announcements. Private credit posi
 | Emeria | current portfolio investment | [Partners Group — Emeria operating update, August 19, 2026](https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=2c98ead6-29e9-4d1a-b01d-60b77d16de55) | The 2026 operating update describes current ownership and the original 2016 acquisition. | 2026-10-16 |
 | Empira Group | current portfolio investment | [Partners Group — Breitling branded residences announcement, June 26, 2026](https://www.partnersgroup.com/en/news-and-views/press-releases/investment-news/detail?news_id=0846833f-aa2a-4c4c-b6a4-a09c865f01ea) | The 2026 release states Partners Group acquired this residential real estate investor and developer the previous year. | 2026-10-16 |
 
-Brands in Local Lens: Breitling.
+Brands in Local Lens: Breitling, Forefront Dermatology.
 
 ## Permira
 

@@ -351,6 +351,34 @@ The sector is one of the most consolidated by private equity. Brands added (45):
 
 ServiceMaster Clean and Restore, Merry Maids, Two Men and a Truck (Roark), and TruGreen (CD&R) were already listed. In a live check around Pikesville, 40 of 1,441 home-service listings matched, all correctly; the rest are mostly local tradespeople. Generic aliases ("ARS", "Paul Davis", "HomeTeam", "Precision Garage Door") were left out so independent businesses with those names stay unknown.
 
+## Specialist doctors, mental health, and equipment rental
+
+Two new Health categories cover care the app had no place for. Specialist practices and mental health clinics add up to about 400,000 US places in Overture.
+
+- **Specialist doctors:**
+  - Cardiology, dermatology, gastroenterology, orthopedics, urology, ENT, neurology, oncology, pain management, endocrinology, nephrology, pulmonology, rheumatology, allergy, OB/GYN, sports medicine, and plastic surgery.
+  - Surgery centers.
+  - Overture files many of these under internal medicine, so the rule runs before primary care. Plain internal medicine stays in Doctors & urgent care, and oral surgery stays with Dentists.
+- **Mental health & addiction:**
+  - Counseling, psychology, psychiatry, psychotherapy, and addiction treatment. Addiction treatment was previously left out of Physical therapy and had no category.
+  - OpenStreetMap `healthcare=psychotherapist/counselling` also maps here. Google has no place type for these, so text searches are used instead.
+- **Equipment rental** joins Storage & rentals (`machine_and_tool_rental`, `equipment_rental`, `party_equipment_rental`, `dumpster_rental`). There were only a handful of these places near Pikesville, too few for a category of their own.
+
+Brands added (10):
+
+- **Specialists:**
+  - National Spine & Pain Centers (Avista Capital Partners).
+  - Forefront Dermatology (Partners Group).
+  - Gastro Health (OMERS Private Equity).
+  - GI Alliance (Cardinal Health, 73% since January 2025).
+- **Mental health:**
+  - Mindpath Health (Centerbridge and Leonard Green).
+  - Thriveworks (Regal Healthcare Capital Partners).
+  - Acadia Healthcare. LifeStance Health was already listed.
+- **Equipment rental:** United Rentals, Sunbelt Rentals, and Herc Rentals (with H&E).
+
+Left out because the ownership trail conflicts across sources: Chesapeake Urology (Audax to United Urology Group to OneOncology) and Epiphany Dermatology. Around Pikesville, 427 specialist and 525 mental health listings now appear, mostly individual practices; National Spine & Pain Centers and two Thriveworks offices are labeled.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

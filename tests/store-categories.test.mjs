@@ -273,7 +273,7 @@ test('round 9: physical therapy & chiropractic, with Select Medical now private 
  const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
  assert.equal(categoryForOverture({basic_category:'physical_therapy',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','physical_therapy')}),'therapy');
  assert.equal(categoryForOverture({basic_category:'chiropractic',...h('health_care','outpatient_care_facility','complementary_and_alternative_medicine','chiropractic')}),'therapy');
- assert.equal(categoryForOverture({basic_category:'addiction_rehabilitation_center',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','rehabilitation_center','addiction_rehabilitation_center')}),null);
+ assert.equal(categoryForOverture({basic_category:'addiction_rehabilitation_center',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','rehabilitation_center','addiction_rehabilitation_center')}),'mental','addiction treatment goes to Mental health & addiction, not therapy');
  assert.equal(categoryFor({healthcare:'physiotherapist'}),'therapy');assert.equal(googleCategory(['chiropractor']),'therapy');
  for(const [name,brand,type] of [['Select Physical Therapy - Owings Mills','Select Physical Therapy','pe'],['NovaCare Rehabilitation','Select Physical Therapy','pe'],['ATI Physical Therapy','ATI Physical Therapy','pe'],['The Joint Chiropractic','The Joint Chiropractic','corporate'],['Ivy Rehab Physical Therapy','Ivy Rehab','pe']])assert.deepEqual([ownershipFor(p(name,'therapy')).brand,ownershipFor(p(name,'therapy')).type],[brand,type],name);
  assert.equal(ownershipFor(p('The Joint Chiropractic','therapy')).localOperators,'franchise');
@@ -347,4 +347,14 @@ test('home services category and franchise platforms',()=>{
  assert.equal(categoryFor({craft:'plumber'}),'homeservices');assert.equal(googleCategory(['plumber']),'homeservices');
  for(const [name,brand,type] of [['Mr. Rooter Plumbing of Baltimore','Mr. Rooter Plumbing','pe'],['Benjamin Franklin Plumbing','Benjamin Franklin Plumbing','pe'],['SERVPRO of Northwest Baltimore County','SERVPRO','pe'],['Rainbow Restoration of Owings Mills','Rainbow Restoration','pe'],['Certapro Painters Of Owings Mills / Westminster','CertaPro Painters','corporate'],['Terminix','Terminix','corporate'],['1-800 WATER DAMAGE of Northwest Baltimore','1-800 WATER DAMAGE','pe'],['Mr. Appliance of Owings Mills','Mr. Appliance','pe']]){const o=ownershipFor(p(name,'homeservices'));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
  for(const name of ['Paul Davis Plumbing','ARS Roofing','Precision Garage Door Repair'])assert.equal(ownershipFor(p(name,'homeservices')).type,'unknown',name);
+});
+test('specialist doctors, mental health, and equipment rental',()=>{
+ const h=(basic,name,...terms)=>({basic_category:basic,'@name':name,taxonomy:JSON.stringify({primary:terms.at(-1),hierarchy:terms})});
+ assert.equal(categoryForOverture(h('specialized_health_care','Maryland Cardiovascular Specialists','health_care','specialized_health_care','internal_medicine','cardiology')),'specialists');
+ assert.equal(categoryForOverture(h('specialized_health_care','Linda M Lang Md','health_care','specialized_health_care','internal_medicine')),'clinic','plain internal medicine stays primary care');
+ assert.equal(categoryForOverture(h('surgery','The Maryland Center for Oral Surgery','health_care','surgery','oral_and_maxillofacial_surgery')),'dental','oral surgery stays with dentists');
+ assert.equal(categoryForOverture(h('behavioral_or_mental_health_clinic','Resilient Life Counseling','health_care','behavioral_or_mental_health_clinic','counseling')),'mental');
+ assert.equal(categoryForOverture(h('rental_service','Aggreko Rental','services_and_business','rental_service','machine_and_tool_rental')),'storage');
+ assert.equal(categoryFor({healthcare:'psychotherapist'}),'mental');
+ for(const [name,category,brand,type] of [['National Spine & Pain Centers - Pikesville','specialists','National Spine & Pain Centers','pe'],['Forefront Dermatology Baltimore','specialists','Forefront Dermatology','pe'],['GI Alliance','specialists','GI Alliance','corporate'],['Thriveworks Counseling & Psychiatry Towson','mental','Thriveworks','pe'],['United Rentals','storage','United Rentals','corporate']]){const o=ownershipFor(p(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
 });
