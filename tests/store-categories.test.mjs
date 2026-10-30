@@ -249,3 +249,14 @@ test('round 6: real estate & insurance, with whole-word name matching for agent 
  for(const [name,category] of [['New Era Realty','realestate'],['Compass Property Management','realestate'],['Compass Coffee','coffee'],['State Farm Road Deli','restaurant'],['Century 21 Liquors','other']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
  assert.equal(ownershipFor(p('Bryant Jenkins - State Farm Insurance Agent','realestate')).localOperators,'dealer');
 });
+test('round 7: car dealers move out of More stores into their own category',async()=>{
+ const {storeTypeFromTerms}=await import('../public/store-types.js');
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'auto_dealer',...h('shopping','vehicle_dealer','auto_dealer')}),'cars');
+ assert.equal(categoryForOverture({basic_category:'used_auto_dealer',...h('shopping','vehicle_dealer','auto_dealer','used_auto_dealer')}),'cars');
+ assert.equal(categoryForOverture({basic_category:'auto_parts_store',...h('shopping','specialty_store','vehicle_parts_store','auto_parts_store')}),'other');
+ assert.equal(storeTypeFromTerms(['auto_dealer']),'other','dealers are no longer a More stores type');
+ assert.equal(categoryFor({shop:'car'}),'cars');assert.equal(googleCategory(['car_dealer']),'cars');
+ for(const [name,brand] of [['CarMax','CarMax'],['AutoNation Toyota Hunt Valley','AutoNation'],['AutoNation USA Pikesville','AutoNation'],['Lithia Toyota of Baltimore','Lithia'],['Carvana Car Vending Machine','Carvana']])assert.equal(ownershipFor(p(name,'cars')).brand,brand,name);
+ assert.equal(ownershipFor(p('Lithia Springs Diner','restaurant')).type,'unknown');
+});

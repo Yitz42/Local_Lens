@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='realestate-v1';
+export const PLACE_FORMAT='cars-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -30,6 +30,7 @@ export function categoryForOverture(properties){
  if(terms.some(t=>t==='restaurant'||t==='food_and_drink'||t.includes('restaurant')||t==='fast_food'||t==='food_truck'))return 'restaurant';
  if(terms.some(t=>/^(pharmacy_and_drug_store|pharmacy|drugstore)$/.test(t)))return 'pharmacy';
  if(terms.some(t=>/^(hardware_home_and_garden_store|hardware_store|home_improvement_store|building_supply_store|furniture_store|home_goods_store|nursery_and_gardening_store|paint_store)$/.test(t)))return 'home';
+ if(terms.some(t=>/^(vehicle_dealer|auto_dealer|used_auto_dealer|car_dealer|motorcycle_dealer|truck_dealer|recreational_vehicle_dealer|motorsport_vehicle_dealer|commercial_vehicle_dealer|auto_leasing)$/.test(t)))return 'cars';
  if(terms.some(t=>/^(eyewear_store|optician|vision_or_eye_care_clinic|optometry|ophthalmology|optometrist)$/.test(t)))return 'eye';
  if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
  if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';

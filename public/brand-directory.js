@@ -1133,6 +1133,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "AutoNation",
+    "aliases": [
+      "AutoNation USA",
+      "AutoNation Collision Center"
+    ],
+    "type": "corporate",
+    "parent": "AutoNation, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/350698/000162828026007800/an-20251231.htm",
+    "sourceTitle": "AutoNation — 2025 Form 10-K",
+    "note": "AutoNation owned 245 new-vehicle stores and 26 AutoNation USA used-vehicle stores at the end of 2025. Many dealerships use names like \"AutoNation Toyota\".",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AutoNation",
+    "publicListing": {
+      "company": "AutoNation, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "AN"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/350698/000162828026007800/an-20251231.htm",
+      "sourceTitle": "AutoNation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "AutoZone",
     "aliases": [],
     "type": "corporate",
@@ -3387,6 +3422,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CarMax",
+    "aliases": [
+      "CarMax Auto Superstore"
+    ],
+    "type": "corporate",
+    "parent": "CarMax, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000024/kmx-20250228.htm",
+    "sourceTitle": "CarMax — fiscal 2025 Form 10-K",
+    "note": "CarMax runs about 250 company-owned used-car stores.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=CarMax",
+    "publicListing": {
+      "company": "CarMax, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "KMX"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000024/kmx-20250228.htm",
+      "sourceTitle": "CarMax — fiscal 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Carquest",
     "aliases": [
       "Carquest Auto Parts",
@@ -3530,6 +3599,40 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Carvana",
+    "aliases": [
+      "Carvana Car Vending Machine"
+    ],
+    "type": "corporate",
+    "parent": "Carvana Co.",
+    "source": "https://last10k.com/sec-filings/cvna",
+    "sourceTitle": "Last10K — Carvana Co. SEC filings",
+    "note": "Online used-car retailer known for its car vending machine pickup towers.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Carvana",
+    "publicListing": {
+      "company": "Carvana Co.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "CVNA"
+        }
+      ],
+      "source": "https://last10k.com/sec-filings/cvna",
+      "sourceTitle": "Last10K — Carvana Co. SEC filings",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11684,6 +11787,41 @@ export const BRAND_DIRECTORY = [
     "categories": [
       "corporate",
       "pe"
+    ]
+  },
+  {
+    "brand": "Lithia",
+    "aliases": [
+      "Lithia Motors",
+      "Driveway"
+    ],
+    "type": "corporate",
+    "parent": "Lithia Motors, Inc.",
+    "source": "https://www.stocktitan.net/sec-filings/LAD/10-k-lithia-motors-inc-files-annual-report-1bfd601657cc.html",
+    "sourceTitle": "Stock Titan — Lithia Motors 2025 Form 10-K summary",
+    "note": "Lithia reported 455 stores in its 2025 annual report, many named \"Lithia\" plus the car brand. Many other Lithia stores keep local dealership names and are not matched.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lithia",
+    "publicListing": {
+      "company": "Lithia Motors, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "LAD"
+        }
+      ],
+      "source": "https://www.stocktitan.net/sec-filings/LAD/10-k-lithia-motors-inc-files-annual-report-1bfd601657cc.html",
+      "sourceTitle": "Stock Titan — Lithia Motors 2025 Form 10-K summary",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
