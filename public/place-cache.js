@@ -1,4 +1,4 @@
-import {distance} from './ownership.js?v=20261030-details1';
+import {distance} from './ownership.js?v=20261030-googlemore1';
 const MAX_AGE=7*86400000;
 export const PLACE_CACHE_FORMAT=19;
 export function areaKey(origin,radius){return `${origin.lat.toFixed(3)},${origin.lng.toFixed(3)},${radius}`;}
