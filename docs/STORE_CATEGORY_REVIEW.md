@@ -322,7 +322,7 @@ Car dealers had only dealer groups (CarMax, AutoNation, Lithia, Carvana) and no 
 - **Hyundai Motor Group:** Hyundai, Kia, Genesis.
 - **Volkswagen Group:** Volkswagen, Audi, Porsche.
 - **BMW:** BMW, MINI.
-- **Others:** Subaru, Mazda, Mercedes-Benz, Volvo Cars, Harley-Davidson, Tesla.
+- **Others:** Subaru, Mazda, Mercedes-Benz, Volvo Cars, Harley-Davidson, Tesla (exact store names only, after "Tesla Collision", an independent body shop, matched in a live check), plus EchoPark (Sonic Automotive).
 
 US dealerships are independently owned franchises, so these carry the dealer badge. Tesla is the exception: it sells through company-owned stores.
 

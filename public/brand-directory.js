@@ -7479,6 +7479,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "EchoPark Automotive",
+    "aliases": [
+      "EchoPark"
+    ],
+    "type": "corporate",
+    "parent": "Sonic Automotive, Inc.",
+    "source": "https://ir.sonicautomotive.com/",
+    "sourceTitle": "Sonic Automotive — investor relations",
+    "note": "EchoPark is Sonic Automotive's used-car chain; Sonic is listed on the NYSE (SAH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Eddie Bauer",
     "aliases": [
       "Eddie Bauer Outlet"
@@ -23245,7 +23264,6 @@ export const BRAND_DIRECTORY = [
       "cars",
       "auto"
     ],
-    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]

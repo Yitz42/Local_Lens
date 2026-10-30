@@ -336,5 +336,5 @@ test('nationwide gap round: new chains, name variants, and guards',()=>{
 test('car makes match dealer listings only, with the dealer badge',()=>{
  for(const [name,brand] of [['Koons Toyota of Annapolis','Toyota'],['Heritage Honda Westminster','Honda'],['Jerry\'s Ford','Ford'],['Antwerpen Hyundai','Hyundai'],['Tesla Showroom','Tesla']]){const o=ownershipFor(p(name,'cars'));assert.equal(o.brand,brand,name);}
  assert.equal(ownershipFor(p('Heritage Honda Westminster','cars')).localOperators,'dealer');
- for(const [name,category] of [['Toyota Specialist Auto Repair','auto'],['Lincoln Auto Sales','cars'],['Dodge City Motors','cars'],['Genesis Auto Group','cars']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
+ for(const [name,category] of [['Toyota Specialist Auto Repair','auto'],['Lincoln Auto Sales','cars'],['Dodge City Motors','cars'],['Genesis Auto Group','cars'],['Tesla Collision','auto']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
 });

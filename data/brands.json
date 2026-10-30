@@ -23128,8 +23128,7 @@
       "matchCategories": [
         "cars",
         "auto"
-      ],
-      "matchNamePrefix": true
+      ]
     },
     {
       "brand": "Genesis",
@@ -23450,6 +23449,22 @@
       "checked": "2026-10-30",
       "matchCategories": [
         "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "EchoPark Automotive",
+      "aliases": [
+        "EchoPark"
+      ],
+      "type": "corporate",
+      "parent": "Sonic Automotive, Inc.",
+      "source": "https://ir.sonicautomotive.com/",
+      "sourceTitle": "Sonic Automotive — investor relations",
+      "note": "EchoPark is Sonic Automotive's used-car chain; Sonic is listed on the NYSE (SAH).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "cars"
       ],
       "matchNamePrefix": true
     }
