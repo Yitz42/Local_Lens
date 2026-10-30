@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='hospitals-v1';
+export const PLACE_FORMAT='carwash-lab-hearing-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -36,10 +36,12 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(eyewear_store|optician|vision_or_eye_care_clinic|optometry|ophthalmology|optometrist)$/.test(t)))return 'eye';
  if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
  if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
+ if(terms.some(t=>/^(hearing_aid_store|hearing_aid_provider|hearing_aids|audiologist|audiology)$/.test(t)))return 'hearing';
  if(terms.some(t=>t==='shopping'||t==='retail'))return 'other';
  if(terms.some(t=>/^(beauty_salon|hair_salon|nail_salon|barber|skin_care_and_makeup|hair_removal|waxing|tanning_salon|spa|day_spa|medical_spa|massage_therapy|tattoo_and_piercing|eyelash_service)$/.test(t)))return 'beauty';
  if(terms.some(t=>/^(gym|fitness_studio|yoga_studio|pilates_studio|boxing_gym|boxing_class|boot_camp|fitness_trainer|dance_studio|martial_arts_club|climbing_gym|cycling_studio)$/.test(t)))return 'fitness';
- if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|car_wash|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
+ if(terms.some(t=>/^car_wash$/.test(t)))return 'carwash';
+ if(terms.some(t=>/^(automotive_service|automotive_repair|auto_body_shop|tire_dealer_and_repair|tire_shop|auto_detailing|auto_glass_service|oil_change_station)$/.test(t)))return 'auto';
  if(terms.some(t=>/^(bank_or_credit_union|bank|credit_union)$/.test(t)))return 'bank';
  // Print shops, graphic designers, and sign makers. Shipping centers are left out because the label also covers
  // post offices, parcel lockers, and drop boxes.
@@ -50,6 +52,8 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(child_care_and_day_care|day_care_preschool|preschool|tutoring_service|test_preparation)$/.test(t)))return 'childcare';
  // Self storage and vehicle rental; parcel lockers and warehouses stay out.
  if(terms.some(t=>/^(self_storage_facility|truck_rental_service|car_rental_service)$/.test(t)))return 'storage';
+ // Overture files many tax preparers under 'trusts'; only tax-named listings count.
+ if(terms.includes('trusts')&&/\b(tax|h ?& ?r block|jackson hewitt)\b/i.test(properties['@name']||''))return 'money';
  // Coin and Bitcoin kiosks and ATMs are machines, not businesses.
  if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
  // Real estate and insurance agents; builders, investors, surveyors, and associations stay out.
@@ -60,6 +64,8 @@ export function categoryForOverture(properties){
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
+ // Medical labs, imaging centers, and plasma donation; dental labs stay out.
+ if([properties.basic_category,parse(properties.taxonomy,{}).primary].some(t=>/^(laboratory_testing|medical_laboratory|diagnostic_imaging|diagnostic_services|blood_and_plasma_donation_center|plasma_donation_center|blood_bank)$/.test(t))&&!/\b(dental|dentistry)\b/i.test(properties['@name']||''))return 'lab';
  // Hospitals. Overture's hospital label also covers many doctors' offices and departments, so the name must read
  // as a hospital or medical center, and offices, departments, and support services inside hospitals stay out.
  if([properties.basic_category,parse(properties.taxonomy,{}).primary].some(t=>/^(hospital|general_hospital|childrens_hospital|psychiatric_hospital|rehabilitation_hospital|specialty_hospital|health_care|outpatient_care_facility|behavioral_or_mental_health_clinic)$/.test(t))&&/\b(hospitals?|medical cent(er|re)|med ctr|infirmary|shock trauma center)\b/i.test(properties['@name']||'')&&!/\b(animal|pet|veterinary|parking|pharmacy|atm|office|building|foundation|auxiliary|gift|cafeteria|clinic|associates|physicians?|group|lab|laboratory|imaging|radiology|ems|liaison|services|holdings|information|wellness|outpatient|out patient|wound|cardiology|neurology|oncology|pediatrics|obgyn|department|div|division|nuclear|pavilion|md|dds|pharmacies|care|unit|floor|entrance|rad|delivery)\b/i.test(properties['@name']||'')&&!/^(center|centre|institute) for\b/i.test(properties['@name']||''))return 'hospital';

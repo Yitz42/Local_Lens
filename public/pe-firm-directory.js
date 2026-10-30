@@ -538,6 +538,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://static.guitarcenter.com/static/gc/2023/page-bcc/corporate-information/press-room/articles/gc-art-new-executives-10-31-23.pdf",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "LaserAway",
+          "parent": "LaserAway · Ares Management investment",
+          "type": "pe",
+          "source": "https://www.businesswire.com/news/home/20211021006090/en",
+          "checked": "2026-10-30"
         }
       ]
     },
@@ -2117,7 +2124,15 @@ export const FIRM_CATALOG = {
           "note": "Education investment in the current portfolio. A consortium, including investors other than EQT, completed a new acquisition in March 2025."
         }
       ],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "HearUSA",
+          "parent": "WS Audiology · Tøpholm & Westermann families and EQT funds",
+          "type": "pe",
+          "source": "https://eqtgroup.com/news/eqt-private-equity-and-santo-to-invest-further-in-ws-audiology",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Eurazeo",
@@ -2856,6 +2871,13 @@ export const FIRM_CATALOG = {
       "holdings": [],
       "mappedBrands": [
         {
+          "brand": "Hand & Stone Massage and Facial Spa",
+          "parent": "Hand & Stone · Harvest Partners",
+          "type": "pe",
+          "source": "https://www.businesswire.com/news/home/20220607005416/en/Levine-Leichtman-Capital-Partners-Sells-Hand-Stone",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "The Learning Experience",
           "parent": "The Learning Experience · Harvest Partners",
           "type": "pe",
@@ -2914,7 +2936,15 @@ export const FIRM_CATALOG = {
           "note": "Listed Current; H&F expressly describes its 2022 investment as minority."
         }
       ],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "HUB International",
+          "parent": "HUB International · Hellman & Friedman",
+          "type": "pe",
+          "source": "https://www.hubinternational.com/media-center/press-releases/2025/05/hub-secures-significant-minority-investment-and-reaches-new-milestone/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Hg",
@@ -3473,6 +3503,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.sec.gov/Archives/edgar/data/1957845/000195784526000071/kkr-20260630.htm",
           "checked": "2026-10-15"
+        },
+        {
+          "brand": "Quick Quack Car Wash",
+          "parent": "Quick Quack · KKR, Seidler Equity Partners and founders",
+          "type": "pe",
+          "source": "https://www.carwash.com/quick-quack-investment-kkr/",
+          "checked": "2026-10-30"
         }
       ]
     },

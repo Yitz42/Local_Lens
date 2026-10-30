@@ -232,7 +232,61 @@ A second shared tracker of about 260 large private-equity-owned employers was co
 
 Wikipedia's private equity portfolio category (about 530 pages, most of them past deals, defunct chains, or companies without storefronts) was used only to find candidates. Added after checking a current source: Express Oil Change & Tire Engineers (Golden Gate), TOGO'S (Southfield Mezzanine), California Pizza Kitchen (Consortium Brand Partners-led group, December 2025), Benihana, RA Sushi, STK and Kona Grill (The ONE Group, Nasdaq), Paper Source (Barnes & Noble, Elliott), and the Hertz and Avis Budget rental brands. Left out: Coinstar (kiosks, and Apollo's reported sale had not been confirmed), Vineyard Vines (no current ownership change found), and chains outside the US.
 
-The directory now lists 985 brands (752 corporate, 219 PE backed, 16 independent or co-op).
+The directory now lists 985 brands (752 corporate, 219 PE backed, 14 independent or co-op).
+
+## Round 13: finding gaps by how often a chain repeats
+
+`scripts/find-gaps.mjs` scans Overture places around 12 metro areas (Baltimore, Nashville, Dallas, Phoenix, Chicago, Atlanta, Houston, Philadelphia, Seattle, Orlando, Detroit, Cincinnati) and lists names that stay unknown in at least three of them, ranked by how many metros they appear in. Before this round, 205 such chains covered 3,730 categorized places; after it, 187 chains covered 3,276.
+
+**Leading-name descriptors.** Many misses were known brands with a descriptor added ("Olive Garden Italian Restaurant", "Pep Boys Auto Service & Tires", "Kroger Pharmacy", "Sunoco Gas Station", "Bank of America ATM"). `ownershipFor` now also tries the name with one trailing descriptor removed (restaurant, gas station, pharmacy, self storage, rent a car, auto service, store, express, spa, ATM, and similar). The rest of the name must still match a brand exactly.
+
+**New categories:**
+
+| Category | Overture | OpenStreetMap | Google |
+| --- | --- | --- | --- |
+| Car washes (split from Auto service) | `car_wash` | `amenity=car_wash` | `car_wash` |
+| Labs & imaging | `laboratory_testing`, `medical_laboratory`, `diagnostic_imaging`, plasma and blood donation (primary category only; dental labs stay out) | `healthcare=laboratory/blood_donation/sample_collection` | `medical_lab` |
+| Hearing care | `hearing_aid_store`, `hearing_aid_provider`, `audiologist` | `shop=hearing_aids`, `healthcare=audiologist` | text search "hearing aids" |
+
+Overture also files many tax preparers under `trusts`, which had no category; tax-named listings now go to Tax & money services.
+
+**Brands added (56):**
+
+- **Car washes:**
+  - Whistle Express and Take 5 Car Wash (Oaktree funds; Whistle bought Take 5 from Driven Brands in 2025).
+  - Quick Quack (KKR minority investment, Seidler, and the founders).
+- **Beauty and wellness:**
+  - Hand & Stone (Harvest Partners).
+  - WellBiz Brands' Drybar, Amazing Lash Studio, Elements Massage, Fitness Together, and Radiant Waxing (Transom Capital since early 2026).
+  - The Lash Lounge (The Riverside Company).
+  - LaserAway (Ares).
+  - M·A·C, Aveda, and Origins (Estée Lauder); Kiehl's (L'Oréal); Benefit (LVMH); Charlotte Tilbury (Puig).
+- **Health:**
+  - Quest Diagnostics and Labcorp.
+  - Concentra and One Medical (Amazon).
+  - HearUSA (WS Audiology: founding families and EQT); Beltone (GN); HearingLife (Demant); Connect Hearing (Sonova).
+  - BrightStar Care (Peak Rock Capital).
+- **Food:** Potbelly (RaceTrac, October 2025) and See's Candies (Berkshire Hathaway).
+- **Retail:**
+  - GNC (Harbin Pharmaceutical).
+  - Cash America (FirstCash), Lovesac, and Leslie's.
+  - Steve Madden and Ralph Lauren; Tommy Bahama and Lilly Pulitzer (Oxford Industries); Vera Bradley; Allen Edmonds (Caleres).
+  - TAG Heuer (LVMH); Gucci and Saint Laurent (Kering).
+  - Framebridge (Graham Holdings) and Geek Squad (Best Buy).
+- **Services:**
+  - CubeSmart; Penske and Ryder truck rental.
+  - OneMain and Charles Schwab (with TD Ameritrade).
+  - HUB International (Hellman & Friedman); Goosehead and Gallagher.
+  - Nationwide and Farmers agents (dealer badge, matched anywhere in the name).
+  - CBRE, JLL, and Cushman & Wakefield.
+
+**Aliases added:** Vetco (Petco), MinuteClinic and CVS Beauty (CVS), Walmart Vision, WFM Coffee Bar (Whole Foods), Home Depot tool rental, Wells Fargo Advisors, and uBreakiFix listing names.
+
+**Still unknown, and why:**
+
+- **Closed chains still in the map data:** RadioShack, Payless, Party City, Pier 1, Forever 21, Joann, Sprint, and Papyrus.
+- **No current primary source found:** Marco's Pizza (one unconfirmed report of PE stakes), Veterinary Emergency Group (growth investors, no controlling owner found), Restore Hyper Wellness, Right At Home, and Liberty Tax (its parent went through bankruptcy).
+- **Nonprofits:** Goodwill and the YMCA.
 
 ## Not added in this pass
 

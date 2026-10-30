@@ -50,7 +50,7 @@ test('bars, services, and banks have their own categories and More stores has su
  assert.equal(categoryForOverture({basic_category:'restaurant',...h('food_and_drink','restaurant','gastropub'),}),'restaurant');
  assert.equal(categoryForOverture({basic_category:'personal_or_beauty_service',...h('lifestyle_services','personal_or_beauty_service','barber')}),'beauty');
  assert.equal(categoryForOverture({basic_category:'gym',...h('sports_and_recreation','sport_or_fitness_facility','gym')}),'fitness');
- assert.equal(categoryForOverture({basic_category:'automotive_service',...h('travel_and_transportation','vehicle_service','automotive_service','car_wash')}),'auto');
+ assert.equal(categoryForOverture({basic_category:'automotive_service',...h('travel_and_transportation','vehicle_service','automotive_service','car_wash')}),'carwash','car washes have their own category');
  assert.equal(categoryForOverture({basic_category:'bank_or_credit_union',...h('services_and_business','financial_service','bank_or_credit_union','credit_union')}),'bank');
  assert.equal(categoryForOverture({basic_category:'food_and_beverage_store',...h('shopping','food_and_beverage_store','butcher_shop')}),'grocery');
  assert.equal(categoryForOverture({basic_category:'legal_service',...h('services_and_business','legal_service')}),null);
@@ -308,4 +308,22 @@ test('hospitals: category and facility-level tracker matches',()=>{
 test('PE employer tracker leads: verified storefront brands',()=>{
  for(const [name,category,brand,type] of [['Extended Stay America Suites - Baltimore - BWI Airport','hotel','Extended Stay America','pe'],['Topgolf Baltimore','fun','Topgolf','pe'],['Bright Now! Dental','dental','Bright Now! Dental','pe'],['Athletico Physical Therapy - Towson','therapy','Athletico Physical Therapy','pe'],['La Petite Academy of Owings Mills','childcare','La Petite Academy','pe'],['SEA LIFE Michigan Aquarium','fun','SEA LIFE','pe'],['Pret A Manger','coffee','Pret A Manger','corporate'],['Interim HealthCare of Baltimore','senior','Interim HealthCare','pe']]){const o=ownershipFor(p(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
  assert.equal(ownershipFor(p('LEGO Store','other')).brand===undefined||ownershipFor(p('LEGO Store','other')).brand!=='LEGOLAND Discovery Center',true);
+});
+test('round 13: car washes, labs & imaging, hearing care, and trailing descriptors',()=>{
+ const h=(basic,name,...terms)=>({basic_category:basic,'@name':name,taxonomy:JSON.stringify({primary:basic,hierarchy:terms})});
+ assert.equal(categoryForOverture(h('car_wash','Mister Car Wash','services_and_business','automotive_service','car_wash')),'carwash');
+ assert.equal(categoryForOverture(h('auto_detailing','Detail Pros','services_and_business','automotive_service','auto_detailing')),'auto');
+ assert.equal(categoryForOverture(h('laboratory_testing','Quest Diagnostics','health_care','laboratory_testing')),'lab');
+ assert.equal(categoryForOverture(h('laboratory_testing','Smile Dental Lab','health_care','laboratory_testing')),null,'dental labs stay out');
+ assert.equal(categoryForOverture(h('hearing_aid_store','Miracle-Ear','shopping','specialty_store','hearing_aid_store')),'hearing');
+ assert.equal(categoryForOverture(h('trusts','H&R Block','services_and_business','financial_service','trusts')),'money');
+ assert.equal(categoryForOverture(h('trusts','Smith Family Trust','services_and_business','financial_service','trusts')),null);
+ assert.equal(categoryFor({amenity:'car_wash'}),'carwash');assert.equal(categoryFor({healthcare:'laboratory'}),'lab');assert.equal(categoryFor({shop:'hearing_aids'}),'hearing');
+ assert.equal(googleCategory(['car_wash']),'carwash');assert.equal(googleCategory(['car_repair']),'auto');
+ for(const [name,category,brand] of [['Olive Garden Italian Restaurant','restaurant','Olive Garden'],['Pep Boys Auto Service & Tires','auto','Pep Boys'],['Kroger Pharmacy','pharmacy','Kroger'],['Sunoco Gas Station','gas','Sunoco'],['CubeSmart Self Storage','storage','CubeSmart'],['Hand and Stone Massage and Facial Spa','beauty','Hand & Stone Massage and Facial Spa'],['Quick Quack Car Wash','carwash','Quick Quack Car Wash'],['Quest Diagnostics','lab','Quest Diagnostics'],['HearUSA','hearing','HearUSA'],['Tommy Bahama Restaurant & Bar','restaurant','Tommy Bahama'],['Jane Doe - Nationwide Insurance','realestate','Nationwide']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor(p('Express','apparel')).brand,'Express','a brand that is itself a descriptor still matches');
+ assert.equal(ownershipFor(p('Main Street Restaurant','restaurant')).type,'unknown');
+});
+test('round 13: generic names stay unmatched',()=>{
+ for(const [name,category] of [['Lash Lounge By LeahJ','beauty'],['Gallagher Realty','realestate'],["Leslie's Furniture",'home'],['Ryder Auto Body','auto']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
 });
