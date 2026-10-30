@@ -5952,7 +5952,9 @@
     },
     {
       "brand": "Kroger",
-      "aliases": [],
+      "aliases": [
+        "The Little Clinic"
+      ],
       "type": "corporate",
       "parent": "The Kroger Co.",
       "source": "https://www.thekrogerco.com/",
@@ -22688,6 +22690,768 @@
         "realestate",
         "home"
       ]
+    },
+    {
+      "brand": "Toyota",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Toyota Motor Corporation",
+      "source": "https://global.toyota/en/ir/",
+      "sourceTitle": "Toyota — investor relations",
+      "note": "Toyota is a Toyota Motor Corporation brand (TSE/NYSE: TM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Lexus",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Toyota Motor Corporation",
+      "source": "https://global.toyota/en/ir/",
+      "sourceTitle": "Toyota — investor relations",
+      "note": "Lexus is a Toyota Motor Corporation brand (TSE/NYSE: TM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Honda",
+      "aliases": [
+        "American Honda Motor Co"
+      ],
+      "type": "corporate",
+      "parent": "Honda Motor Co., Ltd.",
+      "source": "https://global.honda/en/investors/",
+      "sourceTitle": "Honda — investors",
+      "note": "Honda is a Honda Motor Co., Ltd. brand (TSE/NYSE: HMC). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Acura",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Honda Motor Co., Ltd.",
+      "source": "https://global.honda/en/investors/",
+      "sourceTitle": "Honda — investors",
+      "note": "Acura is a Honda Motor Co., Ltd. brand (TSE/NYSE: HMC). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Ford",
+      "aliases": [
+        "Ford Motor Company",
+        "Ford Motor Co."
+      ],
+      "type": "corporate",
+      "parent": "Ford Motor Company",
+      "source": "https://shareholder.ford.com/",
+      "sourceTitle": "Ford — shareholder relations",
+      "note": "Ford is a Ford Motor Company brand (NYSE: F). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Lincoln",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Ford Motor Company",
+      "source": "https://shareholder.ford.com/",
+      "sourceTitle": "Ford — shareholder relations",
+      "note": "Lincoln is a Ford Motor Company brand (NYSE: F). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only listings named exactly Lincoln match, because many unrelated businesses use the name.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ]
+    },
+    {
+      "brand": "Chevrolet",
+      "aliases": [
+        "Chevy"
+      ],
+      "type": "corporate",
+      "parent": "General Motors Company",
+      "source": "https://investor.gm.com/",
+      "sourceTitle": "General Motors — investor relations",
+      "note": "Chevrolet is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "GMC",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "General Motors Company",
+      "source": "https://investor.gm.com/",
+      "sourceTitle": "General Motors — investor relations",
+      "note": "GMC is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Buick",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "General Motors Company",
+      "source": "https://investor.gm.com/",
+      "sourceTitle": "General Motors — investor relations",
+      "note": "Buick is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Cadillac",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "General Motors Company",
+      "source": "https://investor.gm.com/",
+      "sourceTitle": "General Motors — investor relations",
+      "note": "Cadillac is a General Motors Company brand (NYSE: GM). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Jeep",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Stellantis N.V.",
+      "source": "https://www.stellantis.com/en/investors",
+      "sourceTitle": "Stellantis — investors",
+      "note": "Jeep is a Stellantis N.V. brand (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Chrysler",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Stellantis N.V.",
+      "source": "https://www.stellantis.com/en/investors",
+      "sourceTitle": "Stellantis — investors",
+      "note": "Chrysler is a Stellantis N.V. brand (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Dodge",
+      "aliases": [
+        "Ram Trucks"
+      ],
+      "type": "corporate",
+      "parent": "Stellantis N.V.",
+      "source": "https://www.stellantis.com/en/investors",
+      "sourceTitle": "Stellantis — investors",
+      "note": "Dodge and Ram are Stellantis brands (NYSE: STLA). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only exact names match, because Dodge is also a common place name.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Nissan Motor Co., Ltd.",
+      "source": "https://www.nissan-global.com/EN/IR/",
+      "sourceTitle": "Nissan — investor relations",
+      "note": "Nissan is a Nissan Motor Co., Ltd. brand (TSE: 7201). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Infiniti",
+      "aliases": [
+        "INFINITI"
+      ],
+      "type": "corporate",
+      "parent": "Nissan Motor Co., Ltd.",
+      "source": "https://www.nissan-global.com/EN/IR/",
+      "sourceTitle": "Nissan — investor relations",
+      "note": "Infiniti is a Nissan Motor Co., Ltd. brand (TSE: 7201). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Hyundai",
+      "aliases": [
+        "Hyundai Motor America"
+      ],
+      "type": "corporate",
+      "parent": "Hyundai Motor Group",
+      "source": "https://www.hyundai.com/worldwide/en/company/ir",
+      "sourceTitle": "Hyundai Motor Company — investor relations",
+      "note": "Hyundai is a Hyundai Motor Group brand (KRX-listed Hyundai Motor Company and Kia Corporation). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Kia",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Kia Corporation (Hyundai Motor Group)",
+      "source": "https://worldwide.kia.com/en/company/ir",
+      "sourceTitle": "Kia — investor relations",
+      "note": "Kia is a Kia Corporation (Hyundai Motor Group) brand (KRX: 000270). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Subaru",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Subaru Corporation",
+      "source": "https://www.subaru.co.jp/en/ir/",
+      "sourceTitle": "Subaru — investor relations",
+      "note": "Subaru is a Subaru Corporation brand (TSE: 7270). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Mazda",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Mazda Motor Corporation",
+      "source": "https://www.mazda.com/en/investors/",
+      "sourceTitle": "Mazda — investors",
+      "note": "Mazda is a Mazda Motor Corporation brand (TSE: 7261). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Volkswagen",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Volkswagen AG",
+      "source": "https://www.volkswagen-group.com/en/investor-relations",
+      "sourceTitle": "Volkswagen Group — investor relations",
+      "note": "Volkswagen is a Volkswagen AG brand (Frankfurt: VOW3). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Audi",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Volkswagen AG",
+      "source": "https://www.volkswagen-group.com/en/investor-relations",
+      "sourceTitle": "Volkswagen Group — investor relations",
+      "note": "Audi is a Volkswagen AG brand (Frankfurt: VOW3). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Porsche",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Dr. Ing. h.c. F. Porsche AG (majority owned by Volkswagen AG)",
+      "source": "https://investorrelations.porsche.com/",
+      "sourceTitle": "Porsche — investor relations",
+      "note": "Porsche is a Dr. Ing. h.c. F. Porsche AG (majority owned by Volkswagen AG) brand (Frankfurt: P911). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "BMW",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bayerische Motoren Werke AG",
+      "source": "https://www.bmwgroup.com/en/investor-relations.html",
+      "sourceTitle": "BMW Group — investor relations",
+      "note": "BMW is a Bayerische Motoren Werke AG brand (Frankfurt: BMW). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "MINI",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bayerische Motoren Werke AG",
+      "source": "https://www.bmwgroup.com/en/investor-relations.html",
+      "sourceTitle": "BMW Group — investor relations",
+      "note": "MINI is a Bayerische Motoren Werke AG brand (Frankfurt: BMW). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ]
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "aliases": [
+        "Mercedes Benz"
+      ],
+      "type": "corporate",
+      "parent": "Mercedes-Benz Group AG",
+      "source": "https://group.mercedes-benz.com/investors/",
+      "sourceTitle": "Mercedes-Benz Group — investors",
+      "note": "Mercedes-Benz is a Mercedes-Benz Group AG brand (Frankfurt: MBG). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Volvo Cars",
+      "aliases": [
+        "Volvo"
+      ],
+      "type": "corporate",
+      "parent": "Volvo Car AB (majority owned by Geely)",
+      "source": "https://investors.volvocars.com/",
+      "sourceTitle": "Volvo Cars — investors",
+      "note": "Volvo Cars is a Volvo Car AB (majority owned by Geely) brand (Nasdaq Stockholm: VOLCAR B). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Harley-Davidson",
+      "aliases": [
+        "Harley Davidson"
+      ],
+      "type": "corporate",
+      "parent": "Harley-Davidson, Inc.",
+      "source": "https://investor.harley-davidson.com/",
+      "sourceTitle": "Harley-Davidson — investor relations",
+      "note": "Harley-Davidson is a Harley-Davidson, Inc. brand (NYSE: HOG). US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "Tesla",
+      "aliases": [
+        "Tesla Showroom",
+        "Tesla Service Center",
+        "Tesla Delivery Center"
+      ],
+      "type": "corporate",
+      "parent": "Tesla, Inc.",
+      "source": "https://ir.tesla.com/",
+      "sourceTitle": "Tesla — investor relations",
+      "note": "Tesla is listed on Nasdaq (TSLA) and sells and services cars in its own company-owned stores.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "cars",
+        "auto"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Genesis",
+      "aliases": [
+        "Genesis Motor America"
+      ],
+      "type": "corporate",
+      "parent": "Hyundai Motor Group",
+      "source": "https://www.hyundai.com/worldwide/en/company/ir",
+      "sourceTitle": "Hyundai Motor Company — investor relations",
+      "note": "Genesis is Hyundai Motor Group's luxury brand. US dealerships are independently owned franchises; the label describes the brand, and most of the sale price of a new car goes to the manufacturer. Only exact names match.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "cars"
+      ]
+    },
+    {
+      "brand": "Airgas",
+      "aliases": [
+        "Airgas Store",
+        "Airgas Branch"
+      ],
+      "type": "corporate",
+      "parent": "Air Liquide S.A.",
+      "source": "https://www.airliquide.com/investors",
+      "sourceTitle": "Air Liquide — investors",
+      "note": "Airgas is an Air Liquide company; Air Liquide is listed in Paris.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home",
+        "other",
+        "general"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Fidelity National Title",
+      "aliases": [
+        "Fidelity National Title Insurance Co.",
+        "Fidelity National Title Company"
+      ],
+      "type": "corporate",
+      "parent": "Fidelity National Financial, Inc.",
+      "source": "https://investor.fnf.com/",
+      "sourceTitle": "Fidelity National Financial — investor relations",
+      "note": "FNF is listed on the NYSE (FNF).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Stewart Title",
+      "aliases": [
+        "Stewart Title Company",
+        "Stewart Title Guaranty Company"
+      ],
+      "type": "corporate",
+      "parent": "Stewart Information Services Corporation",
+      "source": "https://ir.stewart.com/",
+      "sourceTitle": "Stewart — investor relations",
+      "note": "Stewart is listed on the NYSE (STC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "BOSS",
+      "aliases": [
+        "Hugo Boss",
+        "BOSS Store",
+        "BOSS Shop",
+        "BOSS Menswear Shop",
+        "BOSS Outlet"
+      ],
+      "type": "corporate",
+      "parent": "HUGO BOSS AG",
+      "source": "https://group.hugoboss.com/en/investors",
+      "sourceTitle": "HUGO BOSS — investors",
+      "note": "HUGO BOSS is listed in Frankfurt.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ]
+    },
+    {
+      "brand": "Rexel",
+      "aliases": [
+        "Rexel USA"
+      ],
+      "type": "corporate",
+      "parent": "Rexel S.A.",
+      "source": "https://www.rexel.com/en/finance/",
+      "sourceTitle": "Rexel — finance",
+      "note": "Rexel is listed in Paris.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Pizza Inn",
+      "aliases": [
+        "Pizza Inn Express"
+      ],
+      "type": "corporate",
+      "parent": "Rave Restaurant Group, Inc.",
+      "source": "https://www.raverg.com/investors",
+      "sourceTitle": "Rave Restaurant Group — investors",
+      "note": "Rave Restaurant Group is listed on Nasdaq (RAVE); restaurants are franchised.",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Pie Five Pizza",
+      "aliases": [
+        "Pie Five"
+      ],
+      "type": "corporate",
+      "parent": "Rave Restaurant Group, Inc.",
+      "source": "https://www.raverg.com/investors",
+      "sourceTitle": "Rave Restaurant Group — investors",
+      "note": "Rave Restaurant Group is listed on Nasdaq (RAVE); restaurants are franchised.",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Tumi",
+      "aliases": [
+        "TUMI Store",
+        "TUMI Outlet Store"
+      ],
+      "type": "corporate",
+      "parent": "Samsonite Group S.A.",
+      "source": "https://corporate.samsonite.com/",
+      "sourceTitle": "Samsonite — corporate site",
+      "note": "Tumi is a Samsonite brand; Samsonite is listed in Hong Kong and New York.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Eddie Bauer",
+      "aliases": [
+        "Eddie Bauer Outlet"
+      ],
+      "type": "corporate",
+      "parent": "Catalyst Brands (Simon Property Group, Brookfield, Authentic Brands Group & Shein)",
+      "source": "https://corporate.jcpenney.com/2025/01/08/sparc-group-has-merged-with-jcpenney-to-form-catalyst-brands/",
+      "sourceTitle": "JCPenney — SPARC Group merges with JCPenney to form Catalyst Brands (January 2025)",
+      "note": "Eddie Bauer stores were run by SPARC Group, now part of Catalyst Brands; Authentic Brands Group owns the brand name.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "SRS Distribution",
+      "aliases": [
+        "SRS Building Products",
+        "American Roofing Supply"
+      ],
+      "type": "corporate",
+      "parent": "The Home Depot, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000177/exhibit991-6182024srsclosi.htm",
+      "sourceTitle": "The Home Depot — completes acquisition of SRS Distribution (June 2024)",
+      "note": "Home Depot (NYSE HD) bought SRS Distribution in 2024.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Rack Room Shoes",
+      "aliases": [
+        "Off Broadway Shoe Warehouse",
+        "Off Broadway Shoes"
+      ],
+      "type": "corporate",
+      "parent": "Deichmann SE (privately held, Germany)",
+      "source": "https://corpsite.deichmann.com/wp-content/uploads/2024/09/DSD_Expansionsbroschüre_ENGLISH_FS24-1.pdf",
+      "sourceTitle": "Deichmann — group expansion brochure (Rack Room Shoes acquired 1984)",
+      "note": "Rack Room Shoes has been part of the family-owned German Deichmann Group since 1984.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Associated Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Associated Banc-Corp",
+      "source": "https://investor.associatedbank.com/",
+      "sourceTitle": "Associated Banc-Corp — investor relations",
+      "note": "Associated Banc-Corp is listed on the NYSE (ASB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "UMB Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "UMB Financial Corporation",
+      "source": "https://investorrelations.umb.com/",
+      "sourceTitle": "UMB Financial — investor relations",
+      "note": "UMB Financial is listed on Nasdaq (UMBF).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Prosperity Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Prosperity Bancshares, Inc.",
+      "source": "https://www.prosperitybankusa.com/investor-relations",
+      "sourceTitle": "Prosperity Bancshares — investor relations",
+      "note": "Prosperity Bancshares is listed on the NYSE (PB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Bank OZK",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Bank OZK",
+      "source": "https://ir.ozk.com/",
+      "sourceTitle": "Bank OZK — investor relations",
+      "note": "Bank OZK is listed on Nasdaq (OZK).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "First Interstate Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "First Interstate BancSystem, Inc.",
+      "source": "https://investors.fibk.com/",
+      "sourceTitle": "First Interstate BancSystem — investor relations",
+      "note": "First Interstate BancSystem is listed on Nasdaq (FIBK).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Simmons Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Simmons First National Corporation",
+      "source": "https://ir.simmonsbank.com/",
+      "sourceTitle": "Simmons First National — investor relations",
+      "note": "Simmons First National is listed on Nasdaq (SFNC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Valley Bank",
+      "aliases": [
+        "Valley National Bank"
+      ],
+      "type": "corporate",
+      "parent": "Valley National Bancorp",
+      "source": "https://www.valley.com/investor-relations",
+      "sourceTitle": "Valley National Bancorp — investor relations",
+      "note": "Valley National Bancorp is listed on Nasdaq (VLY).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Fulton Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Fulton Financial Corporation",
+      "source": "https://investor.fultonbank.com/",
+      "sourceTitle": "Fulton Financial — investor relations",
+      "note": "Fulton Financial is listed on Nasdaq (FULT).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
     }
   ]
 }

@@ -309,6 +309,35 @@ Of the 60,000 names, those in app categories cover about 1.27 million US places.
 
 Still unmatched at the top of the list: closed chains still in the data (Payless, Kmart, Sears, Pier 1, Forever 21, Justice); ignition-interlock vendors; CAT Scale; and private chains with no current ownership source, such as Long John Silver's, Dickey's, Godfather's, Rainbow Shops, Curves, and Snap Fitness. Generic names like "China Wok" and "First National Bank" are different businesses that happen to share a name.
 
+## Car makes and remaining public chains
+
+Car dealers had only dealer groups (CarMax, AutoNation, Lithia, Carvana) and no car makes. Twenty-nine makes from twelve listed manufacturers are now included:
+
+- **Toyota:** Toyota, Lexus.
+- **Honda:** Honda, Acura.
+- **Ford:** Ford, Lincoln.
+- **GM:** Chevrolet, GMC, Buick, Cadillac.
+- **Stellantis:** Jeep, Chrysler, Dodge/Ram.
+- **Nissan:** Nissan, Infiniti.
+- **Hyundai Motor Group:** Hyundai, Kia, Genesis.
+- **Volkswagen Group:** Volkswagen, Audi, Porsche.
+- **BMW:** BMW, MINI.
+- **Others:** Subaru, Mazda, Mercedes-Benz, Volvo Cars, Harley-Davidson, Tesla.
+
+US dealerships are independently owned franchises, so these carry the dealer badge. Tesla is the exception: it sells through company-owned stores.
+
+Dealer names usually put the make after the owner ("Koons Toyota of Annapolis"), so distinctive makes match anywhere in the name, but only in the Car dealers category. Independent repair shops ("Toyota Specialist Auto Repair") stay unknown. Lincoln, Dodge, Genesis, and MINI match only exact names, because they are also common place or business names.
+
+Also added, each from investor or company sources:
+
+- Airgas (Air Liquide), Fidelity National Title, Stewart Title, BOSS (Hugo Boss), and Rexel.
+- Pizza Inn and Pie Five (Rave Restaurant Group), Tumi (Samsonite), and Eddie Bauer (Catalyst Brands).
+- SRS Distribution (Home Depot, 2024) and Rack Room Shoes with Off Broadway (Deichmann).
+- Associated, UMB, Prosperity, Bank OZK, First Interstate, Simmons, Valley, and Fulton banks.
+- The Little Clinic (Kroger).
+
+National coverage of chain locations is now 58.7%. Dealers mostly have unique names under the 5-location cutoff, so the scan undercounts the car-make gain.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
