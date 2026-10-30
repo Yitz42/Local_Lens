@@ -4005,6 +4005,57 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Choice Hotels",
+    "aliases": [
+      "Comfort Inn",
+      "Comfort Suites",
+      "Quality Inn",
+      "Sleep Inn",
+      "Clarion",
+      "Clarion Pointe",
+      "Econo Lodge",
+      "Rodeway Inn",
+      "MainStay Suites",
+      "Suburban Studios",
+      "WoodSpring Suites",
+      "Cambria Hotel",
+      "Ascend Hotel Collection",
+      "Everhome Suites",
+      "Radisson",
+      "Country Inn & Suites",
+      "Park Plaza"
+    ],
+    "type": "corporate",
+    "parent": "Choice Hotels International, Inc.",
+    "source": "https://www.franchise.org/franchise-opportunities/choice-hotels-international/",
+    "sourceTitle": "International Franchise Association — Choice Hotels International",
+    "note": "Choice is a hotel franchisor; its Comfort, Quality, Econo Lodge, and other hotels are owned by local franchisees. It also owns the Radisson brands in the Americas.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Choice%20Hotels",
+    "publicListing": {
+      "company": "Choice Hotels International, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "CHH"
+        }
+      ],
+      "source": "https://www.franchise.org/franchise-opportunities/choice-hotels-international/",
+      "sourceTitle": "International Franchise Association — Choice Hotels International",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Chowking",
     "aliases": [],
     "type": "corporate",
@@ -9043,6 +9094,57 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Hilton",
+    "aliases": [
+      "Hilton Hotel",
+      "Hampton Inn",
+      "Hampton by Hilton",
+      "Hilton Garden Inn",
+      "Homewood Suites",
+      "Home2 Suites",
+      "DoubleTree",
+      "Embassy Suites",
+      "Tru by Hilton",
+      "Tapestry Collection",
+      "Curio Collection",
+      "Canopy by Hilton",
+      "Motto by Hilton",
+      "Spark by Hilton",
+      "LivSmart Studios",
+      "Conrad",
+      "Waldorf Astoria"
+    ],
+    "type": "corporate",
+    "parent": "Hilton Worldwide Holdings Inc.",
+    "source": "https://stories-editor.hilton.com/wp-content/uploads/2026/03/Hilton-2025-Annual-Report-SEC-Form-10-K.pdf",
+    "sourceTitle": "Hilton Worldwide — 2025 Form 10-K",
+    "note": "Hilton franchised or licensed 8,239 hotels at the end of 2025, about 90% of its system.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Hilton",
+    "publicListing": {
+      "company": "Hilton Worldwide Holdings Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "HLT"
+        }
+      ],
+      "source": "https://stories-editor.hilton.com/wp-content/uploads/2026/03/Hilton-2025-Annual-Report-SEC-Form-10-K.pdf",
+      "sourceTitle": "Hilton Worldwide — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Hobby Lobby",
     "aliases": [
       "Hobby Lobby Stores"
@@ -9371,6 +9473,48 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Hyatt",
+    "aliases": [
+      "Hyatt Place",
+      "Hyatt House",
+      "Hyatt Regency",
+      "Grand Hyatt",
+      "Hyatt Centric",
+      "Hyatt Studios",
+      "Caption by Hyatt",
+      "Andaz",
+      "Thompson Hotel"
+    ],
+    "type": "corporate",
+    "parent": "Hyatt Hotels Corporation",
+    "source": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+    "sourceTitle": "Hyatt Hotels Corporation — 2025 Form 10-K",
+    "note": "Hyatt had 1,528 hotels and resorts at the end of 2025, a mix of managed and franchised properties.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Hyatt",
+    "publicListing": {
+      "company": "Hyatt Hotels Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "H"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+      "sourceTitle": "Hyatt Hotels Corporation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "i9 Sports",
     "aliases": [],
     "type": "pe",
@@ -9407,6 +9551,56 @@ export const BRAND_DIRECTORY = [
     "localOperators": "licensed",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "IHG",
+    "aliases": [
+      "Holiday Inn",
+      "Holiday Inn Express",
+      "Candlewood Suites",
+      "Staybridge Suites",
+      "Crowne Plaza",
+      "avid hotel",
+      "Kimpton",
+      "InterContinental",
+      "Atwell Suites",
+      "Garner",
+      "Hotel Indigo",
+      "voco"
+    ],
+    "type": "corporate",
+    "parent": "InterContinental Hotels Group PLC",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000858446/000085844626000010/ihg-20251231.htm",
+    "sourceTitle": "InterContinental Hotels Group — 2025 Form 20-F",
+    "note": "IHG had 6,963 hotels at the end of 2025, led by Holiday Inn Express; most of its US hotels are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=IHG",
+    "publicListing": {
+      "company": "InterContinental Hotels Group PLC",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "IHG"
+        },
+        {
+          "exchange": "London Stock Exchange",
+          "ticker": "IHG"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0000858446/000085844626000010/ihg-20251231.htm",
+      "sourceTitle": "InterContinental Hotels Group — 2025 Form 20-F",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -11813,6 +12007,67 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Marriott",
+    "aliases": [
+      "Marriott Hotel",
+      "Marriott Hotels",
+      "JW Marriott",
+      "Courtyard by Marriott",
+      "Residence Inn",
+      "Fairfield Inn",
+      "Fairfield by Marriott",
+      "SpringHill Suites",
+      "TownePlace Suites",
+      "Sheraton",
+      "Westin",
+      "Four Points by Sheraton",
+      "Four Points",
+      "Aloft",
+      "Moxy",
+      "AC Hotel",
+      "Element by Westin",
+      "Le Méridien",
+      "Renaissance Hotel",
+      "Delta Hotels",
+      "The Ritz-Carlton",
+      "W Hotel",
+      "Autograph Collection",
+      "Tribute Portfolio",
+      "City Express by Marriott",
+      "StudioRes",
+      "Four Points Flex"
+    ],
+    "type": "corporate",
+    "parent": "Marriott International, Inc.",
+    "source": "https://marriott.gcs-web.com/static-files/ccd4ffb7-2196-404b-b16d-88c14af5b5dd",
+    "sourceTitle": "Marriott International — 2025 Form 10-K",
+    "note": "About 7,600 of Marriott's properties are franchised or licensed; most hotels are owned by local and regional hotel companies that pay Marriott fees.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Marriott",
+    "publicListing": {
+      "company": "Marriott International, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "MAR"
+        }
+      ],
+      "source": "https://marriott.gcs-web.com/static-files/ccd4ffb7-2196-404b-b16d-88c14af5b5dd",
+      "sourceTitle": "Marriott International — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Marshalls",
     "aliases": [],
     "type": "corporate",
@@ -12678,6 +12933,27 @@ export const BRAND_DIRECTORY = [
     "note": "Landry's lists this among its dining brands. Landry's is a large privately held multi-brand hospitality company, included in the corporate category. The classification identifies brand affiliation and does not assert a current private equity sponsor.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Category:Private_equity_portfolio_companies",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Motel 6",
+    "aliases": [
+      "Studio 6"
+    ],
+    "type": "corporate",
+    "parent": "G6 Hospitality · OYO (Oravel Stays Ltd.)",
+    "source": "https://www.hoteldive.com/news/oyo-acquires-g6-hospitality-motel-6/727751/",
+    "sourceTitle": "Hotel Dive — OYO to purchase Motel 6 for $525M",
+    "note": "OYO (Oravel Stays) bought G6 Hospitality, parent of Motel 6 and Studio 6, from Blackstone; most locations are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Motel%206",
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -21443,6 +21719,55 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Wyndham",
+    "aliases": [
+      "Wyndham Hotel",
+      "Days Inn",
+      "Super 8",
+      "Ramada",
+      "La Quinta",
+      "Microtel",
+      "Baymont",
+      "Howard Johnson",
+      "Travelodge",
+      "Wingate",
+      "Hawthorn Suites",
+      "AmericInn",
+      "Trademark Collection",
+      "Echo Suites",
+      "Wyndham Garden"
+    ],
+    "type": "corporate",
+    "parent": "Wyndham Hotels & Resorts, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm",
+    "sourceTitle": "Wyndham Hotels & Resorts — 2025 Form 10-K",
+    "note": "Wyndham calls itself the largest hotel franchisor by number of franchised properties, with more than 8,300 hotels across 25 brands.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Wyndham",
+    "publicListing": {
+      "company": "Wyndham Hotels & Resorts, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "WH"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm",
+      "sourceTitle": "Wyndham Hotels & Resorts — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]

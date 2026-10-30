@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='health-v1';
+export const PLACE_FORMAT='hotels-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -42,6 +42,9 @@ export function categoryForOverture(properties){
  // post offices, parcel lockers, and drop boxes.
  if(terms.some(t=>/^(printing_service|screen_printing_service|t_shirt_printing_service|commercial_printer|print_media|copy_shop|graphic_designer|sign_making|signmaking|sign_maker)$/.test(t)))return 'print';
  if(terms.some(t=>/^(laundry_service|laundromat|dry_cleaning|laundry)$/.test(t)))return 'laundry';
+ // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
+ // label (often event companies) stay out.
+ if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
  if(terms.some(t=>/^(dental_clinic|dentist|general_dentistry|orthodontics|orthodontist|pediatric_dentistry|cosmetic_dentistry|endodontics|periodontics|prosthodontics|oral_surgeon|oral_and_maxillofacial_surgery)$/.test(t)))return 'dental';
  // Walk-in and primary care. Public health offices, ambulance services, and specialists stay out.
  if(!terms.some(t=>/^(public_health_clinic|ambulance_or_ems_service)$/.test(t))&&terms.some(t=>/^(urgent_care_clinic|walk_in_clinic|emergency_department|emergency_or_urgent_care_facility|primary_care_or_general_clinic|family_practice|pediatric_clinic|internal_medicine)$/.test(t)))return 'clinic';

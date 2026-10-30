@@ -27,6 +27,7 @@ export function validateDirectory(data){
   if(brand.headquarters!==undefined&&(brand.type!=='corporate'||brand.publicListing||typeof brand.headquarters.city!=='string'||!/^[A-Z]{2}$/.test(brand.headquarters.state)||!Number.isFinite(brand.headquarters.lat)||!Number.isFinite(brand.headquarters.lng)))throw new Error('Invalid headquarters for '+brand.brand);
   if(brand.localOperators!==undefined&&!['franchise','dealer','cooperative','licensed','memberowned'].includes(brand.localOperators))throw new Error('Invalid local operator model for '+brand.brand);
   if(brand.preservePunctuation!==undefined&&typeof brand.preservePunctuation!=='boolean')throw new Error('Invalid punctuation rule for '+brand.brand);
+  if(brand.matchNamePrefix!==undefined&&(brand.matchNamePrefix!==true||!brand.matchCategories))throw new Error('Name-prefix matching needs category guards for '+brand.brand);
   if(brand.sponsors&&(!Array.isArray(brand.sponsors)||brand.sponsors.some(sponsor=>typeof sponsor!=='string'||!sponsor.trim())))throw new Error('Invalid sponsors for '+brand.brand);
   if(brand.matchBounds!==undefined&&(!Array.isArray(brand.matchBounds)||!brand.matchBounds.length||brand.matchBounds.some(bounds=>!bounds||!['south','west','north','east'].every(field=>Number.isFinite(bounds[field]))||bounds.south< -90||bounds.north>90||bounds.west< -180||bounds.east>180||bounds.south>=bounds.north||bounds.west>=bounds.east)))throw new Error('Invalid geographic scope for '+brand.brand);
   for(const alias of [brand.brand,...brand.aliases]){

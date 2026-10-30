@@ -189,3 +189,18 @@ test('round 1: dentists, urgent care and clinics, and eye care are health catego
  for(const [name,category,type] of [['Sunglass Hut','eye','corporate'],['Eyemart Express','eye','corporate'],['LensCrafters','eye','corporate'],['MyEyeDr.','eye','pe'],['Heartland Dental','dental','pe'],['Aspen Dental','dental','pe']])assert.equal(ownershipFor(p(name,category)).type,type,name);
  assert.equal(ownershipFor(p('Heartland Dental','restaurant')).type,'unknown');
 });
+test('round 2: hotels match by brand family, and only hotels use leading-name matching',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'hotel',...h('lodging','hotel')}),'hotel');
+ assert.equal(categoryForOverture({basic_category:'motel',...h('lodging','hotel','motel')}),'hotel');
+ assert.equal(categoryForOverture({basic_category:'lodge',...h('lodging','lodge')}),null,'fraternal lodges are not hotels');
+ assert.equal(categoryForOverture({basic_category:'lodging',...h('lodging')}),null);
+ assert.equal(categoryFor({tourism:'hotel'}),'hotel');
+ const at=(name,category='hotel')=>ownershipFor(p(name,category));
+ for(const [name,brand] of [['Holiday Inn Express & Suites Owings Mills','IHG'],['DoubleTree by Hilton Hotel Baltimore North','Hilton'],['Hampton Inn Baltimore','Hilton'],['Comfort Inn & Suites Baltimore','Choice Hotels'],['Days Inn by Wyndham Baltimore West','Wyndham'],['Residence Inn by Marriott','Marriott'],['Motel 6 Baltimore','Motel 6']])assert.equal(at(name).brand,brand,name);
+ assert.equal(ownershipFor({...p('Baltimore Marriott Waterfront','hotel'),brand:'Marriott Hotels'}).brand,'Marriott');
+ assert.equal(at('Courtyard Inn of Pikesville').type,'unknown','a bare Courtyard name is not Marriott');
+ assert.equal(at('Hilton Pharmacy','pharmacy').type,'unknown');assert.equal(at('Hampton Roads Diner','restaurant').type,'unknown');
+ assert.equal(at('Holiday Stationstores','gas').brand,'Holiday Stationstores');
+ assert.equal(at('Hampton Inn Baltimore').localOperators,'franchise');
+});
