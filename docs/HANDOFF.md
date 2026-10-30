@@ -64,7 +64,7 @@ Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localh
 
 ## Reusing this work
 
-The code is MIT licensed ([LICENSE](../LICENSE)). The researched ownership data is CC BY 4.0
-([LICENSE-DATA.md](../LICENSE-DATA.md)): use it freely with credit. Research notes for each batch of brands
+Take it. The code is MIT No Attribution ([LICENSE](../LICENSE)) and the researched ownership data is
+public domain under CC0 ([LICENSE-DATA.md](../LICENSE-DATA.md)): no permission or credit needed. Research notes for each batch of brands
 are in this `docs/` folder, starting with [STORE_CATEGORY_REVIEW.md](STORE_CATEGORY_REVIEW.md) and
 [RESEARCH.md](RESEARCH.md).

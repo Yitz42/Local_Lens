@@ -3,7 +3,7 @@
 A responsive map app for discovering restaurants, groceries, gas stations, coffee shops, and other stores. Use geolocation, enter a location, or pan the map and search again. Hide private-equity-backed brands, corporate brands (including every reviewed public company), and unverified places independently. Open a place for the parent company, supporting source, scope, and review date. Saved places and filters stay in localStorage on the current browser.
 
 
-**Status: prototype.** Local Lens is a one-person proof of concept showing that a map of who owns local businesses is possible and useful. The ownership data is researched and sourced but incomplete, and it needs ongoing maintenance that a single person can't provide. [docs/HANDOFF.md](docs/HANDOFF.md) explains what works, how it is built, and what a real version would need. The code is [MIT licensed](LICENSE) and the ownership data is [CC BY 4.0](LICENSE-DATA.md), so others are welcome to build on it.
+**Status: prototype.** Local Lens is a one-person proof of concept showing that a map of who owns local businesses is possible and useful. The ownership data is researched and sourced but incomplete, and it needs ongoing maintenance that a single person can't provide. [docs/HANDOFF.md](docs/HANDOFF.md) explains what works, how it is built, and what a real version would need. The code is [MIT No Attribution](LICENSE) and the ownership data is in the public domain ([CC0](LICENSE-DATA.md)), so anyone can build on it without asking or giving credit.
 
 ## Brand directory
 
@@ -53,7 +53,7 @@ This repository mirrors the app source. The tracked `.openai/hosting.json` ident
 
 ## License
 
-Code: [MIT](LICENSE). Researched ownership data (brand and firm directories, kosher listings, research notes): [CC BY 4.0](LICENSE-DATA.md). Map data and third-party libraries keep their own licenses, listed below.
+Code: [MIT No Attribution](LICENSE). Researched ownership data (brand and firm directories, kosher listings, research notes): public domain under [CC0](LICENSE-DATA.md). No credit is required for either. Map data and third-party libraries keep their own licenses, listed below.
 
 ## Attribution
 

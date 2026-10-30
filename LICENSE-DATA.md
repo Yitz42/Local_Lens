@@ -1,11 +1,11 @@
 # Data license
 
-The ownership research compiled for Local Lens is licensed under the
-[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-([legal code](https://creativecommons.org/licenses/by/4.0/legalcode)).
+The ownership research compiled for Local Lens is dedicated to the public domain under
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+([legal code](https://creativecommons.org/publicdomain/zero/1.0/legalcode)).
 
-You may copy, share, and adapt it for any purpose, including commercially, as long as you credit
-"Local Lens (github.com/Yitz42/Local_Lens)" and say whether you changed it.
+You may copy, share, adapt, and build on it for any purpose, including commercially, without asking
+permission and without giving credit.
 
 ## What this covers
 
@@ -17,7 +17,7 @@ You may copy, share, and adapt it for any purpose, including commercially, as lo
 - the research notes in `docs/`
 
 These records summarize and link to public sources such as SEC filings, company announcements, and news
-reports. The license covers the compilation and the written notes; the linked sources belong to their
+reports. The dedication covers the compilation and the written notes; the linked sources belong to their
 publishers.
 
 ## What it does not cover
