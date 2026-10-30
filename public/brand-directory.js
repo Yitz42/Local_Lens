@@ -1079,6 +1079,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "American Family Insurance",
+    "aliases": [
+      "AmFam"
+    ],
+    "type": "corporate",
+    "parent": "American Family Mutual Insurance Company (policyholder-owned)",
+    "source": "https://www.amfam.com/about",
+    "sourceTitle": "American Family Insurance — about us",
+    "note": "American Family is a mutual insurer owned by its policyholders. Local agents are independent contractors, so agency listings get the dealer badge.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Americas Best Value Inn",
     "aliases": [
       "Americas Best Value Inn & Suites",
@@ -1210,6 +1231,34 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "APGFCU",
+    "aliases": [
+      "Aberdeen Proving Ground Federal Credit Union"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Aberdeen, Maryland",
+    "source": "https://www.apgfcu.com/",
+    "sourceTitle": "APGFCU — Aberdeen Proving Ground Federal Credit Union",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "localOperators": "memberowned",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37.85,
+        "west": -79.6,
+        "north": 39.75,
+        "east": -75
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -1478,7 +1527,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Athletico Physical Therapy",
     "aliases": [
-      "Athletico"
+      "Athletico",
+      "Pivot Physical Therapy"
     ],
     "type": "pe",
     "parent": "Athletico · BDT Capital Partners",
@@ -1536,6 +1586,26 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Atlantic Union Bank",
+    "aliases": [
+      "Sandy Spring Bank",
+      "Revere Bank"
+    ],
+    "type": "corporate",
+    "parent": "Atlantic Union Bankshares Corporation",
+    "source": "https://www.businesswire.com/news/home/20250401229290/en/Atlantic-Union-Bankshares-Corporation-Completes-Acquisition-of-Sandy-Spring-Bancorp-Inc.",
+    "sourceTitle": "Atlantic Union — completes acquisition of Sandy Spring Bancorp (April 2025)",
+    "note": "Atlantic Union Bankshares (NYSE AUB) absorbed Sandy Spring Bank in 2025.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -3970,6 +4040,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Burke & Herbert Bank",
+    "aliases": [
+      "Burke and Herbert Bank"
+    ],
+    "type": "corporate",
+    "parent": "Burke & Herbert Financial Services Corp.",
+    "source": "https://investor.burkeandherbertbank.com/",
+    "sourceTitle": "Burke & Herbert — investor relations",
+    "note": "Burke & Herbert is listed on Nasdaq (BHRB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Burlington",
     "aliases": [
       "Burlington Coat Factory",
@@ -4345,6 +4434,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CareNow Urgent Care",
+    "aliases": [
+      "CareNow"
+    ],
+    "type": "corporate",
+    "parent": "HCA Healthcare, Inc.",
+    "source": "https://investor.hcahealthcare.com/",
+    "sourceTitle": "HCA Healthcare — investor relations",
+    "note": "CareNow is HCA Healthcare's urgent care brand; HCA is listed on the NYSE (HCA).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Carhartt",
     "aliases": [
       "Carhartt Store",
@@ -4438,6 +4546,27 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Carpet One Floor & Home",
+    "aliases": [
+      "Carpet One"
+    ],
+    "type": "independent",
+    "parent": "CCA Global Partners (cooperative of independent flooring stores)",
+    "source": "https://www.ccaglobal.com/",
+    "sourceTitle": "CCA Global Partners — cooperative",
+    "note": "Carpet One stores are independently owned members of the CCA Global Partners cooperative.",
+    "checked": "2026-10-30",
+    "localOperators": "cooperative",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -5964,6 +6093,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Classic Collision",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Classic Collision · TPG",
+    "source": "https://mergr.com/transaction/tpg-acquires-classic-collision",
+    "sourceTitle": "Mergr — TPG acquires Classic Collision from New Mountain Capital (2024)",
+    "note": "TPG bought Classic Collision from New Mountain Capital in April 2024.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "TPG"
+    ],
+    "matchCategories": [
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Clayton Homes",
     "aliases": [],
     "type": "corporate",
@@ -5998,6 +6147,25 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Clinical Pathology Laboratories",
+    "aliases": [
+      "CPL"
+    ],
+    "type": "corporate",
+    "parent": "Sonic Healthcare Limited",
+    "source": "https://www.sonichealthcare.com/investors/",
+    "sourceTitle": "Sonic Healthcare — investors",
+    "note": "Clinical Pathology Laboratories is a Sonic Healthcare company; Sonic is listed in Australia.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "lab"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -6616,6 +6784,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "COUNTRY Financial",
+    "aliases": [
+      "Country Financial"
+    ],
+    "type": "corporate",
+    "parent": "COUNTRY Financial (owned by Illinois Farm Bureau members)",
+    "source": "https://www.countryfinancial.com/en/about-us.html",
+    "sourceTitle": "COUNTRY Financial — about us",
+    "note": "COUNTRY Financial is a member-affiliated insurance group. Local agents are independent contractors, so agency listings get the dealer badge.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "CPR Cell Phone Repair",
     "aliases": [
       "CPR - Cell Phone Repair"
@@ -6678,6 +6867,29 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Crash Champions",
+    "aliases": [
+      "Crash Champions Collision Repair",
+      "Service King"
+    ],
+    "type": "pe",
+    "parent": "Crash Champions · Clearlake Capital",
+    "source": "https://www.privateequitywire.co.uk/crash-champions-secures-growth-investment-clearlake/",
+    "sourceTitle": "Private Equity Wire — Crash Champions growth investment from Clearlake",
+    "note": "Clearlake Capital backs Crash Champions, which it combined with Service King in 2022.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Clearlake Capital"
+    ],
+    "matchCategories": [
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -7126,6 +7338,36 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Dash In",
+    "aliases": [
+      "Dash In Food Stores",
+      "Splash In",
+      "Splash In ECO"
+    ],
+    "type": "corporate",
+    "parent": "The Wills Group (family-owned, privately held)",
+    "source": "https://www.businesswire.com/news/home/20190618005624/en/Wills-Group-Celebrates-Opening-New-Headquarters-La",
+    "sourceTitle": "Business Wire — Wills Group opens new La Plata headquarters",
+    "note": "Dash In and Splash In belong to the Wills Group, family-owned since 1926 and based in La Plata, Maryland.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "gas",
+      "grocery",
+      "carwash",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "La Plata",
+      "state": "MD",
+      "lat": 38.53,
+      "lng": -76.98
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Dave & Buster's",
     "aliases": [
       "Dave and Buster's",
@@ -7543,6 +7785,28 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Do it Best",
+    "aliases": [
+      "Do it Best Hardware",
+      "Do it Best Home Center"
+    ],
+    "type": "independent",
+    "parent": "Do it Best Corp. (member-owned cooperative of independent stores)",
+    "source": "https://www.doitbest.com/",
+    "sourceTitle": "Do it Best — member-owned hardware cooperative",
+    "note": "Do it Best is a cooperative owned by its member stores; each store belongs to its local owner. In 2024 it bought True Value's distribution business.",
+    "checked": "2026-10-30",
+    "localOperators": "cooperative",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -8060,6 +8324,34 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Educational Systems Federal Credit Union",
+    "aliases": [
+      "Educational Systems FCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Greenbelt, Maryland",
+    "source": "https://www.esfcu.org/",
+    "sourceTitle": "Educational Systems Federal Credit Union",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "localOperators": "memberowned",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37.85,
+        "west": -79.6,
+        "north": 39.75,
+        "east": -75
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Einstein Bros. Bagels",
     "aliases": [
       "Einstein Bros.",
@@ -8334,6 +8626,25 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Erie Insurance",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Erie Insurance Exchange (policyholder-owned) · managed by Erie Indemnity (Nasdaq ERIE)",
+    "source": "https://www.erieinsurance.com/about-us",
+    "sourceTitle": "Erie Insurance — about us",
+    "note": "Erie Insurance Exchange is owned by its policyholders and managed by Erie Indemnity. Local agents are independent contractors, so agency listings get the dealer badge.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -9382,6 +9693,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "First United Bank & Trust",
+    "aliases": [
+      "First United Bank and Trust"
+    ],
+    "type": "corporate",
+    "parent": "First United Corporation",
+    "source": "https://investors.mybank.com/",
+    "sourceTitle": "First United — investor relations",
+    "note": "First United is listed on Nasdaq (FUNC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "First Watch",
     "aliases": [
       "First Watch Daytime Cafe",
@@ -9619,6 +9949,31 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "FleetPride",
+    "aliases": [
+      "FleetPride Parts",
+      "FleetPride Service Center",
+      "TruckPro"
+    ],
+    "type": "pe",
+    "parent": "FleetPride · American Securities",
+    "source": "https://www.american-securities.com/news/press-release/american-securities-acquires-fleetpride-from-tpg-capital/",
+    "sourceTitle": "American Securities — acquires FleetPride from TPG",
+    "note": "American Securities owns FleetPride, a truck and trailer parts distributor that also owns TruckPro.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "American Securities"
+    ],
+    "matchCategories": [
+      "other",
+      "auto"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -10035,6 +10390,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "For Eyes",
+    "aliases": [
+      "For Eyes Optical"
+    ],
+    "type": "corporate",
+    "parent": "EssilorLuxottica",
+    "source": "https://www.essilorluxottica.com/en/investors/",
+    "sourceTitle": "EssilorLuxottica — investors",
+    "note": "For Eyes belongs to EssilorLuxottica (listed in Paris) through GrandVision.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "eye",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Ford",
     "aliases": [
       "Ford Motor Company",
@@ -10291,7 +10666,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Fulton Bank",
-    "aliases": [],
+    "aliases": [
+      "The Columbia Bank"
+    ],
     "type": "corporate",
     "parent": "Fulton Financial Corporation",
     "source": "https://investor.fultonbank.com/",
@@ -10459,6 +10836,25 @@ export const BRAND_DIRECTORY = [
       "other"
     ],
     "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "GEICO",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Berkshire Hathaway Inc.",
+    "source": "https://www.berkshirehathaway.com/subs/sublinks.html",
+    "sourceTitle": "Berkshire Hathaway — operating companies",
+    "note": "GEICO is a Berkshire Hathaway company. Local GEICO offices are run by independent agents.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -11031,6 +11427,31 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Gong Cha",
+    "aliases": [
+      "Gong cha"
+    ],
+    "type": "pe",
+    "parent": "Gong cha · TA Associates (sale to Bain Capital agreed)",
+    "source": "https://www.restaurantdive.com/news/bain-capital-buys-gong-cha-bubble-tea-chain/827124/",
+    "sourceTitle": "Restaurant Dive — Bain Capital to buy Gong cha from TA Associates",
+    "note": "TA Associates has owned Gong cha since 2019 and agreed in 2026 to sell it to Bain Capital. Most stores are franchised.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "TA Associates",
+      "Bain Capital"
+    ],
+    "localOperators": "franchise",
+    "matchCategories": [
+      "coffee",
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -12041,6 +12462,43 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "High's",
+    "aliases": [
+      "High's Dairy Store",
+      "Highs",
+      "Carroll Motor Fuels",
+      "Carroll Fuel"
+    ],
+    "type": "corporate",
+    "parent": "The Carroll Independent Fuel Company (Phelps family, privately held)",
+    "source": "https://cstoredecisions.com/2012/03/01/breaking-news-carroll-independent-fuel-co-acquires-highs-of-baltimore/",
+    "sourceTitle": "CStore Decisions — Carroll Independent Fuel acquires High's of Baltimore (2012)",
+    "note": "High's has been owned by Baltimore's family-run Carroll Independent Fuel Company since 2012.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "gas",
+      "grocery"
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Baltimore",
+      "state": "MD",
+      "lat": 39.29,
+      "lng": -76.61
+    },
+    "matchBounds": [
+      {
+        "south": 37.85,
+        "west": -79.6,
+        "north": 39.75,
+        "east": -75
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Hilton",
     "aliases": [
       "Hilton Hotel",
@@ -12059,7 +12517,8 @@ export const BRAND_DIRECTORY = [
       "Spark by Hilton",
       "LivSmart Studios",
       "Conrad",
-      "Waldorf Astoria"
+      "Waldorf Astoria",
+      "Hampton"
     ],
     "type": "corporate",
     "parent": "Hilton Worldwide Holdings Inc.",
@@ -13101,6 +13560,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Jaguar",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Jaguar Land Rover · Tata Motors Limited",
+    "source": "https://www.tatamotors.com/investors/",
+    "sourceTitle": "Tata Motors — investors",
+    "note": "Jaguar is a Tata Motors brand (NSE/BSE listed). US dealerships are independently owned franchises; the label describes the brand.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Jamba",
     "aliases": [
       "Jamba Juice"
@@ -13314,7 +13791,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Jiffy Lube",
     "aliases": [
-      "Jiffy Lube Multicare"
+      "Jiffy Lube Multicare",
+      "Jiffy Lube Oil Change"
     ],
     "type": "pe",
     "parent": "Jiffy Lube International · Monomoy Capital Partners",
@@ -14487,6 +14965,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Land Rover",
+    "aliases": [
+      "Range Rover"
+    ],
+    "type": "corporate",
+    "parent": "Jaguar Land Rover · Tata Motors Limited",
+    "source": "https://www.tatamotors.com/investors/",
+    "sourceTitle": "Tata Motors — investors",
+    "note": "Land Rover is a Tata Motors brand (NSE/BSE listed). US dealerships are independently owned franchises; the label describes the brand.",
+    "checked": "2026-10-30",
+    "localOperators": "dealer",
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Lands' End",
     "aliases": [
       "Lands End"
@@ -14593,6 +15091,32 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Ledo Pizza",
+    "aliases": [
+      "Ledo Pizza & Pasta"
+    ],
+    "type": "corporate",
+    "parent": "Ledo Pizza System (Beall family, privately held)",
+    "source": "https://www.pizzamarketplace.com/news/ledo-pizza-put-maryland-style-pizza-on-the-map",
+    "sourceTitle": "Pizza Marketplace — Ledo Pizza and the Beall family",
+    "note": "The Beall family still owns Ledo Pizza; restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Annapolis",
+      "state": "MD",
+      "lat": 38.98,
+      "lng": -76.49
+    },
     "categories": [
       "corporate"
     ]
@@ -15059,6 +15583,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Long & Foster",
+    "aliases": [
+      "Long & Foster Real Estate",
+      "Long & Foster Realtors",
+      "Long and Foster"
+    ],
+    "type": "corporate",
+    "parent": "HomeServices of America · Berkshire Hathaway",
+    "source": "https://newsroom.longandfoster.com/news/homeservices-america-acquires-long-foster-companies/",
+    "sourceTitle": "Long & Foster — HomeServices of America acquires Long & Foster (2017)",
+    "note": "HomeServices of America, a Berkshire Hathaway affiliate, bought Long & Foster in 2017. Agents are independent contractors.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "matchNameAnywhere": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "LongHorn Steakhouse",
     "aliases": [],
     "type": "corporate",
@@ -15172,6 +15718,24 @@ export const BRAND_DIRECTORY = [
       "home",
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lovisa",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Lovisa Holdings Limited",
+    "source": "https://www.lovisa.com.au/investor-centre",
+    "sourceTitle": "Lovisa — investor centre",
+    "note": "Lovisa is listed in Australia.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -15672,6 +16236,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "MarineMax",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "MarineMax, Inc.",
+    "source": "https://investor.marinemax.com/",
+    "sourceTitle": "MarineMax — investor relations",
+    "note": "MarineMax is listed on the NYSE (HZO).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "cars",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Market 32",
     "aliases": [
       "Market 32 by Price Chopper"
@@ -16020,6 +16602,24 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Mattress Warehouse",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Mattress Warehouse · Wynnchurch Capital",
+    "source": "https://www.businesswire.com/news/home/20220118005342/en/Wynnchurch-Capital-Makes-Growth-Investment-in-Mattress-Warehouse",
+    "sourceTitle": "Business Wire — Wynnchurch Capital makes growth investment in Mattress Warehouse (2022)",
+    "note": "Private equity firm Wynnchurch Capital invested in Frederick, Maryland-based Mattress Warehouse in 2022.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Maurices",
     "aliases": [
       "maurices"
@@ -16269,7 +16869,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Mercedes-Benz",
     "aliases": [
-      "Mercedes Benz"
+      "Mercedes Benz",
+      "Mercedes-Benz Vans"
     ],
     "type": "corporate",
     "parent": "Mercedes-Benz Group AG",
@@ -16671,6 +17272,31 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Miracle-Ear",
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Mission BBQ",
+    "aliases": [
+      "MISSION BBQ"
+    ],
+    "type": "corporate",
+    "parent": "Mission BBQ (founder-owned, privately held)",
+    "source": "https://www.baltimoremagazine.com/section/fooddrink/how-mission-bbq-is-expanding-its-brand/",
+    "sourceTitle": "Baltimore Magazine — how Mission BBQ is expanding its brand",
+    "note": "Mission BBQ is privately held by its founders and based in Glen Burnie, Maryland.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Glen Burnie",
+      "state": "MD",
+      "lat": 39.16,
+      "lng": -76.62
+    },
     "categories": [
       "corporate"
     ]
@@ -18231,6 +18857,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Orrstown Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Orrstown Financial Services, Inc.",
+    "source": "https://investor.orrstown.com/",
+    "sourceTitle": "Orrstown — investor relations",
+    "note": "Orrstown is listed on Nasdaq (ORRF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "OshKosh B'gosh",
     "aliases": [
       "OshKosh",
@@ -19390,6 +20033,25 @@ export const BRAND_DIRECTORY = [
       "bar"
     ],
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Pop Mart",
+    "aliases": [
+      "POP MART"
+    ],
+    "type": "corporate",
+    "parent": "Pop Mart International Group",
+    "source": "https://www.popmart.com/",
+    "sourceTitle": "Pop Mart — company site",
+    "note": "Pop Mart is listed in Hong Kong.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -21264,6 +21926,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Round1",
+    "aliases": [
+      "Round 1",
+      "Round1 Bowling & Amusement"
+    ],
+    "type": "corporate",
+    "parent": "ROUND ONE Corporation",
+    "source": "https://www.round1.co.jp/company/ir/",
+    "sourceTitle": "ROUND ONE — investor relations",
+    "note": "ROUND ONE is listed in Tokyo.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Rouses Markets",
     "aliases": [
       "Rouses",
@@ -21285,6 +21967,32 @@ export const BRAND_DIRECTORY = [
       "state": "LA",
       "lat": 29.8,
       "lng": -90.82
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Roy Rogers",
+    "aliases": [
+      "Roy Rogers Restaurants"
+    ],
+    "type": "corporate",
+    "parent": "Plamondon Companies (family-owned, privately held)",
+    "source": "https://retailrestaurantfb.com/pete-plamondon-sr-patriarch-of-the-plamondon-companies-dies-at-88/",
+    "sourceTitle": "Retail & Restaurant F&B — Plamondon Companies and Roy Rogers",
+    "note": "The Plamondon family's Frederick, Maryland company has owned the Roy Rogers brand since 2002; about half the restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "headquarters": {
+      "city": "Frederick",
+      "state": "MD",
+      "lat": 39.41,
+      "lng": -77.41
     },
     "categories": [
       "corporate"
@@ -21972,6 +22680,35 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "SECU Maryland",
+    "aliases": [
+      "Secu Credit Union",
+      "State Employees Credit Union of Maryland"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Linthicum, Maryland",
+    "source": "https://www.secumd.org/",
+    "sourceTitle": "SECU — State Employees Credit Union of Maryland",
+    "note": "Credit unions are owned by their members. North Carolina's unrelated SECU uses the same name, so this match is limited to the Maryland area.",
+    "checked": "2026-10-30",
+    "localOperators": "memberowned",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37.85,
+        "west": -79.6,
+        "north": 39.75,
+        "east": -75
+      }
+    ],
+    "categories": [
+      "independent"
+    ]
+  },
+  {
     "brand": "Sedano's",
     "aliases": [
       "Sedano's Supermarkets",
@@ -22507,6 +23244,23 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Shore United Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Shore Bancshares, Inc.",
+    "source": "https://investors.shoreunitedbank.com/",
+    "sourceTitle": "Shore Bancshares — investor relations",
+    "note": "Shore Bancshares is listed on Nasdaq (SHBI).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Sierra",
     "aliases": [
       "Sierra Trading Post"
@@ -22703,6 +23457,26 @@ export const BRAND_DIRECTORY = [
     },
     "matchCategories": [
       "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Sixt",
+    "aliases": [
+      "Sixt Rent a Car"
+    ],
+    "type": "corporate",
+    "parent": "Sixt SE",
+    "source": "https://about.sixt.com/investor-relations",
+    "sourceTitle": "Sixt — investor relations",
+    "note": "Sixt is listed in Frankfurt.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "storage",
+      "cars"
     ],
     "matchNamePrefix": true,
     "categories": [
@@ -25401,7 +26175,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Tiffany & Co.",
     "aliases": [
       "Tiffany and Co.",
-      "Tiffany & Co"
+      "Tiffany & Co",
+      "Tiffany & Company"
     ],
     "type": "corporate",
     "parent": "LVMH Moët Hennessy Louis Vuitton",
@@ -25876,6 +26651,34 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Tower Federal Credit Union",
+    "aliases": [
+      "Tower FCU"
+    ],
+    "type": "independent",
+    "parent": "Member-owned credit union · Laurel, Maryland",
+    "source": "https://www.towerfcu.org/",
+    "sourceTitle": "Tower Federal Credit Union",
+    "note": "Credit unions are owned by their members.",
+    "checked": "2026-10-30",
+    "localOperators": "memberowned",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 37.85,
+        "west": -79.6,
+        "north": 39.75,
+        "east": -75
+      }
+    ],
+    "categories": [
+      "independent"
     ]
   },
   {
@@ -26502,6 +27305,27 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Albertsons — fiscal 2025 Form 10-K filed in 2026",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "United Surgical Partners International",
+    "aliases": [
+      "USPI"
+    ],
+    "type": "corporate",
+    "parent": "Tenet Healthcare Corporation",
+    "source": "https://investor.tenethealth.com/",
+    "sourceTitle": "Tenet Healthcare — investor relations",
+    "note": "USPI, Tenet's ambulatory surgery business, runs surgery centers with physician partners; Tenet is listed on the NYSE (THC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "specialists",
+      "clinic",
+      "hospital"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -27327,7 +28151,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Webster Bank",
-    "aliases": [],
+    "aliases": [
+      "WebsterBank"
+    ],
     "type": "corporate",
     "parent": "Banco Santander, S.A. (Santander Bank N.A.)",
     "source": "https://websterbank.com/about/newsroom/santander-expands-u-s-presence-with-completion-of-webster-acquisition",
@@ -27512,7 +28338,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "WesBanco",
     "aliases": [
-      "WesBanco Bank"
+      "WesBanco Bank",
+      "Old Line Bank"
     ],
     "type": "corporate",
     "parent": "WesBanco, Inc.",

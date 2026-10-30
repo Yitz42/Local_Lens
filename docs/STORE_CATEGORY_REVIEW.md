@@ -397,6 +397,38 @@ Re-ranking the national list after PR #13 put coverage at 58.4%. This round brin
 
 Not added: Snap Fitness (its PE owner TZP put it up for sale, and no buyer is confirmed), Curves (franchise rights have changed hands several times), and private family chains with no ownership source (Marco's, Dickey's, Long John Silver's, Godfather's, Hungry Howie's).
 
+## Round 17: Maryland chains and Overture brand tags
+
+Two more BigQuery scans:
+
+- **`scripts/bigquery-maryland-chains.sql`** lists names with at least 2 Maryland locations. `scripts/rank-area-gaps.mjs` ranks the unmatched ones by Maryland count. Before this round, 46.6% of Maryland chain locations in app categories had an ownership label; now **49.5%** do.
+- **`scripts/bigquery-brands-wikidata.sql`** lists Overture's brand tags. The app reads the brand tag directly, so a tagged member store such as "Gill-Roy's Hardware" (tagged Do it Best) now matches even though its name differs. Of 964 brand-tagged chains, 399 were unmatched. Most of those are ATMs, EV chargers, parking, and shipping points, which the app does not show.
+
+National coverage is now 59.3%.
+
+**Maryland and local chains.** Private local companies get a headquarters, so the *How local?* slider counts them as local corporations:
+
+- High's (Carroll Independent Fuel, Baltimore), Dash In and Splash In (Wills Group, La Plata), Roy Rogers (Plamondon family, Frederick), Ledo Pizza (Beall family, Annapolis), and Mission BBQ (Glen Burnie).
+- Mattress Warehouse (Wynnchurch Capital) and Long & Foster (HomeServices of America, Berkshire Hathaway).
+- Banks:
+  - Atlantic Union Bank, which absorbed Sandy Spring and Revere.
+  - Shore United, Orrstown, First United, and Burke & Herbert.
+  - Old Line Bank now matches WesBanco, and The Columbia Bank matches Fulton.
+- Member-owned credit unions, limited to the Maryland area: SECU Maryland, APGFCU, Tower, and Educational Systems. North Carolina's SECU is a different credit union.
+- Name variants: Pivot Physical Therapy (Athletico) and Jiffy Lube Oil Change.
+
+**From brand tags:**
+
+- **Co-ops:** Do it Best and Carpet One Floor & Home, both cooperatives of independent stores.
+- **Insurance agent networks (dealer badge):** Erie, COUNTRY Financial, American Family, and GEICO.
+- **Car makes:** Jaguar and Land Rover.
+- **Health:** USPI surgery centers (Tenet), Clinical Pathology Laboratories (Sonic Healthcare), and CareNow (HCA).
+- **PE-backed:** Crash Champions (Clearlake), Classic Collision (TPG), FleetPride and TruckPro (American Securities), and Gong cha (TA Associates, with a sale to Bain Capital agreed).
+- **Public companies:** Sixt, Lovisa, Round1, MarineMax, Pop Mart, and For Eyes (EssilorLuxottica).
+- **Name variants:** Hampton, Mercedes-Benz Vans, Tiffany & Company, and WebsterBank.
+
+Not added: Johns Hopkins and MedStar practices (nonprofit health systems), and local chains with no ownership source (Pizza Boli's, America's Best Wings, Jerry's Subs & Pizza).
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
