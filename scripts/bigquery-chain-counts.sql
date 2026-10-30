@@ -8,9 +8,9 @@ WITH us_places AS (
     TRIM(REGEXP_REPLACE(LOWER(names.primary), r'[^a-z0-9]+', ' ')) AS name_key,
     categories.primary AS category,
     brand.names.primary AS brand,
-    addresses[SAFE_OFFSET(0)].region AS region
+    addresses.list[SAFE_OFFSET(0)].element.region AS region
   FROM `bigquery-public-data.overture_maps.place`
-  WHERE addresses[SAFE_OFFSET(0)].country = 'US'
+  WHERE addresses.list[SAFE_OFFSET(0)].element.country = 'US'
     AND names.primary IS NOT NULL
     AND confidence >= 0.5
 )
