@@ -1,6 +1,6 @@
-import {distance} from './ownership.js?v=20261029-print3';
+import {distance} from './ownership.js?v=20261030-rounds5';
 const MAX_AGE=7*86400000;
-export const PLACE_CACHE_FORMAT=8;
+export const PLACE_CACHE_FORMAT=13;
 export function areaKey(origin,radius){return `${origin.lat.toFixed(3)},${origin.lng.toFixed(3)},${radius}`;}
 export function findNearbyCache(records,origin,radius,now=Date.now()){
  if(!Array.isArray(records))return null;

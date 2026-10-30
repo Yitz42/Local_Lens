@@ -665,6 +665,43 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "AMC Theatres",
+    "aliases": [
+      "AMC",
+      "AMC Dine-In",
+      "AMC Classic",
+      "AMC CLASSIC"
+    ],
+    "type": "corporate",
+    "parent": "AMC Entertainment Holdings, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+    "sourceTitle": "AMC Entertainment Holdings — 2025 Form 10-K",
+    "note": "AMC operated 533 U.S. theatres at the end of 2025.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AMC%20Theatres",
+    "publicListing": {
+      "company": "AMC Entertainment Holdings, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "AMC"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+      "sourceTitle": "AMC Entertainment Holdings — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "America First Credit Union",
     "aliases": [
       "America First"
@@ -4005,6 +4042,57 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Choice Hotels",
+    "aliases": [
+      "Comfort Inn",
+      "Comfort Suites",
+      "Quality Inn",
+      "Sleep Inn",
+      "Clarion",
+      "Clarion Pointe",
+      "Econo Lodge",
+      "Rodeway Inn",
+      "MainStay Suites",
+      "Suburban Studios",
+      "WoodSpring Suites",
+      "Cambria Hotel",
+      "Ascend Hotel Collection",
+      "Everhome Suites",
+      "Radisson",
+      "Country Inn & Suites",
+      "Park Plaza"
+    ],
+    "type": "corporate",
+    "parent": "Choice Hotels International, Inc.",
+    "source": "https://www.franchise.org/franchise-opportunities/choice-hotels-international/",
+    "sourceTitle": "International Franchise Association — Choice Hotels International",
+    "note": "Choice is a hotel franchisor; its Comfort, Quality, Econo Lodge, and other hotels are owned by local franchisees. It also owns the Radisson brands in the Americas.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Choice%20Hotels",
+    "publicListing": {
+      "company": "Choice Hotels International, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "CHH"
+        }
+      ],
+      "source": "https://www.franchise.org/franchise-opportunities/choice-hotels-international/",
+      "sourceTitle": "International Franchise Association — Choice Hotels International",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Chowking",
     "aliases": [],
     "type": "corporate",
@@ -4127,6 +4215,44 @@ export const BRAND_DIRECTORY = [
       "bar"
     ],
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Cinemark",
+    "aliases": [
+      "Cinemark Theatres",
+      "Century Theatres",
+      "Century Theaters",
+      "Tinseltown",
+      "CineArts"
+    ],
+    "type": "corporate",
+    "parent": "Cinemark Holdings, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm",
+    "sourceTitle": "Cinemark Holdings — 2025 Form 10-K",
+    "note": "Cinemark operated 303 U.S. theaters at the end of 2025, including Century and Tinseltown locations.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Cinemark",
+    "publicListing": {
+      "company": "Cinemark Holdings, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "CNK"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm",
+      "sourceTitle": "Cinemark Holdings — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -6352,6 +6478,42 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "apparel"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Extra Space Storage",
+    "aliases": [
+      "Extra Space",
+      "Life Storage",
+      "Storage Express"
+    ],
+    "type": "corporate",
+    "parent": "Extra Space Storage Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000011/exr-20251231.htm",
+    "sourceTitle": "Extra Space Storage — 2025 Form 10-K",
+    "note": "Extra Space owned or operated 4,281 stores at the end of 2025, including former Life Storage locations.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Extra%20Space%20Storage",
+    "publicListing": {
+      "company": "Extra Space Storage Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "EXR"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000011/exr-20251231.htm",
+      "sourceTitle": "Extra Space Storage — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -8671,6 +8833,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "H&R Block",
+    "aliases": [
+      "H & R Block",
+      "H&R Block Tax Services"
+    ],
+    "type": "corporate",
+    "parent": "H&R Block, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000026/hrb-20260630.htm",
+    "sourceTitle": "H&R Block — fiscal 2026 Form 10-K",
+    "note": "H&R Block had 6,802 company-owned and 1,814 franchise offices as of March 31, 2026.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=H%26R%20Block",
+    "publicListing": {
+      "company": "H&R Block, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "HRB"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000026/hrb-20260630.htm",
+      "sourceTitle": "H&R Block — fiscal 2026 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Habit Burger & Grill",
     "aliases": [
       "The Habit Burger Grill",
@@ -8895,6 +9092,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Heartland Dental",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Heartland Dental · KKR",
+    "source": "https://www.prnewswire.com/news-releases/heartland-dental-celebrates-transformative-growth-innovation-and-community-impact-in-2025-302671856.html",
+    "sourceTitle": "Heartland Dental — 2025 growth release (PR Newswire, 2026)",
+    "note": "KKR holds a majority stake in Heartland Dental, which supports more than 1,900 dental offices. Most offices keep their local practice names, so many are not matched by this brand name.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Heartland%20Dental",
+    "matchCategories": [
+      "dental"
+    ],
+    "sponsors": [
+      "KKR"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Heinen’s",
     "aliases": [
       "Heinen's Grocery Store",
@@ -9018,6 +9235,57 @@ export const BRAND_DIRECTORY = [
     "note": "Bridgestone lists this automotive service chain in its retail operations portfolio. This identifies the chain affiliation.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Bridgestone",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Hilton",
+    "aliases": [
+      "Hilton Hotel",
+      "Hampton Inn",
+      "Hampton by Hilton",
+      "Hilton Garden Inn",
+      "Homewood Suites",
+      "Home2 Suites",
+      "DoubleTree",
+      "Embassy Suites",
+      "Tru by Hilton",
+      "Tapestry Collection",
+      "Curio Collection",
+      "Canopy by Hilton",
+      "Motto by Hilton",
+      "Spark by Hilton",
+      "LivSmart Studios",
+      "Conrad",
+      "Waldorf Astoria"
+    ],
+    "type": "corporate",
+    "parent": "Hilton Worldwide Holdings Inc.",
+    "source": "https://stories-editor.hilton.com/wp-content/uploads/2026/03/Hilton-2025-Annual-Report-SEC-Form-10-K.pdf",
+    "sourceTitle": "Hilton Worldwide — 2025 Form 10-K",
+    "note": "Hilton franchised or licensed 8,239 hotels at the end of 2025, about 90% of its system.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Hilton",
+    "publicListing": {
+      "company": "Hilton Worldwide Holdings Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "HLT"
+        }
+      ],
+      "source": "https://stories-editor.hilton.com/wp-content/uploads/2026/03/Hilton-2025-Annual-Report-SEC-Form-10-K.pdf",
+      "sourceTitle": "Hilton Worldwide — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -9351,6 +9619,48 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Hyatt",
+    "aliases": [
+      "Hyatt Place",
+      "Hyatt House",
+      "Hyatt Regency",
+      "Grand Hyatt",
+      "Hyatt Centric",
+      "Hyatt Studios",
+      "Caption by Hyatt",
+      "Andaz",
+      "Thompson Hotel"
+    ],
+    "type": "corporate",
+    "parent": "Hyatt Hotels Corporation",
+    "source": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+    "sourceTitle": "Hyatt Hotels Corporation — 2025 Form 10-K",
+    "note": "Hyatt had 1,528 hotels and resorts at the end of 2025, a mix of managed and franchised properties.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Hyatt",
+    "publicListing": {
+      "company": "Hyatt Hotels Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "H"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+      "sourceTitle": "Hyatt Hotels Corporation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "i9 Sports",
     "aliases": [],
     "type": "pe",
@@ -9387,6 +9697,56 @@ export const BRAND_DIRECTORY = [
     "localOperators": "licensed",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "IHG",
+    "aliases": [
+      "Holiday Inn",
+      "Holiday Inn Express",
+      "Candlewood Suites",
+      "Staybridge Suites",
+      "Crowne Plaza",
+      "avid hotel",
+      "Kimpton",
+      "InterContinental",
+      "Atwell Suites",
+      "Garner",
+      "Hotel Indigo",
+      "voco"
+    ],
+    "type": "corporate",
+    "parent": "InterContinental Hotels Group PLC",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000858446/000085844626000010/ihg-20251231.htm",
+    "sourceTitle": "InterContinental Hotels Group — 2025 Form 20-F",
+    "note": "IHG had 6,963 hotels at the end of 2025, led by Holiday Inn Express; most of its US hotels are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=IHG",
+    "publicListing": {
+      "company": "InterContinental Hotels Group PLC",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "IHG"
+        },
+        {
+          "exchange": "London Stock Exchange",
+          "ticker": "IHG"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0000858446/000085844626000010/ihg-20251231.htm",
+      "sourceTitle": "InterContinental Hotels Group — 2025 Form 20-F",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -9618,6 +9978,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Jackson Hewitt",
+    "aliases": [
+      "Jackson Hewitt Tax Service"
+    ],
+    "type": "pe",
+    "parent": "Jackson Hewitt Tax Service · Corsair Capital",
+    "source": "https://www.prnewswire.com/news-releases/jackson-hewitt-tax-service-announces-strategic-partnership-with-corsair-capital-300657561.html",
+    "sourceTitle": "PR Newswire — Jackson Hewitt announces partnership with Corsair Capital (2018)",
+    "note": "Private equity firm Corsair Capital acquired Jackson Hewitt in 2018. Many offices are franchised, and many are inside Walmart stores.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Jackson%20Hewitt",
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -10250,6 +10631,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Kiddie Academy",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Kiddie Academy Educational Child Care (privately owned franchisor)",
+    "source": "https://kiddieacademy.com/franchising/franchising-with-us/",
+    "sourceTitle": "Kiddie Academy — franchising with us",
+    "note": "Founded by George and Pauline Miller in 1980 and headquartered in Abingdon, Maryland; more than 380 academies are run by local franchisees.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Kiddie%20Academy",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "headquarters": {
+      "city": "Abingdon",
+      "state": "MD",
+      "lat": 39.4673,
+      "lng": -76.3488
+    },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Kids Foot Locker",
     "aliases": [],
     "type": "corporate",
@@ -10259,6 +10665,43 @@ export const BRAND_DIRECTORY = [
     "note": "DICK’S completed its acquisition of Foot Locker in September 2025 and expressly lists this brand in the acquired portfolio.",
     "checked": "2026-10-16",
     "wikipedia": "https://en.wikipedia.org/wiki/Foot_Locker",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "KinderCare",
+    "aliases": [
+      "KinderCare Learning Center",
+      "KinderCare Learning Centers",
+      "Crème de la Crème",
+      "Creme de la Creme"
+    ],
+    "type": "corporate",
+    "parent": "KinderCare Learning Companies, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1873529/000119312526106342/klc-20260103.htm",
+    "sourceTitle": "KinderCare Learning Companies — fiscal 2025 Form 10-K",
+    "note": "KinderCare centers made up 88% of the company's fiscal 2025 revenue; it began trading on the NYSE in October 2024.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=KinderCare",
+    "publicListing": {
+      "company": "KinderCare Learning Companies, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "KLC"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1873529/000119312526106342/klc-20260103.htm",
+      "sourceTitle": "KinderCare Learning Companies — fiscal 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -10852,7 +11295,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "categories": [
       "corporate"
@@ -11307,6 +11751,45 @@ export const BRAND_DIRECTORY = [
         "east": -120
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Lucky Strike",
+    "aliases": [
+      "Lucky Strike Entertainment",
+      "Bowlero",
+      "AMF Bowling",
+      "AMF",
+      "Bowlmor",
+      "Lucky Strike Lanes"
+    ],
+    "type": "corporate",
+    "parent": "Lucky Strike Entertainment Corporation",
+    "source": "https://www.businesswire.com/news/home/20260506021963/en/Lucky-Strike-Entertainment-Reports-Third-Quarter-Results-for-Fiscal-Year-2026",
+    "sourceTitle": "Business Wire — Lucky Strike Entertainment fiscal 2026 third-quarter results",
+    "note": "Formerly Bowlero Corp., the company runs more than 360 bowling and entertainment centers under the Lucky Strike, Bowlero, and AMF names.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lucky%20Strike",
+    "publicListing": {
+      "company": "Lucky Strike Entertainment Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "LUCK"
+        }
+      ],
+      "source": "https://www.businesswire.com/news/home/20260506021963/en/Lucky-Strike-Entertainment-Reports-Third-Quarter-Results-for-Fiscal-Year-2026",
+      "sourceTitle": "Business Wire — Lucky Strike Entertainment fiscal 2026 third-quarter results",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -11792,6 +12275,67 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Marriott",
+    "aliases": [
+      "Marriott Hotel",
+      "Marriott Hotels",
+      "JW Marriott",
+      "Courtyard by Marriott",
+      "Residence Inn",
+      "Fairfield Inn",
+      "Fairfield by Marriott",
+      "SpringHill Suites",
+      "TownePlace Suites",
+      "Sheraton",
+      "Westin",
+      "Four Points by Sheraton",
+      "Four Points",
+      "Aloft",
+      "Moxy",
+      "AC Hotel",
+      "Element by Westin",
+      "Le Méridien",
+      "Renaissance Hotel",
+      "Delta Hotels",
+      "The Ritz-Carlton",
+      "W Hotel",
+      "Autograph Collection",
+      "Tribute Portfolio",
+      "City Express by Marriott",
+      "StudioRes",
+      "Four Points Flex"
+    ],
+    "type": "corporate",
+    "parent": "Marriott International, Inc.",
+    "source": "https://marriott.gcs-web.com/static-files/ccd4ffb7-2196-404b-b16d-88c14af5b5dd",
+    "sourceTitle": "Marriott International — 2025 Form 10-K",
+    "note": "About 7,600 of Marriott's properties are franchised or licensed; most hotels are owned by local and regional hotel companies that pay Marriott fees.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Marriott",
+    "publicListing": {
+      "company": "Marriott International, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "MAR"
+        }
+      ],
+      "source": "https://marriott.gcs-web.com/static-files/ccd4ffb7-2196-404b-b16d-88c14af5b5dd",
+      "sourceTitle": "Marriott International — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Marshalls",
     "aliases": [],
     "type": "corporate",
@@ -11906,6 +12450,10 @@ export const BRAND_DIRECTORY = [
       "Roark"
     ],
     "localOperators": "franchise",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -12662,6 +13210,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Motel 6",
+    "aliases": [
+      "Studio 6"
+    ],
+    "type": "corporate",
+    "parent": "G6 Hospitality · OYO (Oravel Stays Ltd.)",
+    "source": "https://www.hoteldive.com/news/oyo-acquires-g6-hospitality-motel-6/727751/",
+    "sourceTitle": "Hotel Dive — OYO to purchase Motel 6 for $525M",
+    "note": "OYO (Oravel Stays) bought G6 Hospitality, parent of Motel 6 and Studio 6, from Blackstone; most locations are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Motel%206",
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Mountain America Credit Union",
     "aliases": [
       "Mountain America"
@@ -12753,6 +13322,32 @@ export const BRAND_DIRECTORY = [
     },
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "MyEyeDr.",
+    "aliases": [
+      "MyEyeDr",
+      "My Eye Dr",
+      "My Eye Doctor"
+    ],
+    "type": "pe",
+    "parent": "MyEyeDr. · Goldman Sachs Asset Management",
+    "source": "https://www.charlesbank.com/investments/myeyedr/",
+    "sourceTitle": "Charlesbank — MyEyeDr. investment",
+    "note": "Goldman Sachs Asset Management has backed MyEyeDr. since 2019, with Charlesbank holding a minority stake.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=MyEyeDr",
+    "matchCategories": [
+      "eye",
+      "other"
+    ],
+    "sponsors": [
+      "Goldman Sachs Alternatives",
+      "Charlesbank Capital Partners"
+    ],
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -13922,7 +14517,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -14812,8 +15408,46 @@ export const BRAND_DIRECTORY = [
       "Roark"
     ],
     "localOperators": "franchise",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Public Storage",
+    "aliases": [
+      "Public Storage Self Storage"
+    ],
+    "type": "corporate",
+    "parent": "Public Storage",
+    "source": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm",
+    "sourceTitle": "Public Storage — 2025 Form 10-K",
+    "note": "Public Storage had interests in 3,171 self-storage facilities in 40 states at the end of 2025.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Public%20Storage",
+    "publicListing": {
+      "company": "Public Storage",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "PSA"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm",
+      "sourceTitle": "Public Storage — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -17181,6 +17815,46 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Six Flags",
+    "aliases": [
+      "Six Flags America",
+      "Six Flags Hurricane Harbor",
+      "Cedar Point",
+      "Kings Dominion",
+      "Kings Island",
+      "Carowinds",
+      "Knott's Berry Farm"
+    ],
+    "type": "corporate",
+    "parent": "Six Flags Entertainment Corporation",
+    "source": "https://www.businesswire.com/news/home/20240701181300/en/Cedar-Fair-and-Six-Flags-Merger-of-Equals-Successfully-Completed-Creating-a-Leading-Amusement-Park-Operator",
+    "sourceTitle": "Business Wire — Cedar Fair and Six Flags complete merger (2024)",
+    "note": "Six Flags and Cedar Fair merged in July 2024; the combined company runs Six Flags parks and former Cedar Fair parks such as Cedar Point and Kings Dominion.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Six%20Flags",
+    "publicListing": {
+      "company": "Six Flags Entertainment Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "FUN"
+        }
+      ],
+      "source": "https://www.businesswire.com/news/home/20240701181300/en/Cedar-Fair-and-Six-Flags-Merger-of-Equals-Successfully-Completed-Creating-a-Leading-Amusement-Park-Operator",
+      "sourceTitle": "Business Wire — Cedar Fair and Six Flags complete merger (2024)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "fun"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Skechers",
     "aliases": [
       "Skechers Factory Outlet",
@@ -18430,6 +19104,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Sylvan Learning",
+    "aliases": [
+      "Sylvan Learning Center",
+      "Sylvan"
+    ],
+    "type": "pe",
+    "parent": "Sylvan Learning · Unleashed Brands (Seidler Equity Partners)",
+    "source": "https://www.franchisetimes.com/franchise_mergers_and_acquisitions/unleashed-brands-buys-sylvan-learning/article_a568813e-d4c7-11ee-bb32-1f85230cfdda.html",
+    "sourceTitle": "Franchise Times — Unleashed Brands buys Sylvan Learning (2024)",
+    "note": "Unleashed Brands, owned by private equity firm Seidler Equity Partners since 2023, bought Sylvan in 2024. Centers are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sylvan%20Learning",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "T-Mobile",
     "aliases": [
       "T-Mobile Authorized Retailer",
@@ -18662,7 +19358,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "categories": [
       "corporate"
@@ -18992,6 +19689,10 @@ export const BRAND_DIRECTORY = [
       "Sycamore Partners"
     ],
     "localOperators": "franchise",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]
@@ -19025,6 +19726,31 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "The Learning Experience",
+    "aliases": [
+      "Learning Experience",
+      "TLE"
+    ],
+    "type": "pe",
+    "parent": "The Learning Experience · Harvest Partners",
+    "source": "https://thelearningexperience.com/press/harvest-partners-announces-acquisition-of-the-learning-experience/",
+    "sourceTitle": "The Learning Experience — Harvest Partners announces acquisition (2025)",
+    "note": "Funds managed by Harvest Partners took a majority stake from Golden Gate Capital in July 2025. Centers are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Learning%20Experience",
+    "matchCategories": [
+      "childcare"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "sponsors": [
+      "Harvest Partners"
+    ],
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -19886,6 +20612,44 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "U-Haul",
+    "aliases": [
+      "U-Haul Moving & Storage",
+      "U-Haul Neighborhood Dealer",
+      "UHaul"
+    ],
+    "type": "corporate",
+    "parent": "U-Haul Holding Company",
+    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004457/eefb0fa1-c2c9-4ee1-895a-3070803c4725.pdf",
+    "sourceTitle": "U-Haul Holding Company — fiscal 2026 Form 10-K",
+    "note": "U-Haul runs company-operated moving and storage stores and relies on more than 23,000 independent dealers, often hardware stores and gas stations.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=U-Haul",
+    "publicListing": {
+      "company": "U-Haul Holding Company",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "UHAL"
+        }
+      ],
+      "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004457/eefb0fa1-c2c9-4ee1-895a-3070803c4725.pdf",
+      "sourceTitle": "U-Haul Holding Company — fiscal 2026 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -20957,6 +21721,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Western Union",
+    "aliases": [
+      "Western Union Agent Location"
+    ],
+    "type": "corporate",
+    "parent": "The Western Union Company",
+    "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+    "sourceTitle": "The Western Union Company — 2025 Form 10-K",
+    "note": "Most Western Union locations are agents inside other businesses such as grocery stores and pharmacies.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Western%20Union",
+    "publicListing": {
+      "company": "The Western Union Company",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "WU"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+      "sourceTitle": "The Western Union Company — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Westlake Ace Hardware",
     "aliases": [
       "Great Lakes Ace Hardware",
@@ -21394,6 +22193,55 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Wyndham",
+    "aliases": [
+      "Wyndham Hotel",
+      "Days Inn",
+      "Super 8",
+      "Ramada",
+      "La Quinta",
+      "Microtel",
+      "Baymont",
+      "Howard Johnson",
+      "Travelodge",
+      "Wingate",
+      "Hawthorn Suites",
+      "AmericInn",
+      "Trademark Collection",
+      "Echo Suites",
+      "Wyndham Garden"
+    ],
+    "type": "corporate",
+    "parent": "Wyndham Hotels & Resorts, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm",
+    "sourceTitle": "Wyndham Hotels & Resorts — 2025 Form 10-K",
+    "note": "Wyndham calls itself the largest hotel franchisor by number of franchised properties, with more than 8,300 hotels across 25 brands.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Wyndham",
+    "publicListing": {
+      "company": "Wyndham Hotels & Resorts, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "WH"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1722684/000172268426000007/wh-20251231.htm",
+      "sourceTitle": "Wyndham Hotels & Resorts — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]

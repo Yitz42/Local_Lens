@@ -9,9 +9,9 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 
 ## What it does today
 
-- **Map and list of nearby places** in 18 categories, from restaurants and groceries to banks, vets, and print
+- **Map and list of nearby places** in 26 categories, from restaurants and groceries to doctors, hotels, child care, and print
   shops. Search by address or use your location; the search radius runs from ½ mile to 10 miles.
-- **Ownership labels** for 905 researched brands (703 corporate, 188 private-equity-backed, and 14 co-ops, licensed
+- **Ownership labels** for 928 researched brands (721 corporate, 193 private-equity-backed, and 14 co-ops, licensed
   independent grocers, and credit unions). Every record links to a source, usually an SEC filing, a company announcement,
   or a news report. Wikipedia is used only to find candidates, never as the ownership source.
 - **"Where the money goes" filters.** Franchises and dealer-run stations keep their brand's label but show a

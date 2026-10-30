@@ -1303,7 +1303,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "MyEyeDr.",
+          "parent": "MyEyeDr. · Goldman Sachs Asset Management",
+          "type": "pe",
+          "source": "https://www.charlesbank.com/investments/myeyedr/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Charterhouse Capital Partners",
@@ -2568,7 +2576,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "MyEyeDr.",
+          "parent": "MyEyeDr. · Goldman Sachs Asset Management",
+          "type": "pe",
+          "source": "https://www.charlesbank.com/investments/myeyedr/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Gores Group",
@@ -2686,7 +2702,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "The Learning Experience",
+          "parent": "The Learning Experience · Harvest Partners",
+          "type": "pe",
+          "source": "https://thelearningexperience.com/press/harvest-partners-announces-acquisition-of-the-learning-experience/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Heartland Industrial Partners",
@@ -3283,6 +3307,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://chainstoreage.com/news/belk-begins-new-ownership-era",
           "checked": "2026-10-27"
+        },
+        {
+          "brand": "Heartland Dental",
+          "parent": "Heartland Dental · KKR",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/heartland-dental-celebrates-transformative-growth-innovation-and-community-impact-in-2025-302671856.html",
+          "checked": "2026-10-30"
         },
         {
           "brand": "Nothing Bundt Cakes",
