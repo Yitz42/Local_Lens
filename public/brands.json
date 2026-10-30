@@ -575,6 +575,42 @@
       ]
     },
     {
+      "brand": "Allstate",
+      "aliases": [
+        "Allstate Insurance",
+        "Allstate Insurance Agent"
+      ],
+      "type": "corporate",
+      "parent": "The Allstate Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+      "sourceTitle": "The Allstate Corporation — 2025 Form 10-K",
+      "note": "Allstate sells through exclusive local agents as well as independent agents and online. Exclusive agents run their own offices but sell only Allstate products.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Allstate",
+      "publicListing": {
+        "company": "The Allstate Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "ALL"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+        "sourceTitle": "The Allstate Corporation — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "dealer",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "Allsup's",
       "aliases": [
         "Allsups",
@@ -2763,6 +2799,40 @@
       "matchCategories": [
         "grocery"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Brookdale",
+      "aliases": [
+        "Brookdale Senior Living"
+      ],
+      "type": "corporate",
+      "parent": "Brookdale Senior Living Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+      "sourceTitle": "Brookdale Senior Living — 2025 Form 10-K",
+      "note": "Brookdale operated 584 senior living communities in 41 states at the end of 2025.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Brookdale%20Senior%20Living",
+      "publicListing": {
+        "company": "Brookdale Senior Living Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "BKD"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+        "sourceTitle": "Brookdale Senior Living — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "senior"
+      ],
+      "matchNamePrefix": true,
       "categories": [
         "corporate"
       ]
@@ -5953,6 +6023,42 @@
         "lat": 38.66,
         "lng": -90.58
       },
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Dignity Memorial",
+      "aliases": [
+        "Neptune Society",
+        "National Cremation Society",
+        "Funeraria del Angel"
+      ],
+      "type": "corporate",
+      "parent": "Service Corporation International",
+      "source": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+      "sourceTitle": "Service Corporation International — 2025 Form 10-K",
+      "note": "SCI operated 1,485 funeral locations and 500 cemeteries at the end of 2025. Most keep their original local names, so only listings that mention Dignity Memorial or SCI's other brands are matched.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Service%20Corporation%20International",
+      "publicListing": {
+        "company": "Service Corporation International",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "SCI"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+        "sourceTitle": "Service Corporation International — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "funeral"
+      ],
+      "matchNameAnywhere": true,
       "categories": [
         "corporate"
       ]
@@ -9650,6 +9756,27 @@
       "matchCategories": [
         "apparel"
       ],
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Home Instead",
+      "aliases": [
+        "Home Instead Senior Care"
+      ],
+      "type": "corporate",
+      "parent": "Home Instead · Honor Technology, Inc.",
+      "source": "https://www.homecaremag.com/news/honor-acquires-home-instead",
+      "sourceTitle": "Home Care Magazine — Honor acquires Home Instead (2021)",
+      "note": "Venture-backed Honor Technology bought Home Instead in 2021; local Home Instead offices are franchises.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Home%20Instead",
+      "matchCategories": [
+        "senior"
+      ],
+      "matchNamePrefix": true,
+      "localOperators": "franchise",
       "categories": [
         "corporate"
       ]

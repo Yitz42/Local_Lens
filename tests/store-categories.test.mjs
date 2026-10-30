@@ -279,3 +279,14 @@ test('round 9: physical therapy & chiropractic, with Select Medical now private 
  assert.equal(ownershipFor(p('The Joint Chiropractic','therapy')).localOperators,'franchise');
  assert.equal(ownershipFor(p('The Joint Bar & Grill','bar')).type,'unknown');
 });
+test('round 10: senior living & home care and funeral homes',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'assisted_living_facility',...h('services_and_business','housing_or_property_service','senior_living_facility','assisted_living_facility')}),'senior');
+ assert.equal(categoryForOverture({basic_category:'home_health_care',...h('health_care','medical_service','home_health_care')}),'senior');
+ assert.equal(categoryForOverture({basic_category:'senior_citizen_service',...h('community_and_government','social_or_community_service','senior_citizen_service')}),null,'government senior centers stay out');
+ assert.equal(categoryForOverture({basic_category:'funeral_service',...h('services_and_business','family_service','funeral_service')}),'funeral');
+ assert.equal(categoryForOverture({basic_category:'pet_cemetery_and_crematorium_service',...h('lifestyle_services','animal_or_pet_service','pet_cemetery_and_crematorium_service')}),'pets','pet cemeteries stay with pet care');
+ assert.equal(categoryFor({shop:'funeral_directors'}),'funeral');assert.equal(categoryFor({amenity:'social_facility',social_facility:'assisted_living'}),'senior');assert.equal(googleCategory(['funeral_home']),'funeral');
+ for(const [name,category,brand] of [['Brookdale Pikesville','senior','Brookdale'],['Home Instead','senior','Home Instead'],['Ruck Funeral Home - Dignity Memorial','funeral','Dignity Memorial'],['Neptune Society','funeral','Dignity Memorial'],['Sharonda Benson: Allstate Insurance','realestate','Allstate']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor(p('Allstate Leasing','cars')).type,'unknown','Allstate only matches insurance and real estate listings');
+});

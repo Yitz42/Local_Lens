@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='therapy-v1';
+export const PLACE_FORMAT='senior-funeral-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -54,6 +54,9 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
  // Real estate and insurance agents; builders, investors, surveyors, and associations stay out.
  if(!terms.some(t=>/^(builder|home_developer|real_estate_investment|land_surveying|homeowner_association|housing_cooperative|real_estate_photography|display_home_center|home_organization|shared_office_space)$/.test(t))&&terms.some(t=>/^(real_estate_agent|real_estate_service|property_management|commercial_real_estate|insurance_agency|auto_insurance|life_insurance|home_and_rental_insurance|health_insurance_office)$/.test(t)))return 'realestate';
+ if(terms.some(t=>/^(funeral_service|funeral_home|crematorium|cremation_service|cemetery|mortuary)$/.test(t)))return 'funeral';
+ // Senior living and in-home care; government senior centers stay out.
+ if(terms.some(t=>/^(senior_living_facility|retirement_home|assisted_living_facility|memory_care_facility|nursing_home|skilled_nursing_facility|home_health_care|home_care)$/.test(t)))return 'senior';
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
