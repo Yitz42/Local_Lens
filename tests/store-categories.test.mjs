@@ -142,6 +142,8 @@ test('kosher listings match certified places by name and location only',async()=
  assert.ok(matchesFoodTypes(at('Some Corner Store',39.36571,-76.71270,'grocery'),['kosher'])===false);
  assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),myKosher:true},['kosher']),'a personal mark counts');
  assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),osmKosher:true},['kosher']),'an OpenStreetMap match counts');
+ assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),myDiets:['halal','vegan']},['halal','vegan']),'details a person added count');
+ assert.ok(matchesFoodTypes({...at('Corner Pizza',40,-75),myDiets:['nonsense']},['halal'])===false,'unknown added details are ignored');
  for(const name of ['Glatt Grill','Shalom Bakery Cholov Yisroel','Mangal Grill Express Kosher STAR K'])assert.deepEqual(foodTypesFromTerms([],name),['kosher'],name);
  assert.ok(KOSHER_PLACES.every(entry=>entry.source.startsWith('https://')&&Number.isFinite(entry.lat)&&Number.isFinite(entry.lng)&&entry.address));
 });
@@ -400,4 +402,11 @@ test('family-owned regional chains carry a headquarters and stay in their region
 test('regional batch 2: family chains, sister brands, and Dobbs (Audax)',()=>{
  const at=(name,category,lat,lng)=>ownershipFor({id:name,name,category,lat,lng});
  for(const [name,category,lat,lng,brand,type] of [['Rotten Robbie','gas',37.35,-121.95,'Rotten Robbie','corporate'],['GoMart','grocery',38.35,-81.63,'GoMart','corporate'],['Crew Carwash','carwash',39.77,-86.16,'Crew Carwash','corporate'],["CC's Coffee House",'coffee',30.45,-91.15,"CC's Coffee House",'corporate'],['Dobbs Tire & Auto Centers','auto',38.63,-90.2,'Dobbs Tire & Auto Centers','pe'],["Conrad's Tire Express & Total Car Care",'auto',41.5,-81.7,'Dobbs Tire & Auto Centers','pe'],['True Texas BBQ','restaurant',30.27,-97.74,'H-E-B','corporate'],['Empire Visionworks','eye',40.7,-74.0,'Visionworks','corporate'],["Brookshire's Pharmacy",'pharmacy',32.35,-95.3,'Brookshire’s','corporate']]){const o=at(name,category,lat,lng);assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+});
+
+test('Sprouts matches its short name only as a grocery and is listed as publicly traded',()=>{
+ const sprouts=ownershipFor({name:'sprouts',category:'grocery',lat:39.27,lng:-76.57});
+ assert.equal(sprouts.type,'corporate');assert.equal(sprouts.brand,'Sprouts Farmers Market');
+ for(const [name,category] of [['Sprouts','restaurant'],['Sprouts Learning Center','childcare']])assert.equal(ownershipFor({name,category,lat:39.27,lng:-76.57}).type,'unknown',name);
+ assert.equal(sprouts.publicListing?.exchanges?.[0]?.ticker,'SFM');
 });
