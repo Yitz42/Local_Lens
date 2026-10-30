@@ -204,3 +204,13 @@ test('round 2: hotels match by brand family, and only hotels use leading-name ma
  assert.equal(at('Holiday Stationstores','gas').brand,'Holiday Stationstores');
  assert.equal(at('Hampton Inn Baltimore').localOperators,'franchise');
 });
+test('round 3: movies & fun covers theaters, bowling, arcades, and parks',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'movie_theater',...h('arts_and_entertainment','movie_theater')}),'fun');
+ assert.equal(categoryForOverture({basic_category:'bowling_alley',...h('sports_and_recreation','sport_or_fitness_facility','bowling_alley')}),'fun');
+ assert.equal(categoryForOverture({basic_category:'escape_room',...h('arts_and_entertainment','gaming_venue','escape_room')}),'fun');
+ assert.equal(categoryFor({amenity:'cinema'}),'fun');assert.equal(categoryFor({leisure:'bowling_alley'}),'fun');
+ assert.equal(googleCategory(['movie_theater']),'fun');
+ for(const [name,brand] of [['AMC Owings Mills 17','AMC Theatres'],['Cinemark Towson and XD','Cinemark'],['Bowlero Normandy','Lucky Strike'],['AMF Woodlawn Lanes','Lucky Strike'],['Lucky Strike Pikesville','Lucky Strike'],['Six Flags America','Six Flags']])assert.equal(ownershipFor(p(name,'fun')).brand,brand,name);
+ assert.equal(ownershipFor(p('AMF Bakery','grocery')).type,'unknown');assert.equal(ownershipFor(p('Lucky Strike Diner','restaurant')).type,'unknown');
+});

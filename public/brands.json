@@ -663,6 +663,43 @@
       ]
     },
     {
+      "brand": "AMC Theatres",
+      "aliases": [
+        "AMC",
+        "AMC Dine-In",
+        "AMC Classic",
+        "AMC CLASSIC"
+      ],
+      "type": "corporate",
+      "parent": "AMC Entertainment Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+      "sourceTitle": "AMC Entertainment Holdings — 2025 Form 10-K",
+      "note": "AMC operated 533 U.S. theatres at the end of 2025.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AMC%20Theatres",
+      "publicListing": {
+        "company": "AMC Entertainment Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "AMC"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm",
+        "sourceTitle": "AMC Entertainment Holdings — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "fun"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "America First Credit Union",
       "aliases": [
         "America First"
@@ -4160,6 +4197,44 @@
         "bar"
       ],
       "localOperators": "franchise",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Cinemark",
+      "aliases": [
+        "Cinemark Theatres",
+        "Century Theatres",
+        "Century Theaters",
+        "Tinseltown",
+        "CineArts"
+      ],
+      "type": "corporate",
+      "parent": "Cinemark Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm",
+      "sourceTitle": "Cinemark Holdings — 2025 Form 10-K",
+      "note": "Cinemark operated 303 U.S. theaters at the end of 2025, including Century and Tinseltown locations.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Cinemark",
+      "publicListing": {
+        "company": "Cinemark Holdings, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "CNK"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm",
+        "sourceTitle": "Cinemark Holdings — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "fun"
+      ],
+      "matchNamePrefix": true,
       "categories": [
         "corporate"
       ]
@@ -11509,6 +11584,45 @@
       ]
     },
     {
+      "brand": "Lucky Strike",
+      "aliases": [
+        "Lucky Strike Entertainment",
+        "Bowlero",
+        "AMF Bowling",
+        "AMF",
+        "Bowlmor",
+        "Lucky Strike Lanes"
+      ],
+      "type": "corporate",
+      "parent": "Lucky Strike Entertainment Corporation",
+      "source": "https://www.businesswire.com/news/home/20260506021963/en/Lucky-Strike-Entertainment-Reports-Third-Quarter-Results-for-Fiscal-Year-2026",
+      "sourceTitle": "Business Wire — Lucky Strike Entertainment fiscal 2026 third-quarter results",
+      "note": "Formerly Bowlero Corp., the company runs more than 360 bowling and entertainment centers under the Lucky Strike, Bowlero, and AMF names.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lucky%20Strike",
+      "publicListing": {
+        "company": "Lucky Strike Entertainment Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "LUCK"
+          }
+        ],
+        "source": "https://www.businesswire.com/news/home/20260506021963/en/Lucky-Strike-Entertainment-Reports-Third-Quarter-Results-for-Fiscal-Year-2026",
+        "sourceTitle": "Business Wire — Lucky Strike Entertainment fiscal 2026 third-quarter results",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "fun"
+      ],
+      "matchNamePrefix": true,
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
       "brand": "lululemon",
       "aliases": [
         "lululemon athletica",
@@ -17482,6 +17596,46 @@
         "other"
       ],
       "localOperators": "franchise",
+      "categories": [
+        "corporate"
+      ]
+    },
+    {
+      "brand": "Six Flags",
+      "aliases": [
+        "Six Flags America",
+        "Six Flags Hurricane Harbor",
+        "Cedar Point",
+        "Kings Dominion",
+        "Kings Island",
+        "Carowinds",
+        "Knott's Berry Farm"
+      ],
+      "type": "corporate",
+      "parent": "Six Flags Entertainment Corporation",
+      "source": "https://www.businesswire.com/news/home/20240701181300/en/Cedar-Fair-and-Six-Flags-Merger-of-Equals-Successfully-Completed-Creating-a-Leading-Amusement-Park-Operator",
+      "sourceTitle": "Business Wire — Cedar Fair and Six Flags complete merger (2024)",
+      "note": "Six Flags and Cedar Fair merged in July 2024; the combined company runs Six Flags parks and former Cedar Fair parks such as Cedar Point and Kings Dominion.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Six%20Flags",
+      "publicListing": {
+        "company": "Six Flags Entertainment Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "FUN"
+          }
+        ],
+        "source": "https://www.businesswire.com/news/home/20240701181300/en/Cedar-Fair-and-Six-Flags-Merger-of-Equals-Successfully-Completed-Creating-a-Leading-Amusement-Park-Operator",
+        "sourceTitle": "Business Wire — Cedar Fair and Six Flags complete merger (2024)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "fun"
+      ],
+      "matchNamePrefix": true,
       "categories": [
         "corporate"
       ]

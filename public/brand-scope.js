@@ -12,7 +12,7 @@ export function matchesBrandScope(place,brand){return !brand.matchBounds||brand.
 export function boundsOverlap(a,b){return a.south<=b.north&&a.north>=b.south&&a.west<=b.east&&a.east>=b.west;}
 export function haveDisjointScopes(a,b){return Array.isArray(a.matchBounds)&&a.matchBounds.length>0&&Array.isArray(b.matchBounds)&&b.matchBounds.length>0&&!a.matchBounds.some(one=>b.matchBounds.some(two=>boundsOverlap(one,two)));}
 // Store categories split from More stores. A brand guard of 'other' still covers every retail store category.
-export const PLACE_CATEGORIES=['restaurant','bar','grocery','gas','coffee','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank','print','laundry','pets','repair','dental','clinic','eye','hotel'];
+export const PLACE_CATEGORIES=['restaurant','bar','grocery','gas','coffee','pharmacy','home','apparel','general','other','beauty','fitness','auto','bank','print','laundry','pets','repair','dental','clinic','eye','hotel','fun'];
 // Eye care includes eyewear stores, so store-only brand guards cover it too.
 export const RETAIL_CATEGORIES=['pharmacy','home','apparel','general','other','eye'];
 export function matchesBrandCategory(place,brand){return !brand.matchCategories||brand.matchCategories.includes(place.category)||RETAIL_CATEGORIES.includes(place.category)&&brand.matchCategories.includes('other');}
