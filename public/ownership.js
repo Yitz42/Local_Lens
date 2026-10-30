@@ -49,7 +49,7 @@ export function hospitalOwnership(p){
 }
 // Map listings often add what the place is after the brand ("Olive Garden Italian Restaurant", "Kroger Pharmacy",
 // "Pep Boys Auto Service & Tires"). Dropping one such trailing descriptor still requires an exact brand name.
-const DESCRIPTOR=/^(.+?)\s+(?:[-–|:]\s*)?(?:(?:italian|mexican|chinese|japanese|thai|seafood|steak|family)\s+restaurant|restaurant|gas station|specialty pharmacy|pharmacy|self storage|rent a car|car rental|truck rental|auto service(?:\s*(?:&|and)\s*tires)?|auto care|supermarket|stores|store|express|bakery cafe|urgent care|massage and facial spa|spa|atm)$/i;
+const DESCRIPTOR=/^(.+?)\s+(?:[-–|:]\s*)?(?:(?:italian|mexican|chinese|japanese|thai|seafood|steak|family)\s+restaurant|restaurant|gas station|gas|fuel center|fuel station|fuel|food mart|specialty pharmacy|pharmacy|self storage|rent a car|car rental|truck rental|auto service(?:\s*(?:&|and)\s*tires)?|auto care|supermarket|stores|store|outlet|factory store|factory outlet|retail|mattress store|bank branch|supermarket branch|branches|branch|express|bakery cafe|urgent care|massage and facial spa|spa|atm)$/i;
 function withoutDescriptor(value){const match=value.trim().match(DESCRIPTOR);return match?match[1]:'';}
 export function ownershipFor(p){
  // The curated directory currently covers US brands; do not infer international ownership.

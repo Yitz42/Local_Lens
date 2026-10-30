@@ -5400,7 +5400,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Keller Williams",
+          "parent": "Keller Williams Realty · Gary Keller and Stone Point Capital",
+          "type": "pe",
+          "source": "https://www.stonepoint.com/news/keller-williams-announces-strategic-partnership-to-accelerate-growth/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Stonepeak",

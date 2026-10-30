@@ -327,3 +327,9 @@ test('round 13: car washes, labs & imaging, hearing care, and trailing descripto
 test('round 13: generic names stay unmatched',()=>{
  for(const [name,category] of [['Lash Lounge By LeahJ','beauty'],['Gallagher Realty','realestate'],["Leslie's Furniture",'home'],['Ryder Auto Body','auto']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
 });
+test('nationwide gap round: new chains, name variants, and guards',()=>{
+ for(const [name,category,brand] of [['Krispy Krunchy Chicken','restaurant','Krispy Krunchy Chicken'],['Hunt Brothers Pizza','restaurant','Hunt Brothers Pizza'],['Hanger Clinic: Prosthetics & Orthotics','therapy','Hanger Clinic'],['Kroger Fuel Center','gas','Kroger'],['Santander Bank Branch','bank','Santander Bank'],['Suntrust','bank','Truist'],['Mr. Tire Auto Service Centers','auto','Monro Auto Service and Tire Centers'],['Speedco Truck Lube and Tires','auto','Love’s Travel Stops'],['Best Western Plus Baltimore','hotel','Best Western'],['Jane Doe - Keller Williams Realty','realestate','Keller Williams'],["Casey's",'restaurant','Casey’s']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor(p('Best Western','hotel')).type,'independent','Best Western hotels are member-owned');
+ assert.equal(ownershipFor(p('Good Neighbor Pharmacy','pharmacy')).type,'independent');
+ for(const [name,category] of [["Clark's Shoes",'apparel'],['Ferguson Hardware','home'],['Red Wing','apparel'],['Gas Station','gas']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
+});

@@ -8,7 +8,7 @@ const p=(name,category='other')=>({...origin,name,category});
 test('reviewed fuel, coffee, and retail brands participate in automatic name exclusions',()=>{
  for(const [name,category,type,parent] of [
   ['76 - Main Street','gas','corporate','Phillips'],
-  ['Valero Fuel Center','gas','corporate','Valero'],
+  ['Valero Fuel Center - Downtown','gas','corporate','Valero'],
   ['QuickChek - Downtown','grocery','corporate','Murphy'],
   ['Cumberland Farms - Downtown','gas','pe','TDR'],
   ['Kwik Shop - Downtown','gas','pe','TDR'],

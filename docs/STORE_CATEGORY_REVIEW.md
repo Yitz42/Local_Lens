@@ -288,6 +288,27 @@ Overture also files many tax preparers under `trusts`, which had no category; ta
 - **No current primary source found:** Marco's Pizza (one unconfirmed report of PE stakes), Veterinary Emergency Group (growth investors, no controlling owner found), Restore Hyper Wellness, Right At Home, and Liberty Tax (its parent went through bankruptcy).
 - **Nonprofits:** Goodwill and the YMCA.
 
+## Nationwide gap scan with BigQuery
+
+Overture's places are also published in BigQuery's public datasets. `scripts/bigquery-chains-detailed.sql` (about 10 GB, inside the free tier) lists every US place name with at least 5 locations, with its states, extent, and most common website domain. `scripts/rank-bigquery-gaps.mjs` checks each name against the directory at its own center point, so regional brands count. It also lists unmatched names that share a website with a matched brand, which are likely name variants. The other `scripts/bigquery-*.sql` files count places per category, group chains by website or Wikidata brand ID, list the top names in each category, and list chains around Baltimore.
+
+Of the 60,000 names, those in app categories cover about 1.27 million US places. The share with an ownership label went from **53.4% to 58.0%** in this round:
+
+- **Name variants (about 160 aliases).** Each one was found through a shared website and reviewed by hand. Examples: Suntrust and BB&T (Truist), TCF (Huntington), BBVA (PNC), Union Bank (U.S. Bank), and People's United (M&T); Mr. Tire, Car-X, and Tire Choice (Monro); Speedco and Love's Truck Care (Love's); On The Run, Flash Foods, Holiday Car Wash, and Kangaroo Express (Circle K); TA and Petro (bp); BJ's tire, optical, and gas listings; plus store-in-store names such as "Sunglass Hut at Macy's" and "Claire's Walmart". Generic names that happened to share a website were left out: "Gas Station", "The Bistro", "Deals", "Pink", and "OFFLINE".
+- **More trailing descriptors:** gas, fuel, fuel center, food mart, outlet, factory store, retail, mattress store, bank branch, and supermarket branch. "Kroger Fuel Center" and "Santander Bank Branch" now match. Bare "Red Wing" stays unmatched because of the Minnesota town.
+- **New brands (31):**
+  - **PE backed:** Krispy Krunchy Chicken (Main Post Partners), Hanger Clinic (Patient Square), Keller Williams (Stone Point Capital, with Gary Keller), and Clarks (LionRock Capital).
+  - **Corporate:**
+    - Hunt Brothers Pizza (Hunt family) and VIP Petcare (Tractor Supply, May 2026).
+    - John Deere and Quick Lane (dealer-run); Fastenal, Ferguson, SiteOne, Builders FirstSource, QXO, and Foundation Building Materials (Lowe's).
+    - It's Just Wings (Brinker) and Kumon; A&W Restaurants, owned by its franchisees since 2011.
+    - Aéropostale (Catalyst Brands), Gymboree (The Children's Place), Banter and Piercing Pagoda (Signet).
+    - First American Title, U.S. Physical Therapy (Drayer, SERC), Genoa Healthcare (Optum), and Clayton Homes (Berkshire).
+    - First Horizon, Flagstar, SouthState, Old National, and Umpqua banks.
+  - **Independent:** Best Western (a nonprofit owned by its member hotels) and Good Neighbor Pharmacy (Cencora's network of independently owned pharmacies).
+
+Still unmatched at the top of the list: closed chains still in the data (Payless, Kmart, Sears, Pier 1, Forever 21, Justice); ignition-interlock vendors; CAT Scale; and private chains with no current ownership source, such as Long John Silver's, Dickey's, Godfather's, Rainbow Shops, Curves, and Snap Fitness. Generic names like "China Wok" and "First National Bank" are different businesses that happen to share a name.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
