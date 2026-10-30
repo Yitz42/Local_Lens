@@ -376,3 +376,16 @@ test('round 18: regional banks, merged-bank names, and apparel and home brands',
  assert.equal(ownershipFor({id:'f',name:'NASA Federal Credit Union',category:'bank',lat:38.82,lng:-76.75}).type,'independent');
  assert.equal(ownershipFor(p('Garage Door Pros','home')).type,'unknown','Garage clothing only matches its exact name');
 });
+test('regional scan: state banks, credit unions with state limits, and merged names',()=>{
+ const at=(name,category,lat,lng)=>ownershipFor({id:name,name,category,lat,lng});
+ assert.equal(at('Frost Bank','bank',29.42,-98.49).brand,'Frost Bank');
+ assert.equal(at('Amegy Bank','bank',29.76,-95.37).parent,'Zions Bancorporation, N.A.');
+ assert.equal(at('MB Financial Bank','bank',41.88,-87.63).brand,'Fifth Third Bank');
+ assert.equal(at('Pacific Western Bank','bank',34.05,-118.24).brand,'Banc of California');
+ assert.equal(at('Independent Financial','bank',32.78,-96.8).brand,'SouthState Bank');
+ assert.equal(at('Kessler Rehabilitation Center','therapy',40.74,-74.17).brand,'Select Physical Therapy');
+ assert.equal(at('VyStar Credit Union','bank',30.33,-81.66).type,'independent');
+ assert.equal(at('Five Star Bank','bank',43.0,-77.6).brand,'Five Star Bank','Five Star Bank in New York');
+ assert.equal(at('Five Star Bank','bank',38.58,-121.49).type,'unknown','a different Five Star Bank in California');
+ assert.equal(at('Independent Bank','bank',42.73,-84.55).type,'unknown','Michigan\'s Independent Bank is a different company');
+});

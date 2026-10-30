@@ -455,6 +455,31 @@ Coverage is now 59.7% nationally and 49.9% around Baltimore. Added, each from an
   - Tiger Mart → Exxon.
   - Casual Male XL → Destination XL.
 
+## Round 19: regional chains in every state
+
+`scripts/bigquery-regional-chains.sql` is one nationwide query. For each state, it lists names with at least 3 locations there that appear in no more than 4 states, so national chains drop out. It keeps the 300 largest per state, about 15,000 rows. `scripts/rank-regional-gaps.mjs` checks each one at its own center point and reports coverage by state.
+
+Regional chains were the directory's weakest area: only 9.1% of their locations had an ownership label, compared with 60% for national chains. Regional banks were the largest group that could be verified, so this round focused on them. Regional coverage is now **13.3%**, and national coverage is **60.0%**.
+
+- **Banks (public):**
+  - Frost, First Commonwealth, Eastern, BancFirst, Banc of California (with Pacific Western), Rockland Trust, and Seacoast.
+  - Zions' Amegy, California Bank & Trust, and National Bank of Arizona.
+  - BOK Financial (Bank of Oklahoma, Bank of Texas, and Bank of Albuquerque).
+  - Tri Counties, Westamerica, HBT, S&T, 1st Source, OceanFirst, Southside, PlainsCapital, Five Star, WSFS, Capital City, Mid Penn, Bank of Hawaii, Camden National, Kearny, First Mid, Stock Yards, Lake City, and Univest.
+  - Names shared with unrelated banks are limited to the home state.
+- **Merged names:** MB Financial → Fifth Third; Investors Bank → Citizens; Independent Financial → SouthState. Bare "Independent Bank" is a different Michigan bank and stays unmatched.
+- **Credit unions (member-owned, home state only):** VyStar, Members 1st, Summit, Desert Financial, Idaho Central, Ent, MIDFLORIDA, Broadview, and Founders.
+- **Other:**
+  - OXXO (FEMSA) and Yoshinoya (Yoshinoya Holdings).
+  - Edina Realty (HomeServices, Berkshire Hathaway).
+  - Kessler Rehabilitation Center (Select Medical, private equity).
+
+Not added yet:
+
+- Family-owned regional convenience and restaurant chains (Mirabito, OnCue, Toot'n Totum, Runza, Eat'n Park, Skyline Chili, Imo's), which each need their own ownership source.
+- Frisch's, which changed hands again and has no confirmed current owner.
+- Nonprofit health systems.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
