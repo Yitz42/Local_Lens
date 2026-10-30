@@ -3536,7 +3536,8 @@
       "brand": "Enterprise Rent-A-Car",
       "aliases": [
         "Enterprise Rent A Car",
-        "Enterprise Car Rental"
+        "Enterprise Car Rental",
+        "Enterprise Car Sales"
       ],
       "type": "corporate",
       "parent": "Enterprise Holdings, Inc. · Enterprise Mobility",
@@ -3647,7 +3648,8 @@
       "aliases": [
         "ExxonMobil",
         "Exxon & Mobil Stations",
-        "Exxon Corp"
+        "Exxon Corp",
+        "Tiger Mart"
       ],
       "type": "corporate",
       "parent": "Exxon Mobil Corporation",
@@ -8159,7 +8161,11 @@
     {
       "brand": "PetSmart",
       "aliases": [
-        "Pet Smart"
+        "Pet Smart",
+        "PetSmart Grooming",
+        "PetSmart Dog Training",
+        "PetSmart Doggie Day Camp",
+        "PetSmart PetsHotel"
       ],
       "type": "pe",
       "parent": "BC Partners · Apollo",
@@ -16239,7 +16245,9 @@
       "aliases": [
         "DXL",
         "DXL Big + Tall",
-        "Destination XL Big + Tall"
+        "Destination XL Big + Tall",
+        "Casual Male XL",
+        "Casual Male XL Outlet"
       ],
       "type": "corporate",
       "parent": "Destination XL Group, Inc.",
@@ -17774,7 +17782,11 @@
         "Good Year",
         "The Goodyear Tire & Rubber Company",
         "Goodyear Tire & Rubber Company",
-        "Goodyear Tires"
+        "Goodyear Tires",
+        "Just Tires",
+        "Goodyear Commercial Tire & Service Centers",
+        "Goodyear Commercial Tire and Service Center",
+        "Roll by Goodyear"
       ],
       "type": "corporate",
       "parent": "The Goodyear Tire & Rubber Company",
@@ -18001,7 +18013,10 @@
         "PNC Mortgage",
         "PNC Private Bank",
         "BBVA Bank",
-        "BBVA"
+        "BBVA",
+        "BBVA Compass",
+        "Bbva Compass",
+        "Compass Bank"
       ],
       "type": "corporate",
       "parent": "The PNC Financial Services Group, Inc.",
@@ -18110,7 +18125,8 @@
         "Truist Bank",
         "Suntrust",
         "SunTrust Bank",
-        "BB&T"
+        "BB&T",
+        "Susquehanna Bank"
       ],
       "type": "corporate",
       "parent": "Truist Financial Corporation",
@@ -18299,7 +18315,8 @@
         "The Huntington National Bank",
         "Huntington",
         "Huntington Private Bank",
-        "TCF Bank"
+        "TCF Bank",
+        "Chemical Bank"
       ],
       "type": "corporate",
       "parent": "Huntington Bancshares Incorporated",
@@ -21541,7 +21558,11 @@
     {
       "brand": "Concentra Urgent Care",
       "aliases": [
-        "Concentra"
+        "Concentra",
+        "U.S. HealthWorks",
+        "US HealthWorks",
+        "U.s. Healthworks Medical Group",
+        "US HealthWorks Medical Group"
       ],
       "type": "corporate",
       "parent": "Concentra Group Holdings Parent, Inc.",
@@ -22474,7 +22495,9 @@
       "aliases": [
         "First Horizon",
         "First Tennessee",
-        "First Tennessee Bank"
+        "First Tennessee Bank",
+        "IBERIABANK",
+        "Iberiabank"
       ],
       "type": "corporate",
       "parent": "First Horizon Corporation",
@@ -23231,7 +23254,8 @@
     {
       "brand": "Rexel",
       "aliases": [
-        "Rexel USA"
+        "Rexel USA",
+        "Platt Electric Supply"
       ],
       "type": "corporate",
       "parent": "Rexel S.A.",
@@ -23406,7 +23430,9 @@
     },
     {
       "brand": "First Interstate Bank",
-      "aliases": [],
+      "aliases": [
+        "Great Western Bank"
+      ],
       "type": "corporate",
       "parent": "First Interstate BancSystem, Inc.",
       "source": "https://investors.fibk.com/",
@@ -25542,6 +25568,428 @@
         "other"
       ],
       "matchNamePrefix": true
+    },
+    {
+      "brand": "Renasant Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Renasant Corporation",
+      "source": "https://investors.renasant.com/",
+      "sourceTitle": "Renasant Corporation — investor relations",
+      "note": "Renasant Corporation is listed (NYSE: RNST).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Hancock Whitney",
+      "aliases": [
+        "Hancock Whitney Bank"
+      ],
+      "type": "corporate",
+      "parent": "Hancock Whitney Corporation",
+      "source": "https://investors.hancockwhitney.com/",
+      "sourceTitle": "Hancock Whitney Corporation — investor relations",
+      "note": "Hancock Whitney Corporation is listed (Nasdaq: HWC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Centennial Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Home BancShares, Inc.",
+      "source": "https://www.homebancshares.com/",
+      "sourceTitle": "Home BancShares — investor relations",
+      "note": "Home BancShares, Inc. is listed (NYSE: HOMB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 24.5,
+          "west": -95,
+          "north": 37,
+          "east": -79.8
+        }
+      ]
+    },
+    {
+      "brand": "IBC Bank",
+      "aliases": [
+        "International Bank of Commerce"
+      ],
+      "type": "corporate",
+      "parent": "International Bancshares Corporation",
+      "source": "https://www.ibc.com/investor-relations",
+      "sourceTitle": "International Bancshares Corporation — investor relations",
+      "note": "International Bancshares Corporation is listed (Nasdaq: IBOC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Banner Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Banner Corporation",
+      "source": "https://investor.bannerbank.com/",
+      "sourceTitle": "Banner Corporation — investor relations",
+      "note": "Banner Corporation is listed (Nasdaq: BANR).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Trustmark",
+      "aliases": [
+        "Trustmark National Bank",
+        "Trustmark Bank"
+      ],
+      "type": "corporate",
+      "parent": "Trustmark Corporation",
+      "source": "https://investorrelations.trustmark.com/",
+      "sourceTitle": "Trustmark Corporation — investor relations",
+      "note": "Trustmark Corporation is listed (Nasdaq: TRMK).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "NBT Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "NBT Bancorp Inc.",
+      "source": "https://ir.nbtbancorp.com/",
+      "sourceTitle": "NBT Bancorp Inc. — investor relations",
+      "note": "NBT Bancorp Inc. is listed (Nasdaq: NBTB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Trustco Bank",
+      "aliases": [
+        "TrustCo Bank"
+      ],
+      "type": "corporate",
+      "parent": "TrustCo Bank Corp NY",
+      "source": "https://www.trustcobank.com/investor-relations",
+      "sourceTitle": "TrustCo Bank Corp NY — investor relations",
+      "note": "TrustCo Bank Corp NY is listed (Nasdaq: TRST).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "First Merchants Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "First Merchants Corporation",
+      "source": "https://www.firstmerchants.com/investors",
+      "sourceTitle": "First Merchants Corporation — investor relations",
+      "note": "First Merchants Corporation is listed (Nasdaq: FRME).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "ACNB Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "ACNB Corporation",
+      "source": "https://investors.acnb.com/",
+      "sourceTitle": "ACNB Corporation — investor relations",
+      "note": "ACNB Corporation is listed (Nasdaq: ACNB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "PVH Corp.",
+      "source": "https://www.pvh.com/investor-relations",
+      "sourceTitle": "PVH — investor relations",
+      "note": "Tommy Hilfiger is a PVH brand; PVH is listed on the NYSE (PVH).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Fossil",
+      "aliases": [
+        "Fossil Store",
+        "Fossil Outlet",
+        "Fossil Outlet Store"
+      ],
+      "type": "corporate",
+      "parent": "Fossil Group, Inc.",
+      "source": "https://investor.fossilgroup.com/",
+      "sourceTitle": "Fossil Group — investor relations",
+      "note": "Fossil Group is listed on Nasdaq (FOSL).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Garage",
+      "aliases": [
+        "Garage Clothing"
+      ],
+      "type": "corporate",
+      "parent": "Groupe Dynamite Inc.",
+      "source": "https://www.groupedynamite.com/investors",
+      "sourceTitle": "Groupe Dynamite — investors",
+      "note": "Garage belongs to Groupe Dynamite, listed in Toronto since 2024.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ]
+    },
+    {
+      "brand": "Lucky Brand",
+      "aliases": [
+        "Lucky Brand Jeans"
+      ],
+      "type": "corporate",
+      "parent": "Catalyst Brands (Simon Property Group, Brookfield, Authentic Brands Group & Shein)",
+      "source": "https://corporate.jcpenney.com/2025/01/08/sparc-group-has-merged-with-jcpenney-to-form-catalyst-brands/",
+      "sourceTitle": "JCPenney — SPARC Group merges with JCPenney to form Catalyst Brands (January 2025)",
+      "note": "Lucky Brand stores were run by SPARC Group, now part of Catalyst Brands; Authentic Brands Group owns the brand name.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Bassett Furniture",
+      "aliases": [
+        "Bassett Home Furnishings",
+        "Bassett Furniture Direct"
+      ],
+      "type": "corporate",
+      "parent": "Bassett Furniture Industries, Inc.",
+      "source": "https://investors.bassettfurniture.com/",
+      "sourceTitle": "Bassett — investor relations",
+      "note": "Bassett is listed on Nasdaq (BSET). Some stores are licensed to independent dealers.",
+      "checked": "2026-10-30",
+      "localOperators": "dealer",
+      "matchCategories": [
+        "home"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Dunn-Edwards Paints",
+      "aliases": [
+        "Dunn-Edwards"
+      ],
+      "type": "corporate",
+      "parent": "Nippon Paint Holdings",
+      "source": "https://www.nipponpaint-holdings.com/en/ir/",
+      "sourceTitle": "Nippon Paint Holdings — investor relations",
+      "note": "Nippon Paint (listed in Tokyo) bought Dunn-Edwards in 2017.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Meritage Homes",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Meritage Homes Corporation",
+      "source": "https://investors.meritagehomes.com/",
+      "sourceTitle": "Meritage Homes — investor relations",
+      "note": "Meritage Homes is listed on the NYSE (MTH).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "K. Hovnanian Homes",
+      "aliases": [
+        "Hovnanian",
+        "K Hovnanian Homes"
+      ],
+      "type": "corporate",
+      "parent": "Hovnanian Enterprises, Inc.",
+      "source": "https://investor.khov.com/",
+      "sourceTitle": "Hovnanian — investor relations",
+      "note": "Hovnanian is listed on the NYSE (HOV).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Weichert Realtors",
+      "aliases": [
+        "Weichert",
+        "Weichert, Realtors"
+      ],
+      "type": "corporate",
+      "parent": "Weichert Co. (Weichert family, privately held)",
+      "source": "https://www.weichert.com/aboutweichert/",
+      "sourceTitle": "Weichert — about Weichert",
+      "note": "Weichert is a privately held real estate company founded by Jim Weichert; many offices are franchised and agents are independent contractors.",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true,
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "MATHESON",
+      "aliases": [
+        "Matheson Tri-Gas"
+      ],
+      "type": "corporate",
+      "parent": "Nippon Sanso Holdings (Taiyo Nippon Sanso)",
+      "source": "https://www.nipponsanso-hd.co.jp/en/ir/",
+      "sourceTitle": "Nippon Sanso Holdings — investor relations",
+      "note": "MATHESON is the US business of Nippon Sanso Holdings, listed in Tokyo.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "NASA Federal Credit Union",
+      "aliases": [
+        "NASA FCU"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Upper Marlboro, Maryland",
+      "source": "https://www.nasafcu.com/",
+      "sourceTitle": "NASA Federal Credit Union — credit union website",
+      "note": "Credit unions are owned by their members.",
+      "checked": "2026-10-30",
+      "localOperators": "memberowned",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 37.85,
+          "west": -79.6,
+          "north": 39.75,
+          "east": -75
+        }
+      ]
+    },
+    {
+      "brand": "Freedom Federal Credit Union",
+      "aliases": [
+        "Freedom FCU"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Bel Air, Maryland",
+      "source": "https://www.freedomfcu.org/",
+      "sourceTitle": "Freedom Federal Credit Union — credit union website",
+      "note": "Credit unions are owned by their members.",
+      "checked": "2026-10-30",
+      "localOperators": "memberowned",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 37.85,
+          "west": -79.6,
+          "north": 39.75,
+          "east": -75
+        }
+      ]
+    },
+    {
+      "brand": "First Financial Federal Credit Union",
+      "aliases": [
+        "First Financial FCU"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Owings Mills, Maryland",
+      "source": "https://www.firstfinancial.org/",
+      "sourceTitle": "First Financial Federal Credit Union — credit union website",
+      "note": "Credit unions are owned by their members.",
+      "checked": "2026-10-30",
+      "localOperators": "memberowned",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 37.85,
+          "west": -79.6,
+          "north": 39.75,
+          "east": -75
+        }
+      ]
+    },
+    {
+      "brand": "Chessie Federal Credit Union",
+      "aliases": [
+        "Chessie FCU"
+      ],
+      "type": "independent",
+      "parent": "Member-owned credit union · Cumberland, Maryland",
+      "source": "https://www.chessiefcu.org/",
+      "sourceTitle": "Chessie Federal Credit Union — credit union website",
+      "note": "Credit unions are owned by their members.",
+      "checked": "2026-10-30",
+      "localOperators": "memberowned",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 37.85,
+          "west": -79.6,
+          "north": 39.75,
+          "east": -75
+        }
+      ]
     }
   ]
 }
