@@ -26,7 +26,7 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 
 | Part | Where | Notes |
 | --- | --- | --- |
-| Place data | Overture Maps (open data, loaded tile by tile from Overture's public archive) | Free and global, but monthly releases are deleted after about 60 days, so `RELEASE` in `worker/overture.js` must be moved forward. |
+| Place data | Overture Maps (open data, loaded tile by tile from Overture's public archive) | Free and global, but monthly releases are deleted after about 60 days, so a weekly GitHub Action moves `RELEASE` in `worker/overture.js` to the newest archive automatically. |
 | Optional Google mode | `public/google-places.js` | Each person connects their own Google Maps key. Fresher listings, but each Google search returns at most 20 places. |
 | Ownership data | `data/brands.json`, `data/pe-firms.json` | Hand-researched. `npm run directory` validates them and generates the app, CSV, JSON, and Markdown files. |
 | Matching | `public/ownership.js`, `public/brand-scope.js` | Brand names match place names. Short or shared names are limited to a category (`matchCategories`) or a region (`matchBounds`) to avoid false matches. |
@@ -59,8 +59,8 @@ Run it locally with `npm ci` and `node scripts/dev.mjs`, then open http://localh
 3. **Location-level ownership** for franchises and small businesses, from state business registries,
    franchise disclosure documents, or owner verification.
 4. **Broader coverage**: regional chains, more local businesses, and countries beyond the US.
-5. **Reliable place data and hosting**: an automated job to move to each new Overture release, monitoring, and
-   possibly a paid places provider.
+5. **Reliable place data and hosting**: monitoring and possibly a paid places provider (moving to each new Overture
+   release is already automated).
 6. **Editorial and legal review** of how labels are worded, especially for private equity and franchises.
 
 ## Reusing this work

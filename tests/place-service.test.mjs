@@ -69,3 +69,8 @@ test('the place API accepts searches up to 10 miles',async()=>{
  const {planTiles}=await import('../worker/overture.js');
  assert.ok(planTiles(39.37,-76.72,16093).length<=512,'a 10-mile search fits the tile limit at mid latitudes');
 });
+
+test('Overture release names sort by date, then by suffix',async()=>{
+ const {compareReleases}=await import('../scripts/update-overture-release.mjs');
+ assert.deepEqual(['2026-10-21.0','2026-09-23.1','2026-09-23.0','2026-11-18.0'].sort(compareReleases),['2026-09-23.0','2026-09-23.1','2026-10-21.0','2026-11-18.0']);
+});
