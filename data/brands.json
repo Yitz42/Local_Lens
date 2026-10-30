@@ -19682,6 +19682,245 @@
       ],
       "matchNamePrefix": true,
       "localOperators": "franchise"
+    },
+    {
+      "brand": "RE/MAX",
+      "aliases": [
+        "REMAX",
+        "RE MAX"
+      ],
+      "type": "corporate",
+      "parent": "RE/MAX Holdings, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926017561/rmax-20251231x10k.htm",
+      "sourceTitle": "RE/MAX Holdings — 2025 Form 10-K",
+      "note": "RE/MAX owns none of the brokerages that use its brand; they are all franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=RE%2FMAX",
+      "publicListing": {
+        "company": "RE/MAX Holdings, Inc.",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "RMAX"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926017561/rmax-20251231x10k.htm",
+        "sourceTitle": "RE/MAX Holdings — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Coldwell Banker",
+      "aliases": [
+        "Coldwell Banker Realty"
+      ],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Many Coldwell Banker offices are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Coldwell%20Banker",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Century 21",
+      "aliases": [
+        "CENTURY 21"
+      ],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Century 21 offices are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Century%2021",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "ERA Real Estate",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. ERA offices are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=ERA%20Real%20Estate",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Sotheby's International Realty",
+      "aliases": [
+        "Sotheby's Realty"
+      ],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Many offices are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sotheby's%20International%20Realty",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Better Homes and Gardens Real Estate",
+      "aliases": [
+        "BHGRE"
+      ],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Offices are franchised.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Better%20Homes%20and%20Gardens%20Real%20Estate",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "Compass Real Estate",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Compass, Inc. (Anywhere Real Estate)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "note": "Compass runs its own brokerage offices and, since January 2026, owns Anywhere Real Estate's brands.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Compass%20Real%20Estate",
+      "publicListing": {
+        "company": "Compass, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "NYSE",
+            "ticker": "COMP"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+        "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true
+    },
+    {
+      "brand": "State Farm",
+      "aliases": [
+        "State Farm Insurance",
+        "State Farm Insurance Agent"
+      ],
+      "type": "corporate",
+      "parent": "State Farm Mutual Automobile Insurance Company (mutual, owned by policyholders)",
+      "source": "https://businessmodelanalyst.com/state-farm-business-model/",
+      "sourceTitle": "Business Model Analyst — State Farm business model",
+      "note": "State Farm is a mutual insurer with no public stock; its policyholders are the nominal owners. Local agents are exclusive contractors who sell only State Farm products.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=State%20Farm",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNameAnywhere": true,
+      "localOperators": "dealer"
     }
   ]
 }

@@ -239,3 +239,13 @@ test('round 5: storage & rentals and tax & money services',async()=>{
  assert.equal(ownershipFor(p('U-Haul Neighborhood Dealer','storage')).localOperators,'dealer');
  assert.equal(CATEGORIES.find(c=>c.id==='clinic').name,'Doctors & urgent care');
 });
+test('round 6: real estate & insurance, with whole-word name matching for agent listings',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'real_estate_agent',...h('services_and_business','real_estate_service','real_estate_agent')}),'realestate');
+ assert.equal(categoryForOverture({basic_category:'auto_insurance',...h('services_and_business','financial_service','insurance_agency','auto_insurance')}),'realestate');
+ assert.equal(categoryForOverture({basic_category:'home_developer',...h('services_and_business','real_estate_service','builder','home_developer')}),null,'builders stay out');
+ assert.equal(categoryFor({office:'estate_agent'}),'realestate');assert.equal(categoryFor({office:'insurance'}),'realestate');
+ for(const [name,brand] of [['Bryant Jenkins - State Farm Insurance Agent','State Farm'],['Kathy Hubbard, RE/MAX Advantage','RE/MAX'],['Coldwell Banker Realty - Pikesville','Coldwell Banker'],['CENTURY 21 New Millennium','Century 21']])assert.equal(ownershipFor(p(name,'realestate')).brand,brand,name);
+ for(const [name,category] of [['New Era Realty','realestate'],['Compass Property Management','realestate'],['Compass Coffee','coffee'],['State Farm Road Deli','restaurant'],['Century 21 Liquors','other']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
+ assert.equal(ownershipFor(p('Bryant Jenkins - State Farm Insurance Agent','realestate')).localOperators,'dealer');
+});
