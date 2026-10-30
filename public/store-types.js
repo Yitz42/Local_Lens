@@ -8,7 +8,7 @@ export const STORE_TYPES=[
  {id:'sporting',name:'Sporting & outdoor',terms:['sporting_goods_store','sports','outdoor','bicycle','bicycle_store','bike_shop','outdoor_store','gun_and_ammo_store','fishing_store']},
  {id:'liquor',name:'Liquor & wine',terms:['liquor_store','beer_wine_spirits_store','alcohol','wine','wine_store','beverages']},
  {id:'thrift',name:'Thrift, pawn & antiques',terms:['second_hand_store','second_hand','second_hand_clothing_store','antique_store','antiques','charity','pawn_shop','pawnbroker','flea_market','consignment_store','thrift_store']},
- {id:'auto_parts',name:'Auto parts & dealers',terms:['vehicle_parts_store','auto_parts_store','car_parts','vehicle_dealer','auto_dealer','car','car_dealer','motorcycle_dealer','tire_store']},
+ {id:'auto_parts',name:'Auto parts',terms:['vehicle_parts_store','auto_parts_store','car_parts','tire_store']},
  {id:'pets',name:'Pets',terms:['animal_and_pet_store','pet_store','pet','pet_supplies']},
  {id:'tobacco',name:'Tobacco & vape',terms:['tobacco_shop','smoke_and_vape_store','tobacco','e-cigarette','vape_shop']},
  {id:'office',name:'Office & shipping',terms:['office_supply_store','stationery','office_supplies','copy_shop']}

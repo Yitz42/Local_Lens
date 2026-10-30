@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='storage-money-v2';
+export const PLACE_FORMAT='senior-funeral-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -30,6 +30,9 @@ export function categoryForOverture(properties){
  if(terms.some(t=>t==='restaurant'||t==='food_and_drink'||t.includes('restaurant')||t==='fast_food'||t==='food_truck'))return 'restaurant';
  if(terms.some(t=>/^(pharmacy_and_drug_store|pharmacy|drugstore)$/.test(t)))return 'pharmacy';
  if(terms.some(t=>/^(hardware_home_and_garden_store|hardware_store|home_improvement_store|building_supply_store|furniture_store|home_goods_store|nursery_and_gardening_store|paint_store)$/.test(t)))return 'home';
+ if(terms.some(t=>/^(vehicle_dealer|auto_dealer|used_auto_dealer|car_dealer|motorcycle_dealer|truck_dealer|recreational_vehicle_dealer|motorsport_vehicle_dealer|commercial_vehicle_dealer|auto_leasing)$/.test(t)))return 'cars';
+ // Phone and internet stores; phone repair stays in Repair & alterations.
+ if(terms.some(t=>/^(mobile_phone_store|mobile_phone_accessory_store|cell_phone_store|telecommunications_service)$/.test(t)))return 'phone';
  if(terms.some(t=>/^(eyewear_store|optician|vision_or_eye_care_clinic|optometry|ophthalmology|optometrist)$/.test(t)))return 'eye';
  if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
  if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
@@ -49,9 +52,16 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(self_storage_facility|truck_rental_service|car_rental_service)$/.test(t)))return 'storage';
  // Coin and Bitcoin kiosks and ATMs are machines, not businesses.
  if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
+ // Real estate and insurance agents; builders, investors, surveyors, and associations stay out.
+ if(!terms.some(t=>/^(builder|home_developer|real_estate_investment|land_surveying|homeowner_association|housing_cooperative|real_estate_photography|display_home_center|home_organization|shared_office_space)$/.test(t))&&terms.some(t=>/^(real_estate_agent|real_estate_service|property_management|commercial_real_estate|insurance_agency|auto_insurance|life_insurance|home_and_rental_insurance|health_insurance_office)$/.test(t)))return 'realestate';
+ if(terms.some(t=>/^(funeral_service|funeral_home|crematorium|cremation_service|cemetery|mortuary)$/.test(t)))return 'funeral';
+ // Senior living and in-home care; government senior centers stay out.
+ if(terms.some(t=>/^(senior_living_facility|retirement_home|assisted_living_facility|memory_care_facility|nursing_home|skilled_nursing_facility|home_health_care|home_care)$/.test(t)))return 'senior';
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
+ // Physical, occupational, and speech therapy and chiropractic; addiction treatment and prosthetics stay out.
+ if(!terms.some(t=>/^(addiction_rehabilitation_center|prosthetics|orthotics)$/.test(t))&&terms.some(t=>/^(physical_therapy|physical_medicine_and_rehabilitation|occupational_therapy|speech_therapy|rehabilitation_center|chiropractic|chiropractor)$/.test(t)))return 'therapy';
  if(terms.some(t=>/^(dental_clinic|dentist|general_dentistry|orthodontics|orthodontist|pediatric_dentistry|cosmetic_dentistry|endodontics|periodontics|prosthodontics|oral_surgeon|oral_and_maxillofacial_surgery)$/.test(t)))return 'dental';
  // Walk-in and primary care. Public health offices, ambulance services, and specialists stay out.
  if(!terms.some(t=>/^(public_health_clinic|ambulance_or_ems_service)$/.test(t))&&terms.some(t=>/^(urgent_care_clinic|walk_in_clinic|emergency_department|emergency_or_urgent_care_facility|primary_care_or_general_clinic|family_practice|pediatric_clinic|internal_medicine)$/.test(t)))return 'clinic';

@@ -239,3 +239,54 @@ test('round 5: storage & rentals and tax & money services',async()=>{
  assert.equal(ownershipFor(p('U-Haul Neighborhood Dealer','storage')).localOperators,'dealer');
  assert.equal(CATEGORIES.find(c=>c.id==='clinic').name,'Doctors & urgent care');
 });
+test('round 6: real estate & insurance, with whole-word name matching for agent listings',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'real_estate_agent',...h('services_and_business','real_estate_service','real_estate_agent')}),'realestate');
+ assert.equal(categoryForOverture({basic_category:'auto_insurance',...h('services_and_business','financial_service','insurance_agency','auto_insurance')}),'realestate');
+ assert.equal(categoryForOverture({basic_category:'home_developer',...h('services_and_business','real_estate_service','builder','home_developer')}),null,'builders stay out');
+ assert.equal(categoryFor({office:'estate_agent'}),'realestate');assert.equal(categoryFor({office:'insurance'}),'realestate');
+ for(const [name,brand] of [['Bryant Jenkins - State Farm Insurance Agent','State Farm'],['Kathy Hubbard, RE/MAX Advantage','RE/MAX'],['Coldwell Banker Realty - Pikesville','Coldwell Banker'],['CENTURY 21 New Millennium','Century 21']])assert.equal(ownershipFor(p(name,'realestate')).brand,brand,name);
+ for(const [name,category] of [['New Era Realty','realestate'],['Compass Property Management','realestate'],['Compass Coffee','coffee'],['State Farm Road Deli','restaurant'],['Century 21 Liquors','other']])assert.equal(ownershipFor(p(name,category)).type,'unknown',name);
+ assert.equal(ownershipFor(p('Bryant Jenkins - State Farm Insurance Agent','realestate')).localOperators,'dealer');
+});
+test('round 7: car dealers move out of More stores into their own category',async()=>{
+ const {storeTypeFromTerms}=await import('../public/store-types.js');
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'auto_dealer',...h('shopping','vehicle_dealer','auto_dealer')}),'cars');
+ assert.equal(categoryForOverture({basic_category:'used_auto_dealer',...h('shopping','vehicle_dealer','auto_dealer','used_auto_dealer')}),'cars');
+ assert.equal(categoryForOverture({basic_category:'auto_parts_store',...h('shopping','specialty_store','vehicle_parts_store','auto_parts_store')}),'other');
+ assert.equal(storeTypeFromTerms(['auto_dealer']),'other','dealers are no longer a More stores type');
+ assert.equal(categoryFor({shop:'car'}),'cars');assert.equal(googleCategory(['car_dealer']),'cars');
+ for(const [name,brand] of [['CarMax','CarMax'],['AutoNation Toyota Hunt Valley','AutoNation'],['AutoNation USA Pikesville','AutoNation'],['Lithia Toyota of Baltimore','Lithia'],['Carvana Car Vending Machine','Carvana']])assert.equal(ownershipFor(p(name,'cars')).brand,brand,name);
+ assert.equal(ownershipFor(p('Lithia Springs Diner','restaurant')).type,'unknown');
+});
+test('round 8: phone & internet stores, with wireless brands guarded to store listings',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'mobile_phone_store',...h('shopping','specialty_store','electronics_store','mobile_phone_store')}),'phone');
+ assert.equal(categoryForOverture({basic_category:'mobile_phone_repair',...h('services_and_business','technical_service','it_service_and_computer_repair','mobile_phone_repair')}),'repair','repair shops stay in Repair');
+ assert.equal(categoryFor({shop:'mobile_phone'}),'phone');assert.equal(googleCategory(['cell_phone_store']),'phone');
+ for(const [name,brand] of [['Verizon - Owings Mills','Verizon'],['AT&T Store','AT&T'],['T-Mobile Pikesville','T-Mobile'],['Cricket Wireless Authorized Retailer','Cricket Wireless'],['Xfinity Store by Comcast','Xfinity'],['Spectrum Store','Spectrum']])assert.equal(ownershipFor(p(name,'phone')).brand,brand,name);
+ assert.equal(ownershipFor(p('Cricket Wireless Authorized Retailer','phone')).localOperators,'dealer');
+ assert.equal(ownershipFor(p('Spectrum Pediatrics','clinic')).type,'unknown');assert.equal(ownershipFor(p('Verizon','other')).brand,'Verizon');
+});
+test('round 9: physical therapy & chiropractic, with Select Medical now private equity owned',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'physical_therapy',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','physical_therapy')}),'therapy');
+ assert.equal(categoryForOverture({basic_category:'chiropractic',...h('health_care','outpatient_care_facility','complementary_and_alternative_medicine','chiropractic')}),'therapy');
+ assert.equal(categoryForOverture({basic_category:'addiction_rehabilitation_center',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','rehabilitation_center','addiction_rehabilitation_center')}),null);
+ assert.equal(categoryFor({healthcare:'physiotherapist'}),'therapy');assert.equal(googleCategory(['chiropractor']),'therapy');
+ for(const [name,brand,type] of [['Select Physical Therapy - Owings Mills','Select Physical Therapy','pe'],['NovaCare Rehabilitation','Select Physical Therapy','pe'],['ATI Physical Therapy','ATI Physical Therapy','pe'],['The Joint Chiropractic','The Joint Chiropractic','corporate'],['Ivy Rehab Physical Therapy','Ivy Rehab','pe']])assert.deepEqual([ownershipFor(p(name,'therapy')).brand,ownershipFor(p(name,'therapy')).type],[brand,type],name);
+ assert.equal(ownershipFor(p('The Joint Chiropractic','therapy')).localOperators,'franchise');
+ assert.equal(ownershipFor(p('The Joint Bar & Grill','bar')).type,'unknown');
+});
+test('round 10: senior living & home care and funeral homes',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'assisted_living_facility',...h('services_and_business','housing_or_property_service','senior_living_facility','assisted_living_facility')}),'senior');
+ assert.equal(categoryForOverture({basic_category:'home_health_care',...h('health_care','medical_service','home_health_care')}),'senior');
+ assert.equal(categoryForOverture({basic_category:'senior_citizen_service',...h('community_and_government','social_or_community_service','senior_citizen_service')}),null,'government senior centers stay out');
+ assert.equal(categoryForOverture({basic_category:'funeral_service',...h('services_and_business','family_service','funeral_service')}),'funeral');
+ assert.equal(categoryForOverture({basic_category:'pet_cemetery_and_crematorium_service',...h('lifestyle_services','animal_or_pet_service','pet_cemetery_and_crematorium_service')}),'pets','pet cemeteries stay with pet care');
+ assert.equal(categoryFor({shop:'funeral_directors'}),'funeral');assert.equal(categoryFor({amenity:'social_facility',social_facility:'assisted_living'}),'senior');assert.equal(googleCategory(['funeral_home']),'funeral');
+ for(const [name,category,brand] of [['Brookdale Pikesville','senior','Brookdale'],['Home Instead','senior','Home Instead'],['Ruck Funeral Home - Dignity Memorial','funeral','Dignity Memorial'],['Neptune Society','funeral','Dignity Memorial'],['Sharonda Benson: Allstate Insurance','realestate','Allstate']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor(p('Allstate Leasing','cars')).type,'unknown','Allstate only matches insurance and real estate listings');
+});

@@ -6326,7 +6326,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Select Physical Therapy",
+          "parent": "Select Medical · founders and Welsh, Carson, Anderson & Stowe",
+          "type": "pe",
+          "source": "https://www.selectmedical.com/media-center/news-and-articles/news/select-medical-holdings-corporation-to-be-acquired-by-consortium-led-by-ortenzio-jackson-and-wcas/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Wesray Capital Corporation",

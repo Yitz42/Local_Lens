@@ -48,7 +48,7 @@ test('Boost Mobile and Save A Lot listings are hidden as corporate brands with s
   assert.equal(filterPlaces([place],{origin,hidden:['corporate','pe'],matchBrandNames:true}).length,0,displayName);
   assert.equal(filterPlaces([place],{origin,hidden:[]}).length,1,displayName);
  }
- const boost=ownershipFor(normalizeGooglePlace(raw({displayName:'Boost Mobile'})));
+ const boost=ownershipFor(normalizeGooglePlace(raw({displayName:'Boost Mobile',types:['cell_phone_store'],primaryType:'cell_phone_store'})));
  assert.equal(boost.publicListing.company,'EchoStar Corporation');assert.deepEqual(boost.publicListing.exchanges,[{exchange:'Nasdaq',ticker:'ECHO'}]);
  const grocery=normalizeGooglePlace(raw({displayName:'Save A Lot - Downtown',types:['grocery_store'],primaryType:'grocery_store'}));
  assert.equal(filterPlaces([grocery],{origin,hidden:['corporate'],matchBrandNames:true}).length,0);

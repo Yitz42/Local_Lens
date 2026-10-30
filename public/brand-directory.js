@@ -577,6 +577,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Allstate",
+    "aliases": [
+      "Allstate Insurance",
+      "Allstate Insurance Agent"
+    ],
+    "type": "corporate",
+    "parent": "The Allstate Corporation",
+    "source": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+    "sourceTitle": "The Allstate Corporation — 2025 Form 10-K",
+    "note": "Allstate sells through exclusive local agents as well as independent agents and online. Exclusive agents run their own offices but sell only Allstate products.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Allstate",
+    "publicListing": {
+      "company": "The Allstate Corporation",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "ALL"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/899051/000089905126000031/all-20251231.htm",
+      "sourceTitle": "The Allstate Corporation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Allsup's",
     "aliases": [
       "Allsups",
@@ -1046,6 +1082,11 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "AT&T — common stock dual listing",
       "checked": "2026-10-25"
     },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -1061,6 +1102,26 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "ATI Physical Therapy",
+    "aliases": [
+      "ATI"
+    ],
+    "type": "pe",
+    "parent": "ATI Physical Therapy · Knighthead Capital and Marathon Asset Management",
+    "source": "https://www.prnewswire.com/news-releases/ati-physical-therapy-goes-private-302519673.html",
+    "sourceTitle": "PR Newswire — ATI Physical Therapy goes private (2025)",
+    "note": "A consortium led by investment firms Knighthead Capital Management and Marathon Asset Management took ATI private in August 2025. The short name ATI only matches therapy listings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=ATI%20Physical%20Therapy",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -1130,6 +1191,41 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "AutoNation",
+    "aliases": [
+      "AutoNation USA",
+      "AutoNation Collision Center"
+    ],
+    "type": "corporate",
+    "parent": "AutoNation, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/350698/000162828026007800/an-20251231.htm",
+    "sourceTitle": "AutoNation — 2025 Form 10-K",
+    "note": "AutoNation owned 245 new-vehicle stores and 26 AutoNation USA used-vehicle stores at the end of 2025. Many dealerships use names like \"AutoNation Toyota\".",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=AutoNation",
+    "publicListing": {
+      "company": "AutoNation, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "AN"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/350698/000162828026007800/an-20251231.htm",
+      "sourceTitle": "AutoNation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -1744,6 +1840,41 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "Best Buy — about the company",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Better Homes and Gardens Real Estate",
+    "aliases": [
+      "BHGRE"
+    ],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Offices are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Better%20Homes%20and%20Gardens%20Real%20Estate",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -2482,6 +2613,11 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-25"
     },
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -2681,6 +2817,40 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "grocery"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Brookdale",
+    "aliases": [
+      "Brookdale Senior Living"
+    ],
+    "type": "corporate",
+    "parent": "Brookdale Senior Living Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+    "sourceTitle": "Brookdale Senior Living — 2025 Form 10-K",
+    "note": "Brookdale operated 584 senior living communities in 41 states at the end of 2025.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Brookdale%20Senior%20Living",
+    "publicListing": {
+      "company": "Brookdale Senior Living Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "BKD"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1332349/000133234926000032/bkd-20251231.htm",
+      "sourceTitle": "Brookdale Senior Living — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -3352,6 +3522,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CarMax",
+    "aliases": [
+      "CarMax Auto Superstore"
+    ],
+    "type": "corporate",
+    "parent": "CarMax, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000024/kmx-20250228.htm",
+    "sourceTitle": "CarMax — fiscal 2025 Form 10-K",
+    "note": "CarMax runs about 250 company-owned used-car stores.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=CarMax",
+    "publicListing": {
+      "company": "CarMax, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "KMX"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1170010/000117001025000024/kmx-20250228.htm",
+      "sourceTitle": "CarMax — fiscal 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Carquest",
     "aliases": [
       "Carquest Auto Parts",
@@ -3495,6 +3699,40 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "other"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Carvana",
+    "aliases": [
+      "Carvana Car Vending Machine"
+    ],
+    "type": "corporate",
+    "parent": "Carvana Co.",
+    "source": "https://last10k.com/sec-filings/cvna",
+    "sourceTitle": "Last10K — Carvana Co. SEC filings",
+    "note": "Online used-car retailer known for its car vending machine pickup towers.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Carvana",
+    "publicListing": {
+      "company": "Carvana Co.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "CVNA"
+        }
+      ],
+      "source": "https://last10k.com/sec-filings/cvna",
+      "sourceTitle": "Last10K — Carvana Co. SEC filings",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -3772,6 +4010,41 @@ export const BRAND_DIRECTORY = [
       "lat": 29.42,
       "lng": -98.49
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Century 21",
+    "aliases": [
+      "CENTURY 21"
+    ],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Century 21 offices are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Century%2021",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
     "categories": [
       "corporate"
     ]
@@ -4713,6 +4986,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Coldwell Banker",
+    "aliases": [
+      "Coldwell Banker Realty"
+    ],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Many Coldwell Banker offices are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Coldwell%20Banker",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Columbia Sportswear",
     "aliases": [
       "Columbia Factory Store",
@@ -4802,6 +5110,38 @@ export const BRAND_DIRECTORY = [
         "east": -80.4
       }
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Compass Real Estate",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Compass runs its own brokerage offices and, since January 2026, owns Anywhere Real Estate's brands.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Compass%20Real%20Estate",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -5120,6 +5460,11 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -5696,6 +6041,42 @@ export const BRAND_DIRECTORY = [
       "lat": 38.66,
       "lng": -90.58
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Dignity Memorial",
+    "aliases": [
+      "Neptune Society",
+      "National Cremation Society",
+      "Funeraria del Angel"
+    ],
+    "type": "corporate",
+    "parent": "Service Corporation International",
+    "source": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+    "sourceTitle": "Service Corporation International — 2025 Form 10-K",
+    "note": "SCI operated 1,485 funeral locations and 500 cemeteries at the end of 2025. Most keep their original local names, so only listings that mention Dignity Memorial or SCI's other brands are matched.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Service%20Corporation%20International",
+    "publicListing": {
+      "company": "Service Corporation International",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "SCI"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+      "sourceTitle": "Service Corporation International — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "funeral"
+    ],
+    "matchNameAnywhere": true,
     "categories": [
       "corporate"
     ]
@@ -6371,6 +6752,39 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "ERA Real Estate",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. ERA offices are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=ERA%20Real%20Estate",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -9365,6 +9779,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Home Instead",
+    "aliases": [
+      "Home Instead Senior Care"
+    ],
+    "type": "corporate",
+    "parent": "Home Instead · Honor Technology, Inc.",
+    "source": "https://www.homecaremag.com/news/honor-acquires-home-instead",
+    "sourceTitle": "Home Care Magazine — Honor acquires Home Instead (2021)",
+    "note": "Venture-backed Honor Technology bought Home Instead in 2021; local Home Instead offices are franchises.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Home%20Instead",
+    "matchCategories": [
+      "senior"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "HomeGoods",
     "aliases": [],
     "type": "corporate",
@@ -9879,6 +10314,27 @@ export const BRAND_DIRECTORY = [
     "wikipedia": "https://en.wikipedia.org/wiki/Intelligentsia_Coffee_%26_Tea",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Ivy Rehab",
+    "aliases": [
+      "Ivy Rehab Physical Therapy",
+      "Ivy Physical Therapy"
+    ],
+    "type": "pe",
+    "parent": "Ivy Rehab Network (Ivy Health) · Waud Capital Partners",
+    "source": "https://healthcare.levinassociates.com/2023/09/22/ivy-rehab-expands-in-illinois-with-ptsir-deal/",
+    "sourceTitle": "LevinPro Healthcare M&A — Ivy Rehab, a Waud Capital Partners portfolio company (2023)",
+    "note": "Ivy Rehab is a portfolio company of private equity firm Waud Capital Partners; its parent is now called Ivy Health.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Ivy%20Rehab",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -11517,6 +11973,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Lithia",
+    "aliases": [
+      "Lithia Motors",
+      "Driveway"
+    ],
+    "type": "corporate",
+    "parent": "Lithia Motors, Inc.",
+    "source": "https://www.stocktitan.net/sec-filings/LAD/10-k-lithia-motors-inc-files-annual-report-1bfd601657cc.html",
+    "sourceTitle": "Stock Titan — Lithia Motors 2025 Form 10-K summary",
+    "note": "Lithia reported 455 stores in its 2025 annual report, many named \"Lithia\" plus the car brand. Many other Lithia stores keep local dealership names and are not matched.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Lithia",
+    "publicListing": {
+      "company": "Lithia Motors, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "LAD"
+        }
+      ],
+      "source": "https://www.stocktitan.net/sec-filings/LAD/10-k-lithia-motors-inc-files-annual-report-1bfd601657cc.html",
+      "sourceTitle": "Stock Titan — Lithia Motors 2025 Form 10-K summary",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "cars"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Little Caesars",
     "aliases": [
       "Little Caesars Pizza",
@@ -12774,6 +13265,11 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-25"
     },
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -15943,6 +16439,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "RE/MAX",
+    "aliases": [
+      "REMAX",
+      "RE MAX"
+    ],
+    "type": "corporate",
+    "parent": "RE/MAX Holdings, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926017561/rmax-20251231x10k.htm",
+    "sourceTitle": "RE/MAX Holdings — 2025 Form 10-K",
+    "note": "RE/MAX owns none of the brokerages that use its brand; they are all franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=RE%2FMAX",
+    "publicListing": {
+      "company": "RE/MAX Holdings, Inc.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "RMAX"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1581091/000110465926017561/rmax-20251231x10k.htm",
+      "sourceTitle": "RE/MAX Holdings — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Real Urban BBQ",
     "aliases": [],
     "type": "corporate",
@@ -17286,6 +17818,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Select Physical Therapy",
+    "aliases": [
+      "NovaCare Rehabilitation",
+      "NovaCare",
+      "Physiotherapy Associates"
+    ],
+    "type": "pe",
+    "parent": "Select Medical · founders and Welsh, Carson, Anderson & Stowe",
+    "source": "https://www.selectmedical.com/media-center/news-and-articles/news/select-medical-holdings-corporation-to-be-acquired-by-consortium-led-by-ortenzio-jackson-and-wcas/",
+    "sourceTitle": "Select Medical — to be acquired by consortium led by Ortenzio, Jackson, and WCAS (2026)",
+    "note": "A consortium of Select Medical's founders and private equity firm WCAS took the company private on July 1, 2026, ending its NYSE listing. Select runs about 1,900 outpatient therapy clinics under several names.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Select%20Medical",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "sponsors": [
+      "Welsh, Carson, Anderson & Stowe"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Sephora",
     "aliases": [
       "Sephora at Kohl's"
@@ -18085,6 +18642,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Sotheby's International Realty",
+    "aliases": [
+      "Sotheby's Realty"
+    ],
+    "type": "corporate",
+    "parent": "Compass, Inc. (Anywhere Real Estate)",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+    "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+    "note": "Part of Anywhere Real Estate, which Compass bought in January 2026. Many offices are franchised.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Sotheby's%20International%20Realty",
+    "publicListing": {
+      "company": "Compass, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "COMP"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0001563190/000156319026000101/comp-20260331.htm",
+      "sourceTitle": "Compass, Inc. — first-quarter 2026 Form 10-Q (Anywhere Real Estate acquisition)",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "South Moon Under",
     "aliases": [],
     "type": "pe",
@@ -18130,6 +18722,42 @@ export const BRAND_DIRECTORY = [
       "lat": 29.76,
       "lng": -95.37
     },
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Spectrum",
+    "aliases": [
+      "Spectrum Store",
+      "Spectrum Mobile"
+    ],
+    "type": "corporate",
+    "parent": "Charter Communications, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+    "sourceTitle": "Charter Communications — 2025 Form 10-K",
+    "note": "Spectrum is Charter's internet, TV, and mobile brand. The bare name only matches phone and store listings.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Spectrum",
+    "publicListing": {
+      "company": "Charter Communications, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "CHTR"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+      "sourceTitle": "Charter Communications — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -18420,6 +19048,28 @@ export const BRAND_DIRECTORY = [
     "localOperators": "memberowned",
     "categories": [
       "independent"
+    ]
+  },
+  {
+    "brand": "State Farm",
+    "aliases": [
+      "State Farm Insurance",
+      "State Farm Insurance Agent"
+    ],
+    "type": "corporate",
+    "parent": "State Farm Mutual Automobile Insurance Company (mutual, owned by policyholders)",
+    "source": "https://businessmodelanalyst.com/state-farm-business-model/",
+    "sourceTitle": "Business Model Analyst — State Farm business model",
+    "note": "State Farm is a mutual insurer with no public stock; its policyholders are the nominal owners. Local agents are exclusive contractors who sell only State Farm products.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=State%20Farm",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNameAnywhere": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
     ]
   },
   {
@@ -19158,6 +19808,11 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.t-mobile.com/stores/fl"
       }
     ],
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -19723,6 +20378,42 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "The Human Bean — current national franchise story",
     "note": "The current company page describes its substantial national franchise network. This does not infer a current ultimate investor or label a family franchise operator as a subsidiary. This classifies large-chain affiliation, without verifying the owner of a particular franchise, licensed outlet, or local operating company.",
     "checked": "2026-10-26",
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "The Joint Chiropractic",
+    "aliases": [
+      "The Joint",
+      "The Joint Chiropractic Clinic"
+    ],
+    "type": "corporate",
+    "parent": "The Joint Corp.",
+    "source": "https://www.globenewswire.com/news-release/2026/05/07/3290591/32957/en/the-joint-corp-reports-first-quarter-2026-financial-results.html",
+    "sourceTitle": "GlobeNewswire — The Joint Corp. first-quarter 2026 results",
+    "note": "868 of The Joint's 943 clinics were franchised as of March 31, 2026, and it is selling its remaining company clinics to franchisees.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Joint%20Chiropractic",
+    "publicListing": {
+      "company": "The Joint Corp.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "JYNT"
+        }
+      ],
+      "source": "https://www.globenewswire.com/news-release/2026/05/07/3290591/32957/en/the-joint-corp-reports-first-quarter-2026-financial-results.html",
+      "sourceTitle": "GlobeNewswire — The Joint Corp. first-quarter 2026 results",
+      "checked": "2026-10-30"
+    },
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
     "localOperators": "franchise",
     "categories": [
       "corporate"
@@ -20342,6 +21033,11 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.verizon.com/about/news/total-wireless-launches-bold-new-offers-new-look-outshine-rivals-prepaid-wireless"
       }
     ],
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -20843,6 +21539,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Upstream Rehabilitation",
+    "aliases": [
+      "Upstream Physical Therapy"
+    ],
+    "type": "pe",
+    "parent": "Upstream Rehabilitation · Revelstoke Capital Partners",
+    "source": "https://revelstokecapital.com/news/revelstoke-capital-partners-completes-investment-in-upstream-rehabilitation-inc/",
+    "sourceTitle": "Revelstoke Capital Partners — completes investment in Upstream Rehabilitation",
+    "note": "Upstream is backed by private equity firm Revelstoke Capital Partners. Many of its clinics keep local practice names and are not matched by this name.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Upstream%20Rehabilitation",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Urban Outfitters",
     "aliases": [],
     "type": "corporate",
@@ -21099,6 +21815,11 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Verizon — current stock listings and ticker",
       "checked": "2026-10-25"
     },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22242,6 +22963,43 @@ export const BRAND_DIRECTORY = [
     ],
     "matchNamePrefix": true,
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Xfinity",
+    "aliases": [
+      "Xfinity Store",
+      "Xfinity Store by Comcast",
+      "Comcast Xfinity"
+    ],
+    "type": "corporate",
+    "parent": "Comcast Corporation",
+    "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+    "note": "Xfinity is Comcast's internet, TV, and mobile brand; Xfinity stores sell and support its service.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Xfinity",
+    "publicListing": {
+      "company": "Comcast Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "CMCSA"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+      "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]

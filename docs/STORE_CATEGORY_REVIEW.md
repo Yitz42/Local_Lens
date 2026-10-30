@@ -186,6 +186,44 @@ Review fixes made along the way:
 
 Left out because current ownership could not be confirmed from a primary source: CityMD, Concentra, Patient First, AFC Urgent Care, Best Western, Extended Stay America, Red Roof, Regal, Sky Zone, Bright Horizons, Kumon, Huntington Learning Center, Celebree School, CubeSmart, Penske, Hertz, and MoneyGram. ExpressCare belongs to the nonprofit LifeBridge Health system, which the app has no label for yet.
 
+## Rounds 6–10: real estate, car dealers, phones, therapy, senior care, funeral homes
+
+Added October 30, 2026 in five more rounds, each with a review pass. The Category menu now has 32 categories.
+
+| Category | Overture taxonomy | OpenStreetMap | Google Places |
+| --- | --- | --- | --- |
+| Real estate & insurance | real estate agents and services, property management, insurance agencies (builders, investors, surveyors, and associations excluded) | `office=estate_agent/insurance` | `real_estate_agency`, `insurance_agency` |
+| Car dealers (moved from More stores) | `vehicle_dealer` and its new, used, motorcycle, truck, and RV children | `shop=car/motorcycle/truck` | `car_dealer` |
+| Phone & internet stores (moved from More stores) | `mobile_phone_store`, accessories, `telecommunications_service` (phone repair stays in Repair) | `shop=mobile_phone/telecommunication` | `cell_phone_store`, `telecommunications_service_provider` |
+| Physical therapy & chiropractic (Health) | physical, occupational, and speech therapy, rehabilitation, chiropractic (addiction treatment and prosthetics excluded) | `healthcare=physiotherapist/occupational_therapist/speech_therapist/chiropractor` | `physiotherapist`, `chiropractor` |
+| Senior living & home care (Health) | senior living, retirement homes, assisted living, memory care, nursing homes, home health care (government senior centers excluded) | `social_facility=assisted_living/nursing_home`, `social_facility:for=senior` | "assisted living" and "home care for seniors" text searches |
+| Funeral homes | funeral services, crematoriums, cemeteries (pet cemeteries stay in Pet care) | `shop=funeral_directors`, `amenity=funeral_hall/crematorium` | `funeral_home` |
+
+Brands added (23, bringing the directory to 951 listed brands):
+
+- **Real estate & insurance:**
+  - RE/MAX (fully franchised).
+  - Compass Real Estate, plus the Anywhere brands Compass bought in January 2026: Coldwell Banker, Century 21, ERA, Sotheby's International Realty, and Better Homes and Gardens Real Estate.
+  - State Farm (a mutual company owned by its policyholders) and Allstate (NYSE ALL). Their exclusive local agents get the dealer badge.
+- **Car dealers:** CarMax, AutoNation (with AutoNation USA), Lithia (with Driveway), and Carvana.
+- **Phone & internet:** Xfinity (Comcast) and Spectrum (Charter).
+- **Physical therapy & chiropractic:**
+  - Select Physical Therapy, with NovaCare and Physiotherapy Associates. Select Medical was taken private by its founders and Welsh, Carson, Anderson & Stowe on July 1, 2026.
+  - ATI Physical Therapy (taken private by Knighthead and Marathon in 2025).
+  - The Joint Chiropractic (mostly franchised).
+  - Upstream Rehabilitation (Revelstoke) and Ivy Rehab (Waud Capital).
+- **Senior living & home care:** Brookdale (NYSE BKD) and Home Instead (Honor Technology; franchised).
+- **Funeral homes:** Dignity Memorial and SCI's other brands (NYSE SCI). Most SCI funeral homes keep their original local names, so only listings that mention an SCI brand are matched.
+
+Review fixes made along the way:
+
+- **New matching option:** `matchNameAnywhere`, for agent listings that put the brand after a person's name. The build only allows it with category guards. Bare "ERA" and "Compass" aliases were dropped so "New Era Realty" and "Compass Property Management" stay unknown.
+- **More stores:** dealers left the More stores "Auto parts" type.
+- **Wireless brands:** Verizon, AT&T, T-Mobile, Metro, Cricket, Boost, and Total Wireless now match locations named after them, limited to phone and store listings so "Spectrum Pediatrics" stays unknown. A test that built a Boost Mobile listing with a pizza restaurant type now uses a phone store type.
+- **Allstate:** added after the live-data review showed its agent listings were common but unmatched.
+
+Left out because current ownership could not be confirmed from a primary source: Keller Williams, Long & Foster, GEICO, Progressive, Victra, Hendrick, Penske Automotive, Professional Physical Therapy, Concentra, Sunrise Senior Living, Visiting Angels, Right at Home, Carriage Services, and Park Lawn.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.
