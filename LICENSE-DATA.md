@@ -13,7 +13,7 @@ permission and without giving credit.
   `public/brand-directory.js`, and `docs/BRANDS.md`
 - `data/pe-firms.json` and the files generated from it: `public/pe-firms.json`, `public/pe-holdings.csv`,
   `public/pe-firm-directory.js`, and `docs/PRIVATE_EQUITY_FIRMS.md`
-- the kosher certification listings in `public/kosher-places.js`
+- the certification listings in `public/kosher-places.js`
 - the research notes in `docs/`
 
 These records summarize and link to public sources such as SEC filings, company announcements, and news
