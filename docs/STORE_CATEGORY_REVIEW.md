@@ -507,6 +507,29 @@ Regional coverage is up from 13.3% to **16.5%**. Each chain below was checked ag
 
 Not added, because current ownership was unclear: Monical's, Bush's Chicken, Brake Check, Frisch's, and Taco Mayo.
 
+## Round 21: more regional chains
+
+Regional coverage is up from 16.5% to **17.8%**. As in round 20, each chain has a headquarters (where it is privately held) and a home-region limit.
+
+- **Family-owned or privately held:**
+  - Rotten Robbie (Robinson family), GoMart (Heater family), Crew Carwash (Dahm family), and CC's Coffee House (Saurage family).
+  - Han-Dee Hugo's (Sampson-Bladen Oil), Speedy Stop (C.L. Thomas), P. Terry's (Terry family), Vista Paint, and Mazzio's (Selby family).
+  - Ono Hawaiian BBQ, which describes itself as family-owned.
+  - Texas State Optical, owned by its franchisee optometrists since 2001.
+- **PE-backed:**
+  - Dobbs Tire & Auto Centers (Audax Private Equity), now including Ohio's Conrad's Tire Express.
+  - In-Shape Family Fitness (Perpetual Capital Partners).
+- **Other owners:**
+  - eegee's: an affiliate of lender Gladstone Capital bought it out of bankruptcy in 2025.
+  - Hele (Par Pacific) and Alaska Commercial Company (The North West Company).
+- **Sister brands:**
+  - True Texas BBQ → H-E-B.
+  - Empire Visionworks → Visionworks.
+  - Aloha Island Mart → Sunoco.
+  - Brookshire's and Brookshire Brothers pharmacies now match their grocers.
+
+Not added, because current ownership was unclear: Cobblestone Auto Spa, Nice N Easy, WaBa Grill, Higginbotham Brothers, and Taco Palenque.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

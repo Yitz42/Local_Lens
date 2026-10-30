@@ -1494,7 +1494,8 @@
       "note": "The 2026 partner announcement, including comments from Brookshire Brothers’ CEO, identifies the employee-owned grocery chain and nearly 120 retail locations. This is a distinct company from Brookshire Grocery Company.",
       "checked": "2026-10-25",
       "matchCategories": [
-        "grocery"
+        "grocery",
+        "pharmacy"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "headquarters": {
@@ -1517,7 +1518,8 @@
       "note": "BGC’s current company page identifies this banner within its family-owned, 200-plus-store group. Brookshire Brothers is a separate company and is not an alias.",
       "checked": "2026-10-25",
       "matchCategories": [
-        "grocery"
+        "grocery",
+        "pharmacy"
       ],
       "wikipedia": "https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_the_United_States",
       "headquarters": {
@@ -5031,7 +5033,9 @@
       "brand": "H-E-B",
       "aliases": [
         "HEB",
-        "H-E-B Plus"
+        "H-E-B Plus",
+        "True Texas BBQ",
+        "True Texas Bar-B-Que"
       ],
       "type": "corporate",
       "parent": "H-E-B, LP",
@@ -10495,7 +10499,9 @@
       "aliases": [
         "APlus",
         "A Plus Mini Market",
-        "A-Plus"
+        "A-Plus",
+        "Aloha Island Mart",
+        "Aloha Petroleum"
       ],
       "type": "corporate",
       "parent": "Sunoco LP",
@@ -16610,7 +16616,9 @@
     },
     {
       "brand": "Visionworks",
-      "aliases": [],
+      "aliases": [
+        "Empire Visionworks"
+      ],
       "type": "corporate",
       "parent": "VSP Global",
       "source": "https://invisionmag.com/acquisition-of-700-store-visionworks-chain-completed/",
@@ -27658,6 +27666,470 @@
       },
       "matchNamePrefix": true,
       "localOperators": "franchise"
+    },
+    {
+      "brand": "Rotten Robbie",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Robinson Oil Corporation (Robinson family, privately held)",
+      "source": "https://www.cspdailynews.com/top-202-convenience-stores-2020/robinson-oil-corp",
+      "sourceTitle": "CSP — Top 202 convenience stores: Robinson Oil (Rotten Robbie)",
+      "note": "Rotten Robbie is run by Robinson Oil, a fourth-generation family business in Santa Clara, California.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 32.5,
+          "west": -124.5,
+          "north": 42,
+          "east": -114.1
+        }
+      ],
+      "headquarters": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.35,
+        "lng": -121.95
+      },
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "GoMart",
+      "aliases": [
+        "Go-Mart",
+        "Go Mart"
+      ],
+      "type": "corporate",
+      "parent": "GoMart, Inc. (Heater family, privately held)",
+      "source": "https://www.gomart.com/about-gomart",
+      "sourceTitle": "GoMart — about GoMart",
+      "note": "GoMart grew from the Heater family's Gassaway, West Virginia gas station and keeps family-owned values.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 36.5,
+          "west": -83.7,
+          "north": 40.7,
+          "east": -75.2
+        }
+      ],
+      "headquarters": {
+        "city": "Gassaway",
+        "state": "WV",
+        "lat": 38.67,
+        "lng": -80.77
+      },
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Crew Carwash",
+      "aliases": [
+        "Crew Car Wash"
+      ],
+      "type": "corporate",
+      "parent": "Crew Carwash (Dahm family, privately held)",
+      "source": "https://www.carwash.org/car-wash-news/family-owned-crew-carwash-celebrates-75-years",
+      "sourceTitle": "International Carwash Association — family-owned Crew Carwash celebrates 75 years",
+      "note": "Crew Carwash is a multi-generational family business owned by the Dahm family of Indianapolis.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "carwash",
+        "auto"
+      ],
+      "matchBounds": [
+        {
+          "south": 37.8,
+          "west": -88.1,
+          "north": 41.8,
+          "east": -84.8
+        },
+        {
+          "south": 43.5,
+          "west": -97.3,
+          "north": 49.4,
+          "east": -89.5
+        }
+      ],
+      "headquarters": {
+        "city": "Indianapolis",
+        "state": "IN",
+        "lat": 39.77,
+        "lng": -86.16
+      },
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "CC's Coffee House",
+      "aliases": [
+        "CC's Coffee",
+        "CCs Coffee House"
+      ],
+      "type": "corporate",
+      "parent": "CC's Coffee House (Saurage family, privately held)",
+      "source": "https://www.communitycoffee.com/pages/our-story",
+      "sourceTitle": "Community Coffee — our story (Saurage family)",
+      "note": "CC's Coffee House is owned by the Saurage family of Baton Rouge, who also own Community Coffee.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "coffee"
+      ],
+      "matchBounds": [
+        {
+          "south": 28.9,
+          "west": -94.1,
+          "north": 35,
+          "east": -88.1
+        }
+      ],
+      "headquarters": {
+        "city": "Baton Rouge",
+        "state": "LA",
+        "lat": 30.45,
+        "lng": -91.15
+      },
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Texas State Optical",
+      "aliases": [
+        "TSO",
+        "Texas State Optical (TSO)"
+      ],
+      "type": "corporate",
+      "parent": "TSO, Inc. (owned by its franchisee optometrists since 2001)",
+      "source": "https://www.tsoroundrock.com/about-us",
+      "sourceTitle": "Texas State Optical — about us",
+      "note": "Texas State Optical's franchisees bought the company in 2001; each office is an optometrist-owned practice.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "eye"
+      ],
+      "matchBounds": [
+        {
+          "south": 25.8,
+          "west": -106.7,
+          "north": 37,
+          "east": -89.6
+        }
+      ],
+      "localOperators": "franchise",
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Ono Hawaiian BBQ",
+      "aliases": [
+        "Ono Hawaiian Barbecue"
+      ],
+      "type": "corporate",
+      "parent": "S & S Hawaii B.B.Q., LLC (family-owned)",
+      "source": "https://onohawaiianbbq.com/news/real-estate-daily-news-ono-hawaiian-bbq-brings-luau-to-tucson-at-tanque-verde-grant-roads/",
+      "sourceTitle": "Ono Hawaiian BBQ — family-owned fast casual chain",
+      "note": "Ono Hawaiian BBQ describes itself as a family-owned chain.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchBounds": [
+        {
+          "south": 31.3,
+          "west": -124.5,
+          "north": 42,
+          "east": -109
+        }
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Dobbs Tire & Auto Centers",
+      "aliases": [
+        "Dobbs Tire & Auto",
+        "Dobbs Tire",
+        "Conrad's Tire Express & Total Car Care",
+        "Conrad's Tire Express"
+      ],
+      "type": "pe",
+      "parent": "Dobbs Tire & Auto Centers · Audax Private Equity",
+      "source": "https://www.capstonepartners.com/transactions/capstone-partners-advised-conrads-tire-express-total-car-care-to-dobbs-tire-auto-centers-a-portfolio-company-of-audax-private-equity/",
+      "sourceTitle": "Capstone Partners — Conrad's sold to Dobbs Tire, an Audax Private Equity portfolio company (2025)",
+      "note": "Audax Private Equity invested in Dobbs Tire & Auto Centers in 2023; Dobbs bought Ohio's Conrad's Tire Express in 2025.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "auto"
+      ],
+      "matchBounds": [
+        {
+          "south": 35.9,
+          "west": -95.8,
+          "north": 47.1,
+          "east": -80.5
+        }
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Hele",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Par Pacific Holdings, Inc.",
+      "source": "https://ir.parpacific.com/",
+      "sourceTitle": "Par Pacific — investor relations",
+      "note": "Hele stations belong to Par Pacific, listed on the NYSE (PARR).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 18.9,
+          "west": -160.3,
+          "north": 22.3,
+          "east": -154.8
+        }
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Alaska Commercial Company",
+      "aliases": [
+        "AC Value Center",
+        "Alaska Commercial"
+      ],
+      "type": "corporate",
+      "parent": "The North West Company Inc.",
+      "source": "https://www.northwest.ca/investors",
+      "sourceTitle": "The North West Company — investors",
+      "note": "Alaska Commercial Company belongs to The North West Company, listed in Toronto.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "grocery",
+        "general"
+      ],
+      "matchBounds": [
+        {
+          "south": 51,
+          "west": -180,
+          "north": 71.5,
+          "east": -129.9
+        }
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "In-Shape Family Fitness",
+      "aliases": [
+        "In-Shape Fitness",
+        "In-Shape Health Clubs",
+        "In-Shape",
+        "California Family Fitness"
+      ],
+      "type": "pe",
+      "parent": "In-Shape Family Fitness · Perpetual Capital Partners",
+      "source": "https://clubsolutionsmagazine.com/2023/01/perpetual-capital-partners-acquires-in-shape/",
+      "sourceTitle": "Club Solutions — Perpetual Capital Partners acquires In-Shape (2023)",
+      "note": "Private investment firm Perpetual Capital Partners bought In-Shape in 2023 and merged it with California Family Fitness.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "fitness"
+      ],
+      "matchBounds": [
+        {
+          "south": 32.5,
+          "west": -124.5,
+          "north": 42,
+          "east": -114.1
+        }
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Han-Dee Hugo's",
+      "aliases": [
+        "Han Dee Hugo's",
+        "Handee Hugo's"
+      ],
+      "type": "corporate",
+      "parent": "Sampson-Bladen Oil Co. (family-owned)",
+      "source": "https://cspdailynews.com/top-202-convenience-stores-2024/sampson-bladen-oil-cohan-dee-hugos",
+      "sourceTitle": "CSP — Top 202 convenience stores: Sampson-Bladen Oil (Han-Dee Hugo's)",
+      "note": "Han-Dee Hugo's is run by Sampson-Bladen Oil, a family-owned company in Clinton, North Carolina.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 33.8,
+          "west": -84.3,
+          "north": 36.6,
+          "east": -75.4
+        }
+      ],
+      "matchNamePrefix": true,
+      "headquarters": {
+        "city": "Clinton",
+        "state": "NC",
+        "lat": 34.99,
+        "lng": -78.32
+      }
+    },
+    {
+      "brand": "P. Terry's Burger Stand",
+      "aliases": [
+        "P. Terry's",
+        "P Terry's"
+      ],
+      "type": "corporate",
+      "parent": "P. Terry's Burger Stand (Terry family, privately held)",
+      "source": "https://alcalde.texasexes.org/2025/10/how-two-longhorns-built-a-texas-burger-empire",
+      "sourceTitle": "The Alcalde — how Patrick and Kathy Terry built P. Terry's (2025)",
+      "note": "Founders Patrick and Kathy Terry own P. Terry's.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchBounds": [
+        {
+          "south": 25.8,
+          "west": -106.7,
+          "north": 36.6,
+          "east": -93.5
+        }
+      ],
+      "matchNamePrefix": true,
+      "headquarters": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.27,
+        "lng": -97.74
+      }
+    },
+    {
+      "brand": "Speedy Stop",
+      "aliases": [
+        "Speedy Stop Food Stores"
+      ],
+      "type": "corporate",
+      "parent": "C.L. Thomas, Inc. (privately held)",
+      "source": "https://cspdailynews.com/company-news/speedy-stop-buys-61-stores",
+      "sourceTitle": "CSP — Speedy Stop and C.L. Thomas",
+      "note": "Speedy Stop is run by C.L. Thomas, Inc., a privately held company in Victoria, Texas.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "gas",
+        "grocery"
+      ],
+      "matchBounds": [
+        {
+          "south": 25.8,
+          "west": -106.7,
+          "north": 36.6,
+          "east": -93.5
+        }
+      ],
+      "matchNamePrefix": true,
+      "headquarters": {
+        "city": "Victoria",
+        "state": "TX",
+        "lat": 28.8,
+        "lng": -97
+      }
+    },
+    {
+      "brand": "Vista Paint",
+      "aliases": [
+        "Vista Paint Corporation"
+      ],
+      "type": "corporate",
+      "parent": "Vista Paint Corporation (founder-owned, privately held)",
+      "source": "https://pcimag.com/articles/110365-the-2022-pci-25-honorable-mention-vista-paint",
+      "sourceTitle": "PCI — Vista Paint, independently owned",
+      "note": "Vista Paint is one of Southern California's largest independently owned paint companies, still run by its founding family.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home"
+      ],
+      "matchBounds": [
+        {
+          "south": 32.5,
+          "west": -124.5,
+          "north": 42,
+          "east": -114.1
+        }
+      ],
+      "matchNamePrefix": true,
+      "headquarters": {
+        "city": "Fullerton",
+        "state": "CA",
+        "lat": 33.87,
+        "lng": -117.92
+      }
+    },
+    {
+      "brand": "Mazzio's",
+      "aliases": [
+        "Mazzio's Italian Eatery",
+        "Mazzio's Pizza",
+        "Mazzio's Pizza & Wings"
+      ],
+      "type": "corporate",
+      "parent": "Mazzio's, LLC (Selby family, privately held)",
+      "source": "https://www.pmq.com/founder-of-mazzios-kens-pizza-chains-ken-selby-dies/",
+      "sourceTitle": "PMQ — Mazzio's founder Ken Selby and the family business",
+      "note": "Mazzio's is owned by the family of founder Ken Selby; many restaurants are franchised.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchBounds": [
+        {
+          "south": 31,
+          "west": -103,
+          "north": 40,
+          "east": -89.5
+        }
+      ],
+      "matchNamePrefix": true,
+      "headquarters": {
+        "city": "Tulsa",
+        "state": "OK",
+        "lat": 36.15,
+        "lng": -95.99
+      },
+      "localOperators": "franchise"
+    },
+    {
+      "brand": "eegee's",
+      "aliases": [
+        "Eegee's"
+      ],
+      "type": "corporate",
+      "parent": "Eegee Acquisition Corp. (affiliate of Gladstone Capital Corporation, Nasdaq GLAD)",
+      "source": "https://restaurantbusinessonline.com/financing/eegees-emerges-bankruptcy-after-sale-lender-gladstone-capital-corp",
+      "sourceTitle": "Restaurant Business — eegee's emerges from bankruptcy after sale to lender Gladstone Capital (2025)",
+      "note": "An affiliate of its lender, publicly traded Gladstone Capital, bought eegee's out of bankruptcy in 2025.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "restaurant",
+        "coffee"
+      ],
+      "matchBounds": [
+        {
+          "south": 31.3,
+          "west": -114.8,
+          "north": 37,
+          "east": -109
+        }
+      ],
+      "matchNamePrefix": true
     }
   ]
 }

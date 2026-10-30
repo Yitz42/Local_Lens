@@ -397,3 +397,7 @@ test('family-owned regional chains carry a headquarters and stay in their region
  assert.equal(at('Certified Oil','grocery',39.96,-83.0).type,'pe');
  assert.equal(at('Great Lakes Ace','home',42.33,-83.05).brand,'Ace Hardware');
 });
+test('regional batch 2: family chains, sister brands, and Dobbs (Audax)',()=>{
+ const at=(name,category,lat,lng)=>ownershipFor({id:name,name,category,lat,lng});
+ for(const [name,category,lat,lng,brand,type] of [['Rotten Robbie','gas',37.35,-121.95,'Rotten Robbie','corporate'],['GoMart','grocery',38.35,-81.63,'GoMart','corporate'],['Crew Carwash','carwash',39.77,-86.16,'Crew Carwash','corporate'],["CC's Coffee House",'coffee',30.45,-91.15,"CC's Coffee House",'corporate'],['Dobbs Tire & Auto Centers','auto',38.63,-90.2,'Dobbs Tire & Auto Centers','pe'],["Conrad's Tire Express & Total Car Care",'auto',41.5,-81.7,'Dobbs Tire & Auto Centers','pe'],['True Texas BBQ','restaurant',30.27,-97.74,'H-E-B','corporate'],['Empire Visionworks','eye',40.7,-74.0,'Visionworks','corporate'],["Brookshire's Pharmacy",'pharmacy',32.35,-95.3,'Brookshire’s','corporate']]){const o=at(name,category,lat,lng);assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+});
