@@ -654,7 +654,12 @@
         "source": "https://about.att.com/story/2025/dual-listing-nyse-texas.html",
         "sourceTitle": "AT&T — common stock dual listing",
         "checked": "2026-10-25"
-      }
+      },
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Athleta",
@@ -1368,7 +1373,12 @@
         "sourceTitle": "EchoStar — investor profile and Nasdaq equity ticker",
         "checked": "2026-10-25"
       },
-      "localOperators": "dealer"
+      "localOperators": "dealer",
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Boots",
@@ -2740,7 +2750,12 @@
           "url": "https://about.att.com/innovation/ip/brands/history"
         }
       ],
-      "localOperators": "dealer"
+      "localOperators": "dealer",
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Crossroads IGA",
@@ -7018,7 +7033,12 @@
         "sourceTitle": "T-Mobile — February 2026 investor announcement",
         "checked": "2026-10-25"
       },
-      "localOperators": "dealer"
+      "localOperators": "dealer",
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Metro Market",
@@ -10569,7 +10589,12 @@
           "title": "T-Mobile — company stores and authorized retailers",
           "url": "https://www.t-mobile.com/stores/fl"
         }
-      ]
+      ],
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "Taco Bell",
@@ -11208,7 +11233,12 @@
           "title": "Verizon — Total Wireless and former Total by Verizon name",
           "url": "https://www.verizon.com/about/news/total-wireless-launches-bold-new-offers-new-look-outshine-rivals-prepaid-wireless"
         }
-      ]
+      ],
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "TOUS les JOURS",
@@ -11590,7 +11620,12 @@
         "source": "https://www.verizon.com/about/investors/stock-information",
         "sourceTitle": "Verizon — current stock listings and ticker",
         "checked": "2026-10-25"
-      }
+      },
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
     },
     {
       "brand": "VG’s Grocery",
@@ -20045,6 +20080,73 @@
       },
       "matchCategories": [
         "cars"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Xfinity",
+      "aliases": [
+        "Xfinity Store",
+        "Xfinity Store by Comcast",
+        "Comcast Xfinity"
+      ],
+      "type": "corporate",
+      "parent": "Comcast Corporation",
+      "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+      "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+      "note": "Xfinity is Comcast's internet, TV, and mobile brand; Xfinity stores sell and support its service.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Xfinity",
+      "publicListing": {
+        "company": "Comcast Corporation",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "CMCSA"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+        "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "phone",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Spectrum",
+      "aliases": [
+        "Spectrum Store",
+        "Spectrum Mobile"
+      ],
+      "type": "corporate",
+      "parent": "Charter Communications, Inc.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+      "sourceTitle": "Charter Communications — 2025 Form 10-K",
+      "note": "Spectrum is Charter's internet, TV, and mobile brand. The bare name only matches phone and store listings.",
+      "checked": "2026-10-30",
+      "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Spectrum",
+      "publicListing": {
+        "company": "Charter Communications, Inc.",
+        "relationship": "brand_owner",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "CHTR"
+          }
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+        "sourceTitle": "Charter Communications — 2025 Form 10-K",
+        "checked": "2026-10-30"
+      },
+      "matchCategories": [
+        "phone",
+        "other"
       ],
       "matchNamePrefix": true
     }

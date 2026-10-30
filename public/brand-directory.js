@@ -1046,6 +1046,11 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "AT&T — common stock dual listing",
       "checked": "2026-10-25"
     },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -2552,6 +2557,11 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-25"
     },
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -5360,6 +5370,11 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -13082,6 +13097,11 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-25"
     },
     "localOperators": "dealer",
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -18514,6 +18534,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Spectrum",
+    "aliases": [
+      "Spectrum Store",
+      "Spectrum Mobile"
+    ],
+    "type": "corporate",
+    "parent": "Charter Communications, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+    "sourceTitle": "Charter Communications — 2025 Form 10-K",
+    "note": "Spectrum is Charter's internet, TV, and mobile brand. The bare name only matches phone and store listings.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Spectrum",
+    "publicListing": {
+      "company": "Charter Communications, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "CHTR"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1091667/000109166726000017/chtr-20251231.htm",
+      "sourceTitle": "Charter Communications — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Speedway",
     "aliases": [],
     "type": "corporate",
@@ -19559,6 +19615,11 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.t-mobile.com/stores/fl"
       }
     ],
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -20743,6 +20804,11 @@ export const BRAND_DIRECTORY = [
         "url": "https://www.verizon.com/about/news/total-wireless-launches-bold-new-offers-new-look-outshine-rivals-prepaid-wireless"
       }
     ],
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -21500,6 +21566,11 @@ export const BRAND_DIRECTORY = [
       "sourceTitle": "Verizon — current stock listings and ticker",
       "checked": "2026-10-25"
     },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -22643,6 +22714,43 @@ export const BRAND_DIRECTORY = [
     ],
     "matchNamePrefix": true,
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Xfinity",
+    "aliases": [
+      "Xfinity Store",
+      "Xfinity Store by Comcast",
+      "Comcast Xfinity"
+    ],
+    "type": "corporate",
+    "parent": "Comcast Corporation",
+    "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+    "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+    "note": "Xfinity is Comcast's internet, TV, and mobile brand; Xfinity stores sell and support its service.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Xfinity",
+    "publicListing": {
+      "company": "Comcast Corporation",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "CMCSA"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1166691/000162828026004994/cmcsa-20251231.htm",
+      "sourceTitle": "Comcast Corporation — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "phone",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]

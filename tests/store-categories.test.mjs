@@ -260,3 +260,12 @@ test('round 7: car dealers move out of More stores into their own category',asyn
  for(const [name,brand] of [['CarMax','CarMax'],['AutoNation Toyota Hunt Valley','AutoNation'],['AutoNation USA Pikesville','AutoNation'],['Lithia Toyota of Baltimore','Lithia'],['Carvana Car Vending Machine','Carvana']])assert.equal(ownershipFor(p(name,'cars')).brand,brand,name);
  assert.equal(ownershipFor(p('Lithia Springs Diner','restaurant')).type,'unknown');
 });
+test('round 8: phone & internet stores, with wireless brands guarded to store listings',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'mobile_phone_store',...h('shopping','specialty_store','electronics_store','mobile_phone_store')}),'phone');
+ assert.equal(categoryForOverture({basic_category:'mobile_phone_repair',...h('services_and_business','technical_service','it_service_and_computer_repair','mobile_phone_repair')}),'repair','repair shops stay in Repair');
+ assert.equal(categoryFor({shop:'mobile_phone'}),'phone');assert.equal(googleCategory(['cell_phone_store']),'phone');
+ for(const [name,brand] of [['Verizon - Owings Mills','Verizon'],['AT&T Store','AT&T'],['T-Mobile Pikesville','T-Mobile'],['Cricket Wireless Authorized Retailer','Cricket Wireless'],['Xfinity Store by Comcast','Xfinity'],['Spectrum Store','Spectrum']])assert.equal(ownershipFor(p(name,'phone')).brand,brand,name);
+ assert.equal(ownershipFor(p('Cricket Wireless Authorized Retailer','phone')).localOperators,'dealer');
+ assert.equal(ownershipFor(p('Spectrum Pediatrics','clinic')).type,'unknown');assert.equal(ownershipFor(p('Verizon','other')).brand,'Verizon');
+});
