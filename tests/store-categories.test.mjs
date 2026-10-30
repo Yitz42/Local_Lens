@@ -290,3 +290,22 @@ test('round 10: senior living & home care and funeral homes',()=>{
  for(const [name,category,brand] of [['Brookdale Pikesville','senior','Brookdale'],['Home Instead','senior','Home Instead'],['Ruck Funeral Home - Dignity Memorial','funeral','Dignity Memorial'],['Neptune Society','funeral','Dignity Memorial'],['Sharonda Benson: Allstate Insurance','realestate','Allstate']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
  assert.equal(ownershipFor(p('Allstate Leasing','cars')).type,'unknown','Allstate only matches insurance and real estate listings');
 });
+test('hospitals: category and facility-level tracker matches',()=>{
+ const h=(basic,name,...terms)=>({basic_category:basic,'@name':name,taxonomy:JSON.stringify({primary:basic,hierarchy:terms})});
+ assert.equal(categoryForOverture(h('hospital','National Park Medical Center','health_care','hospital')),'hospital');
+ assert.equal(categoryForOverture(h('outpatient_care_facility','Mercy Hospital Hot Springs','health_care','outpatient_care_facility')),'hospital');
+ for(const name of ['MedExpress Urgent Care','Hayder Abbood, MD','Mercy Hospital Parking Department','University of Maryland Hospital Pediatrics','Hot Springs National Park Hospital Holdings Llc','Vanderbilt Children\'s Hospital Ambulance Entrance','Center for Cognitive Medicine at Vanderbilt University Medical Center'])assert.notEqual(categoryForOverture(h('hospital',name,'health_care','hospital')),'hospital',name);
+ assert.equal(categoryForOverture(h('diagnostics_imaging_or_lab_service','Ascension Saint Agnes Hospital Diabetes Care','health_care','outpatient_care_facility')),null);
+ assert.equal(categoryFor({amenity:'hospital'}),'hospital');assert.equal(googleCategory(['hospital']),'hospital');assert.ok(PLACE_CATEGORIES.includes('hospital'));
+ const hot={lat:34.48,lng:-93.06};
+ const npmc=ownershipFor({id:'a',name:'National Park Medical Center',category:'hospital',addressCity:'Hot Springs',...hot});
+ assert.equal(npmc.type,'pe');assert.match(npmc.parent,/Lifepoint Health · Apollo/);assert.equal(npmc.matchLevel,'facility');
+ assert.equal(ownershipFor({id:'b',name:'National Park Medical Center',category:'hospital',address:'1910 Malvern Ave, Hot Springs, AR 71901, USA',addressCity:'',...hot}).type,'pe','Google formatted address');
+ assert.equal(ownershipFor({id:'c',name:'National Park Medical Center',category:'hospital',addressCity:'Little Rock',...hot}).type,'unknown','city must agree');
+ assert.equal(ownershipFor({id:'d',name:'National Park Medical Center',category:'clinic',addressCity:'Hot Springs',...hot}).type,'unknown','only hospital listings use the tracker');
+ assert.equal(ownershipFor({id:'e',name:'Sinai Hospital of Baltimore',category:'hospital',addressCity:'Baltimore',lat:39.35,lng:-76.66}).type,'unknown','nonprofit hospitals stay unknown');
+});
+test('PE employer tracker leads: verified storefront brands',()=>{
+ for(const [name,category,brand,type] of [['Extended Stay America Suites - Baltimore - BWI Airport','hotel','Extended Stay America','pe'],['Topgolf Baltimore','fun','Topgolf','pe'],['Bright Now! Dental','dental','Bright Now! Dental','pe'],['Athletico Physical Therapy - Towson','therapy','Athletico Physical Therapy','pe'],['La Petite Academy of Owings Mills','childcare','La Petite Academy','pe'],['SEA LIFE Michigan Aquarium','fun','SEA LIFE','pe'],['Pret A Manger','coffee','Pret A Manger','corporate'],['Interim HealthCare of Baltimore','senior','Interim HealthCare','pe']]){const o=ownershipFor(p(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+ assert.equal(ownershipFor(p('LEGO Store','other')).brand===undefined||ownershipFor(p('LEGO Store','other')).brand!=='LEGOLAND Discovery Center',true);
+});

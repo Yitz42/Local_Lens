@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='senior-funeral-v1';
+export const PLACE_FORMAT='hospitals-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -60,6 +60,9 @@ export function categoryForOverture(properties){
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';
+ // Hospitals. Overture's hospital label also covers many doctors' offices and departments, so the name must read
+ // as a hospital or medical center, and offices, departments, and support services inside hospitals stay out.
+ if([properties.basic_category,parse(properties.taxonomy,{}).primary].some(t=>/^(hospital|general_hospital|childrens_hospital|psychiatric_hospital|rehabilitation_hospital|specialty_hospital|health_care|outpatient_care_facility|behavioral_or_mental_health_clinic)$/.test(t))&&/\b(hospitals?|medical cent(er|re)|med ctr|infirmary|shock trauma center)\b/i.test(properties['@name']||'')&&!/\b(animal|pet|veterinary|parking|pharmacy|atm|office|building|foundation|auxiliary|gift|cafeteria|clinic|associates|physicians?|group|lab|laboratory|imaging|radiology|ems|liaison|services|holdings|information|wellness|outpatient|out patient|wound|cardiology|neurology|oncology|pediatrics|obgyn|department|div|division|nuclear|pavilion|md|dds|pharmacies|care|unit|floor|entrance|rad|delivery)\b/i.test(properties['@name']||'')&&!/^(center|centre|institute) for\b/i.test(properties['@name']||''))return 'hospital';
  // Physical, occupational, and speech therapy and chiropractic; addiction treatment and prosthetics stay out.
  if(!terms.some(t=>/^(addiction_rehabilitation_center|prosthetics|orthotics)$/.test(t))&&terms.some(t=>/^(physical_therapy|physical_medicine_and_rehabilitation|occupational_therapy|speech_therapy|rehabilitation_center|chiropractic|chiropractor)$/.test(t)))return 'therapy';
  if(terms.some(t=>/^(dental_clinic|dentist|general_dentistry|orthodontics|orthodontist|pediatric_dentistry|cosmetic_dentistry|endodontics|periodontics|prosthodontics|oral_surgeon|oral_and_maxillofacial_surgery)$/.test(t)))return 'dental';

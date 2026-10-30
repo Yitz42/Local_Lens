@@ -5,9 +5,9 @@ export const FIRM_CATALOG = {
   "snapshot": "https://en.wikipedia.org/w/index.php?title=List_of_private_equity_firms&oldid=1380031888",
   "catalogChecked": "2026-10-26",
   "coverage": "The Wikipedia seed is a research queue, not proof of current ownership. Reviewed records contain selected sourced investments and mapped brand affiliations; they are not complete portfolios.",
-  "reviewedCount": 54,
-  "firmCount": 302,
-  "holdingCount": 144,
+  "reviewedCount": 56,
+  "firmCount": 304,
+  "holdingCount": 146,
   "firms": [
     {
       "firm": "3G Capital",
@@ -206,7 +206,50 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Childtime",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Everbrook Academy",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "La Petite Academy",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Montessori Unlimited",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "The Children's Courtyard",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Tutor Time",
+          "parent": "Learning Care Group · American Securities",
+          "type": "pe",
+          "source": "https://www.american-securities.com/companies/learning-care/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Ames Watson",
@@ -341,7 +384,15 @@ export const FIRM_CATALOG = {
           "note": "Marked Current, investment year 2026; digital infrastructure events platform."
         }
       ],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Cadence Academy",
+          "parent": "Cadence Education · Apax Partners",
+          "type": "pe",
+          "source": "https://www.morganstanley.com/im/en-us/individual-investor/insights/press-release/apax-partners-acquires-cadence-education-from-capital-partners.html",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Apollo Global Management",
@@ -718,6 +769,13 @@ export const FIRM_CATALOG = {
       ],
       "mappedBrands": [
         {
+          "brand": "Athletico Physical Therapy",
+          "parent": "Athletico · BDT Capital Partners",
+          "type": "pe",
+          "source": "https://www.prnewswire.com/news-releases/athletico-physical-therapy-welcomes-growth-investment-from-bdt-capital-partners-llc-300363577.html",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Culligan",
           "parent": "Culligan International · BDT & MSD Partners",
           "type": "pe",
@@ -826,11 +884,46 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-16"
         },
         {
+          "brand": "Extended Stay America",
+          "parent": "Extended Stay America · Blackstone & Starwood Capital",
+          "type": "pe",
+          "source": "https://www.blackstone.com/news/press/the-blackstone-group-completes-acquisition-of-extended-stay-america-inc/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Great Wolf Lodge",
+          "parent": "Great Wolf Resorts · Blackstone & Centerbridge",
+          "type": "pe",
+          "source": "https://blackstone.com/news/press/blackstone-to-acquire-65-controlling-interest-in-great-wolf-resorts-and-form-new-2-9-billion-joint-venture-with-centerbridge-partners",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Jersey Mike's Subs",
           "parent": "Jersey Mike’s Subs Inc. · Blackstone investment",
           "type": "pe",
           "source": "https://www.sec.gov/Archives/edgar/data/2127043/000212704326000010/jmke-20260628.htm",
           "checked": "2026-10-15"
+        },
+        {
+          "brand": "LEGOLAND Discovery Center",
+          "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+          "type": "pe",
+          "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Madame Tussauds",
+          "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+          "type": "pe",
+          "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "SEA LIFE",
+          "parent": "Merlin Entertainments · KIRKBI (50%), Blackstone & CPP Investments (50%)",
+          "type": "pe",
+          "source": "https://www.cppinvestments.com/wp-content/uploads/migrated/documents/2051/KIRKBI-Blackstone_Press_Release_EN_fiDTxn5.pdf",
+          "checked": "2026-10-30"
         },
         {
           "brand": "Tropical Smoothie Cafe",
@@ -1264,7 +1357,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Great Wolf Lodge",
+          "parent": "Great Wolf Resorts · Blackstone & Centerbridge",
+          "type": "pe",
+          "source": "https://blackstone.com/news/press/blackstone-to-acquire-65-controlling-interest-in-great-wolf-resorts-and-form-new-2-9-billion-joint-venture-with-centerbridge-partners",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Centurium Capital",
@@ -2556,6 +2657,13 @@ export const FIRM_CATALOG = {
       "holdings": [],
       "mappedBrands": [
         {
+          "brand": "Express Oil Change & Tire Engineers",
+          "parent": "Express Oil Change · Golden Gate Capital (combined with Mavis)",
+          "type": "pe",
+          "source": "https://goldengatecap.com/golden-gate-capital-acquires-express-oil-change-tire-engineers/",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "PacSun",
           "parent": "PSEB · Golden Gate Capital",
           "type": "pe",
@@ -2624,6 +2732,50 @@ export const FIRM_CATALOG = {
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
       "mappedBrands": []
+    },
+    {
+      "firm": "Gryphon Investors",
+      "aliases": [],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-30",
+      "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+      "notes": "Selected current storefront investment only. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Smile Brands",
+          "relationship": "Current portfolio investment",
+          "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+          "sourceTitle": "Gryphon Investors — Smile Brands (current investment)",
+          "note": "Smile Brands provides business support to Bright Now! Dental, Monarch Dental, and Castle Dental offices run by affiliated dental groups.",
+          "checked": "2026-10-30"
+        }
+      ],
+      "mappedBrands": [
+        {
+          "brand": "Bright Now! Dental",
+          "parent": "Smile Brands · Gryphon Investors",
+          "type": "pe",
+          "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Castle Dental",
+          "parent": "Smile Brands · Gryphon Investors",
+          "type": "pe",
+          "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+          "checked": "2026-10-30"
+        },
+        {
+          "brand": "Monarch Dental",
+          "parent": "Smile Brands · Gryphon Investors",
+          "type": "pe",
+          "source": "https://www.gryphon-inv.com/companies/smile-brands-inc/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "GTCR",
@@ -3627,6 +3779,13 @@ export const FIRM_CATALOG = {
           "checked": "2026-10-15"
         },
         {
+          "brand": "Topgolf",
+          "parent": "Topgolf · Leonard Green & Partners (60%), Callaway (40%)",
+          "type": "pe",
+          "source": "https://www.ropesgray.com/en/news-and-events/news/2026/01/leonard-green-partners-acquire-majority-stake-in-topgolf-business-from-topgolf-callaway",
+          "checked": "2026-10-30"
+        },
+        {
           "brand": "Velvet Taco",
           "parent": "Velvet Taco · Leonard Green & Partners growth equity",
           "type": "pe",
@@ -3696,6 +3855,13 @@ export const FIRM_CATALOG = {
           "type": "pe",
           "source": "https://www.llcp.com/levine-leichtman-capital-partners-and-management-acquire-shipley-do-nuts/",
           "checked": "2026-10-16"
+        },
+        {
+          "brand": "SYNERGY HomeCare",
+          "parent": "SYNERGY HomeCare Franchising · Levine Leichtman Capital Partners",
+          "type": "pe",
+          "source": "https://homehealthcarenews.com/2025/01/llcp-acquires-synergy-homecare-poised-for-growth/",
+          "checked": "2026-10-30"
         }
       ]
     },
@@ -6314,6 +6480,38 @@ export const FIRM_CATALOG = {
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
       "mappedBrands": []
+    },
+    {
+      "firm": "Wellspring Capital Management",
+      "aliases": [
+        "Wellspring Capital"
+      ],
+      "region": "Supplemental",
+      "listedInWikipedia": false,
+      "wikipedia": null,
+      "status": "partial",
+      "checked": "2026-10-30",
+      "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+      "notes": "Selected storefront investment only. This is not a complete portfolio review.",
+      "holdings": [
+        {
+          "company": "Caring Brands International (Interim HealthCare)",
+          "relationship": "Acquired October 2021",
+          "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+          "sourceTitle": "Home Health Care News — Wellspring acquires Interim HealthCare parent (October 2021)",
+          "note": "Interim HealthCare offices are mostly independently owned franchises.",
+          "checked": "2026-10-30"
+        }
+      ],
+      "mappedBrands": [
+        {
+          "brand": "Interim HealthCare",
+          "parent": "Caring Brands International · Wellspring Capital Management",
+          "type": "pe",
+          "source": "https://homehealthcarenews.com/2021/10/wellspring-capital-management-acquires-interim-healthcare-parent-company-caring-brands-international/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Welsh, Carson, Anderson & Stowe",
