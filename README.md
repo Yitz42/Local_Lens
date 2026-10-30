@@ -2,6 +2,9 @@
 
 A responsive map app for discovering restaurants, groceries, gas stations, coffee shops, and other stores. Use geolocation, enter a location, or pan the map and search again. Hide private-equity-backed brands, corporate brands (including every reviewed public company), and unverified places independently. Open a place for the parent company, supporting source, scope, and review date. Saved places and filters stay in localStorage on the current browser.
 
+
+**Status: prototype.** Local Lens is a one-person proof of concept showing that a map of who owns local businesses is possible and useful. The ownership data is researched and sourced but incomplete, and it needs ongoing maintenance that a single person can't provide. [docs/HANDOFF.md](docs/HANDOFF.md) explains what works, how it is built, and what a real version would need. The code is [MIT licensed](LICENSE) and the ownership data is [CC BY 4.0](LICENSE-DATA.md), so others are welcome to build on it.
+
 ## Brand directory
 
 Browse `/directory.html` for the searchable corporate and private equity brand list. Search by brand, spelling variation, or parent company; filter by ownership type; download CSV or JSON. The same reviewed records power the map filters. The full source-linked list is in [docs/BRANDS.md](docs/BRANDS.md). [Wikipedia research additions](docs/WIKIPEDIA_ADDITIONS.md) retain the discovery references alongside current ownership sources. Wikipedia links are also included in the app cards and downloads when available. The [grocery and restaurant list review](docs/CHAIN_LIST_REVIEW.md), [gas, coffee, and retail review](docs/GAS_AND_RETAIL_REVIEW.md), and [store category review](docs/STORE_CATEGORY_REVIEW.md) record the latest additions, coverage, and ownership cautions.
@@ -47,6 +50,10 @@ This repository mirrors the app source. The tracked `.openai/hosting.json` ident
 `npm run pages` builds a static copy of the site in `dist/pages`. GitHub Pages has no `/api/places` route, so that build adds a `local-lens-places` meta tag and bundles `worker/overture.js` as `overture-browser.js`; the map then reads Overture's PMTiles archive directly from the browser (the S3 bucket allows cross-origin range requests). The brand list, firm pages, example snapshot, location search, and Google connection work the same way. The Site build is unchanged and still uses its Worker.
 
 `.github/workflows/pages.yml` runs the tests, builds `dist/pages`, and deploys it on every push to `main` (or from **Actions → Deploy to GitHub Pages → Run workflow**). To turn it on once, open the repository's **Settings → Pages** and set **Source** to **GitHub Actions**. Until that is done, GitHub's own "pages build and deployment" publish also runs on each push and replaces the app with the repository files, so the workflow also runs after that publish (`workflow_run`) and puts the app back. The site is then published at `https://<owner>.github.io/<repository>/`. If you use a Google Maps key there, add that address to the key's website restrictions; the connection page shows the exact value.
+
+## License
+
+Code: [MIT](LICENSE). Researched ownership data (brand and firm directories, kosher listings, research notes): [CC BY 4.0](LICENSE-DATA.md). Map data and third-party libraries keep their own licenses, listed below.
 
 ## Attribution
 
