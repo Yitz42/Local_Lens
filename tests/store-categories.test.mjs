@@ -269,3 +269,13 @@ test('round 8: phone & internet stores, with wireless brands guarded to store li
  assert.equal(ownershipFor(p('Cricket Wireless Authorized Retailer','phone')).localOperators,'dealer');
  assert.equal(ownershipFor(p('Spectrum Pediatrics','clinic')).type,'unknown');assert.equal(ownershipFor(p('Verizon','other')).brand,'Verizon');
 });
+test('round 9: physical therapy & chiropractic, with Select Medical now private equity owned',()=>{
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'physical_therapy',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','physical_therapy')}),'therapy');
+ assert.equal(categoryForOverture({basic_category:'chiropractic',...h('health_care','outpatient_care_facility','complementary_and_alternative_medicine','chiropractic')}),'therapy');
+ assert.equal(categoryForOverture({basic_category:'addiction_rehabilitation_center',...h('health_care','outpatient_care_facility','physical_medicine_and_rehabilitation','rehabilitation_center','addiction_rehabilitation_center')}),null);
+ assert.equal(categoryFor({healthcare:'physiotherapist'}),'therapy');assert.equal(googleCategory(['chiropractor']),'therapy');
+ for(const [name,brand,type] of [['Select Physical Therapy - Owings Mills','Select Physical Therapy','pe'],['NovaCare Rehabilitation','Select Physical Therapy','pe'],['ATI Physical Therapy','ATI Physical Therapy','pe'],['The Joint Chiropractic','The Joint Chiropractic','corporate'],['Ivy Rehab Physical Therapy','Ivy Rehab','pe']])assert.deepEqual([ownershipFor(p(name,'therapy')).brand,ownershipFor(p(name,'therapy')).type],[brand,type],name);
+ assert.equal(ownershipFor(p('The Joint Chiropractic','therapy')).localOperators,'franchise');
+ assert.equal(ownershipFor(p('The Joint Bar & Grill','bar')).type,'unknown');
+});

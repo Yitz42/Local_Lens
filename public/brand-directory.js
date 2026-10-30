@@ -1069,6 +1069,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "ATI Physical Therapy",
+    "aliases": [
+      "ATI"
+    ],
+    "type": "pe",
+    "parent": "ATI Physical Therapy · Knighthead Capital and Marathon Asset Management",
+    "source": "https://www.prnewswire.com/news-releases/ati-physical-therapy-goes-private-302519673.html",
+    "sourceTitle": "PR Newswire — ATI Physical Therapy goes private (2025)",
+    "note": "A consortium led by investment firms Knighthead Capital Management and Marathon Asset Management took ATI private in August 2025. The short name ATI only matches therapy listings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=ATI%20Physical%20Therapy",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "ATI Restoration",
     "aliases": [
       "ATI Restoration"
@@ -10170,6 +10190,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Ivy Rehab",
+    "aliases": [
+      "Ivy Rehab Physical Therapy",
+      "Ivy Physical Therapy"
+    ],
+    "type": "pe",
+    "parent": "Ivy Rehab Network (Ivy Health) · Waud Capital Partners",
+    "source": "https://healthcare.levinassociates.com/2023/09/22/ivy-rehab-expands-in-illinois-with-ptsir-deal/",
+    "sourceTitle": "LevinPro Healthcare M&A — Ivy Rehab, a Waud Capital Partners portfolio company (2023)",
+    "note": "Ivy Rehab is a portfolio company of private equity firm Waud Capital Partners; its parent is now called Ivy Health.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Ivy%20Rehab",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "J. Alexander's",
     "aliases": [
       "J Alexanders",
@@ -17650,6 +17691,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Select Physical Therapy",
+    "aliases": [
+      "NovaCare Rehabilitation",
+      "NovaCare",
+      "Physiotherapy Associates"
+    ],
+    "type": "pe",
+    "parent": "Select Medical · founders and Welsh, Carson, Anderson & Stowe",
+    "source": "https://www.selectmedical.com/media-center/news-and-articles/news/select-medical-holdings-corporation-to-be-acquired-by-consortium-led-by-ortenzio-jackson-and-wcas/",
+    "sourceTitle": "Select Medical — to be acquired by consortium led by Ortenzio, Jackson, and WCAS (2026)",
+    "note": "A consortium of Select Medical's founders and private equity firm WCAS took the company private on July 1, 2026, ending its NYSE listing. Select runs about 1,900 outpatient therapy clinics under several names.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Select%20Medical",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "sponsors": [
+      "Welsh, Carson, Anderson & Stowe"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Sephora",
     "aliases": [
       "Sephora at Kohl's"
@@ -20191,6 +20257,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Joint Chiropractic",
+    "aliases": [
+      "The Joint",
+      "The Joint Chiropractic Clinic"
+    ],
+    "type": "corporate",
+    "parent": "The Joint Corp.",
+    "source": "https://www.globenewswire.com/news-release/2026/05/07/3290591/32957/en/the-joint-corp-reports-first-quarter-2026-financial-results.html",
+    "sourceTitle": "GlobeNewswire — The Joint Corp. first-quarter 2026 results",
+    "note": "868 of The Joint's 943 clinics were franchised as of March 31, 2026, and it is selling its remaining company clinics to franchisees.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=The%20Joint%20Chiropractic",
+    "publicListing": {
+      "company": "The Joint Corp.",
+      "relationship": "self",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "Nasdaq",
+          "ticker": "JYNT"
+        }
+      ],
+      "source": "https://www.globenewswire.com/news-release/2026/05/07/3290591/32957/en/the-joint-corp-reports-first-quarter-2026-financial-results.html",
+      "sourceTitle": "GlobeNewswire — The Joint Corp. first-quarter 2026 results",
+      "checked": "2026-10-30"
+    },
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "The Learning Experience",
     "aliases": [
       "Learning Experience",
@@ -21307,6 +21409,26 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Upstream Rehabilitation",
+    "aliases": [
+      "Upstream Physical Therapy"
+    ],
+    "type": "pe",
+    "parent": "Upstream Rehabilitation · Revelstoke Capital Partners",
+    "source": "https://revelstokecapital.com/news/revelstoke-capital-partners-completes-investment-in-upstream-rehabilitation-inc/",
+    "sourceTitle": "Revelstoke Capital Partners — completes investment in Upstream Rehabilitation",
+    "note": "Upstream is backed by private equity firm Revelstoke Capital Partners. Many of its clinics keep local practice names and are not matched by this name.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Upstream%20Rehabilitation",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "therapy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
