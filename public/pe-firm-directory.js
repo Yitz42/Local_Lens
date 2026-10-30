@@ -936,7 +936,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Affordable Dentures & Implants",
+          "parent": "Affordable Care, LLC · Berkshire Partners",
+          "type": "pe",
+          "source": "https://ropesgray.com/en/newsroom/news/2019/03/Ropes-Gray-Represents-Berkshire-Partners-and-Affordable-Care-LLC-in-the-Acquisition-of-DDS-Dentures",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "BGH Capital",
@@ -4656,7 +4664,15 @@ export const FIRM_CATALOG = {
       "source": null,
       "notes": "Current portfolio research has not been recorded for this firm.",
       "holdings": [],
-      "mappedBrands": []
+      "mappedBrands": [
+        {
+          "brand": "Western Dental",
+          "parent": "Sonrava Health · New Mountain Capital",
+          "type": "pe",
+          "source": "https://pestakeholder.org/news/private-equity-health-care-acquisitions-october-2021/",
+          "checked": "2026-10-30"
+        }
+      ]
     },
     {
       "firm": "Nordic Capital",
