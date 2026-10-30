@@ -1,5 +1,5 @@
-import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261030-details1';
-import {storeTypeFromTerms} from './store-types.js?v=20261030-details1';
+import {foodTypesFromTerms,foodTypeLabel} from './food-types.js?v=20261030-googlemore1';
+import {storeTypeFromTerms} from './store-types.js?v=20261030-googlemore1';
 
 export const GOOGLE_KEY_STORAGE='local-lens-google-browser-key-v1';
 export const GOOGLE_SAVED_STORAGE='local-lens-google-saved-ids-v1';
@@ -66,12 +66,31 @@ const TEXT_SEARCH_SUFFIX={restaurant:' restaurant',grocery:' grocery store',coff
 const NOT_A_BUSINESS=['library','school','primary_school','secondary_school','university','post_office','local_government_office','city_hall','courthouse','embassy','courier_service'];
 function areaBounds(origin,radius){const lat=radius/111320,lng=radius/(111320*Math.cos(origin.lat*Math.PI/180));return {south:origin.lat-lat,west:origin.lng-lng,north:origin.lat+lat,east:origin.lng+lng};}
 function metersBetween(a,b){const r=Math.PI/180,h=Math.sin((b.lat-a.lat)*r/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin((b.lng-a.lng)*r/2)**2;return 12742000*Math.asin(Math.sqrt(h));}
+async function nearbyPlaces(Place,center,radius,types){
+ const response=await Place.searchNearby({fields:GOOGLE_FIELDS,locationRestriction:{center,radius},includedTypes:types,maxResultCount:20,rankPreference:'DISTANCE'});
+ return (response.places||[]).map(normalizeGooglePlace).filter(Boolean);
+}
+// Six overlapping circles around the search center, each half the search radius. Together with the first search they
+// cover the whole area, so a dense area can return up to about seven times as many places.
+export function ringCenters(origin,radius,count=6){
+ const distance=radius*0.6,lat=distance/111320,lng=distance/(111320*Math.cos(origin.lat*Math.PI/180));
+ return Array.from({length:count},(_,i)=>{const angle=2*Math.PI*i/count;return {lat:origin.lat+lat*Math.sin(angle),lng:origin.lng+lng*Math.cos(angle)};});
+}
+export function expandRequestCount(category='all',foodTypes=[]){return ringCenters({lat:0,lng:0},1).length*googleSearchGroups(category,foodTypes).length;}
+// Runs only when someone asks for more: the same category searches again, from each ring circle.
+export async function expandGooglePlaces(Place,origin,radius,category='all',foodTypes=[],onProgress=()=>{}){
+ const groups=googleSearchGroups(category,foodTypes),centers=ringCenters(origin,radius),unique=new Map(),total=groups.length*centers.length;let done=0;
+ for(const center of centers)for(const types of groups){
+  for(const place of await nearbyPlaces(Place,center,radius*0.5,types))if(metersBetween(origin,place)<=radius)unique.set(place.id,place);
+  onProgress(++done,total);
+ }
+ return {places:[...unique.values()],fetchedAt:new Date().toISOString(),source:'Google Maps',limited:true};
+}
 export async function searchGooglePlaces(Place,origin,radius,category='all',foodTypes=[],onProgress=()=>{}){
  const groups=googleSearchGroups(category,foodTypes),textSearches=foodTypes.filter(id=>TEXT_SEARCH_DIETS.includes(id)),categorySearches=CATEGORY_TEXT_SEARCHES[category]||[],unique=new Map();let done=0;const total=groups.length+textSearches.length+categorySearches.length;
  // A small fixed set of requests, never a grid crawl. Nearby Search caps each request at 20 results.
  for(const types of groups){
-  const response=await Place.searchNearby({fields:GOOGLE_FIELDS,locationRestriction:{center:origin,radius},includedTypes:types,maxResultCount:20,rankPreference:'DISTANCE'});
-  for(const raw of response.places||[]){const place=normalizeGooglePlace(raw);if(place)unique.set(place.id,place);}
+  for(const place of await nearbyPlaces(Place,origin,radius,types))unique.set(place.id,place);
   onProgress(++done,total);
  }
  // Google has no kosher or halal place type, so a text search finds places it associates with that food.

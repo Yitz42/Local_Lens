@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {categoryForOverture} from '../worker/overture.js';
 import {googleCategory,googleSearchGroups} from '../public/google-places.js';
 import {CATEGORIES,categoryFor,filterPlaces,ownershipFor,fromOSM} from '../public/ownership.js';
-import {GOOGLE_TYPES} from '../public/google-places.js';
+import {GOOGLE_TYPES,ringCenters,expandGooglePlaces,expandRequestCount,googleSearchGroups as groupsForExpand} from '../public/google-places.js';
 const GOOGLE_TYPES_GROCERY=GOOGLE_TYPES.grocery;
 import {excludedBrandNameMatch} from '../public/name-filters.js';
 import {PLACE_CATEGORIES} from '../public/brand-scope.js';
@@ -415,4 +415,19 @@ test('short listing names match their brands only in the right category or regio
  const at=(name,category,lat=40,lng=-75)=>ownershipFor({name,category,lat,lng});
  for(const [name,category,brand,lat,lng] of [['Giant Food Stores','grocery','GIANT',40.27,-76.88],['Fairfield','hotel','Marriott'],['Holiday Station','gas','Holiday Stationstores'],['Ashley Furniture','home','Ashley HomeStore'],['Phillips','gas','Phillips 66'],["Stewart's",'gas','Stewart’s Shops',43.08,-73.78],['Caliber','auto','Caliber Collision'],["BJ's",'restaurant',"BJ's Restaurant & Brewhouse"],['Bonanza','restaurant','Bonanza Steakhouse'],['Extended Stay','hotel','Extended Stay America']])assert.equal(at(name,category,lat,lng).brand,brand,name);
  for(const [name,category,lat,lng] of [['Fairfield','restaurant'],['Compass','fitness'],['Caliber','restaurant'],['Bonanza','other'],["Stewart's",'gas',30.3,-97.7]])assert.equal(at(name,category,lat,lng).type,'unknown',name+' in '+category);
+});
+
+test('Load more from Google searches six ring circles and keeps only places inside the search radius',async()=>{
+ const origin={lat:39.3,lng:-76.6},radius=3219,centers=ringCenters(origin,radius);
+ assert.equal(centers.length,6);
+ const meters=(a,b)=>{const r=Math.PI/180,h=Math.sin((b.lat-a.lat)*r/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin((b.lng-a.lng)*r/2)**2;return 12742000*Math.asin(Math.sqrt(h));};
+ for(const c of centers)assert.ok(Math.abs(meters(origin,c)-radius*0.6)<5,'ring centers sit at 60% of the radius');
+ const calls=[];let n=0;
+ const Place={searchNearby:async request=>{calls.push(request);const c=request.locationRestriction.center;const far={lat:c.lat+0.05,lng:c.lng};
+  return {places:[{id:'p'+(n++),displayName:'Corner Deli',location:{lat:()=>c.lat,lng:()=>c.lng},primaryType:'restaurant',types:['restaurant']},{id:'far'+(n++),displayName:'Far Deli',location:{lat:()=>far.lat,lng:()=>far.lng},primaryType:'restaurant',types:['restaurant']}]};}};
+ const result=await expandGooglePlaces(Place,origin,radius,'restaurant',[]);
+ assert.equal(calls.length,expandRequestCount('restaurant',[]));
+ assert.equal(calls.length,6*groupsForExpand('restaurant',[]).length);
+ assert.ok(calls.every(r=>r.locationRestriction.radius===radius*0.5&&r.maxResultCount===20));
+ assert.ok(result.places.length>0&&result.places.every(p=>meters(origin,p)<=radius),'places outside the search radius are dropped');
 });
