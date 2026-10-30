@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='childcare-v1';
+export const PLACE_FORMAT='storage-money-v2';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -45,6 +45,10 @@ export function categoryForOverture(properties){
  if(terms.some(t=>/^(movie_theater|cinema|drive_in_theater|bowling_alley|arcade|escape_room|amusement_park|trampoline_park|mini_golf|mini_golf_course|laser_tag|go_kart_track|family_entertainment_center)$/.test(t)))return 'fun';
  // Day care, preschool, and tutoring. Schools and colleges stay out.
  if(terms.some(t=>/^(child_care_and_day_care|day_care_preschool|preschool|tutoring_service|test_preparation)$/.test(t)))return 'childcare';
+ // Self storage and vehicle rental; parcel lockers and warehouses stay out.
+ if(terms.some(t=>/^(self_storage_facility|truck_rental_service|car_rental_service)$/.test(t)))return 'storage';
+ // Coin and Bitcoin kiosks and ATMs are machines, not businesses.
+ if(terms.some(t=>/^(tax_service|tax_preparation|money_transfer_service|check_cashing_payday_loans|currency_exchange)$/.test(t)))return /\b(kiosk|atm)\b/i.test(properties['@name']||'')?null:'money';
  // Hotels and inns. Vacation rentals, campgrounds, 'lodge' (mostly fraternal lodges), and the bare 'lodging'
  // label (often event companies) stay out.
  if(terms.some(t=>/^(hotel|motel|resort|inn|bed_and_breakfast|hostel|guest_house|extended_stay_hotel)$/.test(t)))return 'hotel';

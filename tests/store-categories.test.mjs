@@ -225,3 +225,17 @@ test('round 4: child care and tutoring, with leading-name matching for school ch
  assert.equal(kiddie.headquarters.city,'Abingdon');assert.equal(kiddie.localOperators,'franchise');
  assert.equal(ownershipFor(p('Primrose Garden Center','home')).type,'unknown');
 });
+test('round 5: storage & rentals and tax & money services',async()=>{
+ const {googleSearchGroups}=await import('../public/google-places.js');
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'self_storage_facility',...h('services_and_business','storage_facility','self_storage_facility')}),'storage');
+ assert.equal(categoryForOverture({basic_category:'truck_rental_service',...h('services_and_business','rental_service','vehicle_rental_service','truck_rental_service')}),'storage');
+ assert.equal(categoryForOverture({basic_category:'package_locker',...h('services_and_business','storage_facility','package_locker')}),null,'parcel lockers stay out');
+ assert.equal(categoryForOverture({basic_category:'tax_service',...h('services_and_business','financial_service','tax_service')}),'money');
+ assert.equal(categoryForOverture({'@name':'Coinstar Kiosk - Bitcoin ATM',basic_category:'money_transfer_service',...h('services_and_business','financial_service','money_transfer_service')}),null,'kiosks are not businesses');
+ assert.equal(categoryFor({shop:'storage_rental'}),'storage');assert.equal(categoryFor({amenity:'money_transfer'}),'money');
+ assert.deepEqual(googleSearchGroups('storage'),[['storage','car_rental']]);assert.deepEqual(googleSearchGroups('money'),[]);
+ for(const [name,category,brand] of [['Public Storage','storage','Public Storage'],['Life Storage','storage','Extra Space Storage'],['U-Haul Moving & Storage of Owings Mills','storage','U-Haul'],['Enterprise Rent-A-Car','storage','Enterprise Rent-A-Car'],['H&R Block','money','H&R Block'],['Jackson Hewitt Tax Service','money','Jackson Hewitt'],['Western Union','money','Western Union']])assert.equal(ownershipFor(p(name,category)).brand,brand,name);
+ assert.equal(ownershipFor(p('U-Haul Neighborhood Dealer','storage')).localOperators,'dealer');
+ assert.equal(CATEGORIES.find(c=>c.id==='clinic').name,'Doctors & urgent care');
+});

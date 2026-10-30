@@ -153,6 +153,39 @@ Pet stores stay in More stores. The text searches run only when that category is
 
 Existing brands without a category guard, such as Staples, Office Depot, Petco, PetSmart, Thrive Pet Healthcare, and Batteries Plus, also match in these categories.
 
+## Five more rounds: health, hotels, fun, child care, storage and money
+
+Added October 30, 2026 in five rounds, each with a review pass. The Category menu now has 26 categories in five groups.
+
+| Category | Overture taxonomy | OpenStreetMap | Google Places |
+| --- | --- | --- | --- |
+| Doctors & urgent care (Health) | urgent care, walk-in, emergency department, primary care, family practice, pediatric, internal medicine (public health offices and ambulances excluded) | `amenity=clinic/doctors`, `healthcare=clinic/doctor` | `doctor`, plus an "urgent care" text search |
+| Dentists (Health) | `dental_clinic` and its specialties (dental labs excluded) | `amenity=dentist` | `dentist`, `dental_clinic` |
+| Eye care & glasses (Health) | optometry, ophthalmology, eye clinics, `eyewear_store` (moved from Clothing) | `shop=optician`, `healthcare=optometrist` | "optometrist" and "eyeglasses store" text searches |
+| Hotels (Travel & fun) | hotel, motel, resort, inn, bed and breakfast, hostel (`lodge` and bare `lodging` excluded: they are mostly fraternal lodges and event companies) | `tourism=hotel/motel/guest_house/hostel` | `lodging` |
+| Movies & fun (Travel & fun) | movie theaters, bowling, arcades, escape rooms, amusement and trampoline parks, mini golf, laser tag | `amenity=cinema`, `leisure=bowling_alley/amusement_arcade/trampoline_park/miniature_golf/escape_game`, `tourism=theme_park` | `movie_theater`, `bowling_alley`, `amusement_center` |
+| Child care & tutoring | day care, preschool, tutoring, test prep (schools excluded) | `amenity=childcare/kindergarten`, `office=tutoring` | `child_care_agency`, `preschool`, plus a "tutoring center" text search |
+| Storage & rentals | self storage, truck and car rental (parcel lockers and warehouses excluded) | `shop=storage_rental`, `amenity=car_rental/truck_rental` | `storage`, `car_rental`, plus a "truck rental" text search |
+| Tax & money services | tax preparation, money transfer, check cashing, currency exchange (coin and Bitcoin kiosks and ATMs excluded) | `amenity=money_transfer/bureau_de_change`, `office=tax_advisor`, `shop=money_lender` | "tax preparation" and "money transfer" text searches |
+
+Brands added (23, bringing the directory to 928 listed brands):
+
+- **Health:** Heartland Dental (KKR) and MyEyeDr. (Goldman Sachs Asset Management, Charlesbank).
+- **Hotels:** Marriott, Hilton, IHG, Wyndham, Choice Hotels, and Hyatt, each listing its brand family, plus Motel 6 and Studio 6 (OYO). Most are franchised and carry the franchise badge.
+- **Movies & fun:** AMC Theatres, Cinemark, Lucky Strike (formerly Bowlero, including AMF), and Six Flags (including former Cedar Fair parks).
+- **Child care & tutoring:** KinderCare (NYSE KLC), The Learning Experience (Harvest Partners), Kiddie Academy (privately owned, Abingdon, Maryland headquarters, so it counts as a local corporation nearby), and Sylvan Learning (Unleashed Brands, Seidler Equity).
+- **Storage & rentals:** Public Storage, Extra Space Storage (including Life Storage), and U-Haul (dealer-run locations).
+- **Tax & money:** H&R Block, Western Union (agent locations), and Jackson Hewitt (Corsair Capital).
+
+Review fixes made along the way:
+
+- Eye care counts as a store category, so store-only guards on Sunglass Hut, Eyemart Express, Vision 4 Less, and others keep matching.
+- Hotel, theater, child care, storage, and tax chains match locations named after the brand (`matchNamePrefix`).
+- Goddard, Primrose, and Mathnasium now match locations such as "Primrose School of Owings Mills".
+- Fraternal lodges, parcel lockers, and kiosks are kept out of the new categories.
+
+Left out because current ownership could not be confirmed from a primary source: CityMD, Concentra, Patient First, AFC Urgent Care, Best Western, Extended Stay America, Red Roof, Regal, Sky Zone, Bright Horizons, Kumon, Huntington Learning Center, Celebree School, CubeSmart, Penske, Hertz, and MoneyGram. ExpressCare belongs to the nonprofit LifeBridge Health system, which the app has no label for yet.
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

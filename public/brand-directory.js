@@ -6483,6 +6483,42 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Extra Space Storage",
+    "aliases": [
+      "Extra Space",
+      "Life Storage",
+      "Storage Express"
+    ],
+    "type": "corporate",
+    "parent": "Extra Space Storage Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000011/exr-20251231.htm",
+    "sourceTitle": "Extra Space Storage — 2025 Form 10-K",
+    "note": "Extra Space owned or operated 4,281 stores at the end of 2025, including former Life Storage locations.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Extra%20Space%20Storage",
+    "publicListing": {
+      "company": "Extra Space Storage Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "EXR"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1289490/000128949026000011/exr-20251231.htm",
+      "sourceTitle": "Extra Space Storage — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "ExtraMile",
     "aliases": [
       "ExtraMile by Jacksons"
@@ -8797,6 +8833,41 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "H&R Block",
+    "aliases": [
+      "H & R Block",
+      "H&R Block Tax Services"
+    ],
+    "type": "corporate",
+    "parent": "H&R Block, Inc.",
+    "source": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000026/hrb-20260630.htm",
+    "sourceTitle": "H&R Block — fiscal 2026 Form 10-K",
+    "note": "H&R Block had 6,802 company-owned and 1,814 franchise offices as of March 31, 2026.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=H%26R%20Block",
+    "publicListing": {
+      "company": "H&R Block, Inc.",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "HRB"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/0000012659/000001265926000026/hrb-20260630.htm",
+      "sourceTitle": "H&R Block — fiscal 2026 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Habit Burger & Grill",
     "aliases": [
       "The Habit Burger Grill",
@@ -9907,6 +9978,27 @@ export const BRAND_DIRECTORY = [
     "localOperators": "franchise",
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Jackson Hewitt",
+    "aliases": [
+      "Jackson Hewitt Tax Service"
+    ],
+    "type": "pe",
+    "parent": "Jackson Hewitt Tax Service · Corsair Capital",
+    "source": "https://www.prnewswire.com/news-releases/jackson-hewitt-tax-service-announces-strategic-partnership-with-corsair-capital-300657561.html",
+    "sourceTitle": "PR Newswire — Jackson Hewitt announces partnership with Corsair Capital (2018)",
+    "note": "Private equity firm Corsair Capital acquired Jackson Hewitt in 2018. Many offices are franchised, and many are inside Walmart stores.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Jackson%20Hewitt",
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "franchise",
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -15325,6 +15417,40 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Public Storage",
+    "aliases": [
+      "Public Storage Self Storage"
+    ],
+    "type": "corporate",
+    "parent": "Public Storage",
+    "source": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm",
+    "sourceTitle": "Public Storage — 2025 Form 10-K",
+    "note": "Public Storage had interests in 3,171 self-storage facilities in 40 states at the end of 2025.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Public%20Storage",
+    "publicListing": {
+      "company": "Public Storage",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "PSA"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1393311/000162828026007696/psa-20251231.htm",
+      "sourceTitle": "Public Storage — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Publix",
     "aliases": [
       "Publix Super Market",
@@ -20489,6 +20615,44 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "U-Haul",
+    "aliases": [
+      "U-Haul Moving & Storage",
+      "U-Haul Neighborhood Dealer",
+      "UHaul"
+    ],
+    "type": "corporate",
+    "parent": "U-Haul Holding Company",
+    "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004457/eefb0fa1-c2c9-4ee1-895a-3070803c4725.pdf",
+    "sourceTitle": "U-Haul Holding Company — fiscal 2026 Form 10-K",
+    "note": "U-Haul runs company-operated moving and storage stores and relies on more than 23,000 independent dealers, often hardware stores and gas stations.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=U-Haul",
+    "publicListing": {
+      "company": "U-Haul Holding Company",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "UHAL"
+        }
+      ],
+      "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000004457/eefb0fa1-c2c9-4ee1-895a-3070803c4725.pdf",
+      "sourceTitle": "U-Haul Holding Company — fiscal 2026 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "storage",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "U.S. Bank",
     "aliases": [
       "US Bank",
@@ -21554,6 +21718,41 @@ export const BRAND_DIRECTORY = [
     ],
     "categories": [
       "pe"
+    ]
+  },
+  {
+    "brand": "Western Union",
+    "aliases": [
+      "Western Union Agent Location"
+    ],
+    "type": "corporate",
+    "parent": "The Western Union Company",
+    "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+    "sourceTitle": "The Western Union Company — 2025 Form 10-K",
+    "note": "Most Western Union locations are agents inside other businesses such as grocery stores and pharmacies.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Western%20Union",
+    "publicListing": {
+      "company": "The Western Union Company",
+      "relationship": "brand_owner",
+      "securityType": "equity",
+      "exchanges": [
+        {
+          "exchange": "NYSE",
+          "ticker": "WU"
+        }
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+      "sourceTitle": "The Western Union Company — 2025 Form 10-K",
+      "checked": "2026-10-30"
+    },
+    "matchCategories": [
+      "money"
+    ],
+    "matchNamePrefix": true,
+    "localOperators": "dealer",
+    "categories": [
+      "corporate"
     ]
   },
   {
