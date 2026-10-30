@@ -1,0 +1,43 @@
+name: Wrong ownership label
+description: Report a place or brand whose independent, corporate, or private equity label is wrong.
+title: "Wrong label: "
+labels: ["label correction"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep Local Lens accurate. The app fills in the place details; please add what is wrong and, if you can, a source.
+  - type: textarea
+    id: place
+    attributes:
+      label: Place
+      description: Filled in by the app.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current label
+      description: Filled in by the app.
+  - type: dropdown
+    id: correct
+    attributes:
+      label: What should it be?
+      options:
+        - Independent or locally owned
+        - Co-op or member owned
+        - Corporate chain or publicly traded company
+        - Private equity backed
+        - Different parent company
+        - Closed or not a business
+        - Not sure, but the label looks wrong
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A link to the company's site, a news story, an SEC filing, or how you know (for example, "I own this business").
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
