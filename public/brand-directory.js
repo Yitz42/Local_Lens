@@ -314,6 +314,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "ABC Supply",
+    "aliases": [
+      "ABC Supply Co.",
+      "ABC Supply Co. Inc.",
+      "ABC Supply Co"
+    ],
+    "type": "corporate",
+    "parent": "ABC Supply Co., Inc. (Hendricks family, privately held)",
+    "source": "https://www.abcsupply.com/about-us/",
+    "sourceTitle": "ABC Supply — about us",
+    "note": "ABC Supply is a privately held roofing and siding distributor owned by the Hendricks family.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Abercrombie & Fitch",
     "aliases": [
       "Abercrombie and Fitch",
@@ -633,6 +655,30 @@ export const BRAND_DIRECTORY = [
     "matchNamePrefix": true,
     "categories": [
       "corporate"
+    ]
+  },
+  {
+    "brand": "Affordable Dentures & Implants",
+    "aliases": [
+      "Affordable Dentures and Implants",
+      "Affordable Dentures",
+      "DDS Dentures + Implant Solutions"
+    ],
+    "type": "pe",
+    "parent": "Affordable Care, LLC · Berkshire Partners",
+    "source": "https://ropesgray.com/en/newsroom/news/2019/03/Ropes-Gray-Represents-Berkshire-Partners-and-Affordable-Care-LLC-in-the-Acquisition-of-DDS-Dentures",
+    "sourceTitle": "Ropes & Gray — Affordable Care, a Berkshire Partners portfolio company",
+    "note": "Affordable Care, which supports Affordable Dentures & Implants practices, is a Berkshire Partners portfolio company; practices are owned by affiliated dentists.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "Berkshire Partners"
+    ],
+    "matchCategories": [
+      "dental"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "pe"
     ]
   },
   {
@@ -1028,6 +1074,49 @@ export const BRAND_DIRECTORY = [
     "sourceTitle": "American Eagle Outfitters — about AEO",
     "note": "The company lists this as one of its store brands. This identifies chain affiliation; local ownership is not independently verified.",
     "checked": "2026-10-15",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Americas Best Value Inn",
+    "aliases": [
+      "Americas Best Value Inn & Suites",
+      "Americas Best Value Inn and Suites",
+      "Red Lion Hotel",
+      "Red Lion Inn & Suites",
+      "Signature Inn",
+      "Knights Inn",
+      "GuestHouse"
+    ],
+    "type": "corporate",
+    "parent": "Sonesta International Hotels Corporation (privately held)",
+    "source": "https://www.hospitalitynet.org/news/4103536/sonesta-completes-acquisition-of-red-lion-hotels",
+    "sourceTitle": "Hospitality Net — Sonesta completes acquisition of Red Lion Hotels (2021)",
+    "note": "Sonesta bought RLH Corporation, owner of Red Lion, Americas Best Value Inn, and its other economy brands, in 2021. Most hotels are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "hotel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Ameris Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Ameris Bancorp",
+    "source": "https://ir.amerisbank.com/",
+    "sourceTitle": "Ameris Bancorp — investor relations",
+    "note": "Ameris Bancorp is listed on the NYSE (ABCB).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -2898,7 +2987,8 @@ export const BRAND_DIRECTORY = [
       "BMO Bank",
       "BMO Harris Bank",
       "BMO Harris",
-      "BMO Bank N.A."
+      "BMO Bank N.A.",
+      "Bank of the West"
     ],
     "type": "corporate",
     "parent": "Bank of Montreal (BMO Financial Group)",
@@ -4116,6 +4206,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Camping World",
+    "aliases": [
+      "Camping World RV Sales",
+      "Gander RV"
+    ],
+    "type": "corporate",
+    "parent": "Camping World Holdings, Inc.",
+    "source": "https://investor.campingworld.com/",
+    "sourceTitle": "Camping World — investor relations",
+    "note": "Camping World is listed on the NYSE (CWH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "cars",
+      "other"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Canada Goose",
     "aliases": [],
     "type": "pe",
@@ -4832,6 +4943,27 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "CenterWell Home Health",
+    "aliases": [
+      "Kindred at Home",
+      "CenterWell"
+    ],
+    "type": "corporate",
+    "parent": "Humana Inc.",
+    "source": "https://humana.gcs-web.com/",
+    "sourceTitle": "Humana — investor relations",
+    "note": "Humana (NYSE HUM) bought Kindred at Home and renamed it CenterWell Home Health.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "senior",
+      "clinic"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Central Market",
     "aliases": [],
     "type": "corporate",
@@ -5168,6 +5300,26 @@ export const BRAND_DIRECTORY = [
     "note": "Chevron identifies these as its principal fuel brands. A branded station can be owned and operated by an independent business; Caltex primarily operates outside the US.",
     "checked": "2026-10-15",
     "localOperators": "dealer",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Chicago Title",
+    "aliases": [
+      "Chicago Title Company",
+      "Chicago Title Insurance Company"
+    ],
+    "type": "corporate",
+    "parent": "Fidelity National Financial, Inc.",
+    "source": "https://investor.fnf.com/",
+    "sourceTitle": "Fidelity National Financial — investor relations",
+    "note": "Chicago Title is a Fidelity National Financial brand (NYSE FNF).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -6147,6 +6299,31 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Commerce Bank",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Commerce Bancshares, Inc.",
+    "source": "https://investor.commercebank.com/",
+    "sourceTitle": "Commerce Bancshares — investor relations",
+    "note": "Commerce Bancshares is listed on Nasdaq (CBSH). Other banks also use the name, so the match is limited to the Midwest.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "matchBounds": [
+      {
+        "south": 35,
+        "west": -101,
+        "north": 43.5,
+        "east": -86
+      }
+    ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Community Markets (C&S)",
     "aliases": [
       "Community Markets"
@@ -6923,6 +7100,27 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Daltile",
+    "aliases": [
+      "Daltile Sales Service Center",
+      "Daltile, Marazzi Sales Service Center"
+    ],
+    "type": "corporate",
+    "parent": "Mohawk Industries, Inc.",
+    "source": "https://ir.mohawkind.com/",
+    "sourceTitle": "Mohawk Industries — investor relations",
+    "note": "Daltile is a Mohawk Industries brand; Mohawk is listed on the NYSE (MHK).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "home",
+      "other"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -14289,6 +14487,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Lands' End",
+    "aliases": [
+      "Lands End"
+    ],
+    "type": "corporate",
+    "parent": "Lands' End, Inc.",
+    "source": "https://investors.landsend.com/",
+    "sourceTitle": "Lands' End — investor relations",
+    "note": "Lands' End is listed on Nasdaq (LE).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Lane Bryant",
     "aliases": [
       "Cacique"
@@ -17717,6 +17934,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Old Republic Title",
+    "aliases": [
+      "Old Republic Title Co",
+      "Old Republic National Title"
+    ],
+    "type": "corporate",
+    "parent": "Old Republic International Corporation",
+    "source": "https://www.oldrepublic.com/investors/",
+    "sourceTitle": "Old Republic — investors",
+    "note": "Old Republic is listed on the NYSE (ORI).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Olive Garden",
     "aliases": [],
     "type": "corporate",
@@ -17879,6 +18116,26 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "money",
       "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Option Care Health",
+    "aliases": [
+      "BioScrip Infusion Services"
+    ],
+    "type": "corporate",
+    "parent": "Option Care Health, Inc.",
+    "source": "https://investors.optioncarehealth.com/",
+    "sourceTitle": "Option Care Health — investor relations",
+    "note": "Option Care Health is listed on Nasdaq (OPCH).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "pharmacy",
+      "clinic"
     ],
     "matchNamePrefix": true,
     "categories": [
@@ -20664,6 +20921,23 @@ export const BRAND_DIRECTORY = [
     "matchCategories": [
       "home"
     ],
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Richmond American Homes",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "Sekisui House, Ltd.",
+    "source": "https://www.sekisuihouse.co.jp/english/",
+    "sourceTitle": "Sekisui House — company site",
+    "note": "Sekisui House, listed in Tokyo, bought Richmond American's parent M.D.C. Holdings in 2024.",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "realestate"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -24059,6 +24333,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Taco Time",
+    "aliases": [
+      "TacoTime"
+    ],
+    "type": "corporate",
+    "parent": "MTY Food Group Inc.",
+    "source": "https://mtygroup.com/en/investors/",
+    "sourceTitle": "MTY Food Group — investors",
+    "note": "Taco Time is an MTY Food Group brand; MTY is listed in Toronto. Restaurants are franchised.",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Tadych’s MarketPlace Foods",
     "aliases": [
       "Tadych's MarketPlace",
@@ -24805,6 +25099,28 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "The Medicine Shoppe",
+    "aliases": [
+      "Medicine Shoppe",
+      "Medicine Shoppe Pharmacy",
+      "The Medicine Shoppe Pharmacy"
+    ],
+    "type": "corporate",
+    "parent": "Cardinal Health, Inc.",
+    "source": "https://ir.cardinalhealth.com/",
+    "sourceTitle": "Cardinal Health — investor relations",
+    "note": "The Medicine Shoppe is Cardinal Health's pharmacy franchise; stores are owned by local pharmacists who pay franchise fees. Cardinal is listed on the NYSE (CAH).",
+    "checked": "2026-10-30",
+    "localOperators": "franchise",
+    "matchCategories": [
+      "pharmacy"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "The North Face",
     "aliases": [
       "North Face"
@@ -25141,6 +25457,23 @@ export const BRAND_DIRECTORY = [
     "note": "The company identifies this as one of its restaurant brands. This identifies the brand owner; individual restaurants may have independent franchise operators.",
     "checked": "2026-10-15",
     "localOperators": "franchise",
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
+    "brand": "Timberland",
+    "aliases": [],
+    "type": "corporate",
+    "parent": "V.F. Corporation",
+    "source": "https://www.vfc.com/investors",
+    "sourceTitle": "VF Corporation — investors",
+    "note": "Timberland is a VF brand; VF is listed on the NYSE (VFC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "apparel"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "corporate"
     ]
@@ -26176,7 +26509,9 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Upstream Rehabilitation",
     "aliases": [
-      "Upstream Physical Therapy"
+      "Upstream Physical Therapy",
+      "BenchMark Physical Therapy",
+      "BenchMark Rehabilitation Partners"
     ],
     "type": "pe",
     "parent": "Upstream Rehabilitation · Revelstoke Capital Partners",
@@ -26826,6 +27161,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "WaFd Bank",
+    "aliases": [
+      "Washington Federal"
+    ],
+    "type": "corporate",
+    "parent": "WaFd, Inc.",
+    "source": "https://ir.wafdbank.com/",
+    "sourceTitle": "WaFd — investor relations",
+    "note": "WaFd is listed on Nasdaq (WAFD).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "Waffle House",
     "aliases": [],
     "type": "corporate",
@@ -27156,6 +27510,25 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "WesBanco",
+    "aliases": [
+      "WesBanco Bank"
+    ],
+    "type": "corporate",
+    "parent": "WesBanco, Inc.",
+    "source": "https://www.wesbanco.com/investor-relations/",
+    "sourceTitle": "WesBanco — investor relations",
+    "note": "WesBanco is listed on Nasdaq (WSBC).",
+    "checked": "2026-10-30",
+    "matchCategories": [
+      "bank"
+    ],
+    "matchNamePrefix": true,
+    "categories": [
+      "corporate"
+    ]
+  },
+  {
     "brand": "West Elm",
     "aliases": [],
     "type": "corporate",
@@ -27181,6 +27554,29 @@ export const BRAND_DIRECTORY = [
     "sponsors": [
       "L Catterton"
     ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
+    "brand": "Western Dental",
+    "aliases": [
+      "Western Dental & Orthodontics",
+      "Sonrava Health"
+    ],
+    "type": "pe",
+    "parent": "Sonrava Health · New Mountain Capital",
+    "source": "https://pestakeholder.org/news/private-equity-health-care-acquisitions-october-2021/",
+    "sourceTitle": "Private Equity Stakeholder Project — New Mountain Capital and Western Dental",
+    "note": "New Mountain Capital has owned Western Dental (now Sonrava Health) since 2012.",
+    "checked": "2026-10-30",
+    "sponsors": [
+      "New Mountain Capital"
+    ],
+    "matchCategories": [
+      "dental"
+    ],
+    "matchNamePrefix": true,
     "categories": [
       "pe"
     ]

@@ -379,6 +379,24 @@ Brands added (10):
 
 Left out because the ownership trail conflicts across sources: Chesapeake Urology (Audax to United Urology Group to OneOncology) and Epiphany Dermatology. Around Pikesville, 427 specialist and 525 mental health listings now appear, mostly individual practices; National Spine & Pain Centers and two Thriveworks offices are labeled.
 
+## Round 16: remaining national gaps
+
+Re-ranking the national list after PR #13 put coverage at 58.4%. This round brings it to 59.0%. Added from company, investor, or trade sources:
+
+- **PE-backed dental support groups:** Affordable Dentures & Implants and DDS Dentures (Affordable Care, owned by Berkshire Partners); Western Dental, now Sonrava Health (New Mountain Capital).
+- **Hotels:** Americas Best Value Inn, Red Lion, Signature Inn, Knights Inn, and GuestHouse, all owned by Sonesta since its 2021 purchase of RLH.
+- **Public companies:**
+  - Ameris, WaFd, and WesBanco banks; Commerce Bank, limited to the Midwest because other banks share the name.
+  - Chicago Title (FNF) and Old Republic Title.
+  - Daltile (Mohawk), Camping World, and Option Care Health.
+  - Lands' End, Timberland (VF), and Taco Time (MTY).
+  - The Medicine Shoppe (Cardinal Health franchise) and CenterWell Home Health, formerly Kindred at Home (Humana).
+  - Richmond American Homes (Sekisui House).
+- **Private:** ABC Supply (the Hendricks family).
+- **Name variants:** Bank of the West (BMO) and BenchMark Physical Therapy (Upstream Rehabilitation).
+
+Not added: Snap Fitness (its PE owner TZP put it up for sale, and no buyer is confirmed), Curves (franchise rights have changed hands several times), and private family chains with no ownership source (Marco's, Dickey's, Long John Silver's, Godfather's, Hungry Howie's).
+
 ## Not added in this pass
 
 Harveys Supermarkets has been converted to Winn-Dixie. Closed chains (Jo-Ann, Party City, Pier 1, Tuesday Morning, 99 Cents Only), nonprofit thrift stores, and pharmacy networks made up of independent stores (Health Mart, Good Neighbor Pharmacy) were not added.

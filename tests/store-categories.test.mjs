@@ -358,3 +358,8 @@ test('specialist doctors, mental health, and equipment rental',()=>{
  assert.equal(categoryFor({healthcare:'psychotherapist'}),'mental');
  for(const [name,category,brand,type] of [['National Spine & Pain Centers - Pikesville','specialists','National Spine & Pain Centers','pe'],['Forefront Dermatology Baltimore','specialists','Forefront Dermatology','pe'],['GI Alliance','specialists','GI Alliance','corporate'],['Thriveworks Counseling & Psychiatry Towson','mental','Thriveworks','pe'],['United Rentals','storage','United Rentals','corporate']]){const o=ownershipFor(p(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
 });
+test('round 16: dental support groups, Sonesta economy hotels, banks, and name variants',()=>{
+ for(const [name,category,brand,type] of [['Affordable Dentures & Implants','dental','Affordable Dentures & Implants','pe'],['Western Dental & Orthodontics','dental','Western Dental','pe'],['Americas Best Value Inn Baltimore','hotel','Americas Best Value Inn','corporate'],['BenchMark Physical Therapy','therapy','Upstream Rehabilitation','pe'],['Bank of the West','bank','BMO','corporate'],['The Medicine Shoppe Pharmacy','pharmacy','The Medicine Shoppe','corporate']]){const o=ownershipFor(p(name,category));assert.equal(o.brand,brand,name);assert.equal(o.type,type,name);}
+ assert.equal(ownershipFor({id:'c',name:'Commerce Bank',category:'bank',lat:39.10,lng:-94.58}).brand,'Commerce Bank','Kansas City');
+ assert.equal(ownershipFor({id:'c2',name:'Commerce Bank',category:'bank',lat:40.0,lng:-75.0}).type,'unknown','other banks share the name outside the Midwest');
+});

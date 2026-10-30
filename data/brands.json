@@ -18838,7 +18838,8 @@
         "BMO Bank",
         "BMO Harris Bank",
         "BMO Harris",
-        "BMO Bank N.A."
+        "BMO Bank N.A.",
+        "Bank of the West"
       ],
       "type": "corporate",
       "parent": "Bank of Montreal (BMO Financial Group)",
@@ -20423,7 +20424,9 @@
     {
       "brand": "Upstream Rehabilitation",
       "aliases": [
-        "Upstream Physical Therapy"
+        "Upstream Physical Therapy",
+        "BenchMark Physical Therapy",
+        "BenchMark Rehabilitation Partners"
       ],
       "type": "pe",
       "parent": "Upstream Rehabilitation · Revelstoke Capital Partners",
@@ -24483,6 +24486,342 @@
       "checked": "2026-10-30",
       "matchCategories": [
         "storage",
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Affordable Dentures & Implants",
+      "aliases": [
+        "Affordable Dentures and Implants",
+        "Affordable Dentures",
+        "DDS Dentures + Implant Solutions"
+      ],
+      "type": "pe",
+      "parent": "Affordable Care, LLC · Berkshire Partners",
+      "source": "https://ropesgray.com/en/newsroom/news/2019/03/Ropes-Gray-Represents-Berkshire-Partners-and-Affordable-Care-LLC-in-the-Acquisition-of-DDS-Dentures",
+      "sourceTitle": "Ropes & Gray — Affordable Care, a Berkshire Partners portfolio company",
+      "note": "Affordable Care, which supports Affordable Dentures & Implants practices, is a Berkshire Partners portfolio company; practices are owned by affiliated dentists.",
+      "checked": "2026-10-30",
+      "sponsors": [
+        "Berkshire Partners"
+      ],
+      "matchCategories": [
+        "dental"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Western Dental",
+      "aliases": [
+        "Western Dental & Orthodontics",
+        "Sonrava Health"
+      ],
+      "type": "pe",
+      "parent": "Sonrava Health · New Mountain Capital",
+      "source": "https://pestakeholder.org/news/private-equity-health-care-acquisitions-october-2021/",
+      "sourceTitle": "Private Equity Stakeholder Project — New Mountain Capital and Western Dental",
+      "note": "New Mountain Capital has owned Western Dental (now Sonrava Health) since 2012.",
+      "checked": "2026-10-30",
+      "sponsors": [
+        "New Mountain Capital"
+      ],
+      "matchCategories": [
+        "dental"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Americas Best Value Inn",
+      "aliases": [
+        "Americas Best Value Inn & Suites",
+        "Americas Best Value Inn and Suites",
+        "Red Lion Hotel",
+        "Red Lion Inn & Suites",
+        "Signature Inn",
+        "Knights Inn",
+        "GuestHouse"
+      ],
+      "type": "corporate",
+      "parent": "Sonesta International Hotels Corporation (privately held)",
+      "source": "https://www.hospitalitynet.org/news/4103536/sonesta-completes-acquisition-of-red-lion-hotels",
+      "sourceTitle": "Hospitality Net — Sonesta completes acquisition of Red Lion Hotels (2021)",
+      "note": "Sonesta bought RLH Corporation, owner of Red Lion, Americas Best Value Inn, and its other economy brands, in 2021. Most hotels are franchised.",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "hotel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Ameris Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Ameris Bancorp",
+      "source": "https://ir.amerisbank.com/",
+      "sourceTitle": "Ameris Bancorp — investor relations",
+      "note": "Ameris Bancorp is listed on the NYSE (ABCB).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "WaFd Bank",
+      "aliases": [
+        "Washington Federal"
+      ],
+      "type": "corporate",
+      "parent": "WaFd, Inc.",
+      "source": "https://ir.wafdbank.com/",
+      "sourceTitle": "WaFd — investor relations",
+      "note": "WaFd is listed on Nasdaq (WAFD).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "WesBanco",
+      "aliases": [
+        "WesBanco Bank"
+      ],
+      "type": "corporate",
+      "parent": "WesBanco, Inc.",
+      "source": "https://www.wesbanco.com/investor-relations/",
+      "sourceTitle": "WesBanco — investor relations",
+      "note": "WesBanco is listed on Nasdaq (WSBC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Commerce Bank",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Commerce Bancshares, Inc.",
+      "source": "https://investor.commercebank.com/",
+      "sourceTitle": "Commerce Bancshares — investor relations",
+      "note": "Commerce Bancshares is listed on Nasdaq (CBSH). Other banks also use the name, so the match is limited to the Midwest.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "bank"
+      ],
+      "matchNamePrefix": true,
+      "matchBounds": [
+        {
+          "south": 35,
+          "west": -101,
+          "north": 43.5,
+          "east": -86
+        }
+      ]
+    },
+    {
+      "brand": "Chicago Title",
+      "aliases": [
+        "Chicago Title Company",
+        "Chicago Title Insurance Company"
+      ],
+      "type": "corporate",
+      "parent": "Fidelity National Financial, Inc.",
+      "source": "https://investor.fnf.com/",
+      "sourceTitle": "Fidelity National Financial — investor relations",
+      "note": "Chicago Title is a Fidelity National Financial brand (NYSE FNF).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Old Republic Title",
+      "aliases": [
+        "Old Republic Title Co",
+        "Old Republic National Title"
+      ],
+      "type": "corporate",
+      "parent": "Old Republic International Corporation",
+      "source": "https://www.oldrepublic.com/investors/",
+      "sourceTitle": "Old Republic — investors",
+      "note": "Old Republic is listed on the NYSE (ORI).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Daltile",
+      "aliases": [
+        "Daltile Sales Service Center",
+        "Daltile, Marazzi Sales Service Center"
+      ],
+      "type": "corporate",
+      "parent": "Mohawk Industries, Inc.",
+      "source": "https://ir.mohawkind.com/",
+      "sourceTitle": "Mohawk Industries — investor relations",
+      "note": "Daltile is a Mohawk Industries brand; Mohawk is listed on the NYSE (MHK).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "home",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Camping World",
+      "aliases": [
+        "Camping World RV Sales",
+        "Gander RV"
+      ],
+      "type": "corporate",
+      "parent": "Camping World Holdings, Inc.",
+      "source": "https://investor.campingworld.com/",
+      "sourceTitle": "Camping World — investor relations",
+      "note": "Camping World is listed on the NYSE (CWH).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "cars",
+        "other"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Option Care Health",
+      "aliases": [
+        "BioScrip Infusion Services"
+      ],
+      "type": "corporate",
+      "parent": "Option Care Health, Inc.",
+      "source": "https://investors.optioncarehealth.com/",
+      "sourceTitle": "Option Care Health — investor relations",
+      "note": "Option Care Health is listed on Nasdaq (OPCH).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "pharmacy",
+        "clinic"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Lands' End",
+      "aliases": [
+        "Lands End"
+      ],
+      "type": "corporate",
+      "parent": "Lands' End, Inc.",
+      "source": "https://investors.landsend.com/",
+      "sourceTitle": "Lands' End — investor relations",
+      "note": "Lands' End is listed on Nasdaq (LE).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Timberland",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "V.F. Corporation",
+      "source": "https://www.vfc.com/investors",
+      "sourceTitle": "VF Corporation — investors",
+      "note": "Timberland is a VF brand; VF is listed on the NYSE (VFC).",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "apparel"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Taco Time",
+      "aliases": [
+        "TacoTime"
+      ],
+      "type": "corporate",
+      "parent": "MTY Food Group Inc.",
+      "source": "https://mtygroup.com/en/investors/",
+      "sourceTitle": "MTY Food Group — investors",
+      "note": "Taco Time is an MTY Food Group brand; MTY is listed in Toronto. Restaurants are franchised.",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "restaurant"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "The Medicine Shoppe",
+      "aliases": [
+        "Medicine Shoppe",
+        "Medicine Shoppe Pharmacy",
+        "The Medicine Shoppe Pharmacy"
+      ],
+      "type": "corporate",
+      "parent": "Cardinal Health, Inc.",
+      "source": "https://ir.cardinalhealth.com/",
+      "sourceTitle": "Cardinal Health — investor relations",
+      "note": "The Medicine Shoppe is Cardinal Health's pharmacy franchise; stores are owned by local pharmacists who pay franchise fees. Cardinal is listed on the NYSE (CAH).",
+      "checked": "2026-10-30",
+      "localOperators": "franchise",
+      "matchCategories": [
+        "pharmacy"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "CenterWell Home Health",
+      "aliases": [
+        "Kindred at Home",
+        "CenterWell"
+      ],
+      "type": "corporate",
+      "parent": "Humana Inc.",
+      "source": "https://humana.gcs-web.com/",
+      "sourceTitle": "Humana — investor relations",
+      "note": "Humana (NYSE HUM) bought Kindred at Home and renamed it CenterWell Home Health.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "senior",
+        "clinic"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "Richmond American Homes",
+      "aliases": [],
+      "type": "corporate",
+      "parent": "Sekisui House, Ltd.",
+      "source": "https://www.sekisuihouse.co.jp/english/",
+      "sourceTitle": "Sekisui House — company site",
+      "note": "Sekisui House, listed in Tokyo, bought Richmond American's parent M.D.C. Holdings in 2024.",
+      "checked": "2026-10-30",
+      "matchCategories": [
+        "realestate"
+      ],
+      "matchNamePrefix": true
+    },
+    {
+      "brand": "ABC Supply",
+      "aliases": [
+        "ABC Supply Co.",
+        "ABC Supply Co. Inc.",
+        "ABC Supply Co"
+      ],
+      "type": "corporate",
+      "parent": "ABC Supply Co., Inc. (Hendricks family, privately held)",
+      "source": "https://www.abcsupply.com/about-us/",
+      "sourceTitle": "ABC Supply — about us",
+      "note": "ABC Supply is a privately held roofing and siding distributor owned by the Hendricks family.",
+      "checked": "2026-10-30",
+      "matchCategories": [
         "home",
         "other"
       ],
