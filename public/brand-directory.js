@@ -1534,7 +1534,8 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-27",
     "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Ashley%20HomeStore",
     "matchCategories": [
-      "other"
+      "other",
+      "home"
     ],
     "localOperators": "dealer",
     "categories": [
@@ -3241,7 +3242,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "BJ's Restaurant and Brewhouse",
       "BJ's Brewhouse",
-      "BJ's Restaurants"
+      "BJ's Restaurants",
+      "BJ's"
     ],
     "type": "corporate",
     "parent": "BJ's Restaurants, Inc.",
@@ -3704,7 +3706,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Bonanza Steakhouse",
-    "aliases": [],
+    "aliases": [
+      "Bonanza"
+    ],
     "type": "corporate",
     "parent": "OHG Brands · FBG Bid Co. LLC",
     "source": "https://ohgbrands.com/",
@@ -3719,6 +3723,9 @@ export const BRAND_DIRECTORY = [
       }
     ],
     "localOperators": "franchise",
+    "matchCategories": [
+      "restaurant"
+    ],
     "categories": [
       "corporate"
     ]
@@ -4792,7 +4799,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Caliber Collision",
     "aliases": [
       "Caliber Collision Centers",
-      "Caliber Auto Care"
+      "Caliber Auto Care",
+      "Caliber"
     ],
     "type": "pe",
     "parent": "Leonard Green & Partners portfolio investment",
@@ -4802,6 +4810,10 @@ export const BRAND_DIRECTORY = [
     "checked": "2026-10-15",
     "sponsors": [
       "Leonard Green & Partners"
+    ],
+    "matchCategories": [
+      "auto",
+      "carwash"
     ],
     "categories": [
       "pe"
@@ -9934,7 +9946,8 @@ export const BRAND_DIRECTORY = [
       "Extended Stay America Select Suites",
       "Extended Stay America Premier Suites",
       "ESA Suites",
-      "Extended Stay Hotels"
+      "Extended Stay Hotels",
+      "Extended Stay"
     ],
     "type": "pe",
     "parent": "Extended Stay America · Blackstone & Starwood Capital",
@@ -12523,7 +12536,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "GIANT",
     "aliases": [
-      "The GIANT Company"
+      "The GIANT Company",
+      "Giant Food Stores"
     ],
     "type": "corporate",
     "parent": "Ahold Delhaize",
@@ -12813,7 +12827,9 @@ export const BRAND_DIRECTORY = [
   },
   {
     "brand": "Gold Star Chili",
-    "aliases": [],
+    "aliases": [
+      "Gold Star"
+    ],
     "type": "corporate",
     "parent": "Gold Star Chili (Daoud family, privately held)",
     "source": "https://local12.com/news/local/founder-of-gold-star-chili-passes-away-at-age-83",
@@ -14275,7 +14291,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Holiday Stationstores",
     "aliases": [
       "Holiday Stationstore",
-      "Holiday Station Stores"
+      "Holiday Station Stores",
+      "Holiday Station"
     ],
     "type": "corporate",
     "parent": "Alimentation Couche-Tard Inc.",
@@ -18370,7 +18387,8 @@ export const BRAND_DIRECTORY = [
       "Tribute Portfolio",
       "City Express by Marriott",
       "StudioRes",
-      "Four Points Flex"
+      "Four Points Flex",
+      "Fairfield"
     ],
     "type": "corporate",
     "parent": "Marriott International, Inc.",
@@ -21995,7 +22013,8 @@ export const BRAND_DIRECTORY = [
   {
     "brand": "Phillips 66",
     "aliases": [
-      "Phillips66"
+      "Phillips66",
+      "Phillips"
     ],
     "type": "corporate",
     "parent": "Phillips 66",
@@ -24912,7 +24931,8 @@ export const BRAND_DIRECTORY = [
     "brand": "Sam’s Club",
     "aliases": [
       "Sam's Club",
-      "Sam's Club Optical Center"
+      "Sam's Club Optical Center",
+      "Sam's Club Optical"
     ],
     "type": "corporate",
     "parent": "Walmart Inc.",
@@ -27080,7 +27100,8 @@ export const BRAND_DIRECTORY = [
     "aliases": [
       "Stewart's Shops",
       "Stewart's Shop",
-      "Stewarts Shops"
+      "Stewarts Shops",
+      "Stewart's"
     ],
     "type": "corporate",
     "parent": "Stewart’s Shops · family and employee ownership",
@@ -27100,6 +27121,14 @@ export const BRAND_DIRECTORY = [
       "lat": 43.08,
       "lng": -73.78
     },
+    "matchBounds": [
+      {
+        "south": 41,
+        "west": -76.6,
+        "north": 45.1,
+        "east": -71.4
+      }
+    ],
     "categories": [
       "corporate"
     ]
