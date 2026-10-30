@@ -171,3 +171,21 @@ test('print, design & ship, laundry, pet care, and repair have their own categor
  for(const [name,category,type] of [['FedEx Office Print & Ship Center','print','corporate'],['FedEx OnSite','print','corporate'],['The UPS Store','print','corporate'],['Minuteman Press','print','corporate'],['Sir Speedy','print','corporate'],['PIP Printing','print','corporate'],['Banfield Pet Hospital','pets','corporate'],['Camp Bow Wow','pets','pe'],['uBreakiFix by Asurion','repair','corporate'],['Tide Cleaners','laundry','corporate'],['Lapels Cleaners','laundry','pe'],['Martinizing Cleaners','laundry','pe']])assert.equal(ownershipFor(p(name,category)).type,type,name);
  assert.equal(ownershipFor(p('VCA','restaurant')).type,'unknown');assert.equal(ownershipFor(p('Pip Squeak Daycare','pets')).type,'unknown');assert.equal(ownershipFor(p('CPR Training Center','repair')).type,'unknown');
 });
+test('round 1: dentists, urgent care and clinics, and eye care are health categories',async()=>{
+ const {googleSearchGroups,CATEGORY_TEXT_SEARCHES}=await import('../public/google-places.js');
+ const h=(...terms)=>({taxonomy:JSON.stringify({hierarchy:terms})});
+ assert.equal(categoryForOverture({basic_category:'general_dentistry',...h('health_care','outpatient_care_facility','dental_clinic','general_dentistry')}),'dental');
+ assert.equal(categoryForOverture({basic_category:'b2b_dental_lab',...h('services_and_business','b2b_service','b2b_medical_support_service','b2b_dental_lab')}),null,'dental labs are not offices');
+ assert.equal(categoryForOverture({basic_category:'urgent_care_clinic',...h('health_care','emergency_or_urgent_care_facility','urgent_care_clinic')}),'clinic');
+ assert.equal(categoryForOverture({basic_category:'family_practice',...h('health_care','outpatient_care_facility','primary_care_or_general_clinic','family_practice')}),'clinic');
+ assert.equal(categoryForOverture({basic_category:'public_health_clinic',...h('health_care','outpatient_care_facility','primary_care_or_general_clinic','public_health_clinic')}),null);
+ assert.equal(categoryForOverture({basic_category:'ambulance_or_ems_service',...h('health_care','emergency_or_urgent_care_facility','ambulance_or_ems_service')}),null);
+ assert.equal(categoryForOverture({basic_category:'optometry',...h('health_care','outpatient_care_facility','vision_or_eye_care_clinic','optometry')}),'eye');
+ assert.equal(categoryForOverture({basic_category:'eyewear_store',...h('shopping','fashion_and_apparel_store','eyewear_store')}),'eye','eyewear stores move from Clothing');
+ assert.equal(categoryFor({amenity:'dentist'}),'dental');assert.equal(categoryFor({amenity:'doctors'}),'clinic');assert.equal(categoryFor({shop:'optician'}),'eye');
+ assert.equal(googleCategory(['dentist','doctor','health']),'dental');assert.equal(googleCategory(['doctor']),'clinic');
+ assert.deepEqual(googleSearchGroups('dental'),[['dentist','dental_clinic']]);assert.deepEqual(googleSearchGroups('eye'),[]);assert.ok(CATEGORY_TEXT_SEARCHES.eye.length);
+ assert.equal(CATEGORIES.find(c=>c.id==='pharmacy').group,'Health');
+ for(const [name,category,type] of [['Sunglass Hut','eye','corporate'],['Eyemart Express','eye','corporate'],['LensCrafters','eye','corporate'],['MyEyeDr.','eye','pe'],['Heartland Dental','dental','pe'],['Aspen Dental','dental','pe']])assert.equal(ownershipFor(p(name,category)).type,type,name);
+ assert.equal(ownershipFor(p('Heartland Dental','restaurant')).type,'unknown');
+});

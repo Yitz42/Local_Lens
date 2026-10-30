@@ -377,7 +377,7 @@ Opened the official company directory, which states an August 24, 2026 portfolio
 | PetVet Care Centers | current portfolio investment | [KKR — June 30, 2026 Form 10-Q](https://ir.kkr.com/media/document/9c560b72-6b1b-4aff-affa-01c36a7f1661/assets/KKR_10Q_6.30.26.pdf?disposition=inline) | The quarterly report discusses unrealized PetVet investment losses in the current period, establishing a continuing investment. Individual veterinary-hospital brands were not inferred. | 2026-10-16 |
 | Heartland Dental | current portfolio investment | [KKR — Max Lin current board biography](https://www.kkr.com/about/our-people/max-lin) | The current official KKR biography lists Heartland Dental among the companies on whose boards its Americas healthcare leader currently serves. This corroborates the group affiliation, not ownership of any similarly named independent dental practice. | 2026-10-16 |
 
-Brands in Local Lens: Belk, Nothing Bundt Cakes.
+Brands in Local Lens: Belk, Heartland Dental, Nothing Bundt Cakes.
 
 ## L Catterton
 

@@ -7,7 +7,7 @@ export const RELEASE='2026-10-21.0';
 export const DATA_DATE='2026-10-21T00:00:00Z';
 export const ARCHIVE_URL=`https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/${RELEASE}/places.pmtiles`;
 export const PAGE_SIZE=4;
-export const PLACE_FORMAT='print-design-v2';
+export const PLACE_FORMAT='health-v1';
 const ZOOM=14,N=2**ZOOM;
 class BoundedSource extends FetchSource{
  async getBytes(offset,length,signal,etag){
@@ -30,6 +30,7 @@ export function categoryForOverture(properties){
  if(terms.some(t=>t==='restaurant'||t==='food_and_drink'||t.includes('restaurant')||t==='fast_food'||t==='food_truck'))return 'restaurant';
  if(terms.some(t=>/^(pharmacy_and_drug_store|pharmacy|drugstore)$/.test(t)))return 'pharmacy';
  if(terms.some(t=>/^(hardware_home_and_garden_store|hardware_store|home_improvement_store|building_supply_store|furniture_store|home_goods_store|nursery_and_gardening_store|paint_store)$/.test(t)))return 'home';
+ if(terms.some(t=>/^(eyewear_store|optician|vision_or_eye_care_clinic|optometry|ophthalmology|optometrist)$/.test(t)))return 'eye';
  if(terms.some(t=>/^(fashion_and_apparel_store|clothing_store|shoe_store)$/.test(t)))return 'apparel';
  if(terms.some(t=>/^(department_store|discount_store|warehouse_club_store)$/.test(t)))return 'general';
  if(terms.some(t=>t==='shopping'||t==='retail'))return 'other';
@@ -41,6 +42,9 @@ export function categoryForOverture(properties){
  // post offices, parcel lockers, and drop boxes.
  if(terms.some(t=>/^(printing_service|screen_printing_service|t_shirt_printing_service|commercial_printer|print_media|copy_shop|graphic_designer|sign_making|signmaking|sign_maker)$/.test(t)))return 'print';
  if(terms.some(t=>/^(laundry_service|laundromat|dry_cleaning|laundry)$/.test(t)))return 'laundry';
+ if(terms.some(t=>/^(dental_clinic|dentist|general_dentistry|orthodontics|orthodontist|pediatric_dentistry|cosmetic_dentistry|endodontics|periodontics|prosthodontics|oral_surgeon|oral_and_maxillofacial_surgery)$/.test(t)))return 'dental';
+ // Walk-in and primary care. Public health offices, ambulance services, and specialists stay out.
+ if(!terms.some(t=>/^(public_health_clinic|ambulance_or_ems_service)$/.test(t))&&terms.some(t=>/^(urgent_care_clinic|walk_in_clinic|emergency_department|emergency_or_urgent_care_facility|primary_care_or_general_clinic|family_practice|pediatric_clinic|internal_medicine)$/.test(t)))return 'clinic';
  if(terms.some(t=>/^(animal_or_pet_service|veterinary_care|veterinarian|animal_hospital|emergency_pet_hospital|pet_care_service|pet_groomer|pet_sitting|pet_boarding|pet_training|dog_trainer|dog_walker)$/.test(t)))return 'pets';
  if(!terms.some(t=>/^(it_consultant|computer_hardware_company)$/.test(t))&&terms.some(t=>/^(it_service_and_computer_repair|mobile_phone_repair|electronics_repair_shop|computer_repair|shoe_repair|watch_repair_service|jewelry_repair_service|sewing_and_alterations|tailor)$/.test(t)))return 'repair';
  return null;

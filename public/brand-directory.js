@@ -8895,6 +8895,26 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "Heartland Dental",
+    "aliases": [],
+    "type": "pe",
+    "parent": "Heartland Dental · KKR",
+    "source": "https://www.prnewswire.com/news-releases/heartland-dental-celebrates-transformative-growth-innovation-and-community-impact-in-2025-302671856.html",
+    "sourceTitle": "Heartland Dental — 2025 growth release (PR Newswire, 2026)",
+    "note": "KKR holds a majority stake in Heartland Dental, which supports more than 1,900 dental offices. Most offices keep their local practice names, so many are not matched by this brand name.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=Heartland%20Dental",
+    "matchCategories": [
+      "dental"
+    ],
+    "sponsors": [
+      "KKR"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "Heinen’s",
     "aliases": [
       "Heinen's Grocery Store",
@@ -10852,7 +10872,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "categories": [
       "corporate"
@@ -12756,6 +12777,32 @@ export const BRAND_DIRECTORY = [
     ]
   },
   {
+    "brand": "MyEyeDr.",
+    "aliases": [
+      "MyEyeDr",
+      "My Eye Dr",
+      "My Eye Doctor"
+    ],
+    "type": "pe",
+    "parent": "MyEyeDr. · Goldman Sachs Asset Management",
+    "source": "https://www.charlesbank.com/investments/myeyedr/",
+    "sourceTitle": "Charlesbank — MyEyeDr. investment",
+    "note": "Goldman Sachs Asset Management has backed MyEyeDr. since 2019, with Charlesbank holding a minority stake.",
+    "checked": "2026-10-30",
+    "wikipedia": "https://en.wikipedia.org/wiki/Special:Search?search=MyEyeDr",
+    "matchCategories": [
+      "eye",
+      "other"
+    ],
+    "sponsors": [
+      "Goldman Sachs Alternatives",
+      "Charlesbank Capital Partners"
+    ],
+    "categories": [
+      "pe"
+    ]
+  },
+  {
     "brand": "NAPA Auto Parts",
     "aliases": [
       "NAPA",
@@ -13922,7 +13969,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "localOperators": "franchise",
     "categories": [
@@ -18662,7 +18710,8 @@ export const BRAND_DIRECTORY = [
       "checked": "2026-10-26"
     },
     "matchCategories": [
-      "other"
+      "other",
+      "eye"
     ],
     "categories": [
       "corporate"
