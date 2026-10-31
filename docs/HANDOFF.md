@@ -31,6 +31,7 @@ Live prototype: https://yitz42.github.io/Local_Lens/
 | Ownership data | `data/brands.json`, `data/pe-firms.json` | Hand-researched. `npm run directory` validates them and generates the app, CSV, JSON, and Markdown files. |
 | Matching | `public/ownership.js`, `public/brand-scope.js` | Brand names match place names. Short or shared names are limited to a category (`matchCategories`) or a region (`matchBounds`) to avoid false matches. |
 | App | `public/` (plain JavaScript modules, no framework) | Runs as a static site (GitHub Pages) or with a small Worker that serves place pages (`worker/`). |
+| iOS app | `ios/` (SwiftUI) | Native iPhone and iPad app. Runs the same lookup and matching code through JavaScriptCore (`ios/core-entry.js`); see the README. |
 | Finding gaps | `scripts/find-gaps.mjs` | Scans 12 metro areas and lists chain names that are still unmatched, ranked by how many metros they appear in. Run it before each research round. |
 | Nationwide gaps | `scripts/bigquery-*.sql`, `scripts/rank-bigquery-gaps.mjs` | Free BigQuery scans of Overture's US places; the ranking script reports the share of chain locations with an ownership label (60% nationally, 50% around Baltimore, and 18.5% for regional chains in October 2026; see `scripts/bigquery-regional-chains.sql`) and lists the biggest unmatched chains and likely name variants. |
 | Tests | `tests/` (`npm test`) | About 100 tests covering matching, categories, filters, and the data files. |
