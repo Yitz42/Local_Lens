@@ -23,7 +23,7 @@ The full evidence URLs are stored per record and shown in [BRANDS.md](BRANDS.md)
 
 ## Additional public-company records
 
-Apple (Nasdaq: AAPL), CAVA (NYSE: CAVA), Sweetgreen (NYSE: SG), and Dutch Bros (NYSE: BROS) were added using current company or regulatory sources. Whole Foods retains its corporate affiliation and now records its listed operating parent, Amazon (Nasdaq: AMZN).
+Apple (Nasdaq: AAPL), CAVA (NYSE: CAVA), Sweetgreen (NYSE: SG), Dutch Bros (NYSE: BROS), and Starbucks (Nasdaq: SBUX, October 31, 2026) were added using current company or regulatory sources. Whole Foods retains its corporate affiliation and now records its listed operating parent, Amazon (Nasdaq: AMZN).
 
 ## Current listings and scope
 

@@ -26887,6 +26887,20 @@
       "source": "https://about.starbucks.com/press/2026/company-profile/",
       "sourceTitle": "Starbucks — company profile",
       "note": "Starbucks is a global corporate coffee brand. Its network includes company-operated and licensed stores; local operator ownership is not verified.",
+      "publicListing": {
+        "company": "Starbucks Corporation",
+        "relationship": "self",
+        "securityType": "equity",
+        "exchanges": [
+          {
+            "exchange": "Nasdaq",
+            "ticker": "SBUX"
+          }
+        ],
+        "source": "https://investor.starbucks.com/stock-info-and-resources/frequently-asked-questions-/default.aspx",
+        "sourceTitle": "Starbucks — investor FAQ: stock exchange and symbol",
+        "checked": "2026-10-31"
+      },
       "checked": "2026-10-25",
       "discoverySources": [
         {
