@@ -27,6 +27,10 @@ Open `/firms.html` to search firms, portfolio companies, and mapped brands. [The
 
 Run `npm run build`, then `node --use-env-proxy --use-system-ca scripts/dev.mjs`. The app is served by a self-contained Cloudflare Worker; standalone static hosting does not support the place lookup API. Geolocation requires HTTPS outside localhost. No API keys are required. Install locked build dependencies with `npm ci`. Run ownership/filter tests with `npm test`.
 
+## iOS app
+
+`ios/LocalLens.xcodeproj` is a native SwiftUI app for iPhone and iPad (iOS 18 or later) with Apple Maps, the results list, place details, filters, saved places, and the brand directory. It does not copy the matching rules into Swift: `ios/core-entry.js` bundles `worker/overture.js` and the `public/` ownership modules (`npm run ios` builds `dist/ios/local-lens-core.js`), and the app runs that bundle in JavaScriptCore, so a change to `data/brands.json`, the category rules, or the Overture release reaches the app on its next build. Swift only supplies the byte-range reads of Overture's archive. Xcode runs the bundling step on every build, so Node.js and `npm ci` are needed first; the build looks for `node` on the usual `PATH` and in `~/.local/node/bin`. `tests/ios-core.test.mjs` checks that the bundle runs without browser APIs. Open the project, choose a team under **Signing & Capabilities** to run it on a device, and press Run.
+
 ## Data
 
 Nearby places come from the October 21, 2026 Overture Maps release. Overture deletes each release's tile archive about 60 days after publishing it, so `RELEASE` in `worker/overture.js` must be moved to a newer release (listed at `https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=tiles/&delimiter=/`) before then. The Worker reads bounded byte ranges from Overture’s published global Places PMTiles archive on S3 and decodes vector tiles locally. No Overpass service, account, or maps API key is required. The archive is a dated dataset, not real-time verification of business status.
